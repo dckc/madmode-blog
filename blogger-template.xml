@@ -14,7 +14,7 @@
 /* Variable definitions 
 
   <Variable name="mainBgColor" description="Page Background Color"
-    type="color" default="#f5f5f5" value="#f5f5f5">
+    type="color" default="#f5f5f5" value="#e1d4c0">
   <Variable name="mainTextColor"  description="Text Color"
     type="color" default="#000000" value="#000000">
   <Variable name="dateHeaderColor" description="Date Header Color"
@@ -25,7 +25,7 @@
     type="color" default="#800080" value="#800080">
 
   <Variable name="sidebarBgColor" description="Sidebar Background Color"
-    type="color" default="#ffffff" value="#ffffff">
+    type="color" default="#ffffff" value="#cccccc">
   <Variable name="sidebarTextColor" description="Sidebar Text Color"
     type="color" default="#000000" value="#000000">
   <Variable name="sidebarTitleColor" description="Sidebar Title Color"
@@ -36,7 +36,7 @@
     type="color" default="#800080" value="#800080">
 
   <Variable name="bodyFont" description="Text Font"
-   type="font" default="normal normal 100% 'Trebuchet MS', verdana, sans-serif" value="normal normal 100% 'Trebuchet MS', verdana, sans-serif">
+   type="font" default="normal normal 100% 'Trebuchet MS', verdana, sans-serif" value="normal normal 108% Arial, sans-serif">
 
   <Variable name="startSide" description="Start side in blog language"
             type="automatic" default="left" value="left">
@@ -110,7 +110,6 @@ h2.date-header {
 .post { 
   padding-$startSide:20px;
   margin-bottom:20px;
-  text-indent:10px;
   padding-$endSide:20px;
   line-height:22px;
   border-top: 4px solid #5966ea;
