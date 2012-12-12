@@ -89,7 +89,7 @@ def migrate(srcfp, dest):
 
 
 def _d(s):
-    return datetime.datetime.strptime(s[:10], '%Y-%m-%d')
+    return datetime.datetime.strptime(s[:10], '%Y-%m-%d').date()
 
 
 if __name__ == '__main__':
