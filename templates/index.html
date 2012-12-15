@@ -9,27 +9,17 @@
     <img src="/static/img/wordle-med.png" alt="">
 </figure>
 
-I'm mostly a <a href="{{ url_for("section", section="code") }}">software developer</a>.@@ I
-<a href="{{ url_for("section", section="talks") }}">speak</a> at conferences,
-sometimes; not so much lately.
-
+<!-- @@TODO: blurb -->
 @@Oh, and one more thing: this blog is [entirely open source](https://github.com/n1k0/nicolas.perriault.net).
 </article>
 {% endfilter %}
 
 <section class="code">
-    <h2>Code</h2>
-    {% with pages = code_posts %}
+    <h2>Recent Items</h2>
+    {% with pages = posts %}
         {% include "_list.html" %}
     {% endwith %}
-    <p class="more">&raquo; <a href="{{ url_for("section", section="code") }}">See more Code stuff</a></p>
+    <!-- @@archives by year -->
 </section>
 
-<section class="talks">
-    <h2>Talks</h2>
-    {% with pages = talks %}
-        {% include "_list.html" %}
-    {% endwith %}
-    <p class="more">&raquo; <a href="{{ url_for("section", section="talks") }}">See more talks</a></p>
-</section>
 {% endblock contents %}
