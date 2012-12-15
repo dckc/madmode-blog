@@ -1,0 +1,11 @@
+<!-- ack: zovision Jul 2010
+http://stackoverflow.com/questions/3180779/html-tag-cloud-in-python
+-->
+
+<!-- todo? itemprop="blogPosts" and such microdata -->
+<ul class='tag-cloud'>
+{%- for tag, freq in tag_counts %}
+  <li><a href="{{ url_for("search_tag", tag=tag) }}"
+         class="freq-{{ freq }}">{{ tag }}</a></li>
+{%- endfor %}
+</ul>

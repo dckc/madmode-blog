@@ -551,3 +551,20 @@ body.greyroom article.photography aside.help kbd {
     padding-top: 5px;
   }
 }
+
+.tag-cloud {
+  display: block
+}
+.tag-cloud li {
+  display: inline
+}
+.tag-cloud li a {
+  text-decoration: none;
+}
+.tag-cloud .freq-1 { font-size: 60% }
+.tag-cloud .freq-2 { font-size: 70% }
+.tag-cloud .freq-3 { font-size: 80% }
+.tag-cloud .freq-4 { font-size: 90% }
+.tag-cloud .freq-5 { font-size: 100% }
+.tag-cloud .freq-6 { font-size: 110% }
+.tag-cloud .freq-7 { font-size: 120% }

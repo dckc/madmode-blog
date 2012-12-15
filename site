@@ -14,6 +14,7 @@ from flaskext.flatpages import FlatPages
 from flaskext.markdown import Markdown
 from flaskext.assets import Environment as AssetManager
 from PIL import Image, ImageOps
+from itertools import groupby
 from shutil import copyfile
 from unicodedata import normalize
 
@@ -40,13 +41,15 @@ asset_manager = AssetManager(app)
 ###############################################################################
 # Model helpers
 
-def get_pages(pages, offset=None, limit=None, year=None):
+def get_pages(pages, offset=None, limit=None, tag=None, year=None):
     """ Retrieves pages matching passec criterias.
     """
     articles = list(pages)
     # filter unpublished article
     if not app.debug:
         articles = [p for p in articles if p.meta.get('published') is True]
+    if tag:
+        articles = [p for p in articles if tag in p.meta.get('tags', ())]
     # filter year
     if year:
         articles = [p for p in articles if p.meta.get('date').year == year]
@@ -68,6 +71,14 @@ def get_pages(pages, offset=None, limit=None, year=None):
         return articles[offset:]
     else:
         return articles
+
+
+def tag_counts(pages):
+    all_tags = [tag for pg in pages
+                for tag in pg.meta.get('tags', ())]
+    count_tags = [(tag, len(list(tag_group)))
+                   for tag, tag_group in groupby(sorted(all_tags))]
+    return sorted(count_tags, key=lambda x: x[0].lower())
 
 
 def get_years(pages):
@@ -154,7 +165,8 @@ def sitemap():
 @app.route('/')
 def index():
     return render_template('index.html',
-        posts=get_pages(pages, limit=10))
+                           posts=get_pages(pages, limit=10),
+                           tag_counts=tag_counts(pages))
 
 
 @app.route('/<path:path>.html')
@@ -165,6 +177,13 @@ def page(path):
         abort(404)
     template = page.meta.get('template', 'code/page.html')
     return render_template(template, page=page)
+
+
+@app.route('/search/label/<string:tag>')
+def search_tag(tag):
+    template = 'code/archives.html'
+    articles = get_pages(pages, tag=tag)
+    return render_template(template, pages=articles, tag=tag)
 
 
 @app.route('/<int:year>/')
