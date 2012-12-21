@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-        <title>{% block title %}Nicolas Perriault{% endblock %}</title>
+        <title>{% block title %}MadMode{% endblock %}</title>
         <link>{{ BASE_URL }}</link>
-        <description>{% block description %}Nicolas Perriault's personal website.{% endblock %}</description>
+        <description>{% block description %}Dan Connolly's tinkering notebook{% endblock %}</description>
         <language>{% block lang %}en-us{% endblock %}</language>
         <pubDate>{{ build_date|to_rfc2822 }}</pubDate>
         <lastBuildDate>{{ build_date|to_rfc2822 }}</lastBuildDate>
@@ -14,7 +14,7 @@
             <link>{{ BASE_URL }}/{{ page.path }}/</link>
             <description>
                 {%- if page.type == "photo" -%}
-                    &lt;p&gt;&lt;img src=&quot;/static/{{ page.path }}/main.jpg&quot; alt=&quote;{{ page.title|escape }} by Nicolas Perriault&quot;&gt;&lt;/p&gt;
+                    &lt;p&gt;&lt;img src=&quot;/static/{{ page.path }}/main.jpg&quot; alt=&quote;{{ page.title|escape }} by Dan Connolly&quot;&gt;&lt;/p&gt;
                     {%- if page.summary|trim -%}
                         &lt;p&gt;{{ page.summary|trim|escape }}&lt;/p&gt;
                     {%- endif -%}

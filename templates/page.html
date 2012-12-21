@@ -22,7 +22,7 @@
         </ul>
         <figure class="photo">
             <a href="/static/{{ page.path }}/main.jpg" title="{{ page.title }} — Click the picture to view it large" class="view">
-                <img src="/static/{{ page.path }}/main.jpg" alt="{{ page.title }} by Nicolas Perriault" data-fullsrc="/static/{{ page.path }}/original.jpg"/></a>
+                <img src="/static/{{ page.path }}/main.jpg" alt="{{ page.title }} by Dan Connolly" data-fullsrc="/static/{{ page.path }}/original.jpg"/></a>
             <figcaption>
             {%- if page.summary|trim %}
                 {{- page.summary|trim }}
@@ -41,7 +41,7 @@
     <aside>
         <p>
             <span class="article-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span itemprop="name">Nicolas Perriault</span> —
+                <span itemprop="name">Dan Connolly</span> —
             </span>
             <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date }}</time>
             {% if section %}— in <a href="{{ url_for("section", section=section) }}" itemprop="genre">{{ section|capitalize }}</a>{% endif %}
