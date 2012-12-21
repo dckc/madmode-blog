@@ -63,8 +63,9 @@ figure {
   padding: 0;
 }
 figure figcaption {
+  margin: -10px 0 0 0;
   font-size: 14px;
-  text-align: left;
+  text-align: center;
   font-style: italic;
 }
 h1,

@@ -180,10 +180,14 @@ def sitemap():
 
 @app.route('/')
 def index():
+    articles = pages
+    if not app.debug:
+        articles = [p for p in articles if p.meta.get('published') is True]
+
     return render_template('index.html',
-                           posts=get_pages(pages, limit=10),
-                           years=get_years(get_pages(pages)),
-                           tag_counts=tag_counts(pages))
+                           posts=get_pages(pages, limit=5),
+                           years=get_years(get_pages(articles)),
+                           tag_counts=tag_counts(articles))
 
 
 @app.route('/<path:path>.html')
