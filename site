@@ -200,7 +200,7 @@ def page(path):
     return render_template(template, page=page)
 
 
-@app.route('/search/label/<string:tag>')
+@app.route('/search/label/<string:tag>.html')
 def search_tag(tag):
     template = 'archives.html'
     articles = get_pages(pages, tag=tag)
