@@ -9,14 +9,18 @@
 
 {% if years|length %}
     <p>
-        &laquo; Back to <a href="{{ url_for("section", section="code") }}">Code</a>
+        &laquo; Back to <a href="{{ url_for("index") }}">MadMode</a>
         | Browse the archives
         {%- with current_year = year -%}
             {%- for year in years -%}
             {%- if current_year == year %}
-                | <strong>{{ year }}</strong>
+              {%- for month in months -%}
+              | <a href="{{ url_for("archives_year_month",
+                                    year=year, month=month) }}"
+  		   >{{ '%04d-%02d' % (year, month) }}</a>
+            {%- endfor -%}
             {%- else %}
-                | <a href="{{ url_for("section_archives_year", section="code", year=year) }}">{{ year }}</a>
+                | <a href="{{ url_for("archives_year", year=year) }}">{{ year }}</a>
             {%- endif -%}
         {%- endfor -%}
         {%- endwith -%}

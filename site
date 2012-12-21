@@ -41,7 +41,7 @@ asset_manager = AssetManager(app)
 ###############################################################################
 # Model helpers
 
-def get_pages(pages, offset=None, limit=None, tag=None, year=None):
+def get_pages(pages, offset=None, limit=None, tag=None, year=None, month=None):
     """ Retrieves pages matching passec criterias.
     """
     articles = list(pages)
@@ -50,9 +50,11 @@ def get_pages(pages, offset=None, limit=None, tag=None, year=None):
         articles = [p for p in articles if p.meta.get('published') is True]
     if tag:
         articles = [p for p in articles if tag in p.meta.get('tags', ())]
-    # filter year
+    # filter year, month
     if year:
         articles = [p for p in articles if p.meta.get('date').year == year]
+    if month:
+        articles = [p for p in articles if p.meta.get('date').month == month]
     # sort by date
     articles = sorted(articles, reverse=True, key=lambda p: p.meta.get('date',
         date.today()))
@@ -140,6 +142,20 @@ def inject_ga():
 
 
 ###############################################################################
+# url_map converters
+
+from werkzeug.routing import BaseConverter
+
+class MonthConverter(BaseConverter):
+    def to_python(self, numeral):
+        return int(numeral)
+
+    def to_url(self, n):
+        return '%02d' % n
+
+app.url_map.converters['month'] = MonthConverter
+
+###############################################################################
 # Routes
 
 @app.route('/contact/')
@@ -166,6 +182,7 @@ def sitemap():
 def index():
     return render_template('index.html',
                            posts=get_pages(pages, limit=10),
+                           years=get_years(get_pages(pages)),
                            tag_counts=tag_counts(pages))
 
 
@@ -181,16 +198,26 @@ def page(path):
 
 @app.route('/search/label/<string:tag>')
 def search_tag(tag):
-    template = 'code/archives.html'
+    template = 'archives.html'
     articles = get_pages(pages, tag=tag)
     return render_template(template, pages=articles, tag=tag)
 
 
 @app.route('/<int:year>/')
-def archives_year(section, year):
-    template = 'code/archives.html'
+def archives_year(year):
+    template = 'archives.html'
     years = get_years(get_pages(pages))
     articles = get_pages(pages, year=year)
+    months = sorted(set([p.meta.get('date').month for p in articles]))
+    return render_template(template, pages=articles,
+                           years=years, months=reversed(months), year=year)
+
+
+@app.route('/<int:year>_<month:month>_01_archive.html')
+def archives_year_month(year, month):
+    template = 'archives.html'
+    years = get_years(get_pages(pages))
+    articles = get_pages(pages, year=year, month=month)
     return render_template(template, pages=articles, years=years, year=year)
 
 

@@ -26,4 +26,9 @@
   {% include "cloud.html" %}
 </section>
 
+<section><h2>Browse the archives</h2>
+  {% for year in years  %}
+  | <a href="{{ url_for("archives_year", year=year) }}">{{ year }}</a>
+  {% endfor %}
+</p>
 {% endblock contents %}
