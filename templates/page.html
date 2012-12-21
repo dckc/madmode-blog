@@ -47,6 +47,11 @@
             {% if section %}— in <a href="{{ url_for("section", section=section) }}" itemprop="genre">{{ section|capitalize }}</a>{% endif %}
             — <a href="{{ url_for("page", path=page.path) }}">Permalink</a>
             — <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">License</a>.
+	    <br />
+	    {% for tag in page.tags %}
+	    | <a class='tag' rel='tag'
+		 href="{{ url_for('search_tag', tag=tag) }}">{{ tag }}</a>
+   	    {% endfor %}
         </p>
     </aside>
     <hr>

@@ -260,6 +260,10 @@ q:before, q:after {
 .contents ul.item-list li h3 time {
   font-weight: normal;
 }
+.contents .tag {
+  font-weight: normal;
+  font-size: smaller;
+}
 .contents ul.item-list li img {
   max-width: 100%;
 }
