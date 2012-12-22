@@ -200,7 +200,7 @@ def page(path):
     return render_template(template, page=page)
 
 
-@app.route('/search/label/<string:tag>.html')
+@app.route('/search/label/<string:tag>/')
 def search_tag(tag):
     template = 'archives.html'
     articles = get_pages(pages, tag=tag)
@@ -270,17 +270,15 @@ def deploy():
 
 
 @command
-def post(section, title=None, filename=None):
+def post(title=None, filename=None):
     """ Create a new empty post.
     """
-    if not os.path.exists(os.path.join(FLATPAGES_ROOT, section)):
-        raise CommandError(u"Section '%s' does not exist" % section)
     post_date = datetime.today()
     title = unicode(title) if title else "Untitled Post"
     if not filename:
         filename = u"%s.md" % slugify(title)
     year = post_date.year
-    pathargs = [section, str(year), filename, ]
+    pathargs = [str(year), filename, ]
     filepath = os.path.join(os.path.abspath(os.path.dirname(__file__)),
         FLATPAGES_ROOT, '/'.join(pathargs))
     if os.path.exists(filepath):
