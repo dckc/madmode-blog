@@ -2,6 +2,9 @@ title: MadMode goes from fried to baked with Frozen-Flask
 date: 2012-12-21
 published: true
 tags: ['publishing', 'collaboration', 'programming', 'python']
+summary: 'A couple years ago, I started using blogger because I
+          wanted immersive hypermedia editing, and I wanted it for free.
+          Well, you get what you pay for.'
 
 A couple years ago, I [started using blogger][bt10] because I wanted
 immersive hypermedia editing, and I wanted it for free. Well, you get
@@ -54,9 +57,9 @@ but that version wasn't in my apt sources and I wasn't in the mood to
 build from source, so I punted.
 
 Finally I found a [flask-based static blog generator][fgen] by
-[Nicolas Perriault][n1k0]. For building web apps at work, I invested
-in [pyramid][] over flask because flask seemed to rely on globals,
-but for a front-side-of-one-page tool, I'm fine with it:
+[Nicolas Perriault][n1k0]. For building web apps at work, I picked
+[pyramid][] over flask because flask seemed to rely on globals,
+but for a front-side-of-one-page tool, I'm fine with it.
 
 [pyramid]: http://pypi.python.org/pypi/pyramid
 
@@ -82,6 +85,9 @@ replaced them with tags without much trouble:
         return render_template(template, pages=articles, tag=tag)
 
 
+I'm still working out the details of publishing the source, but here's
+the change log, lightly edited:
+
   - migrated published madmode items from blogger  
     `990356e3476f 42: +1291/-0`
   - Merge flask work  
@@ -101,22 +107,16 @@ replaced them with tags without much trouble:
     `1b24ba141732 4: +16/-3`
   - polish up madmode homepage: copy, title, acks; archive links  
     `598ef5591769 5: +71/-33`
-  - browse archives by year or by year-month  
+  - browse archives by year or by year-month _to match blogger urls_  
     `89069d50ddf0 3: +45/-9`
   - add tag cloud  
     `e65884962fa8 4: +53/-2`
   - toward section-less site: home page renders  
     `536f1692c20c 4: +16/-67`
-  - rebrand README.md for MadMode  
-    `53523d717b23 1: +14/-14`
-  - remove photography by Nicolas  
-    `8b8e16b98671 115: +1/-1`
   - migrate_blogger.py seems to mostly work  
     `5a65ceeb9661 1: +76/-2`
   - migrate_blogger.py can iterate through posts  
     `7c075b5ffefc 1: +22/-0`
-  - migrate advogato backup to markdown  
-    `88284590b64b 1: +45/-0`
   - re-brand for MadMode, 1st draft  
     `874bc9b83067 6: +16/-48`
   - prune pages by Nicolas  
@@ -124,14 +124,16 @@ replaced them with tags without much trouble:
 
 [sitemap]: https://bitbucket.org/DanC/palmagent/src/56501d8a2347754ff0240bcac8a6d41b9d7a9d0a/sitemap.py?at=default
 
-### wish list:
+I'm releasing it now before analysis paralysis sets in again, but
+there are still a few things to clean up and there are, of course, a
+number of features on my wish list:
 
- - side-by-side preview, a la trac wysiwyg or AaronSw's jotter
- - twitter track-back, disquss comments?
- - collect my tweets into weekly items, a la Tim Bray and Norm Walsh
- - diigo integration?
- - recent commits
+ - side-by-side preview editing, a la trac wysiwyg or AaronSw's jotter
+ - comments? twitter track-back, disquss comments
+ - recent diigo bookmarks, highlights
+ - recent commits from github/bitbucket
+ - collect my tweets etc. into weekly items, a la Tim Bray and Norm Walsh
  - jsmath
- - goodied from [pelican][]
+ - goodies from [pelican][]
 
 [pelican]: http://docs.getpelican.com/en/3.1.1/
