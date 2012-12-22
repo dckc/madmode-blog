@@ -35,7 +35,9 @@ html[xmlns] .clearfix {
   text-align: right;
 }
 body {
-  background-color: #fff;
+ /* Pure white is too stark; plus, my site should look a *little*
+    different from Nicolas's. */
+  background-color: #d8e5ee;
   width: 960px;
   margin: 0 auto;
   padding: 40px 20px 0;
