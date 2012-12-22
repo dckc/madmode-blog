@@ -22,7 +22,7 @@ Fry][as02].
 The promise of immersive hypermedia editing didn't quite pan out. Yes,
 blogger lets you drop in images and videos. But I'm still all knotted
 up about media management. I tried to ignore the fact that paragraphs
-are separated by <br/> tags, but not all the problems are
+are separated by `<br/>` tags, but not all the problems are
 invisible. It lets you copy-and-paste chunks of hypertext; but it
 tries to preserve not just the structure but the formatting too, and
 the result is a mess.
@@ -128,7 +128,7 @@ I'm releasing it now before analysis paralysis sets in again, but
 there are still a few things to clean up and there are, of course, a
 number of features on my wish list:
 
- - side-by-side preview editing, a la trac wysiwyg or AaronSw's jotter
+ - side-by-side preview editing, a la trac wysiwyg or AaronSw's [jottit][]
  - comments? twitter track-back, disquss comments
  - recent diigo bookmarks, highlights
  - recent commits from github/bitbucket
@@ -136,4 +136,5 @@ number of features on my wish list:
  - jsmath
  - goodies from [pelican][]
 
+[jottit]: https://www.jottit.com/
 [pelican]: http://docs.getpelican.com/en/3.1.1/
