@@ -59,6 +59,8 @@ def get_pages(pages, offset=None, limit=None, tag=None, year=None, month=None):
     articles = sorted(articles, reverse=True, key=lambda p: p.meta.get('date',
         date.today()))
     # assign prev/next page in serie
+    articles = sorted(articles, key=lambda p: p.meta.get('date'))
+    articles = list(reversed(articles))
     for i, article in enumerate(articles):
         if i != 0:
             article.prev = articles[i - 1]
