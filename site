@@ -251,11 +251,11 @@ def page_not_found(error):
 # Commands
 
 @command
-def build():
+def build(debug=DEBUG):
     """ Builds this site.
     """
     print("Building website...")
-    app.debug = False
+    app.debug = debug
     asset_manager.config['ASSETS_DEBUG'] = False
     freezer.freeze()
     local("cp ./static/*.ico ./build/")
