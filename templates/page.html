@@ -1,5 +1,5 @@
-<article lang="{{ page.lang or "en" }}" class="{{ page.section }}" itemscope itemtype="http://schema.org/{{ item_type or "BlogPosting" }}">
-    <link itemprop="url" href="{{ url_for("page", path=page.path) }}">
+<article lang="{{ page.lang or "en" }}" class="{{ page.section }}" itemscope="itemscope" itemtype="http://schema.org/{{ item_type or "BlogPosting" }}">
+    <link itemprop="url" href="{{ url_for("page", path=page.path) }}" />
     <header>
         <h2><a itemprop="name" href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a></h2>
     {%- if page.subtitle -%}
@@ -40,7 +40,7 @@
     </section>
     <aside>
         <p>
-            <span class="article-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="article-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
                 <span itemprop="name">Dan Connolly</span> —
             </span>
             <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date }}</time>
@@ -54,7 +54,7 @@
    	    {% endfor %}
         </p>
     </aside>
-    <hr>
+    <hr />
     <nav>
         {% if page.prev -%}
             <a class="prev" href="{{ url_for("page", path=page.prev.path) }}">{{ page.prev.title }}</a>
