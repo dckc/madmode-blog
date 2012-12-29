@@ -42,11 +42,27 @@ def decode(tape, dest):
     freqs, wave_ix = waves(signal, framerate)
     threshold = 1400  # experimental; cf. (CoCo.rate0 + CoCo.rate1) / 2
     bits = (freqs > threshold) + 0
+    dest.write(get_block(bits))  # TODO: more blocks
 
-    b8 = binary(bits[find_sync(bits):])
-    import pdb; pdb.set_trace()
 
-    return b8
+def get_block(bits, end_block=0x55):
+    offset = find_sync(bits)
+    block_type, offset = next_byte(bits, offset)
+    block_length, offset = next_byte(bits, offset)
+    log.info('block type: %d length: %d', block_type, block_length)
+
+    data, offset = next_bytes(bits, offset, block_length)
+    log.debug('len(data): %s', len(data))
+    checksum, offset = next_byte(bits, offset)
+    sync, offset = next_byte(bits, offset)
+
+    if checksum != (sum(data) + block_type + block_length) % 0x100:
+        raise ValueError(checksum)
+
+    if sync != end_block:
+        raise ValueError(sync)
+
+    return data
 
 
 def find_sync(bits, qty=96, sync=0x3C):
@@ -132,7 +148,20 @@ def binary(bits, width=8):
     '''
     bitn = [bits[i::width] for i in range(0, width)]
     nbyte = min(map(len, bitn))
-    return sum([bitn[i][:nbyte] * (1 << i) for i in range(0, width)])
+    values = sum([bitn[i][:nbyte] * (1 << i) for i in range(0, width)])
+    return values.astype(numpy.int8)
+
+
+def next_byte(bits, offset):
+    o8 = offset + 8
+    b = binary(bits[offset:o8])[0]
+    return b, o8
+
+
+def next_bytes(bits, offset, count):
+    oend = offset + 8 * count
+    b = binary(bits[offset:oend])
+    return b, oend
 
 
 def wavLoadMono(wav):
