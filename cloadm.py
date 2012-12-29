@@ -1,6 +1,12 @@
 '''cloadm -- emulate coco CLOADM command
 
-ref: The FACTS pg. 10
+  G. Cassette Interface - Cassette data is stored onto the tape
+  using a format called Frequency Shift Keying (FSK). This means that
+  two sine waves of differing frequency are used to zeroes and ones
+  on the tape. A sine wave of 2400 hz is used to store a one, and a
+  sine wave of 1200 Hertz is used to store a zero.
+
+  -- The FACTS, pg. 10
 
 '''
 
@@ -28,8 +34,6 @@ def main(argv=None, level=logging.DEBUG):
 
 
 class CoCo(object):
-    '''A sine wave of 2400 hz is used to store a one,
-    and a site wave of 1200 Hertz is used to store a zero.'''
     rate0 = 1200
     rate1 = 2400
     CMPMID = 18  # 1200/2400 HERTZ PARTITON per The Facts p.g A 3
@@ -116,7 +120,7 @@ def initial_segment(bits, lo, qty):
 def waves(signal, framerate, amp_max=128):
     signal = signal * amp_max / max(signal)
     z = zero_crossings(signal)
-    assert((numpy.sign(signal[z[::2]]) == numpy.sign(z[0])).all())
+    #@@assert((numpy.sign(signal[z[::2]]) == numpy.sign(z[0])).all())
     z = z[:-(len(z) % 2 + 1)]  # odd # crossings gives even # half waves
     hw = numpy.diff(z)
     h0 = hw[::2]
@@ -144,7 +148,8 @@ def zero_crossings(signal):
     >>> zero_crossings(a)
     array([1, 4, 6])
     '''
-    return numpy.where(numpy.diff(numpy.sign(signal) > 0))[0]
+    #return numpy.where(numpy.diff(numpy.sign(signal) > 0))[0]
+    return numpy.where(numpy.diff(numpy.sign(signal)))[0]
 
 
 def binary(bits, width=8):
