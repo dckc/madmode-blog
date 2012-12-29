@@ -42,27 +42,39 @@ def decode(tape, dest):
     freqs, wave_ix = waves(signal, framerate)
     threshold = 1400  # experimental; cf. (CoCo.rate0 + CoCo.rate1) / 2
     bits = (freqs > threshold) + 0
-    dest.write(get_block(bits))  # TODO: more blocks
+
+    namefile_block, offset = get_block(bits, leader=True)
+    bits = bits[offset:]
+    dest.write(namefile_block)
+
+    block, offset = get_block(bits, leader=True)
+    while len(block) > 0:
+        dest.write(block)
+        bits = bits[offset:]
+        block, offset = get_block(bits, leader=False)
 
 
-def get_block(bits, end_block=0x55):
-    offset = find_sync(bits)
+def get_block(bits, leader, sync_byte=0x3C, pattern=0x55):
+    if leader:
+        offset = find_sync(bits)
+    else:
+        _, offset = next_byte(bits, 0, expected=pattern,
+                              label='block start')
+        _, offset = next_byte(bits, offset, expected=sync_byte,
+                              label='block start')
+
     block_type, offset = next_byte(bits, offset)
     block_length, offset = next_byte(bits, offset)
     log.info('block type: %d length: %d', block_type, block_length)
+    if block_type not in (0x00, 0x01, 0xFF):
+        raise ValueError(block_type)
 
     data, offset = next_bytes(bits, offset, block_length)
-    log.debug('len(data): %s', len(data))
-    checksum, offset = next_byte(bits, offset)
-    sync, offset = next_byte(bits, offset)
+    check = (sum(data) + block_type + block_length) & 0xFF
+    checksum, offset = next_byte(bits, offset, expected=check, label='check')
+    sync, offset = next_byte(bits, offset, expected=pattern, label='block end')
 
-    if checksum != (sum(data) + block_type + block_length) % 0x100:
-        raise ValueError(checksum)
-
-    if sync != end_block:
-        raise ValueError(sync)
-
-    return data
+    return data, offset
 
 
 def find_sync(bits, qty=96, sync=0x3C):
@@ -80,7 +92,7 @@ def find_sync(bits, qty=96, sync=0x3C):
         lo = hi
 
     while hi + 8 <= eof:
-        if binary(bits[hi:hi + 8]) == sync:
+        if binary(bits[hi:hi + 8])[0] == sync:
             return hi + 8
         hi += 1
 
@@ -149,12 +161,17 @@ def binary(bits, width=8):
     bitn = [bits[i::width] for i in range(0, width)]
     nbyte = min(map(len, bitn))
     values = sum([bitn[i][:nbyte] * (1 << i) for i in range(0, width)])
-    return values.astype(numpy.int8)
+    return values.astype(numpy.uint8)
 
 
-def next_byte(bits, offset):
+def next_byte(bits, offset, expected=None, label=None):
     o8 = offset + 8
     b = binary(bits[offset:o8])[0]
+
+    if expected and b != expected:
+        log.warn('expected %s $%x does not match found $%x',
+                 label, expected, b)
+
     return b, o8
 
 
