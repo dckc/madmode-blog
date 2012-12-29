@@ -40,7 +40,7 @@ class CoCo(object):
 def decode(tape, dest):
     framerate, signal = wavLoadMono(tape)
     freqs, wave_ix = waves(signal, framerate)
-    threshold = 1500  # experimental; cf. (CoCo.rate0 + CoCo.rate1) / 2
+    threshold = 1400  # experimental; cf. (CoCo.rate0 + CoCo.rate1) / 2
     bits = (freqs > threshold) + 0
 
     b8 = binary(bits[find_sync(bits):])
@@ -88,6 +88,7 @@ def initial_segment(bits, lo, qty):
 def waves(signal, framerate, amp_max=128):
     signal = signal * amp_max / max(signal)
     z = zero_crossings(signal)
+    assert((numpy.sign(signal[z[::2]]) == numpy.sign(z[0])).all())
     z = z[:-(len(z) % 2 + 1)]  # odd # crossings gives even # half waves
     hw = numpy.diff(z)
     h0 = hw[::2]
@@ -108,8 +109,14 @@ def zero_crossings(signal):
     >>> a = [1, 2, 1, 1, -3, -4, 7, 8, 9, 10, -2, 1, -3, 5, 6, 7, -10]
     >>> zero_crossings(a)
     array([ 3,  5,  9, 10, 11, 12, 15])
+
+    Watch out for zero:
+
+    >>> a = [2, 1, 0, -1, -2, 1, 4, -4]
+    >>> zero_crossings(a)
+    array([1, 4, 6])
     '''
-    return numpy.where(numpy.diff(numpy.sign(signal)))[0]
+    return numpy.where(numpy.diff(numpy.sign(signal) > 0))[0]
 
 
 def binary(bits, width=8):
