@@ -628,7 +628,7 @@ LA792  BNE    LA782     NO
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><em>Aside</em>: I haven't found <em>The FACTS</em> online, but the disassemblies
 are also available in <a href="https://sites.google.com/a/aaronwolfe.com/cococoding/home/docs/color-basic-unravelled.pdf?attredirects=0&amp;d=1">Color Basic Unravelled</a>, also
-by Spectral Associates, digitally restored by <a href="https://sites.google.com/a/aaronwolfe.com/">Aaron Wolfe</a>.</p>
+by Spectral Associates, digitally restored by <a href="https://sites.google.com/a/aaronwolfe.com/cococoding/home/docs">Aaron Wolfe</a>.</p>
 <p>I finally found the bug by</p>
 <ul>
 <li>focussing on an even smaller section of the signal,</li>
