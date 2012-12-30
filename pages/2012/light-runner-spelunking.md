@@ -1,5 +1,6 @@
 tags: ['coco', 'python', 'digial media', 'signal processing']
 date: 2012-12-30
+published: true
 title: '"Light Runner", an exercise in digital preservation'
 summary: In my teens, I wrote a Tron work-alike called Light Runner
          in assembly for the Color Computer; I even got Prickly Pear
