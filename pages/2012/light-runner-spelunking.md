@@ -87,11 +87,11 @@ to working order, but I had some fun trying.</p>
 <p>The analog-to-digital-signal bit was only complicated by the fact that
 the cassette player couldn't be connected to my desktop:</p>
 <ol>
-<li>put the cassette in the boombox</li>
-<li>hook the boombox to the netbook</li>
-<li>use "Sound Recorder" to make <code>lr.wma</code></li>
-<li>move <code>lr.wma</code> to my desktop via a thumb drive</li>
-<li>use Audacity to chop off the dead air and save in <code>.wav</code> format</li>
+<li>Put the cassette in the boombox.</li>
+<li>Hook the boombox to the netbook.</li>
+<li>Use "Sound Recorder" to make <code>lr.wma</code>.</li>
+<li>Move <code>lr.wma</code> to my desktop via a thumb drive.</li>
+<li>Use Audacity to chop off the dead air and save in <code>.wav</code> format.</li>
 </ol>
 <figure>
   <img src='https://lh5.googleusercontent.com/-fOsav6xJGIs/UN9dyRBVMLI/AAAAAAAAAkc/FYLZAAs8Tec/s494/audacity-light-runner.png' />
@@ -100,7 +100,7 @@ the cassette player couldn't be connected to my desktop:</p>
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Processing the digital signal</strong> involved a steep learning curve. As
-explained on pg. 10 of The FACTS:</p>
+explained on pg. 10 of <em>The FACTS</em>:</p>
 <blockquote>
 <p>G. Cassette Interface - Cassette data is stored onto the tape
  using a format called Frequency Shift Keying (FSK). This means that
@@ -627,7 +627,7 @@ LA792  BNE    LA782     NO
 
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><em>Aside</em>: I haven't found <em>The FACTS</em> online, but the disassemblies
-are also available in <a href="https://sites.google.com/a/aaronwolfe.com/cococoding/home/docs/color-basic-unravelled.pdf?attredirects=0&amp;d=1">Color-Basic-Unravelled.pdf</a>, also
+are also available in <a href="https://sites.google.com/a/aaronwolfe.com/cococoding/home/docs/color-basic-unravelled.pdf?attredirects=0&amp;d=1">Color Basic Unravelled</a>, also
 by Spectral Associates, digitally restored by <a href="https://sites.google.com/a/aaronwolfe.com/">Aaron Wolfe</a>.</p>
 <p>I finally found the bug by</p>
 <ul>
