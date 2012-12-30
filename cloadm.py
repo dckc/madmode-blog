@@ -13,7 +13,6 @@
 __author__ = 'Dan Connolly'
 __contact__ = 'http://www.madmode.com/'
 
-import struct
 import logging
 import wave
 
@@ -41,9 +40,14 @@ class CoCo(object):
     CMP1 = 10  # UPPER LIMIT OF 2400 HERTZ PERIOD per The Facts p.g A 3
 
 
-def decode(tape, dest):
+def decode(tape, dest, amp_max=128):
     framerate, signal = wavLoadMono(tape)
-    freqs, wave_ix = waves(signal, framerate)
+
+    # Reduce resolution to 8 bit a la CoCo DAC
+    signal = signal * amp_max / max(signal)
+
+    z = zero_crossings(signal)
+    freqs, wave_ix = waves(z, framerate)
     threshold = 1400  # experimental; cf. (CoCo.rate0 + CoCo.rate1) / 2
     bits = (freqs > threshold) + 0
 
@@ -78,7 +82,7 @@ def get_block(bits, leader, sync_byte=0x3C, pattern=0x55):
     checksum, offset = next_byte(bits, offset, expected=check, label='check')
     sync, offset = next_byte(bits, offset, expected=pattern, label='block end')
 
-    return data, offset
+    return data.tostring(), offset
 
 
 def find_sync(bits, qty=96, sync=0x3C):
@@ -117,10 +121,7 @@ def initial_segment(bits, lo, qty):
         hi += 2
 
 
-def waves(signal, framerate, amp_max=128):
-    signal = signal * amp_max / max(signal)
-    z = zero_crossings(signal)
-    #@@assert((numpy.sign(signal[z[::2]]) == numpy.sign(z[0])).all())
+def waves(z, framerate):
     z = z[:-(len(z) % 2 + 1)]  # odd # crossings gives even # half waves
     hw = numpy.diff(z)
     h0 = hw[::2]
@@ -128,7 +129,6 @@ def waves(signal, framerate, amp_max=128):
     periods = h0 + h1
 
     freqs = framerate * 1.0 / periods  # in hz
-    #@@ filter_ix = numpy.where(freqs < max_freq)
     wave_sample = z[:len(freqs) * 2:2]
     return freqs, wave_sample
 
@@ -148,8 +148,9 @@ def zero_crossings(signal):
     >>> zero_crossings(a)
     array([1, 4, 6])
     '''
-    #return numpy.where(numpy.diff(numpy.sign(signal) > 0))[0]
-    return numpy.where(numpy.diff(numpy.sign(signal)))[0]
+    z = numpy.where(numpy.diff(numpy.sign(signal) > 0))[0]
+    assert((numpy.sign(signal[z[::2]]) == numpy.sign(z[0])).all())
+    return z
 
 
 def binary(bits, width=8):
@@ -197,8 +198,7 @@ def wavLoadMono(wav):
     if comptype != 'NONE':
         raise ValueError(comptype)
     frames = wav.readframes(nframes)
-    out = struct.unpack_from("%dh" % nframes, frames)
-    return framerate, numpy.array(out)
+    return framerate, numpy.frombuffer(frames, 'h').astype(numpy.int)
 
 
 if __name__ == '__main__':
