@@ -1,6 +1,6 @@
 date: 2012-01-22
 published: true
-tags: []
+tags: ['coco', 'programming']
 title: Remembering OS-9 on the CoCo
 updated: 2012-02-13
 
