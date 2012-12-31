@@ -26,20 +26,19 @@ Copyright (c) 1994 HaL Computer Systems, Inc.
 
 OLIAS was state-of-the-art for electronic publishing, at the time:
 
-> <pre>
-> Newsgroups: comp.text.sgml
-> Date: 26 Sep 1994 19:15:08 UT
-> From: John Eadie \&lt;jme@c-art.com&gt;
-> Organization: Computing Art Inc
-> Message-ID: &lt;182@c-art-w.wimsey.bc.ca&gt;
-> References: &lt;1994Sep21.011746.14931@rat.csc.calpoly.edu&gt;
-> Subject: Re: SGML Viewers and Formatters
+> Newsgroups: comp.text.sgml  
+> Date: 26 Sep 1994 19:15:08 UT  
+> From: John Eadie <jme@c-art.com>  
+> Organization: Computing Art Inc  
+> Message-ID: <182@c-art-w.wimsey.bc.ca>  
+> References: <1994Sep21.011746.14931@rat.csc.calpoly.edu>  
+> Subject: Re: SGML Viewers and Formatters  
 > 
 > [Mr. Raytrace]
 > 
-> |   I am looking for an SGML viewer that supports hypertext links and that
-> |   takes care of formatting the documents.  We are hoping to publish SGML
-> |   documents on a CD-ROM, using a Windows based viewer.
+> >   I am looking for an SGML viewer that supports hypertext links and that
+> >   takes care of formatting the documents.  We are hoping to publish SGML
+> >   documents on a CD-ROM, using a Windows based viewer.
 >
 > .. several viewers described ..
 >
@@ -59,10 +58,10 @@ OLIAS was state-of-the-art for electronic publishing, at the time:
 > Ps: OLIAS Version1.1 features architectural forms dtd-to-dtd conversion, an
 > incorporated parser, a more complete web-browser, etc, etc.
 > 
-> --
-> John Eadie  _COMPUTING ART Inc_
->   klee wyck Cottage, 120 Keith Road, West Vancouver BC  V7T 1L3
->    # jme@c-art.com #  416.287.6811 -or- 604.922.5104  Fax 604.922.5194
+> --  
+> John Eadie  _COMPUTING ART Inc_  
+>   klee wyck Cottage, 120 Keith Road, West Vancouver BC  V7T 1L3  
+>    # jme@c-art.com #  416.287.6811 -or- 604.922.5104  Fax 604.922.5194  
 > 
 > `The monks who did not buy printing presses are now making wine.  In the
 years ahead, some of us will make the same choice'  Steven Cherry, ELSEVIER
