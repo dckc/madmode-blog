@@ -113,29 +113,6 @@ The clincher was a StackOverflow clue on <a href="http://stackoverflow.com/a/384
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
-<div class="input_area box-flex1">
-<div class="highlight"><pre><span class="o">%</span><span class="k">pylab</span> <span class="n">inline</span>
-</pre></div>
-
-</div>
-</div>
-<div class="vbox output_wrapper">
-<div class="output vbox">
-<div class="hbox output_area">
-<div class="prompt output_prompt"></div>
-<div class="output_subarea output_stream output_stdout">
-<pre>
-Welcome to pylab, a matplotlib-based Python environment [backend: module://IPython.zmq.pylab.backend_inline].
-For more information, type &apos;help(pylab)&apos;.
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="k">def</span> <span class="nf">zero_crossings</span><span class="p">(</span><span class="n">signal</span><span class="p">):</span>
@@ -157,11 +134,48 @@ For more information, type &apos;help(pylab)&apos;.
 </div>
 </div>
 </div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2>Aside/Colophon</h2>
+<p>I'm trying out <a href="http://ipython.org/">IPython</a> as an authoring tool.
+I'm fond of the interactive notebook idea.
+The 0.12 version that comes with Ubuntu didn't support
+inline plotting, and cell selection was glitchy.
+But I'm using 0.14dev, and while it doesn't quite feel as
+mature as RStudio, it's getting pretty close.</p>
+
+<p>See <a href="cocogetblk/coco.ipynb">coco.ipynb</a> notebook source.</p>
+</div>
+
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="o">%</span><span class="k">pylab</span> <span class="n">inline</span>
+</pre></div>
+
+</div>
+</div>
+<div class="vbox output_wrapper">
+<div class="output vbox">
+<div class="hbox output_area">
+<div class="prompt output_prompt"></div>
+<div class="output_subarea output_stream output_stdout">
+<pre>
+Welcome to pylab, a matplotlib-based Python environment [backend: module://IPython.zmq.pylab.backend_inline].
+For more information, type &apos;help(pylab)&apos;.
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Making a numpy array out of a <code>.wav</code> file is a piece of cake.
 Scaling the amplitude to fit in an 8 bit DAC like the CoCo's
 helps eliminate some high frequency noise:
-(@@see <code>cloadm.py</code>)</p>
+(See <a href="cocogetblk/cloadm.py">cloadm.py</a> for full details.)</p>
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
@@ -1223,13 +1237,4 @@ there was a well-known solution that worked out of the box.
 But data analysis and signal processing is a growing part
 of my day job, and learning the scientific python toolset
 has been on my todo list for quite some time, so I'm glad I did.</p>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2>Colophon</h2>
-<p>I'm trying out <a href="http://ipython.org/">IPython</a> as an authoring tool.
-I'm fond of the interactive notebook idea.
-The 0.12 version that comes with Ubuntu didn't support
-inline plotting, and cell selection was glitchy.
-But I'm using 0.14dev, and while it doesn't quite feel as
-mature as RStudio, it's getting pretty close.</p>
 </div>
