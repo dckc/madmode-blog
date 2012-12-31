@@ -1,0 +1,10 @@
+syntax: glob
+
+lib/
+bin/
+local/
+include/
+share/
+
+*.pyc
+*~
