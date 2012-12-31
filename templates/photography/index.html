@@ -1,0 +1,26 @@
+{% extends "photography/base.html" %}
+
+{% block contents %}
+<p>
+    I don't pretend to be a <em>photographer</em>, even though I find myself quite enjoying
+    taking and processing pictures. <strong>For fun.</strong>
+</p>
+<p>
+    This is just a selection of my work. You can eventually
+    <a href="http://500px.com/n1k0/">follow me on 500px</a> to see more stuff
+    from me.
+</p>
+
+{% include "photography/gallery.html" %}
+
+<hr>
+
+{% if years|length %}
+    <p>
+        Browse the archives
+        {% for year in years  %}
+            | <a href="{{ url_for("section_archives_year", section="photography", year=year) }}">{{ year }}</a>
+        {% endfor %}
+    </p>
+{% endif %}
+{% endblock contents %}

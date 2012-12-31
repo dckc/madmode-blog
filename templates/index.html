@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block contents %}
+
+<figure>
+    <img src="/static/img/wordle-med.png" alt="">
+    <figcaption><a href="http://www.wordle.net/">wordle</a>
+      of <a href="http://www.diigo.com/user/dckc-madmode">my bookmarks</a> circa 2009
+    </figcaption>
+</figure>
+
+<section class="code">
+    {% with pages = posts %}
+        {% include "_list.html" %}
+    {% endwith %}
+</section>
+
+<article>
+{% filter markdown %}
+
+## What is Mad Mode?
+
+My day job is writing software to support research at
+the [KU Med Center informatics division][bmi], though I'm best known for
+[my work on HTML and Web Architecture at W3C][w3c].
+
+[bmi]: https://informatics.kumc.edu/work/
+[w3c]: http://www.w3.org/People/Connolly/
+
+I'm a family man, which gives a certain perspective on the <a href="{{ url_for('search_tag', tag='KC') }}">KC</a> area,
+<a href="{{ url_for('search_tag', tag='America') }}">America</a>, and
+the <a href="{{ url_for('search_tag', tag='world') }}">world</a> we live
+in.
+
+Between all that, I like to tinker.  The bane of my existence is doing
+things I know the computer could do for me.  Have you ever had one of
+those ideas that won't let go, not even to eat or sleep? My mom said
+the first time she saw me like that was after they gave me tinker-toys
+for my 3rd or 4th Christmas. She said I was in "mad scientist mode,"
+just like my father, a chemistry professor.
+
+<!-- TODO: more on freedom to tinker and digital media -->
+
+  {% include "cloud.html" %}
+
+
+## Acknowledgements
+
+This site is based on a [flask-based static blog generator
+by Nicolas Perriault][n1k0].
+
+[n1k0]: https://github.com/n1k0/nicolas.perriault.net
+
+<!-- TODO: point to my sources -->
+
+
+{% endfilter %}
+</article>
+
+{% endblock contents %}
