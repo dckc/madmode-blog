@@ -1,44 +1,53 @@
-# clues on getting at the data using python without a running zope... http://www.zopelabs.com/cookbook/1054240694
-# http://plope.com/Members/chrism/whatsnew_27
+'''
 
-import sys
-sys.path.insert(0, '/u/connolly/zope27pfx/lib/python')
+Based on `clues on getting at the data using python
+without a running zope`__ ...
 
-import Zope
+__ http://www.zopelabs.com/cookbook/1054240694
+http://plope.com/Members/chrism/whatsnew_27
+'''
 
-import os
+import logging
 
-def main(argv):
-    d = os.getcwd()
-    root = app()
-    dumpdir(argv[1], root, d)
+log = logging.getLogger(__name__)
 
-def app(instance_home="/var/lib/zope2.7/instance-dm93-disabled",
-	conf="/var/lib/zope2.7/instance-dm93-disabled/etc/zope.conf"):
-    progress("configure, .app()...")
 
-    os.environ['INSTANCE_HOME'] = instance_home
-    sys.argv = [] # hmm...
-    Zope.configure(conf)
-    root = Zope.app()	
-    return root
-
-def dumpdir(path, root, d):
+def dumpdir(path, root, writer):
     obj = root.unrestrictedTraverse(path)
 
-    os.chdir(d)
-    progress("iter...")
-    progress(d)
-    for id,val in obj.objectItems():
-	progress("'%s': %d bytes" % (id, len(str(val))))
-	open("./" + id, "wb").write(str(val))
+    for id_, val in obj.objectItems():
+        bytes = str(val)
+        log.info("'%s': %d bytes", id_, len(bytes))
+        writer(id_).write(bytes)
 
-def progress(msg):
-    import sys
-    print >>sys.stderr, msg
 
 if __name__ == '__main__':
-    import sys
-    main(sys.argv)
+    def _initial_caps():
+        from sys import argv
+        from os import environ
+        from os.path import join
+        from Zope import configure, app
 
+        logging.basicConfig()
+        instance_home = environ['INSTANCE_HOME']
+        conf = join(instance_home, "etc/zope.conf")
 
+        log.debug("instance: %s", instance_home)
+        log.debug("conf: %s", conf)
+
+        src_url_path, dest_dir_name = argv[1:3]
+
+        del argv[:]  # hmm...
+        configure(conf)
+        root = app()
+
+        def writer(n):
+            dest = join(dest_dir_name, n)
+            log.info('opening for write: %s', dest)
+            return open(dest, "wb")
+
+        return dict(path=src_url_path,
+                    writer=writer,
+                    root=root)
+
+    dumpdir(**_initial_caps())

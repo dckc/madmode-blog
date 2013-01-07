@@ -1,4 +1,4 @@
-export INSTANCE_HOME=/var/lib/zope2.7/instance-dm93-disabled
-export PYTHONPATH=/u/connolly/zope27pfx/lib/python
-qpython zout2.py
-
+export INSTANCE_HOME=/media/family-media/zope-migrate/zope-instance/
+export PATH=$HOME/src/zope27pfx/bin:$PATH
+export PYTHONPATH=$HOME/src/zope27pfx/lib/python
+python zout2.py $*
