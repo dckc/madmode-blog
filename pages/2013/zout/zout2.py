@@ -12,42 +12,64 @@ import logging
 log = logging.getLogger(__name__)
 
 
-def dumpdir(path, root, writer):
+def dumpdir(path, root, folder):
     obj = root.unrestrictedTraverse(path)
 
-    for id_, val in obj.objectItems():
-        bytes = str(val)
-        log.info("'%s': %d bytes", id_, len(bytes))
-        writer(id_).write(bytes)
+    def walk(items, path, writer):
+        for id_, val in items:
+            sub = path + [id_]
+            log.info("id: %s", sub)
+            try:
+                d = val.data
+            except AttributeError:
+                try:
+                    more = val.objectItems()
+                except AttributeError:
+                    log.warn('skipping class %s', val.__class__.__name__)
+                else:
+                    walk(more, sub, folder(sub))
+            else:
+                bs = str(d)
+                writer(id_).write(bs)
+
+    walk(obj.objectItems(), [], folder([]))
 
 
 if __name__ == '__main__':
     def _initial_caps():
-        from sys import argv
-        from os import environ
-        from os.path import join
+        import sys
+        import os
         from Zope import configure, app
 
         logging.basicConfig()
-        instance_home = environ['INSTANCE_HOME']
-        conf = join(instance_home, "etc/zope.conf")
+        log.setLevel(logging.DEBUG)
+        instance_home = os.environ['INSTANCE_HOME']
+        conf = os.path.join(instance_home, "etc/zope.conf")
 
         log.debug("instance: %s", instance_home)
         log.debug("conf: %s", conf)
 
-        src_url_path, dest_dir_name = argv[1:3]
+        src_url_path, dest_dir_name = sys.argv[1:3]
 
-        del argv[:]  # hmm...
+        del sys.argv[:]  # hmm...
         configure(conf)
         root = app()
 
-        def writer(n):
-            dest = join(dest_dir_name, n)
-            log.info('opening for write: %s', dest)
-            return open(dest, "wb")
+        def folder(path):
+            dest = os.path.join(dest_dir_name, *path)
+            if not os.path.exists(dest):
+                log.info('creating: %s', dest)
+                os.mkdir(dest)
+
+            def writer(n):
+                d = os.path.join(dest, n)
+                log.info('opening for write: %s', d)
+                return open(d, "wb")
+
+            return writer
 
         return dict(path=src_url_path,
-                    writer=writer,
+                    folder=folder,
                     root=root)
 
     dumpdir(**_initial_caps())
