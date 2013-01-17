@@ -3,9 +3,9 @@ from datetime import datetime  # not easy to tame .now(); darn
 import re
 
 
-def page_saver(openw):
+def page_saver(openw, pfx='advogato_'):
     def save(name, title, date, what, tags=()):
-        out = openw(name[:-len('.html')] + '.md')
+        out = openw(date[:4], pfx + name[:-len('.html')] + '.md')
         out.write(MARKDOWN_YAML_TEMPLATE % (title, date, tags, what))
     return save
 
@@ -94,9 +94,13 @@ if __name__ == '__main__':
             where = path.join(src, n)
             return open(where).read(), path.getmtime(where)
 
-        return dict(j=Journal(lambda:
-                                  os.listdir(src), what_when),
-                    save=page_saver(lambda name:
-                                        open(os.path.join(dest, name), 'w')))
+        def mkf(yyyy, name):
+            d = os.path.join(dest, yyyy)
+            if not path.exists(d):
+                os.mkdir(d)
+            return open(os.path.join(dest, yyyy, name), 'w')
+
+        return dict(j=Journal(lambda: os.listdir(src), what_when),
+                    save=page_saver(mkf))
 
     mkpages(**_initial_caps())
