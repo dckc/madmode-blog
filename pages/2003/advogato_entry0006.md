@@ -1,4 +1,4 @@
-title: talking to ssh-agent from python: throw me a bone?
+title: 'talking to ssh-agent from python: throw me a bone?'
 date: 2003-10-09
 tags: []
 published: true

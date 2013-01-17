@@ -1,4 +1,4 @@
-title: Family business blog: drupal or wordpress? self-managed or hosted?
+title: 'Family business blog: drupal or wordpress? self-managed or hosted?'
 date: 2009-02-24
 tags: []
 published: true
