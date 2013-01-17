@@ -1,5 +1,6 @@
 
 from datetime import datetime  # not easy to tame .now(); darn
+import re
 
 
 def page_saver(openw):
@@ -18,9 +19,18 @@ published: true
 
 def mkpages(j, save):
     for name, when, what in j:
-        title = when.date().ctime()
+        m = TITLE_PATTERN.match(what.strip())
+        if m:
+            title = m.group('title')
+            title = ' '.join(title.split())
+        else:
+            title = when.date().strftime('%d %b %Y')
         date = str(when.date())
         save(name, title, date, what)
+
+TITLE_PATTERN = re.compile(
+    r'^<(?:b|strong)[^>]*>(?P<title>[^<]+)</(?:b|strong)>',
+    flags=re.MULTILINE)
 
 
 class Journal(object):
