@@ -4,14 +4,15 @@ import re
 
 
 def page_saver(openw):
-    def save(name, title, date, what):
+    def save(name, title, date, what, tags=()):
         out = openw(name[:-len('.html')] + '.md')
-        out.write(MARKDOWN_YAML_TEMPLATE % (title, date, what))
+        out.write(MARKDOWN_YAML_TEMPLATE % (title, date, tags, what))
     return save
 
 MARKDOWN_YAML_TEMPLATE = '''
 title: %s
 date: %s
+tags: %s
 published: true
 
 %s'''.strip()
@@ -25,12 +26,47 @@ def mkpages(j, save):
             title = ' '.join(title.split())
         else:
             title = when.date().strftime('%d %b %Y')
+
         date = str(when.date())
-        save(name, title, date, what)
+        save(name, title, date, what, tags=rel_tag(what))
+
 
 TITLE_PATTERN = re.compile(
     r'^<(?:b|strong)[^>]*>(?P<title>[^<]+)</(?:b|strong)>',
     flags=re.MULTILINE)
+
+
+def rel_tag(markup):
+    r'''
+    >>> rel_tag('<a rel="tag" href="http://del.icio.us/connolly/scm">')
+    ['scm']
+
+    >>> rel_tag('<a rel="tag" href="http://groups.csail.mit.edu/dig/">')
+    []
+
+    Cheating:
+    >>> rel_tag("<a href='http://delicious.com/connolly/programming'>")
+    ['programming']
+    '''
+    # [('text..', 'a', 'href=...'), ...]
+    tags = [tuple(([txt] + tag.split(' ', 1) + [None])[:3])
+            for txt, tag
+            in [t.split('<', 1) for t in markup.split(">") if '<' in t]]
+
+    links = [rest for txt, n, rest in tags
+             if n == 'a' and ('rel="tag"' in rest or
+                              "rel='tag'" in rest
+                              or 'http://delicious.com/connolly/' in rest)]
+    tags = [ref.split('/')[-1]
+             for ref in 
+             [m.group('ref')
+              for m in [REF_PATTERN.search(txt) for txt in links]
+              if m]]
+    return [tag for tag in tags if tag]  # prune empty tags
+
+
+REF_PATTERN = re.compile(
+    r'''href=['"](?P<ref>[^'"]+)["']''')
 
 
 class Journal(object):
