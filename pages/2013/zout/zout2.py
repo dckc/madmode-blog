@@ -20,15 +20,20 @@ def dumpdir(path, root, folder):
     def walk(items, path, writer):
         for id_, val in items:
             sub = path + [id_]
-            log.debug("id: %s", sub)
+            cn = val.__class__.__name__
+            log.debug("id: %s class: %s", sub, cn)
             try:
-                d = val.data
+                try:
+                    d = val.raw
+                except AttributeError:
+                    d = val.data
             except AttributeError:
                 try:
                     more = val.objectItems()
                 except AttributeError:
                     log.warn('skipping class %s', val.__class__.__name__)
                 else:
+                    log.info('%s: %s', cn, '/'.join(sub))
                     walk(more, sub, folder(sub))
             except CorruptedDataError:
                 log.warn('Corrupted: %s', sub)
@@ -36,7 +41,7 @@ def dumpdir(path, root, folder):
                 log.warn('IOError: %s', sub)
             else:
                 bs = str(d)
-                log.info('%10d: %s', len(bs), '/'.join(sub))
+                log.info('%10d: %s: %s', len(bs), cn, '/'.join(sub))
                 writer(id_).write(bs)
 
     walk(obj.objectItems(), [], folder([]))
