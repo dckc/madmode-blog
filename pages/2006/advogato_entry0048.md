@@ -1,9 +1,7 @@
-title: 08 Dec 2006
+title: appscript and office automation
 date: 2006-12-08
-tags: []
+tags: ['python', 'office', 'mac']
 published: true
-
-<p class="title"><b>appscript and office automation</b>
 
 <p> <p> <p>
   My wife does office work for a local professional and
