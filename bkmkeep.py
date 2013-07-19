@@ -1,26 +1,32 @@
 from urllib import urlencode
+import json
 
 from ocap_file import WebReadable
 import encap
 
 
-def main(argv, mkRd):
+def main(argv, mkRd, stdout):
     apikey, username, password = argv[1:4]
     rd = mkRd(username, password)
     kb = KB(apikey, rd)
-    it = kb.bookmarks()
-    import pdb; pdb.set_trace()
+    it = kb.bookmarks(username)
+    json.dump(it, stdout, indent=2)
 
 
 class KB(encap.ESuite):
     api_base = 'https://secure.diigo.com/api/v2/'
 
+    created_at, updated_at, popularity = range(1, 4)
+
     def __new__(cls, apikey, rd):
         def get(path, **params):
             return rd.subRdFile(path + '?' + urlencode(params)).getBytes()
 
-        def bookmarks(_, path='bookmarks'):
-            return get(path, key=apikey)
+        def bookmarks(_, user, sort=KB.updated_at, filter='all', count=100,
+                      path='bookmarks'):
+            body = get(path, user=user, sort=sort, filter=filter, count=count,
+                       key=apikey)
+            return json.loads(body)
 
         return cls.make(bookmarks)
 
@@ -45,10 +51,10 @@ def mkRdMaker(urllib2, top_level_url):
 
 if __name__ == '__main__':
     def _initial_caps():
-        from sys import argv
+        from sys import argv, stdout
         import urllib2
 
-        return dict(argv=argv,
+        return dict(argv=argv, stdout=stdout,
                     mkRd=mkRdMaker(urllib2, KB.api_base))
 
     main(**_initial_caps())
