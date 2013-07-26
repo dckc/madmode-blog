@@ -1,6 +1,7 @@
 title: "Capability idioms for python, part 1: scripts vs. modules"
 date: 2013-07-25
 published: true
+tags: programming, python, security, capabilities
 summary: "Module-level code uses only authority passed to it by
          callers.  Only the top level script environment is trusted
          with the full authority of the python standard library."
