@@ -112,7 +112,7 @@ on top of this `ESuite` idiom and called it
 [blacknightcap](https://bitbucket.org/DanC/blackknightcap), since,
 while I'm reasonably confident it's compatible with approaches to
 [secure python's introspection mechanisms][tav09] and tame the
-standard library, I haven't bothered with any of that, nothing stops
+standard library, I haven't bothered with any of that; so nothing stops
 you from just [stepping over the stream][mp75], as it were.
 
 [tav09]: http://tav.espians.com/paving-the-way-to-securing-the-python-interpreter.html
