@@ -1,8 +1,8 @@
 from urllib import urlencode
 import json
 
-from ocap_file import WebReadable
-import encap
+from ocap.laweb import WebReadable
+from ocap import encap
 
 
 def main(argv, mkRd, stdout):
