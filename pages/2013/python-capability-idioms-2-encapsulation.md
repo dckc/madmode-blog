@@ -1,4 +1,4 @@
-title: "Capability idioms for python, part 2: encapsulation"
+title: "Capability idioms for python, part 2: encapsulated method suites"
 date: 2013-07-29
 tags: ["python", "programming", "security", "capabilities"]
 published: true
