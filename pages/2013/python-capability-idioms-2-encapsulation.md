@@ -81,7 +81,7 @@ to be not quite right, but the exploration led me to the custom
 
             return cls.make(isDir, exists, subRdFiles, inChannel)
 
-Where `make()` comes from:
+... where `make()` comes from:
 
     class ESuite(object):
         @classmethod
