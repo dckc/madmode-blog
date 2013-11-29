@@ -1,7 +1,7 @@
 title: Why was JavaScript standardized by ECMA and not W3C?
 date: 2013-11-29
 tags: [w3c, web standards, javascript]
-published: false
+published: true
 summary: I managed the relevant part of W3C at the time...
 
 *Originally
