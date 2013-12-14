@@ -20,6 +20,7 @@ data Equiv : Type -> Type -> Type where
   Equiv_intro: {p, q: Type} -> (p -> q) -> (q -> p) -> Equiv p q
 
 
+total
 divmod: (a: Nat) -> (b: Nat)
          -> (b = a * (b `divNat` a) + (b `modNat` a))
 -- TBD
@@ -41,3 +42,39 @@ gcd_greatest : (a: Nat) -> (b: Nat)
 gcf_gcd : (a: Nat) -> (b: Nat) -> (GT (gcd a b) 0) -> (GCF (gcd a b) a b)
 gcf_gcd  a b gt = (defn_gcf gt (gcd_divides_a a b) (gcd_divides_b a b)
                    (gcd_greatest a b))
+
+relPrime : Nat -> Nat -> Type
+relPrime a b = GCF 1 a b
+
+lemma1: {a, b: Nat} -> GCF 1 a b -> a | (b * c) -> a | c
+
+lemma1a: {a, b, c: Nat} -> a | b -> a | c -> a | (b + c)
+
+lemma1b: {a, b: Nat} -> a | b -> ((x: Nat) -> a | (b * x))
+
+data Prime: Nat -> Type where
+  defn_prime: {x, p: Nat} -> (x | p -> Either (x = 1) (x = p))
+              -> Prime p
+
+thmPrimeDivisors: {a, b, p: Nat} -> Prime p -> p | (a * b)
+ -> Either (p|a) (p|b)
+
+
+data EqvMod : Nat -> Nat -> Nat -> Type where
+  defn_eqvMod : (a: Nat) -> (b: Nat) -> (n: Nat)
+                -> n | (a - b) -> EqvMod a b n
+
+sigma: (a -> Nat) -> List a -> Nat
+sigma f xs = foldr plus Z (map f xs)
+
+expansion: List (Nat, Nat) -> Nat
+expansion xes = sigma x_to_e xes
+                where
+                  x_to_e (x, e) = power x e
+
+data PrimeFactorization : Nat -> List (Nat, Nat) -> Type where
+  defn_pf: (xes: List (Nat, Nat)) -> (so $ sorted xes)
+           -> ((x: Nat) -> so (elem x (map fst xes)) -> (Prime x))
+           -> (PrimeFactorization (expansion xes) xes)
+
+-- Unique  Factorization Theorem
