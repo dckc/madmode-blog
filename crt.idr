@@ -8,15 +8,16 @@
    which is in the Prelude. -}
 {- ack: Library Coq.ZArith.Znumtheory
 http://coq.inria.fr/library/Coq.ZArith.Znumtheory.html#Zis_gcd
- -}
+https://gforge.inria.fr/plugins/scmgit/cgi-bin/gitweb.cgi?p=coq/coq.git;a=blob;f=theories/ZArith/Znumtheory.v;h=594c073564fc36d902bee1f11801e12b2b6b5a87;hb=HEAD
+-}
 module m373k
 
-import Data.Vect
+import Data.Vect.Quantifiers
+import Data.SortedMap
 
 
 infixl 7 |  -- lower than *, +
 
-  {- TODO: consider "using a: Nat, b: Nat" -}
 {- how do typeclasses work here? i.e. does it matter
    whether I write * or mult? -}
 data (|) : Nat -> Nat -> Type where
@@ -34,10 +35,18 @@ data GCF : Nat -> Nat -> Nat -> Type where
 {- This is an unnamed Thm: in my notes,
    (half way) proved using well-ordering of N (Nat)
    but the Coq approach seems more useful. -}
-data Euclid : (a: Nat) -> (b: Nat)
-     -> (u: Nat) -> (v: Nat)
-     -> (d: Nat) -> Type where
-  Euclid_intro : {a, b, u, v, d: Nat} -> GCF a b d -> Euclid a b u v d
+{- TODO: consider "using a: Nat, b: Nat" a la Varaibles a b : Z -}
+data Euclid :  Nat -> Nat -> Type where
+  Euclid_intro : {a, b: Nat}
+                 -> ((u: Nat) -> (v: Nat) -> (d: Nat)
+                     -> u * a + v * b = d -> GCF a b d) -> Euclid a b
+
+euclid_rec : {a, b: Nat} -> (v3: Nat)
+             -> (LTE 0 v3) -- trivial for Nat
+             -> ((u1: Nat) -> (u2: Nat) -> (u3: Nat) -> (v1: Nat) -> (v2: Nat)
+                 -> (u1 * a + u2 * b = u3)
+                 -> (v1 * a + v2 * b = v3)
+                 -> ((d: Nat) -> GCF u3 v3 d -> GCF a b d)) -> Euclid a b
 
 rel_prime: Nat -> Nat -> Type
 rel_prime a b = GCF a b 1
@@ -52,7 +61,7 @@ lemma1b: {a, b: Nat} -> a | b -> ((x: Nat) -> a | b * x)
 data Prime: Nat -> Type where
   {- This is prime_divisors in Coq. -}
   {- It doesn't seem to exclude 1. That can't be on purpose, can it? -} 
-  defn_prime: {x, p: Nat} -> (x | p -> Either (x = 1) (x = p))
+  defn_prime: (p: Nat) -> ((x: Nat) -> x | p -> Either (x = 1) (x = p))
               -> Prime p
 
 prime_mult: {a, b, p: Nat} -> Prime p -> p | a * b
@@ -84,16 +93,22 @@ data EqvMod : Nat -> Nat -> Nat -> Type where
   defn_eqvMod : (a: Nat) -> (b: Nat) -> (n: Nat)
                 -> n | a - b -> EqvMod a b n
 
-expansion: Vect n (Nat, Nat) -> Nat
-expansion xes = sum $ map x_to_e xes
+-}
+
+total
+expansion: SortedMap Nat Nat -> Nat
+expansion xes = sum $ map x_to_e $ toList xes
                 where
+                  x_to_e: (Nat, Nat) -> Nat
                   x_to_e (x, e) = power x e
 
-data PrimeFactorization : Nat -> Vect n (Nat, Nat) -> Type where
-  defn_pf: (xes: Vect n (Nat, Nat)) -> (so $ sorted $ toList xes)
-           -> (All Prime (map fst xes))
+data PrimeFactorization : Nat -> SortedMap Nat Nat -> Type where
+  {- TODO: think more about 0 exponents.
+   -}
+  defn_pf: (xes: SortedMap Nat Nat)
+           -> (All Prime $ fromList (map fst $ toList xes))
            -> (PrimeFactorization (expansion xes) xes)
+
 -- Unique  Factorization Theorem
 
--}
 
