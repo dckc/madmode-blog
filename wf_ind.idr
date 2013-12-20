@@ -20,19 +20,20 @@ lt_entails_lte Z (S right) (lteSucc lteZero) = lteZero
 lt_entails_lte (S left) (S right) (lteSucc hyp) =
   lteSucc $ lt_entails_lte left right hyp
 
+union: (x -> Type) -> (x -> Type) -> (x -> Type)
+union s t = (\x => Either (s x) (t x))
+  
 -- TODO: finish other cases
 find_min: (NS: Nat -> Type) -> (n: Nat) -> (NS n)
           -> (m ** (Minimal LT NS m))
-find_min NS n ns_n = find_min' n ns_n n hyp0 where
-  find_min': (found: Nat) -> (NS found)
-             -> (pred: Nat) -> ((s: Nat) -> (LTE (S pred) s)
-                                -> (NS s) -> (LTE found s))
+find_min NS n ns_n = find_min' n ns_n n hyp1 where
+  find_min': (found: Nat) -> (NS found) -> (pred: Nat)
+             -> (Minimal LT (union NS (GTE pred)) found)
              -> (m ** (Minimal LT NS m))
-  find_min' found NSfound Z hyp =
-    (found ** defn_minimal LT NS found NSfound ?pf_lt_entails_lte)
-  hyp0: (s: Nat) -> (LTE (S n) s) -> (NS s) -> (LTE n s)
-  hyp0 s lteSns NSs = lt_entails_lte n s lteSns
-    
+  find_min' found NSfound (S pred) hyp = ?pf
+  hyp1: Minimal LT (union NS (GTE n)) n
+  hyp1 = ?pfhyp1
+
 {-
 -- not_lt_s_z: Not (LT s Z)
 total
