@@ -15,24 +15,39 @@ calc_min NS n = calc_min' n n where
   calc_min' found (S pred) =
     if NS pred then calc_min' pred pred else calc_min' found pred
 
+lte_symmetric: (x: Nat) -> (LTE x x)
+lte_symmetric Z = lteZero
+lte_symmetric (S k) = lteSucc $ lte_symmetric k
+
 lt_entails_lte: (x: Nat) -> (y: Nat) -> (LTE (S x) y) -> (LTE x y)
 lt_entails_lte Z (S right) (lteSucc lteZero) = lteZero
 lt_entails_lte (S left) (S right) (lteSucc hyp) =
   lteSucc $ lt_entails_lte left right hyp
 
-union: (x -> Type) -> (x -> Type) -> (x -> Type)
-union s t = (\x => Either (s x) (t x))
-  
--- TODO: finish other cases
+intersection: (x -> Type) -> (x -> Type) -> (x -> Type)
+intersection s t x = (s x, t x)
+
+in_int: (s: x -> Type) -> (t: x -> Type)
+        -> (s a) -> (t a)
+        -> (intersection s t a)
+in_int s t sa ta = (sa, ta)
+
+
+total
 find_min: (NS: Nat -> Type) -> (n: Nat) -> (NS n)
           -> (m ** (Minimal LT NS m))
 find_min NS n ns_n = find_min' n ns_n n hyp1 where
   find_min': (found: Nat) -> (NS found) -> (pred: Nat)
-             -> (Minimal LT (union NS (GTE pred)) found)
+             -> (Minimal LT (intersection NS (LTE pred)) found)
              -> (m ** (Minimal LT NS m))
-  find_min' found NSfound (S pred) hyp = ?pf
-  hyp1: Minimal LT (union NS (GTE n)) n
-  hyp1 = ?pfhyp1
+  find_min' found NSfound (S pred) hyp = ?step
+  find_min' found NSfound Z hyp = ?base_case
+  hyp1: Minimal LT (intersection NS (LTE n)) n
+  hyp1 = defn_minimal LT (intersection NS (LTE n)) n n_in_both noless
+         where
+           n_in_both = in_int NS (LTE n) ns_n (lte_symmetric n)
+           noless = ?noless_pf
+
 
 {-
 -- not_lt_s_z: Not (LT s Z)
