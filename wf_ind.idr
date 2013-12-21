@@ -27,6 +27,9 @@ lt_entails_lte (S left) (S right) (lteSucc hyp) =
 intersection: (x -> Type) -> (x -> Type) -> (x -> Type)
 intersection s t x = (s x, t x)
 
+-- oops...
+-- monoidNeutralIsNeutralL : (l: Nat -> Type) -> ((intersection l (lteZero Z)) = l)
+
 in_int: (s: x -> Type) -> (t: x -> Type)
         -> (s a) -> (t a)
         -> (intersection s t a)
