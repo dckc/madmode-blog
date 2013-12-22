@@ -1,11 +1,34 @@
 -- Well-founded induction
 
+total
+not_lt_s_z: Not (LT s Z)
+not_lt_s_z lteZero impossible
+not_lt_s_z (lteSucc lr) impossible
+
+wf_ind: (P: Nat -> Type)
+        -> ((n: Nat) -> (((y: Nat) -> LT y n -> P y) -> P n))
+        -> ((x: Nat) -> P x)
+wf_ind P hyp = xPx where
+  xPx: (x: Nat) -> P x
+  xPx Z = hyp Z vacuous where
+    vacuous: (y: Nat) -> LT y Z -> P y
+    vacuous y ltyz = FalseElim $ not_lt_s_z {s=y} ltyz
+  -- @@ xPx (S k) = hyp k
+  
+  -- hyp vacuous where
+  -- vacuous: (LT y Z) -> P Z
+  -- vacuous ltyz = ?why
+-- wf_ind P (S k) hyp x = ?what_2
+ 
+
+
 data Minimal: (x -> x -> Type) -> (x -> Type) -> x -> Type where
   defn_minimal: (R: x -> x -> Type) -> (Sub: x -> Type) -> (m: x)
                 -> (Sub m)
                 -> ((s: x) -> (Sub s) -> Not (R s m))
                 -> Minimal R Sub m
-  
+
+
 {- This helped me find the structure of the proof below. -}
 total
 calc_min: (NS: Nat -> Bool) -> Nat -> Nat
@@ -54,10 +77,6 @@ find_min NS n ns_n = find_min' n ns_n n hyp1 where
 
 {-
 -- not_lt_s_z: Not (LT s Z)
-total
-not_lt_s_z: Not (LT s Z)
-not_lt_s_z lteZero impossible
-not_lt_s_z (lteSucc lr) impossible
 
 -- @@ find_min_below NS ((S n) ** NS) Z lte_a_n =
 --  (Z ** defn_minimal LT NS Z ns_Z none_lt_z)
@@ -102,12 +121,3 @@ wf_lt_nat = defn_wf Nat LT show_min where
     where
       no_less_m: (s: Nat) -> Sub s -> Not (LT s m)
 -}
-
-
-{-
-wf_ind: (P: Nat -> Type)
-        -> ((LT y x -> P y) -> P x)
-        -> ((x: Nat) -> P x)
-wf_ind P hyp = ?pf
--}
- 
