@@ -1,7 +1,9 @@
 title: 30 Sep 2005
 date: 2005-09-30
-tags: ['python', 'scm']
+tags: ['python', 'scm', photo]
 published: true
+summary: So I want to post a journal/blog entry about my recent trip
+	 to Edinburgh for a TAG meeting. How and where to post it?
 
 So I want to <b>post a journal/blog entry</b> about my recent trip to Edinburgh for a TAG meeting. How and where to post it?
 <ul>

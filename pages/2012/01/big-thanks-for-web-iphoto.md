@@ -1,6 +1,6 @@
 date: 2012-01-02
 published: true
-tags: []
+tags: [photo, mac]
 title: A big thanks for Web-iPhoto!
 updated: 2012-01-02
 

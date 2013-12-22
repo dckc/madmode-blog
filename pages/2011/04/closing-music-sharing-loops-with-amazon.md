@@ -1,6 +1,6 @@
 date: 2011-04-15
 published: true
-tags: [digital media, music, mac, ubuntu]
+tags: [digital media, music, mac, ubuntu, photo]
 title: Closing music sharing loops with Amazon Cloud Player and iTunes home sharing
 updated: 2011-04-28
 

@@ -1,6 +1,6 @@
 title: 07 Jan 2006
 date: 2006-01-07
-tags: []
+tags: [mac, music, emacs]
 published: true
 
 <b><a href="http://www.cua.dk/">CUA-mode</a>, where have you been all my life?!?!?!</b> Found in some comments on <a href="http://weblogs.mozillazine.org/gerv/archives/2005/12/decent_editor_wanted.html">Gerv's search for an editor</a>. Could it be true? No more impedence mismatches between emacs's sense of paste and the rest of the gnome/mac/windows world?

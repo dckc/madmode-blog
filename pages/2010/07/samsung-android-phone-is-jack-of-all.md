@@ -1,6 +1,6 @@
 date: 2010-07-30
 published: true
-tags: [mobile, android]
+tags: [mobile, android, photo, music, geo, calendar]
 title: Samsung Android phone is a jack of all trades, master of none
 updated: 2011-12-12
 

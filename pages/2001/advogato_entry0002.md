@@ -1,6 +1,6 @@
 title: 03 Nov 2001
 date: 2001-11-03
-tags: ['photos', 'travel']
+tags: ['photos', photo, 'travel']
 published: true
 
 <p>just got back from <a href="http://www.geekcruises.com/home/ll_home.html">linux lunacy</a>, the most recent geekcruise. What a blast!

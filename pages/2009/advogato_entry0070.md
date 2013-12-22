@@ -1,6 +1,6 @@
 title: All knotted up about media management
 date: 2009-11-23
-tags: []
+tags: [photo, mac, digital media, geo, music, mixtape]
 published: true
 
 <b>All knotted up about media management</b>
