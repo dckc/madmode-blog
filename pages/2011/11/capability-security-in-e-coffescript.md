@@ -1,6 +1,6 @@
 date: 2011-11-23
 published: true
-tags: []
+tags: ["security", "capabilities", "programming"]
 title: Capability Security in E, coffescript, python, dart, and scala
 updated: 2011-11-23
 
