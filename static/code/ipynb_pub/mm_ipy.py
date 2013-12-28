@@ -16,15 +16,15 @@ def main(argv, arg_rd, arg_wr,
 
 
 def article_of(notebook_txt):
-    # article header yaml stuff
-    # @@ assumes values are quoted. TODO: use pyaml?
-    for n, v in [('title', 'TODO@@'),
-                 ('published', 'false'),
-                 ('date', '2013-12-28')]:
+    notebook = nbformat.reads_json(notebook_txt)
+
+    hide, meta = article_meta(notebook)
+    for ix in sorted(hide, reverse=True):
+        del notebook.worksheets[0].cells[ix]
+
+    for n, v in meta:
         yield '%s: %s\n' % (n, v)
     yield '\n'
-
-    notebook = nbformat.reads_json(notebook_txt)
 
     exportHtml = HTMLExporter(config=Config({'HTMLExporter':
                                              {'default_template': 'basic'}}))
@@ -33,6 +33,29 @@ def article_of(notebook_txt):
     # [txt[:100] for txt in resources['inlining']['css']]
 
     yield body
+
+
+def article_meta(notebook,
+                 meta_start='<pre class="about yaml">',
+                 meta_end='</pre>'):
+    def find_cell(test):
+        return ((i, cell['source'])
+                for i, cell in enumerate(notebook.worksheets[0].cells)
+                if test(cell)).next()
+
+    h1_ix, h1 = find_cell(
+        lambda cell: (cell['cell_type'] == 'heading'
+                      and cell['level'] == 1))
+
+    meta_ix, meta_txt = find_cell(
+        lambda cell: cell['source'].startswith(meta_start))
+
+    meta = [line.split(': ', 1)  # name: value
+            for line in meta_txt.split('\n')
+            if not (line.startswith(meta_start)
+                    or line.startswith(meta_end))]
+
+    return [h1_ix, meta_ix], [('title', repr(str(h1)))] + meta
 
 
 if __name__ == '__main__':
