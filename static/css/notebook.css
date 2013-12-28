@@ -1,0 +1,10 @@
+/* cribbed from ipython notebook styles */
+.anchor-link {
+  text-decoration: none;
+  padding: 0px 20px;
+  visibility: hidden;
+}
+
+h2:hover .anchor-link {
+    visibility: visible;
+}
