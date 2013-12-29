@@ -30,7 +30,13 @@ FLATPAGES_ROOT = 'pages'
 FEED_MAX_LINKS = 25
 SECTION_MAX_LINKS = 12
 
-app = Flask(__name__)
+class FlaskE(Flask):
+    def handle_user_exception(self, e):
+        import traceback
+        print traceback.format_exc(e)
+        import pdb; pdb.set_trace()
+
+app = FlaskE(__name__)
 app.config.from_object(__name__)
 pages = FlatPages(app)
 freezer = Freezer(app)
