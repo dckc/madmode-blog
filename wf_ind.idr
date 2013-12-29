@@ -12,7 +12,8 @@ Acc_inv: (A: Type) -> (R: A -> A -> Type)
          -> (x:A) -> (Acc A R x) -> ((y:A) -> (R y x) -> Acc A R y)
 Acc_inv A R x (Acc_intro A R x ally) = ally
 
-well_founded_induction_type : (A: Type) -> (R: A -> A -> Type) -> (P:A -> Type)
+well_founded_induction_type : (A: Type) -> (P:A -> Type)
+                              -> (R: A -> A -> Type) -> (WellFounded A R)
                               -> ((x:A) -> ((y:A) -> R y x -> P y) -> P x)
                               -> ((a:A) -> P a)
-well_founded_induction_type A R P f a = ?well_founded_induction_type_rhs
+well_founded_induction_type A P R wfR hyp a = ?wfpf
