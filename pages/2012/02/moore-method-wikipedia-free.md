@@ -1,6 +1,6 @@
 date: 2012-02-18
 published: true
-tags: [Austin, research, collaboration, learning, logic]
+tags: [Austin, research, collaboration, learning, logic, archive-math-notes]
 title: Saying Goodbye to Moore Method math notes and Robert Miner
 updated: 2012-02-22
 
