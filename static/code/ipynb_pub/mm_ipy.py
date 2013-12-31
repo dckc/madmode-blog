@@ -1,4 +1,11 @@
 '''mm_ipy -- convert ipython notebook to markdown for madmode blog
+==================================================================
+
+Usage::
+
+  $ python article_in.ipynb article_out.md
+
+.. role:: func
 
 See :func:`article_meta` for conventions for title, date, tags, etc.
 
@@ -64,6 +71,9 @@ def article_meta(notebook,
 
       >>> print article_meta.func_defaults[0]
       <pre class="about yaml">
+
+    Metadata is written in YAML-ish name: value style (see :func:`grok_yaml`
+    for details).
 
     The closing tag is ignored::
 
