@@ -1,10 +1,10 @@
-title: The Aaron Swarts Movie Match Pledge
+title: The Aaron Swartz Movie Match Pledge
 published: true
 date: 2014-01-01
 summary: Let's all pledge to match spending on movies with donations
   in memory of Aaron Swartz
 tags: [aaronsw, collaboration, america, politics,
-	   'digital media', 'free culture']
+   'digital media', 'free culture']
 
 As we mark the new year, I'm [right there with Andy Baio][waxpancake]:
 
