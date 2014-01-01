@@ -3,7 +3,8 @@ published: true
 date: 2014-01-01
 summary: Let's all pledge to match spending on movies with donations
   in memory of Aaron Swartz
-tags: [aaronsw, collaboration, america, 'digital media', politics]
+tags: [aaronsw, collaboration, america, politics,
+	   'digital media', 'free culture']
 
 As we mark the new year, I'm [right there with Andy Baio][waxpancake]:
 

@@ -1,6 +1,7 @@
 title: Music Collections and Office Organization
 date: 2007-06-22
-tags: ['digital+media', 'music', 'sysadmin', 'ubuntu', 'debian', 'gtd']
+tags: ['digital media', 'free culture', music, sysadmin,
+       ubuntu, debian, gtd, aaronsw]
 published: true
 
 <b class="title">Music Collections and Office Organization</b>

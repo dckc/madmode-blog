@@ -1,7 +1,7 @@
 title: MadMode goes from fried to baked with Frozen-Flask
 date: 2012-12-21
 published: true
-tags: ['publishing', 'collaboration', 'programming', 'python']
+tags: [publishing, collaboration, programming, python, aaronsw]
 summary: 'A couple years ago, I started using blogger because I
           wanted immersive hypermedia editing, and I wanted it for free.
           Well, you get what you pay for.'

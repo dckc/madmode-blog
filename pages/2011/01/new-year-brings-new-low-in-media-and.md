@@ -1,6 +1,6 @@
 date: 2011-01-13
 published: true
-tags: [digital media, america]
+tags: ['digital media', america, aaronsw, 'free culture']
 title: A new year brings a new low in media and culture
 updated: 2011-07-07
 

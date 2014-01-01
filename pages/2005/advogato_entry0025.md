@@ -1,6 +1,6 @@
-title: 10 Jun 2005
+title: no longer happy with my personal wiki
 date: 2005-06-10
-tags: []
+tags: [aaronsw, publishing, writing]
 published: true
 
 I'm <a href="http://dm93.org/z2001/AboutThisWiki#msg20050608050701+0000@dm93.org">no longer happy with my personal wiki</a>; since upgrading to a version of zwiki that supports dated comments, I find that I'm more comfortable doing "episodic publishing" (i.e. blogging) than collaborating on collected wisdom. <b>A personal wiki is an oxymoron; the wiki genre is all about collaboration</b>.

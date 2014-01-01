@@ -1,6 +1,6 @@
-title: 23 Oct 2009
+title: going back to the sidekick
 date: 2009-10-23
-tags: ['mobile']
+tags: [mobile, aaronsw]
 published: true
 
 <b>G1 is so disappointing, I'm going back to the sidekick.
