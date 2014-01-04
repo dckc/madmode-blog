@@ -90,7 +90,8 @@ def article_meta(notebook,
                       and cell['level'] == 1))
 
     meta_ix, meta_txt = find_cell(
-        lambda cell: cell['source'].startswith(meta_start))
+        lambda cell: (cell['cell_type'] == 'markdown'
+                      and cell['source'].startswith(meta_start)))
 
     meta = grok_yaml(meta_txt, [meta_start, meta_end])
 
