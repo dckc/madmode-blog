@@ -1,3 +1,10 @@
+/* img-circle cribbed from
+   http://www.precursortechnology.com/bootstrap/css/bootstrap.min.css */
+.social-icon {
+  border-radius:500px;
+  vertical-align: middle;
+}
+
 .clearfix {
   display: inline-block;
 }
