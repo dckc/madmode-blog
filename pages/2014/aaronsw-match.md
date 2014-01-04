@@ -47,7 +47,7 @@ etc.) for about a year now, and I plan to continue regardless of how
 many people join me. I picked 26 becase that's how old Aaron was when
 we lost him:
 
-  [rs]: http://archive.rootstrikers.org/www.rootstrikers.org/ways_to_give.html
+  [rs]: http://www.rootstrikers.org/
 
 > I will [match my spending on movies with donations in memory of
 > Aaron Swartz][aaronsw-match] but only if **26** other people will do the same.
