@@ -74,7 +74,7 @@ WARNING: The mapping to public ports on your host has been deprecated. Use -p to
 </ol>
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Fortunately, the API for custom renditions is straightforward and well documented. My <a href="code/ipynb_pub/mm_ipy.py">mm_ipy.py</a> is serviceable, though I'm still working through some issues with <a href="https://github.com/ipython/ipython/pull/4682">pygments vs. javascript code highlighting</a> and such.</p>
+<p>Fortunately, the API for custom renditions is straightforward and well documented. My <a href="/static/code/ipynb_pub/mm_ipy.py">mm_ipy.py</a> is serviceable, though I'm still working through some issues with <a href="https://github.com/ipython/ipython/pull/4682">pygments vs. javascript code highlighting</a> and such.</p>
 <p>Let's import it to take a look:</p>
 </div>
 <div class="cell border-box-sizing code_cell vbox">
