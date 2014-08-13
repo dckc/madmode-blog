@@ -2,6 +2,7 @@ title: Rust-Sqlite3 -- Rustic bindings for sqlite3
 date: 2014-08-13
 tags: [programming, rust, data, quality, collaboration, capabilities]
 published: true
+summary: Inspired by sfackler's rust-postgres, I started from scratch...
 
 I was looking into [sandstorm][], a personal cloud platform with an
 architecture based on the wonderful [capability security][capsec]
