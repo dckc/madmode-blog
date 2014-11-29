@@ -36,7 +36,8 @@ class FlaskE(Flask):
         print traceback.format_exc(e)
         import pdb; pdb.set_trace()
 
-app = FlaskE(__name__)
+#app = FlaskE(__name__)
+app = Flask(__name__)
 app.config.from_object(__name__)
 pages = FlatPages(app)
 freezer = Freezer(app)
