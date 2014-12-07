@@ -46,26 +46,33 @@ class Profile(object):
         self.read_profile = read_profile
 
         def get_articles(ctx):
-            for (addr, (id, slug)) in self.find_articles(ctx):
+            for parts in self.find_articles(ctx):
+                addr, item_id, slug, _title, _abstract, _tags = parts
                 with event(ctx, 'getting item: %s', slug):
-                    yield addr, ua.open(addr).read()
+                    log.debug('article parts: %s', [parts])
+                    content = ua.open(addr).read()
+                yield item_id, slug, content
         self.get_articles = get_articles
 
     def find_articles(self, ctx):
         profile_text = self.read_profile(ctx)
         profile_doc = BeautifulSoup(profile_text)
-        return [(a.attrs['href'],
-                 self.article_id_slug(a.attrs['href']))
-                for a in profile_doc.select('h4 > a')]
+        return [self.article_parts(a.attrs['href'], listing)
+                for listing in profile_doc.select('.help-listing')
+                for a in listing.select('h4 > a')]
 
     @classmethod
-    def article_id_slug(cls, addr):
-        return addr.split('/')[-2:]
+    def article_parts(cls, addr, summary):
+        item_id, slug = addr.split('/')[-2:]
+        text = lambda nodes: ''.join(e.text for e in nodes)
+        title = text(summary.select('h4'))
+        abstract = text(summary.select('p'))
+        tags = [e.text.strip() for e in summary.select('.tags')]
+        return addr, item_id, slug, title, abstract, tags
 
     def download_articles(self, ctx, dest_dir):
         with event(ctx, 'downloading articles by %s', self.username):
-            for addr, content in self.get_articles(ctx):
-                item_id, slug = addr.split('/')[-2:]
+            for item_id, _slug, content in self.get_articles(ctx):
                 dest = dest_dir / (item_id + '.html')
                 dest.setBytes(content)
 
