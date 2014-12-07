@@ -1,7 +1,7 @@
 '''Reverse-syndicate articles published via Codementor.io
 
 Usage:
-  sync_codementor USERNAME DEST_DIR
+  sync_codementor [--debug] USERNAME DEST_DIR
 
 Options:
 --debug  verbose logging
