@@ -90,7 +90,7 @@ def event(ctx, msg, *args):
     ctx.append(' > ')
     yield
     ctx.pop()
-    log.info(''.join(ctx) + '... done.')
+    log.debug(''.join(ctx) + '... done.')
 
 
 if __name__ == '__main__':
