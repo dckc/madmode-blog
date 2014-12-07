@@ -70,7 +70,7 @@ class Editable(object):
                 raise IOError('%s not under %s', d, path)
             return d
 
-        self.subEdFile = lambda sub: Editable(ops, descendant(path, sub))
+        self.subEdFile = lambda sub: Editable(ops, descendant(sub))
 
     def __div__(self, sub):
         return self.subEdFile(sub)
