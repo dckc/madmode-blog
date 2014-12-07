@@ -30,10 +30,12 @@ def main(argv, mkBrowser, argEd, basicConfig,
     ctx = []
     ua = mkBrowser()
     dest_dir = argEd(cli['DEST_DIR'])
-    with event(ctx, 'Visiting site homepage: %s ...', site):
-        ua.open(site)
+    username = cli['USERNAME']
+    with event(ctx, 'sync codementor articles by %s', username):
+        with event(ctx, 'Visiting site homepage: %s ...', site):
+            ua.open(site)
 
-        download_tips(site, cli['USERNAME'], ctx, ua, dest_dir)
+        download_tips(site, username, ctx, ua, dest_dir)
 
 
 def download_tips(site, username, ctx, ua, dest_dir):
@@ -48,9 +50,9 @@ def download_tips(site, username, ctx, ua, dest_dir):
 
 
 def download(ctx, dest_dir, ua, addr):
-    basename = addr[addr.rindex('/') + 1:]
-    dest = dest_dir / basename
-    with event(ctx, 'downloading: %s', basename):
+    item_id, slug = addr.split('/')[-2:]
+    dest = dest_dir / (item_id + '.html')
+    with event(ctx, 'downloading: %s/%s', item_id, slug):
         content = ua.open(addr).read()
     dest.setBytes(content)
 
@@ -70,8 +72,8 @@ def event(ctx, msg, *args):
     log.info(''.join(ctx) + msg, *args)
     ctx.append(' > ')
     yield
-    ctx.pop
-    log.info(ctx[0] + '... done.')
+    ctx.pop()
+    log.info(''.join(ctx) + '... done.')
 
 
 if __name__ == '__main__':
