@@ -1,4 +1,4 @@
-'''
+'''Reverse-syndicate articles published via Codementor.io
 
 Usage:
   sync_codementor USERNAME DEST_DIR
@@ -6,8 +6,6 @@ Usage:
 Options:
 --debug  verbose logging
 
-e.g.
-https://www.codementor.io/tips/8242643197/how-to-read-time-with-scanf-in-c
 '''
 
 import logging
