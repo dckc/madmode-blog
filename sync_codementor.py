@@ -58,13 +58,32 @@ def download(ctx, dest_dir, ua, addr):
 
 
 class Editable(object):
-    def __init__(self, opts, path):
-        (openf, ) = opts
+    '''Least-authority style filesystem access.
+    '''
+    def __init__(self, ops, path):
+        (openf, ) = ops
         self.setBytes = lambda bs: openf(path, 'w').write(bs)
-        self.subEdFile = lambda sub: Editable(opts, path_join(path, sub))
+
+        def descendant(sub):
+            d = path_join(path, sub)
+            if not d.startswith(path):
+                raise IOError('%s not under %s', d, path)
+            return d
+
+        self.subEdFile = lambda sub: Editable(ops, descendant(path, sub))
 
     def __div__(self, sub):
         return self.subEdFile(sub)
+
+    @classmethod
+    def mkArgEd(cls, argv, ops):
+        '''Write access only to files/directories given on the command line.
+        '''
+        def argEd(arg_path):
+            if arg_path not in argv:
+                raise IOError(arg_path)
+            return Editable(ops, arg_path)
+        return argEd
 
 
 @contextmanager
@@ -77,19 +96,22 @@ def event(ctx, msg, *args):
 
 
 if __name__ == '__main__':
-    def _privileged_main():
+    def _invoked_as_script():
+        '''Access privileged APIs and give main() the least authority it needs.
+
+        .. note:: Privileged APIs are not visible outside this
+                  function, and they are accessed only if this file is
+                  called as a script, not when imported as a module.
+
+        '''
         from __builtin__ import open as openf
         from sys import argv
+        from logging import basicConfig
         from mechanize import Browser
-
-        def argEd(arg_path):
-            if arg_path not in argv:
-                raise IOError(arg_path)
-            return Editable((openf, ), arg_path)
 
         main(argv[:],
              mkBrowser=lambda: Browser(),
-             argEd=argEd,
-             basicConfig=logging.basicConfig)
+             argEd=Editable.mkArgEd(argv, (openf, )),
+             basicConfig=basicConfig)
 
-    _privileged_main()
+    _invoked_as_script()
