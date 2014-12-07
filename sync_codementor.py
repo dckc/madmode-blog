@@ -18,41 +18,56 @@ from bs4 import BeautifulSoup
 log = logging.getLogger(__name__)
 
 
-def main(argv, mkBrowser, argEd, basicConfig,
-         site='https://www.codementor.io/'):
+def main(argv, mkBrowser, argEd, basicConfig):
     cli = docopt.docopt(__doc__, argv[1:])
 
     basicConfig(level=logging.DEBUG if '--debug' in cli
                 else logging.INFO)
 
-    ctx = []
-    ua = mkBrowser()
-    dest_dir = argEd(cli['DEST_DIR'])
-    username = cli['USERNAME']
-    with event(ctx, 'sync codementor articles by %s', username):
-        with event(ctx, 'Visiting site homepage: %s ...', site):
-            ua.open(site)
-
-        download_tips(site, username, ctx, ua, dest_dir)
+    profile = Profile(cli['USERNAME'], ua=mkBrowser())
+    profile.download_articles([], argEd(cli['DEST_DIR']))
 
 
-def download_tips(site, username, ctx, ua, dest_dir):
-    profile_addr = site + username
-    with event(ctx, 'opening profile: %s', profile_addr):
-        profile_text = ua.open(profile_addr).read()
-    profile_doc = BeautifulSoup(profile_text)
-    article_addrs = [a.attrs['href']
-                     for a in profile_doc.select('h4 > a')]
-    for addr in article_addrs:
-        download(ctx, dest_dir, ua, addr)
+class Profile(object):
+    def __init__(self, username, ua,
+                 site='https://www.codementor.io/'):
+        self.username = username
+        profile_addr = site + username
 
+        # define these here to limit scope of ua.
+        def go_home(ctx):
+            with event(ctx, 'Visiting site homepage: %s ...', site):
+                ua.open(site)
+        self.go_home = go_home
 
-def download(ctx, dest_dir, ua, addr):
-    item_id, slug = addr.split('/')[-2:]
-    dest = dest_dir / (item_id + '.html')
-    with event(ctx, 'downloading: %s/%s', item_id, slug):
-        content = ua.open(addr).read()
-    dest.setBytes(content)
+        def read_profile(ctx):
+            with event(ctx, 'opening profile: %s', profile_addr):
+                return ua.open(profile_addr).read()
+        self.read_profile = read_profile
+
+        def get_articles(ctx):
+            for (addr, (id, slug)) in self.find_articles(ctx):
+                with event(ctx, 'getting item: %s', slug):
+                    yield addr, ua.open(addr).read()
+        self.get_articles = get_articles
+
+    def find_articles(self, ctx):
+        profile_text = self.read_profile(ctx)
+        profile_doc = BeautifulSoup(profile_text)
+        return [(a.attrs['href'],
+                 self.article_id_slug(a.attrs['href']))
+                for a in profile_doc.select('h4 > a')]
+
+    @classmethod
+    def article_id_slug(cls, addr):
+        return addr.split('/')[-2:]
+
+    def download_articles(self, ctx, dest_dir):
+        with event(ctx, 'downloading articles by %s', self.username):
+            for addr, content in self.get_articles(ctx):
+                item_id, slug = addr.split('/')[-2:]
+                dest = dest_dir / (item_id + '.html')
+                dest.setBytes(content)
 
 
 class Editable(object):
