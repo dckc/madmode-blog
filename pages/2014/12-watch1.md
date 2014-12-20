@@ -1,5 +1,5 @@
 title: Pebble beats out Garmin Vivofit for my wrist
-published: false
+published: true
 date: 2014-12-19
 tags: [mobile, health, javascript, android, pebble, smartwatch, quantified-self]
 summary: extending the open web platform to my wrist
@@ -20,13 +20,13 @@ I have been tracking the market for years, but the Casio 3090 that I
 already have is good enough that it would take something pretty
 special to get me to switch:
 
-  1. It does one thing really well: keeps time. To the small
-     part of a second. And date. And weekday. And timezones.
-  2. At about $50, I can afford to replace it every five years or so when I
+  1. At about $50, I can afford to replace it every five years or so when I
      break it or lose it.
-  3. It's maintenance free. It sets itself from WWV radio every night;
+  2. It's maintenance free. It sets itself from WWV radio every night;
      it's water resistant; and it's solar powered, so it **never needs
      charging**.
+  3. It does one thing really well: keeps time. To the small
+     part of a second. And date. And weekday. And timezones.
 
 A smartwatch that I have to charge every night loses out to the fitbit
 on sleep tracking. That and the price rules out the current crop
@@ -40,15 +40,22 @@ Another acquaintance loves his Pebble ($100). So do lots of other
 reviewers, while some gripe about style and some report its fitness
 tracking features don't really cut it.
 
-I ordered them both to see which one I like better.
+I ordered them both to see which one I like better. I opened the
+Pebble first.
 
-The Pebble arrived first.
-
+  * It's not as big or bulky as I expected. It's actually smaller and
+    lighter than my Casio.
   * Sleep tracking just works. The fitbit took a few nights of
     fidgeting to figure out how to get it in and out of sleep tracking
     mode. The Pebble featured a MisFit app when I turned it on. I said
     sure, go ahead. That night I didn't bother to figure out how to
     turn on sleep tracking, but when I awoke, lo, there were the data.
+
+I did hit one glitch where the sleep tracker kicked in when I was
+watching a movie. And there's no web site integration; Android sync is
+["coming soon"][6].
+
+[6]: https://apps.getpebble.com/applications/53a898a2cfee2a02c900006c
 
 Speaking of sleep, I didn't get much that first night because...
 
@@ -79,7 +86,9 @@ actually send it. I can see how to do it with Ajax to a service like
 twilo, but that seems silly; surely I can just get the phone to send
 the text.
 
-I'm itching to try embedded app development with [RustyPebble][], too.
+I might build an app to sync my MisFit data to the fitbit API (though
+I'd rather somebody else did that for me). And I'm itching to try
+embedded app development with [RustyPebble][], too.
 
 [1]: http://developer.getpebble.com/guides/js-apps/pebble-js/
 [2]: https://cloudpebble.net/
@@ -88,31 +97,20 @@ I'm itching to try embedded app development with [RustyPebble][], too.
 [RustyPebble]: https://github.com/franc0is/RustyPebble
 
 Anyway, it's game over. I returned the Vivofit without even opening
-it.
+it. The Pebble beat out my Casio watch too:
 
-Things I've noticed since then:
-
-  * It charges quickly enough that there's no conflict with sleep
-    tracking. I just charge it for an hour or so every few days while
-    I commute or while I'm at my desk.
-  * Android Smart Lock is great! I only have to key in my PIN about
-    once a day now.
-  * Weather on my wrist is nice.
-  * I never miss a phone call now. I keep my phone on vibrate pretty
-    much all the time, and though I always wear it, sometimes I didn't
-    notice the buzz.
-
-On the down side:
-
-  * No way to get my MisFit data back yet; Android sync is
-    ["coming soon"][6].
-  * The sleep tracker kicked in when I watched a movie one night. And
-    if there's a way to correct it, I haven't found it.
-  * The defaults for notifications were a little overwhelming and I
-    had to go in to the detailed tuning options.
-  * One time when I looked at my wrist for the time, I got an email
-    message instead; a boring twitter policy update at that.
-  
-
-[6]: https://apps.getpebble.com/applications/53a898a2cfee2a02c900006c
-
+  1. It's a good value, though if I lost or broke it, I'm not sure
+     whether I'd replace it right away or make do with the old watch
+     for a while. Time will tell.
+  2. It's pretty low maintenance. It charges quickly enough that
+     there's no conflict with sleep tracking. I just charge it for an
+     hour or so every few days while I commute or while I'm at my
+     desk. The defaults for notifications were a little overwhelming,
+     but it's fine now that I played with the options a bit.
+  3. It tells time and date, plus the weather and steps and sleep and
+     appointments texts and email and anything else developers like me
+     can dream up. Once a boring email message got in the way of job 1
+     when I looked for the time. But I'm happy with the trade. I never
+     miss a phone call now. And thanks to Android Smart Lock
+     integration, it saves me keying in my PIN but about once a day.
+ 
