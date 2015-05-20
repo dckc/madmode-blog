@@ -1,6 +1,5 @@
 title: studying Knuth's Mastermind Solver with rust
-published: false
-date: 2015-05-19
+date: 2015-05-20
 
 To celebrate rust turning 1.0, here's what I learned with [mmind5][],
 a study of [Knuth's five guess algorithm for mastermind][wp5].
