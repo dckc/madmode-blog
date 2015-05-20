@@ -137,13 +137,3 @@ test; cargo doc`.
 
 I'm also addicted to emacs and flycheck-mode. flycheck-rust works pretty
 well but helping it find the crate root is a little fidgety.
-
-
-Fodder:
-
-another use of rust to study something: https://github.com/dckc/rust-rserve
-
-ambient authority
-Least Authority rust std/core libs
-#2 opened on Oct 24, 2012 by dckc
-https://github.com/dckc/rust/issues/2
