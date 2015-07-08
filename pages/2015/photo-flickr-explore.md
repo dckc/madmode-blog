@@ -32,26 +32,6 @@ published: true
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>it's time to take flickr up on the terabyte storage offer from they've been running since May 2013. My friends-and-family photo sharing community mostly uses facebook these days, but for curating an archive, flickr is a much better match:</p>
-<ul>
-<li>datetaken separate from date uploaded</li>
-<li>easy access to original photo</li>
-<li>archive by date taken</li>
-<li>by place on map</li>
-<li>by tag</li>
-</ul>
-<p>2004 flickr DanC (er... or was that when I created the affiliated yahoo account?)
-2006-03: dckc on flickr: travel, kids, dogs, banff, roadtrip, ...
-<a href="https://www.flickr.com/photos/dckc/archives/date-posted/2004/12/calendar/">https://www.flickr.com/photos/dckc/archives/date-posted/2004/12/calendar/</a> shows I posted in Dec 2004</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Home-directory-in-encrypted-sparsebundle">Home directory in encrypted sparsebundle<a class="anchor-link" href="#Home-directory-in-encrypted-sparsebundle">&#182;</a></h3><p>This photo library is on an external USB drive, in an encrypted sparsebundle. The <a href="https://discussions.apple.com/thread/2082558?tstart=0">sparsebundle support discussion</a> said all I have to do is double-click it, but it's hidden (filename starts with a dot). Command-line to the rescue, again: <code>open /Users/.maryc</code>.</p>
 
 </div>
