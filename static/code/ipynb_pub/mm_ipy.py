@@ -24,7 +24,7 @@ __ https://github.com/Carreau/posts/blob/master/06-NBconvert-Doc-Draft.ipynb
 '''
 
 from IPython.config import Config
-from IPython.nbformat import current as nbformat
+from IPython.nbformat import v4 as nbformat
 
 
 def main(argv, arg_rd, arg_wr, HTMLExporter,
@@ -36,16 +36,18 @@ def main(argv, arg_rd, arg_wr, HTMLExporter,
 
     notebook_txt = arg_rd(notebook_fn).read()
     with arg_wr(article_fn) as outfp:
+
         for chunk in article_of(notebook_txt, HTMLExporter):
             outfp.write(chunk.encode(encoding))
 
 
 def article_of(notebook_txt, HTMLExporter):
-    notebook = nbformat.reads_json(notebook_txt)
+    notebook = nbformat.reads(notebook_txt)
 
     hide, meta = article_meta(notebook)
+
     for ix in sorted(hide, reverse=True):
-        del notebook.worksheets[0].cells[ix]
+        del notebook.cells[ix]
 
     for n, v in meta:
         yield '%s: %s\n' % (n, v)
@@ -61,39 +63,31 @@ def article_of(notebook_txt, HTMLExporter):
 
 
 def article_meta(notebook,
-                 meta_start='<pre class="about yaml">',
-                 meta_end='</pre>'):
+                 meta_start=3,
+                 meta_end=-1):
     '''Collect article metadata from a notebook.
 
-    The title is taken from the (first) heading level 1 cell.
+    The title is taken from the first line of the first cell.
 
-    Other metadata is taken from the (first) cell that starts with::
+    Other metadata is written in YAML-ish name: value style (see
+    :func:`grok_yaml` for details) and taken from lines of the first
+    cell sliced as::
 
       >>> print article_meta.func_defaults[0]
-      <pre class="about yaml">
-
-    Metadata is written in YAML-ish name: value style (see :func:`grok_yaml`
-    for details).
-
-    The closing tag is ignored::
-
+      3
       >>> print article_meta.func_defaults[1]
-      </pre>
+      -1
+
     '''
-    def find_cell(test):
-        return ((i, cell['source'])
-                for i, cell in enumerate(notebook.worksheets[0].cells)
-                if test(cell)).next()
+    lines = notebook.cells[0].source.split('\n')
 
-    h1_ix, h1 = find_cell(
-        lambda cell: (cell['cell_type'] == 'heading'
-                      and cell['level'] == 1))
+    h1_ix = 0
+    h1 = lines[0][len('# '):].strip()
 
-    meta_ix, meta_txt = find_cell(
-        lambda cell: (cell['cell_type'] == 'markdown'
-                      and cell['source'].startswith(meta_start)))
+    meta_ix = 0
+    meta_txt = '\n'.join(lines[meta_start:meta_end])
 
-    meta = grok_yaml(meta_txt, [meta_start, meta_end])
+    meta = grok_yaml(meta_txt)
 
     return [h1_ix, meta_ix], [('title', repr(str(h1)))] + meta
 
