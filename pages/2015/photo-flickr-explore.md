@@ -1,6 +1,6 @@
 title: Syncing a 5 Year iPhoto Library with flickr
 date: 2015-07-07
-tags: [mac, photos, sysadmin]
+tags: [mac, photo, sysadmin]
 published: true
 
 <div class="cell border-box-sizing text_cell rendered">
