@@ -1,9 +1,7 @@
 # On investing in Etherium and DAO tokens
 
 
-I'm the proud owner of ~250 DAO tokens, I think. I can't confirm on [the creation page](https://daohub.org/creation.html) but I have a receipt:
-[0x1be4715b9fc0e3b6c6793f6d27ba1ca00d4a47d9b4ab1fe51fa456a33adde355](https://etherscan.io/tx/0x1be4715b9fc0e3b6c6793f6d27ba1ca00d4a47d9b4ab1fe51fa456a33adde355)
-[out of gas](https://forum.daohub.org/t/out-of-gas-could-not-get-doa/2148)?
+I'm the proud owner of DAO Tokens owned : 227.27 DAO tokens. receipts: [1 ETH](https://etherscan.io/tx/0x06bee04bc3f3286557e0aa9e12313a169184f074a41b3c650b0fa13c69daa9f6), [1.5 ETH](https://etherscan.io/tx/0x7340c3f8b91cb64c811b9079b0c716d86fd7568cd23f390b0333d467d337c858)
 
 read some stuff on https://daohub.org/; several links and several pages in, I find a proposal for a [generalized airbnb](https://forum.daohub.org/t/slock-it-proposal-1-discussion-thread/539).
 follow-the-money seems to lead to slock.it
@@ -32,13 +30,6 @@ so they refer me to bity
 
 mist takes forever to sync... and eats >1G disk space in ~/.ethereum without really telling you what's going on
 
-
-https://ethereumwallet.com/index.html
-ETH address
-...8f3c
-
-paid 2.5 ETH to TheDao
-
 Searching turned up [How do I buy Ethereum with USD? answer](http://ethereum.stackexchange.com/a/1916) Mar 8 at 5:38 by niksmac
 
 coinbase
@@ -48,6 +39,17 @@ SMS callback, 2FA with TOTP (google authenticator)
 bought 2.55384881 Ether
 https://etherscan.io/tx/0x77fef130c7b576e188018602206141723bd11ff47cb8baadaab370fc29892618
 
+So I used
+https://ethereumwallet.com/index.html
+ETH address
+...8f3c
+
+paid 2.5 ETH to TheDao
+
+Couldn't confirm on [the creation page](https://daohub.org/creation.html). My transaction,
+[0x1be4715b...](https://etherscan.io/tx/0x1be4715b9fc0e3b6c6793f6d27ba1ca00d4a47d9b4ab1fe51fa456a33adde355) didn't work. [out of gas](https://forum.daohub.org/t/out-of-gas-could-not-get-doa/2148).
+
+So I used https://www.myetherwallet.com/#the-dao , which added sufficient gas to run the contract.
 
 https://www.reddit.com/r/ethereum/comments/41tbmp/ethereum_mist_how_long_does_it_take_to_sync/
 
