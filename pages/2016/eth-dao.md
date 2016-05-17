@@ -3,6 +3,7 @@
 
 I'm the proud owner of ~250 DAO tokens, I think. I can't confirm on [the creation page](https://daohub.org/creation.html) but I have a receipt:
 [0x1be4715b9fc0e3b6c6793f6d27ba1ca00d4a47d9b4ab1fe51fa456a33adde355](https://etherscan.io/tx/0x1be4715b9fc0e3b6c6793f6d27ba1ca00d4a47d9b4ab1fe51fa456a33adde355)
+[out of gas](https://forum.daohub.org/t/out-of-gas-could-not-get-doa/2148)?
 
 read some stuff on https://daohub.org/; several links and several pages in, I find a proposal for a [generalized airbnb](https://forum.daohub.org/t/slock-it-proposal-1-discussion-thread/539).
 follow-the-money seems to lead to slock.it
