@@ -1,5 +1,10 @@
-# Etherium and DAO
+# On investing in Etherium and DAO tokens
 
+
+I'm the proud owner of ~250 DAO tokens, I think. I can't confirm on [the creation page](https://daohub.org/creation.html) but I have a receipt:
+[0x1be4715b9fc0e3b6c6793f6d27ba1ca00d4a47d9b4ab1fe51fa456a33adde355](https://etherscan.io/tx/0x1be4715b9fc0e3b6c6793f6d27ba1ca00d4a47d9b4ab1fe51fa456a33adde355)
+
+paid 2.5 ETH to TheDao
 
 read some stuff on https://daohub.org/; several links and several pages in, I find a proposal for a generalized airbnb.
 follow-the-money seems to lead to slock.it
@@ -19,17 +24,23 @@ OK... so how do I do it?
 > To obtain DAO tokens, ... send ETH from your Ethereum Wallet ... to The DAO’s address below.
 > 0xbb9bc244d798123fde783fcc1c72d3bb8c189413
 
-and there's a wizard... it recommends paying eith ETH, but I don't have any, so I choose USD.
-
-coinbase
-bought ~$30 of BTC using a credit card
-SMS callback, 2FA with TOTP (google authenticator)
-quite polished compared to bity
+and there's a wizard... it recommends paying eith ETH, but I don't have any, so I choose USD,
+so they refer me to bity
   - register button wouldn't light up when I used a password manager to enter a password
     - had to manually type a char and then delete it
+  - when I ordered some ETH, they gave me international bank transfer instructions, not a credit card form.
+
+
+Searching turned up [How do I buy Ethereum with USD? answer](http://ethereum.stackexchange.com/a/1916) Mar 8 at 5:38 by niksmac
+
+
+coinbase
+bought ~$30 of BTC using a credit card... nice...
+SMS callback, 2FA with TOTP (google authenticator)
 
 bought 2.55384881 Ether
 https://etherscan.io/tx/0x77fef130c7b576e188018602206141723bd11ff47cb8baadaab370fc29892618
+
 
 
 ...8f3c
