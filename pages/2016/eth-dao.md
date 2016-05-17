@@ -67,3 +67,8 @@ Is The DAO going to be DOA? (by Dan Larimer of BitShares)
 https://www.reddit.com/r/ethereum/comments/4jnem4/is_the_dao_going_to_be_doa_by_dan_larimer_of/
 
 https://gitter.im/ethereum/go-ethereum
+
+learn the math... merkel trees... patricia...
+https://github.com/jamshidh/ethereum-client-haskell
+https://github.com/ethereum/wiki/wiki/Patricia-Tree
+https://en.wikipedia.org/wiki/Radix_tree
