@@ -4,8 +4,6 @@
 I'm the proud owner of ~250 DAO tokens, I think. I can't confirm on [the creation page](https://daohub.org/creation.html) but I have a receipt:
 [0x1be4715b9fc0e3b6c6793f6d27ba1ca00d4a47d9b4ab1fe51fa456a33adde355](https://etherscan.io/tx/0x1be4715b9fc0e3b6c6793f6d27ba1ca00d4a47d9b4ab1fe51fa456a33adde355)
 
-paid 2.5 ETH to TheDao
-
 read some stuff on https://daohub.org/; several links and several pages in, I find a proposal for a generalized airbnb.
 follow-the-money seems to lead to slock.it
 
@@ -30,9 +28,16 @@ so they refer me to bity
     - had to manually type a char and then delete it
   - when I ordered some ETH, they gave me international bank transfer instructions, not a credit card form.
 
+mist takes forever to sync... and eats disk space in ~/.ethereum without really telling you what's going on
+
+
+https://ethereumwallet.com/index.html
+ETH address
+...8f3c
+
+paid 2.5 ETH to TheDao
 
 Searching turned up [How do I buy Ethereum with USD? answer](http://ethereum.stackexchange.com/a/1916) Mar 8 at 5:38 by niksmac
-
 
 coinbase
 bought ~$30 of BTC using a credit card... nice...
@@ -42,10 +47,7 @@ bought 2.55384881 Ether
 https://etherscan.io/tx/0x77fef130c7b576e188018602206141723bd11ff47cb8baadaab370fc29892618
 
 
-
-...8f3c
-
-~/.ethereum
+https://www.reddit.com/r/ethereum/comments/41tbmp/ethereum_mist_how_long_does_it_take_to_sync/
 
 geth --fast
 
@@ -55,4 +57,8 @@ geth --fast
 https://github.com/ethereum/go-ethereum/issues/2469
 https://github.com/ethereum/go-ethereum/pull/1889
 
+todo:
+
+Verifying the DAO code
+https://github.com/slockit/DAO/wiki/The-DAO-v1.0-Code#verifying-the-dao-code
 
