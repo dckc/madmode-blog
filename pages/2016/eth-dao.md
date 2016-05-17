@@ -9,6 +9,7 @@ follow-the-money seems to lead to slock.it
 
 The DAO is rewarding - er... any argument to back that claim? a simple 3-point argument that there's some ROI in here... is that too much to ask?
 The DAO is code -- OK, that's something I understand. Though the code is kinda scary. All imperative.
+https://solidity.readthedocs.io/en/latest/control-structures.html
 The VM is nearly ocap-happy; *what was the one exception I found?*
 
 The DAO Raises More Than $117 Million in World's Largest Crowdfunding to Date
@@ -62,3 +63,7 @@ todo:
 Verifying the DAO code
 https://github.com/slockit/DAO/wiki/The-DAO-v1.0-Code#verifying-the-dao-code
 
+Is The DAO going to be DOA? (by Dan Larimer of BitShares)
+https://www.reddit.com/r/ethereum/comments/4jnem4/is_the_dao_going_to_be_doa_by_dan_larimer_of/
+
+https://gitter.im/ethereum/go-ethereum
