@@ -29,7 +29,7 @@ so they refer me to bity
     - had to manually type a char and then delete it
   - when I ordered some ETH, they gave me international bank transfer instructions, not a credit card form.
 
-mist takes forever to sync... and eats disk space in ~/.ethereum without really telling you what's going on
+mist takes forever to sync... and eats >1G disk space in ~/.ethereum without really telling you what's going on
 
 
 https://ethereumwallet.com/index.html
