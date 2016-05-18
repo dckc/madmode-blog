@@ -1,4 +1,8 @@
-# Etherium and DAO tokens: an experience report
+title: "Etherium and DAO tokens: an experience report"
+published: true
+date: 2016-05-18
+tags: [economics, smart-contracts, collaboration]
+
 
 **Tada! I own 227.27 [DAO][] tokens.** Why? As a student of capability security and
 computer-supported collaboration in general, I'm naturally interested in
@@ -9,12 +13,14 @@ I figure I should know how it works.
 [Prisco]: https://bitcoinmagazine.com/articles/the-dao-raises-more-than-million-in-world-s-largest-crowdfunding-to-date-1463422191
 
 The buzzwords run thick and fast:
- - The DAO is **Code**.
- - The DAO is **Autonomous**.
- - The DAO is **Revolutionary**.
- - The DAO is **Rewarding**.
+
+  - The DAO is **Code**.
+  - The DAO is **Autonomous**.
+  - The DAO is **Revolutionary**.
+  - The DAO is **Rewarding**.
 
 Which of these do I believe?
+
   - **Code**: Check. The evidence is clear and compelling. The bytes are `0x60606040523615...` and a [straightforward verification process][verifying] establishes that the [source code](https://github.com/slockit/DAO) compiles to this output.
   - **Autonomous**: It autonomously does _something_ (inasmuch as miners keep the Etherium distributed VM going). An [audit][dv] has vouched that the contract is "secure" and, I gather, faithful to the [DAO whitepaper][wp]. I haven't digested the argument that what it does is fair and not controlled by any one or few actors. I'm still digesting basics such as [patricia trees](https://github.com/ethereum/wiki/wiki/Patricia-Tree), actually.
   - **Revolutionary**: Perhaps $100M in a week constitutes a revolution. But whether there will be any lasting
@@ -29,7 +35,6 @@ Which of these do I believe?
 
 I get anxious reading the code: too many of the security properties seem to rely on programmer dilligence:
   
-```
     function transfer(address _to, uint256 _amount) noEther returns (bool success) {
         if (balances[msg.sender] >= _amount && _amount > 0) {
             balances[msg.sender] -= _amount;
@@ -37,15 +42,13 @@ I get anxious reading the code: too many of the security properties seem to rely
             Transfer(msg.sender, _to, _amount);
             return true;
         }
-```
 
 Compare the above from [Token.sol][] to the elegant simplicity of [simple money in E][fc2000]:
-```
+
                 to deposit(amount :int, src) :void {
                     unsealer.unseal(src.getDecr())(amount)
                     balance += amount
                 }
-```
 
 [Token.sol]: https://github.com/slockit/DAO/blob/master/Token.sol
 [fc2000]: http://erights.org/elib/capability/ode/ode-capabilities.html
@@ -60,6 +63,7 @@ OK... so how do I do it?
 
 ... and there's a wizard... it recommends paying eith ETH. But I don't have any. So I choose USD,
 at which point they refer me to bity.
+
   - The register button wouldn't light up when I used a password manager to enter a password
     - I eventually found a work-around: manually type a character and then delete it.
   - After filling in all the info to order some ETH, they gave me international bank transfer instructions.
@@ -69,6 +73,7 @@ at which point they refer me to bity.
 So I back-track and try the recommended wallet. Mist is an node+webkit style app. When I start it up, it says it has to sync with the blockchain and stays like that for longer than my attention span. _How about some advanced notice that this is going to take hours and GB of disk space?_ I guess one should not expect good road signs in the wild west.
 
 Back-track again... Searching turned up a [How do I buy Ethereum with USD? answer](http://ethereum.stackexchange.com/a/1916) Mar 8 at 5:38 by niksmac:
+
    1. Buy BTC with a debit card at coinbase.
       - The experience is much more what I expected. I did the SMS callback verification dance and exchanged $30 for BTC using a debit card within 10 or 15 minutes. I switched the 2FA on my account from SMS to TOTP (google authenticator) in the process.
    2. Exchange BTC for ETH using shapeshift.
