@@ -31,19 +31,16 @@ class KB(object):
                    sort, filter='all', count=100):
         params = dict(user=user, sort=sort, filter=filter, count=count,
                       key=apikey)
-        it = endpoint / 'bookmarks' / params
+        it = endpoint / 'bookmarks' & params
         return json.load(it.open())
 
 
 class WebPath(object):
     def __init__(self, here, opener):
         self.open = lambda: opener.open(here)
-
-        def pathjoin(other):
-            if isinstance(other, dict):
-                other = '?' + urlencode(other)
-            return WebPath(urljoin(here, other), opener)
-        self.pathjoin = pathjoin
+        self.pathjoin = lambda other: WebPath(urljoin(here, other), opener)
+        self.query = lambda params: WebPath(
+            urljoin(here, '?' + urlencode(params)), opener)
 
     @classmethod
     def basicAuthOpener(self, build_opener):
@@ -57,6 +54,9 @@ class WebPath(object):
 
     def __div__(self, other):
         return self.pathjoin(other)
+
+    def __and__(self, other):
+        return self.query(other)
 
 
 if __name__ == '__main__':
