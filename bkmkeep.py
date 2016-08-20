@@ -1,60 +1,72 @@
+from functools import partial
+from urlparse import urljoin
 from urllib import urlencode
 import json
+from urllib2 import (HTTPPasswordMgrWithDefaultRealm,
+                     HTTPBasicAuthHandler)
 
-from ocap.laweb import WebReadable
-from ocap import encap
 
+def main(argv, stdout, environ, build_opener):
+    username, password_key, apikey = argv[1:4]
 
-def main(argv, mkRd, stdout):
-    apikey, username, password = argv[1:4]
-    rd = mkRd(username, password)
-    kb = KB(apikey, rd)
-    it = kb.bookmarks(username)
+    password_mgr, opener = WebPath.basicAuthOpener(build_opener)
+    password_mgr.add_password(None, KB.api_base,
+                              username, environ[password_key])
+
+    endpoint = WebPath(KB.api_base, opener)
+    kb = KB(endpoint, username, environ[apikey])
+    it = kb.bookmarks(sort=KB.updated_at)
     json.dump(it, stdout, indent=2)
 
 
-class KB(encap.ESuite):
+class KB(object):
     api_base = 'https://secure.diigo.com/api/v2/'
 
     created_at, updated_at, popularity = range(1, 4)
 
-    def __new__(cls, apikey, rd):
-        def get(path, **params):
-            return rd.subRdFile(path + '?' + urlencode(params)).getBytes()
+    def __init__(self, endpoint, user, apikey):
+        self.bookmarks = partial(self._bookmarks, endpoint, user, apikey)
 
-        def bookmarks(_, user, sort=KB.updated_at, filter='all', count=100,
-                      path='bookmarks'):
-            body = get(path, user=user, sort=sort, filter=filter, count=count,
-                       key=apikey)
-            return json.loads(body)
-
-        return cls.make(bookmarks)
+    def _bookmarks(self, endpoint, user, apikey,
+                   sort, filter='all', count=100):
+        params = dict(user=user, sort=sort, filter=filter, count=count,
+                      key=apikey)
+        it = endpoint / 'bookmarks' / params
+        return json.load(it.open())
 
 
-def mkRdMaker(urllib2, top_level_url):
-    '''Return fn to make basic auth WebReadable.
+class WebPath(object):
+    def __init__(self, here, opener):
+        self.open = lambda: opener.open(here)
 
-    ack: http://docs.python.org/2/howto/urllib2.html
-    '''
-    def mkUA(username, password):
-        password_mgr = urllib2.HTTPPasswordMgrWithDefaultRealm()
+        def pathjoin(other):
+            if isinstance(other, dict):
+                other = '?' + urlencode(other)
+            return WebPath(urljoin(here, other), opener)
+        self.pathjoin = pathjoin
 
-        password_mgr.add_password(None, top_level_url, username, password)
+    @classmethod
+    def basicAuthOpener(self, build_opener):
+        '''
+        ack: http://docs.python.org/2/howto/urllib2.html
+        '''
+        password_mgr = HTTPPasswordMgrWithDefaultRealm()
+        handler = HTTPBasicAuthHandler(password_mgr)
+        opener = build_opener(handler)
+        return password_mgr, opener
 
-        handler = urllib2.HTTPBasicAuthHandler(password_mgr)
-        opener = urllib2.build_opener(handler)
-
-        return WebReadable(top_level_url, opener, urllib2.Request)
-
-    return mkUA
+    def __div__(self, other):
+        return self.pathjoin(other)
 
 
 if __name__ == '__main__':
-    def _initial_caps():
+    def _script():
+        from os import environ
         from sys import argv, stdout
-        import urllib2
+        from urllib2 import build_opener
 
-        return dict(argv=argv, stdout=stdout,
-                    mkRd=mkRdMaker(urllib2, KB.api_base))
+        main(argv=argv[:], stdout=stdout,
+             environ=environ,
+             build_opener=build_opener)
 
-    main(**_initial_caps())
+    _script()

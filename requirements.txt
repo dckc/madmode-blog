@@ -1,2 +1,0 @@
-# pip install -e hg+https://DanC@bitbucket.org/DanC/blackknightcap#egg=ocap
-blackknightcap
