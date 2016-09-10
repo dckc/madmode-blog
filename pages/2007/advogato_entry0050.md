@@ -1,6 +1,6 @@
 title: Social standards and coding fugues
 date: 2007-02-09
-tags: []
+tags: [books, programming, america, security]
 published: true
 
 <strong class="title">Social standards and coding
