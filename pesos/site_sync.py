@@ -6,7 +6,11 @@ def main(argv, stdout, environ, connect):
         protocol='https',
         # We serve webdav at /remote.php/webdav for Owncloud's benefit
         # -- https://github.com/mnutt/davros/issues/44
-        path='/remote.php/webdav/')
+        # Davros should probably do a better job of handling ...
+        # double slashes before remote.php, resulting in the url
+        # looking like //remote.php/webdav
+        # https://github.com/mnutt/davros/issues/41#issuecomment-247787540
+        path='remote.php/webdav/')
 
     print >>stdout, webdav
     print >>stdout, webdav.ls()
