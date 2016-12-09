@@ -10,9 +10,9 @@ from datetime import date, datetime
 from fabric.api import local
 from flask import Flask, render_template, abort
 from flask_frozen import Freezer
-from flaskext.flatpages import FlatPages
+from flask_flatpages import FlatPages
 from flaskext.markdown import Markdown
-from flaskext.assets import Environment as AssetManager
+from flask_assets import Environment as AssetManager
 from PIL import Image, ImageOps
 from itertools import groupby
 from shutil import copyfile
