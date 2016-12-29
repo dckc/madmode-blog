@@ -36,7 +36,7 @@ Suppose we re-organize this as:
             print >>stdout, qty, filename
 
     if __name__ == '__main__':
-        def _initial_caps():
+        def _script():
             from sys import argv, stdout
 
             def open_arg(arg):
@@ -45,9 +45,9 @@ Suppose we re-organize this as:
                         'only paths given as arguments can be opened')
                 return open(arg)
 
-            return dict(argv=argv[:], stdout=stdout, open_arg=open_arg)
+            main(argv=argv[:], stdout=stdout, open_arg=open_arg)
 
-        main(**_initial_caps())
+        _script()
 
 Now `main()` communicates with the outside world only through
 [capabilities](http://erights.org/elib/capability/ode/ode-capabilities.html)
