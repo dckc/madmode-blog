@@ -1,5 +1,5 @@
 title: Google Fiber vs. Kansas Jayhawks
-published: False
+published: true
 date: 2016-12-28
 tags: [KC, sports, Internet]
 
