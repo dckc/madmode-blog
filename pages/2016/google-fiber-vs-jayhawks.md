@@ -1,7 +1,7 @@
 title: Google Fiber vs. Kansas Jayhawks
 published: False
 date: 2016-12-28
-tags: KC, sports, Internet
+tags: [KC, sports, Internet]
 
 Google Fiber finally came to my neighborhood. The deadline to sign up
 was November 3.
