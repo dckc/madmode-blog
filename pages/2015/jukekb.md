@@ -1,5 +1,5 @@
 title: jukekb - Browse iTunes libraries and upload playlists to Google Music
-date: 2015-05-20
+date: 2015-07-11
 tags: [music, python, programming, javascript, cloud-services, digital media]
 published: true
 
