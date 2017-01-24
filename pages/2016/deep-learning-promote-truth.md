@@ -1,7 +1,7 @@
 title: Can Google and Facebook robots help the Web promote the truth?
 date: 2016-12-30
 published: true
-tags: ["America", "digital media", journalism, publishing, "economics"]
+tags: ["america", "digital media", journalism, publishing, "economics"]
 
 > A critical, independent and investigative press is the lifeblood of
 > any democracy. -- Nelson Mandela
