@@ -34,3 +34,10 @@ But
 
   - [setting up tftp boot](http://www.embeddedhobbyist.com/2013/06/beaglebone-black-network-boot/) involves editing `uEnv.txt` and it's not obvious how to recover if it doesn't work
   - [seL4 on the BeagleBone](https://wiki.sel4.systems/Hardware/Beaglebone) requires a serial cable, which I don't have - at $9.95, it's half the price of the computer itself!
+
+----
+
+fodder:
+
+[FreeBSD on Beagle Bone Black (easy as pie)](https://euroquis.nl/bobulate/?p=1353)
+Posted on August 29, 2015 by adridg
