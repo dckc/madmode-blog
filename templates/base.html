@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width"/>
 
     <!-- https://dev.twitter.com/docs/cards -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="dckc">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="dckc" />
 
 {%- assets filter="cssmin", output="packed.css",
     "css/style.css",
@@ -19,7 +19,7 @@
 %}
     <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}"/>
 {%- endassets %}
-    <link rel="alternate" type="application/rss+xml" href="{{ url_for("feed") }}" title="Everything (RSS)"/>
+    <link rel="alternate" type="application/rss+xml" href="{{ url_for('feed') }}" title="Everything (RSS)"/>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -30,7 +30,7 @@
     <![endif]-->
     <div class="container">
         <header class="main-title">
-            <h1><a href="{{ url_for("index") }}">MadMode</a></h1>
+            <h1><a href="{{ url_for('index') }}">MadMode</a></h1>
             <small>Dan Connolly's tinkering lab notebook</small>
         </header>
         <div class="contents">
@@ -40,60 +40,59 @@
         </div>
         <nav class="sidebar">
             <ul>
-                <li class="home"><a href="{{ url_for("index") }}" hreflang="en">Home</a></li>
+                <li class="home"><a href="{{ url_for('index') }}" hreflang="en">Home</a></li>
 <!-- @@                <li class="code"><a href="@@ url_for("section", section="code") }}" hreflang="en">Blog</a></li> -->
                <li>Archives
 		 {% for year in years  %}
-		 | <a href="{{ url_for("archives_year", year=year) }}"
+		 | <a href="{{ url_for('archives_year', year=year) }}"
 		      >{{ year }}</a>
 		 {% endfor %}
                </li>
 
-                <li class="contact"><a href="{{ url_for("contact") }}" hreflang="en">Contact</a></li>
+                <li class="contact"><a href="{{ url_for('contact') }}" hreflang="en">Contact</a></li>
             </ul>
         </nav>
         <footer class="site-footer">
             <address>
-  <a href="https://www.codementor.io/dckc?utm_source=github&utm_medium=button&utm_term=dckc&utm_campaign=github" rel="me">
+  <a href="https://www.codementor.io/dckc" rel="me">
     <img  class="social-icon"
           src="https://cdn.codementor.io/badges/i_am_a_codementor_dark.svg"
           alt="I am a codementor" /></a>
-  &nbsp;&nbsp;&nbsp;
+  &#160;&#160;&#160;
   <a href="https://github.com/dckc" rel="me">
     <img src="/static/img/GitHub-Mark/PNG/GitHub-Mark-64px.png"
 	 width="40px" height="40px" class="social-icon"
 	 alt="dckc on github" /></a>
-  &nbsp;&nbsp;&nbsp;
+  &#160;&#160;&#160;
   <a href="http://bitbucket.org/DanC" rel="me">
     <img src="/static/img/bitbucket_icon.png"
 	 width="40px" height="40px" class="social-icon"
 	 alt="bitbucket/DanC code" /></a>
-  &nbsp;&nbsp;&nbsp;
+  &#160;&#160;&#160;
   <a href="https://twitter.com/dckc" rel="me">
     <img src="/static/img/twitter_icon.png"
 	 width="40px" height="40px" class="social-icon"
 	 alt="@dckc on twitter" /></a>
-  &nbsp;&nbsp;&nbsp;
+  &#160;&#160;&#160;
   <a href="https://www.linkedin.com/in/connollydan/" rel="me">
     <img class="social-icon"
          src="/static/img/In-2C-34px-R.png"
-	 width="40px" height="40px" class="social-icon"
 	 alt="Dan Connolly on LinkedIn" /></a>
-  &nbsp;&nbsp;&nbsp;
+  &#160;&#160;&#160;
   <a href="https://keybase.io/dckc">
     <img class="social-icon"
          src="https://keybase.io/images/icons/icon-keybase-logo-48.png"
          alt="dckc on keybase" />
   </a>
-  &nbsp;&nbsp;&nbsp;
+  &#160;&#160;&#160;
   <a href="https://21.co/madmode/" rel="me">
     <img class="social-icon"
          src="https://static.21.co/shared/img/icon-21-gold.svg" alt=""/>
   </a>
 
   <br />
-  <small>&#169; 1994-2017 <a href="{{ url_for("contact") }}">Dan Connolly. Contact me.</a></small>
-    
+  <small>&#169; 1994-2017 <a href="{{ url_for('contact') }}">Dan Connolly. Contact me.</a></small>
+
               <br/>
             </address>
         </footer>
