@@ -1,4 +1,7 @@
-# Making Secure IoT: seL4 on my Raspberry Pi 3B
+title: "Making Secure IoT: seL4 on my Raspberry Pi 3B"
+date: 2017-11-09
+tags: [security, capabilities, make, diy, arm, hardware, rpi]
+published: true
 
 I got seL4 running on my Raspberry Pi 3B tonight.
 
