@@ -1,3 +1,8 @@
+title: Coming out from under a rock with a beaglebone and spark
+date: 2017-08-13
+published: false
+
+
 I'm coming out from under a rock with a beaglebone and spark.
 
 Even though I've worked with Dale Dougherty since the early '90s, I've been on the sidelines of the whole maker thing.
