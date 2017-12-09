@@ -5,7 +5,7 @@ published: true
 
 I got seL4 running on my Raspberry Pi 3B tonight.
 
-Even though I've worked with Dale Dougherty since the early '90s,
+Even though I worked with Dale Dougherty in the early '90s,
 I've been on the sidelines of the whole maker thing until September when
 Micro Center bundled a [Google AIY VOICE KIT with Raspberry Pi 3B for $35][AIY].
 
