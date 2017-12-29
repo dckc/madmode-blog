@@ -1,0 +1,6 @@
+date: 2006-10-26
+title: 'Now is a good time to try the tabulator'
+published: True
+tags: ['breadcrumbs']
+
+<div><p> Tim presented the tabulator to the W3C team today; see slides: <cite><a href="http://www.w3.org/2006/Talks/1019-tab-tbl/">Tabulator: AJAX Generic RDF browser</a></cite>.</p>  <p>The tabulator was sorta all over the floor when I tried to present it in Austin in September, but <a href="/breadcrumbs/blog/14">David Sheets</a> put it back together in the last couple weeks. Yay David!</p>  <p>In particular, the support for viewing the HTTP data that you pick up by tabulating is working better than ever before. The HTTP vocabulary has URIs like http://dig.csail.mit.edu/2005/ajar/ajaw/httph#content-type. That seems like an interesting contribution to the WAI ER work on <cite><a href="http://www.w3.org/WAI/ER/HTTP/WD-HTTP-in-RDF-20060705">HTTP Vocabulary in RDF</a></cite>.</p>  <p>Note <a href="/breadcrumbs/node/152">comments are disabled</a> here in breadcrumbs until we figure out <a href="/breadcrumbs/node/4">OpenID comment policies</a> and <a href="/breadcrumbs/taxonomy/term/2">drupal etc.</a>. The <a href="/issues/tabulator/">tabulator issue tracker</a> is probably a better place to report problems anyway. We don&#39;t have OpenID working there yet either, unfortunately, but we do support email callback based account setup. </p>  </div> 

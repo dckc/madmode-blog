@@ -1,0 +1,6 @@
+date: 2006-01-23
+title: 'Fun with Policy Aware Web at UMD, AFS/SVN at CSAIL'
+published: True
+tags: ['breadcrumbs']
+
+<p>My January travel took me to MIT for a one-day <a href="/">DIG</a> meeting where the main thing I can remember is discussion of <a href="http://tig.csail.mit.edu/twiki/bin/view/TIG/UsingSubversionAtCSAIL">CSAIL&#39;s support for SVN</a> over AFS, and moving development of tabulator and dbview there so that students can commit without w3.org write access.</p>  <p>Then it was off to DCA for a <a href="http://www.policyawareweb.org/">Policy Aware Web project</a> meeting where we reviewed the status of the demo, which is moving along nicely aside from a persistent problem in the cwm proof generation/checking stuff, somewhere near a unification algorithm. We developed a 4-party federated authorization use case involving OpenID and stuff. Stay tuned to see if we can build it...</p>  <p>I spent most of Friday afternoon trying to get ssh+svn to write to an AFS volume. I could get my kerberos credentials to go accross the ssh connection, but I can&#39;t seem to get the right AFS credentials while I&#39;m at it.</p>   <p><em>postscript: <a href="http://swiss.csail.mit.edu/~cph/">Chris</a> helped me get it working. The undocumented trick was setting the option &quot;GSSAPIDelegateCredentials&quot; to &quot;yes&quot; in my ~/.ssh/config.</em></p>
