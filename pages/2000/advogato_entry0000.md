@@ -1,6 +1,6 @@
 title: 13 Sep 2000
 date: 2000-09-13
-tags: []
+tags: ['sysadmin', 'writing']
 published: true
 
 <p>

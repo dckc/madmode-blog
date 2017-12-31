@@ -1,6 +1,6 @@
 title: Fun and Frustration with Scala
 date: 2010-01-18
-tags: ['programming']
+tags: ['programming', 'scala']
 published: true
 
 <b>Fun and Frustration with Scala</b>

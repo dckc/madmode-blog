@@ -1,4 +1,4 @@
-tags: ['coco', 'python', 'digial media', 'signal processing']
+tags: ['coco', 'python', 'digial media', 'signal processing', 'ipython']
 date: 2012-12-30
 published: true
 title: '"Light Runner", an exercise in digital preservation'

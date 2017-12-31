@@ -1,7 +1,7 @@
 title: College Expense Tracking in BASIC09
 date: 2017-12-30
 published: True
-tags: ['coco', 'finances', 'economics', 'America', 'ipython']
+tags: ['coco', 'finances', 'economics', 'america', 'ipython']
 
 It's no wonder my kids struggle so much more to pay for college:
 

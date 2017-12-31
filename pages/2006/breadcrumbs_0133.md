@@ -1,7 +1,7 @@
 date: 2006-05-04
 title: "RDF, Microformats, and Javascript hacking in person at the 'tute"
 published: True
-tags: ['breadcrumbs', 'mobile', 'javascript', 'microformats', 'travel', 'calendar', 'BOS', 'bos']
+tags: ['breadcrumbs', 'mobile', 'javascript', 'microformats', 'travel', 'calendar', 'BOS']
 
 <div>
 

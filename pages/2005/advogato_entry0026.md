@@ -1,6 +1,6 @@
 title: Using hCard, XSLT, and RDF to sync the family cellphones
 date: 2005-06-26
-tags: ['WearableGizmo']
+tags: ['mobile', 'contacts', 'microformats']
 published: true
 
 <b>Using hCard, XSLT, and RDF to sync the family cellphones</b>

@@ -1,6 +1,6 @@
 title: "Capability Security Advances: seL4, sandstorm, Rserve"
 date: 2014-08-13
-tags: [programming, security, capabilities, python, javascript, vm, seL4, kernel]
+tags: [programming, security, capabilities, python, javascript, vm, seL4]
 published: true
 summary: seL4 is open source, sandstorm.io is coming, and Rserve has
          an ocap mode.

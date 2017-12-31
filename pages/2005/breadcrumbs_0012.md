@@ -1,7 +1,7 @@
 date: 2005-10-31
 title: 'Shopping for a client-side blogging editor'
 published: True
-tags: ['breadcrumbs', 'authoring']
+tags: ['breadcrumbs', 'writing']
 
 Requirements that at least one tool has failed:
 

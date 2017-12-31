@@ -1,7 +1,7 @@
 title: "Introducing Capabilities to the Next Generation"
 published: true
 date: 2016-12-08
-tags: [capabilities, talks, kc, open source, security]
+tags: [capabilities, talks, KC, free culture, security]
 
 The consequences of hooking stuff up to the Internet without
 sufficient care are going up all the time:

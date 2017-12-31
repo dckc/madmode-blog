@@ -1,6 +1,6 @@
 date: 2010-06-04
 published: true
-tags: [economics, art, 'digital media', publishing, writing,
+tags: [economics, 'digital media', publishing, writing,
        'free culture', aaronsw]
 title: A Return to Patronism
 updated: 2011-05-09

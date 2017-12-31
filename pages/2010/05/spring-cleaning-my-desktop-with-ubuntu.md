@@ -1,6 +1,6 @@
 date: 2010-05-11
 published: true
-tags: [linux, Free Software, sysadmin, ubuntu]
+tags: [linux, free culture, sysadmin, ubuntu]
 title: Spring cleaning my desktop with Ubuntu 10.4 lucid amd64
 updated: 2010-06-02
 

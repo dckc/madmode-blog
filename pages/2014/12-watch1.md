@@ -1,7 +1,7 @@
 title: Pebble beats out Garmin Vivofit for my wrist
 published: true
 date: 2014-12-19
-tags: [mobile, health, javascript, android, pebble, smartwatch, quantified-self]
+tags: [mobile, health, javascript, android]
 summary: extending the open web platform to my wrist
 
 My wife, big on walking but not usually a gadget freak, got so

@@ -1,6 +1,6 @@
 date: 2009-05-05
 published: true
-tags: [mobile, travel, SFO, Free Software, finance, android, business, america]
+tags: [mobile, travel, SFO, 'free culture', finances, android, business, america]
 title: Expense reporting with Android, GnuCash, and IRS.gov
 updated: 2010-06-02
 

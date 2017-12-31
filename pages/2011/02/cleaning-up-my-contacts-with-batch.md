@@ -1,6 +1,6 @@
 date: 2011-02-02
 published: true
-tags: [microformats, mobile, cloud, contacts, Free Software, python, programming,
+tags: [microformats, mobile, cloud, contacts, free culture, python, programming,
   android, pim]
 title: Cleaning up my contacts with batch edits in the Google Contacts Data API
 updated: 2011-09-23

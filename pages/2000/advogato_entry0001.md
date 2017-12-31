@@ -1,6 +1,6 @@
 title: 05 Oct 2000
 date: 2000-10-05
-tags: []
+tags: ['sysadmin']
 published: true
 
 <strong>Woohoo! my <a href="http://www.advogato.org/person/connolly/diary.html?start=0">wireless woes</a> 

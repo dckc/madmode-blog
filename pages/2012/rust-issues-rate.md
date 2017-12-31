@@ -1,7 +1,7 @@
 title: Fun With Rust Issues
 date: 2012-12-23
 published: true
-tags: ['programming', 'data-visualization', 'open-source', 'collaboration']
+tags: ['programming', 'data', 'data-visualization', 'free culture', 'collaboration']
 
 <div>
 
