@@ -1,6 +1,6 @@
 title: Migrating Breadcrumbs
 date: 2017-12-29
-tags: [publishing, breadcrumbs, ipynb]
+tags: [publishing, breadcrumbs, ipython]
 summary: migrating an old drupal blog
 published: True
 
