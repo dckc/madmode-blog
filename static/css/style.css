@@ -61,12 +61,6 @@ blockquote {
   border-left: 7px solid #eeeeee;
   padding-left: 14px;
 }
-code, pre {
-  font-family: Consolas, Monaco, "Courier New", monospace;
-  font-size: 90%;
-  color: #555;
-  line-height: 21px;
-}
 figure {
   margin: 0;
   padding: 0;
@@ -114,19 +108,6 @@ img {
 p {
   line-height: 28px;
   margin: 28px 0;
-}
-pre {
-  padding: 14px;
-  color: #eee;
-  background: #000;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  white-space: pre;
-  overflow: auto;
-}
-pre code {
-  color: #eee;
 }
 q:before, q:after {
   content: "";
