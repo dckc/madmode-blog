@@ -1,11 +1,11 @@
 title: Smart Contracts and Capabilities Up Close
-published: False
+published: True
 date: 2017-12-31
 tags: ['capabilities', 'smart-contracts', 'travel', 'collaboration']
 
 This year I was invited to a [Blockchain meets Object Capabilities
 panel][SFO] in San Francisco July 3 and the [RChain developer retreat][SLC]
-in Park City Nov 12-17.
+in Park City Nov 12-17. Leaving Park City was... _interesting_.
 
 [SFO]: https://foresight.org/event/next-frontier-blockchain-meets-object-capabilities/
 [SLC]: https://github.com/rchain/Members/issues/191
@@ -32,6 +32,11 @@ Miller, Zooko Wilcox, and Brian Warner as well as Arthur Breitman of
 Brian gave a great summary of the bitcoin market forces but I was too
 engrossed in the event to take notes; the one quote I managed to write
 down was "Satoshi is probably in the room."
+
+
+_Aside: [Sandstorm Oasis](https://oasis.sandstorm.io/) let me export
+the grain I took my notes in even though my subscription had
+lapsed. That's pretty cool._
 
 The evening before the panel, @zooko gave a [shout][z84] out to my
 [awesome-ocap][] list, and in a [reply from @robertobrien][ro], I
@@ -69,3 +74,24 @@ announcement][jan11] filled in a lot of the background for me.
 
 [GM]: https://www.youtube.com/watch?v=p0a0zu5APd4
 [jan11]: https://bitcointalk.org/index.php?topic=1747033.0
+
+Nash and the gang did an amazing job hosting. We had dinner out most
+nights and breakfast in the houses in the morning, and it's a tough
+call which was better.
+
+On the last day, after a mind-blowing week, we were all lounging
+around, zoned out on our phones, when we noticed the snow. For some,
+it was their first snowstorm... nice and pretty. Then Nash snapped
+us out of it: "**Get off the mountain now** before they close
+the pass and you miss your flights!" As we were getting in the
+big rental SUV, I asked, "Have you driven in snow before?" and since
+she hadn't, the keys passed to me.
+
+The drive out was a little hairy, but
+[Vlad](https://twitter.com/VladZamfir) shared some tunes and
+we all got to know each other a little better.
+
+<figure>
+<a href="https://photos.app.goo.gl/eTkY2Pb8L8Errglf2"> <img src="https://lh3.googleusercontent.com/-aUKMLj97inQ/Wk3Dn5U6f5I/AAAAAAAAEuY/-CMagGS7HuQ6RVwCGm42zhNAYfbZkvP2gCJoC/w530-h323-n-rw/IMG_0572.jpg" alt="" />
+<figcaption>Escaping Park City</figcaption> </a>
+</figure>
