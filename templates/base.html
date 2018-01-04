@@ -12,7 +12,7 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:creator" content="dckc" />
 
-{%- assets filter="cssmin", output="packed.css",
+{%- assets filters="cssmin", output="packed.css",
     "css/style.css",
     "css/code.css",
     "css/notebook.css"
@@ -104,7 +104,7 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script><![CDATA[window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')]]></script>
-{%- assets filter="uglifyjs", output="packed.js",
+{%- assets filters="uglifyjs", output="packed.js",
     "js/libs/highlight/highlight.pack.js",
     "js/app.js"
 %}
