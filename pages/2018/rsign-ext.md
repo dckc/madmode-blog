@@ -5,15 +5,17 @@ date: 2018-10-08
 published: false
 ---
 
-I've been having fun in the RChain community working on smart contracts,
-and we got past "hello world" to the point where incoming data needs to
-be signed for the application to make any sense. And since I have a little
-experience [building WebExtensions][ext], I put one together to make signatures
-that Rholang contracts can verify.
+
+The RChain ecosystem has been developing nicely the past few months. I've had fun writing smart contracts, as well as tools that make writing smart contracts nicer. With "hello world" and [other simple contracts][nth] in the rear-view mirror, we've reached the point where data need to be signed by users. Why do data need to be signed? Because without signatures anyone on the internet could cast votes, post statuses, or spend REV tokens on my behalf.
+
+In the world of rholang, we facilitate object capabilities by using unforgeable names. These names exist only on the blockchain, and cannot be saved to disk or locked in a safe in the real world. Public-key crypto to the rescue. The user can lock their unforgeable name into "safe" a contract that anyone can call. When called the safe will give back the correct unforgeable name only if it is given a valid cryptographic signature
+
+Since I have a little experience [building WebExtensions][ext], I put one together to make signatures that Rholang contracts can verify. If you've heard of metamask in the ethereum ecosystem, RSign may look familiar.
 
 ![RSign screenshot](https://github.com/dckc/RSign/raw/master/docs/screenshots/enterjson.png)
 
 [ext]: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
+[nth]: https://github.com/JoshOrndorff/nth-caller-game
 
 [rsign-0.4.0.crx](https://github.com/dckc/RSign/releases/download/0.4.0-alpha/rsign-0.4.0.crx)
 is an alpha release (Sep 21 2ddc1d5). Using Chrome or Chromium on linux, in developer mode,
