@@ -8,7 +8,7 @@ published: false
 I've been having fun in the RChain community working on smart contracts,
 and we got past "hello world" to the point where incoming data needs to
 be signed for the application to make any sense. And since I have a little
-experience [building WebExtensions], I put one together to make signatures
+experience [building WebExtensions][ext], I put one together to make signatures
 that Rholang contracts can verify.
 
 ![RSign screenshot](https://github.com/dckc/RSign/raw/master/docs/screenshots/enterjson.png)
