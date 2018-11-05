@@ -1,65 +1,14 @@
----
-title: RSign - Extending Browsers to Sign Data on RChain
-tags: [capabilities, smart-contracts, rchain, javascript, webextensions]
-date: 2018-10-08
-published: false
----
+The RChain ecosystem has been developing nicely the past few months. I've had fun writing smart contracts as well as tools that make writing smart contracts nicer. Simple contracts like Be the 10th caller to win! work fine, but anything where we cast votes, post statuses, or spend REV tokens needs signatures to connect off-chain actions with on-chain capabilities.
+Since I have a little experience building WebExtensions, I wrote RSign. RSign is a extension to create signatures that Rholang contracts can verify. It works a little bit like MetaMask for Ethereum:
 
-I've been having fun in the RChain community working on smart contracts,
-and we got past "hello world" to the point where incoming data needs to
-be signed for the application to make any sense. And since I have a little
-experience [building WebExtensions][ext], I put one together to make signatures
-that Rholang contracts can verify.
+rsign-0.4.0.crx is an alpha release (Sep 21 2ddc1d5). Using Chrome or Chromium on linux, in developer mode, you should be able to just drop it on to chrome://extensions/, go to options to generate a key, then enter some data (using JSON) and sign it. The README has a few more screenshots and details.
+How it Works
+In Rholang, we use unforgeable names to represent object capabilities. These names exist only on the blockchain; we can’t turn off-chain data into an unforgeable name any more than we can turn an integer into an object reference in javascript. Public-key crypto to the rescue. The user can lock their unforgeable name into a "safe" contract that anyone can call. When called, the safe will give back the correct unforgeable name only if it is given a valid cryptographic signature.
+When you hit Generate, it feeds a random seed to tweetnacl and stores an ed25519 key pair in your browser's local storage, with the private key encrypted with a password you supplied.
+When you hit Sign, we convert the JSON data into a subset of Rholang called RHOCore. We mimic the Rholang .toByteArray() functionality that serializes any Rholang process using protobuf. Finally, we use the tweetnacl key to sign the serialized data and we show the results.
+Unlocking Superpowers
+For example, this contract "wraps" a superpower capability in a sort of wallet so that only Jim (the holder of the 3f3709d... key) can exercise it:
 
-![RSign screenshot](https://github.com/dckc/RSign/raw/master/docs/screenshots/enterjson.png)
+Jim signed his desired height, 12345, and sent it to the contract:
 
-[ext]: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
-
-[rsign-0.4.0.crx](https://github.com/dckc/RSign/releases/download/0.4.0-alpha/rsign-0.4.0.crx)
-is an alpha release (Sep 21 2ddc1d5). Using Chrome or Chromium on linux, in developer mode,
-you should be able to just drop it on to `chrome://extensions/`, got to options to generate a key,
-then enter some data (using JSON) and sign it.
-The [README](https://github.com/dckc/RSign#readme) has a few more screenshots and details.
-
-Behind the scenes, when you hit **Generate**, we feed a random seed to
-[tweetnacl](https://tweetnacl.js.org/) and store an ed25519 key pair in
-your browser's local storage, with the private key encrypted under
-a password you supply.
-
-When you hit **Sign**, we convert the JSON data into a subset of Rholang
-called RHOCore. Then we mimic the Rholang `.toByteArray()` functionality
-that serializes any Rholang process using protobuf. Finally, we use
-the tweetnacl key to sign the serialized data and we show the results.
-
-For example, this contract "wraps" a `superpower` capability in a sort
-of wallet so that only Jim (the holder of the `3f3709d...` key) can exercise it:
-
-```scala
-new superpower, stdout(`rho:io:stdout`) in {
-  contract @"flyJim"(@height, @sig, done) = {
-    new verifyOut in {
-      @"ed25519Verify"!(height.toByteArray(), sig,
-        "3f3709d027c6db135cd415d6b1f2e1709d8d1295cfcbd16cc228b513b7045aa3".hexToBytes(),
-        *verifyOut) |
-      for (@ok <- verifyOut) {
-        if(ok) { superpower!(height, *done) }
-        else { stdout!("bad sig!!!") }
-      }
-    }
-  }
-  |
-  contract superpower(@height, out) = {
-    out!(["flying", height])
-  }
-}
-```
-
-Jim signed his desired height, `12345`, and sent it to the contract:
-
-```scala
-new stdout(`rho:io:stdout`) in {
-@"flyJim"!(12345,"e7595db3425b4ea24d97877077972ee17bc8c0e14ed2c32d0805d2e5b7148fb7db79150659d8aa064f3c2957ea1c24aa6204ebe08fdeafe7218a3d073f0bbc08".hexToBytes(),*stdout)
-}
-```
-
-And presto, we got `@{["flying", 12345]}`.
+And presto, we got @{["flying", 12345]}.
