@@ -129,3 +129,6 @@ fi
 # added by travis gem
 [ -f /home/dconnolly/.travis/travis.sh ] && source /home/dconnolly/.travis/travis.sh
 
+# added by Miniconda2 3.18.9 installer
+#export PATH="/opt/miniconda2/bin:$PATH"
+
