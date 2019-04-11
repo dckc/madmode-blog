@@ -138,3 +138,6 @@ PERL_LOCAL_LIB_ROOT="/home/dconnolly/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_L
 PERL_MB_OPT="--install_base \"/home/dconnolly/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/dconnolly/perl5"; export PERL_MM_OPT;
 
+# https://stackoverflow.com/questions/53825857/error-ld-so-object-libgtk3-nocsd-so-0-from-ld-preload-cannot-be-preloaded
+# export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
+unset LD_PRELOAD
