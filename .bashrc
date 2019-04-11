@@ -57,7 +57,10 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    # How to: Change / Setup bash custom prompt (PS1)
+    # by Vivek Gite 2007
+    # http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
+    PS1="\[\033[01;34m\]\w\[\033[00m\]\\n\A \[\033[01;32m\]\u@\h\[\033[00m\]\$ "
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
