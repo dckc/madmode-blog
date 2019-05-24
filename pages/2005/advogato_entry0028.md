@@ -15,6 +15,6 @@ It used to be that commercial or political spam was sent out by one type of misc
 </em>
 </blockquote>
 
-<p> Maybe there's hope: <a href="http://it.slashdot.org/article.pl?sid=05/05/24/2134239&tid=111&tid=172&tid=103">Slashdot | FTC Recommends ISPs Disconnect Spam Zombies</a> May 24 2005.
+<p> Maybe there's hope: <a href="https://it.slashdot.org/article.pl?sid=05/05/24/2134239&tid=111&tid=172&tid=103">Slashdot | FTC Recommends ISPs Disconnect Spam Zombies</a> May 24 2005.
 
-<p> Tags: <a href="http://del.icio.us/connolly/spam">spam</a>.
+<p> Tags: <a href="https://del.icio.us/connolly/spam">spam</a>.

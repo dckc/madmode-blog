@@ -14,7 +14,7 @@ guide with Brennan, we chose to build/upgrade our own, for under $150.
 
 <p> <p>I wanted to pass on this experience to my son
 before Hollywood makes it illegal (due to DCMA++,
-<a href="http://www.microsoft.com/mscorp/twc/twc_whitepaper.mspx">Trustworthy Computing</a>, ...) or something else destroys
+<a href="https://www.microsoft.com/mscorp/twc/twc_whitepaper.mspx">Trustworthy Computing</a>, ...) or something else destroys
 the commodity PC
 hardware market.
 
@@ -25,12 +25,12 @@ hardware market.
 <p> <p>I think the machine should make a nice PVR (or at
 least to <a href="http://dm93.org/z2001/LegacyVideo">convert VHS tapes to digital video</a>); too bad
 there are no Ubunutu packages for freevo nor mythtv.
-There are <a href="http://freevo.sourceforge.net/cgi-bin/doc/FreevoAptDebian">external debian repositories with freevo packages</a>,
+There are <a href="https://freevo.sourceforge.net/cgi-bin/doc/FreevoAptDebian">external debian repositories with freevo packages</a>,
 so I went to install debian on the 2nd disk, using a netinst
 CD I burned just a few months ago. It tried to get a DHCP
 lease using the ehternet controller on the motherboard, but
 the connection to this machine is wireless, thru a
-<a href="http://www.microcenter.com/single_product_results.phtml?product_id=150261">Microcenter: D-Link DWL-G520</a> that I got for
+<a href="https://www.microcenter.com/single_product_results.phtml?product_id=150261">Microcenter: D-Link DWL-G520</a> that I got for
 $27.99 after rebate. It's listed among the
 <a href="http://www.mattfoster.clara.co.uk/madwifi-hw.htm">madwifi supported hardware</a>; of course, the madwifi HAL isn't
 open source;
