@@ -15,3 +15,5 @@ And I am standing by for...
 > where a 2nd officer agrees to each deal
 [sm19a 14 May](https://discordapp.com/channels/375365542359465989/393462637100400650/577997728672514068)
 
+emphasis on an efficient web site with technically correct information over videos and animations.
+https://github.com/rchain-community/sm19a/issues/4#issuecomment-495037098
