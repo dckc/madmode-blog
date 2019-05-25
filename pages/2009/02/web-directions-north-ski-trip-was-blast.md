@@ -23,14 +23,14 @@ Lunch at Ten Mile Station was great. I was so hungry that even the crazy prices 
 <br />
 Jason said he was headed for peak 10, "the southernmost part of Breckenridge, servicing mainly difficult and a substantial amount of intermediate terrain," according to <a href="http://en.wikipedia.org/wiki/Breckenridge_Ski_Resort">Wikipedia</a>. I couldn't decide whether to take on that sort of challenge after a day and a half of skiing. When Jason said we'd pause to take pictures, that settled it for me. So here I am getting ready for a pretty steep run:<br />
 <br />
-<a href="http://www.flickr.com/photos/m-e-t-z-g-e-r/3261488487/"><img alt="Dan in front of a blue/black ski run sign" height="333" src="http://farm4.static.flickr.com/3480/3261488487_0549d66081.jpg?v=0" title="Dan atop peak 10 at Breckenridge" width="500" /></a><br />
+<a href="http://www.flickr.com/photos/m-e-t-z-g-e-r/3261488487/"><img alt="Dan in front of a blue/black ski run sign" height="333" src="https://farm4.static.flickr.com/3480/3261488487_0549d66081.jpg?v=0" title="Dan atop peak 10 at Breckenridge" width="500" /></a><br />
 <br />
 After a few more runs, it was...<br />
 <blockquote>Time to give back the skis. Sigh.<br />
 @ <a href="http://brightkite.com/places/93d4608af46f11dd9e31003048c10834">Breckenridge, CO</a> - <a href="http://brightkite.com/objects/e5f919d0f56b11ddb008003048c0801e" title="Saturday, February 07 2009, 16:06:05 (MST)">14 days ago</a></blockquote><br />
 But that wasn't the end of the fun; Microsoft sponsored an aprés ski where we all enjoyed some food and drink and music and chat:<br />
 <br />
-<a href="http://www.flickr.com/photos/m-e-t-z-g-e-r/3262317814/"><img alt="Jason, Jay, and John apres ski" height="333" src="http://farm4.static.flickr.com/3486/3262317814_ebfd9049a9.jpg?v=0" title="Jason, Jay, and John apres ski" width="500" /></a><br />
+<a href="http://www.flickr.com/photos/m-e-t-z-g-e-r/3262317814/"><img alt="Jason, Jay, and John apres ski" height="333" src="https://farm4.static.flickr.com/3486/3262317814_ebfd9049a9.jpg?v=0" title="Jason, Jay, and John apres ski" width="500" /></a><br />
 <br />
 See also:<br />
 <ul><li><a href="http://www.flickr.com/photos/m-e-t-z-g-e-r/sets/72157613490969852/">Jay Metzger's photos from the trip</a></li>

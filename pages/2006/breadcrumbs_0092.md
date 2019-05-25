@@ -3,7 +3,7 @@ title: 'Reflections on the W3C Technical Plenary week'
 published: True
 tags: ['breadcrumbs', 'NCE']
 
-<div style="float: right; margin-left: 10px; margin-bottom: 10px;"> <a href="http://www.flickr.com/photos/ndw/108395140/" title="photo sharing"><img src="http://static.flickr.com/44/108395140_eb6f53b80e_m.jpg" alt="" style="border: solid 2px #000000;" /></a> <br /> <span style="font-size: 0.9em; margin-top: 0px;">  <a href="http://www.flickr.com/photos/ndw/108395140/">Here comes (some of) the TAG</a>  <br />  Originally uploaded by <a href="http://www.flickr.com/people/ndw/">Norm Walsh</a>. </span></div>
+<div style="float: right; margin-left: 10px; margin-bottom: 10px;"> <a href="http://www.flickr.com/photos/ndw/108395140/" title="photo sharing"><img src="https://static.flickr.com/44/108395140_eb6f53b80e_m.jpg" alt="" style="border: solid 2px #000000;" /></a> <br /> <span style="font-size: 0.9em; margin-top: 0px;">  <a href="http://www.flickr.com/photos/ndw/108395140/">Here comes (some of) the TAG</a>  <br />  Originally uploaded by <a href="http://www.flickr.com/people/ndw/">Norm Walsh</a>. </span></div>
 
 <p>The last item on the <a href="http://www.w3.org/2001/tag/2005/02/27-agenda.html">agenda of the TAG meeting in France</a> was "Reviewing what we have learned during a full <a href="http://www.w3.org/2005/12/allgroupoverview.html">week of meetings</a>". I proposed that we do it on the beach, and it carried.</p>
 

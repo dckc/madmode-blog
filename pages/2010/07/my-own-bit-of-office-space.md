@@ -8,7 +8,7 @@ updated: 2010-09-17
 The cube I work in is pretty typical, I guess, but I'm going through a bit of culture shock after 13 years of working out of an office in my home. Look what my wife got me to celebrate the transition:<br />
 <br />
 <br />
-<div class="separator" style="clear: both; text-align: center;"><a href="http://twitpic.com/28ulmm" title="Share photos on twitter with Twitpic"><img alt="Share photos on twitter with Twitpic" height="150" src="http://twitpic.com/show/thumb/28ulmm.jpg" width="150" /></a></div><br />
+<div class="separator" style="clear: both; text-align: center;"><a href="http://twitpic.com/28ulmm" title="Share photos on twitter with Twitpic"><img alt="Share photos on twitter with Twitpic" height="150" src="https://twitpic.com/" width="150" /></a></div><br />
 <br />
 <a name='more'></a><br />
 <br />
@@ -21,4 +21,4 @@ The reason I'm in a cube is that our department is growing in people faster than
 <ul><li><a href="https://jobs.kumc.edu/applicants/jsp/shared/position/JobDetails_css.jsp?postingId=371840">Biomedical Informatics Software Engineer</a><span class="Apple-style-span" style="font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 13px;"><span id="di_1" style="font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">&nbsp;</span></span><span class="Apple-style-span" style="font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 13px;">&nbsp;</span></li>
 <li><span class="Apple-style-span" style="font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 13px;"></span><a href="https://jobs.kumc.edu/applicants/jsp/shared/position/JobDetails_css.jsp?postingId=370454">Clinical Application Administrator</a></li>
 </ul><div><span class="Apple-style-span" style="font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: small;"><span class="Apple-style-span" style="font-size: 13px;"><br />
-</span></span></div>
+</span></span></div></span></span></div>

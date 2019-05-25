@@ -13,7 +13,7 @@ The event started with dinner Friday evening at 6pm, and at 7pm, the floor was o
 <br />
 I made a <a href="http://www.cafepress.com/mwsdckc.381282107">t-shirt design</a> to commemorate the event:<br />
 <br />
-<a href="http://www.cafepress.com/mwsdckc.381282107"><img alt="I laid my start-up idea to rest... at Startup Weekend Kansas City" class="size-medium wp-image-74" height="300" src="http://midweb.files.wordpress.com/2009/04/kcsw-t-front-exp.jpg?w=271" title="t-shirt: Start up idea R.I.P." width="271" /></a><br />
+<a href="http://www.cafepress.com/mwsdckc.381282107"><img alt="I laid my start-up idea to rest... at Startup Weekend Kansas City" class="size-medium wp-image-74" height="300" src="https://midweb.files.wordpress.com/2009/04/kcsw-t-front-exp.jpg?w=271" title="t-shirt: Start up idea R.I.P." width="271" /></a><br />
 <br />
 I played a minor role in the <a href="http://kansascity.startupweekend.com/?page_id=221">Covalent Bonding team</a>; "Connecting Researchers to Accelerate Science" is something I have a lot of experience with, though a project can only have so many cooks. I offered to beta-test the android G1 version of <a href="http://kansascity.startupweekend.com/?page_id=214">Activism2Go</a>; we didn't manage to get that done yet, but I'm still hoping.<br />
 <br />

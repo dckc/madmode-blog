@@ -8,7 +8,7 @@ published: true
 <p> <p> <p> <p><cite><a
 href="http://www.amazon.com/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2FProgramming-Modula-3-Prentice-Innovative-Technology%2Fdp%2F0135904641%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1193273155%26sr%3D8-1&amp;tag=danconnolly&amp;linkCode=ur2&amp;camp=1789&amp;creative=9325">Systems
 Programming with Modula-3</a></cite><img
-src="http://www.assoc-amazon.com/e/ir?t=danconnolly&amp;l=ur2&amp;o=1"
+src="https://www.assoc-amazon.com/e/ir?t=danconnolly&amp;l=ur2&amp;o=1"
 width="1" height="1" alt=""
 style="border:none !important; margin:0px !important;" />
 has been on my
