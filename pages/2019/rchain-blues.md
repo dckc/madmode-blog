@@ -1,3 +1,7 @@
+_DRAFT_
+
+## RChain Blues
+
 I have had fun working with the RChain community,
 but I am now to the point where I can't be party to
 their business practices.
@@ -17,3 +21,6 @@ And I am standing by for...
 
 emphasis on an efficient web site with technically correct information over videos and animations.
 https://github.com/rchain-community/sm19a/issues/4#issuecomment-495037098
+
+The coop should divest any significant interest in a proprietary software license.
+https://github.com/rchain-community/sm19a/issues/9#issuecomment-495452506
