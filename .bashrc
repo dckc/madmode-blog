@@ -144,3 +144,5 @@ unset LD_PRELOAD
 
 # for pip install XYZ --user
 export PATH=~/.local/bin:$PATH
+# https://direnv.net/
+eval "$(direnv hook bash)"
