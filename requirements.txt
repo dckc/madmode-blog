@@ -1,20 +1,20 @@
+argh==0.15.1
+click==6.6
+ecdsa==0.13
 fabric==1.12.1
-flask==0.12.3
 flask-assets==0.12
 flask-flatpages==0.6
 flask-markdown==0.3
+flask==0.12.3
 frozen-flask==0.13
+itsdangerous==0.24
 jinja2==2.8
 markdown==2.6.7
-pillow==3.4.2
-pyyaml==4.2b1
-werkzeug==0.11.11
-argh==0.15.1
-# no security update for pycrypto???
-pycrypto==2.6.1
-webassets==0.12.0
-click==6.6
-ecdsa==0.13
-itsdangerous==0.24
 markupsafe==0.23
 paramiko==1.18.5
+pillow==3.4.2
+# no security update for pycrypto???
+pycrypto==2.6.1
+pyyaml==4.2b1
+webassets==0.12.0
+werkzeug==0.11.11
