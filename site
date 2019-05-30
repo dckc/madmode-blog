@@ -1,12 +1,17 @@
 #!/usr/bin/env python
 
+# python 2.7 stdlib
+from datetime import date, datetime
+from itertools import groupby
+from shutil import copyfile
+from unicodedata import normalize
 import codecs
 import locale
 import os
 import re
 
+# see CONTRIBUTING re dependencies
 from argh import *
-from datetime import date, datetime
 from fabric.api import local
 from flask import Flask, render_template, abort
 from flask_frozen import Freezer
@@ -14,9 +19,6 @@ from flask_flatpages import FlatPages
 from flaskext.markdown import Markdown
 from flask_assets import Environment as AssetManager
 from PIL import Image, ImageOps
-from itertools import groupby
-from shutil import copyfile
-from unicodedata import normalize
 
 # Configuration
 DEBUG = False
