@@ -18,5 +18,5 @@ Then `direnv allow` consults `.envrc` which says to use pipenv layout.
 ### Sync requirements.txt with Pipfile
 
 ```
-(grep '^#' requirements.txt; pipenv lock --requirements) >requirements.txt
+(grep '^#' requirements.txt; pipenv lock --requirements) >,tmp && mv ,tmp requirements.txt
 ```

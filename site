@@ -2,18 +2,18 @@
 
 # python 2.7 stdlib
 from datetime import date, datetime
+from glob import glob
 from itertools import groupby
-from shutil import copyfile
 from unicodedata import normalize
 import codecs
 import locale
 import os
 import re
+import shutil
 
 
 # see CONTRIBUTING re dependencies
 from argh import ArghParser, command, CommandError
-from fabric.api import local
 from flask import Flask, render_template, abort
 from flask_frozen import Freezer
 from flask_flatpages import FlatPages
@@ -274,20 +274,13 @@ def build(debug=DEBUG):
     app.debug = debug
     asset_manager.config['ASSETS_DEBUG'] = False
     freezer.freeze()
-    local("cp ./static/*.ico ./build/")
-    local("cp ./static/*.txt ./build/")
-    local("cp ./static/*.xml ./build/")
+    for pat in ['*.ico', '*.txt', '*.xml']:
+        for name in glob('./static/' + pat):
+            shutil.copy2(name, './build/')
     # KLUDGE:
-    local("mkdir -p ./build/2012/cocogetblk/")
-    local("cp ./pages/2012/cocogetblk/*.* ./build/2012/cocogetblk/")
+    shutil.rmtree('./build/2012/cocogetblk/', ignore_errors=True)
+    shutil.copytree('./pages/2012/cocogetblk/', './build/2012/cocogetblk/')
     print("Done.")
-
-
-@command
-def deploy():
-    build()
-    local("rsync -avz -e ssh --exclude-from=rsync_exclude.txt "
-          "./build/ connolly_madmode@ssh.phx.nearlyfreespeech.net:")
 
 
 @command
@@ -337,7 +330,7 @@ def photo(path, slug):
     print(u'Created %s' % photo_dir)
     # copy original image to original.jpg
     original_path = os.path.join(photo_dir, "original.jpg")
-    copyfile(path, original_path)
+    shutil.copyfile(path, original_path)
     print(u'Copied original to %s' % original_path)
     # resize the image: main.jpg and thumb.jpg
     thumb_path = os.path.join(photo_dir, "thumb.jpg")
@@ -379,5 +372,5 @@ def serve(server='127.0.0.1', port=5000, debug=DEBUG):
 
 if __name__ == '__main__':
     parser = ArghParser()
-    parser.add_commands([build, deploy, photo, post, serve, ])
+    parser.add_commands([build, photo, post, serve, ])
     parser.dispatch()

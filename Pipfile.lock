@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "441fa9e98cbc51cb54b753f70ecb709acd2d9f1db67f1bef5f7995a5f4c1396a"
+            "sha256": "e4b8e6b6319460f6232f7e933113cc166e12b8a4a6b5eab0ca1a0481689accb5"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -28,22 +28,6 @@
             ],
             "index": "pypi",
             "version": "==6.6"
-        },
-        "ecdsa": {
-            "hashes": [
-                "sha256:40d002cf360d0e035cf2cb985e1308d41aaa087cbfc135b2dc2d844296ea546c",
-                "sha256:64cf1ee26d1cde3c73c6d7d107f835fed7c6a2904aef9eac223d57ad800c43fa"
-            ],
-            "index": "pypi",
-            "version": "==0.13"
-        },
-        "fabric": {
-            "hashes": [
-                "sha256:605c76bdfbef4fea520d4ce5d931de3e6a99b0c99eb7894f5c93e2c1971b2087",
-                "sha256:e1819ec2f80a6017a10dd7bfde17bca77593a2205c15de16cca9ac80fb1ac108"
-            ],
-            "index": "pypi",
-            "version": "==1.12.1"
         },
         "flask": {
             "hashes": [
@@ -113,13 +97,6 @@
             "index": "pypi",
             "version": "==0.23"
         },
-        "paramiko": {
-            "hashes": [
-                "sha256:59a676561bd03a85c3df0c7981125afbd3d3c295f3c3b5f0a2b83b517421c9c8",
-                "sha256:6741f40e099a9ba2976cfab4180d4ebc62fb9aa0ce954f577ff15f953eb5d36a"
-            ],
-            "version": "==1.18.5"
-        },
         "pillow": {
             "hashes": [
                 "sha256:0142d0508315428014badb00325742e2e3d90339734f58ddaa072f9ec15420c4",
@@ -149,12 +126,6 @@
             ],
             "index": "pypi",
             "version": "==3.4.2"
-        },
-        "pycrypto": {
-            "hashes": [
-                "sha256:f2ce1e989b272cfcb677616763e0a2e7ec659effa67a88aa92b3a65528f60a3c"
-            ],
-            "version": "==2.6.1"
         },
         "pyyaml": {
             "hashes": [

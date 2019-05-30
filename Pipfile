@@ -12,8 +12,6 @@ flake8 = "*"
 [packages]
 # direct imports from ./site, in source order
 argh = "==0.15.1"
-# ISSUE: netlify subsumes fabric, no?
-fabric = "==1.12.1"
 Flask = "==0.12.3"
 Frozen-Flask = "==0.13"
 Flask-FlatPages = "==0.6"
@@ -23,11 +21,9 @@ Pillow = "==3.4.2"
 
 # indirect imports. ISSUE: why do we need to lock these?
 click = "==6.6"
-ecdsa = "==0.13"
 itsdangerous = "==0.24"
 jinja2 = "==2.8"
 markdown = "==2.6.7"
 markupsafe = "==0.23"
-# pyyaml = "==4.2b1"
 webassets = "==0.12.0"
 werkzeug = "==0.11.11"
