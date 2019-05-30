@@ -1,4 +1,6 @@
 # See CONTRIBUING.md for context, instructions.
+[requires]
+python_version = "2.7"
 
 [[source]]
 name = "pypi"
