@@ -10,8 +10,9 @@ import locale
 import os
 import re
 
+
 # see CONTRIBUTING re dependencies
-from argh import *
+from argh import ArghParser, command, CommandError
 from fabric.api import local
 from flask import Flask, render_template, abort
 from flask_frozen import Freezer
@@ -19,6 +20,7 @@ from flask_flatpages import FlatPages
 from flaskext.markdown import Markdown
 from flask_assets import Environment as AssetManager
 from PIL import Image, ImageOps
+from werkzeug.routing import BaseConverter
 
 # Configuration
 DEBUG = False
@@ -33,13 +35,15 @@ FLATPAGES_MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code']
 FEED_MAX_LINKS = 25
 SECTION_MAX_LINKS = 12
 
+
 class FlaskE(Flask):
     def handle_user_exception(self, e):
         import traceback
         print traceback.format_exc(e)
-        import pdb; pdb.set_trace()
+        import pdb; pdb.set_trace()  # noqa
 
-#app = FlaskE(__name__)
+
+# app = FlaskE(__name__)
 app = Flask(__name__)
 app.config.from_object(__name__)
 pages = FlatPages(app)
@@ -66,8 +70,8 @@ def get_pages(pages, offset=None, limit=None, tag=None, year=None, month=None):
     if month:
         articles = [p for p in articles if p.meta.get('date').month == month]
     # sort by date
-    articles = sorted(articles, reverse=True, key=lambda p: p.meta.get('date',
-        date.today()))
+    articles = sorted(articles, reverse=True, key=lambda p: p.meta.get(
+        'date', date.today()))
     # assign prev/next page in serie
     articles = sorted(articles, key=lambda p: p.meta.get('date'))
     articles = list(reversed(articles))
@@ -91,7 +95,7 @@ def tag_counts(pages):
     all_tags = [tag for pg in pages
                 for tag in pg.meta.get('tags', ())]
     count_tags = [(tag, len(list(tag_group)))
-                   for tag, tag_group in groupby(sorted(all_tags))]
+                  for tag, tag_group in groupby(sorted(all_tags))]
     return sorted(count_tags, key=lambda x: x[0].lower())
 
 
@@ -106,7 +110,8 @@ def resize_image(path, box, out=None, fit=True, quality=75):
 
         @param path:    string - path to the original image
         @param box:     tuple(x, y) - the bounding box of the result image
-        @param out:     file-like-object - save the image into the output stream
+        @param out:     file-like-object - save the image into
+                        the output stream
         @param fit:     boolean - crop the image to fill the box
         @param quality: int - JPEG quality
     """
@@ -156,7 +161,6 @@ def inject_ga():
 ###############################################################################
 # url_map converters
 
-from werkzeug.routing import BaseConverter
 
 class MonthConverter(BaseConverter):
     def to_python(self, numeral):
@@ -165,10 +169,12 @@ class MonthConverter(BaseConverter):
     def to_url(self, n):
         return '%02d' % n
 
+
 app.url_map.converters['month'] = MonthConverter
 
 ###############################################################################
 # Routes
+
 
 @app.route('/contact/')
 def contact():
@@ -187,7 +193,7 @@ def sitemap():
     today = date.today()
     recently = date(year=today.year, month=today.month, day=1)
     return render_template('sitemap.xml', pages=get_pages(pages),
-        today=today, recently=recently)
+                           today=today, recently=recently)
 
 
 @app.route('/')
@@ -295,7 +301,7 @@ def post(title=None, filename=None):
     year = post_date.year
     pathargs = [str(year), filename, ]
     filepath = os.path.join(os.path.abspath(os.path.dirname(__file__)),
-        FLATPAGES_ROOT, '/'.join(pathargs))
+                            FLATPAGES_ROOT, '/'.join(pathargs))
     if os.path.exists(filepath):
         raise CommandError("File %s exists" % filepath)
     content = '\n'.join([
@@ -324,7 +330,7 @@ def photo(path, slug):
         raise CommandError("Invalid path: " + path)
     # create directory for images: %year/%slug
     photo_dir = os.path.join("static", "photography", str(photo_date.year),
-        slug)
+                             slug)
     if os.path.exists(photo_dir):
         raise CommandError("path %s already exists" % photo_dir)
     os.mkdir(photo_dir, 0755)
@@ -344,7 +350,7 @@ def photo(path, slug):
     filename = slug + FLATPAGES_EXTENSION
     pathargs = ["photography", str(photo_date.year), filename, ]
     filepath = os.path.join(os.path.abspath(os.path.dirname(__file__)),
-        FLATPAGES_ROOT, '/'.join(pathargs))
+                            FLATPAGES_ROOT, '/'.join(pathargs))
     if os.path.exists(filepath):
         raise CommandError("File %s exists" % filepath)
     content = '\n'.join([
