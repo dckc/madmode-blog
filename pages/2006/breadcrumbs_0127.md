@@ -5,7 +5,7 @@ tags: ['breadcrumbs']
 
 <div>
 <img style="float: right"
-src="http://static.flickr.com/51/131626331_4d246d2ac0.jpg?v=0" alt="hgk screenshot showing lots of commits today" />
+src="https://static.flickr.com/51/131626331_4d246d2ac0.jpg?v=0" alt="hgk screenshot showing lots of commits today" />
 
 <p>Last month at SXSWi, I met up with <a
 href="http://theryanking.com/blog/">Ryan King</a> and we seemed to be

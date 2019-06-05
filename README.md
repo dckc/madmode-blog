@@ -25,6 +25,8 @@ Deploying
 
 Also, see the [License section](#license) of this document for more information about contents copyright.
 
+Deployment is handled by netlify. Yum yum.
+
 Usage
 -----
 
@@ -43,10 +45,6 @@ To build the static website:
     $ ./site build
 
 Generated HTML files and assets will go to the `./build/` directory.
-
-To deploy the website (caveat: my server address is harcoded ^^):
-
-    $ ./site deploy
 
 There's also two commands for creating new posts and add new photos:
 

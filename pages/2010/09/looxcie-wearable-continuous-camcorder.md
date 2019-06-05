@@ -25,7 +25,7 @@ It's a souped-up bluetooth headset rather than souped-up glasses. Where I imagin
 <li style="margin-bottom: 0px; margin-left: 20px; margin-right: 0px; margin-top: 0px;">Review and edit video using your compatible smartphone</li>
 <li style="margin-bottom: 0px; margin-left: 20px; margin-right: 0px; margin-top: 0px;">Share video instantly via Facebook, YouTube, or email</li>
 <li style="margin-bottom: 0px; margin-left: 20px; margin-right: 0px; margin-top: 0px;">Automatically stores up to five hours of footage</li>
-</ul></blockquote>I just drained the piggy-bank on a <a href="http://www.amazon.com/gp/product/B003TXSKNE?ie=UTF8&amp;tag=danconnolly&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B003TXSKNE">Samsung Vibrant Android Phone</a><img alt="" border="0" height="1" src="http://www.assoc-amazon.com/e/ir?t=danconnolly&amp;l=as2&amp;o=1&amp;a=B003TXSKNE" style="border: none !important; margin: 0px !important;" width="1" />, so I won't be an early adopter on this one. But I hope to stay tuned for reviews and I look forward to the day when they're available on craigslist or ebay.<br />
+</ul></blockquote>I just drained the piggy-bank on a <a href="http://www.amazon.com/gp/product/B003TXSKNE?ie=UTF8&amp;tag=danconnolly&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B003TXSKNE">Samsung Vibrant Android Phone</a><img alt="" border="0" height="1" src="https://www.assoc-amazon.com/e/ir?t=danconnolly&amp;l=as2&amp;o=1&amp;a=B003TXSKNE" style="border: none !important; margin: 0px !important;" width="1" />, so I won't be an early adopter on this one. But I hope to stay tuned for reviews and I look forward to the day when they're available on craigslist or ebay.<br />
 <br />
 p.s.<br />
 <br />

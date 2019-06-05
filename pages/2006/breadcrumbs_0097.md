@@ -6,7 +6,7 @@ tags: ['breadcrumbs']
 <div style="float: right; margin-left: 10px; margin-bottom: 10px;">
 <a href="http://www.flickr.com/photos/dckc/112955693/">
 <img alt="NYC view"
-src="http://static.flickr.com/56/112955693_2a52cfce5d_m.jpg" /></a>
+src="https://static.flickr.com/56/112955693_2a52cfce5d_m.jpg" /></a>
 </div>
 
 <p>W3C had a workshop, <a href="http://www.w3.org/2005/Security/usability-ws/">Toward a more Secure Web</a> this week. <a href="http://en.wikipedia.org/wiki/Citigroup">Citigroup</a> hosted; the view from the 50th floor was awesome.</p>
