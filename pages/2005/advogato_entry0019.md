@@ -11,5 +11,5 @@ published: true
 
 <p> <p>This posting got kinda mangled; the title got thrown away.
 
-<p> <p>Hmm... hypertext UI? <a href="http://www.w3.org/People/Connolly/">my home page</a> hmm... klunky dialog interface, but the resulting text is OK.<p>
-Suppose I drag n drop from my web browser? Ugh. lose. Where's paste link when we need it? Hmm... recoverable... <a href="http://www.gnome.org/~seth/gnome-blog/">gnome blog</a>
+<p> <p>Hmm... hypertext UI? <a href="https://www.w3.org/People/Connolly/">my home page</a> hmm... klunky dialog interface, but the resulting text is OK.<p>
+Suppose I drag n drop from my web browser? Ugh. lose. Where's paste link when we need it? Hmm... recoverable... <a href="https://www.gnome.org/~seth/gnome-blog/">gnome blog</a>

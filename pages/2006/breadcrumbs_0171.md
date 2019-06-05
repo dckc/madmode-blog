@@ -43,7 +43,7 @@ been <b>no substantive problems reported in the normative specifications</b>.
 	</li>
       </ul>
 
-<div  style="float: right"><img src="http://www.w3.org/2006/11dc-athens/owl-test-screen.png"  alt="OWL test results screenshot" /></div>
+<div  style="float: right"><img src="https://www.w3.org/2006/11dc-athens/owl-test-screen.png"  alt="OWL test results screenshot" /></div>
 <p> Jeremy and Jos did great work on the tests. And Sandro's approach
 to getting test results back from the tool developers was particularly inspired.
 He asked them to publish their test results <em>as RDF data in the web</em>.

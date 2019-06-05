@@ -9,7 +9,7 @@ published: true
 
 <p> The bane of my existence is doing things that I know the computer could do for me.<a href="#ref1">*</a>
 
-<p> Filling out shipping waybills is <em>definitely</em> one of them. I've tried the <a href="http://www.fedex.com/">fedex</a> online shipping interface, but it's pretty javascripty and klunky, and I've never made it past the form that asks for my credit card number, since my employer always pays to have these expense reports shipped.
+<p> Filling out shipping waybills is <em>definitely</em> one of them. I've tried the <a href="https://www.fedex.com/">fedex</a> online shipping interface, but it's pretty javascripty and klunky, and I've never made it past the form that asks for my credit card number, since my employer always pays to have these expense reports shipped.
 
 <p> <p> <p> <p> But the last time I tried to send an expense report via fedex, I got a bill for $30 because I neglected to check exactly the right "bill to sender" box on the paper waybill. When I called fedex, they could see that I  clearly meant to bill the recipient, since I wrote the account number right there, and they fixed the billing problem. So today I'm  motivated to invest quite a bit more in getting online shipping working.
 
@@ -24,7 +24,7 @@ published: true
 <p> <p> <p> The next hurdle was getting a priceline receipt printed. 
 I have a .pdf file and a .ps file (derived from the .pdf via pdf2ps, I think). If I ask cups to print the .ps file to my networked HP printer, somewhere along the line it gets scaled up 4x, and I get only the top-left quarter of the receipt filling the whole page. The pdf file looks funny in evince. I check it with acroread and it works, so I try printing it and I win. But evince is otherwise such a nice piece of software that I want to help them fix this problem.
 
-<p> <p> <p> So I try, once again, to figure out how to report problems in debian. The gnome menus aren't much help, but it's pretty easy to find <a href="http://www.debian.org/Bugs/Reporting">How to report a bug in Debian</a> via the evince package page. I like the idea of an emacs interface, so I <tt>apt-get install debbugs-el</tt> and type <tt>M-x debian-bug</tt>. No joy. Since I haven't restarted emacs, it hasn't loaded the package. I have to find the .elc and <tt>M-x load-file</tt> it. Then it pleasantly guides me thru filling out a bug report. But I want to attach some files to the bug report, and I can't see how to do that in emacs mail mode. Oh well, I'll attach them to follow-up messages.
+<p> <p> <p> So I try, once again, to figure out how to report problems in debian. The gnome menus aren't much help, but it's pretty easy to find <a href="https://www.debian.org/Bugs/Reporting">How to report a bug in Debian</a> via the evince package page. I like the idea of an emacs interface, so I <tt>apt-get install debbugs-el</tt> and type <tt>M-x debian-bug</tt>. No joy. Since I haven't restarted emacs, it hasn't loaded the package. I have to find the .elc and <tt>M-x load-file</tt> it. Then it pleasantly guides me thru filling out a bug report. But I want to attach some files to the bug report, and I can't see how to do that in emacs mail mode. Oh well, I'll attach them to follow-up messages.
 
 <p> <p> <p> Emacs reports success when I hit <tt>ctrl-c ctrl-c</tt> to send the message; but I use an ssh tunnel to send my mail, and I haven't told emacs about it. So where did that message go? It's frozen in an exim4 queue. I don't really want to manage an MTA on this machine, but lots of debian packages that I use require one. There is a "don't do anything" configuration option, and I'm pretty sure I chose that one when I installed exim4. Now I'm trying to remember how to reconfigure it. I see several references to a debconf(7) man page that I can't find. I eventually figure out the magic incantation: <tt>sudo /usr/sbin/dpkg-reconfigure  -plow exim4-config</tt>. But even after I configure it to send mail, the message stays frozen in the queue. I give up at this point and copy the contents of the message to a text file, and use <tt>EDITOR=gedit reportbug</tt>. I ask in the <tt>#debian</tt> channel about how to attach files to bug reports; somebody there confirms that attaching them to follow-up messages is a reasonable thing to do, but also suggests just composing the message that reportbug would send in my normal mailer and using it to attach them. "I don't usually bother with reportbug" he says.
 
@@ -34,10 +34,10 @@ I have a .pdf file and a .ps file (derived from the .pdf via pdf2ps, I think). I
 
 <p> <p> <p> While I'm waiting for the acknowledgement, I try to figure out the relationship between reportbug and bug-buddy. I recall that bug-buddy feeds into the upstream gnome bug system, and I have a vague recollection that debian wants you to file bugs in the debian bug tracking system, not upstream. Plus, bug-buddy doesn't seem to have an interface for attaching files either.
 
-<p> <p> <p> Ah... the acknowledgement is here now: <a href="http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=318122">#318122</a>.
+<p> <p> <p> Ah... the acknowledgement is here now: <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=318122">#318122</a>.
 
 
 <p> @@tags: usability debian linux-printing-swamp
 
-<p> *<a name="ref1" href="http://www.nature.com/nature/webmatters/xml/xml.html">yours truely, Oct '98</a>
+<p> *<a name="ref1" href="https://www.nature.com/nature/webmatters/xml/xml.html">yours truely, Oct '98</a>
 <p> <p> <p> advogato <em>still</em> doesn't grok rss:title. I'm tring a class="title" microformat to that maybe I can recover/convert...

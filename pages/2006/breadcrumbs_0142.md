@@ -19,7 +19,7 @@ Ooh... excerpt with 2 guestures.<p>Source view!</p>
 <p>Let's try pictures...<br/>
 </p>
 
-<p><a href="http://www.flickr.com/photos/dckc/82223062/in/set-1762949/"><img width="240" height="179" src="http://static.flickr.com/41/82223062_32b8820d6e_m.jpg" alt="A photo on Flickr" title="fishing derby" /></a></p>
+<p><a href="http://www.flickr.com/photos/dckc/82223062/in/set-1762949/"><img width="240" height="179" src="https://static.flickr.com/41/82223062_32b8820d6e_m.jpg" alt="A photo on Flickr" title="fishing derby" /></a></p>
 
 <p>Seems to work quite nicely!<br/>
 </p>

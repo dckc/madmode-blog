@@ -36,13 +36,13 @@ CSS and offered to write up a few details.</p>
       style="float: left; margin: 10px"
       >
 <a href="http://www.flickr.com/photos/dckc/136222984/">
-<img src="http://static.flickr.com/49/136222984_8ffdab1c0b_t.jpg" alt="RDFa noodling with Ben"/></a>
+<img src="https://static.flickr.com/49/136222984_8ffdab1c0b_t.jpg" alt="RDFa noodling with Ben"/></a>
 </div>
 <div class="photo"
      style="float: right; margin-left: 10px; margin-bottom: 10px;"
      >
 <a href="http://www.flickr.com/photos/dckc/136222980/">
-<img src="http://static.flickr.com/55/136222980_20dcbbe20f_t.jpg" alt="JSON noodling with Elias" />
+<img src="https://static.flickr.com/55/136222980_20dcbbe20f_t.jpg" alt="JSON noodling with Elias" />
 </a>
 </div>
 
@@ -87,7 +87,7 @@ I'm sure that I'm not happy that my Kensington K33069 Universal AC/Car/Air Adapt
 
 <p>That's one of the reason that I always pack some light reading on dead-trees.
 I enjoyed escaping into Scott Lasser's
-<cite><a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=danconnolly&amp;camp=1789&amp;creative=9325&amp;path=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F0688177638%2Fref%3Ded_oe_p%3F%255Fencoding%3DUTF8">Battle Creek</a><img src="http://www.assoc-amazon.com/e/ir?t=danconnolly&amp;l=ur2&amp;o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></cite> on the way home. Baseball and fathers. Good stuff.
+<cite><a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=danconnolly&amp;camp=1789&amp;creative=9325&amp;path=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F0688177638%2Fref%3Ded_oe_p%3F%255Fencoding%3DUTF8">Battle Creek</a><img src="https://www.assoc-amazon.com/e/ir?t=danconnolly&amp;l=ur2&amp;o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></cite> on the way home. Baseball and fathers. Good stuff.
 </p>
 
 <div>tags:

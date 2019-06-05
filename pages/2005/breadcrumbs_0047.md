@@ -15,7 +15,7 @@ got me in at about 8:00 on a Tuesday night. I arrived with no plans for the even
 <p>This trip took me to Montreal for a big W3C membership meeting and then to CSAIL for a <a href="http://www.w3.org/2001/tag/">TAG</a> meeting. There's a rink in <a href="http://en.wikipedia.org/wiki/1000_de_La_Gaucheti%C3%A8re">1000 de La Gauchetière</a> across the street from the meeting hotel, and I got in a couple hours on Saturday. Then during the TAG meeting lunch break on Tuesday, I did some <a href="http://web.mit.edu/athletics/www/skate.htm">skating at MIT Johnson ice rink</a>.</p>
 
 <p><a href="http://www.flickr.com/photos/dckc/71032926/"><img style="float: right"
-src="http://static.flickr.com/35/71032926_b97e54c0ed_m.jpg"
+src="https://static.flickr.com/35/71032926_b97e54c0ed_m.jpg"
 alt="the MIT hockey team takes the ice" /></a>
 That evening, I watched the
 <a href="http://mitathletics.collegesports.com/sports/m-hockey/sched/mit-m-hockey-sched.html">MIT
