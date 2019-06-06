@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: madmode.com 
+Token: d867d688cc971af0dea70215de3b8b1c505522c2b1f64c60d4cb78883c625e32
