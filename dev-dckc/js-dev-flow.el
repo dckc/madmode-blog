@@ -3,6 +3,8 @@
 (require 'flycheck-flow)
 (add-hook 'js2-mode-hook 'flycheck-mode)
 
+(flycheck-add-next-checker 'javascript-flow 'javascript-eslint)
+
 ;; https://github.com/codesuki/add-node-modules-path
 (require 'add-node-modules-path)
 (eval-after-load 'js2-mode
