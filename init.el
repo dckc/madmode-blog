@@ -8,6 +8,7 @@
 
 (require 'js-dev-flow)
 
+;@@@ (require 'rholang-dev-rchain)
 ; (load-file "scala-dev-ensime.el")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
