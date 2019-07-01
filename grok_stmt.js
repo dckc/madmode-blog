@@ -23,10 +23,22 @@ function portfolioChanges(text) {
     let state = null;
     let rows = [];
     let row = [];
+    let out = {};
     for (const line of text.split('\n')) {
+        // console.log(line);
+        if (line.startsWith('REPORTING PERIOD:')) {
+            state = 'reporting';
+        } else if (state === 'reporting') {
+            const parts = line.match(
+                    /([^ ]+) through ([^ ]+)/);
+            out = {'REPORTING PERIOD': parts.slice(1, 3), ...out};
+            state = null;
+        }
+
         if (state === null && line.trim() === 'PORTFOLIO CHANGES') {
             state = 'head1';
         } else if (line.trim() === 'Since Inception') {
+            out = {detail: rows, ...out};
             break;
         } else if (state === 'head1') {
             row.push(line.trim());
@@ -45,7 +57,7 @@ function portfolioChanges(text) {
             rows.push(parts.slice(1, 4));
         }
     }
-    return rows;
+    return out;
 }
 
 
