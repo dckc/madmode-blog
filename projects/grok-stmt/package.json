@@ -1,0 +1,18 @@
+{
+  "name": "grok-stmt",
+  "version": "0.1.0",
+  "description": "grok quarterly statements in PDF format",
+  "main": "grok_stmt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Connolly",
+  "license": "MIT",
+  "devDependencies": {
+    "flow-bin": "^0.102.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "pdf-parse": "^1.1.1"
+  }
+}
