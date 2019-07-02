@@ -2,21 +2,33 @@
 import pathlib from './pathlib';
 import pdf from 'pdf-parse';
 
-async function main(argv, { readFile, resolve, fsp }) {
+async function main(argv, { stdout, readFile, resolve, fsp }) {
     const cwd = pathlib.fsReadAccess('.', { readFile, resolve });
+    let hdDone = false;
     for (const stmt of argv.slice(2)) {
-        console.log(stmt);
-        const rd = cwd.joinPath(stmt);
+        console.warn(stmt);
 
+        const rd = cwd.joinPath(stmt);
         const raw = await rd.readBytes();
-        console.log('raw bytes: ', raw.length);
+        console.warn('raw bytes: ', raw.length);
+
         // https://www.npmjs.com/package/parse-pdf
         // based on https://mozilla.github.io/pdf.js/getting_started/
         const data = await pdf(raw);
 
-        // console.log('// PDF text', data.text);
+        // console.warn('// PDF text', data.text);
         const info = portfolioSummary(data.text);
-        console.log(info);
+        console.warn(info);
+        const { header, body } = asQIF(info);
+        if (!hdDone) {
+            for (const line of header) {
+                stdout.write(line + '\n');
+            }
+            hdDone = true;
+        }
+        for (const line of body) {
+            stdout.write(line + '\n');
+        }
 
         const fh = await fsp.open(rd.name());
         const [_, t] = info.period;
@@ -25,11 +37,52 @@ async function main(argv, { readFile, resolve, fsp }) {
 }
 
 
+function asQIF(info) {
+    const typeA = 'Oth A';
+    const dt = info.period[1];
+    const qn = Math.floor(dt.getMonth() / 3) + 1;
+
+    const money = f => Math.round(f * 100) / 100;
+    const parseAmt = txt => money(parseFloat(txt.replace(/[$, ]/g, '')));
+    const asset = 'Fixed:Retirement:IRA Daniel';
+    const [mp, svc, ira] = ['OB:Market Performance', 'OB:Services',
+                            'Fixed:Retirement:IRA Daniel'];
+    const splitCats = [null, null, mp, mp, mp, svc, mp, null];
+    const splits = info.detail.map(
+        ([memo, q1, ytd], ix) =>
+            ({ memo, amt: parseAmt(q1), cat: splitCats[ix]}));
+    console.warn(splits);
+    const splitLines = splits.filter(
+        s => s.cat !== null && s.amt !== null && s.amt !== 0)
+          .map(s => [`S${s.cat || ''}`, `E${s.memo}`, `$${s.amt}`]);
+
+    const amount = money(splits[7].amt - splits[1].amt);
+    const header = [
+        '!Account',
+        `N${asset}`,
+        `T${typeA}`,
+        '^',
+        `!Type:${typeA}`,
+    ];
+    const main = [
+        `PQ${qn} Portfolio Summary`,
+        `T${amount}`,
+        `D${dt.getMonth() + 1}/${dt.getDate()}/${dt.getFullYear()}`,
+        'Cc',
+    ];
+    const body = splitLines.reduce((acc, more) => [...acc, ...more], main);
+    return {
+        header,
+        body: [...body, '^'],
+    };
+}
+
+
 async function setDate(fh, rd, t) {
-    console.log(`fh = open(${rd.name()})`);
-    console.log(`await fh.utimes(${t}, ${t})`);
+    console.warn(`fh = open(${rd.name()})`);
+    console.warn(`await fh.utimes(${t}, ${t})`);
     const name = `summit${t.toISOString().slice(0, 7)}-dwc.pdf`;
-    console.log(`fsp.rename(${rd.name()}, ${rd.joinPath(name).name()})`);
+    console.warn(`fsp.rename(${rd.name()}, ${rd.joinPath(name).name()})`);
 }
 
 
@@ -39,7 +92,7 @@ function portfolioSummary(text) {
     let row = [];
     let out = {};
     for (const line of text.split('\n')) {
-        // console.log(line);
+        // console.warn(line);
         if (line.startsWith('REPORTING PERIOD:')) {
             state = 'reporting';
         } else if (state === 'reporting') {
@@ -65,7 +118,7 @@ function portfolioSummary(text) {
             row = [];
             state = 'body';
         } else if (state === 'body') {
-            // console.log('line:', line);
+            // console.warn('line:', line);
             const parts = line.trim().match(
                     /([^\-0-9,$]+)([\- 0-9,$]+\.[0-9]{2})(.*)/);
             rows.push(parts.slice(1, 4));
@@ -79,7 +132,7 @@ function portfolioSummary(text) {
 
 
 function from_yymmdd(txt) {
-    // console.log(txt);
+    // console.warn(txt);
     const [mm, dd, yy] = txt.split('/').map(dd => parseInt(dd, 10));
     const yr = (yy < 50 ? 2000 : 1900) + yy;
     return new Date(yr, mm - 1, dd);
@@ -89,6 +142,7 @@ function from_yymmdd(txt) {
 /* global require, process, module */
 if (require.main === module) {
     main(process.argv, {
+        stdout: process.stdout,
         readFile: require('fs').readFile,
         fsp: require('fs').promises,
         resolve: require('path').resolve,
