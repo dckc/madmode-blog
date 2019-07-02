@@ -2,6 +2,9 @@
 import pathlib from './pathlib';
 import pdf from 'pdf-parse';
 
+const trace = console.warn;
+
+
 async function main(argv, { stdout, readFile, writeFile, resolve, fsp }) {
     const cwd = pathlib.fsAdminAccess('.', {
         readFile, resolve, writeFile,
@@ -9,19 +12,19 @@ async function main(argv, { stdout, readFile, writeFile, resolve, fsp }) {
     });
     let hdDone = false;
     for (const stmt of argv.slice(2)) {
-        console.warn(stmt);
+        trace(stmt);
 
         const path = cwd.joinPath(stmt);
         const raw = await path.readOnly().readBytes();
-        console.warn('raw bytes: ', raw.length);
+        trace('raw bytes: ', raw.length);
 
         // https://www.npmjs.com/package/parse-pdf
         // based on https://mozilla.github.io/pdf.js/getting_started/
         const data = await pdf(raw);
 
-        // console.warn('// PDF text', data.text);
+        // trace('// PDF text', data.text);
         const info = portfolioSummary(data.text);
-        console.warn(info);
+        trace(info);
         const { header, body } = asQIF(info);
         if (!hdDone) {
             for (const line of header) {
@@ -53,7 +56,7 @@ function asQIF(info) {
     const splits = info.detail.map(
         ([memo, q1, ytd], ix) =>
             ({ memo, raw: q1, amt: parseAmt(q1), cat: splitCats[ix]}));
-    console.warn(splits);
+    trace(splits);
     const splitLines = splits.filter(
         s => s.cat !== null && s.amt !== null && s.amt !== 0)
           .map(s => [`S${s.cat || ''}`, `E${s.memo}`, `$${s.amt}`]);
@@ -82,12 +85,12 @@ function asQIF(info) {
 
 
 async function setDate(stmt, t) {
-    console.warn(`fh = open(${stmt.name()})`);
-    console.warn(`await fh.utimes(${t}, ${t})`);
+    trace(`fh = open(${stmt.name()})`);
+    trace(`await fh.utimes(${t}, ${t})`);
     const fh = await stmt.open();
     await fh.utimes(t, t);
     const name = `summit${t.toISOString().slice(0, 7)}-dwc.pdf`;
-    console.warn(`fsp.rename(${stmt.name()}, ${stmt.joinPath(name).name()})`);
+    trace(`fsp.rename(${stmt.name()}, ${stmt.joinPath(name).name()})`);
     stmt.rename(stmt.joinPath(name).name());
 }
 
@@ -138,7 +141,7 @@ function portfolioSummary(text) {
 
 
 function from_yymmdd(txt) {
-    // console.warn(txt);
+    // trace(txt);
     const [mm, dd, yy] = txt.split('/').map(dd => parseInt(dd, 10));
     const yr = (yy < 50 ? 2000 : 1900) + yy;
     return new Date(yr, mm - 1, dd);
