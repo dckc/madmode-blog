@@ -2,14 +2,17 @@
 import pathlib from './pathlib';
 import pdf from 'pdf-parse';
 
-async function main(argv, { stdout, readFile, resolve, fsp }) {
-    const cwd = pathlib.fsReadAccess('.', { readFile, resolve });
+async function main(argv, { stdout, readFile, writeFile, resolve, fsp }) {
+    const cwd = pathlib.fsAdminAccess('.', {
+        readFile, resolve, writeFile,
+        open: fsp.open, rename: fsp.rename, utimes: fsp.utimes,
+    });
     let hdDone = false;
     for (const stmt of argv.slice(2)) {
         console.warn(stmt);
 
-        const rd = cwd.joinPath(stmt);
-        const raw = await rd.readBytes();
+        const path = cwd.joinPath(stmt);
+        const raw = await path.readOnly().readBytes();
         console.warn('raw bytes: ', raw.length);
 
         // https://www.npmjs.com/package/parse-pdf
@@ -30,9 +33,8 @@ async function main(argv, { stdout, readFile, resolve, fsp }) {
             stdout.write(line + '\n');
         }
 
-        const fh = await fsp.open(rd.name());
         const [_, t] = info.period;
-        await setDate(fh, rd, t);
+        await setDate(path, t);
     }
 }
 
@@ -50,7 +52,7 @@ function asQIF(info) {
     const splitCats = [null, null, mp, mp, mp, svc, mp, null];
     const splits = info.detail.map(
         ([memo, q1, ytd], ix) =>
-            ({ memo, amt: parseAmt(q1), cat: splitCats[ix]}));
+            ({ memo, raw: q1, amt: parseAmt(q1), cat: splitCats[ix]}));
     console.warn(splits);
     const splitLines = splits.filter(
         s => s.cat !== null && s.amt !== null && s.amt !== 0)
@@ -67,6 +69,7 @@ function asQIF(info) {
     const main = [
         `PQ${qn} Portfolio Summary`,
         `T${amount}`,
+        `Mbegin: ${splits[1].raw} end: ${splits[7].raw}`,
         `D${dt.getMonth() + 1}/${dt.getDate()}/${dt.getFullYear()}`,
         'Cc',
     ];
@@ -78,11 +81,14 @@ function asQIF(info) {
 }
 
 
-async function setDate(fh, rd, t) {
-    console.warn(`fh = open(${rd.name()})`);
+async function setDate(stmt, t) {
+    console.warn(`fh = open(${stmt.name()})`);
     console.warn(`await fh.utimes(${t}, ${t})`);
+    const fh = await stmt.open();
+    await fh.utimes(t, t);
     const name = `summit${t.toISOString().slice(0, 7)}-dwc.pdf`;
-    console.warn(`fsp.rename(${rd.name()}, ${rd.joinPath(name).name()})`);
+    console.warn(`fsp.rename(${stmt.name()}, ${stmt.joinPath(name).name()})`);
+    stmt.rename(stmt.joinPath(name).name());
 }
 
 
@@ -143,7 +149,9 @@ function from_yymmdd(txt) {
 if (require.main === module) {
     main(process.argv, {
         stdout: process.stdout,
+        // TODO: don't import fs so many times; just use .promises
         readFile: require('fs').readFile,
+        writeFile: require('fs').writeFile,
         fsp: require('fs').promises,
         resolve: require('path').resolve,
     })

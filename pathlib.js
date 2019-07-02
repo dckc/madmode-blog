@@ -24,10 +24,13 @@ type WriteAccess = {
   writeText(text: string): Promise<void>;
   joinPath(other: string): WriteAccess;
   readOnly(): ReadAccess;
+  name(): string;
 }
 
 type AdminAccess = {
+  name(): string;
   open(): Promise<fs.FileHandle>;
+  rename(there: string): Promise<void>;
   joinPath(other: string): AdminAccess;
   writeOnly(): WriteAccess;
   readOnly(): ReadAccess;
@@ -44,7 +47,6 @@ interface WrOps extends RdOps {
 
 interface AdminOps extends WrOps {
   rename: typeof fs.promises.rename,
-  utimes: typeof fs.promises.utimes,
   open: typeof fs.promises.open,
 }
 
@@ -62,7 +64,7 @@ function fsReadAccess(
     readText: (encoding /*: string*/ = 'utf8') =>
       asPromise(f => ops.readFile(path, encoding, f)),
     readBytes: () => asPromise(f => ops.readFile(path, f)),
-    joinPath: other => fsReadAccess(ops.resolve(path, other), ops),
+    joinPath: other => fsReadAccess(ops.resolve(path, '..', other), ops),
   });
 }
 
@@ -72,8 +74,9 @@ function fsWriteAccess(
   ops /*: WrOps */,
 ) /*: WriteAccess*/ {
   return Object.freeze({
+    name: () => path,
     writeText: text => asPromise(f => ops.writeFile(path, text, f)),
-    joinPath: other => fsWriteAccess(ops.resolve(path, other), ops),
+    joinPath: other => fsWriteAccess(ops.resolve(path, '..', other), ops),
     readOnly: () => fsReadAccess(path, ops),  // TODO: prune ops
   });
 }
@@ -84,8 +87,10 @@ function fsAdminAccess(
   ops /*: AdminOps */,
 ) /*: AdminAccess*/ {
   return Object.freeze({
+    name: () => path,
     open: () => ops.open(path),
-    joinPath: other => fsAdminAccess(ops.resolve(path, other), ops),
+    rename: there => ops.rename(path, there),
+    joinPath: other => fsAdminAccess(ops.resolve(path, '..', other), ops),
     writeOnly: () => fsWriteAccess(path, ops),
     readOnly: () => fsReadAccess(path, ops),
   });
