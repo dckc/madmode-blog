@@ -96,51 +96,81 @@ async function setDate(stmt, t) {
 
 
 function portfolioSummary(text) {
-    let state = null;
-    let rows = [];
-    let row = [];
-    let out = {};
-    for (const line of text.split('\n')) {
-        // console.warn(line);
-        if (line.startsWith('REPORTING PERIOD:')) {
-            state = 'reporting';
-        } else if (state === 'reporting') {
-            const parts = line.match(
-                    /([^ ]+) through ([^ ]+)/);
-            out = { 'REPORTING PERIOD': parts.slice(1, 3), ...out };
-            state = null;
-        }
+    const mustMatch = (target, text) => {
+        const parts = text.match(target);
+        if (parts === null) { throw new Error(target); }
+        return parts;
+    };
 
-        if (state === null && line.trim() === 'PORTFOLIO CHANGES') {
-            state = 'head1';
-        } else if (line.trim() === 'Since Inception') {
-            out = {detail: rows, ...out};
-            break;
-        } else if (state === 'head1') {
-            row.push(line.trim());
-            state = 'head23';
-        } else if (state === 'head23') {
-            const slash = row[0].indexOf('/');
-            row.push(line.slice(0, slash));
-            row.push(line.trim().slice(slash));
-            rows.push(row);
-            row = [];
-            state = 'body';
-        } else if (state === 'body') {
-            // console.warn('line:', line);
-            const parts = line.trim().match(
-                    /([^\-0-9,$]+)([\- 0-9,$]+\.[0-9]{2})(.*)/);
-            rows.push(parts.slice(1, 4));
-        }
-    }
+    const reportingPeriod = (
+        mustMatch(/^REPORTING PERIOD:\n([^ ]+) through ([^ ]+)/m, text)
+            .slice(1, 3)
+    );
 
-    out = { period: out['REPORTING PERIOD'].map(from_yymmdd), ...out };
+    const mustFind = (target, text) => {
+        const ix = text.indexOf(target);
+        if (ix < 0) { throw new Error(target); }
+        return ix;
+    };
 
-    return out;
+    const section = (start, end) => {
+        const lo = mustFind(start, text);
+        const rest = text.slice(lo);
+        const hi = mustFind(end, rest);
+        return rest.slice(start.length, hi).trim().split('\n');
+    };
+
+    return {
+        detail: changeDetail(section('PORTFOLIO CHANGES', 'Since Inception')),
+        'REPORTING PERIOD': reportingPeriod,
+        period: reportingPeriod.map(from_mmddyy),
+    };
 }
 
 
-function from_yymmdd(txt) {
+/**
+ * Between **PORTFOLIO CHANGES** and **Since Inception** headings,
+ * we expect to find:
+ *
+ *  1. colhd2/colhd3
+ *  2. colhd2colhd3
+ *  3. rowhd999.99999.99
+ *  4. rowhd999.99999.99
+ *  5. ...
+ *
+ * We use the / to split colhd2 from colhd3 on line 2, and we know
+ * amounts have exactly 2 digits after the decimal.
+ */
+function changeDetail(changes) {
+    trace(changes);
+    const rowHdAmt1Amt2 = /([^\-0-9,$]+)([\- 0-9,$]+\.[0-9]{2})(.*)/;
+    const detail = changes.reduce(
+        (d, line) => (
+            d.state === 'head1' ? {
+                state: 'head23',
+                th: line, slash: line.indexOf('/'),
+            } :
+            d.state === 'head23' ? {
+                state: 'body',
+                rows: [[
+                    d.th,
+                    line.slice(0, d.slash),
+                    line.trim().slice(d.slash),
+                ]],
+            } :
+            // d.state must be 'body'
+            {
+                state: 'body',
+                rows: [...d.rows,
+                       line.trim().match(rowHdAmt1Amt2).slice(1, 4)]
+            }),
+        { state: 'head1' });
+
+    return detail.rows;
+}
+
+
+function from_mmddyy(txt) {
     // trace(txt);
     const [mm, dd, yy] = txt.split('/').map(dd => parseInt(dd, 10));
     const yr = (yy < 50 ? 2000 : 1900) + yy;
