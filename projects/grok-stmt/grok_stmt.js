@@ -42,16 +42,17 @@ async function main(argv, { stdout, readFile, writeFile, resolve, fsp }) {
 }
 
 
-function asQIF(info) {
-    const typeA = 'Oth A';
-    const dt = info.period[1];
+function asQIF(info,
+               typeA = 'Oth A',
+               asset = 'Fixed:Retirement:IRA Daniel',
+               mp = 'OB:Market Performance',
+               svc = 'OB:Services',
+               ira = 'Fixed:Retirement:IRA Daniel') {
+    const [_, dt] = info.period;
     const qn = Math.floor(dt.getMonth() / 3) + 1;
 
     const money = f => Math.round(f * 100) / 100;
     const parseAmt = txt => money(parseFloat(txt.replace(/[$, ]/g, '')));
-    const asset = 'Fixed:Retirement:IRA Daniel';
-    const [mp, svc, ira] = ['OB:Market Performance', 'OB:Services',
-                            'Fixed:Retirement:IRA Daniel'];
     const splitCats = [null, null, mp, mp, mp, svc, mp, null];
     const splits = info.detail.map(
         ([memo, q1, ytd], ix) =>
