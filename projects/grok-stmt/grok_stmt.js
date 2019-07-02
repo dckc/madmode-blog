@@ -1,5 +1,7 @@
 // @flow
 import pathlib from './pathlib';
+// https://www.npmjs.com/package/parse-pdf
+// based on https://mozilla.github.io/pdf.js/getting_started/
 import pdf from 'pdf-parse';
 
 const trace = console.warn;
@@ -10,31 +12,33 @@ async function main(argv, { stdout, readFile, writeFile, resolve, fsp }) {
         readFile, resolve, writeFile,
         open: fsp.open, rename: fsp.rename, utimes: fsp.utimes,
     });
+
+    await grokStatements(argv.slice(2), cwd, stdout);
+}
+
+async function grokStatements(files, cwd, stdout) {
     let hdDone = false;
-    for (const stmt of argv.slice(2)) {
-        trace(stmt);
 
-        const path = cwd.joinPath(stmt);
-        const raw = await path.readOnly().readBytes();
-        trace('raw bytes: ', raw.length);
-
-        // https://www.npmjs.com/package/parse-pdf
-        // based on https://mozilla.github.io/pdf.js/getting_started/
-        const data = await pdf(raw);
-
-        // trace('// PDF text', data.text);
-        const info = portfolioSummary(data.text);
-        trace(info);
-        const { header, body } = asQIF(info);
-        if (!hdDone) {
-            for (const line of header) {
-                stdout.write(line + '\n');
-            }
-            hdDone = true;
-        }
-        for (const line of body) {
+    function writelines(lines) {
+        for (const line of lines) {
             stdout.write(line + '\n');
         }
+    }
+
+    for (const stmt of files) {
+        trace(stmt);
+        const path = cwd.joinPath(stmt);
+        const raw = await path.readOnly().readBytes();
+
+        const data = await pdf(raw);
+        // trace('// PDF text', data.text);
+
+        const info = portfolioSummary(data.text);
+        trace(info);
+
+        const { header, body } = asQIF(info);
+        if (!hdDone) { writelines(header); }
+        writelines(body);
 
         const [_, t] = info.period;
         await setDate(path, t);
