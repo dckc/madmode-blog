@@ -25,6 +25,29 @@ type WriteAccess = {
   joinPath(other: string): WriteAccess;
   readOnly(): ReadAccess;
 }
+
+type AdminAccess = {
+  open(): Promise<fs.FileHandle>;
+  joinPath(other: string): AdminAccess;
+  writeOnly(): WriteAccess;
+  readOnly(): ReadAccess;
+}
+
+interface RdOps {
+  readFile: typeof fs.readFile,
+  resolve: typeof path.resolve,
+}
+
+interface WrOps extends RdOps {
+  writeFile: typeof fs.writeFile;
+}
+
+interface AdminOps extends WrOps {
+  rename: typeof fs.promises.rename,
+  utimes: typeof fs.promises.utimes,
+  open: typeof fs.promises.open,
+}
+
  */
 
 const { asPromise } = require('./asPromise');
@@ -32,28 +55,39 @@ const { asPromise } = require('./asPromise');
 exports.fsReadAccess = fsReadAccess;
 function fsReadAccess(
   path /*: string*/,
-  readFile /*: typeof fs.readFile */,
-  join /*: typeof path.join */,
+  ops /*: RdOps */,
 ) /*: ReadAccess*/ {
   return Object.freeze({
     name: () => path,
-    readText: (encoding /*: string*/ = 'utf8') => asPromise(f => readFile(path, encoding, f)),
-    readBytes: () => asPromise(f => readFile(path, f)),
-    joinPath: other => fsReadAccess(join(path, other), readFile, join),
+    readText: (encoding /*: string*/ = 'utf8') =>
+      asPromise(f => ops.readFile(path, encoding, f)),
+    readBytes: () => asPromise(f => ops.readFile(path, f)),
+    joinPath: other => fsReadAccess(ops.resolve(path, other), ops),
   });
 }
 
 exports.fsWriteAccess = fsWriteAccess;
 function fsWriteAccess(
   path /*: string*/,
-  writeFile /*: typeof fs.writeFile */,
-  readFile /*: typeof fs.readFile */,
-  join /*: typeof path.join */,
+  ops /*: WrOps */,
 ) /*: WriteAccess*/ {
   return Object.freeze({
-    writeText: text => asPromise(f => writeFile(path, text, f)),
-    joinPath: other => fsWriteAccess(join(path, other), writeFile, readFile, join),
-    readOnly: () => fsReadAccess(path, readFile, join),
+    writeText: text => asPromise(f => ops.writeFile(path, text, f)),
+    joinPath: other => fsWriteAccess(ops.resolve(path, other), ops),
+    readOnly: () => fsReadAccess(path, ops),  // TODO: prune ops
+  });
+}
+
+exports.fsAdminAccess = fsAdminAccess;
+function fsAdminAccess(
+  path /*: string*/,
+  ops /*: AdminOps */,
+) /*: AdminAccess*/ {
+  return Object.freeze({
+    open: () => ops.open(path),
+    joinPath: other => fsAdminAccess(ops.resolve(path, other), ops),
+    writeOnly: () => fsWriteAccess(path, ops),
+    readOnly: () => fsReadAccess(path, ops),
   });
 }
 

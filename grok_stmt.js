@@ -2,24 +2,38 @@
 import pathlib from './pathlib';
 import pdf from 'pdf-parse';
 
-async function main(argv, { readFile, join }) {
-    // console.log('argv:', argv);
-    const stmt = argv[2];
-    const rd = pathlib.fsReadAccess(stmt, readFile, join);
+async function main(argv, { readFile, resolve, fsp }) {
+    const cwd = pathlib.fsReadAccess('.', { readFile, resolve });
+    for (const stmt of argv.slice(2)) {
+        console.log(stmt);
+        const rd = cwd.joinPath(stmt);
 
-    const raw = await rd.readBytes();
-    console.log('raw bytes: ', raw.length);
-    // https://www.npmjs.com/package/parse-pdf
-    // based on https://mozilla.github.io/pdf.js/getting_started/
-    const data = await pdf(raw);
+        const raw = await rd.readBytes();
+        console.log('raw bytes: ', raw.length);
+        // https://www.npmjs.com/package/parse-pdf
+        // based on https://mozilla.github.io/pdf.js/getting_started/
+        const data = await pdf(raw);
 
-    // console.log('// PDF text', data.text);
-    const rows = portfolioChanges(data.text);
-    console.log(rows);
+        // console.log('// PDF text', data.text);
+        const info = portfolioSummary(data.text);
+        console.log(info);
+
+        const fh = await fsp.open(rd.name());
+        const [_, t] = info.period;
+        await setDate(fh, rd, t);
+    }
 }
 
 
-function portfolioChanges(text) {
+async function setDate(fh, rd, t) {
+    console.log(`fh = open(${rd.name()})`);
+    console.log(`await fh.utimes(${t}, ${t})`);
+    const name = `summit${t.toISOString().slice(0, 7)}-dwc.pdf`;
+    console.log(`fsp.rename(${rd.name()}, ${rd.joinPath(name).name()})`);
+}
+
+
+function portfolioSummary(text) {
     let state = null;
     let rows = [];
     let row = [];
@@ -31,7 +45,7 @@ function portfolioChanges(text) {
         } else if (state === 'reporting') {
             const parts = line.match(
                     /([^ ]+) through ([^ ]+)/);
-            out = {'REPORTING PERIOD': parts.slice(1, 3), ...out};
+            out = { 'REPORTING PERIOD': parts.slice(1, 3), ...out };
             state = null;
         }
 
@@ -57,7 +71,18 @@ function portfolioChanges(text) {
             rows.push(parts.slice(1, 4));
         }
     }
+
+    out = { period: out['REPORTING PERIOD'].map(from_yymmdd), ...out };
+
     return out;
+}
+
+
+function from_yymmdd(txt) {
+    // console.log(txt);
+    const [mm, dd, yy] = txt.split('/').map(dd => parseInt(dd, 10));
+    const yr = (yy < 50 ? 2000 : 1900) + yy;
+    return new Date(yr, mm - 1, dd);
 }
 
 
@@ -65,7 +90,8 @@ function portfolioChanges(text) {
 if (require.main === module) {
     main(process.argv, {
         readFile: require('fs').readFile,
-        join: require('path').join,
+        fsp: require('fs').promises,
+        resolve: require('path').resolve,
     })
         .then(_ => null)
         .catch((oops) => { console.error(oops); });
