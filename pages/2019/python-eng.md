@@ -270,6 +270,7 @@ longer than 10 lines and applying these techniques turns up a bug or
 two or at least clarifies the security properties of the code.
 
 And in this case, of the resulting 60 lines:
+
   - 25 are documentation
     - 10 show simulated script output, which is very simple
   - The `main()` function is 6 lines that clearly do nothing
