@@ -22,6 +22,8 @@ from flask_assets import Environment as AssetManager
 from PIL import Image, ImageOps
 from werkzeug.routing import BaseConverter
 
+from meta_compat import MetaCompat
+
 # Configuration
 DEBUG = False
 BASE_URL = 'http://www.madmode.com/'
@@ -46,7 +48,7 @@ class FlaskE(Flask):
 # app = FlaskE(__name__)
 app = Flask(__name__)
 app.config.from_object(__name__)
-pages = FlatPages(app)
+pages = MetaCompat(app)
 freezer = Freezer(app)
 markdown_manager = Markdown(app)
 asset_manager = AssetManager(app)
