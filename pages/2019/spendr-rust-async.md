@@ -1,6 +1,6 @@
 ---
 title: "spendr: toward an rchain gRPC client in rust using tokio and async / await"
-keywords: ["rust", "grpc", "tokio", "async", "rchain", "programming"]
+tags: [rust, grpc, tokio, async, rchain, programming]
 date: 2019-09-10
 published: true
 ---
