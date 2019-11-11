@@ -19,7 +19,7 @@ Frozen-Flask = "==0.13"
 Flask-FlatPages = "==0.6"
 Flask-Markdown = "==0.3"
 Flask-Assets = "==0.12"
-Pillow = "==3.4.2"
+Pillow = "==6.2.0"
 
 # ISSUE: bummer. Flask-Markdown uses positional arguments
 # ISSUE: I can haz footnotes?
