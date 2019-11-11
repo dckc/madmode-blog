@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "82005bf6d7446c7d30a0a927fc935fbadb8a4d0091f15f2fd5f2d4443e368ca9"
+            "sha256": "c6900194633df16d3c1f4f1bf771aeb8ff6501c67e107337ba2f8a8f7de10174"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -32,11 +32,11 @@
         },
         "flask": {
             "hashes": [
-                "sha256:0f431076a50908f0484dcddd0f2fd0241129ef9ca1876799b3ebe14d823f60de",
-                "sha256:74bb782687731332b86aa8ab0817be14c9e63e5fa837934de8be4f9236d6d0d2"
+                "sha256:7fab1062d11dd0038434e790d18c5b9133fd9e6b7257d707c4578ccc1e38b67c",
+                "sha256:b1883637bbee4dc7bc98d900792d0a304d609fce0f5bd9ca91d1b6457e5918dd"
             ],
             "index": "pypi",
-            "version": "==0.12.3"
+            "version": "==1.0"
         },
         "flask-assets": {
             "hashes": [
@@ -167,7 +167,7 @@
                 "sha256:254c1d9c79f60c45dfde850850883d5aaa7f19a23f13561243a050d5a7c3fe4c",
                 "sha256:c7d282687a5308319bf3d2e7706e575c635b0a470342641c93bea0ea3b5331df"
             ],
-            "markers": "python_version < '3.2'",
+            "markers": "python_version == '2.7'",
             "version": "==4.0.2"
         },
         "entrypoints": {
