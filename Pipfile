@@ -14,12 +14,12 @@ flake8 = "*"
 [packages]
 # direct imports from ./site, in source order
 argh = "==0.15.1"
-Flask = "==0.12.3"
+Flask = "*"
 Frozen-Flask = "==0.13"
 Flask-FlatPages = "==0.6"
-Flask-Markdown = "==0.3"
+Flask-Markdown = "*"
 Flask-Assets = "==0.12"
-Pillow = "==6.2.0"
+Pillow = "*"
 
 # ISSUE: bummer. Flask-Markdown uses positional arguments
 # ISSUE: I can haz footnotes?
