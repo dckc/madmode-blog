@@ -10,14 +10,28 @@
 
 module RegionCalculus
 
-import Map
+import Data.ZZ
 import Decidable.Order -- TODO: Lattice
+import Map
+
+%default total
+%access public export
 
 ||| We assume two countable sets, Loc of mutable references and Prin of
 ||| principals.  Elements of Loc are written r and elements of Prin are
 ||| written P.
 data Loc = MkLoc Nat
 data Prin = MkPrin Nat
+
+locInjective : MkLoc n = MkLoc m -> n = m
+locInjective Refl = Refl
+
+DecEq Loc where
+  decEq (MkLoc x) (MkLoc y) with (decEq x y)
+    | Yes p = Yes $ cong p
+    | No p = No $ \h => p $ locInjective h
+
+
 
 ||| Values consist of integers (n), booleans (tt, ff ) and pointers or
 ||| mutable references R r and W r
@@ -26,7 +40,7 @@ data Prin = MkPrin Nat
 ||| Capability R r can only be used to read r , whereas capability
 ||| W r can only be used to write r .
 data Value =
-    Integer Nat -- negative?
+    IntVal ZZ
   | True
   | False
   | Read Loc
@@ -35,7 +49,7 @@ data Value =
 ||| Expressions e are computations that cannot update references. They
 ||| include values and reference reading (!e).
 data Expr =
-    ValueExpr Value
+    Lit Value
   | Deref Expr
 
 ||| Commands c are standard conditionals, while loops, assignments,
@@ -73,9 +87,16 @@ data Program =
 ||| principal that owns the reference. Formally, O : Loc →
 ||| Prin. Principals are assumed to be organized in a lattice L whose
 ||| order is written ≥ L .
-data WriteIntegrity: (ownership: Map Loc Prin) -> (gteL: Prin -> Prin -> Type) -> Type where
-  HasWriteIntegrity: Poset Prin gteL => WriteIntegrity ownership gteL
+data WriteIntegrity: (owner: Map Loc Prin) -> (gteL: Prin -> Prin -> Type) -> Type where
+  HasWriteIntegrity: Poset Prin gteL => WriteIntegrity owner gteL
 
+||| For convenience, we extend the order ≥ L to regions: ρ ≥ L ρ 0
+||| when ρ ∈ {P, P}, ρ 0 ∈ {P 0 , P 0 } and P ≥ L P 0 .
+extend: (gteL: Prin -> Prin -> Type) -> (Region -> Region -> Type)
+extend gteL (Principal p) (Principal p') = gteL p p'
+extend gteL (Endorsed p) (Principal p') = gteL p p'
+extend gteL (Endorsed p) (Endorsed p') = gteL p p'
+extend gteL (Principal p) (Endorsed p') = gteL p p'
 
 -- Local Variables:
 -- idris-load-packages: ("contrib")
