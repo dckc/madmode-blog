@@ -56,8 +56,8 @@ data Expr =
 ||| sequencing (c 1 ; c 2 ) and skip.
 data Command =
     If Expr Command Command
-  | Loop Expr Command
-  | Assignment Expr Expr
+  | While Expr Command
+  | Assign Expr Expr
   | Seq Command Command
   | Skip
 
