@@ -1,6 +1,7 @@
 title: dreaming big at the RChain Governance Forum
 date: 2018-02-21
 published: True
+tags: travel, collaboration, rchain, smart-contracts, trust-metric, SEA
 
 I'm back from the [RChain][] Governance Forum in Seattle, which was
 full of big dreams, just like the first Web conference in Geneva.
