@@ -6,6 +6,15 @@
 
 (require 'tabs-are-evil)
 
+;; file-attribute-size was added in Emacs 26.1.
+;; https://github.com/alphapapa/org-web-tools/commit/e7abbfbd3ea7f277302656249b239eda3de40c94
+(defun file-attribute-size (attrs)
+  (nth 7 attrs))
+
+(use-package direnv
+ :config
+ (direnv-mode))
+
 (require 'js-dev-flow)
 
 ;@@@ (require 'rholang-dev-rchain)
