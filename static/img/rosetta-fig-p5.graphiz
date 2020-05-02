@@ -1,0 +1,19 @@
+digraph G {
+node [shape=box]
+edge [dir=none]
+
+categories -> "monoidal categories" -> "braided\nmonoidal categories" -> "symmetric\nmonoidal categories" -> "cartesian categories" -> "cartesian\nclosed categories"
+
+"monoidal categories" -> "closed\nmonoidal categories" -> "closed braided\nmonoidal categories" -> "closed symmetric\nmonoidal categories" -> "cartesian\nclosed categories"
+
+"closed\nmonoidal categories" -> "compact\nmonoidal categories" -> "compact braided\nmonoidal categories" -> "compact symmetric\nmonoidal categories"
+
+"closed symmetric\nmonoidal categories" -> "compact symmetric\nmonoidal categories"
+
+"closed\nmonoidal categories" [color=orange]
+"closed braided\nmonoidal categories" [color=orange]
+"closed symmetric\nmonoidal categories" [color=orange]
+"cartesian categories" [color=orange]
+"cartesian\nclosed categories" [color=orange]
+
+}
