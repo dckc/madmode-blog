@@ -1,0 +1,8 @@
+syntax: glob
+build/
+*~
+static/.webassets-cache/
+fontconfig/
+.ipynb_checkpoints
+*.pyc
+dckc.github.io/

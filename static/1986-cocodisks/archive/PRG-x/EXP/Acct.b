@@ -1,0 +1,1 @@
+PROCEDURE AcctNamesTYPE Global=filler(30):BYTE; Name(32):STRING[13]PARAM g:GlobalDIM i:INTEGERLOOP PRINT CHR$(12); "Account g.names"FOR i=1 TO 16PRINT i,g.Name(i),PRINT i+16,g.Name(i+16)NEXT iPRINT INPUT "Number: ",iEXITIF i<1 OR i>32 THEN ENDEXIT INPUT "g.name: ",g.Name(i)ENDLOOP 

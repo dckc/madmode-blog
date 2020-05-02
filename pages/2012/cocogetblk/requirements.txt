@@ -1,0 +1,5 @@
+numpy
+matplotlib
+tornado >= 2.1.0
+pyzmq >= 2.1.4
+jinja2

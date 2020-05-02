@@ -1,0 +1,106 @@
+# Fun With Rust Issues
+
+With the [release of Rust 0.5][r05], I polished up a little analysis of issues using R and the [github issue API][v3]. _also appears in [MadMode][]_
+
+[r05]:https://mail.mozilla.org/pipermail/rust-dev/2012-December/002787.html
+[v3]: http://developer.github.com/v3/issues/
+[MadMode]: http://www.madmode.com/2012_12_01_archive.html
+
+I initially downloaded the data with python script; I almost figured out how to do it with R before deciding that wasn't really the point of this exercise. So I polished up the python script a bit instead; see [rustrate][] if you're curious.
+
+[rustrate]: https://bitbucket.org/DanC/metamath-tools/src/03e4d9f145e327e06c79a59650d56621f554f057/rustrate.py
+
+## JSON to Dataframe
+
+To convert the JSON data from the github API to an R dataframe:
+
+```{r}
+issue.data <- function(file) {
+  require('rjson')
+  issue.object.list <- fromJSON(file=file)
+  
+  data.frame(number=field(issue.object.list, "number"),
+             title=field(issue.object.list, "title"),
+             created_at=as.POSIXct(field(issue.object.list, "created_at")),
+             closed_at=as.POSIXct(field(issue.object.list, "closed_at")),
+             stringsAsFactors=FALSE, row.names='number')
+}
+
+
+field <- function(l, n) {
+  as.vector(sapply(l, function(i) {
+    x <- i[[n]]
+    ifelse(is.null(x), NA, x)
+  }
+  ))
+}
+```
+
+## Plotting Issues Over Time
+
+To get a count of open issues vs. time and plot it:
+
+```{r}
+open.at <- function(d) {
+  open <- data.frame(sign=1, t=d$created_at)
+  close <- data.frame(sign=-1,
+                      t=d$closed_at[!is.na(d$closed_at)])
+  both <- rbind(open, close)
+  
+  both <- both[order(both$t),]
+  both$open <- cumsum(both$sign)
+  both
+}
+
+
+plot.issues <- function(both, main, pch=3, other=NULL, other.pch=NULL) {
+  both$color = 'blue'
+  if (!is.null(other)) {
+    other$color = 'green'
+    both <- rbind(both, other)
+  }
+  with(both, plot(open ~ t, xaxt="n", col=both$color, pch=20, new=new,
+                  main=main, xlab="", ylab="issues"))
+  
+  atx <- seq(min(both$t), max(both$t), by=7*24*60*60)
+  axis(1, at=atx, labels=format(atx, "%b\n%d"), padj=0.5)
+}
+
+```
+
+## Rust 0.5 Issues
+
+So let's try it with 0.5 issues:
+
+```{r, fig.width=8}
+d5 <- issue.data(file='rust-issues5.json')
+head(d5)
+
+plot.issues(open.at(d5), main="Rust 0.5 Open Issues", pch=20)
+```
+
+## Rust 0.4 Issues
+
+Contrast with:
+
+```{r, fig.width=8}
+d4 <- issue.data(file='rust-issues4bis.json')
+plot.issues(open.at(d4), main="Rust 0.4 Open Issues", pch=21)
+```
+
+## Together
+
+```{r both, fig.keep='high', fig.width=10}
+plot.issues(open.at(d4), main="Rust 0.4, 0.5 Open Issues", pch=21,
+            other=open.at(d5), other.pch=20)
+```
+
+## What have you done for me lately?
+
+Finally, let's look at the 100 most recently closed 0.5 issues.
+
+```{r}
+d5 <- d5[order(-as.numeric(d5$closed_at)),]
+options(width=200)
+print(head(d5[,c('closed_at', 'title')], 100), right=FALSE, max.levels=NULL)
+```

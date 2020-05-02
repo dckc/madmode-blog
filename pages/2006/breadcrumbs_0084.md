@@ -1,0 +1,6 @@
+date: 2006-02-08
+title: 'tabulator use cases: when can we meet? and PathCross'
+published: True
+tags: ['breadcrumbs']
+
+<p>I keep all sorts of calendar info in the web, as do my colleagues and the groups and organizations we participate in.</p>  <p>Suppose it was all in RDF, either directly as RDF/XML or indirectly via GRDDL as hCalendar or the like.</p>  <p>Wouldn&#39;t it be cool to grab a bunch of sources, and then tabulate names vs. availability on various dates?</p>  <p>I would probably need rules in the tabulator; <a href="http://lists.w3.org/Archives/Public/semantic-web/2006Feb/0019.html">Jos&#39;s work</a> sure seems promising.</p>  <p>Closely related is the <a href="http://esw.w3.org/topic/PathCross">PathCross use case</a>...</p>  <blockquote><p>Suppose I&#39;m travelling to Boston and San Francisco in the next couple months. I&#39;d like my machine to let me know I have a FriendOfaFriend who also lives there or plans to be there.</p></blockquote>   <p>See also the Open Group&#39;s <a href="http://www.opengroup.org/messaging/challenges/fb-challenge.htm">Federated Free/Busy Challenge</a>.</p> 

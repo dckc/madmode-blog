@@ -1,0 +1,28 @@
+# See CONTRIBUING.md for context, instructions.
+[requires]
+python_version = "2.7"
+
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+# tox?
+
+[packages]
+# direct imports from ./site, in source order
+argh = "==0.15.1"
+Flask = "*"
+Frozen-Flask = "==0.13"
+Flask-FlatPages = "==0.6"
+Flask-Markdown = "*"
+Flask-Assets = "==0.12"
+Pillow = "*"
+
+# ISSUE: bummer. Flask-Markdown uses positional arguments
+# ISSUE: I can haz footnotes?
+# https://python-markdown.github.io/change_log/release-3.0/#positional-arguments-deprecated
+markdown = "==2.6.7"
+markupsafe = "==0.23"

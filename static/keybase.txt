@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/dckc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.madmode.com
+  * I am dckc (https://keybase.io/dckc) on keybase.
+  * I have a public key with fingerprint 96D5 E56E DE53 3E63 C953  F85D 8FE7 514A 4355 FB59
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101d8635ae2f5180b7135772d0073f7cc31928dab3b4e90d0bf112d7945c4458cfb0a",
+            "fingerprint": "96d5e56ede533e63c953f85d8fe7514a4355fb59",
+            "host": "keybase.io",
+            "key_id": "8fe7514a4355fb59",
+            "kid": "0101d8635ae2f5180b7135772d0073f7cc31928dab3b4e90d0bf112d7945c4458cfb0a",
+            "uid": "32d094a2330823be2848626dba724919",
+            "username": "dckc"
+        },
+        "service": {
+            "hostname": "www.madmode.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1457814814,
+    "expire_in": 157680000,
+    "prev": "aa1f4fd7ac06167b23e1c165a0c1d817c382b21f93a57114127233ff4592ebe3",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMIpAnicrVJbSFRBGF7TyrYMwy2SymKKHmzZzsycOZcVLLpZ1FOQVgbLOWfm6Gnb
+PdvZ424mGgQRUT3kraKLXR5aoohChLBSK8PMLLPopg/doAv0EAQFFc2ReuuxYWCY
+//++7//+n/92XrbPn7V4ZMmUQHdRXta9npYaX/nb+qI6oNu0FoTrQJSNPWwbZUk3
+ErUoCAMBCpAqEiYaQyaBiqDLEBNZRlQQZGzKhoGhihSq6VgXmSpQQTchRFRWRWKI
+IlEMUxc0EASmFa9iTsKx4i6XVSVKGJEYZQRjJmFDJdhUCFVMJhMoaiImxNSJyonV
+dtJjcHO6lmQhy+Yx/omM2fsH/j/7rhmTw5ynihrCWFAQ1hlSREVCEtU1GYkq9OrW
+JJkT12KMo6kRNUB9EPBIyjKYN1Sviz/ZdDodimk0ZlMWMuwYpyYc27UNextPVrtu
+Iuxx3drEGJjpkT8yEd2KUz5FTkgxJ2nZcRCGHGm4lqcLRSIrUOQ3CNiOhOWwiOUh
+iCwpAj9eGZbikpoGTdGksmYIEpRkHWEGDSgRTTD4yKBsYAXpCJoq1ogMoQiRzPs2
+TZGoiOkMA6+x7XEbhDG3qVVxyaRVFdfcGoeB+pvdW3J8WX7fhPHjvO3y+Sfl/925
+Qx25vi7//D2rRwcf4NPf73QM+9Z3Lsg4r/dhPKGaLazzZ/KvFaD2r68Hzgq71sJ1
+K8HFb1OR2Zx/rn05fdObub+hMM+Zps6tuPxl/1D9oqbHRbBypOFW32h41nBD6/kT
+ba1lstt01i1LnLna+WjwWW3gSfBz8cX9NzIHy+dcOZ4DJh+bJUTbt75ITP8x42ls
+9567qQObp2T37vz0eYA1Xp9a2tw281fViVy04sO52YGu8h8bK49Yxausxz1Lfx6a
+0fbqXWNr2fuT6UvCQ6Pk4NDQ09DLo/3Rb6fWzEvRPrdjx/MvpX1NF/o/vjga0Ds3
+dB+enJ1xJpYsK23ZbVe8K/i4aW+jUvgbe0M6Mg==
+=CYmX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dckc
+
+==================================================================

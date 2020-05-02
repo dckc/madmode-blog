@@ -1,0 +1,25 @@
+{% extends "code/base.html" %}
+
+{% block contents %}
+{% filter markdown %}
+**I mostly code in [Python](http://python.org/) and Javascript**, and no, I do
+*not* want to code your next project using the PHP programming language.
+
+Hope this sorts out any doubt and makes things crystal-clear.
+{% endfilter %}
+
+<h2>Latest entries</h2>
+
+<div itemscope itemtype="http://schema.org/Blog">
+    {% include "_list.html" %}
+</div>
+
+{% if years|length %}
+    <p>
+        Browse the archives
+        {% for year in years  %}
+            | <a href="{{ url_for("section_archives_year", section="code", year=year) }}">{{ year }}</a>
+        {% endfor %}
+    </p>
+{% endif %}
+{% endblock contents %}

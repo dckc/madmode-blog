@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block page_title %}Dan Connolly's tinkering lab notebook{% endblock %}
+
+{% block contents %}
+
+<figure>
+    <img src="/static/img/wordle-med.png" alt="">
+    <figcaption><a href="http://www.wordle.net/">wordle</a>
+      of <a href="http://www.diigo.com/user/dckc-madmode">my bookmarks</a> circa 2009
+    </figcaption>
+</figure>
+
+<section class="code">
+    {% with pages = posts %}
+        {% include "_list.html" %}
+    {% endwith %}
+</section>
+
+  {% include "tweets.html" %}
+
+<article>
+{% filter markdown %}
+
+## What is Mad Mode?
+
+My day job is writing software to support research at
+the [KU Med Center informatics division][bmi], though I'm best known for
+[my work on HTML and Web Architecture at W3C][w3c].
+
+[bmi]: https://informatics.kumc.edu/work/
+[w3c]: http://www.w3.org/People/Connolly/
+
+I'm a family man, which gives a certain perspective on the <a href="{{ url_for('search_tag', tag='KC') }}">KC</a> area,
+<a href="{{ url_for('search_tag', tag='america') }}">America</a>, and
+the <a href="{{ url_for('search_tag', tag='world') }}">world</a> we live
+in.
+
+Between all that, I like to tinker.  The bane of my existence is doing
+things I know the computer could do for me.  Have you ever had one of
+those ideas that won't let go, not even to eat or sleep? My mom said
+the first time she saw me like that was after they gave me tinker-toys
+for my 3rd or 4th Christmas. She said I was in "mad scientist mode,"
+just like my father, a chemistry professor.
+
+</article>
+
+<!-- TODO: more on freedom to tinker and digital media -->
+
+## Mad About...
+
+  {% include "cloud.html" %}
+
+## Acknowledgements
+
+  - Hosting: [netlify](https://www.netlify.com/) and [github](https://github.com/)
+  - [static blog generator][12bake] based on [Flask][] by Nicolas Perriault.
+
+[Flask]: https://palletsprojects.com/p/flask/
+[12bake]: https://www.madmode.com/2012/bake-fry-frozen-flask.html
+
+<!-- TODO: point to my sources -->
+
+
+{% endfilter %}
+
+{% endblock contents %}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{% block lang %}en{% endblock lang %}">
+<head>
+    <meta charset="utf-8" />
+    {% block extra_head %}{% endblock %}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>MadMode: {% block page_title %}Home{% endblock page_title %}</title>
+    <meta name="description" content="MadMode by Dan Connolly"/>
+    <meta name="viewport" content="width=device-width"/>
+
+    <!-- https://dev.twitter.com/docs/cards -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="dckc" />
+
+{%- assets filters="cssmin", output="packed.css",
+    "css/style.css",
+    "css/code.css",
+    "css/notebook.css"
+%}
+    <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}"/>
+{%- endassets %}
+    <link rel="alternate" type="application/rss+xml" href="{{ url_for('feed') }}" title="Everything (RSS)"/>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="{% block body_class %}{% endblock body_class %}">
+    <!--[if lt IE 7]>
+    <p class="chromeframe">Your browser is <em>ancient!</em> Please <a href="http://www.quirksmode.org/upgrade.html">upgrade</a>.</p>
+    <![endif]-->
+    <div class="container">
+        <header class="main-title">
+            <h1><a href="{{ url_for('index') }}">MadMode</a></h1>
+            <small>Dan Connolly's tinkering lab notebook</small>
+        </header>
+        <div class="contents">
+            {% block contents %}
+            <p>These are the default contents.</p>
+            {% endblock contents %}
+        </div>
+        <nav class="sidebar">
+            <ul>
+                <li class="home"><a href="{{ url_for('index') }}" hreflang="en">Home</a></li>
+<!-- @@                <li class="code"><a href="@@ url_for("section", section="code") }}" hreflang="en">Blog</a></li> -->
+               <li>Archives
+		 {% for year in years  %}
+		 | <a href="{{ url_for('archives_year', year=year) }}"
+		      >{{ year }}</a>
+		 {% endfor %}
+               </li>
+
+                <li class="contact"><a href="{{ url_for('contact') }}" hreflang="en">Contact</a></li>
+            </ul>
+        </nav>
+        <footer class="site-footer">
+            <address>
+  <a href="https://github.com/dckc" rel="me">
+    <img src="/static/img/GitHub-Mark/PNG/GitHub-Mark-64px.png"
+	 width="40px" height="40px" class="social-icon"
+	 alt="dckc on github" /></a>
+  &#160;&#160;&#160;
+  <a href="http://bitbucket.org/DanC" rel="me">
+    <img src="/static/img/bitbucket_icon.png"
+	 width="40px" height="40px" class="social-icon"
+	 alt="bitbucket/DanC code" /></a>
+  &#160;&#160;&#160;
+  <a href="https://twitter.com/dckc" rel="me">
+    <img src="/static/img/twitter_icon.png"
+	 width="40px" height="40px" class="social-icon"
+	 alt="@dckc on twitter" /></a>
+  &#160;&#160;&#160;
+  <a href="https://www.linkedin.com/in/connollydan/" rel="me">
+    <img class="social-icon"
+         src="/static/img/In-2C-34px-R.png"
+	 alt="Dan Connolly on LinkedIn" /></a>
+  &#160;&#160;&#160;
+  <a href="https://keybase.io/dckc">
+    <img class="social-icon"
+         src="https://keybase.io/images/icons/icon-keybase-logo-48.png"
+         alt="dckc on keybase" />
+  &#160;&#160;&#160;
+  <a href="https://www.codementor.io/dckc" rel="me">
+    <img  class="social-icon"
+          src="https://cdn.codementor.io/badges/i_am_a_codementor_dark.svg"
+          alt="I am a codementor" /></a>
+  </a>
+
+  <br />
+  <small>&#169; 1994-2017 <a href="{{ url_for('contact') }}">Dan Connolly. Contact me.</a></small>
+
+              <br/>
+            </address>
+        </footer>
+    </div>
+    <!-- /container -->
+
+    <!-- TODO: add this only to ipython articles -->
+    {% include "mathjax.html" %}
+
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"></script>
+
+{%- assets filters="uglifyjs", output="packed.js",
+    "js/libs/highlight/highlight.pack.js",
+    "js/app.js"
+%}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+{%- endassets %}
+    <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>

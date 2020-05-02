@@ -1,0 +1,110 @@
+/*
+  colors cribbed from http://prismjs.com/ default style
+migrating from:
+  IR_Black style (c) Vasily Mikhailitchenko <vaskas@programica.ru>
+ */
+
+pre {
+    background: #f5f2f0
+}
+
+pre {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  white-space: pre;
+  overflow: auto;
+  line-height: 1.1;
+}
+
+pre code {
+    font-size: medium;
+}
+
+pre .shebang,
+pre .comment,
+pre .template_comment,
+pre .javadoc {
+    color: slategray;
+}
+
+pre .keyword,
+pre .tag,
+pre .ruby .function .keyword,
+pre .tex .command {
+    color: #07a
+}
+
+pre .function .keyword,
+pre .sub .keyword,
+pre .method,
+pre .list .title {
+    color: #07a
+}
+
+pre .string,
+pre .tag .value,
+pre .cdata,
+pre .filter .argument,
+pre .attr_selector,
+pre .apache .cbracket,
+pre .date {
+    color: #a67f59;
+}
+
+pre .function .title,
+pre .sub .identifier,
+pre .pi,
+pre .decorator,
+pre .ini .title,
+pre .tex .special {
+  color: #EC7600;
+}
+
+pre .class .title,
+pre .haskell .label,
+pre .constant,
+pre .smalltalk .class,
+pre .javadoctag,
+pre .yardoctag,
+pre .phpdoc,
+pre .nginx .built_in,
+pre .built_in {
+//  color: red;
+}
+
+pre .symbol,
+pre .ruby .symbol .string,
+pre .ruby .symbol .keyword,
+pre .ruby .symbol .keymethods,
+pre .number,
+pre .variable,
+pre .vbscript,
+pre .literal {
+//  color: #C6C5FE;
+}
+
+pre .css .tag {
+//  color: #96CBFE;
+}
+
+pre .css .rules .property,
+pre .css .id {
+//  color: #FFFFB6;
+}
+
+pre .css .class {
+//  color: #FFF;
+}
+
+pre .hexcolor {
+//  color: #C6C5FE;
+}
+
+pre .number {
+    //color:#FF73FD;
+}
+
+pre .tex .formula {
+    //opacity: 0.7;
+}

@@ -1,0 +1,6 @@
+*~
+*.pyc
+
+/build
+/env
+.webassets-cache

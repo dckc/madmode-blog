@@ -1,0 +1,61 @@
+/* cribbed from ipython notebook styles */
+.anchor-link {
+  text-decoration: none;
+  padding: 0px 20px;
+  visibility: hidden;
+}
+
+h2:hover .anchor-link {
+    visibility: visible;
+}
+
+.input_prompt {
+  float: left
+}
+
+.input_area pre {
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.output_area pre {
+  padding: 4px;
+  color: black;
+  background: transparent;
+}
+
+
+table.dataframe {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    line-height: 1em;
+    border-collapse: collapse;
+    font-size: medium;
+    font-family: sans-serif;
+}
+table.dataframe tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 1em 2em;
+}
+table.dataframe td, th {
+    text-align: left;
+    vertical-align: middle;
+    padding: 4px;
+}
+table.dataframe th {font-weight: bold;}
+tbody tr:nth-child(odd) {
+    background: #f5f5f5;
+}
+table.dataframe tbody tr:hover {
+    background: rgba(66, 165, 245, 0.2);
+}
+
+
+// Darn... this class seems to get lost.
+.input_area {
+    background: #f7f7f7
+    border: 1px solid #cfcfcf;
+    border-radius: 2px;
+}
