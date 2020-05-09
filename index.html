@@ -11,14 +11,18 @@
   <body>
     <h1>hAudio from XSPF</h1>
     <p>
-      This is the demo page for the official <span>Chrome DevTools</span> tutorial on setting up and using Workspaces.
-    </p>
-    <p>
-      See <a href="https://developers.google.com/web/tools/chrome-devtools/workspaces">Save Changes To Disk With Workspaces</a>
-      for instructions.
+    Drop an XSPF playlist below:
     </p>
 
 <div id="dropZone" style="width: 100px; height: 100px; background-color: red"></div>
+
+<h2>HAudio</h2>
+
+<div id="out">
+<ol>
+<li>...</li>
+</ol>
+</div>
 
 <script>
 var dropZone = document.getElementById('dropZone');
@@ -29,6 +33,17 @@ dropZone.addEventListener('dragover', function(e) {
     e.preventDefault();
     e.dataTransfer.dropEffect = 'copy';
 });
+
+
+function elt(tag, children, attrs) {
+    const e = document.createElement(tag); // AMBIENT global document
+    e.append(...children);
+    for (const a in attrs) {
+	 e.setAttribute(a, attrs[a]);
+    }
+    return e;
+}
+
 
 // Get file data on drop
 dropZone.addEventListener('drop', function(e) {
@@ -42,9 +57,24 @@ dropZone.addEventListener('drop', function(e) {
 
             reader.onload = function(e2) {
                 // finished reading file data.
-                var xspf = document.createElement('pre');
-                xspf.textContent= e2.target.result;
-                document.body.appendChild(xspf);
+                const xspf = e2.target.result;
+                // document.body.appendChild(
+                //  elt('pre', [xspf]));
+
+                const plDoc = ( new window.DOMParser() ).parseFromString(xspf, "text/xml");
+                const attr = (elt, n) => elt.querySelector(n).textContent;
+                const tracks = Array.from(plDoc.querySelectorAll('track'));
+                const toItem = track => elt('li', [
+                  elt('a', [elt('cite', [attr(track, 'title')],
+                   {class: 'fn'})],
+                      {href: attr(track, 'location'), rel: 'enclosure'})
+                ], {class: 'item'});
+                const outElt = document.getElementById('out');
+                while (outElt.hasChildNodes()) {
+                  outElt.removeChild(outElt.lastChild);
+                }
+                out.appendChild(elt('ol', tracks.map(toItem),
+                 {class: 'haudio'}));
             }
 
             reader.readAsText(file); // start reading the file data.
@@ -57,7 +87,7 @@ dropZone.addEventListener('drop', function(e) {
     acks:
     <ul>
     <li><a href="https://stackoverflow.com/questions/10261989/html5-javascript-drag-and-drop-file-from-external-window-windows-explorer"
-    >&lt;div id=&quot;dropZone&quot; style=&quot;width: 100px; height: 100px; background-color: red&quot;&gt;&lt;/div&gt;
+    >HTML5, JavaScript: Drag and Drop File from External Window
     </a></li>
     <li><a href="http://microformats.org/wiki/haudio"
     >haudio</a></li>
