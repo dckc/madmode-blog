@@ -37,7 +37,16 @@
       <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API">MDN on drag-n-drop</a>
     </li>
   </ul>
-  <script src="/script.js" defer></script>
+  <script src="/script.js"></script>
+  <script>
+    const xml = new window.DOMParser();
+    ui({
+       byId: id => document.getElementById(id),
+       elt: mkElt(document),
+       parseFromString: (s, t) => xml.parseFromString(s, t),
+       makeFileReader: () => new FileReader(),
+    });
+  </script>
 </body>
 
 </html>
