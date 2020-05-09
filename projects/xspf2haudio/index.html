@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>hAudio from XSPF</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <h1>hAudio from XSPF</h1>
+  <p>
+    Drop an XSPF playlist below:
+  </p>
+
+  <div id="dropZone" style="width: 100px; height: 100px; background-color: red"></div>
+
+  <h2>HAudio</h2>
+
+  <div id="out">
+    <ol>
+      <li>...</li>
+    </ol>
+  </div>
+  <hr />
+  <h2>acks</h2>
+  <ul>
+    <li><a
+        href="https://stackoverflow.com/questions/10261989/html5-javascript-drag-and-drop-file-from-external-window-windows-explorer">HTML5,
+        JavaScript: Drag and Drop File from External Window
+      </a></li>
+    <li><a href="http://microformats.org/wiki/haudio">haudio</a></li>
+    <li>
+      <a href="https://developers.google.com/web/tools/chrome-devtools/workspaces">workspaces</a></li>
+    <li>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API">MDN on drag-n-drop</a>
+    </li>
+  </ul>
+  <script src="/script.js"></script>
+  <script>
+    const xml = new window.DOMParser();
+    ui({
+       byId: id => document.getElementById(id),
+       elt: mkElt(document),
+       parseFromString: (s, t) => xml.parseFromString(s, t),
+       makeFileReader: () => new FileReader(),
+    });
+  </script>
+</body>
+
+</html>
