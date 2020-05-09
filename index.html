@@ -1,101 +1,43 @@
 <!doctype html>
 <html>
-  <head>
-    <title>hAudio from XSPF</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/styles.css">
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <h1>hAudio from XSPF</h1>
-    <p>
+
+<head>
+  <title>hAudio from XSPF</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <h1>hAudio from XSPF</h1>
+  <p>
     Drop an XSPF playlist below:
-    </p>
+  </p>
 
-<div id="dropZone" style="width: 100px; height: 100px; background-color: red"></div>
+  <div id="dropZone" style="width: 100px; height: 100px; background-color: red"></div>
 
-<h2>HAudio</h2>
+  <h2>HAudio</h2>
 
-<div id="out">
-<ol>
-<li>...</li>
-</ol>
-</div>
-
-<script>
-var dropZone = document.getElementById('dropZone');
-
-// Optional.   Show the copy icon when dragging over.  Seems to only work for chrome.
-dropZone.addEventListener('dragover', function(e) {
-    e.stopPropagation();
-    e.preventDefault();
-    e.dataTransfer.dropEffect = 'copy';
-});
-
-
-function elt(tag, children, attrs) {
-    const e = document.createElement(tag); // AMBIENT global document
-    e.append(...children);
-    for (const a in attrs) {
-	 e.setAttribute(a, attrs[a]);
-    }
-    return e;
-}
-
-
-// Get file data on drop
-dropZone.addEventListener('drop', function(e) {
-    e.stopPropagation();
-    e.preventDefault();
-    var files = e.dataTransfer.files; // Array of all files
-
-    for (var i=0, file; file=files[i]; i++) {
-        if (file.type.match(/xspf/)) {
-            var reader = new FileReader();
-
-            reader.onload = function(e2) {
-                // finished reading file data.
-                const xspf = e2.target.result;
-                // document.body.appendChild(
-                //  elt('pre', [xspf]));
-
-                const plDoc = ( new window.DOMParser() ).parseFromString(xspf, "text/xml");
-                const attr = (elt, n) => elt.querySelector(n).textContent;
-                const tracks = Array.from(plDoc.querySelectorAll('track'));
-                const toItem = track => elt('li', [
-                  elt('a', [elt('cite', [attr(track, 'title')],
-                   {class: 'fn'})],
-                      {href: attr(track, 'location'), rel: 'enclosure'})
-                ], {class: 'item'});
-                const outElt = document.getElementById('out');
-                while (outElt.hasChildNodes()) {
-                  outElt.removeChild(outElt.lastChild);
-                }
-                out.appendChild(elt('ol', tracks.map(toItem),
-                 {class: 'haudio'}));
-            }
-
-            reader.readAsText(file); // start reading the file data.
-        }
-    }
-});
-</script>
-
-    <hr/>
-    acks:
-    <ul>
-    <li><a href="https://stackoverflow.com/questions/10261989/html5-javascript-drag-and-drop-file-from-external-window-windows-explorer"
-    >HTML5, JavaScript: Drag and Drop File from External Window
-    </a></li>
-    <li><a href="http://microformats.org/wiki/haudio"
-    >haudio</a></li>
+  <div id="out">
+    <ol>
+      <li>...</li>
+    </ol>
+  </div>
+  <hr />
+  <h2>acks</h2>
+  <ul>
+    <li><a
+        href="https://stackoverflow.com/questions/10261989/html5-javascript-drag-and-drop-file-from-external-window-windows-explorer">HTML5,
+        JavaScript: Drag and Drop File from External Window
+      </a></li>
+    <li><a href="http://microformats.org/wiki/haudio">haudio</a></li>
     <li>
-    <a href="https://developers.google.com/web/tools/chrome-devtools/workspaces"
-    >workspaces</a></li>
-<li>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API">MDN on drag-n-drop</a>
-  </li>
-  </body>
+      <a href="https://developers.google.com/web/tools/chrome-devtools/workspaces">workspaces</a></li>
+    <li>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API">MDN on drag-n-drop</a>
+    </li>
+  </ul>
+  <script src="/script.js" defer></script>
+</body>
+
 </html>
