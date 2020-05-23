@@ -5,10 +5,10 @@
   vars_files:
     - ../priv/vault1.yml
   tasks:
-    - name: Stop Agoric SDK Container
+    - name: Remove Agoric SDK Container
       docker_container:
         name: ag-cosmos
-        state: stopped
+        state: absent
     - name: Pull (update) Agoric SDK Image
       docker_container:
         name: ag-cosmos

@@ -1,9 +1,17 @@
+# kc-strip operations
+
+Ansible plays for my Agoric node, based on [Agoric Validator Guide][vg].
+
+[vg]: https://github.com/Agoric/agoric-sdk/wiki/Validator-Guide
+
 
 ## Agoric Node Upgrade Plays
 
- - ping.yml
- - ag-update.yml - WARNING! deletes all state
- - ag-config.yml
+ - ping.yml - confirm connectivity
+ - ag-update.yml - stop node; pull new image. WARNING! deletes all state
+ - ag-config.yml - `cosmos init` etc.
+ - ag-node.yml - start syncing
+
 
 ## Ansible cheat-sheet
 

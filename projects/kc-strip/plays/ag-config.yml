@@ -29,11 +29,9 @@
       lineinfile:
         path: "{{ config_dir }}/config.toml"
         regexp: "^persistent_peers *="
-        line: "persistent_peers={{ network_config.json.peers|join(',') }}"
+        line: "persistent_peers = \"{{ network_config.json.peers|join(',') }}\""
     - name: Replace the timeout_broadcast_tx_commit value with 20s (default was 10s)
       lineinfile:
         path: "{{ config_dir }}/config.toml"
         regexp: "^timeout_broadcast_tx_commit *="
-        line: "timeout_broadcast_tx_commit=20s"
-
-        
+        line: "timeout_broadcast_tx_commit = \"20s\""
