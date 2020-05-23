@@ -1,0 +1,9 @@
+---
+
+- name: Agoric Testnet Node
+  hosts: colos
+  vars_files:
+    - ../priv/vault1.yml
+  tasks:
+    - name: ping
+      ping:
