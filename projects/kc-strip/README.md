@@ -1,4 +1,10 @@
 
+## Agoric Node Upgrade Plays
+
+ - ping.yml
+ - ag-update.yml - WARNING! deletes all state
+ - ag-config.yml
+
 ## Ansible cheat-sheet
 
 To start, let's run `plays/ping.yml` to check connectivity with the

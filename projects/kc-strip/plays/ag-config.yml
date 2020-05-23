@@ -1,0 +1,39 @@
+---
+
+- name: Configure Agoric Node
+  hosts: colos
+  become: yes
+  vars_files:
+    - ../priv/vault1.yml
+  vars:
+    config_dir: /var/lib/docker/volumes/ag-chain-cosmos-state/_data/config
+    moniker: dckc
+  tasks:
+    - name: get network config
+      uri:
+        url: https://testnet.agoric.com/network-config
+        method: GET
+        return_content: yes
+        status_code: 200
+        body_format: json
+      register: network_config
+    - debug: var=network_config.json.chainName
+    - debug: var=network_config.json.peers
+    - name: init
+      command: docker run --rm -v ag-chain-cosmos-state:/root/.ag-chain-cosmos agoric/agoric-sdk init --chain-id "{{ network_config.json.chainName }}" "{{ moniker }}"
+    - name: Download genesis file
+      get_url:
+        url: https://testnet.agoric.com/genesis.json
+        dest: "{{ config_dir }}/genesis.json"
+    - name: Replace the persistent_peers value
+      lineinfile:
+        path: "{{ config_dir }}/config.toml"
+        regexp: "^persistent_peers *="
+        line: "persistent_peers={{ network_config.json.peers|join(',') }}"
+    - name: Replace the timeout_broadcast_tx_commit value with 20s (default was 10s)
+      lineinfile:
+        path: "{{ config_dir }}/config.toml"
+        regexp: "^timeout_broadcast_tx_commit *="
+        line: "timeout_broadcast_tx_commit=20s"
+
+        
