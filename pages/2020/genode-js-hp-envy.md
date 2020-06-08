@@ -1,6 +1,6 @@
 ---
 title: Javascript on genode, genode on HP Envy 15
-date: 2020-07-12
+date: 2020-06-07
 published: true
 tags: ["capabilities", "genode", "javascript", "hardware"]
 summary: "Achievements unlocked: Moddable XS JavaScript engine onr genode and HP
