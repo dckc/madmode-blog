@@ -1,0 +1,20 @@
+---
+
+- name: Upgrade Agoric SDK Container
+  hosts: colos
+  vars_files:
+    - ../priv/vault1.yml
+  tasks:
+    - name: Remove Agoric SDK Container
+      docker_container:
+        name: ag-cosmos
+        state: absent
+    - name: Pull (update) Agoric SDK Image
+      docker_container:
+        name: ag-cosmos
+        image: agoric/agoric-sdk
+        pull: true
+    - name: Remove ag-chain-cosmos-state volume
+      docker_volume:
+        name: ag-chain-cosmos-state
+        state: absent
