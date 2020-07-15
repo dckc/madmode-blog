@@ -102,7 +102,7 @@ def tag_counts(pages):
 
 
 def get_years(pages):
-    years = list(set([page.meta.get('date').year for page in pages]))
+    years = sorted(set([page.meta.get('date').year for page in pages]))
     years.reverse()
     return years
 
