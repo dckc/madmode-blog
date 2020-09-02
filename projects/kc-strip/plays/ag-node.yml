@@ -6,15 +6,6 @@
   vars_files:
     - ../priv/vault1.yml
   tasks:
-    - name: get network config for bootstrap address
-      uri:
-        url: https://testnet.agoric.com/network-config
-        method: GET
-        return_content: yes
-        status_code: 200
-        body_format: json
-      register: network_config
-    - debug: var=network_config.json.bootstrapAddress
     - name: Start Agoric SDK Container
       docker_container:
         name: ag-cosmos
@@ -22,8 +13,6 @@
         volumes:
           - ag-chain-cosmos-state:/root/.ag-chain-cosmos
         image: "agoric/agoric-sdk:latest"
-        env:
-          BOOT_ADDRESS: "{{ network_config.json.bootstrapAddress }}"
         command: start --pruning=nothing
       register: ag_container
     - debug: var=ag_container.container.Args
