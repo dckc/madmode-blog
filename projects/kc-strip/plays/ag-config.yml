@@ -23,6 +23,7 @@
     - name: Download genesis file
       get_url:
         url: https://testnet.agoric.com/genesis.json
+        force: true
         dest: "{{ config_dir }}/genesis.json"
     - name: Replace the persistent_peers value
       lineinfile:
