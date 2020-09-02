@@ -13,7 +13,7 @@
         volumes:
           - ag-chain-cosmos-state:/root/.ag-chain-cosmos
         image: "agoric/agoric-sdk:latest"
-        command: start --pruning=nothing
+        command: start
       register: ag_container
     - debug: var=ag_container.container.Args
     - debug: var=ag_container.container.Config.Env
