@@ -15,12 +15,11 @@
         method: GET
         return_content: yes
         status_code: 200
-        body_format: json
       register: network_config
-    - debug: var=network_config.json.chainName
-    - debug: var=network_config.json.peers
+    - debug: var=(network_config.content|from_json).chainName
+    - debug: var=(network_config.content|from_json).peers
     - name: init
-      command: docker run --rm -v ag-chain-cosmos-state:/root/.ag-chain-cosmos agoric/agoric-sdk init --chain-id "{{ network_config.json.chainName }}" "{{ moniker }}"
+      command: docker run --rm -v ag-chain-cosmos-state:/root/.ag-chain-cosmos agoric/agoric-sdk init --chain-id "{{ (network_config.content|from_json).chainName }}" "{{ moniker }}"
     - name: Download genesis file
       get_url:
         url: https://testnet.agoric.com/genesis.json
@@ -29,8 +28,8 @@
       lineinfile:
         path: "{{ config_dir }}/config.toml"
         regexp: "^persistent_peers *="
-        line: "persistent_peers = \"{{ network_config.json.peers|join(',') }}\""
     - name: Replace the timeout_broadcast_tx_commit value with 20s (default was 10s)
+        line: "persistent_peers = \"{{ (network_config.content|from_json).peers|join(',') }}\""
       lineinfile:
         path: "{{ config_dir }}/config.toml"
         regexp: "^timeout_broadcast_tx_commit *="
