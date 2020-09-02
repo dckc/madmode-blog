@@ -25,13 +25,13 @@
         url: https://testnet.agoric.com/genesis.json
         force: true
         dest: "{{ config_dir }}/genesis.json"
-    - name: Replace the persistent_peers value
+    - name: Set peers variable to the correct value
       lineinfile:
         path: "{{ config_dir }}/config.toml"
         regexp: "^persistent_peers *="
-    - name: Replace the timeout_broadcast_tx_commit value with 20s (default was 10s)
         line: "persistent_peers = \"{{ (network_config.content|from_json).peers|join(',') }}\""
+    - name: Replace the timeout_broadcast_tx_commit value with 2s (default was 5s)
       lineinfile:
         path: "{{ config_dir }}/config.toml"
         regexp: "^timeout_broadcast_tx_commit *="
-        line: "timeout_broadcast_tx_commit = \"20s\""
+        line: "timeout_broadcast_tx_commit = \"2s\""
