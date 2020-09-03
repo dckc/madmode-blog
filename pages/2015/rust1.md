@@ -1,5 +1,6 @@
 title: studying Knuth's Mastermind Solver with rust
 date: 2015-05-20
+tags: ['rust', 'programming', 'games', 'performance']
 published: true
 
 To celebrate rust turning 1.0, here's what I learned with [mmind5][],
