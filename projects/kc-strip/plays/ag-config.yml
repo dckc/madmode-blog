@@ -33,5 +33,5 @@
     - name: Replace the timeout_broadcast_tx_commit value with 2s (default was 5s)
       lineinfile:
         path: "{{ config_dir }}/config.toml"
-        regexp: "^timeout_broadcast_tx_commit *="
-        line: "timeout_broadcast_tx_commit = \"2s\""
+        regexp: "^timeout_commit *="
+        line: "timeout_commit = \"2s\""
