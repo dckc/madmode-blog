@@ -30,8 +30,8 @@
         path: "{{ config_dir }}/config.toml"
         regexp: "^persistent_peers *="
         line: "persistent_peers = \"{{ (network_config.content|from_json).peers|join(',') }}\""
-    - name: Replace the timeout_broadcast_tx_commit value with 2s (default was 5s)
+    - name: Replace the timeout_broadcast_tx_commit value with 5s (default was 5s)
       lineinfile:
         path: "{{ config_dir }}/config.toml"
         regexp: "^timeout_commit *="
-        line: "timeout_commit = \"2s\""
+        line: "timeout_commit = \"5s\""
