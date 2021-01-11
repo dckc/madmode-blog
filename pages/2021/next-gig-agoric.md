@@ -42,13 +42,16 @@ back, I think of it as smart contract design.
 Q: Are these smart contracts for blockchains and cryptocurrencies like Bitcoin and Ethereum?  
 A: Yes, Agoric plans to build on the high-integrity shared compute
 infrastructure provided by blockchains, though the architecture
-scales to private clusters and single machines as well.
+scales to private clusters and single machines as well. ([Miller 2019][])
 
-Q: Is Agoric using Bitcoin or Ethereum?  
-A: Not directly. Agoric is building its native blockchain on the
-mature Cosmos SDK. In order to bridge to Ethereum and Bitcoin, Agoric
-is a leading contributor to [IBC](https://cosmos.network/ibc), the
-Inter-Blockchain Communication protocol.
+[Miller 2019]: https://www.youtube.com/watch?v=iyuo0ymTt4g&list=PLhuBigpl7lqth_Ow_eQWZs7NFxmeDw9W8
+
+
+Agoric is not building on Bitcoin or Ethereum directly, but we are
+building on the mature Cosmos SDK. In order to bridge to Ethereum and
+Bitcoin, Agoric is a leading contributor to
+[IBC](https://cosmos.network/ibc), the Inter-Blockchain Communication
+protocol.
 
 Q: How are smart contracts safer using Agoric's technology?  
 A: At least three ways:
@@ -95,20 +98,22 @@ via the Internet, we're vulnerable to more than just our friends.
 With capabilities, making things like valet keys is easy so that each
 program, and each part of a program, gets access to only what it needs
 in order to do its job; capabilities support the **principle of least
-authority** much better than access control lists.
+authority** much better than access control lists. ([Close 2009][])
+
+[Close 2009]: https://www.hpl.hp.com/techreports/2009/HPL-2009-20.html
 
 I have been excited about capability-based security since 2001 when I
 discovered OCaps and composable smart contracts by reading
 [Capability-Based Financial
 Instruments](http://erights.org/elib/capability/ode/index.html). Since
 2010 I have been responsible for the security of a million or so
-health records in a clinical data research warehouse.  Being
+health records in a clinical data research warehouse at KU Med Center.  Being
 constrained to using ACL-based filesystems, databases, and web
-applictions drove me crazy!  The chance to work on smart contracts
+applictions drives me crazy!  The chance to work on smart contracts
 with OCaps as a day job is a dream come true.
 
 Q: And Berners-Lee's Inrupt? What do they do?  
-A: Inrupt aims to reset the balance of power on the web by giving
+A: Inrupt "aims to reset the balance of power on the web" by giving
 users control of their data in "pods," personal online data
 stores. "Each person could control his or her own data — websites
 visited, credit card purchases, workout routines, music streamed — in
