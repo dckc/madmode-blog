@@ -1,13 +1,21 @@
 title: "What's Next: Agoric Computing"
 date: 2021-01-11
-tags: ["capabilities", "economics", "programming"]
+tags: ["capabilities", "economics", "programming", "security"]
 published: true
+summary: After 15 years at W3C and 10 years at KUMC, My next gig is at Agoric.
 
-Q: Did you work with Tim Berners-Lee?  
-A: yes, from the early 1990s to 2010 we worked together building the Web at W3C
+After 15 years at W3C and 10 years at KU Med Center, My next gig is at
+[Agoric](https://agoric.com/). Here I answer some questions, some
+recently asked and some anticipated.
 
-Q: I see Tim started a new company, Inrupt. Are you working with him on that?  
-A: No, but I am starting a new job at [Agoric](https://agoric.com/).
+Q: I see a [NY Times feature][NYT] about Tim Berners Lee and his new
+company, Inrupt. Did you work with Tim Berners-Lee?  
+A: yes, from the early 1990s to 2010 we worked together building the Web at W3C.
+
+[NYT]: https://www.nytimes.com/2021/01/10/technology/tim-berners-lee-privacy-internet.html
+
+Q: Are you working with Tim at Inrupt?  
+A: No, but I am starting a new job at Agoric.
 
 Q: What is Agoric? What do they do?  
 A: Agoric provides a safer, simpler way to program smart contracts. We
@@ -106,8 +114,6 @@ stores. "Each person could control his or her own data — websites
 visited, credit card purchases, workout routines, music streamed — in
 an individual data safe, typically a sliver of server space" ([NY
 Times Jan 10][NYT]). It uses SOLID, a set of open technologies.
-
-[NYT]: https://www.nytimes.com/2021/01/10/technology/tim-berners-lee-privacy-internet.html
 
 Q: What do you think of Inrupt and SOLID?  
 A: I certainly agree when Tim says that "too much power and too much
