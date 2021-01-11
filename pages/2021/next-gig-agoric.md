@@ -2,9 +2,9 @@ title: "What's Next: Agoric Computing"
 date: 2021-01-11
 tags: ["capabilities", "economics", "programming", "security"]
 published: true
-summary: After 15 years at W3C and 10 years at KUMC, My next gig is at Agoric.
+summary: After 15 years at W3C and 10 years at KUMC, my next gig is at Agoric.
 
-After 15 years at W3C and 10 years at KU Med Center, My next gig is at
+After 15 years at W3C and 10 years at KU Med Center, my next gig is at
 [Agoric](https://agoric.com/). Here I answer some questions, some
 recently asked and some anticipated.
 
@@ -42,10 +42,9 @@ back, I think of it as smart contract design.
 Q: Are these smart contracts for blockchains and cryptocurrencies like Bitcoin and Ethereum?  
 A: Yes, Agoric plans to build on the high-integrity shared compute
 infrastructure provided by blockchains, though the architecture
-scales to private clusters and single machines as well. ([Miller, 2019][])
+scales down to private clusters and single machines as well. ([Miller, 2019][])
 
 [Miller, 2019]: https://www.youtube.com/watch?v=iyuo0ymTt4g&list=PLhuBigpl7lqth_Ow_eQWZs7NFxmeDw9W8
-
 
 Agoric is not building on Bitcoin or Ethereum directly, but we are
 building on the mature Cosmos SDK. In order to bridge to Ethereum and
@@ -92,7 +91,7 @@ Valet parking would be pretty tedious. And the trunk would have to
 have a separate access control list to do what valet keys do.
 
 Worse: what we normally do when we run programs on our computers is
-like giving my driver's license to you or the Valet to let you drive
+like giving my driver's license to you or the valet to let you drive
 the car. I have to run the risk that you'll do other things with the
 driver's license like open a bank account in my name. Maybe I trust
 you not to do that, but every program on my computer can do anything I
@@ -110,7 +109,7 @@ I have been excited about capability-based security since 2001 when I
 discovered OCaps and composable smart contracts([Miller, Morningstar,
 Frantz, 2000][]). Since 2010 I have been responsible for the security
 of a million or so health records in a clinical data research
-warehouse at KU Med Center.  Being constrained to using ACL-based
+warehouse at KU Med Center. Being constrained to use ACL-based
 filesystems, databases, and web applictions drives me crazy!  The
 chance to work on smart contracts with OCaps as a day job is a dream
 come true.
