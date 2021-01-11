@@ -66,7 +66,7 @@ A: At least three ways:
      asynchronous **eventual-sends**.
 
 Q: Do developers have to learn a new programming language to get all this?  
-A: No; Agoric smart contracts are written in a [secure set of
+A: No; Agoric smart contracts are written in a [secure subset of
 JavaScript](https://github.com/Agoric/Jessie#subsetting-ecmascript)
 that mostly involves sticking to established best practices.
 
