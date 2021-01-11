@@ -42,9 +42,9 @@ back, I think of it as smart contract design.
 Q: Are these smart contracts for blockchains and cryptocurrencies like Bitcoin and Ethereum?  
 A: Yes, Agoric plans to build on the high-integrity shared compute
 infrastructure provided by blockchains, though the architecture
-scales to private clusters and single machines as well. ([Miller 2019][])
+scales to private clusters and single machines as well. ([Miller, 2019][])
 
-[Miller 2019]: https://www.youtube.com/watch?v=iyuo0ymTt4g&list=PLhuBigpl7lqth_Ow_eQWZs7NFxmeDw9W8
+[Miller, 2019]: https://www.youtube.com/watch?v=iyuo0ymTt4g&list=PLhuBigpl7lqth_Ow_eQWZs7NFxmeDw9W8
 
 
 Agoric is not building on Bitcoin or Ethereum directly, but we are
@@ -82,7 +82,11 @@ table has a list of who can read and write it. If cars worked this
 way, the car would let me drive it only if I present the right
 driver's license; perhaps my wife would be on the list too. But if I
 wanted to delegate to you, I'd have to update the list of drivers in
-the car.
+the car. And what if my son got hurt and I wasn't around to update the
+list of drivers so his friend could get him to the doctor? ([Stiegler,
+2004][])
+
+[Stiegler, 2004]: http://erights.org/talks/efun/SecurityPictureBook.pdf
 
 Valet parking would be pretty tedious. And the trunk would have to
 have a separate access control list to do what valet keys do.
@@ -98,19 +102,20 @@ via the Internet, we're vulnerable to more than just our friends.
 With capabilities, making things like valet keys is easy so that each
 program, and each part of a program, gets access to only what it needs
 in order to do its job; capabilities support the **principle of least
-authority** much better than access control lists. ([Close 2009][])
+authority** much better than access control lists. ([Close, 2009][])
 
-[Close 2009]: https://www.hpl.hp.com/techreports/2009/HPL-2009-20.html
+[Close, 2009]: https://www.hpl.hp.com/techreports/2009/HPL-2009-20.html
 
 I have been excited about capability-based security since 2001 when I
-discovered OCaps and composable smart contracts by reading
-[Capability-Based Financial
-Instruments](http://erights.org/elib/capability/ode/index.html). Since
-2010 I have been responsible for the security of a million or so
-health records in a clinical data research warehouse at KU Med Center.  Being
-constrained to using ACL-based filesystems, databases, and web
-applictions drives me crazy!  The chance to work on smart contracts
-with OCaps as a day job is a dream come true.
+discovered OCaps and composable smart contracts([Miller, Morningstar,
+Frantz, 2000][]). Since 2010 I have been responsible for the security
+of a million or so health records in a clinical data research
+warehouse at KU Med Center.  Being constrained to using ACL-based
+filesystems, databases, and web applictions drives me crazy!  The
+chance to work on smart contracts with OCaps as a day job is a dream
+come true.
+
+[Miller, Morningstar, Frantz, 2000]: http://erights.org/elib/capability/ode/index.html
 
 Q: And Berners-Lee's Inrupt? What do they do?  
 A: Inrupt "aims to reset the balance of power on the web" by giving
