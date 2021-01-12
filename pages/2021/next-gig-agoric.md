@@ -47,8 +47,9 @@ scales down to private clusters and single machines as well. ([Miller, 2019][])
 [Miller, 2019]: https://www.youtube.com/watch?v=iyuo0ymTt4g&list=PLhuBigpl7lqth_Ow_eQWZs7NFxmeDw9W8
 
 Agoric is not building on Bitcoin or Ethereum directly, but we are
-building on the mature Cosmos SDK. In order to bridge to Ethereum and
-Bitcoin, Agoric is a leading contributor to
+building on mature blockchain technology, the Cosmos <abbr
+title="Software Development Kit">SDK</abbr>. In order to bridge to
+Ethereum and Bitcoin, Agoric is a leading contributor to
 [IBC](https://cosmos.network/ibc), the Inter-Blockchain Communication
 protocol.
 
