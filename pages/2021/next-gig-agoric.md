@@ -71,7 +71,7 @@ that mostly involves sticking to established best practices.
 
 Q: Object capabilities? What's that?  
 A: Capability-based security is like the way we control access to our
-cars: I use a key to drive the my car. I can delegate driving the car
+cars: I use a key to drive my car. I can delegate driving the car
 to you by handing you the key. But keys are impractical to forge,
 so effectively, unauthorized people can't drive it.
 
