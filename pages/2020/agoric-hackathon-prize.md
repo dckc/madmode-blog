@@ -1,7 +1,7 @@
 title: Fun with @ski at Agoric "Hack the Orb"
 date: 2020-12-07
 published: true
-tags: ["capabilities", "programming", "events"]
+tags: ["capabilities", "programming", "events", "Agoric", "smart-contracts"]
 
 
 <blockquote class="twitter-tweet">

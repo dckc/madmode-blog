@@ -1,7 +1,7 @@
 title: Smart Contracts and Capabilities Up Close
 published: True
 date: 2017-12-31
-tags: ['capabilities', 'smart-contracts', 'travel', 'collaboration']
+tags: ['capabilities', 'smart-contracts', 'travel', 'collaboration', 'rchain']
 
 This year I was invited to a [Blockchain meets Object Capabilities
 panel][SFO] in San Francisco July 3 and the [RChain developer retreat][SLC]

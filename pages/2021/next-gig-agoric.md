@@ -1,6 +1,6 @@
 title: "What's Next: Agoric Computing"
 date: 2021-01-11
-tags: ["capabilities", "economics", "programming", "security"]
+tags: ["capabilities", "economics", "programming", "security", "smart-contracts", "Agoric"]
 published: true
 summary: After 15 years at W3C and 10 years at KUMC, my next gig is at Agoric.
 
