@@ -11,18 +11,26 @@
   tasks:
     - name: get network config
       uri:
-        url: https://testnet.agoric.com/network-config
+        url: https://devnet.agoric.net/network-config
         method: GET
         return_content: yes
         status_code: 200
       register: network_config
     - debug: var=(network_config.content|from_json).chainName
     - debug: var=(network_config.content|from_json).peers
+    - debug: var=(network_config.content|from_json).seeds
+    - name: ensure genesis.json is out of the way
+      file: path={{ config_dir }}/genesis.json state=absent
     - name: init
-      command: docker run --rm -v ag-chain-cosmos-state:/root/.ag-chain-cosmos agoric/agoric-sdk init --chain-id "{{ (network_config.content|from_json).chainName }}" "{{ moniker }}"
+      command: |
+        docker run --rm \
+        -v ag-chain-cosmos-state:/root/.ag-chain-cosmos \
+        --entrypoint=/usr/local/bin/ag-chain-cosmos \
+        agoric/agoric-sdk:{{ ag_sdk_tag }} \
+        init --chain-id "{{ (network_config.content|from_json).chainName }}" "{{ moniker }}"
     - name: Download genesis file
       get_url:
-        url: https://testnet.agoric.com/genesis.json
+        url: https://devnet.agoric.net/genesis.json
         force: true
         dest: "{{ config_dir }}/genesis.json"
     - name: Set peers variable to the correct value
@@ -30,8 +38,8 @@
         path: "{{ config_dir }}/config.toml"
         regexp: "^persistent_peers *="
         line: "persistent_peers = \"{{ (network_config.content|from_json).peers|join(',') }}\""
-    - name: Replace the timeout_broadcast_tx_commit value with 2s (default was 5s)
+    - name: Set seeds
       lineinfile:
         path: "{{ config_dir }}/config.toml"
-        regexp: "^timeout_commit *="
-        line: "timeout_commit = \"2s\""
+        regexp: "^seeds *="
+        line: "seeds = \"{{ (network_config.content|from_json).seeds|join(',') }}\""

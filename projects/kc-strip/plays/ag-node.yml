@@ -12,7 +12,7 @@
         network_mode: host
         volumes:
           - ag-chain-cosmos-state:/root/.ag-chain-cosmos
-        image: "agoric/agoric-sdk:latest"
+        image: "agoric/agoric-sdk:{{ ag_sdk_tag }}"
         command: start
       register: ag_container
     - debug: var=ag_container.container.Args

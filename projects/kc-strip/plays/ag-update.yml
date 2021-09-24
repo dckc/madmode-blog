@@ -12,7 +12,7 @@
     - name: Pull (update) Agoric SDK Image
       docker_container:
         name: ag-cosmos
-        image: agoric/agoric-sdk
+        image: agoric/agoric-sdk:{{ ag_sdk_tag }}
         pull: true
     - name: Remove ag-chain-cosmos-state volume
       docker_volume:
