@@ -9,8 +9,8 @@
                      tls)
 
 (operating-system
- (host-name "my-server")
- (timezone "America/New_York")
+ (host-name "pav")
+ (timezone "America/Chicago")
  (locale "en_US.UTF-8")
  ;; This goofy code will generate the grub.cfg
  ;; without installing the grub bootloader on disk.
@@ -20,25 +20,25 @@
                 (inherit grub-bootloader)
                 (installer #~(const #true))))))
  (file-systems (cons (file-system
-                      (device "/dev/sda")
+                      (device (file-system-label "Guix"))
                       (mount-point "/")
                       (type "ext4"))
                      %base-file-systems))
 
 
- (swap-devices (list "/dev/sdb"))
+ ;; (swap-devices (list "/dev/sdb"))
 
 
  (initrd-modules (cons "virtio_scsi"    ; Needed to find the disk
                        %base-initrd-modules))
 
  (users (cons (user-account
-               (name "janedoe")
+               (name "connolly")
                (group "users")
                ;; Adding the account to the "wheel" group
                ;; makes it a sudoer.
                (supplementary-groups '("wheel"))
-               (home-directory "/home/janedoe"))
+               (home-directory "/home/connolly"))
               %base-user-accounts))
 
  (packages (cons* nss-certs            ;for HTTPS access
@@ -52,6 +52,6 @@
                       (openssh openssh-sans-x)
                       (password-authentication? #false)
                       (authorized-keys
-                       `(("janedoe" ,(local-file "janedoe_rsa.pub"))
-                         ("root" ,(local-file "janedoe_rsa.pub"))))))
+                       `(("connolly" ,(local-file "connolly_rsa.pub"))
+                         ("root" ,(local-file "connolly_rsa.pub"))))))
             %base-services)))
