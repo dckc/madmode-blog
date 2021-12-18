@@ -1,10 +1,8 @@
----
 title: "Closet Librarian Approach to Cloud Services"
 date: 2021-01-11
 tags: ["cloud-services", "vcs", "writing", "publishing", "IndieWeb"]
 published: true
 summary: "I don't trust any cloud services. I keep my own copies."
----
 
 A colleague suggested we shouldn't delete calendar items of old meetings.
 I said I don't rely on my calendar for records of the past.
