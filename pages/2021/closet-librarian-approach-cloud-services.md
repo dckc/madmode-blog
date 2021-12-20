@@ -1,5 +1,5 @@
 title: "Closet Librarian Approach to Cloud Services"
-date: 2021-01-11
+date: 2021-12-18
 tags: ["cloud-services", "vcs", "writing", "publishing", "IndieWeb"]
 published: true
 summary: "I don't trust any cloud services. I keep my own copies."
