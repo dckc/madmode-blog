@@ -73,7 +73,7 @@ I ripped a copy and put it online:
   - [OLIAS.iso][iso] 337M  
     md5sum: de687dc2d49aa3a4d6dc7d7676411ec8
 
-[iso]: http://people.w3.org/~connolly/1994-olias/OLIAS.iso
+[iso]: https://archive.org/download/olias_202112/OLIAS.iso
 
 The index format is highly optimized for minimal seeking on a CD,
 and hence incomprehensible without running OLIAS itself:
