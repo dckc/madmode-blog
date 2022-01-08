@@ -9,7 +9,7 @@ Hello, [Spritely Institute](https://spritely.institute/)!
 > secure distributed virtual worlds. ... freely licensed open source ...
 
 Yum, yum, gimme some! Can't wait for mind-boggling stuff like
-this [VRChat hack](https://blog.pimaker.at/texts/rvc1/) powered by ocaps and open source!
+this [VRChat hack](https://blog.pimaker.at/texts/rvc1/), but powered by ocaps and open source!
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/G2u7NOpzcBQ?controls=0&amp;start=5110" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -28,7 +28,7 @@ Keep talking... looks clean...
 
 > gives authors the ability to treat websites as Scheme programs.
 
-Or maybe Scheme programs that are also Hardened JavaScript programs,
+Or maybe Scheme programs that are also [Hardened JavaScript](https://agoric.com/documentation/guides/js-programming/hardened-js.html) programs,
 using James / Jessie on [rockit](https://github.com/cwebber/rockit)?
 
 Let's give it a spin as-is before stretching it...
