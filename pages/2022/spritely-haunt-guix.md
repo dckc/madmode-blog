@@ -1,5 +1,5 @@
 title: "Hello Spritely Institute! And Haunt. And Guix, again"
-date: 2022-08-08
+date: 2022-01-08
 published: true
 tags: ["ocaps", "virtual-reality", "games", "publishing"]
 
