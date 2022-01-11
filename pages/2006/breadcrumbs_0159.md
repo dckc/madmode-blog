@@ -34,4 +34,18 @@ disseminate and makes decisions on behalf of the whole world about which works t
 <p><br/>
 </p>
 
+<p><em>p.s. recording:</em></p>
+ <ul>
+  <li>Panel 2: The Implications of Digital
+Scholarship for Research Libraries.
+Challenges of Access and Preservation<br/>
+Moderated by Andrew Dillon, Dean, University of Texas School of Information at The
+University of Texas at Austin
+   <br />
+Panelists<br/>
+   <a href="https://web.archive.org/web/20130410121610/http://www.lib.utexas.edu/symposium/sept12-d.mp3">Part I</a> [24:36 (22.5MB)]
+Dan Connolly, W3C/MIT
+ </li>
+ </ul>
+ 
 <!-- technorati tags begin --><p style="font-size:10px;text-align:right;">tags:<a href="http://del.icio.us/connolly/Austin" rel="tag">Austin</a>, <a href="http://del.icio.us/connolly/URI" rel="tag">URI</a>, <a href="http://del.icio.us/connolly/web+architecture" rel="tag">Web Architecture</a></p><!-- technorati tags end -->
