@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# python 2.7 stdlib
+# python 3 stdlib
 from datetime import date, datetime
 from glob import glob
 from itertools import groupby
@@ -13,7 +13,7 @@ import shutil
 
 
 # see CONTRIBUTING re dependencies
-from argh import ArghParser, command, CommandError
+from argh import ArghParser, CommandError
 from flask import Flask, render_template, abort
 from flask_frozen import Freezer
 from flask_flatpages import FlatPages
@@ -41,7 +41,7 @@ SECTION_MAX_LINKS = 12
 class FlaskE(Flask):
     def handle_user_exception(self, e):
         import traceback
-        print traceback.format_exc(e)
+        print(traceback.format_exc(e))
         import pdb; pdb.set_trace()  # noqa
 
 
@@ -268,7 +268,6 @@ def page_not_found(error):
 ###############################################################################
 # Commands
 
-@command
 def build(debug=DEBUG):
     """ Builds this site.
     """
@@ -289,7 +288,6 @@ def build(debug=DEBUG):
     print("Done.")
 
 
-@command
 def post(title=None, filename=None):
     """ Create a new empty post.
     """
@@ -311,11 +309,10 @@ def post(title=None, filename=None):
     try:
         codecs.open(filepath, 'w', encoding='utf8').write(content)
         print(u'Created %s' % filepath)
-    except Exception, error:
+    except Exception as error:
         raise CommandError(error)
 
 
-@command
 def photo(path, slug):
     """ Adds a new photo.
     """
@@ -332,7 +329,7 @@ def photo(path, slug):
                              slug)
     if os.path.exists(photo_dir):
         raise CommandError("path %s already exists" % photo_dir)
-    os.mkdir(photo_dir, 0755)
+    os.mkdir(photo_dir, 0o755)
     print(u'Created %s' % photo_dir)
     # copy original image to original.jpg
     original_path = os.path.join(photo_dir, "original.jpg")
@@ -361,12 +358,11 @@ def photo(path, slug):
     try:
         codecs.open(filepath, 'w', encoding='utf8').write(content)
         print(u'Created %s' % filepath)
-    except Exception, error:
+    except Exception as error:
         raise CommandError(error)
     print('All done.')
 
 
-@command
 def serve(server='127.0.0.1', port=5000, debug=DEBUG):
     """ Serves this site.
     """
