@@ -7,7 +7,7 @@ from werkzeug.utils import import_string
 
 
 class MetaCompat(FlatPages):
-    def _parse(self, content, path):
+    def _parse(self, content, path, _rel_path):
         """Parse a flatpage file with support for --- yaml delimiters
         """
         lines = iter(content.split('\n'))
@@ -37,4 +37,4 @@ class MetaCompat(FlatPages):
 
         # Initialize and return Page instance
 
-        return Page(path, meta, content, html_renderer)
+        return Page(path, meta, content, html_renderer, folder='')
