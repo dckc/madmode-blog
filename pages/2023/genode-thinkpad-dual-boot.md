@@ -3,9 +3,14 @@ date: 2023-01-03
 tags: [capabilities, security, vm, storage, pc, hardware, osdev]
 published: true
 
-In this year's holiday lull, what I really wanted to do was outfit a "capabilities all the way down" [Genode](https://genode.org/) workstation, but I spent most of it recovering from [Flickr going back on their 1TB storage offer](https://blog.flickr.net/en/2022/04/19/update-free-account-limit-changes-and-enforcement-start-may-1-2022/).
+In this year's holiday lull, I got closer to a "capabilities all the way down" workstation using [Genode](https://genode.org/), an OS framework with capability-based security.
 
-Sculpt is Genode-based OS with the [NOVA microhypervisor](http://hypervisor.org/) at the bottom:
+Sculpt is a Genode-based general-purpose OS.
+
+![Sculpt system overview](https://genode.org/documentation/articles/sculpt_overview.png)
+
+Genode has a choice of low level microkernels at the bottom.
+Sculpt uses the [NOVA microhypervisor](http://hypervisor.org/):
 
 > ... the NOVA microhypervisor uses a capability-based authorization model and provides only basic mechanisms for virtualization, spatial and temporal separation, scheduling, communication, and management of platform resources.
 
