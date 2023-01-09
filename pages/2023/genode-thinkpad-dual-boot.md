@@ -29,13 +29,13 @@ The Sculpt release notes include a tutorial on how to boot it from a USB drive a
 
 I wanted to reproduce Schlatow's results from [Starting an existing Linux installation from Sculpt](https://genodians.org/jschlatow/2021-04-23-start-existing-linux-from-sculpt). I managed to
 
- - [partition the hard drive](https://github.com/dckc/madmode-blog/issues/49#issuecomment-1356447232)
-   - considered [nix declarative disk partitioning with disko](https://github.com/nix-community/disko) a la [McGee's notes](https://lobste.rs/s/aamjm7/setting_up_my_new_laptop_nix_style)
-     - learned a bit more about [nix flakes](https://nixos.org/manual/nix/unstable/command-ref/new-cli/nix3-flake.html)
-     - tried to make my own flake; re-discovered [my problem with nix](https://lobste.rs/s/ff54p1/how_nix_nixos_get_so_close_perfect#c_po5s5h): unlike `apt` where if you get an option wrong, some C code tells you that you got an option wrong, nix just passes the wrong option down into interpreted code where you eventually get “string found where integer expected” or some such. As Phil Karlton would say, "yet another interpreted language without a debugger."
- - install linux on the internal SDD
- - install genode on another partition
-   - though I couldn't get the grub config to work automatically
+ 1. [partition the hard drive](https://github.com/dckc/madmode-blog/issues/49#issuecomment-1356447232)
+    - considered [nix declarative disk partitioning with disko](https://github.com/nix-community/disko) a la [McGee's notes](https://lobste.rs/s/aamjm7/setting_up_my_new_laptop_nix_style)
+        - learned a bit more about [nix flakes](https://nixos.org/manual/nix/unstable/command-ref/new-cli/nix3-flake.html)
+        - tried to make my own flake; re-discovered [my problem with nix](https://lobste.rs/s/ff54p1/how_nix_nixos_get_so_close_perfect#c_po5s5h): unlike `apt` where if you get an option wrong, some C code tells you that you got an option wrong, nix just passes the wrong option down into interpreted code where you eventually get “string found where integer expected” or some such. As Phil Karlton would say, "yet another interpreted language without a debugger."
+ 2. install linux on the internal SDD
+ 3. install genode on another partition
+    - though I couldn't get the grub config to work automatically
 
 and I downloaded the components to run a VM, but when I tried to start it up, it couldn't find `/machine.vbox6`:
 
