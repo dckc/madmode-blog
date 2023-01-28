@@ -1,0 +1,56 @@
+{
+   "partitiontable": {
+      "label": "gpt",
+      "id": "141FD597-2BF2-414C-BC65-8752B96B72B8",
+      "device": "/dev/sda",
+      "unit": "sectors",
+      "firstlba": 34,
+      "lastlba": 250069646,
+      "sectorsize": 512,
+      "partitions": [
+         {
+            "node": "/dev/sda1",
+            "start": 2048,
+            "size": 2048,
+            "type": "21686148-6449-6E6F-744E-656564454649",
+            "uuid": "33A54CFB-6F71-4E91-BDB9-9F6221415AAD",
+            "name": "BIOS boot partition"
+         },{
+            "node": "/dev/sda2",
+            "start": 4096,
+            "size": 204800,
+            "type": "C12A7328-F81F-11D2-BA4B-00A0C93EC93B",
+            "uuid": "3FC36D9E-24B3-4F23-9DE6-9FC6C2F69B30",
+            "name": "EFI system partition"
+         },{
+            "node": "/dev/sda3",
+            "start": 208896,
+            "size": 20971520,
+            "type": "0FC63DAF-8483-4772-8E79-3D69D8477DE4",
+            "uuid": "1D857DCF-2FED-4334-8BC4-A1C2D580C575",
+            "name": "GENODE*"
+         },{
+            "node": "/dev/sda4",
+            "start": 21180416,
+            "size": 52428800,
+            "type": "0FC63DAF-8483-4772-8E79-3D69D8477DE4",
+            "uuid": "B4CAFCAE-B0E5-48CB-9A3D-C3CBCCD763A1",
+            "name": "debian"
+         },{
+            "node": "/dev/sda5",
+            "start": 73609216,
+            "size": 134217728,
+            "type": "0FC63DAF-8483-4772-8E79-3D69D8477DE4",
+            "uuid": "142710F1-06B4-4CDA-BBDA-F77C111ED2B8",
+            "name": "home"
+         },{
+            "node": "/dev/sda6",
+            "start": 207826944,
+            "size": 42242703,
+            "type": "0FC63DAF-8483-4772-8E79-3D69D8477DE4",
+            "uuid": "10574C09-0032-43FB-B0E5-CBDE36B6E45A",
+            "name": "shared"
+         }
+      ]
+   }
+}

@@ -1,0 +1,15 @@
+Disk /dev/sda: 119.24 GiB, 128035676160 bytes, 250069680 sectors
+Disk model: SAMSUNG MZ7LN128
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: 141FD597-2BF2-414C-BC65-8752B96B72B8
+
+Device         Start       End   Sectors  Size Type
+/dev/sda1       2048      4095      2048    1M BIOS boot
+/dev/sda2       4096    208895    204800  100M EFI System
+/dev/sda3     208896  21180415  20971520   10G Linux filesystem
+/dev/sda4   21180416  73609215  52428800   25G Linux filesystem
+/dev/sda5   73609216 207826943 134217728   64G Linux filesystem
+/dev/sda6  207826944 250069646  42242703 20.1G Linux filesystem
