@@ -15,3 +15,22 @@ sda-sfdisk.dump:
 
 sda-sfdisk.json:
 	sfdisk --json $(DISK) >$@
+
+
+# Original VM setup based on...
+#
+#  - How to install a fresh VM on Sculpt
+#    October 27 2022 by Johannes Schlatow
+#    https://genodians.org/jschlatow/2022-10-27-fresh-vm-on-sculpt
+
+# Virtual Disk Image (vdi)
+#
+
+machine.vdi:
+	exit 1 # don't do this again
+	VBoxManage createmedium --filename /GENODE/vm/debian/machine.vdi \
+	                          --size 10000 --variant Fixed
+
+# Note especially the UUID, for use in machine.vbox6
+machine.vdi.info:
+	VBoxManage showmediuminfo /GENODE/vm/debian/machine.vdi | tee $@
