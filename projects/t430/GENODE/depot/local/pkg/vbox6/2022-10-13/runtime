@@ -42,7 +42,6 @@
 				<service name="Gui">                        <parent label=""/>              </service>
 				<any-service> <parent/> </any-service>
 			</route>
-		</start>
 
 	<content>
 		<rom label="egl.lib.so"/>
