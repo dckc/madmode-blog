@@ -70,11 +70,15 @@ $(GENODE)/vm/debian/linux.vmdk: linux.vmdk
 
 hybrid-packages: GENODE/depot/local/pkg/vbox6
 
-GENODE/depot/local/pkg/vbox6:
+GENODE/depot/local/pkg/vbox6/2022-10-13/README: $(GENODE)/depot/local/pkg/vbox6/2022-10-13/README
 	mkdir -p GENODE/depot/local/pkg
 	mkdir -p GENODE/depot/local/raw
 	cp -r $(GENODE)/depot/genodelabs/pkg/vbox6 GENODE/depot/local/pkg/
 	cp -r $(GENODE)/depot/genodelabs/raw/vbox6 GENODE/depot/local/raw/
 
-# TODO:
+vm-launcher: $(GENODE)/config/22.10/launcher/vm
+
+$(GENODE)/config/22.10/launcher/vm: GENODE/config/22.10/launcher/vm
+	cp $< $@
+
 # Then you alter the configuration of the Virtualbox component in depot/local/raw/vbox5-nova-sculpt/{yyyy-mm-dd}/init.config
