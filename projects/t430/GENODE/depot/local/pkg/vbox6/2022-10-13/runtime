@@ -43,7 +43,6 @@
 				<any-service> <parent/> </any-service>
 			</route>
 		</start>
-	</config>
 
 	<content>
 		<rom label="egl.lib.so"/>
