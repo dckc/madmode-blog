@@ -1,0 +1,11 @@
+UUID:           0fc8be24-2365-43cd-bd86-9f3c6ed05f2b
+Parent UUID:    base
+State:          created
+Type:           normal (base)
+Location:       /GENODE/vm/debian/machine.vdi
+Storage format: VDI
+Format variant: fixed default
+Capacity:       1000 MBytes
+Size on disk:   1002 MBytes
+Encryption:     disabled
+Property:       AllocationBlockSize=1048576
