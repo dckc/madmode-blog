@@ -55,6 +55,11 @@ check-ahci:
 
 # usr/lib/modules/5.15.0-58-generic/kernel/drivers/ata/ahci.ko
 
+vm-launcher: \
+	$(GENODE)/config/22.10/launcher/vm \
+	$(GENODE)/vm/debian/machine.vbox6 \
+	$(GENODE)/vm/debian/linux.vmdk
+
 # "in order to make the system bootable with VirtualBox but not
 # interfere with the partitions that are used by my Sculpt system, I
 # must prepare a special vmdk file:"
@@ -76,9 +81,10 @@ GENODE/depot/local/pkg/vbox6/2022-10-13/README: $(GENODE)/depot/local/pkg/vbox6/
 	cp -r $(GENODE)/depot/genodelabs/pkg/vbox6 GENODE/depot/local/pkg/
 	cp -r $(GENODE)/depot/genodelabs/raw/vbox6 GENODE/depot/local/raw/
 
-vm-launcher: $(GENODE)/config/22.10/launcher/vm
+# Then you alter the configuration of the Virtualbox component in depot/local/raw/vbox5-nova-sculpt/{yyyy-mm-dd}/init.config
 
 $(GENODE)/config/22.10/launcher/vm: GENODE/config/22.10/launcher/vm
 	cp $< $@
 
-# Then you alter the configuration of the Virtualbox component in depot/local/raw/vbox5-nova-sculpt/{yyyy-mm-dd}/init.config
+$(GENODE)/vm/debian/machine.vbox6: GENODE/vm/debian/machine.vbox6
+	cp $< $@
