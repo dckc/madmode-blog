@@ -3,10 +3,12 @@
   <Machine uuid="{37ab43a5-38d8-4491-93f5-5b0b077f5c32}" name="ubuntu_16_04_64" OSType="Ubuntu_64" snapshotFolder="Snapshots" lastStateChange="2018-01-23T18:40:00Z">
     <MediaRegistry>
       <HardDisks>
-        <HardDisk uuid="{0fc8be24-2365-43cd-bd86-9f3c6ed05f2b}" location="machine.vdi" format="VDI" type="Normal"/>
+        <HardDisk uuid="{9203178a-eafb-4060-aa3b-03ff4597d076}" location="linux.vmdk" format="VMDK" type="Normal"/>
       </HardDisks>
       <DVDImages>
+	<!--
         <Image uuid="{81763434-9a51-49e8-9444-528a5a28c4bc}" location="installer.iso"/>
+        -->
       </DVDImages>
     </MediaRegistry>
     <Hardware>
@@ -58,7 +60,7 @@
     <StorageControllers>
       <StorageController name="SATA" type="AHCI" PortCount="4" useHostIOCache="true" Bootable="true" IDE0MasterEmulationPort="0" IDE0SlaveEmulationPort="1" IDE1MasterEmulationPort="2" IDE1SlaveEmulationPort="3">
         <AttachedDevice type="HardDisk" port="0" device="0">
-          <Image uuid="{0fc8be24-2365-43cd-bd86-9f3c6ed05f2b}"/>
+          <Image uuid="{9203178a-eafb-4060-aa3b-03ff4597d076}"/>
         </AttachedDevice>
         <AttachedDevice passthrough="false" type="DVD" port="3" device="0">
           <Image uuid="{81763434-9a51-49e8-9444-528a5a28c4bc}"/>
