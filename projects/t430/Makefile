@@ -64,11 +64,16 @@ vm-launcher: \
 # interfere with the partitions that are used by my Sculpt system, I
 # must prepare a special vmdk file:"
 
+vmdk: $(GENODE)/vm/debian/linux.vmdk $(GENODE)/vm/debian/linux-pt.vmdk
+
 linux.vmdk:
 	VBoxManage internalcommands createrawvmdk -filename linux.vmdk \
 	  -rawdisk /dev/sda -partitions 1,4,5,6 -relative
 
 $(GENODE)/vm/debian/linux.vmdk: linux.vmdk
+	cp $< $@
+
+$(GENODE)/vm/debian/linux-pt.vmdk: linux-pt.vmdk
 	cp $< $@
 
 # http://genodians.org/skalk/2019-03-18-hybrid-packages
