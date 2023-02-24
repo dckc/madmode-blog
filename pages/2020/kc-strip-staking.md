@@ -2,7 +2,7 @@
 title: "KC Strip Staking on the Agoric Testnet"
 published: false
 date: 2020-05-01
-tags: ["javascript", "economics", "devops", "ansible", "smart-contracts", "capabilities", "agoric"]
+tags: ["javascript", "economics", "devops", "ansible", "smart-contracts", "capabilities", "Agoric"]
 ---
 
 > [KC Strip Staking](https://explorer.testnet.agoric.com/validator/2784E6C7B40CF883BC409DBD856C403F2AE15BCE) is open for (testnet) business!

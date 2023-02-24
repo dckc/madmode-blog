@@ -1,7 +1,7 @@
 title: "Toward secure distributed computing with Agoric at SFBW '19"
 date: 2019-11-03
 published: true
-tags: [smart-contracts, embedded, javascript, capabilities, travel, SFO]
+tags: [smart-contracts, embedded, javascript, capabilities, travel, SFO, Agoric]
 summary: "I have been looking for someone to reproduce my work porting
          Agoric's SwingSet secure distributed computing platform to
          the Moddable xs JavaScript engine. On my recent trip to San

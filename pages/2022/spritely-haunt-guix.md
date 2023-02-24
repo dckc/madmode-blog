@@ -1,7 +1,7 @@
 title: "Hello Spritely Institute! And Haunt. And Guix, again"
 date: 2022-01-08
 published: true
-tags: ["ocaps", "virtual-reality", "games", "publishing"]
+tags: ["ocaps", "virtual-reality", "games", "publishing", "Agoric"]
 
 Hello, [Spritely Institute](https://spritely.institute/)!
 

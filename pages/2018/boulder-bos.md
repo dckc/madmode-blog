@@ -1,5 +1,5 @@
 title: Smart Contracts for Health Research Data Sharing
-tags: [capabilities, smart-contracts, travel, presentation, BOS, Boulder, health, data, research, rchain]
+tags: [capabilities, smart-contracts, travel, presentation, BOS, Boulder, health, data, research, rchain, Agoric]
 date: 2018-07-12
 published: true
 
