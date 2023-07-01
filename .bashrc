@@ -160,3 +160,18 @@ if [ -f '/home/connolly/opt/google-cloud-sdk/completion.bash.inc' ]; then . '/ho
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/connolly/opt/google-cloud-sdk/path.bash.inc' ]; then . '/home/connolly/opt/google-cloud-sdk/path.bash.inc'; fi
 export PATH="/home/connolly/.gvm/go/bin:$PATH"
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/connolly/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/connolly/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/connolly/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/connolly/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
