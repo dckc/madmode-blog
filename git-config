@@ -7,3 +7,5 @@
 
 [alias]
 	log10 = log -n 10 --pretty=format:'%ad %h %s' --date=short
+[init]
+	defaultBranch = main
