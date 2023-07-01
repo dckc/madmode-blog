@@ -6,3 +6,4 @@
 .webassets-cache
 
 .direnv
+.ipynb_checkpoints/
