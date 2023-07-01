@@ -1,8 +1,9 @@
 ;; https://www.emacswiki.org/emacs/LoadPath
-(add-to-list 'load-path "~/.emacs.d/dev-dckc/")
+(add-to-list 'load-path "~/.emacs.d/lisp")
 
 (require 'melpa-init)
 (package-initialize)
+(require 'use-package)
 
 (require 'tabs-are-evil)
 
@@ -15,10 +16,6 @@
  :config
  (direnv-mode))
 
-(require 'js-dev-flow)
-
-;@@@ (require 'rholang-dev-rchain)
-; (load-file "scala-dev-ensime.el")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
