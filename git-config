@@ -6,6 +6,6 @@
 	helper = !/usr/bin/gh auth git-credential
 
 [alias]
-	log10 = log -n 10 --pretty=format:'%ad %h %s' --date=short
+	log10 = log -n 10 --pretty=format:'%ad %h %s' --date='format:%Y-%m-%d %H:%M'
 [init]
 	defaultBranch = main
