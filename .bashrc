@@ -159,3 +159,4 @@ if [ -f '/home/connolly/opt/google-cloud-sdk/completion.bash.inc' ]; then . '/ho
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/connolly/opt/google-cloud-sdk/path.bash.inc' ]; then . '/home/connolly/opt/google-cloud-sdk/path.bash.inc'; fi
+export PATH="/home/connolly/.gvm/go/bin:$PATH"
