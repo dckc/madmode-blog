@@ -658,9 +658,9 @@
     </sort>
     <layout suffix=".">
       <group delimiter=". ">
+        <text macro="title"/>
         <text macro="date"/>
         <text macro="contributors"/>
-        <text macro="title"/>
       </group>
       <text macro="description"/>
       <text macro="secondary-contributors" prefix=". "/>

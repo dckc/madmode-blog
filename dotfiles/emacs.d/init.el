@@ -7,6 +7,11 @@
 
 (require 'tabs-are-evil)
 
+;; https://github.com/roswell/roswell/wiki/Initial-Recommended-Setup
+(load (expand-file-name "~/.roswell/helper.el"))
+(setq inferior-lisp-program "ros -Q run")
+;; (load (expand-file-name "~/opt/acl2-8.5/emacs/emacs-acl2.el"))
+
 ;; file-attribute-size was added in Emacs 26.1.
 ;; https://github.com/alphapapa/org-web-tools/commit/e7abbfbd3ea7f277302656249b239eda3de40c94
 (defun file-attribute-size (attrs)
@@ -24,11 +29,9 @@
  '(flycheck-python-flake8-executable "/usr/bin/flake8")
  '(indent-tabs-mode nil)
  '(package-selected-packages
-   (quote
-    (go-autocomplete go-mode godoctor merlin-eldoc reason-mode utop caml merlin flycheck-rust cargo rust-mode nix-mode direnv yaml-mode use-package tuareg systemd pyvenv php-mode markdown-mode magit lsp-ocaml json-mode js2-mode iedit helm-idris flymake-php flycheck-pyflakes flycheck-ocaml flycheck-mypy flycheck-flow ensime csv-mode calfw-org calfw-ical calfw-gcal calfw auto-complete add-node-modules-path)))
+   '(markdown-preview-mode markdown-soma markdown-toc go-autocomplete go-mode godoctor merlin-eldoc reason-mode utop caml merlin flycheck-rust cargo rust-mode nix-mode direnv yaml-mode use-package tuareg systemd pyvenv php-mode markdown-mode magit lsp-ocaml json-mode js2-mode iedit helm-idris flymake-php flycheck-pyflakes flycheck-ocaml flycheck-mypy flycheck-flow ensime csv-mode calfw-org calfw-ical calfw-gcal calfw auto-complete add-node-modules-path))
  '(safe-local-variable-values
-   (quote
-    ((eval setq flycheck-clang-include-path
+   '((eval setq flycheck-clang-include-path
            (list
             (expand-file-name "~/projects/moddable/xs/includes/")
             (expand-file-name "~/projects/moddable/xs/sources/")))
@@ -36,7 +39,7 @@
            (list
             (expand-file-name "~/projects/moddable/xs/includes/")))
      (js2-basic-offset . 2)
-     (js2-indent-switch-body . true)))))
+     (js2-indent-switch-body . true))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
