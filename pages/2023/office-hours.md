@@ -34,7 +34,7 @@ but as the [RChain Blues](/2019/rchain-blues) set in, I re-scoped
 my Saturday time as [awesome-ocap office hours](https://github.com/dckc/awesome-ocap/issues/22).
 
 I haven't had critical mass on a Saturday morning for a while,
-so I join [FOSS and Crafts](https://fossandcrafts.org/) now and then.
+so I join [Hack & Craft](https://fossandcrafts.org/hack-and-craft/) now and then.
 Darn... this is an off week; they only run 1st and 3rd Saturdays of the month.
 
 
