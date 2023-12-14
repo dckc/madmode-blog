@@ -25,7 +25,7 @@ since I discovered "Include your own updates" in the
 [email notification settings](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#customizing-your-email-notifications).
 
 I generally follow the [IndieWeb PESOS](https://indieweb.org/PESOS) pattern: Publish Elsewhere, Syndicate (to your) Own Site
-rather than [PESOS](https://indieweb.org/POSSE): Publish (on your) Own Site, Syndicate Elsewhere.
+rather than [POSSE](https://indieweb.org/POSSE): Publish (on your) Own Site, Syndicate Elsewhere.
 The cost of keeping backups in an open format is manageable (I avoid services that don't support it)
 but economies of scale naturally result in rich knowledge capture and sharing user interfaces for large
 communities--why should I limit myself to the writing tools I can maintain on my own site?
