@@ -1,7 +1,10 @@
-title: "Ubuntu 5.10, archive.org, and .torrent files"
+---
+title: 'Ubuntu 5.10, archive.org, and .torrent files'
 date: 2023-12-21
 tags: [storage, closet-librarian, archive, ubuntu, linux, protocols]
+summary: "I'm ready to say goodbye to my copy of Ubuntu 5.10 for i386 on CD, after nearly 2 decades of keeping it as a combination keepsake and software supply chain anchor."
 published: true
+---
 
 I'm ready to say goodbye to my copy of [Ubuntu 5.10 for i386](https://archive.org/details/ubuntu-5.10-pc) on CD, after nearly 2 decades of keeping it as a combination keepsake and software supply chain anchor. I donated it to archive.org:
 
