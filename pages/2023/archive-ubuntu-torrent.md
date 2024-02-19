@@ -1,4 +1,4 @@
-title: "Ubunto 5.10, archive.org, and .torrent files"
+title: "Ubuntu 5.10, archive.org, and .torrent files"
 date: 2023-12-21
 tags: [storage, closet-librarian, archive, ubuntu, linux, protocols]
 published: true
