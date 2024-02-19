@@ -183,7 +183,7 @@ def contact():
     return render_template('contact.html')
 
 
-@app.route('/feed/index.rss')
+@app.route('/feeds/posts/default')
 def feed():
     articles = get_pages(pages, limit=FEED_MAX_LINKS)
     now = datetime.now()
