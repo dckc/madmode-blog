@@ -7,7 +7,7 @@ diigo-bookmarks.json: time-ref bookmark-dl/bkmkeep.py
 		$(DIIGO_USERNAME) PASSWORD DIIGO_API_KEY >$@
 
 time-ref:
-	date >$@
+	date -u -Iseconds >$@
 
 time-reset:
 	rm time-ref
