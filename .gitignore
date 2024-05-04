@@ -7,3 +7,7 @@
 
 .direnv
 .ipynb_checkpoints/
+/dotfiles/emacs.d/elpa/
+
+# Local Netlify folder
+.netlify
