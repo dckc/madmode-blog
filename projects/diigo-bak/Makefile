@@ -1,7 +1,9 @@
 # use .envrc to set DIIGO_USERNAME, DIIGO_API_KEY
 SECRET_TOOL=secret-tool
 
-diigo-bookmarks.json: time-ref bookmark-dl/bkmkeep.py
+diigo-bookmarks-shared.ndjson: diigo-bookmarks.ndjson
+	jq -c 'select(.shared=="yes")' <$< >$@
+
 diigo-bookmarks.ndjson: diigo-bookmarks.json
 	jq -c '.[]' <$< >$@
 
