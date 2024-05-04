@@ -24,7 +24,7 @@
  '(flycheck-python-flake8-executable "/usr/bin/flake8")
  '(indent-tabs-mode nil)
  '(package-selected-packages
-   '(opam-switch-mode kubernetes go-autocomplete go-mode godoctor merlin-eldoc reason-mode utop caml merlin flycheck-rust cargo rust-mode nix-mode direnv yaml-mode use-package tuareg systemd pyvenv php-mode markdown-mode magit lsp-ocaml json-mode js2-mode iedit helm-idris flymake-php flycheck-pyflakes flycheck-ocaml flycheck-mypy flycheck-flow ensime csv-mode calfw-org calfw-ical calfw-gcal calfw auto-complete add-node-modules-path))
+   '(flycheck opam-switch-mode kubernetes go-autocomplete go-mode godoctor merlin-eldoc reason-mode utop caml merlin flycheck-rust cargo rust-mode nix-mode direnv yaml-mode use-package tuareg systemd pyvenv php-mode markdown-mode magit lsp-ocaml json-mode js2-mode iedit helm-idris flymake-php flycheck-pyflakes flycheck-ocaml flycheck-mypy flycheck-flow ensime csv-mode calfw-org calfw-ical calfw-gcal calfw auto-complete add-node-modules-path))
  '(safe-local-variable-values
    '((eval setq flycheck-clang-include-path
            (list
