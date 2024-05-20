@@ -2,9 +2,14 @@
 makeFileDir := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
 TARGETS=$(HOME)/.gitconfig $(HOME)/.bashrc $(HOME)/.hgrc.d \
-	$(HOME)/.emacs.d $(HOME)/.config/nix/nix.conf
+	$(HOME)/.emacs.d $(HOME)/.config/nix/nix.conf \
+	$(HOME)/.local/share/file-manager/actions
 
 all: $(TARGETS)
+
+$(HOME)/.local/share/file-manager/actions:
+	mkdir -p $(HOME)/.local/share/file-manager
+	ln -s $(makeFileDir)caja-actions $@
 
 $(HOME)/.config/direnv:
 	ln -s $(makeFileDir)direnv $@

@@ -1,0 +1,14 @@
+# mate desktop - Add custom menu action to Caja file manager
+# https://unix.stackexchange.com/questions/430705/add-custom-menu-action-to-caja-file-manager
+# https://unix.stackexchange.com/a/430706
+[Desktop Entry]
+Type=Action
+Tooltip=Convert PDF to text
+Name=Convert PDF to text
+Profiles=profile-zero;
+Icon=xed
+
+[X-Action-Profile profile-zero]
+MimeTypes=application/pdf;
+Exec=pdftotext -layout %f %f.txt
+Name=Convert PDF to text
