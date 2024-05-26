@@ -19,4 +19,4 @@ time-reset:
 	rm time-ref
 
 install-deps:
-	sudo apt install python2
+	sudo apt install python2 jq libsecret-tools
