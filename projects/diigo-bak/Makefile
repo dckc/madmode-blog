@@ -2,7 +2,7 @@
 SECRET_TOOL=secret-tool
 
 diigo-bookmarks-shared.ndjson: diigo-bookmarks.ndjson
-	jq -c 'select(.shared=="yes")' <$< >$@
+	jq -c 'select(.shared != "no")' <$< >$@
 
 diigo-bookmarks.ndjson: diigo-bookmarks.json
 	jq -c '.[]' <$< >$@
