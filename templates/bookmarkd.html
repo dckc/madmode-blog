@@ -1,0 +1,19 @@
+<h3><a itemprop="url" href="{{ item.url }}"><span itemprop="name">{{ item.title|e }}</span></a>
+|
+<time datetime="{{ item.created_at | parse_date }}">
+  {{ (item.created_at | parse_date).strftime('%Y-%m-%d') }}</time>
+{% if item.updated_at != item.created_at %}
+<small>updated
+  <time datetime="{{ item.updated_at | parse_date }}">
+    {{ (item.updated_at | parse_date).strftime('%Y-%m-%d') }}</time>
+</small>
+{% endif %}
+{% if item.tags != "no_tag" -%}
+  {% for tag in item.tags.split(',') -%}
+    | <a class="tag" rel="tag" href="/search/label/{{ tag|e }}">{{ tag|e }}</a>
+  {% endfor -%}
+{% endif -%}
+</h3>
+  {% for bq in item.annotations -%}
+  <blockquote>{{ bq.content }}</blockquote>
+  {% endfor -%}

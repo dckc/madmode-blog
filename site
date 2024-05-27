@@ -7,8 +7,12 @@ from itertools import groupby
 from unicodedata import normalize
 import codecs
 import locale
-import os
 import re
+import json
+
+# ambient authority
+import pathlib
+import os
 import shutil
 
 
@@ -23,6 +27,7 @@ from PIL import Image, ImageOps
 from werkzeug.routing import BaseConverter
 
 from meta_compat import MetaCompat
+import diigo_syndicate as diigo
 
 # Configuration
 DEBUG = False
@@ -48,10 +53,17 @@ class FlaskE(Flask):
 # app = FlaskE(__name__)
 app = Flask(__name__)
 app.config.from_object(__name__)
+FlatPages
 pages = MetaCompat(app)
 freezer = Freezer(app)
 markdown_manager = Markdown(app)
 asset_manager = AssetManager(app)
+
+
+bookmarks = list(map(json.loads,
+                     (pathlib.Path(diigo.__file__).parent
+                      / diigo.PATH).open()))
+app.logger.info('diigo bookmarks: %d', len(bookmarks))
 
 
 ###############################################################################
@@ -93,12 +105,24 @@ def get_pages(pages, offset=None, limit=None, tag=None, year=None, month=None):
         return articles
 
 
+def get_bookmarks(bookmarks, year=None, month=None, tag=None):
+    if year:
+        raise NotImplementedError(year)
+    if month:
+        raise NotImplementedError(month)
+    items = bookmarks[:]
+    if tag:
+        items = [item for item in items
+                 if tag in item['tags'].split(',')]
+    return items
+
+
 def tag_counts(pages):
-    all_tags = [tag for pg in pages
+    all_tags = [tag.lower() for pg in pages
                 for tag in pg.meta.get('tags', ())]
     count_tags = [(tag, len(list(tag_group)))
                   for tag, tag_group in groupby(sorted(all_tags))]
-    return sorted(count_tags, key=lambda x: x[0].lower())
+    return sorted(count_tags, key=lambda x: x[0])
 
 
 def get_years(pages):
@@ -150,6 +174,11 @@ def to_rfc2822(dt):
     formatted = dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
     locale.setlocale(locale.LC_TIME, current_locale)
     return formatted
+
+
+@app.template_filter()
+def parse_date(dt):
+    return diigo.parse_date(dt)
 
 
 ###############################################################################
@@ -228,7 +257,9 @@ def page(path):
 def search_tag(tag):
     template = 'archives.html'
     articles = get_pages(pages, tag=tag)
-    return render_template(template, pages=articles, tag=tag)
+    tagged = get_bookmarks(bookmarks, tag=tag)
+    return render_template(template, pages=articles,
+                           bookmarks=tagged, tag=tag)
 
 
 @app.route('/<int:year>/')

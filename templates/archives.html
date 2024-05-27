@@ -1,11 +1,27 @@
 {% extends "code/base.html" %}
 
 {% block contents %}
-<h2>Code | {{ year }}</h2>
+{% if tag %}
+<h2>{{ tag }} posts</h2>
 
-<p>All posts published during {{ year}}.</p>
+<p>All posts tagged <strong>{{ tag }}</strong>.</p>
+{% endif %}
+{% if year %}
+<h2>{{ year }} posts</h2>
+
+<p>All posts published during {{ year }}.</p>
+{% endif %}
 
 {% include "_list.html" %}
+
+{% if bookmarks %}
+<h2>{{ tag or year }} bookmarks</h2>
+<ul class="item-list" itemprop="bookmarks">
+{% for item in bookmarks %}
+<li>{% include "bookmarkd.html" %}</li>
+{% endfor %}
+</ul>
+{% endif %}
 
 {% if years|length %}
     <p>
