@@ -1,0 +1,14 @@
+# mate desktop - Add custom menu action to Caja file manager
+# https://unix.stackexchange.com/questions/430705/add-custom-menu-action-to-caja-file-manager
+# https://unix.stackexchange.com/a/430706
+[Desktop Entry]
+Type=Action
+Tooltip=Convert Discover CSV to OFX
+Name=Discover Export to OFX
+Profiles=profile-zero;
+Icon=xed
+
+[X-Action-Profile profile-zero]
+MimeTypes=text/csv;
+Exec=bash -c 'export NVM_DIR=$HOME/.nvm; source $NVM_DIR/nvm.sh; nvm use v20 && node ~/projects/finquick/packages/discover-dl/cli.js --acctId XXXX %f'
+Name=Discover Export to OFX
