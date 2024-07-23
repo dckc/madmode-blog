@@ -6,16 +6,15 @@
 (use-package-modules screen ssh)
 
 (operating-system
- (host-name "komputilo")
- (timezone "Europe/Berlin")
+ (host-name "ps23")
+ (timezone "America/Chicago")
  (locale "en_US.utf8")
 
- ;; Boot in "legacy" BIOS mode, assuming /dev/sdX is the
- ;; target hard disk, and "my-root" is the label of the target
- ;; root file system.
+ ;; Boot in "legacy" UEFI mode.
  (bootloader (bootloader-configuration
-              (bootloader grub-bootloader)
-              (targets '("/dev/sdX"))))
+  (bootloader grub-efi-bootloader)
+  (targets '("/boot/efi"))))
+
  ;; It's fitting to support the equally bare bones ‘-nographic’
  ;; QEMU option, which also nicely sidesteps forcing QWERTY.
  (kernel-arguments (list "console=ttyS0,115200"))
