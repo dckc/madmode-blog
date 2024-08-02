@@ -13,16 +13,21 @@
  ;; Boot in "legacy" UEFI mode.
  (bootloader (bootloader-configuration
   (bootloader grub-efi-bootloader)
-  (targets '("/boot/efi"))))
+  ))
 
  ;; It's fitting to support the equally bare bones ‘-nographic’
  ;; QEMU option, which also nicely sidesteps forcing QWERTY.
  (kernel-arguments (list "console=ttyS0,115200"))
- (file-systems (cons (file-system
-                      (device (file-system-label "my-root"))
-                      (mount-point "/")
-                      (type "ext4"))
-                     %base-file-systems))
+ (file-systems (append
+                (list (file-system
+                        (device (file-system-label "ps23-root"))
+                        (mount-point "/")
+                        (type "ext4"))
+                      (file-system
+                        (device (file-system-label "ESP"))
+                        (mount-point "/boot/efi")
+                        (type "fat32")))
+                %base-file-systems))
 
  ;; This is where user accounts are specified.  The "root"
  ;; account is implicit, and is initially created with the
