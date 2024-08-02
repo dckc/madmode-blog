@@ -18,6 +18,16 @@ run: etc/config.scm
 	$$(guix system vm $< $(HEADLESS)) $(VM_HW_FLAGS)
 
 ##
+# North American Substitutes
+#
+# https://lists.gnu.org/archive/html/guix-devel/2024-07/msg00033.html
+authz-us: genenetwork.org.pub
+	sudo guix archive --authorize < $<
+
+authz-guix2: guix2.pub
+	sudo guix archive --authorize < $<
+
+##
 # Partition, format physical disk
 
 TARGET=/dev/disk/by-id/ata-Samsung_SSD_860_EVO_500GB_S598NJ0NA42542A
