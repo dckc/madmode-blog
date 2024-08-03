@@ -69,7 +69,7 @@ init: etc/config.scm
 	# herd start cow-store /mnt
 	mkdir -p /mnt/etc
 	cp $< /mnt/etc/config.scm
-	guix system init /mnt/etc/config.scm /mnt
+	guix system init etc/config.scm /mnt
 
 etc/config.scm: dckc.keys
 
