@@ -33,8 +33,8 @@
  ;; account is implicit, and is initially created with the
  ;; empty password.
  (users (cons (user-account
-               (name "alice")
-               (comment "Bob's sister")
+               (name "dckc")
+               (comment "madmode.com")
                (group "users")
 
                ;; Adding the account to the "wheel" group
@@ -54,5 +54,7 @@
                          (service openssh-service-type
                                   (openssh-configuration
                                    (openssh openssh-sans-x)
+                                   (authorized-keys
+                                    `(("dckc" ,(local-file "../dckc.keys"))))
                                    (port-number 2222))))
                    %base-services)))

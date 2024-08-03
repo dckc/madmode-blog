@@ -70,3 +70,8 @@ init: etc/config.scm
 	mkdir -p /mnt/etc
 	cp $< /mnt/etc/config.scm
 	guix system init /mnt/etc/config.scm /mnt
+
+etc/config.scm: dckc.keys
+
+dckc.keys:
+	wget https://github.com/dckc.keys
