@@ -10,9 +10,10 @@
  (timezone "America/Chicago")
  (locale "en_US.utf8")
 
- ;; Boot in "legacy" UEFI mode.
+ ;; Boot in UEFI mode.
  (bootloader (bootloader-configuration
   (bootloader grub-efi-bootloader)
+  (targets '("/boot/efi"))
   ))
 
  ;; It's fitting to support the equally bare bones ‘-nographic’

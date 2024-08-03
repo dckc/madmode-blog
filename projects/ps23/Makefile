@@ -78,6 +78,7 @@ unmount-target:
 
 init: etc/config.scm
 	# herd start cow-store /mnt
+	guix --version  # make sure root has a current guix. 1.3.0 was too old
 	mkdir -p /mnt/etc
 	cp $< /mnt/etc/config.scm
 	guix system init etc/config.scm /mnt
