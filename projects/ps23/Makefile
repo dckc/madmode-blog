@@ -30,7 +30,18 @@ authz-guix2: guix2.pub
 ##
 # Partition, format physical disk
 
-TARGET=/dev/disk/by-id/ata-Samsung_SSD_860_EVO_500GB_S598NJ0NA42542A
+# TARGET=/dev/disk/by-id/ata-Samsung_SSD_860_EVO_500GB_S598NJ0NA42542A
+#
+BUS_PFX=usb-
+BUS_SFX=-0:0
+TARGET=$(shell realpath /dev/disk/by-id/$(BUS_PFX)Samsung_SSD_860_EVO_500G_DB987654321116A$(BUS_SFX))
+PART_BOOT=$(TARGET)1
+PART_ROOT=$(TARGET)2
+
+print-target:
+	@echo disk: $(TARGET)
+	@echo boot: $(PART_BOOT)
+	@echo root: $(PART_ROOT)
 
 restore-partition-table: partition-table.bak
 	sudo sfdisk $(TARGET) < $<
@@ -52,14 +63,14 @@ root-partition: $(TARGET)
 	# one root partition using 100% of remaining space
 	sudo parted -s $(TARGET) -- mkpart ps23-root ext4 1024MiB 100%
 
-format-target: $(TARGET)-part1 $(TARGET)-part2
-	sudo mkfs.vfat -n ESP $$(realpath $(TARGET)-part1)
-	sudo mkfs.ext4 -L ps23-root -F $$(realpath $(TARGET)-part2)
+format-target: $(PART_BOOT) $(PART_ROOT)
+	sudo mkfs.vfat -n ESP $(PART_BOOT)
+	sudo mkfs.ext4 -L ps23-root -F $(PART_ROOT)
 
 mount-target:
-	sudo mount $$(realpath $(TARGET)-part2) /mnt/
+	sudo mount $(PART_ROOT) /mnt/
 	sudo mkdir -p /mnt/boot/efi
-	sudo mount $$(realpath $(TARGET)-part1) /mnt/boot/efi
+	sudo mount $(PART_BOOT) /mnt/boot/efi
 
 unmount-target:
 	sudo umount /mnt/boot/efi
