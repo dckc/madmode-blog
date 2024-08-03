@@ -1,0 +1,10 @@
+label: gpt
+label-id: 2973C469-6642-476E-BD12-AEBAA856B9EF
+device: /dev/disk/by-id/ata-Samsung_SSD_860_EVO_500GB_S598NJ0NA42542A
+unit: sectors
+first-lba: 34
+last-lba: 976773134
+sector-size: 512
+
+/dev/disk/by-id/ata-Samsung_SSD_860_EVO_500GB_S598NJ0NA42542A-part1 : start=        2048, size=     2095104, type=C12A7328-F81F-11D2-BA4B-00A0C93EC93B, uuid=A17A862A-132E-440F-A3D1-5205F203B86D, name="ESP"
+/dev/disk/by-id/ata-Samsung_SSD_860_EVO_500GB_S598NJ0NA42542A-part2 : start=     2097152, size=   974675968, type=0FC63DAF-8483-4772-8E79-3D69D8477DE4, uuid=EC3EDD5B-7F19-4CF5-A555-C5F8C45B4E62, name="ps23-root"
