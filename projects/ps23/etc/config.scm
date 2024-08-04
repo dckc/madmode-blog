@@ -1,57 +1,77 @@
-;; This is an operating system configuration template
-;; for a "bare bones" setup, with no X11 display server.
+;; This is an operating system configuration generated
+;; by the graphical installer.
+;;
+;; Once installation is complete, you can learn and modify
+;; this file to tweak the system configuration, and pass it
+;; to the 'guix system reconfigure' command to effect your
+;; changes.
 
+
+;; Indicate which modules to import to access the variables
+;; used in this configuration.
 (use-modules (gnu))
-(use-service-modules networking ssh)
-(use-package-modules screen ssh)
+(use-service-modules cups desktop networking ssh xorg)
 
 (operating-system
   (locale "en_US.utf8")
   (timezone "America/Chicago")
+  (keyboard-layout (keyboard-layout "us"))
   (host-name "ps23")
 
-  ;; This is where user accounts are specified.  The "root"
-  ;; account is implicit, and is initially created with the
-  ;; empty password.
+  ;; The list of user accounts ('root' is implicit).
   (users (cons* (user-account
                   (name "dckc")
-                  (comment "madmode.com")
+                  (comment "Dan C")
                   (group "users")
-
-                  ;; Adding the account to the "wheel" group
-                  ;; makes it a sudoer.  Adding it to "audio"
-                  ;; and "video" allows the user to play sound
-                  ;; and access the webcam.
+                  (home-directory "/home/dckc")
                   (supplementary-groups '("wheel" "netdev" "audio" "video")))
                 %base-user-accounts))
 
-  ;; Globally-installed packages.
-  (packages (cons screen %base-packages))
+  ;; Packages installed system-wide.  Users can also install packages
+  ;; under their own account: use 'guix search KEYWORD' to search
+  ;; for packages and 'guix install PACKAGE' to install a package.
+  (packages (append (list (specification->package "nss-certs"))
+                    %base-packages))
 
-  ;; Add services to the baseline: a DHCP client and
-  ;; an SSH server.
+  ;; Below is the list of system services.  To search for available
+  ;; services, run 'guix system search KEYWORD' in a terminal.
   (services
-   (append (list (service dhcp-client-service-type)
-                 (service openssh-service-type
-                          (openssh-configuration (openssh openssh-sans-x)
-                                                 (authorized-keys `(("dckc" ,(local-file
-                                                                              "../dckc.keys"))))
-                                                 (port-number 2222))))
-           %base-services))
+   (append (list (service mate-desktop-service-type)
 
-  ;; Boot in UEFI mode.
+                 ;; To configure OpenSSH, pass an 'openssh-configuration'
+                 ;; record as a second argument to 'service' below.
+                 (service openssh-service-type)
+                 (set-xorg-configuration
+                  (xorg-configuration (keyboard-layout keyboard-layout))))
+
+           ;; This is the default list of services we
+           ;; are appending to.
+           %desktop-services))
   (bootloader (bootloader-configuration
                 (bootloader grub-efi-bootloader)
-                (targets (list "/boot/efi"))))
+                (targets (list "/boot/efi"))
+                (keyboard-layout keyboard-layout)))
+  (swap-devices (list (swap-space
+                        (target (uuid
+                                 "12a261a8-4597-4ad7-a5d9-6b0a5de38e83")))))
 
-  ;; It's fitting to support the equally bare bones ‘-nographic’
-  ;; QEMU option, which also nicely sidesteps forcing QWERTY.
-  (kernel-arguments (list "console=ttyS0,115200"))
+  ;; The list of file systems that get "mounted".  The unique
+  ;; file system identifiers there ("UUIDs") can be obtained
+  ;; by running 'blkid' in a terminal.
   (file-systems (cons* (file-system
                          (mount-point "/boot/efi")
-                         (device (file-system-label "ESP"))
+                         (device (uuid "FCBC-2210"
+                                       'fat32))
                          (type "vfat"))
                        (file-system
                          (mount-point "/")
-                         (device (file-system-label "ps23-root"))
+                         (device (uuid
+                                  "45598434-5dd1-46a7-956a-1a855e44a740"
+                                  'ext4))
+                         (type "ext4"))
+                       (file-system
+                         (mount-point "/home")
+                         (device (uuid
+                                  "bc2d48b0-c66b-4ea9-b652-1516496ba05d"
+                                  'ext4))
                          (type "ext4")) %base-file-systems)))
