@@ -6,7 +6,6 @@
 ;; to the 'guix system reconfigure' command to effect your
 ;; changes.
 
-
 ;; Indicate which modules to import to access the variables
 ;; used in this configuration.
 (use-modules (gnu))
@@ -30,8 +29,7 @@
   ;; Packages installed system-wide.  Users can also install packages
   ;; under their own account: use 'guix search KEYWORD' to search
   ;; for packages and 'guix install PACKAGE' to install a package.
-  (packages (append (list (specification->package "nss-certs"))
-                    %base-packages))
+  (packages (append (list (specification->package "nss-certs")) %base-packages))
 
   ;; Below is the list of system services.  To search for available
   ;; services, run 'guix system search KEYWORD' in a terminal.
@@ -52,8 +50,7 @@
                 (targets (list "/boot/efi"))
                 (keyboard-layout keyboard-layout)))
   (swap-devices (list (swap-space
-                        (target (uuid
-                                 "12a261a8-4597-4ad7-a5d9-6b0a5de38e83")))))
+                        (target (uuid "12a261a8-4597-4ad7-a5d9-6b0a5de38e83")))))
 
   ;; The list of file systems that get "mounted".  The unique
   ;; file system identifiers there ("UUIDs") can be obtained
@@ -65,13 +62,11 @@
                          (type "vfat"))
                        (file-system
                          (mount-point "/")
-                         (device (uuid
-                                  "45598434-5dd1-46a7-956a-1a855e44a740"
-                                  'ext4))
+                         (device (uuid "45598434-5dd1-46a7-956a-1a855e44a740"
+                                       'ext4))
                          (type "ext4"))
                        (file-system
                          (mount-point "/home")
-                         (device (uuid
-                                  "bc2d48b0-c66b-4ea9-b652-1516496ba05d"
-                                  'ext4))
+                         (device (uuid "bc2d48b0-c66b-4ea9-b652-1516496ba05d"
+                                       'ext4))
                          (type "ext4")) %base-file-systems)))
