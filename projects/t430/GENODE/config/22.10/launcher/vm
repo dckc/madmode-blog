@@ -1,5 +1,19 @@
-<launcher name="vbox6" pkg="genodelabs/pkg/vbox6/2022-10-13" priority="-2">
+<launcher name="vbox6" pkg="local/pkg/vbox6/2022-10-13" priority="-2">
 		<route>
+
+     <service name="Block" label_suffix=" -> 1">
+       <child name="ahci-0.part_block" label="1"/>
+     </service>
+     <service name="Block" label_suffix=" -> 4">
+       <child name="ahci-0.part_block" label="4"/>
+     </service>
+     <service name="Block" label_suffix=" -> 5">
+       <child name="ahci-0.part_block" label="5"/>
+     </service>
+     <service name="Block" label_suffix=" -> 6">
+       <child name="ahci-0.part_block" label="6"/>
+     </service>
+
 			<service name="File_system" label="vm">
 				<child name="vm_fs"/>
 			</service>
