@@ -1,3 +1,5 @@
+const { JSDOM } = require("jsdom");
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
 
@@ -10,6 +12,16 @@ module.exports = function(eleventyConfig) {
       return date.getFullYear();
     }
     return date.toISOString().slice(0, 10); // Returns date in YYYY-MM-DD format
+  });
+
+  // Add summary filter
+  eleventyConfig.addFilter("summary", function(content) {
+    const dom = new JSDOM(content);
+    const summary = dom.window.document.querySelector('p');
+    if (summary) {
+      return summary.textContent.slice(0, 135) + (summary.textContent.length > 135 ? '...' : '');
+    }
+    return content.slice(0, 135) + (content.length > 135 ? '...' : '');
   });
 
   return {
