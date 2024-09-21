@@ -22,7 +22,7 @@
         {{ content | safe }}
         {% if page.url != "/" %}
         <hr>
-        <p>Posted on: {{ page.date | date: "%Y-%m-%d" }}</p>
+        <p>Posted on: {{ page.date | date("%Y-%m-%d") }}</p>
         {% if tags %}
         <p>Tags: 
             {% for tag in tags %}
