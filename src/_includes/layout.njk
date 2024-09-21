@@ -20,6 +20,19 @@
     </header>
     <main>
         {{ content | safe }}
+        {% if page.url != "/" %}
+        <hr>
+        <p>Posted on: {{ page.date | date: "%Y-%m-%d" }}</p>
+        {% if tags %}
+        <p>Tags: 
+            {% for tag in tags %}
+                {% if tag != "posts" %}
+                    <span class="tag">{{ tag }}</span>
+                {% endif %}
+            {% endfor %}
+        </p>
+        {% endif %}
+        {% endif %}
     </main>
     <footer>
         <p>&copy; {{ "now" | date("%Y") }} Dan Connolly</p>
