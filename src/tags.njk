@@ -3,7 +3,7 @@ pagination:
   data: collections.tagList
   size: 1
   alias: tag
-permalink: /tags/{{ tag }}/
+permalink: /search/label/{{ tag }}/
 layout: layout.njk
 eleventyComputed:
   title: "Posts tagged '{{ tag }}'"
@@ -18,4 +18,4 @@ eleventyComputed:
 {% endfor %}
 </ul>
 
-<p><a href="/tags/">View all tags</a></p>
+<p><a href="/search/label/">View all tags</a></p>

@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-permalink: /tags/
+permalink: /search/label/
 title: Tags
 ---
 
@@ -8,6 +8,6 @@ title: Tags
 
 <ul>
 {% for tag in collections.tagList %}
-  <li><a href="/tags/{{ tag }}/">{{ tag }}</a></li>
+  <li><a href="/search/label/{{ tag }}/">{{ tag }}</a></li>
 {% endfor %}
 </ul>
