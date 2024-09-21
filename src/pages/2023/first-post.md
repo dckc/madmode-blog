@@ -2,7 +2,9 @@
 layout: layout.njk
 title: My First Blog Post
 date: 2023-09-21
-tags: posts
+tags: 
+  - posts
+  - writing
 ---
 
 # My First Blog Post
