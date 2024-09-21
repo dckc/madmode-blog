@@ -5,16 +5,17 @@ title: Archives
 
 <h1>Archives</h1>
 
-{% assign sorted_posts = collections.posts | reverse %}
+{% set sorted_posts = collections.posts | reverse %}
+{% set years = [2023, 2022, 2021, 2020] %}
 
-{% for year in (2020..2023) | reverse %}
+{% for year in years %}
   <h2>{{ year }}</h2>
   <ul>
   {% for post in sorted_posts %}
-    {% assign post_year = post.date | date: "%Y" %}
+    {% set post_year = post.date | date("yyyy") %}
     {% if post_year == year | string %}
       <li>
-        <a href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+        <a href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.date | date("yyyy-MM-dd") }}
       </li>
     {% endif %}
   {% endfor %}
