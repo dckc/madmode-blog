@@ -3,7 +3,13 @@ module.exports = function(eleventyConfig) {
 
   // Add date filter
   eleventyConfig.addFilter("date", function(date, format) {
-    return new Date(date).toLocaleDateString('en-US', {
+    if (date === "now") {
+      date = new Date();
+    }
+    if (format === "yyyy") {
+      return date.getFullYear();
+    }
+    return date.toLocaleDateString('en-US', {
       year: 'numeric',
       month: '2-digit',
       day: '2-digit'
