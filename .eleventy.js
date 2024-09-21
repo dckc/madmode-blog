@@ -51,7 +51,7 @@ module.exports = function(eleventyConfig) {
       id: page.url,
       title: page.data.title,
       url: page.url,
-      content: page.templateContent.replace(/<[^>]*>/g, '')
+      content: page.template.inputContent
     }));
   });
 
