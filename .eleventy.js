@@ -45,6 +45,20 @@ module.exports = function(eleventyConfig) {
     return `/search/label/${tag}/`;
   });
 
+  // Generate search index
+  eleventyConfig.addCollection("searchIndex", function(collection) {
+    return collection.getAll().map(page => ({
+      id: page.url,
+      title: page.data.title,
+      url: page.url,
+      content: page.templateContent.replace(/<[^>]*>/g, '')
+    }));
+  });
+
+  eleventyConfig.addPassthroughCopy({
+    "src/search-index.json": "search-index.json"
+  });
+
   return {
     dir: {
       input: "src",

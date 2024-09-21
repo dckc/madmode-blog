@@ -1,0 +1,44 @@
+---
+layout: layout.njk
+title: Search
+---
+
+<h1>Search</h1>
+
+<input type="text" id="search-input" placeholder="Search...">
+<div id="search-results"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/minisearch@6.1.0/dist/umd/index.min.js"></script>
+<script>
+  let miniSearch;
+  let documents;
+
+  fetch('/search-index.json')
+    .then(response => response.json())
+    .then(data => {
+      documents = data;
+      miniSearch = new MiniSearch({
+        fields: ['title', 'content'],
+        storeFields: ['title', 'url']
+      });
+      miniSearch.addAll(documents);
+    });
+
+  const searchInput = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
+
+  searchInput.addEventListener('input', () => {
+    const query = searchInput.value;
+    if (query.length < 3) {
+      searchResults.innerHTML = '';
+      return;
+    }
+    const results = miniSearch.search(query, { fuzzy: 0.2 });
+    searchResults.innerHTML = results.map(result => 
+      `<div>
+        <a href="${result.url}">${result.title}</a>
+        <p>${result.content.substring(0, 150)}...</p>
+      </div>`
+    ).join('');
+  });
+</script>
