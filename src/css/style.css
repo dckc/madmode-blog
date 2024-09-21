@@ -126,3 +126,37 @@ footer {
 .tag-4 { font-size: 1.6em; }
 .tag-5 { font-size: 1.8em; }
 .tag-6 { font-size: 2em; }
+
+#search-results {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#search-results div {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+#search-results div:last-child {
+    border-bottom: none;
+}
+
+#search-results a {
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+#search-results a:hover {
+    text-decoration: underline;
+}
+
+#search-results p {
+    margin-top: 0.5rem;
+    color: #7f8c8d;
+}

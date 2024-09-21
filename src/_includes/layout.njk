@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} - MadMode</title>
     <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/minisearch@6.1.0/dist/umd/index.min.js"></script>
 </head>
 <body>
     <header>
@@ -15,12 +16,13 @@
                 <li><a href="/archives/">Archives</a></li>
                 <li><a href="/search/label/">Tags</a></li>
             </ul>
-            <form action="/search/" method="get" class="search-form">
-                <input type="text" name="q" placeholder="Search..." aria-label="Search">
-                <button type="submit">Search</button>
-            </form>
+            <div class="search-form">
+                <input type="text" id="search-input" placeholder="Search..." aria-label="Search">
+                <button type="button" id="search-button">Search</button>
+            </div>
         </nav>
     </header>
+    <div id="search-results"></div>
     <main>
         {{ content | safe }}
         {% if page.url != "/" %}
@@ -40,5 +42,42 @@
     <footer>
         <p>&copy; {{ "now" | date("%Y") }} Dan Connolly</p>
     </footer>
+    <script>
+        let miniSearch;
+        let documents;
+
+        fetch('/search-index.json')
+            .then(response => response.json())
+            .then(data => {
+                documents = data;
+                miniSearch = new MiniSearch({
+                    fields: ['title', 'content'],
+                    storeFields: ['title', 'url']
+                });
+                miniSearch.addAll(documents);
+            });
+
+        const searchInput = document.getElementById('search-input');
+        const searchButton = document.getElementById('search-button');
+        const searchResults = document.getElementById('search-results');
+
+        function performSearch() {
+            const query = searchInput.value;
+            if (query.length < 3) {
+                searchResults.innerHTML = '';
+                return;
+            }
+            const results = miniSearch.search(query, { fuzzy: 0.2 });
+            searchResults.innerHTML = results.map(result => 
+                `<div>
+                    <a href="${result.url || '#'}">${result.title || 'Untitled'}</a>
+                    <p>${result.content ? result.content.substring(0, 150) + '...' : 'No content available'}</p>
+                </div>`
+            ).join('');
+        }
+
+        searchInput.addEventListener('input', performSearch);
+        searchButton.addEventListener('click', performSearch);
+    </script>
 </body>
 </html>
