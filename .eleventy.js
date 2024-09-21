@@ -9,11 +9,7 @@ module.exports = function(eleventyConfig) {
     if (format === "yyyy") {
       return date.getFullYear();
     }
-    return date.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit'
-    });
+    return date.toISOString().slice(0, 10); // Returns date in YYYY-MM-DD format
   });
 
   return {
