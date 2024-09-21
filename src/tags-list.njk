@@ -6,8 +6,10 @@ title: Tags
 
 <h1>Tags</h1>
 
-<ul>
+<div class="tag-cloud">
 {% for tag in collections.tagList %}
-  <li><a href="/search/label/{{ tag }}/">{{ tag }}</a></li>
+  {% set tagUrl %}/search/label/{{ tag }}/{% endset %}
+  {% set postsCount = collections[tag].length %}
+  <a href="{{ tagUrl }}" class="tag-{{ postsCount }}">{{ tag }}</a>
 {% endfor %}
-</ul>
+</div>

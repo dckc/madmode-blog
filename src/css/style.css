@@ -72,3 +72,32 @@ footer {
     font-size: 0.9rem;
     color: #7f8c8d;
 }
+/* Tag Cloud Styles */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.tag-cloud a {
+  margin: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.tag-cloud a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.tag-1 { font-size: 1em; }
+.tag-2 { font-size: 1.2em; }
+.tag-3 { font-size: 1.4em; }
+.tag-4 { font-size: 1.6em; }
+.tag-5 { font-size: 1.8em; }
+.tag-6 { font-size: 2em; }
