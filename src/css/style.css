@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
     color: #333;
     max-width: 800px;
@@ -79,6 +79,7 @@ main {
 }
 
 h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #2c3e50;
 }
 
