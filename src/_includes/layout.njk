@@ -32,7 +32,7 @@
         <p>Tags: 
             {% for tag in tags %}
                 {% if tag != "posts" %}
-                    <span class="tag">{{ tag }}</span>
+                    <a href="/search/label/{{ tag }}/" class="tag">{{ tag }}</a>{% if not loop.last %}, {% endif %}
                 {% endif %}
             {% endfor %}
         </p>
