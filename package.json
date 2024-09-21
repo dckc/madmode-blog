@@ -19,6 +19,5 @@
   },
   "dependencies": {
     "jsdom": "^25.0.0"
-  },
-  "type": "module"
+  }
 }

@@ -1,4 +1,5 @@
-const { JSDOM } = require("jsdom");
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
