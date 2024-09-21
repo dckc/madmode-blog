@@ -7,10 +7,18 @@
     "start": "eleventy --serve",
     "build": "eleventy"
   },
-  "keywords": ["blog", "11ty", "eleventy"],
+  "keywords": [
+    "blog",
+    "11ty",
+    "eleventy"
+  ],
   "author": "Dan Connolly",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
-  }
+  },
+  "dependencies": {
+    "jsdom": "^25.0.0"
+  },
+  "type": "module"
 }
