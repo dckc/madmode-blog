@@ -24,6 +24,21 @@ module.exports = function(eleventyConfig) {
     return content.slice(0, 135) + (content.length > 135 ? '...' : '');
   });
 
+  // Create tag pages
+  eleventyConfig.addCollection("tagList", function(collection) {
+    let tagSet = new Set();
+    collection.getAll().forEach(function(item) {
+      if ("tags" in item.data) {
+        let tags = item.data.tags;
+        tags = tags.filter(item => item !== "posts");
+        for (const tag of tags) {
+          tagSet.add(tag);
+        }
+      }
+    });
+    return [...tagSet];
+  });
+
   return {
     dir: {
       input: "src",
