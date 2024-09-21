@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-title: GraphQL vs REST: A Comparative Analysis
+title: "GraphQL vs REST: A Comparative Analysis"
 date: 2022-06-30
 tags: 
   - posts
