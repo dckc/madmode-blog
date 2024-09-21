@@ -39,6 +39,11 @@ module.exports = function(eleventyConfig) {
     return [...tagSet];
   });
 
+  // Add permalink structure for tag pages
+  eleventyConfig.addFilter("tagUrl", function(tag) {
+    return `/search/label/${tag}/`;
+  });
+
   return {
     dir: {
       input: "src",
