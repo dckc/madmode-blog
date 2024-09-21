@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - MadMode</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>MadMode</h1>
+        <p>Dan Connolly's hacking notebook</p>
+    </header>
+    <main>
+        {{ content | safe }}
+    </main>
+    <footer>
+        <p>&copy; {{ "now" | date: "%Y" }} Dan Connolly</p>
+    </footer>
+</body>
+</html>

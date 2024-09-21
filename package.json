@@ -1,0 +1,16 @@
+{
+  "name": "madmode-blog",
+  "version": "1.0.0",
+  "description": "Dan Connolly's hacking notebook",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": ["blog", "11ty", "eleventy"],
+  "author": "Dan Connolly",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
