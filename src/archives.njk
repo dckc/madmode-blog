@@ -1,0 +1,22 @@
+---
+layout: layout.njk
+title: Archives
+---
+
+<h1>Archives</h1>
+
+{% assign sorted_posts = collections.posts | reverse %}
+
+{% for year in (2020..2023) | reverse %}
+  <h2>{{ year }}</h2>
+  <ul>
+  {% for post in sorted_posts %}
+    {% assign post_year = post.date | date: "%Y" %}
+    {% if post_year == year | string %}
+      <li>
+        <a href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endfor %}
