@@ -10,5 +10,5 @@ This is Dan Connolly's hacking notebook. Here you'll find my thoughts, experimen
 ## Recent Posts
 
 {% for post in collections.posts | reverse %}
-1. [{{ post.data.title }}]({{ post.url | replace: "/pages/", "/" }}) - {{ post.date | date: "%Y-%m-%d" }}
+1. [{{ post.data.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
 {% endfor %}

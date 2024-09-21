@@ -1,12 +1,16 @@
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("src/css");
+
   return {
     dir: {
       input: "src",
-      output: "_site"
+      output: "_site",
+      includes: "_includes"
     },
-    // Add pages directory to the list of content sources
-    addPassthroughCopy: {
-      "src/pages": "pages"
+    // Configure the permalink for posts
+    permalinks: {
+      structure: "/blog/:date/:title/",
+      date: "yyyy"
     }
   };
 };
