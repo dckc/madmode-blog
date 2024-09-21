@@ -46,6 +46,31 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
 main {
     background-color: #ffffff;
     padding: 2rem;
