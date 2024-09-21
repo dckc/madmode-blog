@@ -1,7 +1,7 @@
 {
   "name": "madmode-blog",
   "version": "1.0.0",
-  "description": "Dan Connolly's hacking notebook",
+  "description": "Dan Connolly's tinkering lab notebook",
   "main": ".eleventy.js",
   "scripts": {
     "start": "eleventy --serve",
