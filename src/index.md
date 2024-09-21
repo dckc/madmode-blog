@@ -12,6 +12,7 @@ This is Dan Connolly's hacking notebook. Here you'll find my thoughts, experimen
 {% assign sorted_posts = collections.posts | reverse %}
 {% for post in sorted_posts %}
 1. [{{ post.data.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+   
    {{ post.templateContent | summary }}
 {% endfor %}
 
