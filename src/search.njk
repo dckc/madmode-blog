@@ -36,8 +36,8 @@ title: Search
     const results = miniSearch.search(query, { fuzzy: 0.2 });
     searchResults.innerHTML = results.map(result => 
       `<div>
-        <a href="${result.url}">${result.title}</a>
-        <p>${result.content.substring(0, 150)}...</p>
+        <a href="${result.url || '#'}">${result.title || 'Untitled'}</a>
+        <p>${result.content ? result.content.substring(0, 150) + '...' : 'No content available'}</p>
       </div>`
     ).join('');
   });
