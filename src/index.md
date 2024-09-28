@@ -3,10 +3,6 @@ layout: layout.njk
 title: Home
 ---
 
-# Welcome to MadMode
-
-This is Dan Connolly's hacking notebook. Here you'll find my thoughts, experiments, and discoveries in the world of technology and programming.
-
 ## Recent Posts
 
 {% assign sorted_posts = collections.posts | reverse %}
@@ -19,3 +15,7 @@ This is Dan Connolly's hacking notebook. Here you'll find my thoughts, experimen
 {% endfor %}
 
 ## [View All Archives](/archives/)
+
+## About MadMode
+
+This is Dan Connolly's hacking notebook. Here you'll find my thoughts, experiments, and discoveries in the world of technology and programming.
