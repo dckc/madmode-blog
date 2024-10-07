@@ -3,7 +3,13 @@ title: rebuilding madmode on 11ty using aider
 summary: pair programming with an LLM to get over blogging analysis paralysis
 published: true
 date: 2024-09-28
-tags: generative-ai, jamstack, llm, pair-programming, collaboration, productivity
+tags:
+  - generative-ai
+  - jamstack
+  - llm
+  - pair-programming
+  - collaboration
+  - productivity
 ---
 
 [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) can
