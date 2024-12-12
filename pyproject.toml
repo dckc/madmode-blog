@@ -1,0 +1,15 @@
+[tool.uv]
+dev-dependencies = [
+    "argh>=0.31.3",
+    "flask>=3.0.3",
+    "frozen-flask>=1.0.2",
+    "flask-flatpages>=0.8.2",
+    "flask-markdown>=0.3",
+    "flask-assets>=2.1.0",
+    "pillow>=10.4.0",
+    "markdown>=3.7",
+    "markupsafe>=2.1.5",
+    "importlib-metadata>=8.4.0",
+]
+[tool.uv.workspace]
+members = []
