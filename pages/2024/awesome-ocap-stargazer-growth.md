@@ -3,7 +3,7 @@ date: 2024-12-12
 published: true
 tags: [capabilities, advocacy, data-visualization, generative-ai]
 
-The number of starson my [awesome-ocap](https://github.com/dckc/awesome-ocap) repo has grown steadily since
+The number of stars on my [awesome-ocap](https://github.com/dckc/awesome-ocap) repo has grown steadily since
 [My Capability Security 2017 Wish-List](../2017/ocap-wish-list).
 
 ![stargazers_chart.svg](https://gist.githubusercontent.com/dckc/53d44b5b11b9c462c9f3d0e33db2994f/raw/0d7ec8befbc841f56934c14d194fcac65c84182d/stargazers_chart.svg)
