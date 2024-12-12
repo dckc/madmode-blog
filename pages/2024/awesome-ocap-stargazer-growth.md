@@ -8,6 +8,14 @@ The number of starson my [awesome-ocap](https://github.com/dckc/awesome-ocap) re
 
 ![stargazers_chart.svg](https://gist.githubusercontent.com/dckc/53d44b5b11b9c462c9f3d0e33db2994f/raw/0d7ec8befbc841f56934c14d194fcac65c84182d/stargazers_chart.svg)
 
+My github feed shows new stars now and then, which made me
+curious about how folks are discovering it. I expected
+the growth would be episodic -- prompted by events now and then.
+
+The nearly straight line over 7 years is quite a surprise!
+
+_TODO: check the linear hypothesis with pandas. Get slope, coefficient._
+
 ## The web knows how to make this chart
 
 I just wished into a popular LLM:
