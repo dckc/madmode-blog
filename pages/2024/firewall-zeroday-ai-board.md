@@ -1,7 +1,7 @@
 ---
 title: 'faster, "smarter" and more dangerous'
 date: 2024-12-18
-tags: capabilities, security
+tags: [capabilities, security]
 published: true
 ---
 
