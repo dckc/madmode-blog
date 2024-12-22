@@ -1,4 +1,5 @@
 # See CONTRIBUING.md for context, instructions.
+
 [requires]
 python_version = "3.8"
 
@@ -10,7 +11,6 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-# direct imports from ./site, in source order
 argh = "*"
 flask = "*"
 frozen-flask = "*"
@@ -18,13 +18,6 @@ flask-flatpages = "*"
 flask-markdown = "*"
 flask-assets = "*"
 pillow = "*"
-# ISSUE: bummer. Flask-Markdown uses positional arguments
-# ISSUE: I can haz footnotes?
-# https://python-markdown.github.io/change_log/release-3.0/#positional-arguments-deprecated
 markdown = "*"
 markupsafe = "*"
-
-# https://github.com/python-poetry/poetry/issues/1487
-# https://github.com/Python-Markdown/markdown/blob/master/markdown/util.py#L85
-# <PY310 use backport
 importlib_metadata = "*"
