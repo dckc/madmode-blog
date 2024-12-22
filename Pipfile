@@ -1,7 +1,7 @@
 # See CONTRIBUING.md for context, instructions.
 
 [requires]
-python_version = "3.8"
+python_version = "3.10"
 
 [[source]]
 name = "pypi"
@@ -11,13 +11,10 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-argh = "*"
-flask = "*"
-frozen-flask = "*"
-flask-flatpages = "*"
-flask-markdown = "*"
-flask-assets = "*"
-pillow = "*"
-markdown = "*"
-markupsafe = "*"
-importlib_metadata = "*"
+argh = "~=0.26.2"
+flask = "~=2.2.2"
+frozen-flask = "~=0.18"
+flask-flatpages = "~=0.8.1"
+flask-markdown = "~=0.3"
+flask-assets = "~=2.0"
+pillow = "~=9.3.0"
