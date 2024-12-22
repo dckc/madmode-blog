@@ -2,6 +2,7 @@
 title: faster, "smarter" and more dangerous
 date: 2024-12-18
 tags: capabilities, security
+published: true
 ---
 
 "Computers are getting faster, smaller, more connected, and more capable, but when it comes to security, everything is broken." -- [Quinn Norton](https://medium.com/message/everything-is-broken-81e5f33a24e1)
