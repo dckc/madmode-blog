@@ -1,4 +1,5 @@
 from functools import partial
+from sys import stderr
 from urlparse import urljoin
 from urllib import urlencode
 import json
@@ -15,8 +16,15 @@ def main(argv, stdout, environ, build_opener):
 
     endpoint = WebPath(KB.api_base, opener)
     kb = KB(endpoint, username, environ[apikey])
-    it = kb.bookmarks(sort=KB.updated_at)
-    json.dump(it, stdout, indent=2)
+    start = 0
+    count = 100
+    while True:
+        print >>stderr, dict(start=start, count=count)
+        it = kb.bookmarks(sort=KB.updated_at, start=start, count=count)
+        if not it:
+            break
+        json.dump(it, stdout, indent=2)
+        start += count
 
 
 class KB(object):
@@ -28,8 +36,9 @@ class KB(object):
         self.bookmarks = partial(self._bookmarks, endpoint, user, apikey)
 
     def _bookmarks(self, endpoint, user, apikey,
-                   sort, filter='all', count=100):
-        params = dict(user=user, sort=sort, filter=filter, count=count,
+                   sort, filter='all', start=0, count=100):
+        params = dict(user=user, sort=sort, filter=filter,
+                      start=start, count=count,
                       key=apikey)
         it = endpoint / 'bookmarks' & params
         return json.load(it.open())

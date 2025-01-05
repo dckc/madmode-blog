@@ -34,6 +34,7 @@ Full disclosure:
 
 I have some of the usual accessories:
 
+- [BriskMore Bike Handlebar Mirror](https://www.amazon.com/dp/B092QKJNPM/)
 - [Via Velo Heavy Duty Bicycle U-Lock](https://www.amazon.com/gp/product/B01KD9AQ92/) - the U-Lock is a pretty secure option, except that sometimes I don't bother. Plus, it rattles when I ride. So I'm considering one of the motion-activated alarms.
 - [Lamicall Bike Phone Holder](https://www.amazon.com/gp/product/B085DMV7XD/) - Google Maps has pretty good bike directions.
 - [ROCKBROS Bike Trunk Bag](https://www.amazon.com/gp/product/B06XPXTCTK/) - I tried a couple different kinds of panniers and even a milk crate. But they get in the way when I'm just trying to get from here to there, and getting them on and off is a bother. So this bag is just right: I keep it on all the time, but I only unfold the panniers when I need them for groceries or the like.
