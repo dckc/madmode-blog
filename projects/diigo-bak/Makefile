@@ -20,3 +20,6 @@ time-reset:
 
 install-deps:
 	sudo apt install python2 jq libsecret-tools
+
+guix-deps:
+	guix shell less coreutils guix make python2 jq sqlite libsecret dbus nss-certs # --pure
