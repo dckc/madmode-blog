@@ -265,7 +265,8 @@ q:before, q:after {
   padding: 5px 10px;
 }
 .contents section.code, .contents section.carnet {
-  float: left;
+  /* I don't grok why this was here */
+  /* float: left; */
 }
 .contents section.code p, .contents section.carnet p {
   font-size: 92%;
