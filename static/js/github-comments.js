@@ -1,7 +1,9 @@
-async function fetchGitHubComments() {
+export async function fetchGitHubComments(
+  { fetch, document },
+  repos = ['madmode-blog', 'awesome-ocap', 'finquick']
+) {
   try {
     // First fetch all issues from each repo
-    const repos = ['madmode-blog', 'awesome-ocap', 'finquick'];
     const issuePromises = repos.map((repo) =>
       fetch(
         `https://api.github.com/repos/dckc/${repo}/issues?state=all&per_page=100&sort=updated&direction=desc`,
@@ -97,5 +99,3 @@ async function fetchGitHubComments() {
       'Error loading comments';
   }
 }
-
-fetchGitHubComments();
