@@ -6,6 +6,7 @@
 .webassets-cache
 
 .direnv
+.envrc
 .ipynb_checkpoints/
 /dotfiles/emacs.d/elpa/
 
