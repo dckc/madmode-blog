@@ -9,3 +9,18 @@
 	log10 = log -n 10 --pretty=format:'%ad %h %s' --date='format:%Y-%m-%d %H:%M'
 [init]
 	defaultBranch = main
+[branch]
+	sort = -committerdate
+[column]
+	ui = auto
+[tag]
+	sort = version:refname
+[diff]
+	algorithm = histogram
+	colorMoved = plain
+	renames = true
+	mnemonicPrefix = true
+[fetch]
+	prune = true
+	pruneTags = true
+	all = true
