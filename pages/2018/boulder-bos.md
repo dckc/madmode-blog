@@ -29,8 +29,8 @@ slide is:
 > - Support for Formal Verification
 > - Integrated Economics with Network Architecture
 > - Scalability
->   - Down to transistors
->   - Up to the globe
+>     - Down to transistors
+>     - Up to the globe
 > - Visionary Leadership
 > - Cooperative Governance
 
