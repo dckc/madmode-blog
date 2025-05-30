@@ -1,6 +1,6 @@
 title: "Closet Librarian Approach to Cloud Services"
 date: 2021-12-18
-tags: ["cloud-services", "scm", "writing", "publishing", "IndieWeb"]
+tags: ["cloud-services", "scm", "writing", "publishing", "IndieWeb", "closet-librarian"]
 published: true
 summary: "I don't trust any cloud services. I keep my own copies."
 
