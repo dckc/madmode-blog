@@ -1,0 +1,54 @@
+#!/bin/bash
+set -e
+
+# Take paths from command line arguments
+# Usage: ./script_name.sh <source_repo_full_path> <target_repo_full_path> <desired_subdir_name_in_target>
+if [ "$#" -ne 3 ]; then
+    echo "Usage: $0 <source_repo_full_path> <target_repo_full_path> <desired_subdir_name_in_target>"
+    echo "Example: $0 ~/projects/office-admin/dadscontacts ~/fin/jwc dadscontacts"
+    exit 1
+fi
+
+source_repo_full_path="$1"
+target_repo_full_path="$2"
+desired_subdir_name="$3"
+
+echo "Moving repository '$source_repo_full_path' into '$target_repo_full_path/$desired_subdir_name'."
+
+# --- Part 1: Prepare the target repository ---
+echo "Navigating to target repository: $target_repo_full_path"
+cd "$target_repo_full_path"
+
+# Add the source repository as a temporary remote
+temp_remote_name="temp_dadscontacts_repo"
+echo "Adding '$source_repo_full_path' as a temporary remote '$temp_remote_name'..."
+git remote add "$temp_remote_name" "$source_repo_full_path"
+
+# Fetch all history from the temporary remote
+echo "Fetching history from '$temp_remote_name'..."
+git fetch "$temp_remote_name"
+
+# --- Part 2: Merge the source repo's history into a subdirectory ---
+echo "Merging history of '$temp_remote_name/main' into '$desired_subdir_name'..."
+# Create a new branch 'temp_merge_branch' starting from the remote's main branch
+git branch "temp_merge_branch" "$temp_remote_name/main"
+
+# Create the subdirectory in the target repo
+mkdir -p "$desired_subdir_name"
+
+# Read the tree of the remote branch into the new subdirectory
+# This brings the files from the remote's history into the specified subdirectory
+git read-tree --prefix="$desired_subdir_name/" -u "temp_merge_branch"
+
+# Commit the merge. This creates a new commit in the target repo's history
+# that incorporates the entire history of the source repo into the subdirectory.
+git commit -m "Merge repository '$source_repo_full_path' as '$desired_subdir_name'"
+
+# --- Part 3: Clean up ---
+echo "Cleaning up temporary remote and branch..."
+git remote remove "$temp_remote_name"
+git branch -D "temp_merge_branch" || echo "Warning: Could not delete temporary branch 'temp_merge_branch'."
+
+echo "Repository move complete. '$source_repo_full_path' is now integrated into '$target_repo_full_path/$desired_subdir_name'."
+echo "The original repository at '$source_repo_full_path' remains untouched."
+echo "You can now optionally delete the original repository directory: rm -rf \"$source_repo_full_path\""
