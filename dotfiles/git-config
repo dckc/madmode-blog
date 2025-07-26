@@ -7,6 +7,7 @@
 
 [alias]
 	log10 = log -n 10 --pretty=format:'%ad %h %s' --date='format:%Y-%m-%d %H:%M'
+        modcommit = "!git add \"$1\" && GIT_AUTHOR_DATE=\"$(date -Iseconds -r \"$1\")\" git commit -m \"WIP: $1\""
 [init]
 	defaultBranch = main
 [branch]
