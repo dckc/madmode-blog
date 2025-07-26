@@ -1,6 +1,6 @@
 date: 2013-05-04
 published: true
-tags: [scm]
+tags: [scm, integrity]
 title: Preserving file modification dates in mercurial
 
 Sometimes I come back to a file I worked on and I wish I would have
@@ -16,3 +16,12 @@ Yes: the gnu `date` command and `hg` both support RFC822 date format:
     hg commit -d"`date --rfc-822 --reference=xyz`" xyz
 
 Note the ""s around the ``s. Ah, the joys of shell quoting.
+
+----
+
+p.s. git equivalent:
+
+```
+[alias]
+        modcommit = "!git add \"$1\" && GIT_AUTHOR_DATE=\"$(date -Iseconds -r \"$1\")\" git commit -m \"WIP: $1\""
+```
