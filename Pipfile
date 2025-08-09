@@ -19,3 +19,4 @@ flask-markdown = "~=0.3"
 flask-assets = "~=2.0"
 pillow = "~=11.0"
 cssmin = "*"
+pagefind = {extras = ["extended"], version = "*"}

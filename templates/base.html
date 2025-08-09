@@ -24,24 +24,24 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 </head>
 <body class="{% block body_class %}{% endblock body_class %}">
     <!--[if lt IE 7]>
     <p class="chromeframe">Your browser is <em>ancient!</em> Please <a href="http://www.quirksmode.org/upgrade.html">upgrade</a>.</p>
     <![endif]-->
 
-<form method="get" id="search" action="https://duckduckgo.com/" style="float:right">
-  <input type="hidden" name="sites" value="madmode.com" />
-  <input type="hidden" name="k8" value="#444444" />
-  <input type="hidden" name="k9" value="#D51920" />
-  <input type="hidden" name="kt" value="h" />
-  <input type="text" name="q" maxlength="255" placeholder="Search&hellip;" />
-  <input type="submit" value="DuckDuckGo Search" style="visibility: hidden" />
-</form>
+<script src="/pagefind/pagefind-ui.js"></script>
+<div id="search" style="float:right"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+    });
+</script>
 
      <div class="container">
         <header class="main-title">
-            <h1><a href="{{ url_for('index') }}">MadMode</a></h1>
+            <h2><a href="{{ url_for('index') }}">MadMode</a></h2>
             <small>Dan Connolly's tinkering lab notebook</small>
         </header>
         <div class="contents">
