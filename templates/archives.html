@@ -1,9 +1,9 @@
 {% extends "code/base.html" %}
 
-{% block contents %}
-<h2>Code | {{ year }}</h2>
+{% block page_title %}{{ year or tag }}{% endblock page_title %}
 
-<p>All posts published during {{ year}}.</p>
+{% block contents %}
+<h2>{{ year or tag }}</h2>
 
 {% include "_list.html" %}
 
