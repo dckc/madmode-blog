@@ -1,0 +1,6 @@
+# netlify configuration
+# https://docs.netlify.com/build/configure-builds/file-based-configuration/
+[build]
+  command = "type -p python && python ./site build && python -m pagefind --site build"
+  publish = "build"
+
