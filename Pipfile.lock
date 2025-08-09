@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8597d4597ee4870e5349e37e342b44239b20d149db154cc8b1662981c149e750"
+            "sha256": "3e79a3d7418b4fad436d20d374a57f0d08558ab9ea60a73b57cccd5393e2f21f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -170,6 +170,27 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==3.0.2"
+        },
+        "pagefind": {
+            "extras": [
+                "extended"
+            ],
+            "hashes": [
+                "sha256:50b324f1652c558e186a6c35608f7bfaba7b544f289a6514c3be4f3a20b02f52",
+                "sha256:9fab97ffa9a142ffb02fbaa57bc03394f0a9833913f24e60477aa90980646d9c"
+            ],
+            "markers": "python_version >= '3.9'",
+            "version": "==1.3.0"
+        },
+        "pagefind-bin-extended": {
+            "hashes": [
+                "sha256:3852442a282bdd70d5df608a88c4bd4e57ba4c61bd549a34d75266ac9ffa6999",
+                "sha256:69630e12a39d81016e6397fd9ce410c5bd75d12587d637d783270da01f094d2e",
+                "sha256:ab0b764556b69e222b71f3acd8cace4e0ea6cf03e50a231ef0e2b77280ef0424",
+                "sha256:f001dbdc897f2af58505a38724da89de90543738389aa06edacdff195f8c314e"
+            ],
+            "markers": "python_version ~= '3.9'",
+            "version": "==1.3.0"
         },
         "pillow": {
             "hashes": [
