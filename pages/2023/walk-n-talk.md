@@ -27,7 +27,7 @@ you that there's nothing like being there:
  - [Jitsi Meet](https://meet.jit.si/): based on open tech.
    Also reliable in my experience. The main drawback is that recording
 isn't as well integrated.
- - Discord void: disappointing, especially since
+ - Discord voice: disappointing, especially since
 I gather the reason it was created was to provide a voice
 side-channel for gaming.
 
