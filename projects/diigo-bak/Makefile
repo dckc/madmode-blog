@@ -14,7 +14,7 @@ diigo-bookmarks.ndjson: diigo-bookmarks.json
 
 diigo-bookmarks.json: time-ref bkmkeep.py
 	PASSWORD=$$($(SECRET_TOOL) lookup service diigo.com username $(DIIGO_USERNAME)) \
-	python2 bkmkeep.py \
+	python3 bkmkeep.py \
 		$(DIIGO_USERNAME) PASSWORD DIIGO_API_KEY >$@
 
 time-ref:
@@ -24,4 +24,4 @@ time-reset:
 	rm time-ref
 
 install-deps:
-	sudo apt install python2 jq libsecret-tools
+	sudo apt install python3 jq libsecret-tools

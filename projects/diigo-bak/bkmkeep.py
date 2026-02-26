@@ -2,13 +2,10 @@ from functools import partial
 from socket import timeout as socket_timeout
 from sys import stderr
 from time import sleep
-from urlparse import urljoin
-from urllib import urlencode
+from urllib.parse import urlencode, urljoin
 import json
-from urllib2 import (HTTPError,
-                     HTTPPasswordMgrWithDefaultRealm,
-                     URLError,
-                     HTTPBasicAuthHandler)
+from urllib.error import HTTPError, URLError
+from urllib.request import HTTPBasicAuthHandler, HTTPPasswordMgrWithDefaultRealm
 
 
 def main(argv, stdout, environ, build_opener):
@@ -28,7 +25,7 @@ def main(argv, stdout, environ, build_opener):
     start = 0
     count = 100
     while True:
-        print >>stderr, dict(start=start, count=count)
+        print(dict(start=start, count=count), file=stderr)
         it = with_retries(lambda: kb.bookmarks(
             sort=KB.updated_at, start=start, count=count),
             max_retries=max_retries,
@@ -84,6 +81,9 @@ class WebPath(object):
     def __div__(self, other):
         return self.pathjoin(other)
 
+    def __truediv__(self, other):
+        return self.pathjoin(other)
+
     def __and__(self, other):
         return self.query(other)
 
@@ -97,9 +97,10 @@ def with_retries(action, max_retries=5, base_delay=1, max_delay=60):
             if not is_retryable(err):
                 raise
             if attempt >= max_retries:
-                print >>stderr, dict(event='retry_exhausted',
-                                     attempts=attempt + 1,
-                                     error=repr(err))
+                print(dict(event='retry_exhausted',
+                           attempts=attempt + 1,
+                           error=repr(err)),
+                      file=stderr)
                 raise
 
             delay = min(max_delay, base_delay * (2 ** attempt))
@@ -107,10 +108,11 @@ def with_retries(action, max_retries=5, base_delay=1, max_delay=60):
             if retry_after is not None:
                 delay = max(delay, retry_after)
 
-            print >>stderr, dict(event='retry',
-                                 attempt=attempt + 1,
-                                 sleep_seconds=delay,
-                                 error=repr(err))
+            print(dict(event='retry',
+                       attempt=attempt + 1,
+                       sleep_seconds=delay,
+                       error=repr(err)),
+                  file=stderr)
             sleep(delay)
             attempt += 1
 
@@ -141,7 +143,7 @@ if __name__ == '__main__':
     def _script():
         from os import environ
         from sys import argv, stdout
-        from urllib2 import build_opener
+        from urllib.request import build_opener
 
         main(argv=argv[:], stdout=stdout,
              environ=environ,
