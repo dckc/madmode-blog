@@ -1,4 +1,9 @@
 # use .envrc to set DIIGO_USERNAME, DIIGO_API_KEY
+# optional retry tuning:
+# DIIGO_REQUEST_TIMEOUT_SECONDS=15
+# DIIGO_MAX_RETRIES=5
+# DIIGO_RETRY_BASE_DELAY_SECONDS=1
+# DIIGO_RETRY_MAX_DELAY_SECONDS=60
 SECRET_TOOL=secret-tool
 
 diigo-bookmarks-shared.ndjson: diigo-bookmarks.ndjson
