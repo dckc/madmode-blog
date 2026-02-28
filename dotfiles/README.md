@@ -42,3 +42,10 @@ But Agoric is also the first place since Convex in the '90s
 where I've done C development:
 
  - 2021-01-26 15:33 88f75f5 Moddable SDK C style settings
+
+Lately I have been adding Caja right-click actions for little one-file
+workflows (PDF text extraction, Discover CSV to OFX, notebook conversion).
+The GUI launch context is exactly where PATH/venv/direnv assumptions break,
+so using `uvx` for python tooling keeps those actions self-contained.
+
+ - 2026-02-28 (WIP) caja-actions: notebook conversion via uvx

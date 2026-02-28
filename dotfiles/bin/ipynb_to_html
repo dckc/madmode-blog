@@ -1,0 +1,35 @@
+#!/bin/bash
+set -euo pipefail
+
+notify_err() {
+  local msg="$1"
+  if command -v notify-send >/dev/null 2>&1; then
+    notify-send -u critical "Notebook Export" "$msg" >/dev/null 2>&1 || true
+  fi
+  echo "$msg" >&2
+}
+
+file="${1:-}"
+if [[ -z "$file" ]]; then
+  notify_err "No file selected."
+  exit 2
+fi
+if [[ ! -f "$file" ]]; then
+  notify_err "File not found: $file"
+  exit 2
+fi
+if [[ "$file" != *.ipynb ]]; then
+  notify_err "Expected a .ipynb file: $file"
+  exit 2
+fi
+if ! command -v uvx >/dev/null 2>&1; then
+  notify_err "uvx not found on PATH."
+  exit 2
+fi
+
+if ! uvx --from nbconvert jupyter-nbconvert --to html "$file"; then
+  notify_err "Failed to export HTML for: $file"
+  exit 1
+fi
+
+exit 0

@@ -1,0 +1,14 @@
+# mate desktop - Add custom menu action to Caja file manager
+# https://unix.stackexchange.com/questions/430705/add-custom-menu-action-to-caja-file-manager
+# https://unix.stackexchange.com/a/430706
+[Desktop Entry]
+Type=Action
+Tooltip=Sync notebook with paired .py via jupytext (uvx)
+Name=Notebook Sync with .py
+Profiles=profile-zero;
+Icon=xed
+
+[X-Action-Profile profile-zero]
+MimeTypes=application/x-ipynb+json;
+Exec=bash -c '$HOME/projects/madmode-blog/dotfiles/bin/ipynb_sync_py "$1" 2>>"$HOME/.xsession-errors"' _ %f
+Name=Notebook Sync with .py
