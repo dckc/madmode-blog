@@ -1,0 +1,114 @@
+---
+title: September 2014 Bookmarks: security, apple, and python
+date: 2014-09-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "bitcoin", "capabilities", "dca", "diy", "health", "internet", "linux", "math", "netneutrality", "paper", "privacy", "programming", "python", "research", "security", "sysadmin", "w3c"]
+---
+
+Shared bookmarks saved in September 2014.
+
+- total bookmarks: 100
+- total annotations captured: 30
+
+## Links
+
+- 2014-09-30: [Announcing Clasp | drmeister](http://drmeister.wordpress.com/2014/09/18/announcing-clasp/)  _(tags: no_tag)_
+- 2014-09-29: [Best Sellers - The New York Times](http://www.nytimes.com/best-sellers-books/2014-09-28/hardcover-nonfiction/list.html)  _(tags: tweet)_
+- 2014-09-29: [Progress Report: Continued Product Focus | Yahoo](http://yahoo.tumblr.com/post/98474044364/progress-report-continued-product-focus)  _(tags: tweet)_
+- 2014-09-29: [195 drought maps reveal just how thirsty california has become - LA Times](http://www.latimes.com/science/la-me-g-california-drought-map-htmlstory.html)  _(tags: tweet)_
+- 2014-09-29: [Xen Security Advisories](http://xenbits.xen.org/xsa/)  _(tags: xsa108, tweet)_
+- 2014-09-29: [Is The Internet On Fire?](http://istheinternetonfire.com)  _(tags: tweet)_
+- 2014-09-29: [lcamtuf's blog: Quick notes about the bash bug, its impact, and the fixes so far](http://lcamtuf.blogspot.com/2014/09/quick-notes-about-bash-bug-its-impact.html)  _(tags: tweet)_
+- 2014-09-29: [University of Kansas Alzheimer's Disease Center](http://www.kualzheimer.org)  _(tags: kudifference, tweet)_
+- 2014-09-29: [Fast Monkeys – Official Blog | Building companies from &quot;zero to hero&quot;](http://blog.fastmonkeys.com/?utm_content=bufferc2d6e&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2014-09-29: [Announcing the New BitPay API | The BitPay Blog](http://blog.bitpay.com/2014/09/18/announcing-the-new-bitpay-api.html?utm_content=buffer053df&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: bitcoin, tweet)_
+- 2014-09-29: [I just enrolled in the  study. Love the visual des](https://www.health-eheartstudy.org/pledge)  _(tags: tweet)_
+- 2014-09-29: [Mozilla Foundation License Policy](https://www.mozilla.org/MPL/license-policy.html)  _(tags: cc0, tweet)_
+- 2014-09-29: [Another Patent Troll Slain. You Are Now Free To Rotate Your Smartphone.](http://www.rackspace.com/blog/another-patent-troll-slain-you-are-now-free-to-rotate-your-smartphone/)  _(tags: tweet)_
+- 2014-09-29: [Structural limitations of learning in a crowd: com](http://t.co/Z8SQCLwPxV)  _(tags: paper, tweet)_
+- 2014-09-29: [iOS 8 and iPhone 6 for web developers and designers: next evolution for Safari and native webapps | Breaking the Mobile Web](http://www.mobilexweb.com/blog/safari-ios8-iphone6-web-developers-designers)  _(tags: tweet)_
+- 2014-09-29: [Press release archive: About NPG](http://www.nature.com/press_releases/ncomms-oa.html)  _(tags: tweet)_
+- 2014-09-29: [Oklahoma Joe's Bar-B-Que Announces D.C. Area Expansion: DCist](http://dcist.com/2014/09/oklahoma_joes.php)  _(tags: tweet)_
+- 2014-09-29: [Why Guido van Rossum supports the Ada Initiative, wears a "Python is for girls" shirt, and answered questions from only women at PyCon 2014 | Ada Initiative](https://adainitiative.org/2014/09/why-guido-van-rossum-supports-the-ada-initiative-wears-a-python-is-for-girls-shirt-and-answered-questions-from-only-women-at-pycon-2014/)  _(tags: tweet)_
+- 2014-09-29: [You Can&#039;t Just Hack Your Way to Social Change - Jake Porway - Harvard Business Review](http://blogs.hbr.org/2013/03/you-cant-just-hack-your-way-to/)  _(tags: tweet)_
+- 2014-09-29: [A simple explanation of how Apple Pay works (probably): It&#8217;s all about tokenization | Richard Gendal Brown](http://gendal.wordpress.com/2014/09/10/a-simple-explanation-of-how-apple-pay-works-probably-its-all-about-tokenization/)  _(tags: tweet)_
+- 2014-09-29: [Against Sharing | Jacobin](https://www.jacobinmag.com/2014/09/against-sharing/)  _(tags: tweet)_
+- 2014-09-29: [&quot;PureScript (Maybe This Time We Get JavaScript Right)&quot; by Bodil Stokke - YouTube](https://www.youtube.com/watch?v=yIlDBPiMb0o)  _(tags: tweet)_
+- 2014-09-29: [Ancient d20 die emerges from the ashes of time - CNET](http://www.cnet.com/news/ancient-d20-die-emerges-from-the-ashes-of-time/)  _(tags: tweet)_
+- 2014-09-29: [kazuho/h2o · GitHub](https://github.com/kazuho/h2o)  _(tags: http2, tweet)_
+- 2014-09-29: [Bill Introduced in Congress to Let You Actually Own Things, Even if They Contain Software | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2014/09/bill-introduced-congress-let-you-actually-own-things-even-if-they-contain-software)  _(tags: tweet)_
+- 2014-09-29: [Sure. It’s on page 7, near the top.](http://images.apple.com/privacy/docs/iOS_Security_Guide_Sept_2014.pdf)  _(tags: tweet)_
+- 2014-09-29: [Apple&#8217;s &#8220;warrant canary&#8221; disappears, suggesting new Patriot Act demands &mdash; Tech News and Analysis](https://gigaom.com/2014/09/18/apples-warrant-canary-disappears-suggesting-new-patriot-act-demands/)  _(tags: tweet)_
+- 2014-09-29: [Apple - Privacy](http://www.apple.com/privacy/)  _(tags: tweet)_
+- 2014-09-29: [About the security content of OS X Mavericks v10.9.5 and Security Update 2014-004](http://support.apple.com/kb/ht6443)  _(tags: tweet)_
+- 2014-09-29: [Ultimate Chocolate Chip Cookies - Handle the Heat](http://www.handletheheat.com/ultimate-chocolate-chip-cookies)  _(tags: tweet)_
+- 2014-09-29: [Aaaaand, another high-privacy communication client](http://t.co/TB1gbf1Mcw)  _(tags: tweet)_
+- 2014-09-28: [Misfit launches Flash, a less expensive, plastic activity and sleep tracker | mobihealthnews](http://mobihealthnews.com/36588/misfit-launches-flash-a-less-expensive-plastic-activity-and-sleep-tracker/)  _(tags: mhealth, tweet)_
+- 2014-09-28: [The Mathematics of Ebola Trigger Stark Warnings: Act Now or Regret It | WIRED](http://www.wired.com/2014/09/r0-ebola/)  _(tags: tweet)_
+- 2014-09-28: [13Ditching Twitter | bIncisive.nu5b](http://incisive.nu/2014/ditching-twitter/?utm_source=digg)  _(tags: tweet)_
+- 2014-09-28: [BBC Horizon 2014-2015 Episode 4: Inside the Dark Web - YouTube](https://www.youtube.com/watch?v=fTjNkbLBEqg)  _(tags: privacy, internet, tweet)_
+- 2014-09-28: [Shedding Light on the Foreign Intelligence Surveillance Court (FISC): Court Findings from Our 2007-2008 Case | Yahoo Global Public Policy](http://yahoopolicy.tumblr.com/post/97238899258/shedding-light-on-the-foreign-intelligence-surveillance)  _(tags: yahoo, tweet)_
+- 2014-09-28: [ImperialViolet - A couple more formal systems](https://www.imperialviolet.org/2014/09/11/moveprovers.html)  _(tags: tweet)_
+- 2014-09-28: [Web Cryptography Next Steps: Authentication, Hardware Tokens and Beyond](http://www.w3.org/2012/webcrypto/webcrypto-next-workshop/Overview.html)  _(tags: w3c, cryptonext, tweet)_
+- 2014-09-28: [Coursera.org](https://www.coursera.org/course/audio)  _(tags: tweet)_
+- 2014-09-28: [Haskell for all: Streaming logging](http://www.haskellforall.com/2014/02/streaming-logging.html)  _(tags: tweet)_
+- 2014-09-28: [A console version of the game 2048 implemented in](https://dl.dropboxusercontent.com/u/1975915/2048.rs)  _(tags: tweet)_
+- 2014-09-28: [BBC News - How do you insult someone legally?](http://www.bbc.co.uk/news/magazine-18102815)  _(tags: tweet)_
+- 2014-09-27: [Butterick’s Practical Typography](http://practicaltypography.com/economics-year-one.html)  _(tags: no_tag)_
+- 2014-09-26: [Shill: A Secure Shell Scripting Language](http://people.seas.harvard.edu/~chrdimo/)  _(tags: capabilities, security, research)_
+- 2014-09-26: [hyper - Rust](http://hyperium.github.io/hyper/hyper/index.html)  _(tags: no_tag)_
+- 2014-09-24: [Remote Exploit Vulnerability Found In Bash - Slashdot](http://linux.slashdot.org/story/14/09/24/1638207/remote-exploit-vulnerability-found-in-bash)  _(tags: linux, security, sysadmin)_
+- 2014-09-24: [William Edward Hammond II, PhD — DTMI](https://www.dtmi.duke.edu/directory/Hammo001)  _(tags: dca, pcornet)_
+- 2014-09-22: [Back by Popular Demand: Are You an Abstainer or a Moderator? &laquo;  The Happiness Project](http://www.gretchenrubin.com/happiness_project/2012/10/back-by-popular-demand-are-you-an-abstainer-or-a-moderator/)  _(tags: tweet, health, peace)_
+- 2014-09-22: [Consumers United for Evidence-based Healthcare (CUE)  | US Cochrane Center](http://us.cochrane.org/consumers-united-evidence-based-healthcare-cue-0)  _(tags: pcori, dca, health, research)_
+- 2014-09-20: ['03 Highlander P0135 Code - Toyota Nation Forum : Toyota Car and Truck Forums](http://www.toyotanation.com/forum/83-1st-generation-2001-2007/227107-03-highlander-p0135-code.html#/forumsite/20543/topics/227107)  _(tags: no_tag)_
+- 2014-09-17: [Bug #706011 “gpg --key-gen doesn't have enough entropy and rng-t...” : Bugs : “gnupg” package : Ubuntu](https://bugs.launchpad.net/ubuntu/+source/gnupg/+bug/706011)  _(tags: no_tag)_
+- 2014-09-16: [Kivy: Cross-platform Python Framework for NUI Development](http://kivy.org/#aboutus)  _(tags: no_tag)_
+- 2014-09-16: [Kivy: Cross-platform Python Framework for NUI Development](http://kivy.org/#home)  _(tags: no_tag)_
+- 2014-09-16: [virtualenv Lives! — Hynek Schlawack](https://hynek.me/articles/virtualenv-lives/)  _(tags: no_tag)_
+- 2014-09-16: [Any web devs here made the using PhoneGap or Iconic to port over their application to mobile devices? Can you share your experience? : webdev](http://www.reddit.com/r/webdev/comments/2gggio/any_web_devs_here_made_the_using_phonegap_or/)  _(tags: no_tag)_
+- 2014-09-16: [Why Is It Taking So Long to Secure Internet Routing? - ACM Queue](http://queue.acm.org/detail.cfm?ref=rss&id=2668966)  _(tags: security)_
+- 2014-09-16: [KaTeX – The fastest math typesetting library for the web](http://khan.github.io/KaTeX/)  _(tags: math, web)_
+- 2014-09-15: [GNU Wget - Bugs: bug #20421, wget: missing a check for Subject... [Savannah]](https://savannah.gnu.org/bugs/index.php?20421)  _(tags: web, security)_
+- 2014-09-13: [The Rust Guide](http://doc.rust-lang.org/guide.html)  _(tags: no_tag)_
+- 2014-09-13: [mattn/go-oci8](https://github.com/mattn/go-oci8)  _(tags: no_tag)_
+- 2014-09-13: [Downloads - The Go Programming Language](http://golang.org/dl/)  _(tags: no_tag)_
+- 2014-09-13: [PDF Annotation, Social Members for Anti-spam, and the New Pricing Plan lead to Diigo 6.0! | Diigo Blog](http://blog.diigo.com/2014/09/01/pdf-annotation-social-members-for-anti-spam-and-the-new-pricing-plan-lead-to-diigo-6-0/)  _(tags: no_tag)_
+- 2014-09-12: [jordansissel/fpm](https://github.com/jordansissel/fpm)  _(tags: no_tag)_
+- 2014-09-11: [dropbox/pyston](https://github.com/dropbox/pyston)  _(tags: no_tag)_
+- 2014-09-11: [scientific productivity - What productive academic work can you do with minimal attention in a small (<30 minutes) block of time? - Academia Stack Exchange](http://academia.stackexchange.com/questions/28336/what-productive-academic-work-can-you-do-with-minimal-attention-in-a-small-30)  _(tags: no_tag)_
+- 2014-09-10: [JAMA Network | JAMA | Reanalyses of Randomized Clinical Trial Data](http://jama.jamanetwork.com/article.aspx?articleID=1902230&utm_source=Silverchair+Information+Systems&utm_medium=email&utm_campaign=MASTER%3AJAMALatestIssueTOCNotification09%2F09%2F2014#.VA-gBY91vWE.twitter)  _(tags: tweet)_
+- 2014-09-10: [3D-printed vertebra successfully implanted for the first time - SlashGear](http://www.slashgear.com/3d-printed-vertebra-successfully-implanted-for-the-first-time-28343328/)  _(tags: tweet)_
+- 2014-09-10: [29](http://hajollyha.net/2004misc/2004misc-Pages/Image29.html)  _(tags: tweet)_
+- 2014-09-10: [AutoCorres : Automatic Specification Abstraction | SSRG | NICTA](http://ssrg.nicta.com.au/projects/TS/autocorres/)  _(tags: no_tag)_
+- 2014-09-10: [ImperialViolet - A shallow survey of formal methods for C code](https://www.imperialviolet.org/2014/09/07/provers.html)  _(tags: no_tag)_
+- 2014-09-10: [musl - Introduction](http://www.musl-libc.org/intro.html)  _(tags: no_tag)_
+- 2014-09-09: [Apple To Get Rebates From Issuers on Fees | PYMNTS.com](http://www.pymnts.com/in-depth/2014/apple-to-get-rebates-from-issuers-on-fees/#.VAmiv2RdVYA)  _(tags: tweet)_
+- 2014-09-09: [October 2015: The End of the Swipe-and-Sign Credit Card - Corporate Intelligence - WSJ](http://blogs.wsj.com/corporate-intelligence/2014/02/06/october-2015-the-end-of-the-swipe-and-sign-credit-card/)  _(tags: no_tag)_
+- 2014-09-09: [Why Twitter Should Not Algorithmically Curate the Timeline — The Message — Medium](https://medium.com/message/the-algorithm-giveth-but-it-also-taketh-b7efad92bc1f)  _(tags: tweet)_
+- 2014-09-09: [One Million Americans Want Corporations to Reveal](http://t.co/o7degEN9lj)  _(tags: tweet)_
+- 2014-09-09: [Netflix to Join 'Internet Slowdown' Protest Over Net Neutrality - NationalJournal.com](http://www.nationaljournal.com/tech/netflix-to-join-internet-slowdown-protest-over-net-neutrality-20140908)  _(tags: netneutrality, tweet)_
+- 2014-09-09: [Don&#8217;t Take Your Vitamins | FiveThirtyEight](http://fivethirtyeight.com/features/dont-take-your-vitamins/)  _(tags: tweet)_
+- 2014-09-09: [Views on Matlab from a google employee - a friend of a professor in my department. - Imgur](http://imgur.com/5zE08DX)  _(tags: python, oss, tweet)_
+- 2014-09-08: [What New York really says (and could say): #ZephyrTeachoutOneLastTime | Lessig Blog, v2](http://lessig.tumblr.com/post/96815186012/what-new-york-really-says-and-could-say)  _(tags: tweet)_
+- 2014-09-06: [QuasiLiterals](http://www.erights.org/elang/grammar/quasi-overview.html)  _(tags: no_tag)_
+- 2014-09-06: [haskell - How can I use GHCi with the new cabal 1.17 sandboxes? - Stack Overflow](http://stackoverflow.com/questions/17014270/how-can-i-use-ghci-with-the-new-cabal-1-17-sandboxes)  _(tags: no_tag)_
+- 2014-09-06: [[messaging] Modern anti-spam and E2E crypto](https://moderncrypto.org/mail-archive/messaging/2014/000780.html)  _(tags: tweet)_
+- 2014-09-06: [I've had 4 &quot;real&quot; programming jobs in my 5-year career. They've all ended the same way: innovation isn't allowed, new features are all emergencies, and development ends up the least of my responsibilities. : programming](http://www.reddit.com/r/programming/comments/9pqxk/ive_had_4_real_programming_jobs_in_my_5year/)  _(tags: programming)_
+- 2014-09-05: [Haskell - Nix Wiki](https://nixos.org/wiki/Haskell)  _(tags: no_tag)_
+- 2014-09-05: [lynda.com Article Center | WordPress 4.0: Improved Internationalization and UX](http://www.lynda.com/articles/wordpress-4-0?utm_content=buffer4d0dd&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2014-09-05: [Semantic Web and Schema.org](http://www.slideshare.net/rvguha/sem-tech2014c)  _(tags: tweet)_
+- 2014-09-04: [What’s a module system good for anyway? : Inside 206-105](http://blog.ezyang.com/2014/08/whats-a-module-system-good-for-anyway/)  _(tags: no_tag)_
+- 2014-09-04: [Not Safe For Not Working On | Dan Kaminsky&#039;s Blog](http://dankaminsky.com/2014/09/03/not-safe-for-not-working-on/)  _(tags: tweet)_
+- 2014-09-04: [The Feynman Lectures are now Online and Free](http://www.fromquarkstoquasars.com/the-feynman-lectures-are-now-online-and-free/)  _(tags: tweet)_
+- 2014-09-03: [The national anthem of Poland/ Hymn Polski/ Poland-Serbia/ Volleyball Men&#39;s World Championship 2014 - YouTube](https://www.youtube.com/watch?v=BPWz-HbPk_E&app=desktop)  _(tags: tweet)_
+- 2014-09-03: [Network.HTTP.Client](https://hackage.haskell.org/package/http-client-0.3.5/docs/Network-HTTP-Client.html#t:Manager)  _(tags: no_tag)_
+- 2014-09-03: [Calling JavaScript from Scala.js](http://www.scala-js.org/doc/calling-javascript.html)  _(tags: no_tag)_
+- 2014-09-02: [How can I install Python 2.6 on 12.04? - Ask Ubuntu](http://askubuntu.com/questions/125342/how-can-i-install-python-2-6-on-12-04)  _(tags: no_tag)_
+- 2014-09-02: [Revisiting How We Put Together Linux Systems](http://0pointer.net/blog/revisiting-how-we-put-together-linux-systems.html)  _(tags: tweet)_
+- 2014-09-02: [W3C Advisory Committee Elects Mark Nottingham to Technical Architecture Group | W3C News](http://www.w3.org/blog/news/archives/4043)  _(tags: tag, tweet)_
+- 2014-09-02: [Not Throwing Cold Water on a Cause | Mike Rowe](http://mikerowe.com/2014/08/not-throwing-cold-water-on-a-cause/)  _(tags: tweet)_
+- 2014-09-02: [Room 101: Taking it to Th&#8217;emacs](http://gbracha.blogspot.ca/2014/08/taking-it-to-themacs.html)  _(tags: tweet)_
+- 2014-09-02: [BBC News - Millions of historical images posted to Flickr](http://www.bbc.com/news/technology-28976849)  _(tags: tweet)_
+- 2014-09-02: [Apple - My Apple ID](https://idmsa.apple.com/IDMSWebAuth/login.html?appIdKey=af1139274f266b22b68c2a3e7ad932cb3c0bbe854e13a79af78dcc73136882c3&path=/signin/?referrer%3D/account/manage/security&sslEnabled=true)  _(tags: tweet)_
+- 2014-09-01: [Programming Instructions for the Genie GICT390 | eHow](http://www.ehow.com/how_7493064_programming-instructions-genie-gict390.html)  _(tags: diy)_

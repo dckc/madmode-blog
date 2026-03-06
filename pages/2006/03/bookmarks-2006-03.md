@@ -1,0 +1,113 @@
+---
+title: March 2006 Bookmarks: w3c, austin, and security
+date: 2006-03-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "accountability", "architecture", "audio", "austin", "authorization", "blog", "books", "bos", "calendar", "christmas", "collaboration", "data", "datamining", "debian", "design", "digital", "economics", "emacs", "event", "faith", "family", "games", "geo", "grddl", "hardware", "health", "identity", "ietf", "javascript", "kc", "linux", "media", "microformats", "missed", "movies", "nce", "owl", "parenting", "photo", "photos", "policy", "politics", "privacy", "programming", "publishing", "python", "quality", "rdf", "remote", "research", "scm", "security", "semantic", "shopping", "sparql", "sxsw", "sysadmin", "training", "travel", "trust", "uri", "w3c", "writing", "xhtml"]
+---
+
+Shared bookmarks saved in March 2006.
+
+- total bookmarks: 99
+- total annotations captured: 0
+
+## Links
+
+- 2006-03-31: [Medical Billing Advocates of America :: A Helping Hand in Healthcare for Your Medical Bills](http://www.billadvocates.com/index.html)  _(tags: quality, consumer, health)_
+- 2006-03-31: [Alex Barnett blog : My 6 predictions on microformats](http://blogs.msdn.com/alexbarn/archive/2006/03/25/560944.aspx)  _(tags: microformats, xhtml, w3c)_
+- 2006-03-31: [Epeus' epigone - Kevin Marks weblog](http://epeus.blogspot.com)  _(tags: digital, media, w3c)_
+- 2006-03-31: [Scobleizer - Microsoft Geek Blogger ‽ Second Life  is  an OS](http://scobleizer.wordpress.com/2006/03/27/second-life-is-an-os)  _(tags: games, w3c)_
+- 2006-03-31: [Sam Ruby:](http://www.intertwingly.net/blog/2006/03/28/plaintext)  _(tags: quality)_
+- 2006-03-31: [OpenGroup Federated Free/Busy Challenge](http://www.opengroup.org/messaging/challenges/fb-challenge.htm)  _(tags: calendar, w3c, ietf)_
+- 2006-03-31: [22-23 May 2006 CalConnect Interoperability Event -- The Calendaring and Scheduling Consortium](http://www.calconnect.org/iopmay2006.html)  _(tags: w3c, ietf, calendar, bos)_
+- 2006-03-31: [Calconnect Roundtable VI -- 22-25 May 2006](http://www.calconnect.org/roundtable6.html)  _(tags: calendar, w3c, ietf, microformats, bos, event)_
+- 2006-03-31: [Preview available of OpenDocument sample documents](http://mail.gnome.org/archives/gnome-office-list/2006-March/msg00001.html)  _(tags: quality, w3c)_
+- 2006-03-31: [OpenDocument Test Suite](http://netmoc.cpe.ucf.edu/Projects/OpenDocument/TestSuite.html)  _(tags: quality)_
+- 2006-03-31: [Amazon.com: Desire of the Everlasting Hills : The World Before and After Jesus: Books: Thomas Cahill,Brian F. O'Byrne](http://www.amazon.com/gp/product/055345661X/002-7658402-3547254?v=glance&n=283155)  _(tags: audio, books, ****)_
+- 2006-03-31: [XSL/XML Query WG meetings, 19-23 June](http://norman.walsh.name/2006/itinerary/06-19-xsl)  _(tags: microformats, xhtml, calendar, geo, w3c)_
+- 2006-03-30: [Debian Administration :: Remotely administering machines graphically, with VNC](http://www.debian-administration.org/articles/135)  _(tags: debian, linux, remote, collaboration, sysadmin)_
+- 2006-03-30: [x2v: changelog](http://hg.microformats.org/x2v)  _(tags: microformats, xhtml, quality)_
+- 2006-03-29: [paramiko: ssh2 protocol for python](http://www.lag.net/paramiko/)  _(tags: web, policy, security, python, programming)_
+- 2006-03-29: [Revelation](http://oss.codepoet.no/revelation)  _(tags: security, ui, policy, web, research)_
+- 2006-03-29: [The Hoopy Frood (The Hoopy Frood)](http://hoopyfrood.infogami.com)  _(tags: web, publishing)_
+- 2006-03-29: [paramiko.Agent](http://www.lag.net/paramiko/docs/private/paramiko.Agent-class.html)  _(tags: python, security, web, policy)_
+- 2006-03-27: [Dreamer: Inspired by a True Story - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Dreamer:_Inspired_by_a_True_Story)  _(tags: movies, family)_
+- 2006-03-26: [Google Groups : mozilla.dev.apps.firefox](http://groups.google.com/group/mozilla.dev.apps.firefox/browse_thread/thread/e6b47d5f7af7d77d/670a06e452b63b9d#670a06e452b63b9d)  _(tags: grddl, w3c, microformats, xhtml)_
+- 2006-03-25: [LinuxElectrons - Open Media Commons Releases Specifications and Source Code for DRM](http://www.linuxelectrons.com/article.php/20060322062359676)  _(tags: w3c, digital, media)_
+- 2006-03-24: [Logs for dix@rooms.jabber.ietf.org, 2006-03-21](http://www3.ietf.org/meetings/ietf-logs/dix@rooms.jabber.ietf.org/2006-03-21.html)  _(tags: security, w3c, ietf)_
+- 2006-03-24: [Amazon.com: Sony Cybershot DSCP200 7.2MP Digital Camera 3x Optical Zoom: Camera & Photo](http://www.amazon.com/gp/product/B0007CZ70Y/102-8544656-8546533?v=glance&n=502394)  _(tags: photo, shopping, kc, photos)_
+- 2006-03-24: [DontSpyOnUs :: What's in a PNR?](http://www.dontspyonus.com/pnr.html)  _(tags: travel, privacy, accountability, datamining, research)_
+- 2006-03-24: [ikiwiki features](http://ikiwiki.kitenet.net/features.html)  _(tags: scm, publishing, blog)_
+- 2006-03-23: [John Merrells, CTO, Sxip on Flickr - Photo Sharing!](http://www.flickr.com/photos/ericrice/64144198)  _(tags: w3c, security, web, architecture)_
+- 2006-03-23: [TAG dines at L'Ermitage du Riou (R) on Flickr - Photo Sharing!](http://www.flickr.com/photos/ndw/115943220/in/photostream)  _(tags: nce, w3c)_
+- 2006-03-23: [mnot’s Web log: Web Authentication](http://www.mnot.net/blog/2006/03/16/auth)  _(tags: web, architecture, secruity)_
+- 2006-03-21: [Media literacy - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Media_literacy)  _(tags: austin, media, training)_
+- 2006-03-21: [Recycled Knowledge: Powerpoint, headlines, and captions](http://recycledknowledge.blogspot.com/2005/08/powerpoint-headlines-and-captions.html)  _(tags: media, training)_
+- 2006-03-21: [JCCC::Journalism and Media Communications](http://jccc.edu/home/spotlight/journalism)  _(tags: media, training, kc)_
+- 2006-03-21: [microformats | weblog | Bill Gates at Mix06 - “We need microformats”](http://microformats.org/blog/2006/03/20/bill-gates-at-mix06-we-need-microformats/#comments)  _(tags: microformats, rdf, semantic, web, w3c, xhtml)_
+- 2006-03-21: [Labnotes ‽ Blog Archive ‽ The seven phases of dealing with microformats](http://blog.labnotes.org/2006/03/17/the-seven-phases-of-dealing-with-microformats/)  _(tags: microformats, xhtml, w3c)_
+- 2006-03-20: [Meta Content Framework : A Whitepaper](http://www.guha.com/mcf/wp.html)  _(tags: semantic, web, architecture)_
+- 2006-03-19: [The Natural Area Coding System](http://www.nacgeo.com/nacsite/documents/nac.asp)  _(tags: geo, w3c)_
+- 2006-03-19: [Tom Markiewicz ‽ SXSW: Designing the Next Generation of Web Apps](http://www.tmarkiewicz.com/sxsw-designing-the-next-generation-of-web-apps)  _(tags: sxsw, austin, w3c, web, architecture)_
+- 2006-03-19: [Mike Linksvayer ‽ SXSWi wrap](http://gondwanaland.com/mlog/2006/03/18/sxswi-wrap)  _(tags: sxsw, austin, w3c)_
+- 2006-03-18: [Jon Udell: An argument against standards](http://weblog.infoworld.com/udell/2006/03/13.html#a1404)  _(tags: w3c, quality)_
+- 2006-03-18: [Saint Patrick's Day - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/St._Patrick's_Day)  _(tags: family, parenting)_
+- 2006-03-17: [A look at emerging Web security architectures from a Semantic Web perspective | Decentralized Information Group (DIG) Breadcrumbs](http://dig.csail.mit.edu/breadcrumbs/node/97)  _(tags: w3c, ietf, security, authorization, quality, semantic)_
+- 2006-03-17: [A look at emerging Web security architectures from a Semantic Web perspective](http://www.w3.org/2006/03dc-aus-lga/swauth.html)  _(tags: w3c, ietf, web, architecture, security, authorization)_
+- 2006-03-17: [HTMLParser Home Page](http://htmlparser.sourceforge.net)  _(tags: quality, xhtml, w3c)_
+- 2006-03-17: [Yahoo! Maps Web Services - Geocoding API](http://developer.yahoo.net/maps/rest/V1/geocode.html)  _(tags: uri, w3c, semantic, web, architecture, geo)_
+- 2006-03-17: [Using Serialized PHP with Yahoo! Web Services](http://developer.yahoo.net/common/phpserial.html)  _(tags: programming, web)_
+- 2006-03-17: [American AAdvantage Miles blog](http://aadvantage.blogspot.com)  _(tags: travel, blog)_
+- 2006-03-17: [Wikipedia:WikiProject Airports - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Airports)  _(tags: semantic, web, geo)_
+- 2006-03-16: [Upgrading to TLS Within HTTP/1.1 Khare and Lawrence May 2000](http://www.ietf.org/rfc/rfc2817.txt)  _(tags: w3c, ietf, web, architecture, security)_
+- 2006-03-16: [dnspython home page](http://www.dnspython.org)  _(tags: w3c, ietf, python, security)_
+- 2006-03-16: [Jeffrey Altman's Home Page](http://www.columbia.edu/~jaltman)  _(tags: w3c, authorization, security, identity, web, architecture)_
+- 2006-03-16: [DIX BOF](http://www3.ietf.org/proceedings/06mar/agenda/dix.html)  _(tags: dfw, w3c, web, architecture, ietf, identity)_
+- 2006-03-16: [Michael B. Jones' Home Page](http://research.microsoft.com/~mbj)  _(tags: w3c, authorization, identity, security, web, architecture)_
+- 2006-03-16: [Identity Gang - The Identity Gang](http://www.identitygang.org)  _(tags: identity, w3c, web, architecture, security, authorization)_
+- 2006-03-16: [Kim Cameron’s Identity Weblog](http://www.identityblog.com/)  _(tags: w3c, ietf, identity, security, authorization)_
+- 2006-03-16: [Dallas, TX, USA - 65th IETF Meeting (March 19 - 24, 2006)](http://www.ietf.org/meetings/IETF-65.html)  _(tags: w3c, ietf, travel, dfw, event, identity)_
+- 2006-03-16: [Identity Woman » Yadis 1.0 is annouced.](http://www.kaliyasblogs.net/Iwoman/?p=285)  _(tags: w3c, web, architecture, security, identity, ietf)_
+- 2006-03-16: [Candidate Technologies IV: Identity / W3C Usability/Authentication Workshp](http://www.w3.org/2005/Security/usability-ws/program#id)  _(tags: w3c, identity, security)_
+- 2006-03-15: [Getting (dis)organized for SxSWi in Austin | Decentralized Information Group (DIG) Breadcrumbs](http://dig.csail.mit.edu/breadcrumbs/node/93)  _(tags: sxsw, austin, w3c, microformats, grddl, rdf)_
+- 2006-03-15: [bobdc.blog: Law metadata on the web](http://www.snee.com/bobdc.blog/2006/03/law_metadata_on_the_web.html)  _(tags: accountability, datamining, research, rdf, w3c, data)_
+- 2006-03-14: [What People Are Really Doing on the Web / south by southwest festivals + conferences](http://2006.sxsw.com/interactive/conference/panels/?action=show&id=IAP060064)  _(tags: sxsw, austin, missed)_
+- 2006-03-14: [Web 2.1: Making Web 2.0 Accessible /south by southwest festivals + conferences](http://2006.sxsw.com/interactive/programming/panels/?action=show&id=IAP060016)  _(tags: sxsw, austin, w3c, quality)_
+- 2006-03-14: [events/2006-03-13-sxsw-microformats - Microformats](http://microformats.org/wiki/events/2006-03-13-sxsw-microformats)  _(tags: sxsw, austin, microformats, geo)_
+- 2006-03-14: [Designing the Next Generation of Web Apps / south by southwest festivals + conferences](http://2006.sxsw.com/interactive/programming/panels/?action=show&id=IAP060004)  _(tags: sxsw, austin)_
+- 2006-03-14: [Keynote Conversation: Heather Armstrong / Jason Kottke / south by southwest festivals + conferences](http://2006.sxsw.com/interactive/programming/panels/?action=show&id=IAP060039)  _(tags: sxsw, austin)_
+- 2006-03-14: [Microformats: Evolving The Web / south by southwest festivals + conferences](http://2006.sxsw.com/interactive/conference/panels/?action=show&id=IAP060038)  _(tags: microformats, w3c, xhtml, sxsw, austin)_
+- 2006-03-14: [Serious Games for Learning / south by southwest festivals + conferences](http://2006.sxsw.com/interactive/conference/panels/?action=show&id=IAP060056)  _(tags: sxsw, austin, games, missed)_
+- 2006-03-14: [Wild Web Wrestling: Standardzilla vs Tabelella / south by southwest festivals + conferences](http://2006.sxsw.com/interactive/conference/panels/?action=show&id=IAP060017)  _(tags: sxsw, austin, quality, w3c, missed)_
+- 2006-03-14: [League of Technical Voters / south by southwest festivals + conferences](http://2006.sxsw.com/interactive/conference/panels/?action=show&id=IAP060076)  _(tags: sxsw, austin, politics)_
+- 2006-03-14: [How to Make the Most of Maps / south by southwest festivals + conferences](http://2006.sxsw.com/interactive/conference/panels/?action=show&id=IAP060021)  _(tags: sxsw, geo, javascript, austin)_
+- 2006-03-14: [WTF: WaSP Task Force Panel: Getting the Job Done Right / south by southwest festivals + conferences](http://2006.sxsw.com/interactive/programming/panels/?action=show&id=IAP060028)  _(tags: javascript, sxsw, quality, austin)_
+- 2006-03-14: [DOM Scripting Task Force » Manifesto](http://domscripting.webstandards.org/?page_id=2)  _(tags: javascript, quality, sxsw, austin)_
+- 2006-03-14: [Adactio Austin](http://austin.adactio.com)  _(tags: austin, microformats, geo, sxsw)_
+- 2006-03-14: [Welcome to Thundercloud Subs](http://www.thundercloud.com/home.html)  _(tags: austin, travel)_
+- 2006-03-12: [DIY book publishing (kottke.org)](http://www.kottke.org/06/03/diy-book-publishing)  _(tags: writing, publishing)_
+- 2006-03-10: [PhD Thesis: Cascading Style Sheets](http://people.opera.com/howcome/2006/phd/)  _(tags: toread, web, architecture, nce)_
+- 2006-03-09: [hackdiary: The Application of Weblike Design to Data: Designing Data for Reuse](http://www.hackdiary.com/archives/000079.html)  _(tags: w3c, web, architecture)_
+- 2006-03-09: [Win4Lin Announces Major Upgrade to 2000/XP Desktop Product -- 2/28/06 - Win4Lin](http://www.win4lin.com/content/view/198/202)  _(tags: sysadmin)_
+- 2006-03-09: [Home - Win4Lin](http://www.win4lin.com)  _(tags: sysadmin)_
+- 2006-03-08: [AllegroGraph](http://www.franz.com/products/allegrograph)  _(tags: sparql, owl, rdf, w3c, semantic, web)_
+- 2006-03-08: [The departure of the hyper-enthusiasts](http://www.artima.com/weblogs/viewpost.jsp?thread=141312)  _(tags: programming, python)_
+- 2006-03-08: [How to Time-stamp a Digital Document - Haber, -Scott (ResearchIndex)](http://citeseer.csail.mit.edu/haber91how.html)  _(tags: trust, research)_
+- 2006-03-08: [Dan Connolly in Austin, 1993-1995](http://dm93.org/1993/9303austin)  _(tags: austin)_
+- 2006-03-08: [Amazon.com: Customer Reviews: Hands On A Hard Body (1998)](http://www.amazon.com/exec/obidos/tg/stores/detail/-/video/B00000JYWY/customer-reviews/103-7138473-3275857)  _(tags: austin, movies, ***)_
+- 2006-03-08: [FoRK Archive: Re: [NYTimes] Austin, we have a problem](http://www.xent.com/aug00/0604.html)  _(tags: austin)_
+- 2006-03-08: [Curriculum Vitae for Dan Connolly](http://www.w3.org/People/Connolly/misc/vita)  _(tags: austin, w3c, programming, research)_
+- 2006-03-08: [hackdiary: Conferences 2006, Part II](http://www.hackdiary.com/archives/000078.html)  _(tags: austin)_
+- 2006-03-07: [The World Is Tilted - Issues 2006 - MSNBC.com](http://www.msnbc.msn.com/id/10206250/site/newsweek)  _(tags: economics, nce)_
+- 2006-03-07: [Amazon.com: HP LaserJet 1022 Printer (Q5912A#ABA): Electronics](http://www.amazon.com/gp/product/B0009EK5NE/ref=pd_sbs_e_1/102-1739023-2770524?_encoding=UTF8&v=glance&n=172282)  _(tags: hardware)_
+- 2006-03-06: [Google Maps API](http://www.pragmaticprogrammer.com/titles/sdgmapi)  _(tags: programming, publishing)_
+- 2006-03-06: [Plan B: Conan The Librarian](http://planb.nicecupoftea.org/archives/001311.html)  _(tags: todo, rdf, semantic, web)_
+- 2006-03-06: [Epydoc](http://epydoc.sourceforge.net)  _(tags: python, programming, quality)_
+- 2006-03-05: [SparqlCalendarDemo - ESW Wiki](http://esw.w3.org/topic/SparqlCalendarDemo)  _(tags: sparql, rdf, semantic, web, w3c, nce)_
+- 2006-03-05: [rst.el -- ReStructuredText Support for Emacs](http://furius.ca/pubcode/pub/conf/common/elisp/rst.el.html)  _(tags: emacs, programming, quality, python)_
+- 2006-03-05: [Amazon.com: Christ the Lord : Out of Egypt: Books: Anne Rice](http://www.amazon.com/gp/product/0375412018/sr=8-1/qid=1141380332/ref=pd_bbs_1/104-7831936-2445508?_encoding=UTF8)  _(tags: books, faith, nce, christmas, travel, bos)_
+- 2006-03-05: [miscoranda - List-Dictionary Hybrid](http://miscoranda.com/149)  _(tags: python)_
+- 2006-03-03: [bobdc.blog: Easy, professional-looking websites with open source CSS](http://www.snee.com/bobdc.blog/2006/03/easy_professionallooking_websi.html)  _(tags: web, design, xhtml)_
+- 2006-03-03: [Semantic MediaWiki Main Page - Wiki@OntoWorld](http://wiki.ontoworld.org/index.php/Main_Page)  _(tags: w3c, collaboration, nce, rdf, semantic, web)_
+- 2006-03-03: [iLBCfreeware.org Project Homepage](http://www.ilbcfreeware.org)  _(tags: digital, media)_
+- 2006-03-02: [Life Lint](http://www.lifelint.com/blog)  _(tags: rdf, calendar, w3c, semantic, web)_
+- 2006-03-01: [Google Code: Web Authoring Statistics](http://code.google.com/webstats/index.html)  _(tags: xhtml, w3c, nce)_

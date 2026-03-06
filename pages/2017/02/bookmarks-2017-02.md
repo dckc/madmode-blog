@@ -1,0 +1,108 @@
+---
+title: February 2017 Bookmarks: twitter, trump, and media
+date: 2017-02-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "a11y", "america", "capabilities", "data", "design", "digital", "finances", "funny", "health", "humor", "mac", "media", "politics", "programming", "python", "research", "retrocomputing", "rustlang", "ssh"]
+---
+
+Shared bookmarks saved in February 2017.
+
+- total bookmarks: 94
+- total annotations captured: 1
+
+## Links
+
+- 2017-02-26: [In December, Spicer said barring media access is what a &#8216;dictatorship&#8217; does. Today, he barred media access. - The Washington Post](https://www.washingtonpost.com/news/politics/wp/2017/02/24/in-december-spicer-said-barring-media-access-is-what-a-dictatorship-does-today-he-barred-media-access/?postshare=4461487971642629&tid=ss_tw)  _(tags: tweet)_
+- 2017-02-26: [In December, Spicer said barring media access is what a &#8216;dictatorship&#8217; does. Today, he barred media access. - The Washington Post](https://www.washingtonpost.com/news/politics/wp/2017/02/24/in-december-spicer-said-barring-media-access-is-what-a-dictatorship-does-today-he-barred-media-access/?postshare=1911487990012097&tid=ss_tw)  _(tags: tweet)_
+- 2017-02-26: [Bernie Sanders on Twitter: &quot;If you don’t have the guts to face your constituents, then you shouldn’t be in the United States Congress.&quot;](https://twitter.com/sensanders/status/835134406360715268)  _(tags: tweet)_
+- 2017-02-25: [FOSDEM 2017 - CloudABI for FreeBSD](https://fosdem.org/2017/schedule/event/cloud_abi/)  _(tags: no_tag)_
+- 2017-02-25: [Porting LevelDB to CloudABI](https://nuxi.nl/blog/2017/02/18/porting-leveldb-to-cloudabi.html)  _(tags: no_tag)_
+- 2017-02-22: [On the Milo Bus With the Lost Boys of America’s New Right](https://psmag.com/on-the-milo-bus-with-the-lost-boys-of-americas-new-right-629a77e87986?gi=db00281f783c)  _(tags: tweet)_
+- 2017-02-21: [Apple's new iTunes Terms & Conditions highlight Apple Music, Expose iCloud Music Library - The Mac Observer](http://www.macobserver.com/tmo/article/apples-new-itunes-terms-conditions-highlight-apple-music-expose-icloud-musi)  _(tags: mac, digital, media)_
+- 2017-02-19: [Call My Congress - KS - 3](https://www.callmycongress.com/KS-3)  _(tags: america, indivisible)_
+- 2017-02-19: [Simon Willison on Twitter: &quot;Command-line HTML parsing using CSS selectors (inspired by jq), built on top of Go&#39;s stdlib HTML5 parsing algorithm implementation https://t.co/29BBV8Ntgo&quot;](https://twitter.com/i/web/status/832969595967328257)  _(tags: tweet)_
+- 2017-02-18: [Informix Wingz - Wikipedia](https://en.wikipedia.org/wiki/Informix_Wingz)  _(tags: finances, mac)_
+- 2017-02-18: [/public/ftp/pub/Linux/apps/financial/spreadsheet](http://ibiblio.org/pub/linux/apps/financial/spreadsheet/!INDEX.html)  _(tags: finances, mac, retrocomputing)_
+- 2017-02-17: [kingsquare/docker-tunnel: a (simple) dockerized ssh tunnel](https://github.com/kingsquare/docker-tunnel)  _(tags: ssh, docker)_
+- 2017-02-16: [ReadWrite on Twitter: &quot;The “pollinator drone” might be the answer to the world’s bee problem.&#10;#iot #drones #tech&#10; https://t.co/5Q8i3C9sl9&quot;](https://twitter.com/rww/status/832034284563288066)  _(tags: tweet)_
+- 2017-02-16: [Do voter identification laws suppress minority voting? Yes. We did the research. - The Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/02/15/do-voter-identification-laws-suppress-minority-voting-yes-we-did-the-research/?postshare=9981487174946576&tid=ss_tw&utm_term=.62957c0f3360)  _(tags: tweet)_
+- 2017-02-15: [Amy Siskind on Twitter: &quot;1/23 Here are the House Republicans on the Ways and Means Committee who voted NOT to request Trump&#39;s tax returns from Treasury.&#10;The Chair https://t.co/nrHqzjjeIo&quot;](https://twitter.com/Amy_Siskind/status/831622411028221952)  _(tags: votethemout, tweet)_
+- 2017-02-15: [Search &amp; Browse | Open Data | The White House](https://open.whitehouse.gov/browse)  _(tags: tweet)_
+- 2017-02-14: [Indefensible: the W3C says companies should get to decide when and how security researchers reveal defects in browsers | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2017/02/indefensible-w3c-says-companies-should-get-decide-when-and-how-security)  _(tags: tweet)_
+- 2017-02-13: [The Top Mistakes Developers Make When Using Python for Big Data Analytics](https://www.airpair.com/python/posts/top-mistakes-python-big-data-analytics)  _(tags: no_tag)_
+- 2017-02-13: [Parallel Jobs in Luigi  - Bob Baxley](http://rjbaxley.com/posts/2016/03/13/parallel_jobs_in_luigi.html)  _(tags: data, python)_
+- 2017-02-13: [Plain HTML with a few bureaucratic gestures | Mark J. Nelson](http://www.kmjn.org/notes/modern_plain_html.html)  _(tags: design)_
+- 2017-02-13: [Steve Rothman on Twitter: &quot;@qz @markoff This guy&#39;s math is way off, he claims &quot;to read 200 books, simply spend 417 hours a year reading&quot; - that&#39;s two hours per book. I call BS.&quot;](https://twitter.com/i/web/status/830889010981695491)  _(tags: tweet)_
+- 2017-02-13: [Sleeping Giants on Twitter: &quot;CONFIRMED: Kansas City mall @CrownCenter has blocked Breitbart from their media buy!&quot;](https://twitter.com/slpng_giants/status/830802395634470912)  _(tags: tweet)_
+- 2017-02-13: [Adam Schiff on Twitter: &quot;If General Flynn secretly discussed with Russia undermining US sanctions, and misled American people, he can no longer serve. https://t.co/FdqhRL41Bw&quot;](https://twitter.com/i/web/status/830085997362835456)  _(tags: tweet)_
+- 2017-02-12: [Donald J. Trump on Twitter: &quot;Our legal system is broken! &quot;77% of refugees allowed into U.S. since travel reprieve hail from seven suspect countries.&quot; (WT)  SO DANGEROUS!&quot;](https://twitter.com/realDonaldTrump/status/830389130311921667)  _(tags: tweet)_
+- 2017-02-12: [Self-driving cars could help employ 2M people with disabilities: Study – Metro](http://www.metro.us//boston/self-driving-cars-could-help-employ-2m-people-with-disabilities-study/zsJqaq---b0D3WEfA6d3h6/)  _(tags: a11y, tweet)_
+- 2017-02-12: [IOS Press](http://www.iospress.nl/journal/translational-science-of-rare-diseases/)  _(tags: tweet)_
+- 2017-02-12: [Andrew Sullivan: The Madness of King Donald](http://nymag.com/daily/intelligencer/2017/02/andrew-sullivan-the-madness-of-king-donald.html)  _(tags: tweet)_
+- 2017-02-12: [Voter fraud isn't the problem — voter suppression is. Meet the man who wants to solve it.](http://www.upworthy.com/voter-fraud-isnt-the-problem-voter-suppression-is-meet-the-man-who-wants-to-solve-it)  _(tags: letamericavote, tweet)_
+- 2017-02-12: [Ryan Merkley on Twitter: &quot;Happy Birthday to @Flickr, the largest single archive of @creativecommons licensed works - over 350 million! https://t.co/AdH67TAw7L https://t.co/qIuHvBsaqf&quot;](https://twitter.com/i/web/status/830139585560735744)  _(tags: tweet)_
+- 2017-02-12: [EMACSPEAK  The Complete Audio Desktop: Audio Deja Vu: Audio Formatted Math On The Emacspeak Desktop](https://emacspeak.blogspot.com/2017/02/audio-deja-vu-audio-formatted-math-on.html)  _(tags: emacspeak, tweet)_
+- 2017-02-12: [Twitter](https://mobile.twitter.com/DavidCornDC/status/830100637073469440)  _(tags: natsec, tweet)_
+- 2017-02-12: [PublicPolicyPolling on Twitter: &quot;By 51/23 margin, Trump voters say the Bowling Green Massacre shows why his Executive Order on immigration is needed: https://t.co/SY2MAfuuiA&quot;](https://twitter.com/ppppolls/status/830054159885934593)  _(tags: tweet)_
+- 2017-02-12: [New open access journal for rare diseases!  More](http://www.iospress.nl/wp-content/uploads/2016/12/TRD_flyer_web.pdf)  _(tags: tweet)_
+- 2017-02-12: [Nicholas Thompson on Twitter: &quot;The WaPo has nine sources here that Flynn either lied or had Pence lie for him. https://t.co/zK8hnlA1GI&quot;](https://twitter.com/nxthompson/status/829890161530044416)  _(tags: tweet)_
+- 2017-02-12: [Ben Bland 白杰明 on Twitter: &quot;Trump has now called Xi and promised to respect &quot;One China&quot; formulation-@Dimi scoop https://t.co/43X92lb5mW&quot;](https://twitter.com/benjaminbland/status/829898504948506624)  _(tags: tweet)_
+- 2017-02-12: [21 Wonderfully Stupid Life Hacks &#8211; Pleated-Jeans.com](http://pleated-jeans.com/2017/02/09/21-wonderfully-stupid-life-hacks/)  _(tags: tweet)_
+- 2017-02-12: [Yael T. Abouhalkah on Twitter: &quot;Reminder: Inept &amp; reckless Kris Kobach said last week Trump was on &quot;rock solid legal footing&quot; on travel ban.&#10;https://t.co/kf2AwqK971 https://t.co/Empui21t1T&quot;](https://twitter.com/i/web/status/829832442043310090)  _(tags: tweet)_
+- 2017-02-12: [Kansas Basketball on Twitter: &quot;](https://twitter.com/i/web/status/829856663154810880)  _(tags: tweet)_
+- 2017-02-12: [Donald J. Trump on Twitter: &quot;SEE YOU IN COURT, THE SECURITY OF OUR NATION IS AT STAKE!&quot;](https://twitter.com/realdonaldtrump/status/829836231802515457)  _(tags: tweet)_
+- 2017-02-12: [SwiftOnSecurity](https://twitter.com/i/web/status/829803419082825730)  _(tags: tweet)_
+- 2017-02-11: [Oversight Committee on Twitter: &quot;Chairman Chaffetz &amp; Rep. Cummings letter to OGE regarding Kellyanne Conway&#39;s endorsement of Ivanka Trump&#39;s product line ↓ https://t.co/JUF37OkRU5&quot;](https://twitter.com/i/web/status/829819360009125889)  _(tags: tweet)_
+- 2017-02-11: [orri - Metamath Proof Explorer](http://us2.metamath.org:88/mpegif/orri.html)  _(tags: no_tag)_
+- 2017-02-10: [montag on Twitter: &quot;Right-Wing Extremists Are a Bigger Threat to America Than ISIS https://t.co/bRjYKch0He&quot;](https://twitter.com/buffaloon/status/828759309936885761)  _(tags: tweet)_
+- 2017-02-10: [Caroline O. on Twitter: &quot;This actually happened-&gt; House Republicans just voted to get rid of the agency that protects our voting machines.&#10;https://t.co/KDaGFYX5HB https://t.co/Sx0zJqxkGG&quot;](https://twitter.com/i/web/status/829053410104193024)  _(tags: tweet)_
+- 2017-02-09: [Introducing Keybase Chat](https://keybase.io/blog/keybase-chat)  _(tags: tweet)_
+- 2017-02-08: [Some notes on the worst-case scenario. We are look](https://www.jwz.org/blog/2017/02/some-notes-on-the-worst-case-scenario/)  _(tags: tweet)_
+- 2017-02-08: [Make: a $5 ACLU-donation Dash button you can press every time Trump makes you angry / Boing Boing](http://boingboing.net/2017/02/07/make-a-5-aclu-donation-dash.html)  _(tags: tweet)_
+- 2017-02-08: [Boing Boing on Twitter: &quot;Make: a $5 ACLU-donation Dash button you can press every time Trump makes you angry https://t.co/LaDKnCF8mH https://t.co/oxEmUcAXGu&quot;](https://twitter.com/BoingBoing/status/829017708385751044)  _(tags: tweet)_
+- 2017-02-08: [Web servers can detect when their HTTPS connection](https://t.co/0xtCa0rQVa)  _(tags: tweet)_
+- 2017-02-07: [Why We're Calling for Congress to Impeach Donald Trump | Time.com](http://time.com/4658633/impeach-donald-trump-congress/)  _(tags: no_tag)_
+- 2017-02-07: [Email Privacy One Step Closer to Reality | Center for Democracy &amp; Technology](https://cdt.org/press/email-privacy-one-step-closer-to-reality/)  _(tags: tweet)_
+- 2017-02-07: [Brett Parker on Twitter: &quot;Thanks to the great bipartisan group who have cosigned already! I&#39;m asking signatures through Wednesday morning. #ksleg https://t.co/E2XfFIogO7&quot;](https://twitter.com/i/web/status/828680113004879873)  _(tags: tweet)_
+- 2017-02-06: [Cerberus](https://www.cl.cam.ac.uk/~pes20/cerberus/)  _(tags: capabilities, programming, research)_
+- 2017-02-06: [Max Stoiber @](https://twitter.com/mxstbr/status/828260590682517504)  _(tags: tweet)_
+- 2017-02-06: [CaptainsLog2017](https://twitter.com/captainslog2017/status/828090496597716992)  _(tags: tweet)_
+- 2017-02-06: [BI UK Finance on Twitter: &quot;Deutsche Bank fined for moving &#39;$10BN, of unknown origin, from Russia to offshore accounts&#39; https://t.co/o0pjz9vNcR https://t.co/3BEDBSdU1a&quot;](https://twitter.com/biuk_finance/status/827850319077990402)  _(tags: tweet)_
+- 2017-02-06: [All Info - H.R.804 - 115th Congress (2017-2018): To amend the National Security Act of 1947 to protect the National Security Council from political interference, and for other purposes. | Congress.gov | Library of Congress](https://www.congress.gov/bill/115th-congress/house-bill/804/all-info)  _(tags: tweet)_
+- 2017-02-06: [Steve Bannon: Donald Trump's chief strategist has a grand vision for remaking America — Quartz](https://qz.com/898134/what-steve-bannon-really-wants/)  _(tags: tweet)_
+- 2017-02-05: [Neera Tanden on Twitter: &quot;Remember every day: Dems need 24 seats to win back the House; almost exactly that many Republicans hold districts that voted for Clinton.&quot;](https://twitter.com/neeratanden/status/827888078136176642)  _(tags: tweet)_
+- 2017-02-05: [Dave Itzkoff on Twitter: &quot;[sighs]&#10;[takes a breath]&#10;Articles I through III of the US Constitution provide the framework for three separate but equal branches of https://t.co/13QzSMV3Fc&quot;](https://twitter.com/i/web/status/827981729780596737)  _(tags: tweet)_
+- 2017-02-05: [(((Rep. Nadler))) on Twitter: &quot;No &quot;so-called.&quot; Judge Robart is a GWB appointee who was confirmed 99-0.  We are watching closely your contempt for our Judicial Branch. https://t.co/k1La1mPlHj&quot;](https://twitter.com/i/web/status/827878061429370880)  _(tags: tweet)_
+- 2017-02-04: [Parker Higgins on Twitter: &quot;Critics charge that Trump is looting the country to enrich his friends. Trump counters that he&#39;s looting the country to enrich his friends. https://t.co/YhtkMplWAf&quot;](https://twitter.com/i/web/status/827576624182763520)  _(tags: tweet)_
+- 2017-02-04: [Indivisible KS-3](https://twitter.com/i/web/status/827725576555356161)  _(tags: tweet)_
+- 2017-02-04: [Bradd Jaffy on Twitter: &quot;Left: Some of Trump&#39;s comments on Wall Street during the campaign&#10;&#10;Right: What President Trump said today&#10;&#10;via @mmurraypolitics https://t.co/4Z7AJj5hOs&quot;](https://twitter.com/i/web/status/827620660012838913)  _(tags: tweet)_
+- 2017-02-04: [Tom Nichols on Twitter: &quot;This is a really important read from @stephenWalt, who was more willing than most to give the new admin space to make foreign pol change. https://t.co/tA3Ub07SVw&quot;](https://twitter.com/i/web/status/827574280842047489)  _(tags: tweet)_
+- 2017-02-04: [Linux Container Hardening](https://containerhardening.org)  _(tags: tweet)_
+- 2017-02-04: [James Fallows on Twitter: &quot;Lampoon of Trump earlier today by @Arnold rightly got attention&#10;&#10;This is a sign of his real substance.  CA districting model needs to spread https://t.co/XTVhPPsDKJ&quot;](https://twitter.com/i/web/status/827373533349060608)  _(tags: tweet)_
+- 2017-02-04: [The Hill on Twitter: &quot;Poll: 4 in 10 voters support impeaching Trump https://t.co/TfPCWcfCW7 https://t.co/O1DcDhqnJq&quot;](https://twitter.com/thehill/status/827309646813749249)  _(tags: tweet)_
+- 2017-02-04: [FOSDEM 2017 - Introducing kernel-agnostic Genode executables](https://fosdem.org/2017/schedule/event/microkernel_kernel_agnostic_genode_executables/)  _(tags: no_tag)_
+- 2017-02-04: [John Cleese: Letter to the United States of America | Rob Perik | Pulse | LinkedIn](https://www.linkedin.com/pulse/john-cleese-letter-united-states-america-rob-perik)  _(tags: america, politics, funny, humor)_
+- 2017-02-03: [The Reagan Battalion on Twitter: &quot;The Russian DUMA was bragging about these changes hours before Congress was notified: https://t.co/XlOJaealLR https://t.co/lnRBrwommM&quot;](https://twitter.com/reaganbattalion/status/827207679428919297)  _(tags: tweet)_
+- 2017-02-03: [Release The one where we work on stable · diesel-rs/diesel · GitHub](https://github.com/diesel-rs/diesel/releases/tag/v0.10.0)  _(tags: tweet)_
+- 2017-02-03: [Raw Story on Twitter: &quot;Foreign policy insider: ‘No readout of Trump-Putin call because White House turned off recording’ https://t.co/vfaO59rzc9 https://t.co/wx9iiPN6ai&quot;](https://twitter.com/RawStory/status/827190495210266628)  _(tags: tweet)_
+- 2017-02-03: [Announcing Rust 1.15 - The Rust Programming Language Blog](https://blog.rust-lang.org/2017/02/02/Rust-1.15.html)  _(tags: rustlang, tweet)_
+- 2017-02-03: [Andrij Dobriansky on Twitter: &quot;U.S. officials reveal Trump-ordered military raid insufficiently thought out, leading to civilian deaths in Yemen https://t.co/QzVSqfHtAO https://t.co/hV66BfWbuP&quot;](https://twitter.com/tufkaa/status/827007643369734144)  _(tags: shocked, tweet)_
+- 2017-02-03: [Susan Hennessey on Twitter: &quot;This is a really important point about both Trump and Bannon. It&#39;s not about illegal immigration, it&#39;s about non-white immigration period. https://t.co/QKqslBfzCC&quot;](https://twitter.com/i/web/status/827004161338331139)  _(tags: tweet)_
+- 2017-02-03: [John Schindler on Twitter: &quot;Berating one of our closest allies. For nothing. This man-child is doing incalculable damage. &#10;&#10;cc @GrayConnolly &#10;&#10;https://t.co/rVBH4Ndy5m&quot;](https://twitter.com/20committee/status/826993570703953922)  _(tags: tweet)_
+- 2017-02-03: [‘This was the worst call by far’: Trump badgered, bragged and abruptly ended phone call with Australian leader - The Washington Post](https://www.washingtonpost.com/world/national-security/no-gday-mate-on-call-with-australian-pm-trump-badgers-and-brags/2017/02/01/88a3bfb0-e8bf-11e6-80c2-30e57e57e05d_story.html?tid=sm_tw&utm_term=.7b65ec7006a5)  _(tags: tweet)_
+- 2017-02-03: [Swiss Glencore Unlikely to Be Part of Russia's Rosneft Board of Directors](https://sputniknews.com/russia/201702011050228837-rosneft-switzerland-directors-board/)  _(tags: tweet)_
+- 2017-02-03: [Linette Lopez on Twitter: &quot;GOP wants to ditch this transparency rule for oil/gas companies just after mystery person bought 19% of Rosneft &amp; confirming Tillerson https://t.co/kEyNq4Krut&quot;](https://twitter.com/lopezlinette/status/826907525253578756)  _(tags: tweet)_
+- 2017-02-03: [Michael A. Scarcella on Twitter: &quot;Fla. federal judge orders Trump-owned golf club to refund nearly $6M to members https://t.co/yIpHH8loGx from @joshgerstein&quot;](https://twitter.com/MikeScarcella/status/826856035281469440)  _(tags: tweet)_
+- 2017-02-02: [Medscape: Medscape Access](http://www.medscape.com/viewarticle/875215)  _(tags: health, research)_
+- 2017-02-02: [Storm clouds on the horizon for whistleblowers | TheHill](http://thehill.com/blogs/pundits-blog/the-administration/317124-storm-clouds-on-the-horizon-for-whistleblowers)  _(tags: factbomb, tweet)_
+- 2017-02-02: [Fear Materialized: Border Agents Demand Social Media Data from Americans | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2017/01/fear-materialized-border-agents-demand-social-media-data-americans)  _(tags: tweet)_
+- 2017-02-02: [Iraqi general who works with American military kept from visiting U.S. - CBS News](http://www.cbsnews.com/news/iraqi-general-who-works-with-american-military-kept-from-visiting-u-s/?utm_content=buffer8860d&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2017-02-02: [Indivisible KS-3](https://twitter.com/indivisibleks/status/826678520524992512)  _(tags: tweet)_
+- 2017-02-02: [CNN on Twitter: &quot;This photo of a Muslim girl and Jewish boy rallying for the same cause with their dads has warmed the hearts of many https://t.co/B5QBjtaBib https://t.co/djIkaqE07n&quot;](https://twitter.com/i/web/status/826666391994372101)  _(tags: tweet)_
+- 2017-02-02: [WATCH: Jeff Sessions grills Sally Yates on saying no to the president when she was Obama&#8217;s nominee](http://www.rawstory.com/2017/01/watch-jeff-sessions-grills-sally-yates-on-saying-no-to-the-president-when-she-was-obamas-nominee/)  _(tags: tweet)_
+- 2017-02-01: [Million requests per second with Python – Paweł Piotr Przeradowski – Medium](https://medium.com/@squeaky_pl/million-requests-per-second-with-python-95c137af319)  _(tags: tweet)_
+- 2017-02-01: [Michael Noble on Twitter: &quot;@ramez You are full of good news today! Here&#39;s one:  https://t.co/nlcIrAlesN&quot;](https://twitter.com/NobleIdeas/status/826587716364148740)  _(tags: tweet)_
+- 2017-02-01: [Deutsche Bank to stop financing coal projects](https://phys.org/news/2017-01-deutsche-bank-coal.html)  _(tags: tweet)_
+- 2017-02-01: [Chrome for iOS is now — *drumr](https://chromium.googlesource.com/chromium/src.git/+/master/ios/)  _(tags: tweet)_
+- 2017-02-01: [Charlotte Silver on Twitter: &quot;Immigration lawyer says they do not know if CBP has continued to deport people, but they are continuing to detain people.&quot;](https://twitter.com/CharESilver/status/826482417821061120)  _(tags: tweet)_
+- 2017-02-01: [Charlotte Shane on Twitter: &quot;Fuck, I totally missed #presidentbannon explicitly saying Trump is just a convenient (and very stupid) tool https://t.co/TNfnCYRIfU https://t.co/5CATgMDQQp&quot;](https://twitter.com/i/web/status/826120353311232000)  _(tags: presidentbannon, tweet)_

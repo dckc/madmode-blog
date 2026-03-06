@@ -1,0 +1,133 @@
+---
+title: February 2012 Bookmarks: programming, data, and statistics
+date: 2012-02-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "android", "austin", "collaboration", "data", "design", "economics", "finance", "games", "graphics", "gtd", "health", "javascript", "kc", "learning", "linux", "logic", "mac", "openaccess", "photos", "pim", "policy", "politics", "programming", "protocols", "publishing", "python", "quality", "research", "security", "shopping", "sports", "statistics", "tv", "ubuntu", "visualization", "wikipedia", "writing"]
+---
+
+Shared bookmarks saved in February 2012.
+
+- total bookmarks: 119
+- total annotations captured: 64
+
+## Links
+
+- 2012-02-29: [Pentaho Data Integration Steps - Pentaho Wiki](http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps)  _(tags: data, programming)_
+- 2012-02-29: [c# - Should programmers use SSIS, and if so, why? - Stack Overflow](http://stackoverflow.com/questions/3558185/should-programmers-use-ssis-and-if-so-why/3558562#3558562)  _(tags: data, programming)_
+- 2012-02-29: [TracWiki – KUMC BMI](http://informatics.kumc.edu/work/wiki/TracWiki)  _(tags: no_tag)_
+- 2012-02-29: [Universal Edit Button - UniversalEditButton.org](http://universaleditbutton.org/Universal_Edit_Button)  _(tags: collaboration)_
+- 2012-02-29: [Dean's Scholars   |   Blogs](http://web2.cns.utexas.edu/ds/index.php?page=blogs)  _(tags: austin)_
+- 2012-02-29: [Connected profiles - Gmail Help](https://support.google.com/mail/bin/answer.py?hl=en&answer=1069629)  _(tags: pim)_
+- 2012-02-28: [Chaitin, The Unknowable](http://www.cs.auckland.ac.nz/~chaitin/unknowable)  _(tags: research, logic)_
+- 2012-02-28: [init - What are the pros/cons of Upstart and systemd? - Unix and Linux - Stack Exchange](http://unix.stackexchange.com/questions/5877/what-are-the-pros-cons-of-upstart-and-systemd)  _(tags: security, linux, ubuntu)_
+- 2012-02-28: [Changes - ghilbert - An interchange format for formal proofs. - Google Project Hosting](http://code.google.com/p/ghilbert/source/list)  _(tags: python, research)_
+- 2012-02-26: [Laurence Tratt: Good Programmers are Good Sysadmins are Good Programmers](http://tratt.net/laurie/tech_articles/articles/good_programmers_are_good_sysadmins_are_good_programmers)  _(tags: no_tag)_
+- 2012-02-26: [Laurence Tratt: Fast Enough VMs in Fast Enough Time](http://tratt.net/laurie/tech_articles/articles/fast_enough_vms_in_fast_enough_time)  _(tags: no_tag)_
+- 2012-02-26: [PyPy Status Blog: PyPy 1.8 - business as usual](http://morepypy.blogspot.com/2012/02/pypy-18-business-as-usual.html)  _(tags: no_tag)_
+- 2012-02-26: [Neopythonic: Python in the Scientific World](http://neopythonic.blogspot.com/2009/11/python-in-scientific-world.html)  _(tags: no_tag)_
+- 2012-02-26: [[sympy] Re: Logic-related issues](http://www.mail-archive.com/sympy@googlegroups.com/msg04914.html)  _(tags: no_tag)_
+- 2012-02-26: [Discussion of sympy - a symbolic math library for python](http://comments.gmane.org/gmane.comp.python.sympy/5285)  _(tags: no_tag)_
+- 2012-02-26: [GSoC 2009 Application Akshay Srinivasan - GitHub](https://github.com/sympy/sympy/wiki/GSoC-2009-Application-Akshay-Srinivasan)  _(tags: no_tag)_
+- 2012-02-26: [Convert sympy to javascript - sympy | Google Groups](http://groups.google.com/group/sympy/browse_thread/thread/ec75eae186f3bcca)  _(tags: javascript, python)_
+- 2012-02-26: [The Agda Wiki - Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.HomePage)  _(tags: logic, research, programming, quality)_
+- 2012-02-26: [AIMA Python file: logic.py](http://aima.cs.berkeley.edu/python/logic.html)  _(tags: logic, python)_
+- 2012-02-26: [SAGE developers discussion email list](http://comments.gmane.org/gmane.comp.mathematics.sage.devel/38665)  _(tags: no_tag)_
+- 2012-02-26: [Lempel–Ziv–Markov chain algorithm - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm)  _(tags: data)_
+- 2012-02-26: [Sage Mirror](http://www.sagemath.org/mirror/torrents.html)  _(tags: no_tag)_
+- 2012-02-26: [Smile printed bank statement to OXF for Greasemonkey](http://userscripts.org/scripts/show/76906)  _(tags: programming, javascript, finance, someday)_
+- 2012-02-25: [sage-main: log](http://hg.sagemath.org/sage-main)  _(tags: research, python, programming, writing)_
+- 2012-02-25: [Apache considered harmful](http://www.mikealrogers.com/posts/apache-considered-harmful.html)  _(tags: no_tag)_
+- 2012-02-25: [The Cost of Knowledge](http://thecostofknowledge.com)  _(tags: occupyscience, tweet)_
+- 2012-02-25: [GoogleConnectsKC](http://googleconnectskc.com/News---Information/KC-Google-Gig/February-2012/Google-aims-to-offer-TV-to-Kansas-City.aspx)  _(tags: googlefiber, kc, tweet)_
+- 2012-02-24: [Wikipedia:Manual of Style/Mathematics - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style_(mathematics))  _(tags: wikipedia, research)_
+- 2012-02-24: [Hmm -- haskell metamath](http://home.solcon.nl/mklooster/repos/hmm)  _(tags: logic, research)_
+- 2012-02-23: [Metamath Home Page](http://us.metamath.org/index.html#downloads)  _(tags: logic, research)_
+- 2012-02-23: [trevorbedford : February 20, 2012](http://www.trevorbedford.com/archive/feb_20_2012.html)  _(tags: tweet)_
+- 2012-02-23: [A Lesson in Data Assimilation using SymPy | sympy-stats](http://sympystats.wordpress.com/2011/07/02/a-lesson-in-data-assimilation-using-sympy)  _(tags: statistics, python, programming)_
+- 2012-02-23: [Statistical Analysis - Stack Exchange](http://stats.stackexchange.com)  _(tags: statistics, learning)_
+- 2012-02-23: [sympy.stats is in | sympy-stats](http://sympystats.wordpress.com/2012/02/06/sympy-stats-is-in)  _(tags: no_tag)_
+- 2012-02-22: [Autotools Mythbuster](http://www.flameeyes.eu/autotools-mythbuster)  _(tags: programming)_
+- 2012-02-22: [d3.js ~ Calendar View](http://mbostock.github.com/d3/ex/calendar.html)  _(tags: javascript, graphics, data, visualization)_
+- 2012-02-22: [25% of super PAC money coming from just 5 rich donors – USATODAY.com](http://www.usatoday.com/news/politics/story/2012-02-21/super-pac-donors/53196658/1?csp=ip)  _(tags: america)_
+- 2012-02-22: [Tell Congress: Only people are people.](http://www.credoaction.com/campaign/corporations/?rc=homepage)  _(tags: america)_
+- 2012-02-22: [Tell Congress: Only people are people](http://act.credoaction.com/campaign/end_corp_personhood/letter.html?registered=1&referring_file=index.html&x=153&state=KS&email=dan%40dm93.org&y=29&city=Overland%20Park&posted=1&id=-5231725-EX8S7ax&country=United%20States&referred_by=&petition_id=1424&Q_test_group=control&name=Daniel%20W.%20Connolly&track_referer=1&zip=66209&comment=&redirect_url=%2Fcampaign%2Fend_corp_personhood%2Fletter.html&address1=12340%20Maple%20St&ga__full_name=)  _(tags: america)_
+- 2012-02-22: [Start a Dojo - CoderDojo](http://coderdojo.com/help-us/i-want-to-start-a-coderdojo-right-now)  _(tags: collaboration, kc)_
+- 2012-02-22: [LaTeX manuscript template with web display trevorbedford : January 16, 2012](http://www.trevorbedford.com/archive/jan_16_2012.html)  _(tags: research, web, publishing)_
+- 2012-02-22: [Design Science News: A sad day](http://news.dessci.com/2011/12/a-sad-day.html)  _(tags: collaboration)_
+- 2012-02-22: [Stop the autoconf insanity! Why we need a new build system. – Freecode](http://freecode.com/articles/stop-the-autoconf-insanity-why-we-need-a-new-build-system)  _(tags: no_tag)_
+- 2012-02-22: [text.rlib.user - Re: compiling with python - msg#00002 - OSDir.com](http://osdir.com/ml/text.rlib.user/2008-07/msg00002.html)  _(tags: no_tag)_
+- 2012-02-21: [Learning R. Where does one Start? - Stack Overflow](http://stackoverflow.com/questions/3375808/learning-r-where-does-one-start)  _(tags: r, learning, statistics)_
+- 2012-02-21: [Twitter to move away from Hashbangs | Hacker News](http://news.ycombinator.com/item?id=3614037)  _(tags: tweet)_
+- 2012-02-21: [Bret Victor - Inventing on Principle on Vimeo](http://vimeo.com/36579366)  _(tags: tweet)_
+- 2012-02-21: [[SOLVED] How to set NOMODESET and other kernel boot options in grub2 - Ubuntu Forums](http://ubuntuforums.org/showthread.php?t=1613132)  _(tags: no_tag)_
+- 2012-02-20: [ongoing by Tim Bray · On Boats](http://www.tbray.org/ongoing/When/201x/2012/02/09/At-Sea)  _(tags: no_tag)_
+- 2012-02-20: [Whitney Houston and Alcohol’s Toll - NYTimes.com](http://www.nytimes.com/2012/02/19/opinion/sunday/bruni-whitney-houston-and-alcohols-toll.html?_r=1&src=tp&smid=fb-share)  _(tags: health, policy, politics, economics)_
+- 2012-02-18: [MathJax Staff for 2012 |](http://www.mathjax.org/2012/02/07/news/mathjax-staff-for-2012)  _(tags: no_tag)_
+- 2012-02-18: [A VC: The Management Team - Guest Post From Joel Spolsky](http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html)  _(tags: tweet)_
+- 2012-02-17: [Mobile phone spam - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Mobile_phone_spam)  _(tags: no_tag)_
+- 2012-02-17: [Create a Killer Band Site with Drupal: A 6-part Tutorial Series | GoMediaZine](http://www.gomediazine.com/tutorials/create-a-killer-band-site-with-drupal-introduction/)  _(tags: web, design)_
+- 2012-02-17: [Benlog &raquo; it&#8217;s the randomness, stupid](http://benlog.com/articles/2012/02/16/its-the-randomness-stupid)  _(tags: tweet)_
+- 2012-02-17: [Home - GitHub](https://github.com/kripken/emscripten/wiki)  _(tags: javascript)_
+- 2012-02-17: [All Web Developers Should Stop Doing This Immediately - Technology Review](http://www.technologyreview.com/blog/mimssbits/27581/?nlid=nldly&nld=2012-02-16)  _(tags: no_tag)_
+- 2012-02-16: [An enhanced Kaplan-Meier plot « Stat Bandit](http://statbandit.wordpress.com/2011/03/08/an-enhanced-kaplan-meier-plot)  _(tags: statistics, programming, graphics)_
+- 2012-02-16: [R: Loading and Listing of Packages](http://stat.ethz.ch/R-manual/R-devel/library/base/html/library.html)  _(tags: no_tag)_
+- 2012-02-15: [Contrast Rebellion - to hell with unreadable, low-contrast texts!](http://contrastrebellion.com)  _(tags: design, web)_
+- 2012-02-14: [Sequelize &raquo; A MySQL Object-Relational-Mapper for NodeJS](http://sequelizejs.com)  _(tags: tweet)_
+- 2012-02-13: [User:Warlord - GnuCash](http://wiki.gnucash.org/wiki/User:Warlord)  _(tags: no_tag)_
+- 2012-02-13: [Monitor your system with gnome shell extensions « Justin Stories](http://justinstories.wordpress.com/2011/06/04/monitor-your-system-with-gnome-shell-extensions)  _(tags: ubuntu)_
+- 2012-02-13: [A New Approach to GNOME Application Design | As far as I know](http://afaikblog.wordpress.com/2012/02/10/a-new-approach-to-gnome-application-design)  _(tags: design, ubuntu)_
+- 2012-02-13: [[SOLVED] [GNOME3] How to add applets to the panel (Page 1) / [testing] Repo Forum / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=116658)  _(tags: no_tag)_
+- 2012-02-13: [Unsubscribe from junk mail with PaperKarma | How To - CNET](http://howto.cnet.com/8301-11310_39-57374707-285/unsubscribe-from-junk-mail-with-paperkarma/?part=rss&tag=feed&subj=AndroidAtlas)  _(tags: android)_
+- 2012-02-13: [Reading Code | (R news & tutorials)](http://www.r-bloggers.com/reading-code)  _(tags: no_tag)_
+- 2012-02-13: [The R type system | (R news & tutorials)](http://www.r-bloggers.com/the-r-type-system)  _(tags: no_tag)_
+- 2012-02-13: [Rstats — The Endeavour](http://www.johndcook.com/blog/tag/rstats)  _(tags: no_tag)_
+- 2012-02-13: [The R programming language for programmers coming from other programming languages](http://www.johndcook.com/R_language_for_programmers.html)  _(tags: no_tag)_
+- 2012-02-13: [Elegant & fast data manipulation with data.table | (R news & tutorials)](http://www.r-bloggers.com/elegant-fast-data-manipulation-with-data-table)  _(tags: no_tag)_
+- 2012-02-13: [CRAN - Package data.table](http://cran.r-project.org/web/packages/data.table/index.html)  _(tags: statistics, data, programming)_
+- 2012-02-13: [SureWest to sell Kansas City, Sacramento operations to Consolidated Communications - FierceCable](http://www.fiercecable.com/story/surewest-sell-kansas-city-sacramento-operations-consolidated-communications/2012-02-06)  _(tags: no_tag)_
+- 2012-02-13: [Surewest, Lenexa, KS : Reviews and maps - Yahoo! Local](http://local.yahoo.com/info-17936227-surewest-lenexa)  _(tags: no_tag)_
+- 2012-02-13: [Cable in KC: Time Warner or SureWest (Everest)?](http://goemaw.com/forum/index.php?topic=2660.0)  _(tags: tv, shopping)_
+- 2012-02-13: [Review of SureWest Internet | DSLReports.com, ISP Information](http://www.dslreports.com/comment/1599/81908)  _(tags: no_tag)_
+- 2012-02-12: [TypedJS: Home](http://typedjs.com)  _(tags: javascript, quality)_
+- 2012-02-12: [Play Pandemic 2, a free online game on Kongregate](http://www.kongregate.com/games/DarkRealmStudios/pandemic-2)  _(tags: health, games)_
+- 2012-02-12: [Basic reproduction number - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Basic_reproduction_number)  _(tags: no_tag)_
+- 2012-02-12: [Working Groups: the self-organising revolution | The Future of Occupy](http://thefutureofoccupy.org/2012/02/02/working-groups-the-self-organising-revolution)  _(tags: collaboration)_
+- 2012-02-12: [PrecisePangolin/TechnicalOverview/Alpha2 - Ubuntu Wiki](https://wiki.ubuntu.com/PrecisePangolin/TechnicalOverview/Alpha2)  _(tags: ubuntu)_
+- 2012-02-12: [Ubuntu 12.04 LTS Alpha Release 1 Precise Pangolin - Preview & Upcoming Changes - YouTube](http://www.youtube.com/watch?v=-cWKILayEQE)  _(tags: ubuntu)_
+- 2012-02-11: [We Can't Wait: Obama Administration takes new steps to encourage doctors and hospitals to use health information technology to lower costs, improve quality, create jobs](http://www.hhs.gov/news/press/2011pres/11/20111130a.html)  _(tags: health, policy, data)_
+- 2012-02-11: [Obama announces plan for electronic health records for everyone - FierceHealthIT](http://www.fiercehealthit.com/story/obama-announces-plan-electronic-health-records-everyone/2009-01-12)  _(tags: no_tag)_
+- 2012-02-10: [Documenting your code - GitHub](https://github.com/hadley/devtools/wiki/docs-function)  _(tags: no_tag)_
+- 2012-02-10: [database - Bind variables in R DBI - Stack Overflow](http://stackoverflow.com/questions/2186015/bind-variables-in-r-dbi)  _(tags: statistics, programming, data)_
+- 2012-02-10: [A Common Database Interface (DBI)](http://stat.bell-labs.com/RS-DBI/doc/html/index.html)  _(tags: statistics, programming)_
+- 2012-02-10: [This graph makes me think Kobe is not that good, he just shoots a lot | (R news & tutorials)](http://www.r-bloggers.com/this-graph-makes-me-think-kobe-is-not-that-good-he-just-shoots-a-lot)  _(tags: sports, statistics, programming)_
+- 2012-02-10: [Using XML package vs. BeautifulSoup | (R news & tutorials)](http://www.r-bloggers.com/using-xml-package-vs-beautifulsoup)  _(tags: no_tag)_
+- 2012-02-10: [MySQL and R | (R news & tutorials)](http://www.r-bloggers.com/mysql-and-r)  _(tags: no_tag)_
+- 2012-02-10: [untitled](http://cran.r-project.org/web/packages/ROracle/INSTALL)  _(tags: no_tag)_
+- 2012-02-10: [Ubuntu Manpage: ldconfig - configure dynamic linker run-time bindings](http://manpages.ubuntu.com/manpages/hardy/man8/ldconfig.8.html)  _(tags: no_tag)_
+- 2012-02-10: [OCI: Introduction and Upgrading](http://docs.oracle.com/cd/B28359_01/appdev.111/b28395/oci01int.htm)  _(tags: no_tag)_
+- 2012-02-10: [Analysis of variance - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/ANOVA)  _(tags: statistics)_
+- 2012-02-10: [Rep. Doyle Introduces Bill To Provide Public Access To Publicly Funded Research | Techdirt](http://www.techdirt.com/articles/20120209/13042317716/rep-doyle-introduces-bill-to-provide-public-access-to-publicly-funded-research.shtml)  _(tags: openaccess, tweet)_
+- 2012-02-08: [[SOLVED] There was an error during the CUPS operation: 'failed to connect to server' - Page 3 - Ubuntu Forums](http://ubuntuforums.org/showthread.php?t=1475058&page=3)  _(tags: ubuntu, error)_
+- 2012-02-08: [Obsolete - the new awesome pub status all the kids are raving about! was, Re: "Living Standards" from Marcos Caceres on 2012-02-03 (public-w3process@w3.org from February 2012)](http://lists.w3.org/Archives/Public/public-w3process/2012Feb/0015.html)  _(tags: no_tag)_
+- 2012-02-08: [SQL-like functionality in R - Stack Overflow](http://stackoverflow.com/questions/1169551/sql-like-functionality-in-r)  _(tags: statistics, r, learning, programming)_
+- 2012-02-08: [Instagram](http://instagr.am/p/nm695)  _(tags: tweet)_
+- 2012-02-08: [Revolutions: Coming to R from SQL, Python, SAS, Matlab, or Lisp](http://blog.revolutionanalytics.com/2010/01/the-r-rosetta-stone.html)  _(tags: statistics, programming)_
+- 2012-02-08: [High dynamic range imaging - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/High_dynamic_range_imaging)  _(tags: no_tag)_
+- 2012-02-08: [What can be done in R that can't be done with Python/Numpy/SciPy - Stack Overflow](http://stackoverflow.com/questions/1177019/what-can-be-done-in-r-that-cant-be-done-with-python-numpy-scipy/1177981)  _(tags: no_tag)_
+- 2012-02-08: [R Data Import/Export](http://cran.r-project.org/doc/manuals/R-data.html)  _(tags: statistics, data, programming)_
+- 2012-02-07: [Khan Academy: It&#8217;s Different This Time &laquo;  Mathalicious](http://www.mathalicious.com/2012/02/04/khan-academy-its-different-this-time)  _(tags: tweet)_
+- 2012-02-07: [Coding Horror: Farewell Stack Exchange](http://www.codinghorror.com/blog/2012/02/farewell-stack-exchange.html)  _(tags: tweet)_
+- 2012-02-07: [SignOn.org Beta - Tell Obama to Cease FDA Ties to Monsanto](http://signon.org/sign/tell-obama-to-cease-fda?source=mo&id=35461-2692118-9n%3DgI_x)  _(tags: tweet)_
+- 2012-02-07: [Protocol Action: 'Additional HTTP Status Codes' to Proposed Standard (draft-nottingham-http-new-status-04.txt)](http://www.ietf.org/mail-archive/web/ietf-announce/current/msg09851.html)  _(tags: tweet)_
+- 2012-02-07: [Why You Shouldn't Hire More Developers - PatchSpace Blog](http://blog.patchspace.co.uk/why-you-shouldnt-hire-more-developers)  _(tags: tweet)_
+- 2012-02-07: [Apple's iPhone Business Alone Is Now Bigger Than All Of Microsoft](http://www.businessinsider.com/iphone-bigger-than-microsoft-2012-2)  _(tags: tweet)_
+- 2012-02-07: [ah this is just beautiful  Sarajevo :)](http://a7.sphotos.ak.fbcdn.net/hphotos-ak-ash4/399936_10150516086111356_697281355_9165135_1457305762_n.jpg)  _(tags: tweet)_
+- 2012-02-07: [draft-nottingham-http-new-status-04](http://datatracker.ietf.org/doc/draft-nottingham-http-new-status/?include_text=1)  _(tags: web, protocols)_
+- 2012-02-07: [Philip Greenspun's Weblog » Why is the quality of Internet video chat, e.g., Skype, so poor?](http://blogs.law.harvard.edu/philg/2012/02/04/why-is-the-quality-of-internet-video-chat-e-g-skype-so-poor)  _(tags: no_tag)_
+- 2012-02-05: [Gmail Snooze with Apps Script | Official Gmail Blog](http://gmailblog.blogspot.com/2011/07/gmail-snooze-with-apps-script.html)  _(tags: gtd, someday, pim)_
+- 2012-02-05: [Scalding | Twitter Developers](https://dev.twitter.com/blog/scalding)  _(tags: tweet)_
+- 2012-02-05: [A message from you mobile &laquo;  matt.me63.com &#8211; Matt Edgar](http://matt.me63.com/2012/02/03/a-message-from-you-mobile)  _(tags: tweet)_
+- 2012-02-02: [Schneier on Security: Prisons in the U.S.](http://www.schneier.com/blog/archives/2012/02/prisons_in_the.html)  _(tags: no_tag)_
+- 2012-02-02: [DMARC - Overview](http://www.dmarc.org/overview.html)  _(tags: security)_
+- 2012-02-01: [iPhoto 6 and later: Rebuilding the iPhoto library](http://support.apple.com/kb/ht2638)  _(tags: mac, photos)_
+- 2012-02-01: [The Front Line](http://nolancaudill.com/2012/01/30/the-front-line)  _(tags: yahoo, tweet)_

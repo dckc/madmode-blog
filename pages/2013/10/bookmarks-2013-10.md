@@ -1,0 +1,144 @@
+---
+title: October 2013 Bookmarks: rust, github, and security
+date: 2013-10-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "capabilities", "collaboration", "college", "design", "devops", "diy", "graphics", "hardware", "health", "html", "javascript", "kc", "learning", "linux", "mobile", "openaccess", "opendata", "performance", "photos", "programming", "python", "quality", "research", "rust", "scala", "security", "shopping", "standards", "statistics", "sysadmin", "training", "ubuntu", "video", "vm", "writing"]
+---
+
+Shared bookmarks saved in October 2013.
+
+- total bookmarks: 130
+- total annotations captured: 56
+
+## Links
+
+- 2013-10-31: [Deprecating pam_stack.so](http://www.redhat.com/archives/rhl-devel-list/2005-October/msg00050.html)  _(tags: no_tag)_
+- 2013-10-31: [TipsAndTricks/WinbindADS - CentOS Wiki](http://wiki.centos.org/TipsAndTricks/WinbindADS)  _(tags: no_tag)_
+- 2013-10-31: [VM (operating system) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/VM_(operating_system))  _(tags: no_tag)_
+- 2013-10-31: [Authenticate and Integrate Linux with Active Directory](http://technet.microsoft.com/en-us/magazine/2008.12.linux.aspx)  _(tags: no_tag)_
+- 2013-10-31: [Science/AAAS | Science Magazine: About the Journal: Information for Authors: General Information for Authors](http://www.sciencemag.org/site/feature/contribinfo/prep/gen_info.xhtml#dataavail)  _(tags: tweet)_
+- 2013-10-31: [Ten years in, open access initiative sees limited use](http://www.scidev.net/global/publishing/news/ten-years-in-open-access-initiative-sees-limited-use.html?utm_content=buffered755&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer)  _(tags: tweet)_
+- 2013-10-31: [Add Foo. ·  8ea556d · aloiscochard/drscala · GitHub](https://github.com/aloiscochard/drscala/commit/8ea556dfcd3509a411359c22d3adbb3a049a6ba6#src-main-scala-foo-scala-P10)  _(tags: scala, tweet)_
+- 2013-10-31: [auto merge of #9613 : jld/rust/enum-discrim-size.r0, r=alexcrichton ·  5e1a691 · mozilla/rust · GitHub](https://github.com/mozilla/rust/commit/5e1a69112584341522e2cc00bfc6dd1db6e0ec3a)  _(tags: tweet)_
+- 2013-10-31: [Cisco&#8217;s H.264 Good News | Brendan Eich](https://brendaneich.com/2013/10/ciscos-h-264-good-news/)  _(tags: tweet)_
+- 2013-10-31: [Cryptography in the Browser](http://blog.opal.io/crypto-in-the-browser.html)  _(tags: tweet)_
+- 2013-10-31: [Coherence, modularity, and extensibility for typeclasses - pcwalton](http://pcwalton.github.io/blog/2012/05/28/coherence/)  _(tags: rust, tweet)_
+- 2013-10-31: [OwnCloud with Tahoe-Lafs](http://stigatle.net/index.php/linux-articles/42-linux/109-owncloud-tahoe-lafs)  _(tags: tweet)_
+- 2013-10-31: [A Game of Shark and Minnow - Who Will Win Control of the South China Sea? - NYTimes.com](http://www.nytimes.com/newsgraphics/2013/10/27/south-china-sea/)  _(tags: tweet)_
+- 2013-10-31: [A Bit of Functional Programming in Rust, or A Misguided First Look at Rust for ML Programmers | Asynchronicity](http://andreiformiga.com/blog/?p=382)  _(tags: tweet)_
+- 2013-10-31: [TheApacheFoundation - YouTube](https://www.youtube.com/user/TheApacheFoundation)  _(tags: tweet)_
+- 2013-10-31: [Web inventor's open data organisation announces new global network | Technology | theguardian.com](http://www.theguardian.com/technology/2013/oct/29/web-inventor-open-data-institute-new-global-network)  _(tags: opendata, tweet)_
+- 2013-10-31: [A Datalog Engine for GPUs | hgpu.org](http://hgpu.org/?p=10798)  _(tags: tweet)_
+- 2013-10-31: [Why the Government Never Gets Tech Right - NYTimes.com](http://mobile.nytimes.com/2013/10/25/opinion/getting-to-the-bottom-of-healthcaregovs-flop.html)  _(tags: tweet)_
+- 2013-10-31: [PyKC Monthly Meetup - Python KC (Kansas City, MO)- Meetup](http://www.meetup.com/pythonkc/events/99479872/)  _(tags: tweet)_
+- 2013-10-31: [Rule of least power - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Rule_of_least_power)  _(tags: tweet)_
+- 2013-10-31: [Quantum Experiment Shows How Time ‘Emerges’ from Entanglement — The Physics arXiv Blog — Medium](https://medium.com/the-physics-arxiv-blog/d5d3dc850933)  _(tags: tweet)_
+- 2013-10-31: [RESTful Whois](http://www.restfulwhois.com)  _(tags: tweet)_
+- 2013-10-31: [Infectious diseases](http://id.who.int/icd/entity/1938357476)  _(tags: iswc2013, tweet)_
+- 2013-10-31: [The Daily Dot - Robot gymnast completes triple backflip dismount, sticks the landing](http://www.dailydot.com/technology/robot-gymnast-triple-backflip-dismount/)  _(tags: tweet)_
+- 2013-10-31: [Health Insurance Marketplace, Affordable Care Act | HealthCare.gov](https://www.healthcare.gov)  _(tags: tweet)_
+- 2013-10-31: [Keynote, PNW Scala 2013](http://www.slideshare.net/extempore/keynote-pnw-scala-2013)  _(tags: scala, tweet)_
+- 2013-10-31: [HTML5 Rocks - A resource for open web HTML5 developers](http://www.html5rocks.com/en/)  _(tags: tweet)_
+- 2013-10-31: [Amazon.com: Job Search: Principal Data Engineer](https://us-amazon.icims.com/jobs/236602/principal-data-engineer/job?mode=job)  _(tags: tweet)_
+- 2013-10-31: [Telefonica's Yotam Ben-Ami fights for Firefox phones (Q&A) | Mobile - CNET News](http://news.cnet.com/8301-1035_3-57608120-94/telefonicas-yotam-ben-ami-fights-for-firefox-phones-q-a/)  _(tags: tweet)_
+- 2013-10-31: [Review: Composition Tools Fargo, Medium, Editorially, Marquee, and More | MIT Technology Review](http://www.technologyreview.com/review/520246/as-we-may-type/)  _(tags: tweet)_
+- 2013-10-31: [Twitter / InfinitNutshell: I implemented Conway&#39;s Game ...](https://twitter.com/InfinitNutshell/status/390937209555398656)  _(tags: tweet)_
+- 2013-10-31: [So this is what it's like when you can't get a sit](http://t.co/y0q7WSmWv1)  _(tags: ccusa, tweet)_
+- 2013-10-31: [I know none of my passwords.](http://aley.me/passwords)  _(tags: tweet)_
+- 2013-10-31: [Amazon.com: Canon PowerShot SX510 HS 12.1 MP CMOS Digital Camera with 30x Optical Zoom and 1080p Full-HD Video: CANON: Camera & Photo](http://www.amazon.com/dp/B00EFILPHA/ref=wl_it_dp_o_pd_nS_ttl?_encoding=UTF8&colid=2UQN49SUMLRQO&coliid=IZJALQ63QZ05H)  _(tags: no_tag)_
+- 2013-10-30: [Korean Taekwondo Glossary (Translations)](http://www.olympictaekwondo.org/glossary.html)  _(tags: health, martial-arts)_
+- 2013-10-29: [Arvest Bank Theatre at The Midland :: Bill Cosby](http://www.midlandkc.com/events/detail/244773)  _(tags: kc)_
+- 2013-10-29: [Alex Polvi Explains CoreOS](http://www.activestate.com/blog/2013/08/alex-polvi-explains-coreos)  _(tags: no_tag)_
+- 2013-10-29: [ownCloud.org | Your Cloud, Your Data, Your Way!](http://owncloud.org)  _(tags: no_tag)_
+- 2013-10-29: [mysql: Search Results | Docker Index](https://index.docker.io/search?q=mysql)  _(tags: no_tag)_
+- 2013-10-29: [[SOLVED] Failed to load VMMR0.r0 (VERR_SUPLIB_OWNER_NOT_ROOT)](http://www.linuxquestions.org/questions/linux-software-2/failed-to-load-vmmr0-r0-verr_suplib_owner_not_root-907537/)  _(tags: sysadmin, vm)_
+- 2013-10-29: [Seems like the coreos virtualbox provided has a corrupted header · Issue #4 · coreos/coreos-vagrant](https://github.com/coreos/coreos-vagrant/issues/4)  _(tags: sysadmin, vm)_
+- 2013-10-29: [Bug #1076603 "virtualbox-guest kernel module fails to build on 3..." : Bugs : "virtualbox" package : Ubuntu](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1076603)  _(tags: sysadmin, vm)_
+- 2013-10-29: [Vagrant - Downloads](http://downloads.vagrantup.com/tags/v1.3.5)  _(tags: sysadmin, vm)_
+- 2013-10-29: [Getting to Docker 1.0 | Docker Blog](http://blog.docker.io/2013/08/getting-to-docker-1-0/)  _(tags: vm)_
+- 2013-10-29: [Red Hat and Docker Collaborate | Docker Blog](http://blog.docker.io/2013/09/red-hat-and-docker-collaborate/)  _(tags: vm)_
+- 2013-10-29: [Quick Start Guide — HDF5 for Python 2.2.0 documentation](http://www.h5py.org/docs/intro/quick.html)  _(tags: no_tag)_
+- 2013-10-28: [google/capsicum-linux](https://github.com/google/capsicum-linux)  _(tags: capabilities, security, linux)_
+- 2013-10-28: [Xataface Forums • View topic - Xataface 2.0alpha1 Released](http://xataface.com/forum/viewtopic.php?f=8&t=7000&p=31374&hilit=pdfreports#p31374)  _(tags: no_tag)_
+- 2013-10-27: [Tour - Backup and Migration | TurnKey Hub](https://hub.turnkeylinux.org/tour/backup/)  _(tags: sysadmin, someday)_
+- 2013-10-27: [HP Chromebook 14 with Intel processor, 4GB memory, 16GB SSD and 2 years free 4G mobile internet service (200MB / month): Computers : Walmart.com](http://www.walmart.com/ip/HP-14-14-q029wm-Chromebook-PC-with-Intel-Celeron-2955U-Processor-4GB-Memory-16GB-Solid-State-Drive-and-Chrome-OS/28858405)  _(tags: shopping, hardware)_
+- 2013-10-27: [Amazon.com: Cenile D. Mentia's review of HP Chromebook 11 (White/Blue)](http://www.amazon.com/review/RRNOVC1BM8BMD/ref=cm_cr_pr_viewpnt#RRNOVC1BM8BMD)  _(tags: no_tag)_
+- 2013-10-27: [unexpected BOOL_TRUE in module .info on line 3 in includes/module.inc on line 195 | drupal.org](https://drupal.org/node/722430)  _(tags: no_tag)_
+- 2013-10-25: [How the World Wide Web just happened - Tim Berners-Lee - YouTube](http://www.youtube.com/watch?v=yF5-6AcohQw)  _(tags: no_tag)_
+- 2013-10-25: [Health Informatics: Has anyone successfully automated the translation between Medi-Span and RxNorm code sets? - Quora](http://www.quora.com/Health-Informatics/Has-anyone-successfully-automated-the-translation-between-Medi-Span-and-RxNorm-code-sets)  _(tags: no_tag)_
+- 2013-10-25: [Health Informatics - Quora](http://www.quora.com/Health-Informatics)  _(tags: no_tag)_
+- 2013-10-25: [What's wrong with HL7? - Quora](http://www.quora.com/Whats-wrong-with-HL7)  _(tags: no_tag)_
+- 2013-10-24: [Press Release &ndash; Knowledge Unlatched](http://www.knowledgeunlatched.org/press-release/)  _(tags: openaccess, kupilot, tweet)_
+- 2013-10-24: [how can I tell if my kernel is 32 or 64 bit?](http://www.linuxquestions.org/questions/linux-newbie-8/how-can-i-tell-if-my-kernel-is-32-or-64-bit-673473/)  _(tags: no_tag)_
+- 2013-10-23: [R Internals](http://cran.r-project.org/doc/manuals/R-ints.html)  _(tags: no_tag)_
+- 2013-10-23: [How to extract spec file from rpm file](http://www.linuxquestions.org/questions/programming-9/how-to-extract-spec-file-from-rpm-file-426847/)  _(tags: no_tag)_
+- 2013-10-22: [[R] enter browser on error](https://stat.ethz.ch/pipermail/r-help/2004-August/056764.html)  _(tags: statistics, programming)_
+- 2013-10-22: [You Can Get $10,000 Per Child In College Tax Credits, Thanks To The Fiscal Cliff Deal - Forbes](http://www.forbes.com/sites/troyonink/2013/01/16/american-opportunity-tax-credit-pay-for-college-and-pay-less-tax/)  _(tags: america, college)_
+- 2013-10-22: [American Opportunity Tax Credit: Questions and Answers](http://www.irs.gov/uac/American-Opportunity-Tax-Credit:-Questions-and-Answers)  _(tags: america, college)_
+- 2013-10-20: [Google Groups](https://groups.google.com/forum/#!forum/chromedriver-users)  _(tags: no_tag)_
+- 2013-10-20: [Issue 1887 - selenium - Element not found in the cache - Browser automation framework - Google Project Hosting](http://code.google.com/p/selenium/issues/detail?id=1887&can=1&q=StaleElementReferenceException&colspec=ID%20Stars%20Type%20Status%20Priority%20Milestone%20Owner%20Summary)  _(tags: no_tag)_
+- 2013-10-20: [[rust-dev] Should I/O use conditions?](https://mail.mozilla.org/pipermail/rust-dev/2013-October/006012.html)  _(tags: programming, quality)_
+- 2013-10-20: [Rust nightly + releases : Hans Jørgen Hoel](https://launchpad.net/~hansjorg/+archive/rust)  _(tags: ubuntu, rust)_
+- 2013-10-18: [SWWOMM: Jenkins EC2 Slave Plugin](http://blog.swwomm.com/2013/08/jenkins-ec2-slave-plugin.html)  _(tags: vm, aws, security)_
+- 2013-10-18: [Examples | Elycharts](http://elycharts.com/examples)  _(tags: graphics, javascript)_
+- 2013-10-18: [The First Real Reason We Need To Sleep - Business Insider](http://www.businessinsider.com/the-first-real-reason-we-need-to-sleep-2013-10)  _(tags: health, research)_
+- 2013-10-17: [Code @ HootSuite | Automating our Scala Deploys with Ansible](http://code.hootsuite.com/automating-our-scala-deploys/)  _(tags: devops, sysadmin)_
+- 2013-10-16: [Nexus 7: 30 tips and tricks | The Full Signal](http://www.thefullsignal.com/google/google-nexus-7/12251/best-tips-and-tricks-nexus-7)  _(tags: mobile, hardware)_
+- 2013-10-16: [TipsAndTricks/YumAndRPM - CentOS Wiki](http://wiki.centos.org/TipsAndTricks/YumAndRPM)  _(tags: sysadmin)_
+- 2013-10-16: [Listing installed RPMs by vendor | End Point Blog](http://blog.endpoint.com/2008/08/listing-installed-rpms-by-vendor.html)  _(tags: no_tag)_
+- 2013-10-16: [sK1 Project - News: PrintDesign for Linux preview2 download](http://sk1project.org/news.php?readmore=102)  _(tags: graphics, editing, vector)_
+- 2013-10-15: [Google Groups](http://productforums.google.com/forum/#!topic/picasa/3mOMMur_YXk)  _(tags: photos, collaboration)_
+- 2013-10-15: [Can't move files without deleting? - BitTorrent Sync - BitTorrent Forums](http://forum.bittorrent.com/topic/23294-cant-move-files-without-deleting/)  _(tags: photos)_
+- 2013-10-15: [RIDGID 12-Volt Impact Driver-R82237K at The Home Depot](http://www.homedepot.com/p/t/203371433?storeId=10051&langId=-1&catalogId=10053&productId=203371433&R=203371433)  _(tags: shopping, diy)_
+- 2013-10-14: [Starter Makes - Mozilla Webmaker](https://webmaker.org/en-US/starter-makes)  _(tags: learning, training, web, html)_
+- 2013-10-14: [security - How to copy password from Mono-executed KeePass2 to xterm on Linux? - Super User](http://superuser.com/questions/268988/how-to-copy-password-from-mono-executed-keepass2-to-xterm-on-linux)  _(tags: security, linux, ubuntu)_
+- 2013-10-14: [KeeFox Getting Started Tutorial](http://tutorial.keefox.org/part1)  _(tags: security)_
+- 2013-10-14: [en | Running KeeFox under Mono · luckyrat/KeeFox Wiki](https://github.com/luckyrat/KeeFox/wiki/en-%7C-Running-KeeFox-under-Mono)  _(tags: security, ubuntu)_
+- 2013-10-14: [[SOLVED] How to Setup KeeFox 0.9.6b with Firefox 14.0.1 on Ubuntu 12.04.](http://ubuntuforums.org/showthread.php?t=2040113)  _(tags: no_tag)_
+- 2013-10-14: [How to view message headers in Exchange Server 2007 OWA - Exchange Team Blog - Site Home - TechNet Blogs](http://blogs.technet.com/b/exchange/archive/2006/07/03/3394409.aspx)  _(tags: no_tag)_
+- 2013-10-13: [No Wifi Calling With TMobile - Android Forums at AndroidCentral.com](http://forums.androidcentral.com/google-nexus-4/308319-no-wifi-calling-tmobile.html)  _(tags: mobile, shopping)_
+- 2013-10-12: ["Proofs as Cryptography:a new interpretation of C](http://hal-ens.archives-ouvertes.fr/docs/00/71/57/26/PDF/RapportHal.pdf)  _(tags: tweet, programming, research)_
+- 2013-10-11: [Learn how to analyze data with R with Coursera's "Data Analysis" videos | (R news & tutorials)](http://www.r-bloggers.com/learn-how-to-analyze-data-with-r-with-courseras-data-analysis-videos/)  _(tags: r, statistics, learning, training, video, programming)_
+- 2013-10-11: [Technologists’ Submit Comments to the NSA Review Group | Center for Democracy &amp; Technology](https://www.cdt.org/tech-comment-nsa-review)  _(tags: tweet)_
+- 2013-10-11: [Registration &mdash; SecKC | Kansas City&#039;s Premier Infosec Meetup](https://seckc.org/registration/)  _(tags: seckc, tweet)_
+- 2013-10-11: [20 awesome ways you can use a Raspberry Pi | Gearburn](http://gearburn.com/2013/10/20-cool-ideas-for-your-raspberry-pi/)  _(tags: tweet)_
+- 2013-10-11: [google/pepper.js · GitHub](https://github.com/google/pepper.js)  _(tags: tweet)_
+- 2013-10-11: [xorg - Can't compile matplotlib on Ubuntu 11.04 / ft2build.h: No such file or directory - Ask Ubuntu](http://askubuntu.com/questions/38312/cant-compile-matplotlib-on-ubuntu-11-04-ft2build-h-no-such-file-or-directory)  _(tags: no_tag)_
+- 2013-10-11: [sK1 Project](http://www.sk1project.org/modules.php?name=Products&product=uniconvertor)  _(tags: no_tag)_
+- 2013-10-11: [Chapter XVIII: MIT](http://philip.greenspun.com/samantha/samantha-XVIII)  _(tags: no_tag)_
+- 2013-10-10: [OR Meeting: Program and Workshops](http://www.icpsr.umich.edu/icpsrweb/content/membership/or/ormeet/workshops.html)  _(tags: tweet)_
+- 2013-10-10: [BUG: Government occasionally shuts down · Issue #3 · WhiteHouse/fortyfour · GitHub](https://github.com/WhiteHouse/fortyfour/issues/3)  _(tags: shutdown, tweet)_
+- 2013-10-10: [Using Angular with Polymer elements - YouTube](http://www.youtube.com/watch?v=p1NpZ-0Op0w&feature=youtu.be)  _(tags: tweet, javascript, web, design)_
+- 2013-10-10: [Verified Security for Browser Extensions - Microsoft Research](http://research.microsoft.com/apps/pubs/?id=146018)  _(tags: security, research)_
+- 2013-10-09: [Writing Research Papers, Presentations and Blogs With Google Docs | Aspen Biosciences Blog](http://aspenbio.wordpress.com/2013/04/27/writing-research-papers-presentations-and-blogs-with-google-docs/)  _(tags: no_tag)_
+- 2013-10-09: [Heuristic Outcomes by Ade Oshineye: The screens in our future](http://blog.oshineye.com/2013/10/the-screens-in-our-future.html)  _(tags: tweet, collaboration)_
+- 2013-10-09: [Give a Chromebook](https://chrome.com/giveachromebook)  _(tags: giveachromebook, tweet)_
+- 2013-10-09: [Life with Nest Protect | Nest](http://nest.com/smoke-co-alarm/life-with-nest-protect/)  _(tags: tweet, shopping)_
+- 2013-10-09: [Google Groups](https://groups.google.com/forum/#!msg/v8-users/A2ODAZ6kKaE/TLDgLuRgSuAJ)  _(tags: tweet)_
+- 2013-10-09: [Patient Registries - Registries for Evaluating Patient Outcomes: A User's Guide - NCBI Bookshelf](http://www.ncbi.nlm.nih.gov/books/NBK49448/)  _(tags: health, research)_
+- 2013-10-09: [A Concise Introduction to Scala](http://www.cis.upenn.edu/~matuszek/Concise%20Guides/Concise%20Scala.html)  _(tags: no_tag)_
+- 2013-10-08: [Top 100 R packages for 2013 (Jan-May)! | R-statistics blog](http://www.r-statistics.com/2013/06/top-100-r-packages-for-2013-jan-may/)  _(tags: statistics, programming, collaboration)_
+- 2013-10-08: [This Week in Rust - Ramblin's](http://cmr.github.io/blog/2013/09/30/this-week-in-rust/)  _(tags: tweet)_
+- 2013-10-08: [wilsonpage/fastdom · GitHub](https://github.com/wilsonpage/fastdom)  _(tags: tweet)_
+- 2013-10-07: [Twitter / jasonbaldridge: Ben Wing created py2scala, ...](https://twitter.com/jasonbaldridge/status/113729921225990144)  _(tags: no_tag)_
+- 2013-10-07: [Home · shoaibkamil/asp Wiki](https://github.com/shoaibkamil/asp/wiki)  _(tags: python, performance, gpu, graphics)_
+- 2013-10-05: [Invoke - Invoke documentation](http://docs.pyinvoke.org/en/latest/)  _(tags: devops)_
+- 2013-10-05: [node.js - Error: require.paths is removed. Use node_modules folders, or the NODE_PATH environment variable instead - Stack Overflow](http://stackoverflow.com/questions/11163447/error-require-paths-is-removed-use-node-modules-folders-or-the-node-path-envi)  _(tags: no_tag)_
+- 2013-10-05: [node.js : chris lea](https://launchpad.net/~chris-lea/+archive/node.js/)  _(tags: no_tag)_
+- 2013-10-05: [TypeError: Object # has no method 'existsSync' · Issue #341 · tower/tower](https://github.com/tower/tower/issues/341)  _(tags: no_tag)_
+- 2013-10-05: [how to use Tor securely (Re: Silk Road founder arrested ...)](https://cpunks.org//pipermail/cypherpunks/2013-October/001242.html)  _(tags: tweet)_
+- 2013-10-05: [EpicEditor - An embeddable JavaScript Markdown editor](http://epiceditor.com)  _(tags: writing, javascript)_
+- 2013-10-05: [Add to Homescreen - Google Chrome Mobile &mdash; Google Developers](https://developers.google.com/chrome/mobile/docs/installtohomescreen)  _(tags: tweet)_
+- 2013-10-04: [Scala Macros: "Oh God Why?" - Jay Kreps](http://blog.empathybox.com/post/19126121307/scala-macros-oh-god-why)  _(tags: programming, collaboration)_
+- 2013-10-03: [Scientists who share data publicly receive more citations](http://www.eurekalert.org/pub_releases/2013-10/p-sws092413.php)  _(tags: openscience, tweet)_
+- 2013-10-03: [Ann Wolpert, director of libraries, has died at 70 - MIT News Office](http://web.mit.edu/newsoffice/2013/ann-wolpert-obituary.html)  _(tags: tweet)_
+- 2013-10-02: [precog/platform · GitHub](https://github.com/precog/platform)  _(tags: tweet)_
+- 2013-10-02: [Federal Communications Commission](http://www.fcc.gov/shutdown-page.html?id=6017467205)  _(tags: tweet)_
+- 2013-10-01: [Google Web Designer](https://www.google.com/webdesigner/)  _(tags: tweet)_
+- 2013-10-01: [Six Visual Solutions To Complex Digital Marketing/Analytics Challenges](http://www.kaushik.net/avinash/six-visual-digital-marketing-analytics-strategic-solutions/?utm_source=rss&utm_campaign=Feed:+OccamsRazorByAvinash+(Occam's+Razor+by+Avinash+Kaushik)&utm_content=buffer95619&utm_medium=twitter)  _(tags: buymystuff, tweet)_
+- 2013-10-01: [This is an excellent use of GitHub as performance](https://t.co/wApbQacMbN)  _(tags: tweet)_
+- 2013-10-01: [Steal This Research Paper! (You Already Paid for It.)  | Mother Jones](http://www.motherjones.com/media/2013/09/michael-eisen-plos-open-access-aaron-swartz)  _(tags: tweet)_
+- 2013-10-01: [Dropbox - revoke-w3.asc](https://www.dropbox.com/s/n9pm7goefx43qhp/revoke-w3.asc)  _(tags: tweet)_
+- 2013-10-01: [C++ and Beyond 2012: Andrei Alexandrescu - Systematic Error Handling in C++ | Going Deep | Channel 9](http://channel9.msdn.com/Shows/Going+Deep/C-and-Beyond-2012-Andrei-Alexandrescu-Systematic-Error-Handling-in-C)  _(tags: programming)_
+- 2013-10-01: [Rust Condition and Error-handling Tutorial](http://static.rust-lang.org/doc/master/tutorial-conditions.html)  _(tags: no_tag)_
+- 2013-10-01: [ECMAScript 6 support in Mozilla - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/ECMAScript_6_support_in_Mozilla)  _(tags: javascript, standards)_

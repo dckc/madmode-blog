@@ -1,0 +1,107 @@
+---
+title: April 2016 Bookmarks: devops, programming, and python
+date: 2016-04-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "android", "capabilities", "collaboration", "data", "devops", "digital-media", "economics", "emacs", "family", "finance", "fp", "java", "javascript", "mac", "machine-learning", "math", "me", "mobile", "music", "nix", "opensource", "performance", "privacy", "programming", "python", "quality", "research", "scm", "security", "statistics", "sysadmin"]
+---
+
+Shared bookmarks saved in April 2016.
+
+- total bookmarks: 93
+- total annotations captured: 51
+
+## Links
+
+- 2016-04-30: [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](http://distrowatch.com/weekly.php?issue=20151123)  _(tags: no_tag)_
+- 2016-04-30: [Getting NixOS 16.03](http://nixos.org/nixos/download.html)  _(tags: no_tag)_
+- 2016-04-30: [GNU Coding Standards: Standard Targets](https://www.gnu.org/prep/standards/html_node/Standard-Targets.html)  _(tags: no_tag)_
+- 2016-04-30: [File:Turner,Robin,Nicholas,Nick - Lojban for Beginners (2002).epub - La Lojban](https://mw.lojban.org/papri/File:Turner,Robin,Nicholas,Nick_-_Lojban_for_Beginners_(2002).epub)  _(tags: no_tag)_
+- 2016-04-29: [NativeBase | The missing piece of React Native](http://nativebase.io)  _(tags: opensource, components, ios, android, reactnative, tweet)_
+- 2016-04-29: [Confusion matrix - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Confusion_matrix)  _(tags: statistics, math, machine-learning)_
+- 2016-04-29: [Who's downloading pirated papers? Everyone | Science | AAAS](http://www.sciencemag.org/news/2016/04/whos-downloading-pirated-papers-everyone)  _(tags: economics, digital-media)_
+- 2016-04-29: [Difference Between Small and Big-step Operational Semantics - Computer Science Stack Exchange](http://cs.stackexchange.com/questions/43294/difference-between-small-and-big-step-operational-semantics)  _(tags: programming, research)_
+- 2016-04-28: [Proper python deployment for the web : Python](https://www.reddit.com/r/Python/comments/3n9ys5/proper_python_deployment_for_the_web/)  _(tags: python, devops)_
+- 2016-04-28: [nixpkgs/default.nix at bd18cc3cdcd93687875fd048c87797b47940c919 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/blob/bd18cc3cdcd93687875fd048c87797b47940c919/pkgs/build-support/vm/default.nix)  _(tags: devops, fp)_
+- 2016-04-28: [Webhooks | GitHub Developer Guide](https://developer.github.com/webhooks/)  _(tags: no_tag)_
+- 2016-04-27: [Agorics Inc.-Agoric Open Systems: Introduction](http://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.1.html)  _(tags: capabilities)_
+- 2016-04-27: [John Gruber: Pythonista is a really cool app, but how did it... on App.net](https://alpha.app.net/gruber/post/1127153)  _(tags: mac, freedom-to-tinker)_
+- 2016-04-27: [ios - Interpreter for the iPhone? - Stack Overflow](http://stackoverflow.com/questions/4891642/interpreter-for-the-iphone)  _(tags: mac, freedom-to-tinker)_
+- 2016-04-26: [node-eps/002-es6-modules.md at master · nodejs/node-eps](https://github.com/nodejs/node-eps/blob/master/002-es6-modules.md)  _(tags: javascript, quality)_
+- 2016-04-26: [Jenkins 2.0 is here!](https://jenkins.io/blog/2016/04/26/jenkins-20-is-here/)  _(tags: devops)_
+- 2016-04-26: [Only Voter Suppression Can Stop Bernie Sanders](http://www.huffingtonpost.com/tony-brasunas/only-voter-suppression-can-stop-bernie-sanders_b_9780128.html)  _(tags: america)_
+- 2016-04-26: [Suitability of Emacs as a Java development IDE - Emacs Stack Exchange](http://emacs.stackexchange.com/questions/13329/suitability-of-emacs-as-a-java-development-ide)  _(tags: emacs, programming)_
+- 2016-04-23: [cyclejs/cycle-time-travel: A time traveling debugger for Cycle.js](https://github.com/cyclejs/cycle-time-travel)  _(tags: javascript, fp, frp, programming)_
+- 2016-04-23: [Cycle.js](http://cycle.js.org)  _(tags: frp, javascript)_
+- 2016-04-23: [Gamasutra - How Infocom fell to ruin under Activision's watch](http://www.gamasutra.com/view/news/271162/How_Infocom_fell_to_ruin_under_Activisions_watch.php?utm_source=dlvr.it&utm_medium=twitter)  _(tags: tweet)_
+- 2016-04-23: [The time Prince gave a free concert at a college for deaf students - The Washington Post](https://www.washingtonpost.com/news/arts-and-entertainment/wp/2016/04/22/the-time-prince-gave-a-free-concert-at-a-college-for-deaf-students/)  _(tags: rip, music, tweet)_
+- 2016-04-22: [Nix port - Genode OS Framework / Mailing Lists](https://sourceforge.net/p/genode/mailman/message/34645641/)  _(tags: devops, capabilities)_
+- 2016-04-22: [About SAML 2.0-based Federation - AWS Identity and Access Management](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_saml.html)  _(tags: no_tag)_
+- 2016-04-21: [Read file from Jenkins workspace with System groovy script - Stack Overflow](http://stackoverflow.com/questions/23636436/read-file-from-jenkins-workspace-with-system-groovy-script)  _(tags: no_tag)_
+- 2016-04-21: [JavaScript Stored Procedures and Node.js Applications with Oracle Database 12c (Nashorn)](https://blogs.oracle.com/nashorn/entry/javascript_stored_procedures_and_node)  _(tags: no_tag)_
+- 2016-04-21: [PostgreSQL: Documentation: 9.1: Porting from Oracle PL/SQL](http://www.postgresql.org/docs/9.1/static/plpgsql-porting.html)  _(tags: no_tag)_
+- 2016-04-21: [PostgreSQL: Documentation: 9.4: Python 2 vs. Python 3](http://www.postgresql.org/docs/9.4/static/plpython-python23.html)  _(tags: no_tag)_
+- 2016-04-21: [The Travis CI Blog: Xcode 6.3 Beta general availability](https://blog.travis-ci.com/2015-05-26-xcode-63-beta-general-availability/)  _(tags: devops, mac, quality, programming)_
+- 2016-04-21: [Travis CI for iOS · objc.io](https://www.objc.io/issues/6-build-tools/travis-ci/)  _(tags: mac, programming, quality, devops)_
+- 2016-04-21: [Troubleshooting - Conda documentation](http://conda.pydata.org/docs/troubleshooting.html)  _(tags: sysadmin, problem, python, data)_
+- 2016-04-20: [What Does Gradle Think Of Google's Bazel? l Gradle](https://gradle.org/gradle-team-perspective-on-bazel/)  _(tags: devops)_
+- 2016-04-20: [Blog - Bazel](http://bazel.io/blog/)  _(tags: devops)_
+- 2016-04-20: [Home | Dropwizard](http://www.dropwizard.io/0.9.2/docs/)  _(tags: no_tag)_
+- 2016-04-20: [Migrating from Gradle to Bazel » Paul Gross's Blog](https://www.pgrs.net/2015/09/01/migrating-from-gradle-to-bazel/)  _(tags: devops)_
+- 2016-04-20: [Collection (Groovy JDK enhancements)](http://docs.groovy-lang.org/latest/html/groovy-jdk/java/util/Collection.html)  _(tags: programming, fp)_
+- 2016-04-20: [Functional Programming with Groovy - DZone Java](https://dzone.com/articles/functional-programming-groovy)  _(tags: fp)_
+- 2016-04-20: [Rundeck.org - Job Scheduler and Runbook Automation](http://rundeck.org)  _(tags: devops)_
+- 2016-04-20: [Write Groovy scripts for Jenkins with code completion](http://www.mdoninger.de/2011/11/07/write-groovy-scripts-for-jenkins-with-code-completion.html)  _(tags: no_tag)_
+- 2016-04-20: [File (Groovy JDK enhancements)](http://docs.groovy-lang.org/latest/html/groovy-jdk/java/io/File.html)  _(tags: no_tag)_
+- 2016-04-20: [bookmark all open tabs? | Firefox Support Forum | Mozilla Support](https://support.mozilla.org/en-US/questions/990071)  _(tags: no_tag)_
+- 2016-04-19: [How to install DBD::Oracle](http://g14n.info/2013/07/how-to-install-dbdoracle/)  _(tags: no_tag)_
+- 2016-04-19: [Ora2Pg : Migrates Oracle to PostgreSQL](http://ora2pg.darold.net/documentation.html)  _(tags: no_tag)_
+- 2016-04-19: [gnumed/gmDemographics.sql at master · ncqgm/gnumed](https://github.com/ncqgm/gnumed/blob/master/gnumed/gnumed/server/sql/gmDemographics.sql)  _(tags: no_tag)_
+- 2016-04-19: [DbFormsStorage < Gnumed < Foswiki](http://wiki.gnumed.de/bin/view/Gnumed/DbFormsStorage)  _(tags: no_tag)_
+- 2016-04-19: [DbStructure < Gnumed < Foswiki](http://wiki.gnumed.de/bin/view/Gnumed/DbStructure)  _(tags: no_tag)_
+- 2016-04-19: [Data Model - Documentation - OpenMRS Wiki](https://wiki.openmrs.org/display/docs/Data+Model)  _(tags: no_tag)_
+- 2016-04-19: [OpenEMR / Discussion / Help:PostgreSQL](https://sourceforge.net/p/openemr/discussion/202505/thread/947b81dd/?limit=25)  _(tags: no_tag)_
+- 2016-04-19: [How to integrate with Epic (or any EHR)](https://catalyze.io/learn/how-to-integrate-with-epic-or-any-ehr)  _(tags: no_tag)_
+- 2016-04-19: [SPARC: Setting the Default to Open in Research and Education](http://datasharing.sparcopen.org)  _(tags: tweet)_
+- 2016-04-19: [I don't know how much this guy makes, but it's not](http://i.imgur.com/wc9YIXP.gifv)  _(tags: tweet)_
+- 2016-04-17: [José Padilla - Backup OpenPGP keys on paper](http://jpadilla.com/post/100355231982/backup-openpgp-keys-on-paper)  _(tags: problem, security, sysadmin)_
+- 2016-04-16: [Retro on the Julia Programming Language — Staffjoy Blog](https://blog.staffjoy.com/retro-on-the-julia-programming-language-7655121ea341)  _(tags: no_tag)_
+- 2016-04-16: [REX-Computing/unumjl: Julia Implementation of Unums](https://github.com/REX-Computing/unumjl)  _(tags: no_tag)_
+- 2016-04-16: [Unum Computing: An Energy Efficient and Massively Parallel Approach t…](http://www.slideshare.net/insideHPC/unum-computing-an-energy-efficient-and-massively-parallel-approach-to-valid-numerics)  _(tags: no_tag)_
+- 2016-04-16: [expipiplus1/exact-real: Exact real arithmetic in Haskell](https://github.com/expipiplus1/exact-real)  _(tags: no_tag)_
+- 2016-04-16: [Welcoming JSCS To ESLint - ESLint - Pluggable JavaScript linter](http://eslint.org/blog/2016/04/welcoming-jscs-to-eslint)  _(tags: no_tag)_
+- 2016-04-16: [GNU Emacs Manual: Specifying File Variables](https://www.gnu.org/software/emacs/manual/html_node/emacs/Specifying-File-Variables.html)  _(tags: no_tag)_
+- 2016-04-15: [Gone In Six Characters: Short URLs Considered Harmful for Cloud Services](https://freedom-to-tinker.com/blog/vitaly/gone-in-six-characters-short-urls-considered-harmful-for-cloud-services/)  _(tags: no_tag)_
+- 2016-04-15: [Kite - Privacy](https://www.kite.com/privacy/)  _(tags: no_tag)_
+- 2016-04-15: [Kite - FAQ](https://www.kite.com/faq/)  _(tags: no_tag)_
+- 2016-04-15: [Viewpoint: Secure Edge Cache: Optimizing the Network and Reducing Latency -  The Broadcast Bridge - Connecting IT to Broadcast](https://www.thebroadcastbridge.com/content/entry/5597/viewpoint-secure-edge-cache-optimizing-the-network-and-reducing-latency)  _(tags: tweet)_
+- 2016-04-15: [American Airlines Hits Out at &#x27;Unacceptable&#x27; TSA Lines - NBC News](http://www.nbcnews.com/business/travel/long-lines-missed-flights-fuel-airlines-others-criticism-tsa-screening-n555511)  _(tags: no_tag)_
+- 2016-04-14: [How to walk with spacewalk | Xebia Blog](http://blog.xebia.com/how-to-walk-with-spacewalk/)  _(tags: no_tag)_
+- 2016-04-14: [https://hub.docker.com/r/ruo91/spacewalk/](https://hub.docker.com/r/ruo91/spacewalk/)  _(tags: no_tag)_
+- 2016-04-14: [dockerTools: remove &quot;tarballs&quot; attribute by puffnfresh · Pull Request #14588 · NixOS/nixpkgs · GitHub](https://github.com/NixOS/nixpkgs/pull/14588)  _(tags: nix, tweet)_
+- 2016-04-14: [SSRG | NICTA | Complete, high-assurance determination of loop bounds and infeasible paths for WCET analysis](http://ssrg.nicta.com.au/publications/nictaabstracts/Sewell_KH_16.abstract.pml)  _(tags: tweet)_
+- 2016-04-13: [About - Stellar](https://www.stellar.org/about/)  _(tags: no_tag)_
+- 2016-04-13: [Untitled](http://codenarc.sourceforge.net)  _(tags: java, jvm, capabilities, security, quality, programming)_
+- 2016-04-12: [ARITH 22 - Program](http://arith22.gforge.inria.fr/program.html)  _(tags: no_tag)_
+- 2016-04-11: [Numerical evaluation - SymPy 1.0 documentation](http://docs.sympy.org/latest/modules/evalf.html)  _(tags: no_tag)_
+- 2016-04-11: [Classes | Pony Tutorial](http://tutorial.ponylang.org/types/primitives.html)  _(tags: no_tag)_
+- 2016-04-08: [On Web-Security and -Insecurity: Detecting and exploiting XXE in SAML Interfaces](http://web-in-security.blogspot.com.au/2014/11/detecting-and-exploiting-xxe-in-saml.html)  _(tags: no_tag)_
+- 2016-04-07: [Galois Awarded $6.2 Million DARPA Contract To ‘Crash Test’ System Privacy - Galois, Inc.](https://galois.com/news/galois-awarded-6-2-million-darpa-contract-to-crash-test-system-privacy/)  _(tags: no_tag)_
+- 2016-04-07: [TAMBA: Testing and Modeling of Brandeis Artifacts - Galois, Inc.](http://galois.com/project/tamba/)  _(tags: no_tag)_
+- 2016-04-07: [Brandeis](http://www.darpa.mil/program/brandeis)  _(tags: no_tag)_
+- 2016-04-07: [HaLVM - Galois, Inc.](https://galois.com/project/halvm/)  _(tags: no_tag)_
+- 2016-04-06: [Bernie Sanders for President | Event | Johnson County, KS for Bernie Phone Bank](https://go.berniesanders.com/page/event/detail/phonebankevent/4488c)  _(tags: no_tag)_
+- 2016-04-06: [Who’s On Track For The Nomination? | FiveThirtyEight](http://projects.fivethirtyeight.com/election-2016/delegate-targets/democrats/)  _(tags: no_tag)_
+- 2016-04-06: [Python, Tcl and Perl, oh my! (was Re: tcl vs. perl)](https://groups.google.com/forum/#!topic/comp.lang.python/KWhcWXt0BqA)  _(tags: python, me)_
+- 2016-04-06: [capnproto/highlighting/emacs at master · sandstorm-io/capnproto](https://github.com/sandstorm-io/capnproto/tree/master/highlighting/emacs)  _(tags: no_tag)_
+- 2016-04-06: [Choosing a client — Ethereum Homestead 0.1 documentation](http://www.ethdocs.org/en/latest/ethereum-clients/choosing-a-client.html)  _(tags: no_tag)_
+- 2016-04-05: [WhatsApp Just Switched on Encryption for a Billion People | Hacker News](https://news.ycombinator.com/item?id=11430945)  _(tags: no_tag)_
+- 2016-04-05: [Proof of Physical Address](https://proofofphysicaladdress.com)  _(tags: smart, contract)_
+- 2016-04-05: [This dude fencing a quadcopter](http://i.imgur.com/lQrxrwy.gifv)  _(tags: tweet)_
+- 2016-04-05: [The 2^120 Ways to Ensure Unique Identifiers - Firebase](https://www.firebase.com/blog/2015-02-11-firebase-unique-identifiers.html)  _(tags: tweet, data, performance)_
+- 2016-04-05: [Diigo's Refocus Back to Annotation | Diigo](http://blog.diigo.com/2016/04/05/diigos-refocus-back-to-annotation/)  _(tags: tweet, collaboration)_
+- 2016-04-04: [reStructuredText Primer — Sphinx 1.4 documentation](http://www.sphinx-doc.org/en/stable/rest.html?highlight=list)  _(tags: no_tag)_
+- 2016-04-04: [Squash your commits](https://github.com/blog/2141-squash-your-commits)  _(tags: scm, collaboration, integrity)_
+- 2016-04-03: [Magit Cheatsheet](http://daemianmack.com/magit-cheatsheet.html)  _(tags: no_tag)_
+- 2016-04-02: [OptOutPrescreen.com](https://www.optoutprescreen.com/?rf=t)  _(tags: family, finance, someday, privacy, consumer)_
+- 2016-04-01: [Lychee — Self-hosted photo-management done right](http://lychee.electerious.com)  _(tags: no_tag)_
+- 2016-04-01: [The Game of Mafia Rules](http://www.menconi.com/games/mafia.html)  _(tags: no_tag)_

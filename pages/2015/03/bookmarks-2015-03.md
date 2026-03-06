@@ -1,0 +1,115 @@
+---
+title: March 2015 Bookmarks: javascript, programming, and chrome
+date: 2015-03-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "bitcoin", "chrome", "climate", "cloud-services", "collaboration", "college", "data", "economics", "finance", "fp", "graphics", "haskell", "health", "http", "javascript", "jobs", "learning", "lisp", "logic", "machine-learning", "me", "mobile", "netneutrality", "openaccess", "personal", "privacy", "programming", "publishing", "python", "research", "security", "visualization", "world", "writing"]
+---
+
+Shared bookmarks saved in March 2015.
+
+- total bookmarks: 101
+- total annotations captured: 32
+
+## Links
+
+- 2015-03-31: [lcamtuf's blog: On journeys](http://lcamtuf.blogspot.com/2015/03/on-journeys.html)  _(tags: tweet)_
+- 2015-03-31: [Dan McKinley :: Choose Boring Technology](http://mcfunley.com/choose-boring-technology)  _(tags: tweet)_
+- 2015-03-31: [Unidecode 0.04.1 : Python Package Index](https://pypi.python.org/pypi/Unidecode/0.04.1)  _(tags: python, tweet)_
+- 2015-03-31: [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](http://distrowatch.com/weekly.php?issue=20150330#community)  _(tags: no_tag)_
+- 2015-03-31: [Lean](https://leanprover.github.io/about/)  _(tags: research, logic)_
+- 2015-03-30: [Virtualenv/pip on Jython2.7b2](https://gist.github.com/skyl/ea2ab1c62a547e381411)  _(tags: no_tag)_
+- 2015-03-30: [Outfit My Car - Find Car Audio/Video Gear that Fits Your Vehicle at Crutchfield!](http://www.crutchfield.com/Car/outfitmycar/car.aspx)  _(tags: no_tag)_
+- 2015-03-28: [OtpKeyProv - Plugins - KeePass](http://keepass.info/plugins.html#otpkeyprov)  _(tags: mobile, security)_
+- 2015-03-28: [Nuclide - a unified IDE](http://nuclide.io)  _(tags: tweet)_
+- 2015-03-28: [| The P + epsilon Attack -](https://blog.ethereum.org/2015/01/28/p-epsilon-attack/)  _(tags: bitcoin, tweet)_
+- 2015-03-27: [Why Is There No Generic Insulin? Historical Origins of a Modern Problem &mdash; NEJM](http://www.nejm.org/doi/full/10.1056/NEJMms1411398?rss=searchAndBrowse)  _(tags: tweet)_
+- 2015-03-27: [React Native | A framework for building native apps using React](http://facebook.github.io/react-native/)  _(tags: tweet)_
+- 2015-03-26: [Dan Connolly - AngelList](https://angel.co/dan-connolly)  _(tags: me)_
+- 2015-03-26: [if.then.fund - Reshaping Congress by empowering small dollar donors to make contributions based on what politicians do, not what they promise.](https://if.then.fund)  _(tags: tweet)_
+- 2015-03-26: [google/yapf · GitHub](https://github.com/google/yapf)  _(tags: tweet)_
+- 2015-03-25: [web_send: JSON shell for the browser](http://waterken.sourceforge.net/web_send/)  _(tags: no_tag)_
+- 2015-03-25: [web-key: Mashing with permission](http://waterken.sourceforge.net/web-key/#f3)  _(tags: no_tag)_
+- 2015-03-25: [sandstorm-io/sandstorm-rawapi-example](https://github.com/sandstorm-io/sandstorm-rawapi-example)  _(tags: no_tag)_
+- 2015-03-25: [Brendan Eich » Blog Archive » Static Analysis FTW](https://brendaneich.com/2010/08/static-analysis-ftw/)  _(tags: no_tag)_
+- 2015-03-25: [Distributed Resilient Secure ECMAScript (Dr. SES) | Invokedynamic](http://soft.vub.ac.be/~tvcutsem/invokedynamic/drses)  _(tags: no_tag)_
+- 2015-03-25: [Hg-Git Mercurial Plugin](https://hg-git.github.io)  _(tags: no_tag)_
+- 2015-03-25: [ruby on rails - `require': no such file to load -- mkmf (LoadError) - Stack Overflow](http://stackoverflow.com/questions/7645918/require-no-such-file-to-load-mkmf-loaderror)  _(tags: no_tag)_
+- 2015-03-25: [peter-murach/github_cli](https://github.com/peter-murach/github_cli)  _(tags: no_tag)_
+- 2015-03-25: [How to find recently modified files on Linux - Xmodulo](http://xmodulo.com/how-to-find-recently-modified-files-on-linux.html)  _(tags: no_tag)_
+- 2015-03-25: [Kevin Reid's blog - A Visual Introduction to DSP for SDR — now live in your browser!](http://kpreid.livejournal.com/52068.html)  _(tags: dsp, sdr)_
+- 2015-03-25: [Skulpt](http://www.skulpt.org)  _(tags: python, javascript)_
+- 2015-03-25: [Pollen](http://pollenpub.com)  _(tags: publishing, writing, programming)_
+- 2015-03-25: [Pay Dan C. — Square Cash](https://cash.me/$dckc)  _(tags: me)_
+- 2015-03-25: [common lisp - CL-PPCRE Unicode Property - Stack Overflow](http://stackoverflow.com/questions/29258819/cl-ppcre-unicode-property)  _(tags: lisp, regex)_
+- 2015-03-25: [CL-PPCRE - Portable Perl-compatible regular expressions for Common Lisp](http://weitz.de/cl-ppcre/#install)  _(tags: lisp, regex)_
+- 2015-03-25: [Quicklisp beta](http://www.quicklisp.org/beta/)  _(tags: lisp, collaboration)_
+- 2015-03-25: [C&C -  Notes on Quotients Types](http://jozefg.bitbucket.org/posts/2014-10-17-quotients.html)  _(tags: tweet, fp, logic)_
+- 2015-03-25: [Behold the World&#8217;s Oldest Known D20! | Nerdist](http://nerdist.com/behold-the-worlds-oldest-known-d20/)  _(tags: tweet)_
+- 2015-03-24: [Introducing $Cashtags - YouTube](https://www.youtube.com/watch?v=16Y4pDr8iZY&feature=youtu.be)  _(tags: tweet, personal, finance)_
+- 2015-03-24: [Google Researchers Demonstrate Breakthrough Needed for Quantum Computing | MIT Technology Review](http://www.technologyreview.com/news/535621/google-researchers-make-quantum-computing-components-more-reliable/)  _(tags: technology, tweet)_
+- 2015-03-24: [Google](http://www.google.com)  _(tags: security, tweet, machine-learning)_
+- 2015-03-23: [How Apache *really* works | Community Over Code](http://communityovercode.com/2015/03/how-apache-really-works/)  _(tags: tweet, collaboration)_
+- 2015-03-23: [Annotating the web: my new job | Jon Udell](http://blog.jonudell.net/2015/03/22/annotating-the-web-my-new-job/)  _(tags: tweet, collaboration)_
+- 2015-03-21: [Loop School](http://school.looprecur.com)  _(tags: haskell, tweet, fp)_
+- 2015-03-21: [The billionaire’s typewriter - Butterick's Practical Typography](http://practicaltypography.com/billionaires-typewriter.html)  _(tags: tweet)_
+- 2015-03-21: [Obama Appoints Facebook&#8217;s David Recordon IT Director at White House | Re/code](http://recode.net/2015/03/19/facebooks-david-recordon-named-it-director-at-the-white-house/)  _(tags: tweet)_
+- 2015-03-20: [Talky](https://beta.talky.io)  _(tags: tweet, webrtc)_
+- 2015-03-20: [. joins 140 companies &amp; groups thanking   &amp](http://www.spitfirestrategies.com/wp-content/uploads/2015/03/FCC-letter.pdf)  _(tags: netneutrality, tweet)_
+- 2015-03-19: [mdaines/viz.js · GitHub](https://github.com/mdaines/viz.js/)  _(tags: javascript, graphics, visualization)_
+- 2015-03-19: [GraphvizFiddle (HermannSW)](https://www.ibm.com/developerworks/community/blogs/HermannSW/entry/graphvizfiddle?lang=en)  _(tags: graphics, visualization)_
+- 2015-03-19: [GraphvizFiddle](http://stamm-wilbrandt.de/GraphvizFiddle/)  _(tags: javascript, graphics, visualization)_
+- 2015-03-19: [nsf.gov - National Science Foundation (NSF) News - National Science Foundation announces plan for comprehensive public access to research results - US National Science Foundation (NSF)](https://www.nsf.gov/news/news_summ.jsp?cntn_id=134478&org=NSF)  _(tags: tweet, openaccess, oa)_
+- 2015-03-19: [We&#8217;re Hiring! | Mozilla Science Lab](http://www.mozillascience.org/were-hiring)  _(tags: tweet, research, learning)_
+- 2015-03-19: [US NSF - News - Special Reports - Public Access to Results of NSF-funded Research](http://www.nsf.gov/news/special_reports/public_access/)  _(tags: nsf, tweet)_
+- 2015-03-18: [Timmys Journey: A Statistics Game | Indiegogo](https://www.indiegogo.com/projects/timmy-s-journey-a-statistics-game)  _(tags: tweet)_
+- 2015-03-18: [The Whirlpool Economy](http://thelongandshort.org/issues/season-three/the-whirlpool-economy-2.html)  _(tags: tweet, economics, world)_
+- 2015-03-18: [In Pieces - 30 Endangered Species, 30 Pieces.](http://www.species-in-pieces.com)  _(tags: tweet)_
+- 2015-03-18: [Punk Games - Boing Boing](http://boingboing.net/2015/03/16/punk-games.html)  _(tags: gamedev, tweet)_
+- 2015-03-17: [We&#39;re Mayday. And we have a plan. - YouTube](https://www.youtube.com/watch?v=XP9ryGVgF2U)  _(tags: tweet)_
+- 2015-03-17: [The New Optimism of Al Gore, by   http://t.co/byIt](http://www.nytimes.com/glogin?URI=http%3A%2F%2Fwww.nytimes.com%2F2015%2F03%2F17%2Fscience%2Fthe-new-optimism-of-al-gore.html%3Fsmid%3Dtw-share%26_r%3D1)  _(tags: tweet, world, climate)_
+- 2015-03-17: [The Hiring Post &mdash; Quarrelsome](http://sockpuppet.org/blog/2015/03/06/the-hiring-post/)  _(tags: tweet)_
+- 2015-03-17: [Can the mobile Web win back developers from iOS, Android? - CNET](http://www.cnet.com/news/can-the-mobile-web-win-back-developers-from-ios-android/)  _(tags: tweet)_
+- 2015-03-16: [Content Scripts - Google Chrome](https://developer.chrome.com/extensions/content_scripts#pi)  _(tags: security, chrome, web, browser, programming)_
+- 2015-03-16: [Tutorial: Debugging - Google Chrome](https://developer.chrome.com/extensions/tut_debugging)  _(tags: chrome, web, browser, programming)_
+- 2015-03-16: [Getting Started: Building a Chrome Extension - Google Chrome](https://developer.chrome.com/extensions/getstarted)  _(tags: chrome, web, browser, programming)_
+- 2015-03-16: [Protecting Your Cookies: HttpOnly](http://blog.codinghorror.com/protecting-your-cookies-httponly/)  _(tags: web, security, http)_
+- 2015-03-16: [Document.cookie - Web API Interfaces | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie)  _(tags: web, security, javascript)_
+- 2015-03-15: [flow/node.js at master · facebook/flow](https://github.com/facebook/flow/blob/master/lib/node.js)  _(tags: no_tag)_
+- 2015-03-15: [Babel · The transpiler for writing next generation JavaScript](https://babeljs.io)  _(tags: javascript, programming)_
+- 2015-03-15: [Creating multiline strings in JavaScript - Stack Overflow](http://stackoverflow.com/questions/805107/creating-multiline-strings-in-javascript)  _(tags: no_tag)_
+- 2015-03-14: [resume/za_resume.rst at master · zancas/resume](https://github.com/zancas/resume/blob/master/za_resume.rst)  _(tags: no_tag)_
+- 2015-03-14: [Pat Hayes and Margaret Warren discuss Image Snippets - Lotico New York Semantic Web (New York, NY)- Meetup](http://www.meetup.com/semweb-25/events/221126096/)  _(tags: tweet)_
+- 2015-03-13: [XMLDataSetSchemaReader (SwingLabs API)](http://download.java.net/javadesktop/swinglabs/releases/0.8/docs/api/org/jdesktop/dataset/io/schema/XMLDataSetSchemaReader.html)  _(tags: no_tag)_
+- 2015-03-13: [debian - Go error "undefined: sync.Pool" when installing go-mtpfs - Stack Overflow](http://stackoverflow.com/questions/26236734/go-error-undefined-sync-pool-when-installing-go-mtpfs)  _(tags: no_tag)_
+- 2015-03-13: [Fixing an SSLv3 Error Connecting to Bitbucket from SourceTree with Mercurial | Xcellerant](http://xcellerant.net/2014/10/29/fixing-an-sslv3-error-connecting-to-bitbucket-from-sourcetree/)  _(tags: no_tag)_
+- 2015-03-12: [Rhino requirements and limitations - Mozilla | MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Requirements_and_Limitations)  _(tags: no_tag)_
+- 2015-03-12: [Introduction to Java in Oracle Database](http://docs.oracle.com/cd/E11882_01/java.112/e10588/chone.htm)  _(tags: no_tag)_
+- 2015-03-12: [[Wikitech-l] Wikimedia REST content API is now available in beta](https://lists.wikimedia.org/pipermail/wikitech-l/2015-March/081135.html)  _(tags: tweet)_
+- 2015-03-12: [Google Chrome Blog: For What&#8217;s Next: the new Chromebook Pixel and USB Type-C](http://chrome.blogspot.com/2015/03/for-whats-next-new-chromebook-pixel-and.html)  _(tags: tweet)_
+- 2015-03-12: [js;dr = JavaScript required; Didn’t Read.Pages that are empty without JS: dead to history (archive-org), unreliable for search results (despite any search engine claims of JS support, check it yourself), and thus ignorable. No need to waste time reading o](http://tantek.com/2015/069/t1/js-dr-javascript-required-dead)  _(tags: tweet)_
+- 2015-03-11: [Using global unique identifiers to link autism collections](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3000750/)  _(tags: health, data, research, privacy)_
+- 2015-03-09: [Google wants to rank websites based on facts not links - 28 February 2015 - New Scientist](http://www.newscientist.com/article/mg22530102.600-google-wants-to-rank-websites-based-on-facts-not-links.html#.VPoOFbDF9ew)  _(tags: tweet)_
+- 2015-03-07: [koding vm](https://koding.com/IDE/koding-vm-0/my-workspace)  _(tags: programming, collaboration, cloud-services, learning)_
+- 2015-03-07: [ofx tag in npm](https://www.npmjs.com/browse/keyword/ofx)  _(tags: javascript, finance)_
+- 2015-03-07: [banking](https://www.npmjs.com/package/banking)  _(tags: no_tag)_
+- 2015-03-07: [Discover Card OFX Home](http://www.ofxhome.com/index.php/institution/view/444)  _(tags: finance, programming)_
+- 2015-03-07: [United on Twitter: &quot;@searls A direct flight means that there is a stop &amp; a possible change of gates/planes. A non-stop flight means that there is no stop. ^GJ&quot;](https://twitter.com/united/status/573625507843043328)  _(tags: tweet)_
+- 2015-03-07: [People Who Could Really Break The Internet | Cloudmark Security Blog](http://blog.cloudmark.com/2015/03/05/people-who-could-really-break-the-internet/)  _(tags: tweet, web, security)_
+- 2015-03-07: [NRA&rsquo;s personal swipe at Gabby Giffords on Twitter: The National Rifle Association&rsquo;s new low.](http://www.slate.com/articles/news_and_politics/politics/2015/03/nra_s_personal_swipe_at_gabby_giffords_on_twitter_the_national_rifle_association.html)  _(tags: tweet)_
+- 2015-03-07: [A Super-Quick Introduction to BioFabric](http://www.biofabric.org/gallery/pages/SuperQuickBioFabric.html)  _(tags: tweet)_
+- 2015-03-07: [Tessel 2 by Technical Machine](https://tessel.io)  _(tags: tessel, tweet)_
+- 2015-03-07: [General Relativity explained like you've never seen before](http://spark.sciencemag.org/generalrelativity/)  _(tags: tweet)_
+- 2015-03-07: [Stripe API Reference](https://stripe.com/docs/api#intro)  _(tags: no_tag)_
+- 2015-03-06: [A Few Thoughts on Cryptographic Engineering: Attack of the week: FREAK (or 'factoring the NSA for fun and profit')](http://blog.cryptographyengineering.com/2015/03/attack-of-week-freak-or-factoring-nsa.html)  _(tags: freak, tweet)_
+- 2015-03-05: [ajlopez/CobolScript · GitHub](https://github.com/ajlopez/CobolScript)  _(tags: tweet)_
+- 2015-03-05: [Verbatim](http://verbat.im)  _(tags: tweet)_
+- 2015-03-04: [asm.js Speedups Everywhere &#10025;        Mozilla Hacks &#8211; the Web developer blog](https://hacks.mozilla.org/2015/03/asm-speedups-everywhere/)  _(tags: tweet)_
+- 2015-03-04: [The Hammer Time Speaking Clock &laquo; Tom Scott](http://www.tomscott.com/hammer/)  _(tags: tweet)_
+- 2015-03-04: [On getting paid (or not) to write | Jon Udell](http://blog.jonudell.net/2015/03/02/on-getting-paid-or-not-to-write/)  _(tags: tweet)_
+- 2015-03-04: [Fascinating visualization of dial-up modem noises.](http://upload.wikimedia.org/wikipedia/commons/a/ad/Dial_up_modem_noises_explained_final.png)  _(tags: tweet)_
+- 2015-03-03: [Cycorp Inc. · GitHub](https://github.com/cycorp)  _(tags: tweet)_
+- 2015-03-03: [Software Engineer Intern job at Twitch in San Francisco, CA, powered by JobScore](http://www.jobscore.com/jobs2/twitch/software-engineer-intern/cwmYV-lWir44T1eJe9fLhG)  _(tags: college, programming, jobs)_
+- 2015-03-02: [The  calling "packet loss" a measure of performanc](http://transition.fcc.gov/Daily_Releases/Daily_Business/2015/db0226/DOC-332260A1.pdf)  _(tags: tweet)_
+- 2015-03-01: [news:  The new  notebook version 3.0 has been rele](http://t.co/pvniqqr7i0)  _(tags: python, ipython, tweet)_
+- 2015-03-01: [Why I’m Saying Goodbye to Apple, Google and Microsoft — Backchannel — Medium](https://medium.com/backchannel/why-i-m-saying-goodbye-to-apple-google-and-microsoft-78af12071bd)  _(tags: tweet)_
+- 2015-03-01: [Member of U.S. House Science and Technology committee chooses not to vaccinate his kids &laquo; Why Evolution Is True](https://whyevolutionistrue.wordpress.com/2015/02/27/member-of-u-s-house-science-and-technology-committee-chooses-not-to-vaccinate-his-kids/)  _(tags: tweet)_

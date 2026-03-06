@@ -1,0 +1,145 @@
+---
+title: December 2012 Bookmarks: genode, android, and wikipedia
+date: 2012-12-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "android", "auto", "bitcoin", "cloud", "cloud-services", "coco", "collaboration", "data", "decentralization", "devops", "digital", "digital-media", "diy", "economics", "finance", "hardware", "haskell", "health", "history", "internet", "javascript", "linux", "mac", "media", "mobile", "movies", "music", "open-source", "pc", "personal", "photos", "pim", "programming", "publishing", "python", "quality", "research", "scala", "scm", "security", "shopping", "statistics", "sync", "sysadmin", "travel", "types", "ubuntu", "vm", "wishlist", "world", "writing"]
+---
+
+Shared bookmarks saved in December 2012.
+
+- total bookmarks: 131
+- total annotations captured: 75
+
+## Links
+
+- 2012-12-31: [Computer Science Bibliography Collection: Search Results for query: html](http://liinwww.ira.uka.de/csbib/Misc/dr-dobbs)  _(tags: no_tag)_
+- 2012-12-31: [Computer Science Bibliography Collection: Search Results for query: +au:ConnollyD* +au:Connolly](http://liinwww.ira.uka.de/csbib?query=%2Bau:ConnollyD*+%2Bau:Connolly&maxnum=200&sort=year)  _(tags: writing)_
+- 2012-12-29: [Journal of Cheminformatics | Abstract | chemf: A purely functional chemistry toolkit](http://www.jcheminf.com/content/4/1/38/abstract)  _(tags: scala, tweet)_
+- 2012-12-29: [http://nbviewer.ipython.org/urls/raw.github.com/ipython/ipython/master/docs/examples/notebooks/00_notebook_tour.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/ipython/ipython/master/docs/examples/notebooks/00_notebook_tour.ipynb)  _(tags: no_tag)_
+- 2012-12-29: [Documentation - CoCoCoding](https://sites.google.com/a/aaronwolfe.com/cococoding/home/docs)  _(tags: coco)_
+- 2012-12-29: [Disable Media Scanning in Specific Android Directories With a .Nomedia File](http://lifehacker.com/5793803/disable-media-scanning-in-specific-android-directories-by-creating-a-nomedia-file)  _(tags: photos, android)_
+- 2012-12-29: [4.0 ice cream sandwich - Adding tags to photos in the Gallery - Android Enthusiasts](http://android.stackexchange.com/questions/20739/adding-tags-to-photos-in-the-gallery)  _(tags: photos, sync, sysadmin, pim)_
+- 2012-12-29: [[Coco] Cassete reading](http://five.pairlist.net/pipermail/coco/2012-December/064144.html)  _(tags: coco)_
+- 2012-12-29: [Download - Vcc, Color Computer 3 Emulator - CoCo 4](http://www.coco4.com/vcc/download.shtml)  _(tags: coco, emulator, vm)_
+- 2012-12-29: [[Coco] Cassete reading](http://five.pairlist.net/pipermail/coco/2012-December/064123.html)  _(tags: no_tag)_
+- 2012-12-29: [Using SDL: Intialization](http://www.libsdl.org/intro.en/usinginit.html)  _(tags: no_tag)_
+- 2012-12-29: [Java - Community Ubuntu Documentation](https://help.ubuntu.com/community/Java)  _(tags: sysadmin)_
+- 2012-12-29: [Aaron Newcomb - Google+ - JavaCoco the TRS-80 Color Computer emulator written in Java…](https://plus.google.com/105847768243032813675/posts/VXLexUJgU2v)  _(tags: coco)_
+- 2012-12-29: [CoCoNut Directory « The TRS-80/Tandy Color Computer SuperSite!](http://www.coco3.com/community/coconut-directory/)  _(tags: coco)_
+- 2012-12-29: [Cookbook/BuildingArrays -](http://www.scipy.org/Cookbook/BuildingArrays)  _(tags: no_tag)_
+- 2012-12-29: [/projects/gr-smartnet/trunk/src/python/fsk_demod.py – The Comprehensive GNU Radio Archive Network (CGRAN)](https://www.cgran.org/browser/projects/gr-smartnet/trunk/src/python/fsk_demod.py?rev=467)  _(tags: no_tag)_
+- 2012-12-28: [Installing SciPy/Linux -](http://www.scipy.org/Installing_SciPy/Linux#head-fb320be917b02f8fbe70e3fb2c9fe6f5f5f06fc2)  _(tags: no_tag)_
+- 2012-12-28: [Replace the bottom heating element in my oven?](http://www.frugalvillage.com/forums/appliances/112612-replace-bottom-heating-element-my-oven.html)  _(tags: diy)_
+- 2012-12-27: [supergillis/v8-ken · GitHub](https://github.com/supergillis/v8-ken/)  _(tags: javascript, security)_
+- 2012-12-27: [ode to a closet librarian (take 2) from Dan Connolly on 2004-10-02 (www-archive@w3.org from October 2004)](http://lists.w3.org/Archives/Public/www-archive/2004Oct/0007)  _(tags: research, archives, bibliography)_
+- 2012-12-26: [iPhoto plugin to export photos directly to OpenPhoto – The OpenPhoto Project](http://openphoto.uservoice.com/forums/141441-general-discussion-and-feature-requests/suggestions/2421856-iphoto-plugin-to-export-photos-directly-to-openpho)  _(tags: photos, programming)_
+- 2012-12-24: [daniel.haxx.se    &raquo; The curl year 2012](http://daniel.haxx.se/blog/2012/12/23/the-curl-year-2012/)  _(tags: libcurl, tweet)_
+- 2012-12-24: [Bedside](http://www.bedsideapp.com)  _(tags: tweet)_
+- 2012-12-24: [Nexus: fast technothriller about transhuman drug crackdown  - Boing Boing](http://boingboing.net/2012/12/18/nexus-fast-exciting.html)  _(tags: tweet)_
+- 2012-12-23: [software recommendation - How can I add text and images (for example, a signature) to a PDF? - Ask Ubuntu](http://askubuntu.com/questions/87419/how-can-i-add-text-and-images-for-example-a-signature-to-a-pdf)  _(tags: no_tag)_
+- 2012-12-23: [pdf - Using pdfedit in linux, how do I enable the "draw rectangle" function? - Super User](http://superuser.com/questions/362106/using-pdfedit-in-linux-how-do-i-enable-the-draw-rectangle-function)  _(tags: no_tag)_
+- 2012-12-22: [Thanks to Google Plus, Picasa Gets Unlimited Storage for Photos & Videos, Also Better Tagging](http://readwrite.com/2011/07/01/thanks_to_google_plus_picasa_gets_unlimited_storage_for_photos_and_videos)  _(tags: cloud-services, cloud, photos)_
+- 2012-12-22: [Bluetooth AVRCP 1.3 - Cannot hear media - xda-developers](http://forum.xda-developers.com/showthread.php?t=1932519)  _(tags: no_tag)_
+- 2012-12-22: [Metra Part # 99-8206 | Toyota Highland Dash kit | Metra Online](http://www.metraonline.com/part/Toyota_Highland_Dash_kit_99-8206)  _(tags: diy)_
+- 2012-12-22: [Wordle-Like Word Clouds With JavaScript: D3-Cloud](http://www.webresourcesdepot.com/wordle-like-word-clouds-with-javascript-d3-cloud/)  _(tags: no_tag)_
+- 2012-12-22: [Wordle Blog: Wordle Miscellany](http://blog.wordle.net/2011/09/wordle-miscellany.html)  _(tags: no_tag)_
+- 2012-12-22: [WordPress to Octopress and Back | Kevin Dangoor](http://www.kevindangoor.com/2012/03/wordpress-to-octopress-and-back/)  _(tags: publishing, writing)_
+- 2012-12-21: [Out of curiosity, I grabbed gun death and gun owne](https://dl.dropbox.com/u/38668/deaths-vs-guns.png)  _(tags: tweet, america, data, statistics)_
+- 2012-12-20: [ITF Amsterdam - Ubuntu Linux Set-Up Guide](http://staff.science.uva.nl/~kholshei/linux_guide/)  _(tags: no_tag)_
+- 2012-12-20: [How To Remove TOYOTA HIGHLANDER RADIO diy stereo dash 2003 2004 - YouTube](http://www.youtube.com/watch?v=RbRxV3fV9cI)  _(tags: diy, auto, mobile)_
+- 2012-12-19: [KVM/Installation - Community Ubuntu Documentation](https://help.ubuntu.com/community/KVM/Installation)  _(tags: sysadmin)_
+- 2012-12-18: [Ride the snake: Calling Python libraries from Haskell](https://john-millikin.com/articles/ride-the-snake/)  _(tags: programming, python, haskell)_
+- 2012-12-18: [Photo by puffnfresh &bull; Instagram](http://instagram.com/p/TViTc4QqKg/)  _(tags: tweet)_
+- 2012-12-17: [Sander van der Burg's blog: Building Android applications with the Nix package manager](http://sandervanderburg.blogspot.co.uk/2012/11/building-android-applications-with-nix.html)  _(tags: security, android, mobile, programming)_
+- 2012-12-17: [TrustedBSD - Documentation](http://www.trustedbsd.org/docs.html)  _(tags: security)_
+- 2012-12-17: [Android 4.0 Mini PC MK802 II Review | USB Computer Reviews](http://www.laptopmag.com/review/minipc/android-4.0-mini-pc-mk802-ii.aspx#specs)  _(tags: no_tag)_
+- 2012-12-17: [Favi Smart Stick - Page 2 - xda-developers](http://forum.xda-developers.com/showthread.php?s=4afaa16e2d96806bdd5d289fc6cf2916&t=2030551&page=2)  _(tags: no_tag)_
+- 2012-12-16: [L4Re Reference Manual](http://os.inf.tu-dresden.de/L4Re/doc/l4re_servers_ned.html)  _(tags: no_tag)_
+- 2012-12-16: [Genode - How to use Genode with different kernels](http://genode.org/documentation/platforms/index)  _(tags: vm)_
+- 2012-12-16: [QEMU - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Qemu#Accelerator)  _(tags: vm)_
+- 2012-12-16: [Linux Tip: How to Tell if Your Processor Supports VT - How-To Geek](http://www.howtogeek.com/howto/linux/linux-tip-how-to-tell-if-your-processor-supports-vt/)  _(tags: no_tag)_
+- 2012-12-16: [/proc/cpuinfo flags and what they mean - FedoraForum.org](http://forums.fedoraforum.org/showthread.php?t=125099)  _(tags: vm)_
+- 2012-12-15: [Institutional Review Blog: Prisoners Find Interview Research Rewarding](http://www.institutionalreviewblog.com/2012/12/prisoners-find-interview-research.html?m=1)  _(tags: tweet, health, research)_
+- 2012-12-15: [The Web We Lost - Anil Dash](http://dashes.com/anil/2012/12/the-web-we-lost.html)  _(tags: tweet, web, collaboration)_
+- 2012-12-15: [The ARPANET Dialogues  &raquo; Blog Archive   &raquo; Vol. IV](http://www.arpanetdialogues.net/vol-iv/)  _(tags: tweet, collaboration)_
+- 2012-12-15: [CEO Brian Chesky Says Airbnb Will Be Filling More Room Nights Than All Hilton Hotels By The End Of 2012  |  TechCrunch](http://techcrunch.com/2012/12/12/cloudera-ceo-mike-olson-by-december-31st-airbnb-will-be-filling-more-room-nights-than-hilton-hotels/)  _(tags: tweet, travel, economics, decentralization)_
+- 2012-12-14: [Popek and Goldberg virtualization requirements - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Popek_and_Goldberg_virtualization_requirements)  _(tags: vm)_
+- 2012-12-14: [Motorola 68000 - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Motorola_68000)  _(tags: vm, history, coco)_
+- 2012-12-14: [Genode - How Genode came to the Pandaboard](http://genode.org/documentation/articles/pandaboard)  _(tags: security, vm, hardware, programming)_
+- 2012-12-14: [Porting the Hurd to another microkernel](http://www.gnu.org/software/hurd/history/port_to_another_microkernel.html)  _(tags: no_tag)_
+- 2012-12-14: [Popmoney Home: personal payment, mobile payment](https://www.popmoney.com)  _(tags: personal, finance)_
+- 2012-12-13: [Songza's Canada Launch Nabs 1 Million New Users In 70 Days | TechCrunch](http://techcrunch.com/2012/10/18/songzas-canada-launch-nabs-1-million-new-users-in-70-days/)  _(tags: digital, media, economics, music)_
+- 2012-12-13: [Is there a way to export rules in Outlook 2011? - Microsoft Community](http://answers.microsoft.com/en-us/mac/forum/macoffice2011-macoutlook/is-there-a-way-to-export-rules-in-outlook-2011/c4e1d6f9-f81d-49b9-afdf-3fe16237d211?msgId=114f42f8-0b5a-4831-a76e-89fdb7ee9588)  _(tags: cube-life)_
+- 2012-12-13: [Curious: New Samsung Chromebook doesn't support Netflix [UPDATED] | Computerworld Blogs](http://blogs.computerworld.com/laptops/21180/new-samsung-chromebook-netflix)  _(tags: android, movies)_
+- 2012-12-13: [WebRTC hits Firefox, Android and iOS - HTML5Rocks Updates](http://updates.html5rocks.com/2012/12/WebRTC-hits-Firefox-Android-and-iOS)  _(tags: webrtc, tweet)_
+- 2012-12-13: [United Behind the Free Flow of Information | The White House](http://www.whitehouse.gov/blog/2012/12/11/united-behind-free-flow-information)  _(tags: wcit, wcit12, tweet, america, world, internet)_
+- 2012-12-13: [BBC News - The hum that helps to fight crime](http://www.bbc.co.uk/news/science-environment-20629671)  _(tags: tweet, digital-media, authentication)_
+- 2012-12-12: [How to Set Up Internet Sharing on Mac OS X - Light Year SoftwareLight Year Software](http://lightyearsoftware.com/2010/06/how-to-set-up-internet-sharing-on-mac-os-x/)  _(tags: sysadmin, mac)_
+- 2012-12-12: [Open Source: The Scientific Community in Technology | Stephan Sokolow's Blog](http://blog.ssokolow.com/archives/2011/08/21/open-source-the-scientific-community-in-technology/)  _(tags: open-source, collaboration)_
+- 2012-12-12: [mnot's blog: Production Notes](http://www.mnot.net/blog/2012/10/28/production_notes)  _(tags: devops, deployment, sysadmin)_
+- 2012-12-12: [Scala Gems #8: Breeze - Above, Below, and Beyond Tech Talk](http://netzwerg.ch/blog/2012/12/11/scala-gems-number-8-breeze/)  _(tags: tweet, scala, data)_
+- 2012-12-12: [US patent lawsuits now dominated by 'trolls' -study| Reuters](http://www.reuters.com/article/2012/12/10/patents-usa-lawsuits-idUSL1E8NA55M20121210)  _(tags: tweet, america, economics)_
+- 2012-12-12: [The Mayan Doomsday’s effect on survival outcomes in clinical trials](http://www.cmaj.ca/content/184/18/2021.full)  _(tags: tweet)_
+- 2012-12-11: [emacsmirror/jinja2 · GitHub](https://github.com/emacsmirror/jinja2)  _(tags: no_tag)_
+- 2012-12-11: [CasperJS, a toolkit on top of PhantomJS | Code | Nicolas Perriault](https://nicolas.perriault.net/code/2012/introducing-casperjs-toolkit-phantomjs/)  _(tags: quality, javascript)_
+- 2012-12-11: [n1k0/nicolas.perriault.net · GitHub](https://github.com/n1k0/nicolas.perriault.net)  _(tags: no_tag)_
+- 2012-12-11: [ELK 0.3.0 reasoner for OWL EL released from Yevgeny Kazakov on 2012-07-20 (public-owl-dev@w3.org from July to September 2012)](http://lists.w3.org/Archives/Public/public-owl-dev/2012JulSep/0015.html)  _(tags: no_tag)_
+- 2012-12-11: [SourceForge.net: Genode OS Framework: genode-main](http://sourceforge.net/mailarchive/forum.php?thread_name=509CF043.2030003%40genode-labs.com&forum_name=genode-main)  _(tags: no_tag)_
+- 2012-12-11: [InstallingAroraOnLinux - arora - Instructions to install arora on different linux distrobutions. - Cross Platform WebKit Browser - Google Project Hosting](http://code.google.com/p/arora/wiki/InstallingAroraOnLinux)  _(tags: no_tag)_
+- 2012-12-11: [mypy - Development Roadmap](http://www.mypy-lang.org/roadmap.html)  _(tags: programming, python, types, research)_
+- 2012-12-11: [[Edited 11/26 - More Calls to Samsung] No more GSM Desk Vehicle/Dock in GP Store - xda-developers](http://forum.xda-developers.com/showthread.php?t=1966349)  _(tags: mobile, hardware, shopping)_
+- 2012-12-11: [The DIY Workshop | Mods & homemade docks & accessories - xda-developers](http://forum.xda-developers.com/showthread.php?t=1700672)  _(tags: mobile, hardware, diy)_
+- 2012-12-11: [[MOD] Lego dock (using pogo pins) - xda-developers](http://forum.xda-developers.com/showthread.php?t=1504045)  _(tags: mobile, hardware, someday)_
+- 2012-12-11: [Pogo Pin Car Mount now IN STOCK on the Play Store [GSM] - Android Forums](http://androidforums.com/samsung-galaxy-nexus/589942-pogo-pin-car-mount-now-in-stock-play-store-gsm.html)  _(tags: no_tag)_
+- 2012-12-11: [Vehicle Dock - Google Play](https://play.google.com/store/devices/details/Vehicle_Dock?id=galaxy_nexus_hspa_car_dock&feature=accessories#?t=W251bGwsMSwyLDExMSwiZGV2aWNlLWdhbGF4eV9uZXh1c19oc3BhX2Nhcl9kb2NrIl0.)  _(tags: no_tag)_
+- 2012-12-11: [[MOD] Pogo Pin Charging for Verizon Car Dock - xda-developers](http://forum.xda-developers.com/showthread.php?t=1493797)  _(tags: no_tag)_
+- 2012-12-11: [[MOD][PROJECT] Pogo Charging Dock - xda-developers](http://forum.xda-developers.com/showthread.php?t=1497881)  _(tags: no_tag)_
+- 2012-12-11: [Galaxy Nexus - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Samsung_Galaxy_Nexus)  _(tags: mobile, android)_
+- 2012-12-11: [OMAP - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/OMAP#OMAP_4)  _(tags: no_tag)_
+- 2012-12-11: [Apple System on a Chip - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Apple_Ax)  _(tags: no_tag)_
+- 2012-12-11: [OMAP - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/OMAP)  _(tags: no_tag)_
+- 2012-12-11: [Development mailing list of the Genode operating system framework. ()](http://comments.gmane.org/gmane.os.genode.devel/1047)  _(tags: no_tag)_
+- 2012-12-10: [Square Wallet for iPhone, iPod touch, and iPad on the iTunes App Store](https://itunes.apple.com/us/app/square-wallet/id455018546?mt=8)  _(tags: tweet)_
+- 2012-12-10: [graph-tool](http://projects.skewed.de/graph-tool/)  _(tags: tweet)_
+- 2012-12-10: [Red State, Blue City: How the Urban-Rural Divide Is Splitting America - Josh Kron - The Atlantic](http://www.theatlantic.com/politics/archive/2012/11/red-state-blue-city-how-the-urban-rural-divide-is-splitting-america/265686/)  _(tags: tweet)_
+- 2012-12-10: [Electronic Health Records Infographic  | Patients &amp; Families | HealthIT.gov](http://www.healthit.gov/patients-families/electronic-health-records-infographic)  _(tags: tweet)_
+- 2012-12-10: [Extending a logical volume](http://tldp.org/HOWTO/LVM-HOWTO/extendlv.html)  _(tags: sysadmin, linux)_
+- 2012-12-10: [MuPDF - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/MuPDF)  _(tags: no_tag)_
+- 2012-12-09: [JOEDREW!](http://blog.mozilla.org/joe/)  _(tags: no_tag)_
+- 2012-12-09: [How to tell if you’re using hardware acceleration « JOEDREW!](http://blog.mozilla.org/joe/2010/11/10/how-to-tell-if-youre-using-hardware-acceleration/)  _(tags: no_tag)_
+- 2012-12-09: [Ubuntu Desktop Guide - Introduction to 3D Video Acceleration](http://linux.about.com/od/ubuntu_doc/a/ubudg19t4.htm)  _(tags: no_tag)_
+- 2012-12-09: [The WebRTC Announcements Week : BlogGeek.me](http://bloggeek.me/webrtc-announcements/)  _(tags: no_tag)_
+- 2012-12-09: [Hardware Trumps Software Each and EVERY Time : BlogGeek.me](http://bloggeek.me/hardware-trumps-software/)  _(tags: no_tag)_
+- 2012-12-09: [6 key Take-aways from WebRTC Conference](http://daitangroup.com/6-key-take-aways-from-webrtc-conference/)  _(tags: no_tag)_
+- 2012-12-09: [Newegg.com - Computer Parts, PC Components, Laptop Computers, LED LCD TV, Digital Cameras and more!](http://www.newegg.com/Product/ComboBundleDetails.aspx?ItemList=Combo.1136560)  _(tags: pc, hwardware, wishlist)_
+- 2012-12-09: [Intel GMA - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Intel_GMA)  _(tags: no_tag)_
+- 2012-12-09: [Genode - Live-CD images](http://genode.org/download/live-cds)  _(tags: no_tag)_
+- 2012-12-09: [L4 microkernel family - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/L4_microkernel_family)  _(tags: security, research)_
+- 2012-12-09: [Genode - How to start exploring Genode](http://genode.org/documentation/developer-resources/getting_started)  _(tags: no_tag)_
+- 2012-12-09: [seL4 (Secure Embedded L4) | ERTOS | NICTA](http://www.ertos.nicta.com.au/research/sel4/)  _(tags: security, research, someday, programming)_
+- 2012-12-09: [Genode - General overview](http://genode.org/documentation/general-overview/index)  _(tags: no_tag)_
+- 2012-12-09: [Multi-Server Microkernel OS Genode 12.11 Can Build Itself - Slashdot](http://tech.slashdot.org/story/12/12/02/1526240/multi-server-microkernel-os-genode-1211-can-build-itself)  _(tags: no_tag)_
+- 2012-12-09: [The Rise and Fall of Jeremy Hammond: Enemy of the State | Culture News | Rolling Stone](http://www.rollingstone.com/culture/news/the-rise-and-fall-of-jeremy-hammond-enemy-of-the-state-20121207)  _(tags: tweet)_
+- 2012-12-08: [keepass - How to integrate KeyPass and Chrom/Chromium using ChromIPass? - Ask Ubuntu](http://askubuntu.com/questions/130627/how-to-integrate-keypass-and-chrom-chromium-using-chromipass)  _(tags: security, sysadmin, ubuntu)_
+- 2012-12-08: [Dropbox Tech Blog  &raquo; Blog Archive   &raquo; Welcome Guido!](https://tech.dropbox.com/2012/12/welcome-guido/)  _(tags: tweet)_
+- 2012-12-07: [Patient characteristics associated with venous thromboembolic events: a cohort study using pooled electronic health record data -- Kaelber et al. 19 (6): 965 -- Journal of the American Medical Informatics Association](http://jamia.bmj.com/content/19/6/965.long)  _(tags: no_tag)_
+- 2012-12-06: [W3C TAG elections | Marcos Cáceres&#039; blog](http://marcosc.com/2012/12/w3c-tag-elections/)  _(tags: tweet)_
+- 2012-12-06: [Bitcoin-Central](https://bitcoin-central.net)  _(tags: bitcoin, money, bank, tweet)_
+- 2012-12-06: [Tachyon/source/README.txt at master · Tachyon-Team/Tachyon · GitHub](https://github.com/Tachyon-Team/Tachyon/blob/master/source/README.txt)  _(tags: tweet)_
+- 2012-12-06: [Mary Meeker releases stunning data on the state of the Internet | VentureBeat](http://venturebeat.com/2012/12/03/mary-meeker-releases-stunning-data-on-the-state-of-the-internet/)  _(tags: tweet)_
+- 2012-12-06: [Update: New 25 GPU Monster Devours Passwords In Seconds  | The Security Ledger](http://securityledger.com/new-25-gpu-monster-devours-passwords-in-seconds/)  _(tags: tweet)_
+- 2012-12-06: [Sophisticated botnet steals more than $47M by infecting PCs and phones | Ars Technica](http://arstechnica.com/security/2012/12/sophisticated-botnet-steals-more-than-47m-by-infecting-pcs-and-phones/)  _(tags: tweet)_
+- 2012-12-06: [#1890 (submit proposal for restrict-referrer-leakage to the CSP standardizers and implementors)     – tahoe-lafs](https://tahoe-lafs.org/trac/tahoe-lafs/ticket/1890#comment:3)  _(tags: tweet)_
+- 2012-12-06: [Official Google Blog: Keep the Internet free and open](http://googleblog.blogspot.com/2012/12/keep-internet-free-and-open.html?m=1)  _(tags: freeandopen, tweet)_
+- 2012-12-06: [Converting from Mercurial to Git](http://hivelogic.com/articles/converting-from-mercurial-to-git)  _(tags: scm)_
+- 2012-12-05: [rntz - Le Guin and open source](http://www.rntz.net/post/le-guin-and-open-source.html)  _(tags: no_tag)_
+- 2012-12-05: [Take Action – Google](https://www.google.com/takeaction/?utm_source=social&utm_medium=twitter&utm_campaign=122012freeandopen_ty)  _(tags: freeandopen, tweet)_
+- 2012-12-05: [Rebooting the Blue Button](http://healthrecord.mjacksonw.com)  _(tags: tweet)_
+- 2012-12-03: [Search Folders created in Outlook do not appear in Outlook Web Access](http://support.microsoft.com/kb/831400)  _(tags: collaboration, sysadmin)_
+- 2012-12-03: [Feature Differences in Outlook Web App and Outlook](http://help.outlook.com/en-us/140/cc511379.aspx)  _(tags: collaboration, sysadmin)_
+- 2012-12-03: [Creating Search Folders in OWA | MSOutlook.info](http://www.msoutlook.info/question/693)  _(tags: no_tag)_
+- 2012-12-02: [Requiem For A Startup](http://blog.marksoper.net/Requiem-For-A-Startup-April-30-2011.html)  _(tags: no_tag)_
+- 2012-12-02: [Hakyll - Home](http://jaspervdj.be/hakyll/)  _(tags: no_tag)_
+- 2012-12-01: [Is the NIH a cult?](http://www.michaeleisen.org/blog/?p=1217)  _(tags: tweet)_
+- 2012-12-01: [A++ [Eric Torreborre's Blog]: Strong functional programming](http://etorreborre.blogspot.com/2012/06/strong-functional-programming.html)  _(tags: no_tag)_
+- 2012-12-01: [Futures and Promises - Scala Documentation](http://docs.scala-lang.org/overviews/core/futures.html)  _(tags: scala)_

@@ -1,0 +1,111 @@
+---
+title: July 2016 Bookmarks: rust, github, and data
+date: 2016-07-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "collaboration", "data", "finance", "finances", "fp", "geo", "hardware", "haskell", "javascript", "kumc", "learning", "me", "mobile", "office", "photos", "privacy", "programming", "publishing", "research", "rustlang", "security", "sel4", "smart-contracts", "sparql", "sql", "tv", "voice"]
+---
+
+Shared bookmarks saved in July 2016.
+
+- total bookmarks: 97
+- total annotations captured: 58
+
+## Links
+
+- 2016-07-31: [awesome-groovy/README.md at master · kdabir/awesome-groovy · GitHub](https://github.com/kdabir/awesome-groovy/blob/master/README.md)  _(tags: groovy, jvm, data, readme)_
+- 2016-07-31: [Groovy Map Tutorial - Grails Cookbook](http://grails.asia/groovy-map-tutorial)  _(tags: no_tag)_
+- 2016-07-31: [Groovy Sandbox -](http://groovy-sandbox.kohsuke.org)  _(tags: no_tag)_
+- 2016-07-31: [Quick Tip: Getting Emacs and IntelliJ to play together - Atlassian Developers](https://developer.atlassian.com/blog/2015/03/emacs-intellij/)  _(tags: no_tag)_
+- 2016-07-31: [Groovy Language Documentation](http://docs.groovy-lang.org/latest/html/documentation/index.html)  _(tags: no_tag)_
+- 2016-07-30: [The Gradle Wrapper - Gradle User Guide Version 2.14.1](https://docs.gradle.org/current/userguide/gradle_wrapper.html)  _(tags: no_tag)_
+- 2016-07-30: [The rise and fall (OK — mostly fall) of Yahoo — Free Code Camp](https://medium.freecodecamp.com/the-rise-and-fall-mostly-fall-of-yahoo-ddbceb44670c)  _(tags: photos)_
+- 2016-07-29: [Retreat to move forward &#8211; Stress, Spirit and Science](http://www.nickarnett.net/retreat-to-move-forward/)  _(tags: tweet)_
+- 2016-07-29: [Where are we going with Tessel? Rust, Reach, and Fractal — Medium](https://medium.com/@SelkeyMoonbeam/where-are-we-going-with-tessel-rust-reach-and-fractal-4a5bdd509b0c)  _(tags: tweet)_
+- 2016-07-29: [US National Archives on Twitter: &quot;Voucher for a slave who worked on the White House, paid to James Claggett, his owner, 1794. https://t.co/wXExsJNRdN https://t.co/1el19H27C6&quot;](https://twitter.com/USNatArchives/status/758348766323802113)  _(tags: tweet)_
+- 2016-07-29: [GitHub - pirapira/coq2rust: Coq to Rust program extraction.  The whole tree is on the original Coq code base.](https://github.com/pirapira/coq2rust)  _(tags: tweet)_
+- 2016-07-29: [H. Poteat on Twitter: &quot;Yep, that&#39;s about right. @alsmola breaks it down. #PrivacyLab https://t.co/caR1iKmdXA&quot;](https://twitter.com/nsqe/status/758477382374219776)  _(tags: tweet)_
+- 2016-07-29: [Wit — faq](https://wit.ai/faq)  _(tags: no_tag)_
+- 2016-07-29: [Web-apps using Groovlets](http://www.rolandfg.net/2014/01/06/web-apps-using-groovlets/)  _(tags: no_tag)_
+- 2016-07-27: [W3C on Twitter: &quot;#w3ccommunity Proposed Group: Semantic Web in Health Care and Life Sciences Community Group https://t.co/1wY1xJ4U1X&quot;](https://twitter.com/w3c/status/758062372095275008)  _(tags: tweet)_
+- 2016-07-27: [rz80/z1013.rs at master · floooh/rz80 · GitHub](https://github.com/floooh/rz80/blob/master/examples/z1013.rs)  _(tags: rustlang, tweet)_
+- 2016-07-27: [Proposed Group: Semantic Web in Health Care and Life Sciences Community Group | Community and Business Groups](https://www.w3.org/community/blog/2016/07/26/proposed-group-semantic-web-in-health-care-and-life-sciences-community-group/?pk_campaign=feed&pk_kwd=proposed-group-semantic-web-in-health-care-and-life-sciences-community-group&utm_source=dlvr.it&utm_medium=twitter)  _(tags: w3ccommunity, tweet)_
+- 2016-07-27: [NIST declares the age of SMS-based 2-factor authentication over  |  TechCrunch](https://techcrunch.com/2016/07/25/nist-declares-the-age-of-sms-based-2-factor-authentication-over/)  _(tags: tweet)_
+- 2016-07-26: [Why Uber Engineering Switched from Postgres to MySQL - Uber Engineering Blog](https://eng.uber.com/mysql-migration/)  _(tags: ubereng, tweet)_
+- 2016-07-24: [Questions for our first 1:1 | Lara Hogan](http://larahogan.me/blog/first-one-on-one-questions/)  _(tags: tweet)_
+- 2016-07-23: [A Formal Verification of Rust&#39;s Binary Search Implementation](https://kha.github.io/2016/07/22/formally-verifying-rusts-binary-search.html)  _(tags: tweet)_
+- 2016-07-22: [Alex Ruoff on Twitter: &quot;Privacy officer: ransomware attacks so common that some health care orgs are now opening Bitcoin accounts in anticipation.&quot;](https://twitter.com/Alexruoff/status/756172531514634240)  _(tags: tweet)_
+- 2016-07-22: [Stack Overflow Trends](https://dgrtwo.shinyapps.io/so-trends/)  _(tags: sparql, tweet)_
+- 2016-07-21: [Stardog Raises $2.3 Million First Round to Capture Enterprise Data Unification Market](http://www.prweb.com/releases/2016/07/prweb13561191.htm)  _(tags: tweet)_
+- 2016-07-20: [Contract Overview | WithdrawDAO](https://etherscan.io/address/0xbf4ed7b27f1d666546e30d74d50d173d20bca754)  _(tags: no_tag)_
+- 2016-07-20: [1920000 : ethereum](https://www.reddit.com/r/ethereum/comments/4tr3lz/1920000/)  _(tags: no_tag)_
+- 2016-07-20: [CSRankings: Computer Science Rankings (beta)](http://csrankings.org)  _(tags: tweet)_
+- 2016-07-19: [Now: "A Framework for the Game-theoretic Analysis](http://cacr.uwaterloo.ca/techreports/2015/cacr2015-11.pdf)  _(tags: pets16, tweet)_
+- 2016-07-19: [Axel Polleres Vienna, Austria - Runkeeper](https://runkeeper.com/activity?userId=6726708&trip=828188157)  _(tags: sssw2016, tweet)_
+- 2016-07-19: [dokieli](https://dokie.li)  _(tags: linkedresearch, tweet)_
+- 2016-07-19: [Throw flow error when trying to access a style that is not defined on a stylesheet by brentvatne · Pull Request #8876 · facebook/react-native · GitHub](https://github.com/facebook/react-native/pull/8876)  _(tags: tweet)_
+- 2016-07-19: [Zonafide - Protecting you from identity theft](https://www.zonafide.net)  _(tags: no_tag)_
+- 2016-07-19: [Publications](http://science.raphael.poss.name/publications.html)  _(tags: no_tag)_
+- 2016-07-19: [Proof of Existence](https://proofofexistence.com)  _(tags: no_tag)_
+- 2016-07-19: [Structured Commons :: Mission statement](http://www.structured-commons.org/mission.html)  _(tags: research, literature, publishing, collaboration)_
+- 2016-07-19: [Schedule - CIS 198: Rust Programming](http://cis198-2016s.github.io/schedule/)  _(tags: no_tag)_
+- 2016-07-19: [Piazza • Ask. Answer. Explore. Whenever.](https://piazza.com)  _(tags: collaboration, learning)_
+- 2016-07-18: [Chapter 13. Properties](http://hsqldb.org/doc/2.0/guide/dbproperties-chapt.html)  _(tags: no_tag)_
+- 2016-07-18: [Liquibase | Database Refactoring | Sql output](http://www.liquibase.org/documentation/sql_output.html)  _(tags: no_tag)_
+- 2016-07-18: [HSQLDB - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/HSQLDB)  _(tags: no_tag)_
+- 2016-07-17: [Ethereum hard fork vote passed and will commence i](https://t.co/jp9LMHcHBt)  _(tags: tweet)_
+- 2016-07-17: [PayPal.Me](https://www.paypal.me/dckc)  _(tags: me, finance)_
+- 2016-07-17: [Why is Future &quot;totally unusable&quot;?](https://m.reddit.com/r/scala/comments/3zofjl/why_is_future_totally_unusable/cyns21h)  _(tags: programming, fp)_
+- 2016-07-16: [Free Landline Using Google Voice and a RaspberryPi](http://www.instructables.com/id/Free-Landline-Using-a-Google-Voice/)  _(tags: office, hardware, voice)_
+- 2016-07-16: [Flow Survey](https://docs.google.com/a/thejameskyle.com/forms/d/e/1FAIpQLScFepBxdUQSaiscRrJEl_JMSK-NLWlGXU-IWJN9cONgtpkuiA/viewform?c=0&w=1)  _(tags: tweet)_
+- 2016-07-16: [TIAA-CREF Money Market Funds are Changing: What this Means | TIAA](https://www.tiaa.org/public/about/news/library_articles/gen1512_539.html)  _(tags: finances, america, kumc)_
+- 2016-07-16: [Unable to launch servo on ubuntu 14.04 x64 · Issue #12053 · servo/servo](https://github.com/servo/servo/issues/12053)  _(tags: no_tag)_
+- 2016-07-16: [Java Tools and Technologies Landscape Report 2016: Trends and Historical data | zeroturnaround.com](http://zeroturnaround.com/rebellabs/java-tools-and-technologies-landscape-2016-trends/)  _(tags: no_tag)_
+- 2016-07-16: [The worst thing in our Scala code: Futures | REA Group Tech Blog](http://rea.tech/the-worst-thing-in-our-scala-code-futures/)  _(tags: no_tag)_
+- 2016-07-16: [Google Engineering Tools: Bug Prediction at Google](http://google-engtools.blogspot.com/2011/12/bug-prediction-at-google.html)  _(tags: no_tag)_
+- 2016-07-13: ["NASA camera catches moon 'photobombing' Earth"  h](https://www.sciencedaily.com/releases/2016/07/160711151323.htm)  _(tags: tweet)_
+- 2016-07-13: [2015 Data Science Salary Survey - O'Reilly Media](https://www.oreilly.com/ideas/2015-data-science-salary-survey)  _(tags: no_tag)_
+- 2016-07-13: [scala-for-data-science/WhyScala.md at master · data-fellas/scala-for-data-science](https://github.com/data-fellas/scala-for-data-science/blob/master/notebooks/WhyScala.md)  _(tags: no_tag)_
+- 2016-07-13: [Scala: the Unpredicted Lingua Franca for Data Science : scala](https://www.reddit.com/r/scala/comments/4s5s57/scala_the_unpredicted_lingua_franca_for_data/)  _(tags: no_tag)_
+- 2016-07-12: [spray | Blog » The Magnet Pattern](http://spray.io/blog/2012-12-13-the-magnet-pattern/)  _(tags: no_tag)_
+- 2016-07-12: [Phil Archer on Twitter: &quot;Ha ha ha ha Ha ha ha ha Ha ha ha ha Ha ha ha ha Ha ha ha ha Ha ha ha ha &#10;#mademyday https://t.co/nygaWVZZIa&quot;](https://twitter.com/philarcher1/status/752531655785611264)  _(tags: tweet)_
+- 2016-07-12: [- First Impressions; not all good; probably my fau](http://intertwingly.net/blog/2016/07/11/Service-Workers-First-Impressions)  _(tags: serviceworkers, tweet)_
+- 2016-07-12: [Installation](https://etorreborre.github.io/specs2/guide/SPECS2-3.8.4/org.specs2.guide.Installation.html)  _(tags: no_tag)_
+- 2016-07-12: [Announcing TypeScript 2.0 Beta | TypeScript](https://blogs.msdn.microsoft.com/typescript/2016/07/11/announcing-typescript-2-0-beta/)  _(tags: no_tag)_
+- 2016-07-12: [Announcing TypeScript 2.0 Beta : programming](https://www.reddit.com/r/programming/comments/4sbsvd/announcing_typescript_20_beta/)  _(tags: no_tag)_
+- 2016-07-12: [PostgREST](http://postgrest.com)  _(tags: no_tag)_
+- 2016-07-12: [Pokemon Go is a huge security risk - adam reeve](http://adamreeve.tumblr.com/post/147120922009/pokemon-go-is-a-huge-security-risk)  _(tags: pokemongo, tweet)_
+- 2016-07-11: [Game On For Kansas Schools Releases Pro-Education Candidate Lists for Primary Elections - WIBW News Now!](http://www.wibwnewsnow.com/game-kansas-schools-releases-pro-education-candidate-lists-primary-elections/)  _(tags: no_tag)_
+- 2016-07-11: [Kansas elections, 2016 - Ballotpedia](https://ballotpedia.org/Kansas_elections,_2016)  _(tags: no_tag)_
+- 2016-07-10: [Within a year, these trucks will also be safe from](https://www.wired.com/2016/07/armys-self-driving-trucks-hit-highway-prepare-battle/)  _(tags: cyber, sel4, security, tweet)_
+- 2016-07-10: [corrode/C.md at master · jameysharp/corrode · GitHub](https://github.com/jameysharp/corrode/blob/master/src/Language/Rust/Corrode/C.md)  _(tags: tweet)_
+- 2016-07-09: [Police are filing warrants for Android’s vast store of location data | The Verge](http://www.theverge.com/2016/6/1/11824118/google-android-location-data-police-warrants)  _(tags: privacy, data, security, mobile, maps, geo)_
+- 2016-07-09: [Am I able to delete the "migrated photo library... | Communities](https://discussions.apple.com/thread/7022184?tstart=0)  _(tags: no_tag)_
+- 2016-07-09: [Projects - SageMathCloud](https://cloud.sagemath.com/projects)  _(tags: no_tag)_
+- 2016-07-09: [Why is my bitcoin address changing? – Blockchain Support Center](https://support.blockchain.com/hc/en-us/articles/210353663-Why-is-my-bitcoin-address-changing-)  _(tags: no_tag)_
+- 2016-07-08: [Announcing Rust 1.10 - The Rust Programming Language Blog](https://blog.rust-lang.org/2016/07/07/Rust-1.10.html)  _(tags: tweet)_
+- 2016-07-08: [Shocker: Both Amazon & Google Lose New gTLD .Cloud Private Auction](http://www.thedomains.com/2014/11/08/shocker-both-amazon-google-lose-new-gtld-cloud-private-auction/)  _(tags: no_tag)_
+- 2016-07-08: [ICANNWiki - ICANNWiki](https://icannwiki.com/ICANNWiki)  _(tags: no_tag)_
+- 2016-07-07: [DEVCON1: Towards safer languages for smart contracts - Jack Pettersson, Robert Edström - YouTube](https://www.youtube.com/watch?v=H2uwUdzVD9I)  _(tags: no_tag)_
+- 2016-07-07: [Safer smart contracts through type-driven development](http://studentarbeten.chalmers.se/publication/234939-safer-smart-contracts-through-type-driven-development)  _(tags: fp, research, smart-contracts, etherium)_
+- 2016-07-07: [apoelstra/rust-bitcoin: Rust Bitcoin library](https://github.com/apoelstra/rust-bitcoin/)  _(tags: no_tag)_
+- 2016-07-07: [pycoind/bitcoin.py at master · ricmoo/pycoind](https://github.com/ricmoo/pycoind/blob/master/pycoind/coins/bitcoin.py)  _(tags: no_tag)_
+- 2016-07-07: [A complete bitcoin implementation in Python? - Bitcoin Stack Exchange](http://bitcoin.stackexchange.com/questions/41682/a-complete-bitcoin-implementation-in-python)  _(tags: no_tag)_
+- 2016-07-07: [Zcash - Pairing cryptography in Rust](https://z.cash/blog/pairing-cryptography-in-rust.html)  _(tags: tweet)_
+- 2016-07-06: [Influential Books](http://www.stephendiehl.com/posts/books.html)  _(tags: no_tag)_
+- 2016-07-06: [Haskell Poll Results](http://www.stephendiehl.com/posts/poll.html)  _(tags: no_tag)_
+- 2016-07-06: [llvm-rs/fib.rs at master · TomBebbington/llvm-rs](https://github.com/TomBebbington/llvm-rs/blob/master/examples/fib.rs)  _(tags: no_tag)_
+- 2016-07-06: [llvm-general: General purpose LLVM bindings](https://hackage.haskell.org/package/llvm-general)  _(tags: no_tag)_
+- 2016-07-06: [opaleye: An SQL-generating DSL targeting PostgreSQL](https://hackage.haskell.org/package/opaleye)  _(tags: programming, data, sql, fp, haskell)_
+- 2016-07-06: [design/AstSemantics.md at master · WebAssembly/design](https://github.com/WebAssembly/design/blob/master/AstSemantics.md)  _(tags: javascript, programming)_
+- 2016-07-05: [Cube Drone - - Relentless Persistence](http://cube-drone.com/comics/c/relentless-persistence)  _(tags: programming, javascript)_
+- 2016-07-05: [Reflecting on Haskell in 2015](http://www.stephendiehl.com/posts/haskell_2016.html)  _(tags: no_tag)_
+- 2016-07-05: [A Sticky Stringy Quandary](http://www.stephendiehl.com/posts/strings.html)  _(tags: no_tag)_
+- 2016-07-05: [The Joy and Agony of Haskell in Production](http://www.stephendiehl.com/posts/production.html)  _(tags: no_tag)_
+- 2016-07-05: [Monads to Machine Code (Part 1)](http://www.stephendiehl.com/posts/monads_machine_code.html)  _(tags: no_tag)_
+- 2016-07-05: [Implementing a JIT Compiler with Haskell and LLVM ( Stephen Diehl )](http://www.stephendiehl.com/llvm/)  _(tags: no_tag)_
+- 2016-07-05: [GitHub - tagua-vm/tagua-vm: Tagua VM is an experimental PHP Virtual Machine that guarantees safety and quality by removing large classes of vulnerabilities thanks to the Rust language and the LLVM Compiler Infrastructure.](https://github.com/tagua-vm/tagua-vm)  _(tags: tweet)_
+- 2016-07-05: [First steps with Rust (Part 1) — Blog posts](https://blog.clementmiao.com/first-steps-with-rust-cdc83090a4ab?utm_content=buffer3fb99&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer&gi=fb2e44a33fd2)  _(tags: appengine, rustlang, tweet)_
+- 2016-07-05: [[LLVMdev] New JIT API - OrcJIT - dev - llvm.cc](https://llvm.cc/t/llvmdev-new-jit-api-orcjit/219)  _(tags: no_tag)_
+- 2016-07-04: [How To Change Screensaver Photos On The Chromecast](http://www.addictivetips.com/web/how-to-change-screensaver-photos-on-the-chromecast/)  _(tags: photos, tv)_
+- 2016-07-02: [The WRT54GL: A 54Mbps router from 2005 still makes millions for Linksys | Ars Technica](http://arstechnica.com/information-technology/2016/07/the-wrt54gl-a-54mbps-router-from-2005-still-makes-millions-for-linksys/)  _(tags: tweet)_
+- 2016-07-02: [Servo now has nightly builds for experimentation.](https://t.co/21MPInqeMg)  _(tags: tweet)_

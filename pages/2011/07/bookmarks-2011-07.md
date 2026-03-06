@@ -1,0 +1,140 @@
+---
+title: July 2011 Bookmarks: programming, java, and quality
+date: 2011-07-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "android", "book", "cloud", "collaboration", "commute", "data", "fb", "finance", "geo", "gtd", "hardware", "haskell", "health", "humor", "internet", "java", "javascript", "kc", "learning", "linkeddata", "lisp", "logic", "mac", "media", "microformats", "mobile", "music", "performance", "photos", "presentation", "programming", "publishing", "python", "quality", "research", "scala", "security", "sync", "sysadmin", "ubuntu", "video", "voice", "writing"]
+---
+
+Shared bookmarks saved in July 2011.
+
+- total bookmarks: 126
+- total annotations captured: 66
+
+## Links
+
+- 2011-07-30: [https://fedorahosted.org/suds/](http://SUDS)  _(tags: python, programming, cloud)_
+- 2011-07-28: [coolaj86/futures - GitHub](https://github.com/coolaj86/futures)  _(tags: javascript programming node.js erights)_
+- 2011-07-28: [Installing Shotwell](http://yorba.org/shotwell/install/#binaries)  _(tags: photos)_
+- 2011-07-27: [Spring LDAP | SpringSource.org](http://www.springsource.org/ldap)  _(tags: no_tag)_
+- 2011-07-27: [Unit Testing Spring apps with @RunWith(SpringJUnit4ClassRunner.class) | lstierneyltd](http://lstierneyltd.com/blog/development/examples/unit-testing-spring-apps-with-runwithspringjunit4classrunner-class)  _(tags: programming, quality)_
+- 2011-07-27: [Publications - joe-e - Technical publications related to the Joe-E project - Capability-secure subset of Java - Google Project Hosting](http://code.google.com/p/joe-e/wiki/Publications)  _(tags: web, security, quality)_
+- 2011-07-26: [Spring Security – Tutorial: Adding Security to Spring Petclinic](http://static.springsource.org/spring-security/site/petclinic-tutorial.html)  _(tags: security, programming, web)_
+- 2011-07-26: [Belay Research](https://sites.google.com/site/belayresearchproject)  _(tags: no_tag)_
+- 2011-07-26: [[cap-talk] a capability-based OS for the web](http://www.eros-os.org/pipermail/cap-talk/2011-July/014943.html)  _(tags: web, security)_
+- 2011-07-26: [Chapter 3. The IoC container](http://static.springsource.org/spring/docs/2.5.x/reference/beans.html)  _(tags: no_tag)_
+- 2011-07-25: [Java Collections API Design FAQ](http://download.oracle.com/javase/1.4.2/docs/guide/collections/designfaq.html)  _(tags: no_tag)_
+- 2011-07-25: [Mint - Advanced Transaction Search for Greasemonkey](http://userscripts.org/scripts/show/106666)  _(tags: javascript, finance, someday)_
+- 2011-07-25: [shotwell - by target version - Yorba Redmine](http://redmine.yorba.org/projects/shotwell/issues?query_id=1)  _(tags: photos)_
+- 2011-07-25: [java - using spring-ldap with ssl - Stack Overflow](http://stackoverflow.com/questions/6431383/using-spring-ldap-with-ssl)  _(tags: no_tag)_
+- 2011-07-25: [http://kualigan.blogspot.com/search/label/ldap](http://kualigan.blogspot.com/search/label/ldap)  _(tags: programming, video, presentation)_
+- 2011-07-25: [Technology highlights: Spring Dependency Injection with JBOSS : the CLASSPATH issue](http://fandry.blogspot.com/2010/09/spring-dependency-injection-with-jboss.html)  _(tags: no_tag)_
+- 2011-07-25: [sql - Wanted: Good examples of Scala database persistence - Stack Overflow](http://stackoverflow.com/questions/1362748/wanted-good-examples-of-scala-database-persistence)  _(tags: scala, programming, data)_
+- 2011-07-22: [Open Source Ecology - GVCS](http://opensourceecology.org/gvcs.php)  _(tags: tweet)_
+- 2011-07-22: [First, Kill Math  now Computable Document Format h](http://worrydream.com/KillMath)  _(tags: tweet)_
+- 2011-07-22: [Everything that&#8217;s wrong with our oil-soaked industrial economy, in one amazing poster | Grist](http://www.grist.org/list/2011-07-20-everything-thats-wrong-with-our-oil-soaked-industrial-economy-in)  _(tags: tweet)_
+- 2011-07-22: [A pound of flesh: how Cisco's &quot;unmitigated gall&quot; derailed one man's life](http://arstechnica.com/tech-policy/news/2011/07/a-pound-of-flesh-how-ciscos-unmitigated-gall-derailed-one-mans-life.ars?utm_source=rss&utm_medium=rss&utm_campaign=rss)  _(tags: tweet)_
+- 2011-07-22: [Marking up your site: Overview](http://onlinehelp.microsoft.com/en-us/bing/hh207238.aspx)  _(tags: semanticweb, rdfa, linkeddata, fb, tweet)_
+- 2011-07-21: [Yes, Styx take fans down memory lane at Starlight - KansasCity.com](http://www.kansascity.com/2011/07/20/3023941/review-yes-styx-at-starlight.html)  _(tags: music, kc)_
+- 2011-07-21: [CSipSimple - Android Market](https://market.android.com/details?id=com.csipsimple&feature=search_result)  _(tags: someday, sysadmin, voice, android)_
+- 2011-07-21: [Any word on an Android app? - ViaTalk | DSLReports Forums](http://www.dslreports.com/forum/r24961143-Any-word-on-an-Android-app-)  _(tags: no_tag)_
+- 2011-07-21: [Can I transfer my current phone number to SkypeIn in USA? - Skype Community](http://forum.skype.com/index.php?showtopic=74309)  _(tags: no_tag)_
+- 2011-07-21: [Commute SMS - Android Market](https://market.android.com/details?id=bvz.commutesms&feature=search_result)  _(tags: geo, gtd, commute, android)_
+- 2011-07-21: [The difference between Google and Aaron Swartz | MediaFile](http://blogs.reuters.com/mediafile/2011/07/20/the-difference-between-google-and-aaron-swartz)  _(tags: tweet)_
+- 2011-07-20: [Migrate from blogger to jekyll](http://coolaj86.info/articles/migrate-from-blogger-to-jekyll.html)  _(tags: web, publishing)_
+- 2011-07-20: [About -- Apache Tapestry](http://tapestry.apache.org/about.html)  _(tags: no_tag)_
+- 2011-07-20: [Exploring the Project -- Apache Tapestry](http://tapestry.apache.org/exploring-the-project.html)  _(tags: no_tag)_
+- 2011-07-20: [Live Review: Styx and Yes Launch Summer Tour on 4th of July – Melodic Rock Concerts](http://melodicrockconcerts.com/2011/07/06/live-review-styx-and-yes-launch-summer-tour-on-4th-of-july)  _(tags: music, kc)_
+- 2011-07-20: [Internet Activist Charged in Data Theft - NYTimes.com](http://bits.blogs.nytimes.com/2011/07/19/reddit-co-founder-charged-with-data-theft)  _(tags: tweet)_
+- 2011-07-19: [joe-e - Capability-secure subset of Java - Google Project Hosting](http://code.google.com/p/joe-e)  _(tags: security, quality)_
+- 2011-07-19: [Type safe JSP and JSTL | Mikael Ståldal’s technical blog](http://www.staldal.nu/tech/2009/04/23/type-safe-jsp-and-jstl)  _(tags: programming)_
+- 2011-07-19: [Error using JSTL XML taglib - attribute xml does not accept any expressions - Stack Overflow](http://stackoverflow.com/questions/377513/error-using-jstl-xml-taglib-attribute-xml-does-not-accept-any-expressions)  _(tags: programming)_
+- 2011-07-19: [» How to Reference and Use JSTL in your Web Application – It’s Only Software](http://www.mularien.com/blog/2008/04/24/how-to-reference-and-use-jstl-in-your-web-application)  _(tags: no_tag)_
+- 2011-07-19: [SLOW-SCIENCE.org — Bear with us, while we think.](http://slow-science.org)  _(tags: no_tag)_
+- 2011-07-18: [Configure Apache to support multiple SSL sites on a single IP address | TechRepublic](http://www.techrepublic.com/blog/opensource/configure-apache-to-support-multiple-ssl-sites-on-a-single-ip-address/987)  _(tags: no_tag)_
+- 2011-07-18: [Adding a Second IP Address to a Network Adapter on Linux [OCLC]](http://www.oclc.org/support/documentation/ezproxy/technote/2l.htm)  _(tags: no_tag)_
+- 2011-07-18: [core - Apache HTTP Server](http://httpd.apache.org/docs/2.0/mod/core.html)  _(tags: no_tag)_
+- 2011-07-18: [java - Constructor in Servlet? - Stack Overflow](http://stackoverflow.com/questions/1276082/constructor-in-servlet)  _(tags: programming, quality)_
+- 2011-07-17: [Chrome + microformats = michromeformats • Brian Ryckbost](http://ryckbost.com/blog/archives/2010/04/21/chrome-microformats-michromeformats)  _(tags: microformats)_
+- 2011-07-17: [MightyText sends phone calls, texts to your browser | Webware - CNET](http://news.cnet.com/8301-17939_109-20077262-2/mightytext-sends-phone-calls-texts-to-your-browser/?part=rss&tag=feed&subj=AndroidAtlas)  _(tags: mobile)_
+- 2011-07-16: [Announcing Ozma: extending Scala with Oz concurrency | Lambda the Ultimate](http://lambda-the-ultimate.org/node/4300)  _(tags: no_tag)_
+- 2011-07-16: [Lambda the Ultimate | Programming Languages Weblog](http://lambda-the-ultimate.org)  _(tags: no_tag)_
+- 2011-07-16: [Concepts, Techniques, and Models of Computer Programming](http://ctm.info.ucl.ac.be)  _(tags: no_tag)_
+- 2011-07-16: [How to Design Programs](http://www.htdp.org)  _(tags: programming, book, lisp)_
+- 2011-07-16: [Getting Started | Lambda the Ultimate](http://lambda-the-ultimate.org/node/492#comment-3771)  _(tags: no_tag)_
+- 2011-07-15: [Curry-Howard correspondence - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence)  _(tags: web, data, logic)_
+- 2011-07-15: [The Curry-Howard Correspondence in Haskell](http://www.thenewsh.com/~newsham/formal/curryhoward)  _(tags: programming, logic)_
+- 2011-07-15: [Linux keyboard shortcuts : Linux shortcuts - Google Chrome Help](http://www.google.com/support/chrome/bin/answer.py?hl=en&answer=171571)  _(tags: productivity, gtd)_
+- 2011-07-15: [Maven - Introduction to build profiles](http://maven.apache.org/guides/introduction/introduction-to-profiles.html)  _(tags: its)_
+- 2011-07-15: [java - How do I autoindent in Netbeans? - Stack Overflow](http://stackoverflow.com/questions/1311912/how-do-i-autoindent-in-netbeans)  _(tags: no_tag)_
+- 2011-07-15: [The Real Life Social Network v2](http://www.slideshare.net/padday/the-real-life-social-network-v2)  _(tags: tweet)_
+- 2011-07-15: [hij1nx/weld - GitHub](https://github.com/hij1nx/weld#readme)  _(tags: programming, web)_
+- 2011-07-14: [Java EE, Web Services, WS-BPEL, SOA: Maven profiles, filters, resources, and final artefact name](http://jee-bpel-soa.blogspot.com/2009/02/maven-profiles-filters-resources-and.html)  _(tags: programming)_
+- 2011-07-14: [About Beans - The Java EE 6 Tutorial](http://download.oracle.com/javaee/6/tutorial/doc/gjebj.html)  _(tags: no_tag)_
+- 2011-07-14: [Overview of CDI - The Java EE 6 Tutorial](http://download.oracle.com/javaee/6/tutorial/doc/giwhl.html)  _(tags: programming, quality)_
+- 2011-07-14: [Dependency Injection in JBoss 4.2: Hold Your Excitement « 7thursdays](http://7thursdays.wordpress.com/2008/03/18/dependency-injection-in-jboss-42-hold-your-excitement)  _(tags: programming, quality)_
+- 2011-07-14: [A virtual choir 2,000 voices strong. [VIDEO]](http://www.wimp.com/choirvoices)  _(tags: music, collaboration)_
+- 2011-07-14: [Chapter 8. Tomcat Quirks](http://pub.admc.com/howtos/tomcat/ch08.html)  _(tags: programming)_
+- 2011-07-14: [Maven - Guide to using Eclipse with Maven 2.x](http://maven.apache.org/guides/mini/guide-ide-eclipse.html)  _(tags: programming)_
+- 2011-07-14: [m2eclipse - Downloads](http://www.eclipse.org/m2e/download)  _(tags: programming)_
+- 2011-07-14: [Rapid DHCP: Or, how do Macs get on the network so fast? : Caffeinated Bitstream](http://cafbit.com/entry/rapid_dhcp_or_how_do)  _(tags: tweet, internet, performance)_
+- 2011-07-14: [Unilever Centre for Molecular Informatics, Cambridge - July &laquo; 2011 &laquo;  petermr&#039;s blog](http://blogs.ch.cam.ac.uk/pmr/2011/07)  _(tags: tweet)_
+- 2011-07-14: [Developing a Spring Framework MVC application step-by-step](http://static.springsource.org/docs/Spring-MVC-step-by-step)  _(tags: programming, web, quality)_
+- 2011-07-14: [Eclipse Corner Article: Creating Database Web Applications with Eclipse](http://www.eclipse.org/articles/article.php?file=Article-EclipseDbWebapps/index.html)  _(tags: programming)_
+- 2011-07-14: [Eclipse downloads - mirror selection](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/indigo/R/eclipse-jee-indigo-win32.zip)  _(tags: programming, eclipse)_
+- 2011-07-14: [A tour of the Haskell monad functions](http://members.chello.nl/hjgtuyl/tourdemonad.html#sequence)  _(tags: programming, haskell)_
+- 2011-07-14: [Monads Are Not Metaphors - Code Commit](http://www.codecommit.com/blog/ruby/monads-are-not-metaphors)  _(tags: programming, humor)_
+- 2011-07-14: [λ Tony’s blog λ » Blog Archive » The Power of Type-classes with Scala implicit defs](http://blog.tmorris.net/the-power-of-type-classes-with-scala-implicit-defs)  _(tags: programming)_
+- 2011-07-14: [scala-stm 0.3 API - scala.concurrent.stm.TxnExecutor](http://nbronson.github.com/scala-stm/api/0.3/index.html#scala.concurrent.stm.TxnExecutor)  _(tags: no_tag)_
+- 2011-07-13: [CyanogenMod-7.1.0-RC1 | CyanogenMod](http://www.cyanogenmod.com/blog/cyanogenmod-7-1-0-rc1)  _(tags: no_tag)_
+- 2011-07-13: [Google Voice Blog: Global SPAM filtering](http://googlevoiceblog.blogspot.com/2011/07/global-spam-filtering.html)  _(tags: voice)_
+- 2011-07-13: [CyanogenMod 7 on the Nook Color hands-on (video) -- Engadget](http://www.engadget.com/2011/06/29/cyanogenmod-7-on-the-nook-color-hands-on-video)  _(tags: android, hardware)_
+- 2011-07-13: [Features - CyanogenMod Wiki](http://wiki.cyanogenmod.com/wiki/Features)  _(tags: no_tag)_
+- 2011-07-13: [Samsung Galaxy S: FAQ - CyanogenMod Wiki](http://wiki.cyanogenmod.com/wiki/Samsung_Galaxy_S:_FAQ)  _(tags: mobile, android)_
+- 2011-07-12: [NetBeans Forums - Why I'm going back to Eclipse](http://forums.netbeans.org/viewtopic.php?t=27871)  _(tags: programming, collaboration)_
+- 2011-07-12: [Synchronizing tasks between Trac and Netbeans : Victor Stanciu](http://www.victorstanciu.ro/synchronizing-tasks-between-trac-and-netbeans)  _(tags: programming, collaboration)_
+- 2011-07-12: [Bug 168018 – Support Trac integration through core Bugtracking system](http://netbeans.org/bugzilla/show_bug.cgi?id=168018)  _(tags: programming, collaboration)_
+- 2011-07-11: [Developing a Spring Framework MVC application step-by-step](http://static.springsource.org/docs/Spring-MVC-step-by-step/index.html)  _(tags: programming, java, tutorial, learning)_
+- 2011-07-11: [Unchecked Exceptions — The Controversy (The Java™ Tutorials > Essential Classes > Exceptions)](http://download.oracle.com/javase/tutorial/essential/exceptions/runtime.html)  _(tags: no_tag)_
+- 2011-07-11: [Chapter 5. Implementing Database Persistence](http://static.springsource.org/docs/Spring-MVC-step-by-step/part5.html)  _(tags: no_tag)_
+- 2011-07-11: [InversionOfControl](http://martinfowler.com/bliki/InversionOfControl.html)  _(tags: programming, quality)_
+- 2011-07-11: [Inversion of Control Containers and the Dependency Injection pattern](http://www.martinfowler.com/articles/injection.html)  _(tags: programming)_
+- 2011-07-11: [What Flex taught me about data-binding](http://misko.hevery.com/2010/08/10/what-flex-thought-me-about-data-binding)  _(tags: programming, sync)_
+- 2011-07-11: [Video Recording & Slides: Psychology of Testing at Wealthfront Engineering](http://misko.hevery.com/2011/02/14/video-recording-slides-psychology-of-testing-at-wealthfront-engineering)  _(tags: programming, video, presentation, quality)_
+- 2011-07-11: [Learn You a Haskell for Great Good! - Input and Output](http://learnyouahaskell.com/input-and-output)  _(tags: no_tag)_
+- 2011-07-11: [Heroku | The New Heroku (Part 4 of 4): Erosion-resistance & Explicit Contracts](http://blog.heroku.com/archives/2011/6/28/the_new_heroku_4_erosion_resistance_explicit_contracts)  _(tags: ops)_
+- 2011-07-11: [sandhawke: Ask LJ - Ethernet Wiring](http://sandhawke.livejournal.com/130833.html)  _(tags: no_tag)_
+- 2011-07-11: [Rant warning: there is no single right answer for buffering, ever… (part 2) « jg's Ramblings](https://gettys.wordpress.com/2011/07/09/rant-warning-there-is-no-single-right-answer-for-buffering-ever-part-2)  _(tags: no_tag)_
+- 2011-07-10: [Why We Need the New News Environment to be Chaotic « Clay Shirky](http://www.shirky.com/weblog/2011/07/we-need-the-new-news-environment-to-be-chaotic)  _(tags: media)_
+- 2011-07-09: [AngularJS — Superheroic JavaScript MVC Framework](http://angularjs.org)  _(tags: javascript, programming, web, someday)_
+- 2011-07-09: [testability-explorer - Static analysis tool for Java which helps you make your code testable - Google Project Hosting](http://code.google.com/p/testability-explorer)  _(tags: programming, quality)_
+- 2011-07-09: [The If Works - Translation from Haskell to JavaScript of selected portions of the best introduction to monads I’ve ever read](http://blog.jcoglan.com/2011/03/05/translation-from-haskell-to-javascript-of-selected-portions-of-the-best-introduction-to-monads-ive-ever-read)  _(tags: javascript, haskell, programming)_
+- 2011-07-09: [AKSW : Projects / RD Fa CE](http://aksw.org/Projects/RDFaCE)  _(tags: web, writing, data, someday)_
+- 2011-07-09: [FOAF/WebID Provider &amp; Browser - Android Market](https://market.android.com/details?id=org.aksw.mssw)  _(tags: tweet)_
+- 2011-07-09: [Why I quit my job: « Kai Nagata](http://kainagata.com/2011/07/08/why-i-quit-my-job)  _(tags: no_tag)_
+- 2011-07-09: [Save Our Inboxes! Adopt the Email Charter!](http://emailcharter.org)  _(tags: no_tag)_
+- 2011-07-09: [A Tale of Two Inboxes: RSS and Twitter — Shawn Blanc](http://shawnblanc.net/2011/06/rss-v-twitter)  _(tags: web, publishing)_
+- 2011-07-09: [Thoughts on Google+ | Bitninja](http://bitninja.org/blog/2011/07/09/thoughts-on-google)  _(tags: no_tag)_
+- 2011-07-09: [How I Write an Article — Shawn Blanc](http://shawnblanc.net/2010/09/how-i-write-an-article)  _(tags: no_tag)_
+- 2011-07-09: [FCC’s Rules on Media Cross-Ownership Are Vacated by Federal Appeals Court - Bloomberg](http://www.bloomberg.com/news/2011-07-07/federal-appeals-court-vacates-fcc-rules-on-media-ownership.html)  _(tags: tweet)_
+- 2011-07-09: [Fantom Programming Language](http://fantom.org)  _(tags: osconj, tweet)_
+- 2011-07-08: [Blog: SELECT * FROM AVRO(data.avro) – There, Far Away, There Is Nothing Other Than Far Far Away](http://blogtrader.net/blog/SelectFromAvro)  _(tags: no_tag)_
+- 2011-07-08: [First Steps to Scala](http://www.artima.com/scalazine/articles/steps.html)  _(tags: scala, programming)_
+- 2011-07-08: [Is Murdoch free to destroy tabloid&#8217;s records? | MediaFile](http://blogs.reuters.com/mediafile/2011/07/07/is-murdoch-free-to-destroy-tabloids-records)  _(tags: tweet)_
+- 2011-07-07: [Monadic Design Patterns for the Web (Book) by Lucius Gregory Meredith — Kickstarter](http://www.kickstarter.com/projects/1499410734/monadic-design-patterns-for-the-web-book)  _(tags: programming, patronage)_
+- 2011-07-07: [C9 Lectures: Greg Meredith - Monadic Design Patterns for the Web - Introduction to Monads | Going Deep | Channel 9](http://channel9.msdn.com/Shows/Going+Deep/C9-Lectures-Greg-Meredith-Monadic-Design-Patterns-for-the-Web-Introduction-to-Monads)  _(tags: research, programming, lecture, video, presentation)_
+- 2011-07-07: [Samsung Galaxy Tab 10.1 Will Put Apps in Your Apps](http://technologizer.com/2011/07/05/samsung-galaxy-tab-10-1-will-put-apps-in-your-apps)  _(tags: tweet)_
+- 2011-07-05: [Benlog » and the laws of physics changed](http://benlog.com/articles/2011/07/03/and-the-laws-of-physics-changed)  _(tags: no_tag)_
+- 2011-07-05: [Can Google Profiles be enabled for a Google Apps account? - Google Apps Help](http://www.google.com/support/forum/p/Google+Apps/thread?tid=17b45c62b43447f6&hl=en)  _(tags: no_tag)_
+- 2011-07-05: [Sitting is Killing You](http://www.medicalbillingandcoding.org/sitting-kills)  _(tags: health, programming)_
+- 2011-07-05: [pmount : Natty (11.04) : Ubuntu](https://launchpad.net/ubuntu/natty/+package/pmount)  _(tags: ubuntu, sysadmin)_
+- 2011-07-05: [Managing content manually on iPhone, iPad, and iPod](http://support.apple.com/kb/HT1535)  _(tags: mac, sysadmin, someday)_
+- 2011-07-05: [‘The McDonald’s Rx’: How Computers Can And Should Change Doctoring | CommonHealth](http://commonhealth.wbur.org/2011/02/isaac-kohane-mcdonalds-doctors)  _(tags: health, america)_
+- 2011-07-05: [Managing duplicate photos : Fix a Problem - Picasa Help](http://picasa.google.com/support/bin/answer.py?hl=en&answer=11484)  _(tags: photos, sysadmin)_
+- 2011-07-05: [What our Declaration really said - The Washington Post](http://www.washingtonpost.com/opinions/what-our-declaration-really-said/2011/07/02/AGugyvwH_story.html)  _(tags: tweet)_
+- 2011-07-04: [Amazon Cloud Player Now Works with iPhone, iPad, iPod Touch](http://www.pcworld.com/article/227397/amazon_cloud_player_now_works_with_iphone_ipad_ipod_touch.html)  _(tags: mac, music)_
+- 2011-07-01: [How Android Tablets Got Eaten Alive by the iPad](http://www.gottabemobile.com/2011/07/01/how-android-tablets-got-eaten-alive-by-the-ipad)  _(tags: no_tag)_
+- 2011-07-01: [Dropbox Accused of Lying About Security - Slashdot](http://hardware.slashdot.org/story/11/05/15/2157202/Dropbox-Accused-of-Lying-About-Security)  _(tags: no_tag)_
+- 2011-07-01: [http://www.rsync.net/resources/howto/duplicity.html](http://www.rsync.net/resources/howto/duplicity.html)  _(tags: sysadmin, python)_
+- 2011-07-01: [Did the DropBox security lapse poison the well for iCloud? | ZDNet](http://www.zdnet.com/blog/apple/did-the-dropbox-security-lapse-poison-the-well-for-icloud/10429?tag=mantle_skin;content)  _(tags: security, cloud)_
+- 2011-07-01: [Amazon.com: A Dog's Purpose (9780765326263): W. Bruce Cameron: Books](http://www.amazon.com/Dogs-Purpose-W-Bruce-Cameron/dp/0765326264)  _(tags: no_tag)_
+- 2011-07-01: [YouTube        - &#x202a;Ira Glass, Host of This American Life supports an #OnionPulitzer&#x202c;&rlm;](http://www.youtube.com/watch?v=tQDXEnNYWX8&feature=youtu.be)  _(tags: tweet)_

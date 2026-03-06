@@ -1,0 +1,127 @@
+---
+title: August 2014 Bookmarks: security, javascript, and python
+date: 2014-08-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "capabilities", "collaboration", "data", "desktop", "devops", "fp", "funny", "health", "internet", "javascript", "kc", "learning", "linux", "mac", "microformats", "packaging", "programming", "python", "quality", "research", "rust", "rustlang", "security", "statistics", "sysadmin", "vm"]
+---
+
+Shared bookmarks saved in August 2014.
+
+- total bookmarks: 113
+- total annotations captured: 53
+
+## Links
+
+- 2014-08-31: [The Tools We Use - appendto | appendto](http://appendto.com/2014/08/the-tools-we-use/)  _(tags: no_tag)_
+- 2014-08-31: [rfcs/0049-bounds-on-object-and-generic-types.md at master · nikomatsakis/rfcs](https://github.com/nikomatsakis/rfcs/blob/master/active/0049-bounds-on-object-and-generic-types.md)  _(tags: no_tag)_
+- 2014-08-30: [Hackage: simple-sql-parser: A parser for SQL queries](https://hackage.haskell.org/package/simple-sql-parser)  _(tags: no_tag)_
+- 2014-08-30: [MacPass by mstarke](http://mstarke.github.io/MacPass/)  _(tags: no_tag)_
+- 2014-08-30: [Mac App Store - KyPass Companion](https://itunes.apple.com/us/app/kypass-companion/id555293879?ls=1&mt=12)  _(tags: mac, security)_
+- 2014-08-30: [What’s New](http://s3crets.com/en/help/)  _(tags: no_tag)_
+- 2014-08-30: [KeePassX – Frequently Asked Questions](http://www.keepassx.org/faq/)  _(tags: no_tag)_
+- 2014-08-30: [Jared Davis](http://www.cs.utexas.edu/users/jared/)  _(tags: no_tag)_
+- 2014-08-30: [jaredcdavis/sidekick](https://github.com/jaredcdavis/sidekick)  _(tags: no_tag)_
+- 2014-08-30: [Smart contract - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Smart_contract)  _(tags: no_tag)_
+- 2014-08-30: [Are there already several ways to do "smart contracts" with cryptocurrencies? - Bitcoin Stack Exchange](http://bitcoin.stackexchange.com/questions/23922/are-there-already-several-ways-to-do-smart-contracts-with-cryptocurrencies)  _(tags: no_tag)_
+- 2014-08-30: [NearlyFreeSpeech.NET Blog » Improving support and how we talk about it](https://blog.nearlyfreespeech.net/2014/08/16/improving-support-and-how-we-talk-about-it/)  _(tags: no_tag)_
+- 2014-08-30: [ID3 - idcubed.org - From “Bitcoin to Burning Man and Beyond”](https://idcubed.org/bitcoin-burning-man-beyond/)  _(tags: no_tag)_
+- 2014-08-30: [Home | Johnson County Kansas](http://www.jocogov.org/dept/health-and-environment/home)  _(tags: kc)_
+- 2014-08-30: [Gnome Goes JavaScript - Slashdot](http://developers-beta.slashdot.org/story/13/02/04/1819231/gnome-goes-javascript)  _(tags: no_tag)_
+- 2014-08-30: [Tutorials, code samples and platform demos in JavaScript](https://developer.gnome.org/gnome-devel-demos/3.7/js.html.en)  _(tags: javascript, linux, programming)_
+- 2014-08-30: [Let's Push Things Forward - Answering the question: "How do I develop an app for GNOME?"](http://treitter.livejournal.com/14871.html)  _(tags: javascript)_
+- 2014-08-30: [How To Add Custom Functionality To Nautilus [Linux]](http://www.makeuseof.com/tag/add-custom-functionality-to-nautilus-linux/)  _(tags: desktop, someday, research)_
+- 2014-08-30: [JSDB.io - The Database of JavaScript Libraries](http://www.jsdb.io)  _(tags: javascript, tweet)_
+- 2014-08-30: [Sandstorm](https://sandstorm.io)  _(tags: personalcloud, tweet)_
+- 2014-08-30: [OpenKeychain 2.8 &middot; OpenKeychain](http://www.openkeychain.org/openkeychain-2-8/)  _(tags: tweet)_
+- 2014-08-30: [Of Course It Matters | Lawrence Lessig | TEDxKC - YouTube](http://www.youtube.com/watch?v=Erph1L_XwVQ&feature=youtu.be)  _(tags: tweet)_
+- 2014-08-29: [rr: lightweight recording & deterministic debugging](http://rr-project.org)  _(tags: no_tag)_
+- 2014-08-29: [What If book tour! | xkcd](http://blog.xkcd.com/2014/07/22/what-if-book-tour/)  _(tags: no_tag)_
+- 2014-08-29: [Oscar — Anne’s Blog](http://annevankesteren.nl/2014/08/oscar)  _(tags: tweet)_
+- 2014-08-29: [kmcallister/html5ever · GitHub](https://github.com/kmcallister/html5ever)  _(tags: tweet)_
+- 2014-08-29: [Project Zero: The poisoned NUL byte, 2014 edition](http://googleprojectzero.blogspot.ru/2014/08/the-poisoned-nul-byte-2014-edition.html)  _(tags: tweet)_
+- 2014-08-29: [&quot;Note And Vote&quot;: How Google Ventures Avoids Groupthink In Meetings | Co.Design | business + innovation + design](http://m.fastcodesign.com/3034772/innovation-by-design/note-and-vote-how-google-ventures-avoids-groupthink-in-meetings)  _(tags: tweet)_
+- 2014-08-29: [Healthcare Standards: Safe Exchange of CCDA](http://motorcycleguy.blogspot.com/2013/09/safe-exchange-of-ccda.html)  _(tags: health, data, microformats)_
+- 2014-08-29: [Healthcare Standards: CDA is Dead](http://motorcycleguy.blogspot.com/2013_09_01_archive.html)  _(tags: no_tag)_
+- 2014-08-29: [Open Source Electronic Health Record Alliance  | OSEHRA](http://www.osehra.org)  _(tags: no_tag)_
+- 2014-08-29: [RDF as Universal Healthcare language | OSEHRA](http://www.osehra.org/blog/rdf-universal-healthcare-language-0)  _(tags: no_tag)_
+- 2014-08-29: [parallelize LLVM optimization and codegen passes by epdtry · Pull Request #16367 · rust-lang/rust · GitHub](https://github.com/rust-lang/rust/pull/16367)  _(tags: rust, tweet)_
+- 2014-08-29: [Rep. Dingell calls out colleagues who supported ALS funding cuts for hypocritical ice bucketing - NY Daily News](http://www.nydailynews.com/news/politics/rep-john-dingell-calls-colleagues-hypocritical-ice-bucketing-article-1.1911814)  _(tags: pjnet, p2, tweet)_
+- 2014-08-29: [The  service now supports https for secured admini](http://t.co/YHLZKLzKL0)  _(tags: tweet)_
+- 2014-08-29: [Welcome | Java.net](https://home.java.net)  _(tags: tweet)_
+- 2014-08-28: [PL/v8: A procedural language in JavaScript / PostgreSQL Extension Network](http://pgxn.org/dist/plv8/doc/plv8.html)  _(tags: no_tag)_
+- 2014-08-28: [PostgreSQL Stored Procedure Performance - Database Administrators Stack Exchange](http://dba.stackexchange.com/questions/8119/postgresql-stored-procedure-performance)  _(tags: no_tag)_
+- 2014-08-28: [Heroku | JavaScript in your Postgres](https://blog.heroku.com/archives/2013/6/5/javascript_in_your_postgres)  _(tags: no_tag)_
+- 2014-08-28: [PLV8 - plv8js - V8 Engine Javascript Procedural Language add-on for PostgreSQL - Google Project Hosting](https://code.google.com/p/plv8js/wiki/PLV8)  _(tags: no_tag)_
+- 2014-08-28: [main is usually a function: Calling a Rust library from C (or anything else!)](http://mainisusuallyafunction.blogspot.com/2014/08/calling-rust-library-from-c-or-anything.html)  _(tags: no_tag)_
+- 2014-08-28: [leveldb - A fast and lightweight key/value database library by Google. - Google Project Hosting](https://code.google.com/p/leveldb/)  _(tags: no_tag)_
+- 2014-08-28: [Linux Security Modules - Wikipedia, the free encyclopedia](http://en.m.wikipedia.org/wiki/Linux_Security_Modules)  _(tags: security, linux)_
+- 2014-08-28: [Commits · google/capsicum-linux](https://github.com/google/capsicum-linux/commits/capsicum)  _(tags: capabilities, security, linux)_
+- 2014-08-28: [Genode - Release notes for the Genode OS Framework 14.08](http://genode.org/documentation/release-notes/14.08)  _(tags: tweet, capabilities, vm, rust)_
+- 2014-08-28: [Milawa: A Self-Verifying Theorem Prover for an ACL2-Like Logic | Lambda the Ultimate](http://lambda-the-ultimate.org/node/3964)  _(tags: no_tag)_
+- 2014-08-28: [Comparing Objective Caml and Standard ML](http://adam.chlipala.net/mlcomp/)  _(tags: fp)_
+- 2014-08-26: [Hyperlinks](https://help.gnome.org/users/gnumeric/stable/sect-data-link.html.en)  _(tags: no_tag)_
+- 2014-08-26: [DOCKER & VMWARE: 1 + 1 = 3](https://blog.docker.com/2014/08/docker-vmware-1-1-3/)  _(tags: devops)_
+- 2014-08-26: [Therasoft Online- Training is the foundation for success](https://therasoftonline.com/Training.html)  _(tags: no_tag)_
+- 2014-08-23: [True story: when the client provides his webservices | CommitStrip - Blog relating the daily life of web agencies developers](http://www.commitstrip.com/en/2014/08/11/true-story-when-the-client-provides-his-webservices/)  _(tags: funny, data)_
+- 2014-08-22: [[cap-talk] Fwd: seL4 is going open source](http://www.eros-os.org/pipermail/cap-talk/2014-June/016121.html)  _(tags: no_tag)_
+- 2014-08-22: [My first unikernel - Thomas Leonard's blog](http://roscidus.com/blog/blog/2014/07/28/my-first-unikernel/)  _(tags: vm, microkernel)_
+- 2014-08-22: [Lessons from E-speak](http://www.hpl.hp.com/techreports/2004/HPL-2004-150.html)  _(tags: no_tag)_
+- 2014-08-22: [[E-Lang] Java 2 "Security" (was: Re: Welcome ChrisSkalkaand ScottSmith of Johns Hopkins)](http://www.eros-os.org/pipermail/e-lang/2001-January/004102.html)  _(tags: no_tag)_
+- 2014-08-22: [I haven't played with it yet, no, but I work close to the bottom of the stack (i... | Hacker News](https://news.ycombinator.com/item?id=8203032)  _(tags: no_tag)_
+- 2014-08-22: [l4v/ctranslation.tex at master · seL4/l4v](https://github.com/seL4/l4v/blob/master/tools/c-parser/doc/ctranslation.tex)  _(tags: no_tag)_
+- 2014-08-21: [Cap'n Proto: Installation](http://kentonv.github.io/capnproto/install.html)  _(tags: no_tag)_
+- 2014-08-19: [Release History Of SQLite](http://www.sqlite.org/changes.html)  _(tags: no_tag)_
+- 2014-08-19: [Bug #1278569 “ibus breaks emacs and eclipse control-space keybin...” : Bugs : “ibus” package : Ubuntu](https://bugs.launchpad.net/ubuntu/+source/ibus/+bug/1278569)  _(tags: no_tag)_
+- 2014-08-19: [kbpgp - PGP in JavaScript](https://keybase.io/kbpgp)  _(tags: tweet)_
+- 2014-08-19: [For the first time, more Americans subscribe to ca](http://img.qz.com/2014/08/subscribers-to-the-top-nine-american-cable-companies-television-internet_chartbuilder.png?utm_content=buffercb171&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: internet, tweet)_
+- 2014-08-18: [FastRWeb - Fast Interactive Web Framework for Data Mining Using R - RForge.net](http://rforge.net/FastRWeb/)  _(tags: no_tag)_
+- 2014-08-18: [Install [wiki.mate-desktop.org]](http://wiki.mate-desktop.org/download#ubuntu)  _(tags: no_tag)_
+- 2014-08-18: [Princeton Researcher Receives $500k National Science Foundation Cryptocurrency Grant | Lets Talk Bitcoin](http://letstalkbitcoin.com/blog/post/princeton-researcher-receives-half-million-dollar-national-science-foundation-cryptocurrency-grant)  _(tags: tweet)_
+- 2014-08-18: [What we have today is not Bitcoin but BINO | Lets Talk Bitcoin](http://letstalkbitcoin.com/blog/post/bino)  _(tags: tweet)_
+- 2014-08-17: [dckc/pada1](https://github.com/dckc/pada1)  _(tags: no_tag)_
+- 2014-08-17: [Secure Shell - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Secure_Shell)  _(tags: no_tag)_
+- 2014-08-17: [Git - Basic Branching and Merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)  _(tags: no_tag)_
+- 2014-08-17: [Merging, Deleting, and Comparing Branches](http://www.jetbrains.com/idea/webhelp/merging-deleting-and-comparing-branches.html)  _(tags: no_tag)_
+- 2014-08-17: [enable PIE by default on Linux for full ASLR by thestinger · Pull Request #16340 · rust-lang/rust · GitHub](https://github.com/rust-lang/rust/pull/16340)  _(tags: rustlang, tweet)_
+- 2014-08-17: [Sandstorm.io - Personal Cloud Platform | Indiegogo](https://www.indiegogo.com/projects/sandstorm-io-personal-cloud-platform)  _(tags: tweet)_
+- 2014-08-17: [Django Miniconf: Closing Keynote by Tony Morris - YouTube](http://www.youtube.com/watch?v=uqsZa36Io2M&feature=youtu.be)  _(tags: tweet)_
+- 2014-08-17: ["Skype can't connect". Ubuntu 12.04. Skype 4.1 for... - Skype Community](http://community.skype.com/t5/Linux/quot-Skype-can-t-connect-quot-Ubuntu-12-04-Skype-4-1-for-Linux/td-p/3479367)  _(tags: no_tag)_
+- 2014-08-16: [Cap'n Proto v0.2: Compiler rewritten from Haskell to C++, other changes - Google Groups](https://groups.google.com/forum/#!topic/capnproto-announce/GbEMGoR2Kbk)  _(tags: no_tag)_
+- 2014-08-16: [Why are the Microsoft Office file formats so complicated? (And some workarounds) - Joel on Software](http://www.joelonsoftware.com/items/2008/02/19.html)  _(tags: no_tag)_
+- 2014-08-16: [Bug #1223150 “Disable doctest checking unless an option is passe...” : Bugs : Pyflakes](https://bugs.launchpad.net/pyflakes/+bug/1223150)  _(tags: no_tag)_
+- 2014-08-16: [Flake8 — flake8 2.2.2 documentation](http://flake8.readthedocs.org/en/latest/)  _(tags: no_tag)_
+- 2014-08-15: [Occi - ocaml bindings for Oracle](http://oracaml.sourceforge.net/doc/Occi.html)  _(tags: data, fp)_
+- 2014-08-15: [linux - Using openssl to get the certificate from a server - Stack Overflow](http://stackoverflow.com/questions/7885785/using-openssl-to-get-the-certificate-from-a-server)  _(tags: no_tag)_
+- 2014-08-15: [Proof confirmed of 400-year-old fruit-stacking problem - physics-math - 12 August 2014 - New Scientist](http://www.newscientist.com/article/dn26041-proof-confirmed-of-400yearold-fruitstacking-problem.html)  _(tags: tweet)_
+- 2014-08-15: [miniLock — File encryption software that does more with less](https://minilock.io)  _(tags: tweet)_
+- 2014-08-15: [[Python-ideas] Proposal: Use mypy syntax for function annotations](https://mail.python.org/pipermail/python-ideas/2014-August/028618.html)  _(tags: tweet)_
+- 2014-08-15: [Sandstorm News: Sandstorm vs. Kernel Exploits](https://blog.sandstorm.io/news/2014-08-13-sandbox-security.html)  _(tags: tweet)_
+- 2014-08-14: [Simplify Your Life With an SSH Config File · Nerderati](http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/)  _(tags: sysadmin, security)_
+- 2014-08-14: [New Programming Jargon](http://blog.codinghorror.com/new-programming-jargon/)  _(tags: no_tag)_
+- 2014-08-14: [Bozho's tech blog » Get Rid of the URL Pollution](http://techblog.bozho.net/?p=1497)  _(tags: no_tag)_
+- 2014-08-13: [Python on Wheels | Armin Ronacher's Thoughts and Writings](http://lucumr.pocoo.org/2014/1/27/python-on-wheels/)  _(tags: devops, python, packaging)_
+- 2014-08-13: [Solid Python Deployments for Everybody - Hynek Schlawack](https://hynek.me/talks/python-deployments/)  _(tags: python, devops)_
+- 2014-08-13: [The Evolution of Finger: configuration and packaging of the finger service - Twisted 14.0.0 documentation](http://twistedmatrix.com/documents/current/core/howto/tutorial/configuration.html)  _(tags: python, security, devops, capabilities)_
+- 2014-08-13: [Python Application Deployment with Native Packages - Hynek Schlawack](https://hynek.me/articles/python-app-deployment-with-native-packages/)  _(tags: python, devops)_
+- 2014-08-12: [Spaces and SCP](http://jonsimpson.co.uk/log/2005/spaces_scp)  _(tags: sysadmin)_
+- 2014-08-12: [Apache and SELinux](http://beginlinux.com/server_training/web-server/976-apache-and-selinux)  _(tags: sysadmin, security, web)_
+- 2014-08-11: [US big-data health network launches aspirin study : Nature News & Comment](http://www.nature.com/news/us-big-data-health-network-launches-aspirin-study-1.15675?utm_content=buffer1b796&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: health, research)_
+- 2014-08-09: [a catalog of bugs, or "Why to disable assembly optimization"](https://tahoe-lafs.org/pipermail/tahoe-dev/2014-July/009134.html?utm_content=buffere2651&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: programming, quality, security)_
+- 2014-08-09: [syntax - How to do an update + join in PostgreSQL? - Stack Overflow](http://stackoverflow.com/questions/7869592/how-to-do-an-update-join-in-postgresql)  _(tags: no_tag)_
+- 2014-08-07: [The challenges of UI for secur](http://research.microsoft.com/pubs/79323/BillGatesComment2007.txt)  _(tags: securityishard, tweet, security)_
+- 2014-08-07: [26 Foods You've Been Eating All Wrong](http://mashable.com/2014/08/03/food-hacks/?utm_cid=mash-prod-email-topstories&utm_emailalert=daily&utm_content=buffer6767b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: foodhacks, tweet)_
+- 2014-08-06: [How the Kickstarter model could transform UK elections | Technology | theguardian.com](http://www.theguardian.com/technology/2014/jul/24/how-the-kickstarter-model-could-transform-uk-elections)  _(tags: no_tag)_
+- 2014-08-06: [Arrow: better dates and times for Python — Arrow 0.4.4 documentation](http://crsmithdev.com/arrow/)  _(tags: no_tag)_
+- 2014-08-06: [Travis CI: The Build Environment](http://docs.travis-ci.com/user/ci-environment/)  _(tags: devops, quality, programming)_
+- 2014-08-05: [What’s Better Than Kindle Unlimited for $120 a Year? This Free Alternative - Bloomberg](http://www.bloomberg.com/news/2014-07-31/what-s-better-than-kindle-unlimited-for-120-a-year-this-free-alternative.html)  _(tags: tweet)_
+- 2014-08-05: [Marshfield Clinic Biomedical Informatics Center](http://marshfieldclinic.net/birc/pages/default.aspx?page=mcrf_birc_dental_who_we_are)  _(tags: no_tag)_
+- 2014-08-05: [10 Minutes to pandas — pandas 0.14.1 documentation](http://pandas.pydata.org/pandas-docs/stable/10min.html)  _(tags: no_tag)_
+- 2014-08-05: [Container-optimized Google Compute Engine images - Google Compute Engine — Google Developers](https://developers.google.com/compute/docs/containers/container_vms)  _(tags: no_tag)_
+- 2014-08-05: [Google Cloud SDK — Google Developers](https://developers.google.com/cloud/sdk/#download)  _(tags: no_tag)_
+- 2014-08-03: [Dropbox - RustPS4-LA-August2014.pdf](https://www.dropbox.com/s/eiktzhuh3u36on4/RustPS4-LA-August2014.pdf)  _(tags: tweet)_
+- 2014-08-02: [tlswg/tls13-spec · GitHub](https://github.com/tlswg/tls13-spec)  _(tags: tweet)_
+- 2014-08-02: [Norris Numbers](http://www.teamten.com/lawrence/writings/norris-numbers.html)  _(tags: tweet)_
+- 2014-08-01: [Internet Privacy Service Tor Warns Users It Was Attacked - NYTimes.com](http://www.nytimes.com/reuters/2014/07/30/technology/30reuters-privacy-software-attack.html?src=busln)  _(tags: no_tag)_
+- 2014-08-01: [Move rcloud to Rserve object capabilities · Issue #73 · att/rcloud · GitHub](https://github.com/att/rcloud/issues/73)  _(tags: statistics, programming, object, capabilities)_
+- 2014-08-01: [COMP9242 Advanced Operating Systems 14s2](http://www.cse.unsw.edu.au/~cs9242/current/)  _(tags: no_tag)_
+- 2014-08-01: [Piazza • Ask. Answer. Explore. Whenever.](https://piazza.com/signup?mc_id=cp_1&net_id=hy16ylycyu1of)  _(tags: learning, collaboration)_

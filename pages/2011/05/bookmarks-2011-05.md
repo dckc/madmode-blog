@@ -1,0 +1,139 @@
+---
+title: May 2011 Bookmarks: android, data, and family
+date: 2011-05-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "404", "america", "android", "annual", "apple", "austin", "auto", "bos", "bug", "business", "calendar", "cloud", "community", "contact", "data", "design", "digital", "diy", "dogs", "economics", "faith", "family", "finance", "finances", "geo", "google", "gtd", "guitar", "health", "hg", "html", "javascript", "kc", "kumc", "linux", "mac", "me", "media", "microformats", "mobile", "music", "open-source", "pim", "politics", "presentation", "print", "programming", "publishing", "pvr", "review", "science", "scm", "service", "shopping", "statistics", "svg", "sync", "sysadmin", "travel", "tv", "ubuntu", "unix", "video", "world", "writing"]
+---
+
+Shared bookmarks saved in May 2011.
+
+- total bookmarks: 125
+- total annotations captured: 35
+
+## Links
+
+- 2011-05-31: [Finding time to exercise | 168 Hours](http://www.my168hours.com/main/2009/08/finding-time-to-exercise)  _(tags: health)_
+- 2011-05-31: [Missouri River Paddling Company in Missouri: Lewis and Clark Trail](http://lewis-clark-trail.us/437/Missouri+River+Paddling+Company.html)  _(tags: kc, outdoors, 2008, tag, contact)_
+- 2011-05-31: [GEDCOM Export - Wiki](http://wiki.geni.com/index.php/GEDCOM_Export)  _(tags: someday, family, data, contact)_
+- 2011-05-31: [Issue 2041 - apps-api-issues - Contacts API reports the presence of groups that are not visible on the interface - This project is a place to report issues with the Google Apps APIs. - Google Project Hosting](http://code.google.com/a/google.com/p/apps-api-issues/issues/detail?id=2041)  _(tags: family, data, cloud, problem)_
+- 2011-05-31: [Forget Google Map Address Book App - Create Groups in Contacts - Android Forums](http://androidforums.com/incredible-tips-tricks/120884-forget-google-map-address-book-app-create-groups-contacts.html)  _(tags: contact, android)_
+- 2011-05-31: [Google Contacts Map - ProgrammableWeb Mashup Detail](http://www.programmableweb.com/mashup/google-contacts-map)  _(tags: geo, contact)_
+- 2011-05-31: [FlorianGilles.com - Google Contacts Map](http://www.floriangilles.com/software/googlecontactsmap)  _(tags: geo, contact)_
+- 2011-05-31: [What's wrong with XML APIs and how to fix it](http://www.xom.nu/whatswrong/whatswrong.html)  _(tags: data, programming)_
+- 2011-05-31: [GedML: Genealogical Data in XML](http://homepage.ntlworld.com/michael.h.kay/gedml/index.html)  _(tags: family, data, programming)_
+- 2011-05-31: [genealogy · Microformats Wiki](http://microformats.org/wiki/genealogy)  _(tags: family, data, contact, microformats)_
+- 2011-05-31: [Gramps and GEDCOM - GRAMPS](http://www.gramps-project.org/wiki/index.php?title=Gramps_and_GEDCOM)  _(tags: family, data)_
+- 2011-05-31: [GEDCOM - GRAMPS](http://www.gramps-project.org/wiki/index.php?title=Gedcom)  _(tags: family, data, open-source)_
+- 2011-05-31: [GEDCOM - GENi Wiki](http://wiki.geni.com/index.php/GEDCOM)  _(tags: family, contact, data, cloud)_
+- 2011-05-31: [Heartland Habitat for Humanity](http://www.heartlandhabitat.org/calendar)  _(tags: someday, community, service, summer, seasonal)_
+- 2011-05-31: [Replace Your Toyota Highlander Tail Lights on Your Own | Only About Cars](http://www.onlyaboutcars.com/replace-your-toyota-highlander-tail-lights-on-your-own)  _(tags: diy, auto, service)_
+- 2011-05-31: [YouTube - How to Change 2002 Toyota RAV4 Brake Light Bulb](http://www.youtube.com/watch?v=tEMvTwRfGTw)  _(tags: video, auto, service, diy, howto)_
+- 2011-05-30: [Ubuntu -- Package Search Results -- vagalume](http://packages.ubuntu.com/search?keywords=vagalume)  _(tags: music, sysadmin, ubuntu, cloud)_
+- 2011-05-30: [Banshee » Banshee 1.5.2](http://banshee.fm/download/archives/1-5-2)  _(tags: no_tag)_
+- 2011-05-28: [DanC / quacken / changeset / adcec9b02b6f – Bitbucket](https://bitbucket.org/DanC/quacken/changeset/adcec9b02b6f)  _(tags: programming, finance, javascript, web)_
+- 2011-05-28: [Email or export a budget report](http://satisfaction.mint.com/mint/topics/email_or_export_a_budget_report)  _(tags: cloud, finances)_
+- 2011-05-28: [Flattr Rocked SXSWi | Flattr Blog](http://blog.flattr.net/2011/03/flattr-rocked-sxswi)  _(tags: patronage, austin)_
+- 2011-05-28: [Flattr - Social micropayments](https://flattr.com/profile/dckc)  _(tags: me)_
+- 2011-05-28: [public:root_friendly    [RootWiki]](http://unrevoked.com/rootwiki/doku.php/public/root_friendly)  _(tags: tweet)_
+- 2011-05-27: [On Chomsky and the Two Cultures of Statistical Learning](http://norvig.com/chomsky.html)  _(tags: statistics)_
+- 2011-05-27: [Using advanced search - Gmail Help](http://mail.google.com/support/bin/answer.py?answer=7190)  _(tags: google, pim, cloud)_
+- 2011-05-26: [Issue 4979 - android - Contacts is merging 2 separate contacts - Android - An Open Handset Alliance Project - Google Project Hosting](http://code.google.com/p/android/issues/detail?id=4979)  _(tags: google, android, mobile, contacts)_
+- 2011-05-25: [Oklahoma Joe’s submits plans for Leawood restaurant | Kansas City Business Journal](http://www.bizjournals.com/kansascity/news/2011/05/24/oklahoma-joes-submits-plans-for.html?ed=2011-05-24&s=article_du&ana=e_du_pub)  _(tags: tweet)_
+- 2011-05-23: [Understanding UNIX / Linux filesystem Inodes](http://www.cyberciti.biz/tips/understanding-unixlinux-filesystem-inodes.html)  _(tags: linux, sysadmin)_
+- 2011-05-22: [MP3Gain](http://mp3gain.sourceforge.net/)  _(tags: music, someday, digital, media)_
+- 2011-05-21: [Kirmayer Fitness Center, University of Kansas Medical Center](http://www.kumc.edu/kirmayer)  _(tags: health, exercise, kc, kumc)_
+- 2011-05-20: [On TermKit | Steven Wittens - Acko.net](http://acko.net/blog/on-termkit)  _(tags: unix, programming, javascript)_
+- 2011-05-20: [Google Earth Outreach - Spreadsheet Mapper 2.0](http://earth.google.com/outreach/tutorial_spreadsheet.html#enter_your_info)  _(tags: someday, pim, geo, data)_
+- 2011-05-20: [Swap FAQ - Community Ubuntu Documentation](https://help.ubuntu.com/community/SwapFaq)  _(tags: sysadmin, ubuntu, linux)_
+- 2011-05-20: [Free Graph Paper Generator: Graphpaper Printing Tool](http://graphpaper.us)  _(tags: print)_
+- 2011-05-20: [css - Printing to a paper form - Stack Overflow](http://stackoverflow.com/questions/4017217/printing-to-a-paper-form)  _(tags: print)_
+- 2011-05-20: [jasperreports : JasperForge](http://jasperforge.org/projects/jasperreports)  _(tags: print)_
+- 2011-05-20: [labelgrid - label printing software, css and javascript label printing web framework](http://www.labelgrid.net/labelsoftware/index.html)  _(tags: print)_
+- 2011-05-20: [Cycle 2: HTML View To PDF - Zoho Forums](http://forums.zoho.com/topic/cycle-2%3a-html-view-to-pdf)  _(tags: business, programming, 404)_
+- 2011-05-18: ['module' object has no attribute 'bookmark' - Issues - schacon/hg-git - GitHub](https://github.com/schacon/hg-git/issues/178)  _(tags: scm, programming)_
+- 2011-05-18: [BitBucket or GitHub? Use both! | Blog | Phil Sturgeon](http://philsturgeon.co.uk/blog/2010/07/bitbucket-or-github)  _(tags: scm, programming)_
+- 2011-05-18: [BitBucket and GitHub](http://dev.pocoo.org/~blackbird/github-vs-bitbucket/bitbucket.html)  _(tags: scm, programming)_
+- 2011-05-18: [How do I download my source kml from from Google Maps? - Maps Help](http://www.google.com/support/forum/p/maps/thread?tid=32fffbde91395524&hl=en)  _(tags: geo, cloud)_
+- 2011-05-18: [KU School of Medicine is the most popular medical school in the country](http://www.kumc.edu/news-listing-page/ku-school-of-medicine-is-the-most-popular-medical-school-in-the-country.html)  _(tags: kumc)_
+- 2011-05-18: [Why we chose Mercurial and Bitbucket | CloudEngine Blog](http://cloudengineblog.wordpress.com/2010/12/13/why-we-chose-mercurial-and-bitbucket)  _(tags: no_tag)_
+- 2011-05-18: [Using your Own Bitbucket Domain Name - Bitbucket - Atlassian Documentation - Confluence](http://confluence.atlassian.com/display/BITBUCKET/Using+your+Own+Bitbucket+Domain+Name)  _(tags: sysadmin, someday, programming, publishing)_
+- 2011-05-18: [Convert Your Annotations to Blog Posts with 1-click](https://secure.diigo.com/blog_this/config)  _(tags: sysadmin, someday, writing)_
+- 2011-05-18: [How do we backup documents in the new Google Docs interface? - Google Docs Help](http://www.google.com/support/forum/p/Google+Docs/thread?tid=2dae68173fc7ad59&hl=en&fid=2dae68173fc7ad5900049b65eba5cab5&hltp=2)  _(tags: sysadmin, cloud, annual, someday)_
+- 2011-05-18: [How to back up your Gmail on Linux in four easy steps](http://www.mattcutts.com/blog/backup-gmail-in-linux-with-getmail)  _(tags: sysadmin, cloud, annual, someday)_
+- 2011-05-18: [Social Annotation: Seamless Integration of Social Bookmarking, Web Highlighter, Sticky-Note & Clipping](http://www.diigo.com/tools/linkrolls)  _(tags: web, publishing, someday, brainstorm, writing)_
+- 2011-05-18: [GitHub Pages - GitHub](https://github.com/blog/272-github-pages)  _(tags: web, publishing, programming, scm, hg)_
+- 2011-05-17: [Are Cameras the New Guns? - Gizmodo](http://gizmodo.com/5553765/are-cameras-the-new-guns)  _(tags: america)_
+- 2011-05-17: [Javascript PC Emulator - Technical Notes](http://bellard.org/jslinux/tech.html)  _(tags: javascript, linux)_
+- 2011-05-16: [Guernica / Noam Chomsky: My Reaction to Osama bin Laden’s Death](http://www.guernicamag.com/blog/2652/noam_chomsky_my_reaction_to_os)  _(tags: america, world)_
+- 2011-05-16: [My Reaction to Osama bin Laden’s Death | www.guernicamag.com | Readability](https://www.readability.com/articles/iyuphhmd?legacy_bookmarklet=1)  _(tags: america, world)_
+- 2011-05-16: [Ipod export - MythTV Official Wiki](http://www.mythtv.org/wiki/Ipod_export)  _(tags: pvr, video)_
+- 2011-05-16: [Stream mythtv recordings from mythweb using flash video - MythTV Official Wiki](http://www.mythtv.org/wiki/Stream_mythtv_recordings_from_mythweb_using_flash_video)  _(tags: pvr, digital, media, video, tv)_
+- 2011-05-16: [Free eBooks on the #1 Rated eBook Reader for iPhone, iPad, and iPod Touch](https://iflowreader.com/Closing.aspx)  _(tags: apple, mac, freedom-to-tinker)_
+- 2011-05-16: [Email Zen: Clear Out Your Inbox | zen habits](http://zenhabits.net/email-zen-clear-out-your-inbox)  _(tags: gtd)_
+- 2011-05-16: [Business Calendar - Android Market](https://market.android.com/details?id=mikado.bizcalpro&feature=search_result)  _(tags: calendar, pim, geo, gtd, someday, mobile)_
+- 2011-05-16: [Issue 1584 - google-mapmaker - Road Construction and Future Roads - Google Map Maker Issue Tracker - Google Project Hosting](http://code.google.com/p/google-mapmaker/issues/detail?id=1584)  _(tags: geo, data)_
+- 2011-05-16: [Powr-kraft Radial Arms Saw TPC 2300B - by shanny @ LumberJocks.com ~ woodworking community](http://lumberjocks.com/topics/15389)  _(tags: diy)_
+- 2011-05-16: [Blue Valley North Orchestra - May 2011 Program](http://highschoolarts.net/index.php?option=com_content&view=article&id=262%3Ablue-valley-north-orchestra-may-2011-program&catid=37&Itemid=214)  _(tags: no_tag)_
+- 2011-05-16: [Sphere by Crichton, Michael (ISBN: 9789780394578) Buy Order Price - BPC](http://www.bookpricescomparison.com/item_details.aspx?itemid=9780394570808djxcsffDJ9XXZxtY3N8gdjxce)  _(tags: audio books review **)_
+- 2011-05-14: [Zoho Creator - Online Database Application](https://creator.zoho.com/home#yourplan)  _(tags: no_tag)_
+- 2011-05-12: [Cross-workbook references : Functions - Google Docs Help](http://docs.google.com/support/bin/answer.py?answer=98757)  _(tags: family, finance)_
+- 2011-05-12: [Referencing other Google spreadsheets « Corrie Haffly](http://corriehaffly.wordpress.com/2008/09/25/referencing-other-google-spreadsheets)  _(tags: no_tag)_
+- 2011-05-12: [How to do a Weekly Review in Under an Hour | zen habits](http://zenhabits.net/how-to-do-weekly-review-in-under-hour)  _(tags: gtd)_
+- 2011-05-12: [YouTube - Your Brain at Work](http://www.youtube.com/watch?v=XeJSXfXep4M&feature=youtube_gdata_player)  _(tags: video, presentation, productivity, gtd, health)_
+- 2011-05-12: [Passage: Psalm 5 (ESV Bible Online)](http://www.gnpcb.org/esv/search/?q=Psalm+5)  _(tags: no_tag)_
+- 2011-05-12: [Passage: Psalm 4 (ESV Bible Online)](http://www.gnpcb.org/esv/search/?q=Psalm+4)  _(tags: no_tag)_
+- 2011-05-12: [Google I/O in a Nutshell: All the News You Might Have Missed](http://mashable.com/2011/05/11/google-io-recap)  _(tags: google)_
+- 2011-05-12: [Getting organized with the Tasks API - The official Google Code blog](http://googlecode.blogspot.com/2011/05/getting-organized-with-tasks-api.html)  _(tags: gtd, mobile, sync, programming)_
+- 2011-05-12: [pyx12](http://pyx12.sourceforge.net)  _(tags: no_tag)_
+- 2011-05-12: [Pyx12 Translation Maps](http://pyx12.sourceforge.net/doc/maps)  _(tags: no_tag)_
+- 2011-05-12: [EDI X12 / HCFA 1500 / HCFA 1450 / Electronic Claim Generation / Generate ASC 837 X12 file from external source | x12edi](http://x12edi.wordpress.com/2010/12/23/edi-x12-hcfa-1500-hcfa-1450-electronic-claim-generation-generate-asc-837-x12-file-from-external-source)  _(tags: no_tag)_
+- 2011-05-12: [Bots open source edi translator - Browse /bots open source edi software at SourceForge.net](http://sourceforge.net/projects/bots/files/bots%20open%20source%20edi%20software)  _(tags: no_tag)_
+- 2011-05-12: [Bots open source Edi translator](http://bots.sourceforge.net/en/index.shtml)  _(tags: no_tag)_
+- 2011-05-12: [Zoho Creator - Online Database Application](https://creator.zoho.com/public/showAppInfo?canvasurl=koawdppbg&refererUrl=%2Fplatform%2Fpublic%2FpopularApplications%3Flimit%3D10%26pageNo%3D2%26count%3D446&refererText=Back%20to%20PopularApps%20Listing)  _(tags: no_tag)_
+- 2011-05-12: [Implementing time-only fields using text fields | Zoho Creator Lounge](http://lounge.creator.zoho.com/tips-and-tricks/implementing-time-only-fields-using-text-fields)  _(tags: no_tag)_
+- 2011-05-12: [App Builder - Deluge Scripting](https://help.creator.zoho.com/App-Builder---Deluge-Scripting.html#backup)  _(tags: no_tag)_
+- 2011-05-12: [Trigger 3.2 Final - EDT Forums - Page 2](http://edtdev.com/forum/topic/92-trigger-32-final/page__st__20)  _(tags: android)_
+- 2011-05-11: [Zoho Creator for Google Apps](https://help.creator.zoho.com/Zoho-Creator-for-Google-Apps.html)  _(tags: no_tag)_
+- 2011-05-10: [Pinboard: bookmarks for connolly tagged '#android'](http://pinboard.in/u:connolly/t:%2523android)  _(tags: android)_
+- 2011-05-10: [SGS screenshots - Dan Connolly - Picasa Web Albums](https://picasaweb.google.com/112068148589999713385/SGSScreenshots)  _(tags: android, mobile)_
+- 2011-05-10: [[ROM] Trigger 3.2 Final » EDT » 5/3/11 » "When in doubt, re-read OP!" - xda-developers](http://forum.xda-developers.com/showthread.php?t=1041447)  _(tags: android)_
+- 2011-05-09: [Dabble DB Customers: Migrate to Zoho Creator Seamlessly! | Zoho Blogs](http://blogs.zoho.com/announcements/dabble-db-customers-migration-offer-from-zoho-creator)  _(tags: no_tag)_
+- 2011-05-09: [Online Database Software - Zoho Creator Pricing Plan](http://www.zoho.com/creator/pricing.html)  _(tags: no_tag)_
+- 2011-05-09: [Dabble DB - Online Database - Collect, report, and share your data](http://dabbledb.com)  _(tags: no_tag)_
+- 2011-05-09: [Frequently Asked Questions about Clingo](http://www.clingo.com/articles/faq)  _(tags: no_tag)_
+- 2011-05-09: [Whey protein - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Whey_protein)  _(tags: no_tag)_
+- 2011-05-08: [Configuring Your App's Authentication - Google App Engine - Google Code](http://code.google.com/appengine/articles/auth.html)  _(tags: no_tag)_
+- 2011-05-08: [Which python framework is best for web development in google app engine? - Stack Overflow](http://stackoverflow.com/questions/70913/which-python-framework-is-best-for-web-development-in-google-app-engine)  _(tags: no_tag)_
+- 2011-05-07: [Wondermark  &raquo; Archive   &raquo; The Tinkerer&#8217;s Handbook, Page 8 (of 8)](http://wondermark.com/tink8)  _(tags: tweet)_
+- 2011-05-07: [SocialFlow Company Blog - Breaking Bin Laden: visualizing the power of a single tweet](http://blog.socialflow.com/post/5246404319/breaking-bin-laden-visualizing-the-power-of-a-single)  _(tags: tweet)_
+- 2011-05-07: [PhantomJS: Headless WebKit with JavaScript API](http://www.phantomjs.org)  _(tags: svg, canvas, tweet)_
+- 2011-05-07: [Tomato Firmware - Wikibooks, open books for an open world](http://en.wikibooks.org/wiki/Tomato_Firmware#Supported_devices_and_revisions)  _(tags: no_tag)_
+- 2011-05-07: [Tomato (firmware) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Tomato_(firmware))  _(tags: sysadmin)_
+- 2011-05-06: [The last post - Penmachine - Derek K. Miller](http://www.penmachine.com/2011/05/the-last-post#welovederek)  _(tags: welovederek, tweet)_
+- 2011-05-06: [A Little Atari 810 Disk Drive - rossum's posterous](http://rossum.posterous.com/a-little-atari-810-disk-drive)  _(tags: tweet)_
+- 2011-05-06: [Harper-Davis Financial - HOT TOPIC: Debating the Debt Ceiling : Newsletter: HOT TOPIC: Debating the Debt Ceiling](http://www.rebeccaharper.axafinancialprofessional.com/content.cfm?ContentID=2790)  _(tags: america, economics, politics)_
+- 2011-05-06: [QuickNote lost a note after I logged in](http://feedback.diigo.com/forums/76543-bugs/suggestions/1791277-quicknote-lost-a-note-after-i-logged-in)  _(tags: sync, cloud, problem)_
+- 2011-05-06: [What is new in Diigo V5.0 - diigo help](http://help.diigo.com/home/what-is-new-in-diigo-v5-0)  _(tags: hypertext, writing, pim, sync, mobile)_
+- 2011-05-06: [Power Note for Android | Diigo](http://www.diigo.com/tools/power_note_for_android)  _(tags: mobile, gtd, pim, sync, cloud, review)_
+- 2011-05-06: [ProgrammableWeb - Mashups for APIs MusicBrainz and Last.fm](http://www.programmableweb.com/mashups/directory/1?apis=MusicBrainz%2CLast.fm&sort=date)  _(tags: music, microformats, mashups, programmableweb, guitar)_
+- 2011-05-06: [I Will Rise Chords by Chris Tomlin @ Ultimate-Guitar.Com](http://tabs.ultimate-guitar.com/c/chris_tomlin/i_will_rise_crd.htm)  _(tags: faith, music, guitar)_
+- 2011-05-06: [How He Loves Chords by David Crowder Band @ Ultimate-Guitar.Com](http://tabs.ultimate-guitar.com/d/david_crowder_band/how_he_loves_crd.htm)  _(tags: faith, music, guitar)_
+- 2011-05-06: [what happened to blockquote - Google Docs Help](http://www.google.com/support/forum/p/Google%20Docs/thread?tid=65684fdc8b4607e9&hl=en)  _(tags: writing, html, cloud, problem)_
+- 2011-05-06: [Size limits : Getting to know Google Docs - Google Docs Help](http://docs.google.com/support/bin/answer.py?hl=en&answer=37603)  _(tags: no_tag)_
+- 2011-05-06: [is there a maximum number of rows that can be added in a google spreadsheet? - Google Docs Help](http://www.google.com/support/forum/p/Google%20Docs/thread?tid=6248d49306db8a85&hl=en)  _(tags: no_tag)_
+- 2011-05-06: [Adactio: Journal—Jared Spool: The Secret Lives of Links](http://adactio.com/journal/4539)  _(tags: web, design)_
+- 2011-05-06: [Game developer David Braben creates a USB stick PC for $25 – Video Games Reviews, Cheats | Geek.com](http://www.geek.com/articles/games/game-developer-david-braben-creates-a-usb-stick-pc-for-25-2011055)  _(tags: tweet)_
+- 2011-05-06: [War Dog - An FP Photo Essay By Rebecca Frankel | Foreign Policy](http://www.foreignpolicy.com/articles/2011/05/04/war_dog?page=0,0)  _(tags: america, dogs)_
+- 2011-05-06: [The last post - Penmachine - Derek K. Miller](http://penmachine-bu.appspot.com/2011/05/the-last-post)  _(tags: faith, family)_
+- 2011-05-06: [Picasa Web Albums - Zoya Khare](https://picasaweb.google.com/lh/photo/yREsQsq9LbeFSanoD3nsOHdJ2FGUxRr54NxCpu-LDPc)  _(tags: family)_
+- 2011-05-04: [During a tornado, run, don't gawk | Wichita Eagle](http://www.kansas.com/2011/05/04/1834688/during-a-tornado-run-dont-gawk.html)  _(tags: tweet)_
+- 2011-05-04: [[ROM][KB1]▽▲ AXURA Vibrant Edition▲▽[Devs4Android][2.3.1.3][Beauty/Beast][03/08/2011] - xda-developers](http://forum.xda-developers.com/showthread.php?t=949372)  _(tags: android)_
+- 2011-05-04: [How to Change the Lawn Mower Oil on a Cub Cadet Mower | eHow.com](http://www.ehow.com/how_6197388_change-oil-cub-cadet-mower.html)  _(tags: no_tag)_
+- 2011-05-04: [ARIPartFinder](http://www.cubcadet.com/webapp/wcs/stores/servlet/ARIPartFinderView?storeId=10051&catalogId=14101&langId=-1#/Cub_Cadet/CC94M_12A-94M7_(HM_2010)%2c_12A-94M7010_(2010)/Engine_Assembly_5P70M0B)  _(tags: shopping, lawn)_
+- 2011-05-04: [Amazon.com: Mtd Products Inc 21' 3/1 Sp Lwn Mower 12A-94M7010 Gas Rotary Mower: Patio, Lawn & Garden](http://www.amazon.com/Mtd-Products-Mower-12A-94M7010-Rotary/dp/B003XX6HRG/ref=wl_itt_dp_o?ie=UTF8&coliid=I276HHJU15B9LO&colid=2UQN49SUMLRQO)  _(tags: shopping, lawn)_
+- 2011-05-04: [Cub Cadet Spark Plug for Cub Cadet 139 cc and 173 cc Engines - OCC-751-10292 at The Home Depot](http://www.homedepot.com/webapp/wcs/stores/servlet/ProductDisplay?storeId=10051&productId=202294363&langId=-1&catalogId=10053&ci_src=14110944&ci_sku=202294363&cm_mmc=shopping-_-googlebase-_-D28X-_-202294363&locStoreNum=3021)  _(tags: shopping, lawn)_
+- 2011-05-02: [Issue 27 - electricsleep - Enhancement-export history - Improving Sleep With Android - Google Project Hosting](http://code.google.com/p/electricsleep/issues/detail?id=27)  _(tags: health, rfe, android)_
+- 2011-05-02: [Is Sugar Toxic? - NYTimes.com](http://www.nytimes.com/2011/04/17/magazine/mag-17Sugar-t.html?_r=1)  _(tags: health, america)_
+- 2011-05-02: [Google Voice Blog: Port your existing mobile number to Google Voice](http://googlevoiceblog.blogspot.com/2011/01/port-your-existing-mobile-number-to.html)  _(tags: brainstorm, family, finances, someday)_
+- 2011-05-02: [Bug #680972 in evolution-data-server (Ubuntu): “e-calendar-factory pegs cpu for a while on access to GroupWise calendar”](https://bugs.launchpad.net/ubuntu/+source/evolution-data-server/+bug/680972)  _(tags: linux, ubuntu, problem, bug)_
+- 2011-05-02: [Science Commons » Eric Saltzman](http://sciencecommons.org/about/whoweare/saltzman)  _(tags: science, commons, travel, bos, contacts)_

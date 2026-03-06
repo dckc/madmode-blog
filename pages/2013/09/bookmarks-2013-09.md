@@ -1,0 +1,150 @@
+---
+title: September 2013 Bookmarks: security, research, and python
+date: 2013-09-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "auto", "blog", "capabilities", "collaboration", "data", "design", "diy", "economics", "emacs", "fp", "hardware", "health", "javascript", "mobile", "openid", "opensource", "oracle", "presentation", "privacy", "programming", "protocol", "protocols", "python", "quality", "research", "security", "sparql", "sql", "standards", "sysadmin", "world"]
+---
+
+Shared bookmarks saved in September 2013.
+
+- total bookmarks: 136
+- total annotations captured: 44
+
+## Links
+
+- 2013-09-30: [Cap'n Proto - Google Drive](https://docs.google.com/presentation/d/1uu0majdVHnCtIBo2xsdvijcpThoJfKuaYjyfe89l2IY/edit?usp=sharing)  _(tags: protocol, research, security)_
+- 2013-09-30: [blog.aksw.org  &raquo; Blog Archive   &raquo; SlideWiki is now Open Source](http://blog.aksw.org/2013/slidewiki-is-now-open-source/)  _(tags: opencourseware, slidewiki, opensource, tweet)_
+- 2013-09-30: [Switch to HTTPS Now, For Free](https://konklone.com/post/switch-to-https-now-for-free?hn)  _(tags: sysadmin, security, web)_
+- 2013-09-30: [Jim's Blog: The 10x developer is NOT a myth](http://brikis98.blogspot.com/2013/09/the-10x-developer-is-not-myth.html)  _(tags: no_tag)_
+- 2013-09-30: [pudb 2013.3.6 : Python Package Index](https://pypi.python.org/pypi/pudb)  _(tags: python, quality)_
+- 2013-09-30: [Gmail scanning may violate federal wiretapping laws, judge finds | PCWorld](http://www.pcworld.com/article/2050080/googles-gmail-scanning-unclear-to-users-judge-finds.html)  _(tags: no_tag)_
+- 2013-09-30: [Bitcoin?](http://www.pds.ewi.tudelft.nl/~victor/bitcoin.html)  _(tags: security, economics)_
+- 2013-09-30: [Daily Technology - Amazon Redshift - What You Need To Know](http://dailytechnology.net/2013/08/03/redshift-what-you-need-to-know/)  _(tags: no_tag)_
+- 2013-09-30: [draw.io](https://www.draw.io)  _(tags: no_tag)_
+- 2013-09-30: [GODI is shutting down](http://blog.camlcity.org/blog/godi_shutdown.html)  _(tags: no_tag)_
+- 2013-09-30: [Replacing Python: second round - Thomas Leonard's blog](http://roscidus.com/blog/blog/2013/06/20/replacing-python-round-2/)  _(tags: no_tag)_
+- 2013-09-30: [Start Bootstrap - Free HTML Templates for Bootstrap 3](http://startbootstrap.com)  _(tags: web, design)_
+- 2013-09-29: [Typed Clojure | Indiegogo](http://www.indiegogo.com/projects/typed-clojure)  _(tags: tweet)_
+- 2013-09-29: [Welcome to myOpenID](https://www.myopenid.com)  _(tags: openid, tweet)_
+- 2013-09-29: [ImpactStory awarded $300k NSF grant! | ImpactStory blog](http://blog.impactstory.org/2013/09/27/impactstory-awarded-300k-nsf-grant/)  _(tags: tweet)_
+- 2013-09-29: ["SPARQL update under RDFS entailment in fully mate](http://ai.wu.ac.at/~polleres/publications/ahme-poll-2013OrdRing.pdf)  _(tags: sparql, rdfs, ordring, tweet)_
+- 2013-09-29: [Microsoft Corporation sponsors IPython &mdash; IPython](http://ipython.org/microsoft-donation-2013.html)  _(tags: tweet)_
+- 2013-09-29: [KU Medical Center Alzheimer’s disease researchers will use $3 million NIH grant to study benefits of exercise](http://www.kumc.edu/news-listing-page/ku-medical-center-alzheimer%E2%80%99s-disease-researchers-will-use-3-million-nih-grant-to-study-benefits-of-exercise.html)  _(tags: ctsa, alzheimer, tweet)_
+- 2013-09-29: [fWikimedia Blog 17 &raquo; Blog Archive  53 &raquo; Data for the people!](http://blog.wikimedia.de/2013/09/27/data-for-the-people/)  _(tags: tweet)_
+- 2013-09-29: [Speed Index - WebPagetest Documentation](https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index)  _(tags: tweet)_
+- 2013-09-29: [ThNdl](http://thndl.com)  _(tags: tweet)_
+- 2013-09-29: [NASA&#39;s Curiosity Rover Just Found Water in Martian Soil](http://gizmodo.com/nasas-curiosity-rover-just-found-water-in-martian-soil-1403908591)  _(tags: nasa, mars, water, tweet)_
+- 2013-09-29: [Dear JJAbrams](http://www.dearjjabrams.com)  _(tags: dearjjabrams, tweet)_
+- 2013-09-29: [The Elements of Style](http://www.crockford.com/wrrrld/style.html)  _(tags: no_tag)_
+- 2013-09-27: [Debian OpenSSH key weakness FAQ « Tonnerre Lombard](http://blogs.fsfe.org/tonnerre/archives/25)  _(tags: no_tag)_
+- 2013-09-27: [Integrate citation and bibliography features according to accepted formatting standards – Customer Feedback for Diigo](http://feedback.diigo.com/forums/76211-ideas/suggestions/1101141-integrate-citation-and-bibliography-features-accor)  _(tags: research)_
+- 2013-09-27: [Zotero Forums - Use of zotero with delicious, diigo, etc.](https://forums.zotero.org/discussion/2921/use-of-zotero-with-delicious-diigo-etc/)  _(tags: research)_
+- 2013-09-27: [Social Bookmarking – Diigo or Zotero | Amy Greene](http://blogs.evergreen.edu/amygreene/blog/2011/03/10/social-bookmarking-diigo-or-zotero/)  _(tags: no_tag)_
+- 2013-09-27: [Use Diigo To Help Write Your Next College Essay or Term Paper](http://www.makeuseof.com/tag/diigo-write-college-essay-term-paper/)  _(tags: no_tag)_
+- 2013-09-26: [Tracked changes - show and hide (View topic) • Apache OpenOffice Community Forum](http://forum.openoffice.org/en/forum/viewtopic.php?f=7&t=35970)  _(tags: no_tag)_
+- 2013-09-26: [Patent troll Lodsys demands $5,000 from Martha Stewart. That was a bad idea &mdash; Tech News and Analysis](http://gigaom.com/2013/09/25/patent-troll-lodsys-demands-5000-from-martha-stewart-that-was-a-bad-idea/)  _(tags: tweet)_
+- 2013-09-26: [Ariel Diaz | TEDxCambridge](http://www.tedxcambridge.com/portfolio-item/ariel-diaz/)  _(tags: tweet)_
+- 2013-09-26: [Garrigue says he proved soundness of Ocaml inferen](http://www.cs.ox.ac.uk/ralf.hinze/WG2.8/27/slides/jacques.pdf)  _(tags: tweet)_
+- 2013-09-26: [An NSA Whiz Designs 4 Fonts to Foil Google&#039;s All-Seeing Eye | Wired Design | Wired.com](http://www.wired.com/design/2013/09/you-can-read-these-4-fonts-but-your-computer-cant/)  _(tags: privacy, surveillance, tweet)_
+- 2013-09-26: [Woah. Big data brokers and LexisNexis hacked for I](http://t.co/DsMhPAg2WI)  _(tags: tweet)_
+- 2013-09-26: [The War On Bad Commenters - On The Media](http://www.onthemedia.org/story/war-bad-commenters/)  _(tags: tweet)_
+- 2013-09-26: [hxmonads - Monadic shorthand for haxe - Google Project Hosting](https://code.google.com/p/hxmonads/)  _(tags: no_tag)_
+- 2013-09-26: [Haxe 3 Tutorials: Setting Up Haxe/OpenFL Project in IntelliJ IDEA](http://haxe3.blogspot.co.uk/2013/09/setting-up-haxeopenfl-project-in.html)  _(tags: no_tag)_
+- 2013-09-26: [jdonaldson/promhx](https://github.com/jdonaldson/promhx)  _(tags: no_tag)_
+- 2013-09-26: [Soylent: A Word Processor with a Crowd Inside](http://projects.csail.mit.edu/soylent/)  _(tags: no_tag)_
+- 2013-09-26: [Intellij Idea - Haxe](http://haxe.org/com/ide/intelij)  _(tags: no_tag)_
+- 2013-09-26: [[Tutorial] Install Sun Java JDK 6 on Ubuntu 12.04 LTS - xda-developers](http://forum.xda-developers.com/showthread.php?t=2021510)  _(tags: no_tag)_
+- 2013-09-26: [System Requirements and Installation](http://www.jetbrains.com/phpstorm/webhelp/system-requirements-and-installation.html#d57766e533)  _(tags: no_tag)_
+- 2013-09-26: [Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)  _(tags: no_tag)_
+- 2013-09-26: [FAQ - IntelliJ Open-Source Project - Confluence](http://www.jetbrains.org/display/IJOS/FAQ)  _(tags: no_tag)_
+- 2013-09-26: [Alterslash, the unofficial Slashdot digest](http://alterslash.org)  _(tags: no_tag)_
+- 2013-09-26: [Starting a background process in python - Stack Overflow](http://stackoverflow.com/questions/1196074/starting-a-background-process-in-python)  _(tags: no_tag)_
+- 2013-09-26: [Aaron's Essays: Python subprocess vs os.popen overhead](http://essays.ajs.com/2011/02/python-subprocess-vs-ospopen-overhead.html)  _(tags: no_tag)_
+- 2013-09-25: [Defining Privacy and Utility in Data Sets by Felix T. Wu :: SSRN](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2031808)  _(tags: tweet, health, data, research)_
+- 2013-09-25: [How to replace headlight bulbs on a Honda Civic (2001 - 2003) HD - YouTube](http://www.youtube.com/watch?v=g36t6GgEOdE)  _(tags: diy, auto)_
+- 2013-09-25: [How to Replace a Headlight in a 2001 Honda Civic | eHow](http://www.ehow.com/how_6328775_replace-headlight-2001-honda-civic.html)  _(tags: diy, auto)_
+- 2013-09-25: [[cabfpub] Upcoming changes to Google Chrome's certificate handling](https://cabforum.org/pipermail/public/2013-September/002233.html)  _(tags: ssl, tweet)_
+- 2013-09-25: [Genode - Design of the Genode OS Architecture](http://genode.org/documentation/architecture/interfaces)  _(tags: no_tag)_
+- 2013-09-25: [Genode - Genode tool chain](http://genode.org/download/tool-chain)  _(tags: no_tag)_
+- 2013-09-25: [Apache Cordova](http://cordova.apache.org)  _(tags: no_tag)_
+- 2013-09-25: [[rust-dev] changing roles](https://mail.mozilla.org/pipermail/rust-dev/2013-August/005426.html)  _(tags: collaboration, programming)_
+- 2013-09-24: [Finally, we won&rsquo;t have to power off during takeoff and landing | Ars Technica](http://arstechnica.com/tech-policy/2013/09/finally-we-wont-have-to-power-off-during-takeoff-and-landing/?utm_content=bufferdc314&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer)  _(tags: whatnext, tweet)_
+- 2013-09-24: [Wow, serious litigation against fake-review buyers](http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2013/09/23/technology/give-yourself-4-stars-online-it-might-cost-you.html&OQ=_rQ3D1Q26&OP=b52a5639Q2FQ20_inQ20PQ7DnQ20ZZZQ20Q3BnTYQ20b_JCH__nSQ20S9.!Q2092Q20S!Q20n@JQ3BP_Y_xQ7DQ20xeV@Q26Q7D_,HC@YEQ26vQ26CnQ5EHCQ26_PYeP@Q26enQ26TexQ3BnQ26J_CnQ26Q7D_,Q24Q3BnTY)  _(tags: tweet)_
+- 2013-09-24: [a future caller alternative ?](https://mail.mozilla.org/pipermail/es-discuss/2013-March/029072.html)  _(tags: security, research, videos, presentation)_
+- 2013-09-24: [L4Android Publications](http://www.l4android.org/news/publications.html)  _(tags: mobile, security, research)_
+- 2013-09-23: [Telling the story of the smartphone market in a si](http://www.washingtonpost.com/blogs/the-switch/files/2013/09/blackberry12.jpg)  _(tags: tweet)_
+- 2013-09-22: [The Daily Dot - Carpet designer threatens cosplayers with legal action](http://www.dailydot.com/fandom/marriott-hotel-carpet-cosplay-legal-action/)  _(tags: tweet)_
+- 2013-09-22: [type as subtext on Vimeo](http://vimeo.com/74314050)  _(tags: tweet)_
+- 2013-09-22: [The Joy of Tech :: Then and now](http://tapastic.com/episode/8992)  _(tags: tweet)_
+- 2013-09-21: [Kreyos](http://www.kreyos.com/?utm_source=indiegogo&utm_medium=web&utm_campaign=igg)  _(tags: no_tag)_
+- 2013-09-21: [Activity and Sleep Tracking. The Pebble watch as the active life motivator - Pebble Forums](http://forums.getpebble.com/discussion/44/activity-and-sleep-tracking-the-pebble-watch-as-the-active-life-motivator)  _(tags: no_tag)_
+- 2013-09-21: [Pebble Smart Watch for Select Apple and Android Devices 301BL - Best Buy](http://www.bestbuy.com/site/Pebble---Smart-Watch-for-Select-Apple%26%23174%3B-and-Android-Devices---Black/9713809.p?id=1219034546379&skuId=9713809)  _(tags: no_tag)_
+- 2013-09-21: [Physicists Discover Geometry Underlying Particle Physics | Simons Foundation](https://www.simonsfoundation.org/quanta/20130917-a-jewel-at-the-heart-of-quantum-physics/)  _(tags: tweet)_
+- 2013-09-21: [Firefox 24 for Android gets WebRTC support by default &#10025;        Mozilla Hacks &#8211; the Web developer blog](https://hacks.mozilla.org/2013/09/firefox-24-for-android-gets-webrtc-support-by-default/)  _(tags: tweet)_
+- 2013-09-21: [Join The Team | Reflexion Health](http://reflexionhealth.com/join-the-team/)  _(tags: tweet)_
+- 2013-09-21: [I got all the way to Noether-D](https://raw.github.com/daira/StrangeLoop2013/master/slides/elc/Hopwood-NoetherSymmetryInProgLangDesign.pdf)  _(tags: tweet)_
+- 2013-09-21: [Shower Head MK1 by ErikJDurwoodII - Thingiverse](http://www.thingiverse.com/thing:40903)  _(tags: tweet)_
+- 2013-09-21: [SCTP data channels enabled by default in Chrome 31](http://groups.google.com/forum/#!topic/discuss-webrtc/y2A97iCByTU)  _(tags: tweet)_
+- 2013-09-21: [Mamie's bins in the cloud - Learning to read & speak Python](http://mames.tumblr.com/post/61776188206/learning-to-read-speak-python#_=_)  _(tags: tweet)_
+- 2013-09-21: [Sony Smartwatch Review. (Pro's - Con's) - xda-developers](http://forum.xda-developers.com/showthread.php?t=1657916)  _(tags: no_tag)_
+- 2013-09-21: [Omate TrueSmart watch finishes Kickstarter campaign with $1 million in pledges - Liliputing](http://liliputing.com/2013/09/omate-truesmart-watch-finishes-kickstarter-campaign-1-million-pledges.html)  _(tags: no_tag)_
+- 2013-09-21: [Against Redshirting: Why It Pays to Be the Youngest Kid in Class : The New Yorker](http://www.newyorker.com/online/blogs/elements/2013/09/youngest-kid-smartest-kid.html?mobify=0)  _(tags: no_tag)_
+- 2013-09-21: [C++11 - Lambda Closures, the Definitive Guide - Cprogramming.com](http://www.cprogramming.com/c++11/c++11-lambda-closures.html)  _(tags: no_tag)_
+- 2013-09-21: [Noether: Symmetry in Programming Language Design - Strange Loop](https://thestrangeloop.com/sessions/noether-symmetry-in-programming-language-design)  _(tags: programming, research, presentation)_
+- 2013-09-21: [Run Coder for Raspberry Pi on Your Linux PC « Chris McLeod](http://chrismcleod.me/2013/09/13/run-coder-for-raspberry-pi-on-your-linux-pc/)  _(tags: no_tag)_
+- 2013-09-21: [What is Kali Linux ? | Kali Linux Official Documentation](http://docs.kali.org/introduction/what-is-kali-linux)  _(tags: no_tag)_
+- 2013-09-21: [Mamie's bins in the cloud - Learning to read & speak Python](http://mames.tumblr.com/post/61776188206/learning-to-read-speak-python)  _(tags: no_tag)_
+- 2013-09-21: [Stream Control Transmission Protocol - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Stream_Control_Transmission_Protocol)  _(tags: protocols)_
+- 2013-09-20: [I am looking to hire a softwar](http://www.foundationmedicine.com/pdf/careers/KI%20Developer.pdf)  _(tags: tweet)_
+- 2013-09-20: [The Weekly Wonk Patenting a Way to Strangle Innovation](http://weeklywonk.newamerica.net/articles/patents-mean-false-starts-startups/)  _(tags: weeklywonk, tweet)_
+- 2013-09-19: [Nintendo video game pioneer Hiroshi Yamauchi dies at 85 - The Globe and Mail](http://www.theglobeandmail.com/report-on-business/international-business/asian-pacific-business/former-nintendo-chief-yamauchi-who-led-company-from-cards-to-video-games-dies/article14406510/?cmpid=rss1&utm_source=dlvr.it&utm_medium=twitter)  _(tags: mariners, tweet)_
+- 2013-09-19: [British public wrong about nearly everything, survey shows - Home News - UK - The Independent](http://www.independent.co.uk/news/uk/home-news/british-public-wrong-about-nearly-everything-survey-shows-8697821.html)  _(tags: tweet)_
+- 2013-09-18: [US super-rich hit new wealth record five years after financial crisis | Business | The Guardian](http://www.theguardian.com/business/2013/sep/16/us-super-rich-recover-losses-financial-crisis-forbes)  _(tags: tweet)_
+- 2013-09-18: [Explore &ndash; Absolutely brilliant: McGill University grad...](http://explore.noodle.org/post/61507207359/absolutely-brilliant-mcgill-university-grad?utm_source=buffer&utm_campaign=Buffer&utm_content=bufferc49a5&utm_medium=twitter)  _(tags: tweet)_
+- 2013-09-18: [Meaningful Consent Overview | Providers &amp; Professionals | HealthIT.gov](http://www.healthit.gov/providers-professionals/patient-consent-electronic-health-information-exchange/meaningful-consent-overview)  _(tags: tweet)_
+- 2013-09-18: [Ivan Ristić: Updated SSL/TLS Deployment Best Practices deprecates RC4](http://blog.ivanristic.com/2013/09/updated-best-practices-deprecate-rc4.html)  _(tags: tweet)_
+- 2013-09-18: [Whoa - this changes a few assumptions, doesn't it?](http://www.nytimes.com/2013/09/17/science/dna-double-take.html?pagewanted=1&utm_medium=twitter&partner=rss&emc=rss&utm_source=twitterfeed&_r=1&)  _(tags: dna, tweet)_
+- 2013-09-18: [Google Groups](https://groups.google.com/a/chromium.org/forum/#!forum/chromium-hterm)  _(tags: no_tag)_
+- 2013-09-17: [This Week in Rust - Ramblin's](http://cmr.github.io/blog/2013/09/15/this-week-in-rust/)  _(tags: tweet)_
+- 2013-09-17: [V8 Launch Process and Guidelines - Chrome V8 &mdash; Google Developers](https://developers.google.com/v8/launchprocess)  _(tags: tweet)_
+- 2013-09-17: [SmartFacts:Introduction](http://smartfacts.cr.yp.to)  _(tags: tweet)_
+- 2013-09-17: [What the Google Street View Decision Means for Researchers (and Cops) | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2013/09/what-google-street-view-decision-means-researchers-and-cops)  _(tags: tweet)_
+- 2013-09-17: [Galois - Home](http://corp.galois.com)  _(tags: tweet)_
+- 2013-09-17: [Water supply hookup - Side by side refrigerator](http://amana.custhelp.com/app/answers/detail/a_id/975/kw/water%20supply%20hookup)  _(tags: diy)_
+- 2013-09-16: [To link is a right without which democracy rots.](http://www.nytimes.com/2013/09/09/business/media/a-journalist-agitator-facing-prison-over-a-link.html?_r=1&)  _(tags: netrights, freespeech, righttolink, tweet)_
+- 2013-09-16: [Groups - W3C](http://www.w3.org/Consortium/activities#closed)  _(tags: missionaccomplished, tweet)_
+- 2013-09-16: [tdsmith/aRrgh](https://github.com/tdsmith/aRrgh)  _(tags: r, quality, programming)_
+- 2013-09-15: [The Great Language Game](http://greatlanguagegame.com)  _(tags: tweet)_
+- 2013-09-15: [Bits Up!: SSL Everywhere for HTTP/2 - A New Hope](http://bitsup.blogspot.ca/2013/08/ssl-everywhere-for-http2-new-hope.html)  _(tags: tweet)_
+- 2013-09-15: [GNU Emacs - GNU Project - Free Software Foundation(FSF)](http://www.gnu.org/software/emacs/)  _(tags: tweet)_
+- 2013-09-14: [Lua-l - Inquiring about the JavaScript to Lua bytecode compiler used by Tessel](http://lua.2524044.n2.nabble.com/Inquiring-about-the-JavaScript-to-Lua-bytecode-compiler-used-by-Tessel-td7652037.html)  _(tags: no_tag)_
+- 2013-09-14: [Google Open Source Blog: Open Source Security](http://google-opensource.blogspot.co.uk/2013/09/open-source-security.html)  _(tags: tweet, capabilities, security)_
+- 2013-09-14: [Coder for Raspberry Pi](http://googlecreativelab.github.io/coder/)  _(tags: coder, tweet)_
+- 2013-09-13: [May 21, 22, 23 TC39 Meeting Notes](https://mail.mozilla.org/pipermail/es-discuss/2013-June/030958.html)  _(tags: javascript, fp)_
+- 2013-09-13: [Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed (The Institution for Social and Policy Studies at Yale University): James C. Scott: 9780300078152: Amazon.com: Books](http://www.amazon.com/Seeing-Like-State-Institution-University/dp/0300078153)  _(tags: tweet)_
+- 2013-09-12: [This Week in Rust - Ramblin's](http://cmr.github.io/blog/2013/08/31/this-week-in-rust/)  _(tags: no_tag)_
+- 2013-09-12: [Best AirPlay apps for Android - Features | Know Your Mobile](http://www.knowyourmobile.com/android-apps/18049/best-airplay-apps-android)  _(tags: no_tag)_
+- 2013-09-12: [How the cult of shareholder value wrecked American business](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/09/09/how-the-cult-of-shareholder-value-wrecked-american-business/)  _(tags: tweet)_
+- 2013-09-11: [NSA.gov Web Site Terms of Use - NSA/CSS](http://www.nsa.gov/terms_of_use.shtml#privacy)  _(tags: tweet)_
+- 2013-09-11: [MAKE |   First Look: Javascript Microcontrollers for web Developers](http://makezine.com/magazine/first-look-javascript-micro-controllers-for-web-developers/)  _(tags: tweet, javascript, hardware)_
+- 2013-09-10: [Precog](http://precog.com)  _(tags: tweet)_
+- 2013-09-10: [Equality is](http://t.co/z1sJORgGC5)  _(tags: tweet)_
+- 2013-09-09: [How to view warning in SQL developer | Oracle Forums](https://forums.oracle.com/thread/951811)  _(tags: sql, oracle)_
+- 2013-09-09: [NSA Apparently Undermining Standards, Security, Confidence](https://freedom-to-tinker.com/blog/felten/nsa-apparently-undermining-standards-security-confidence/)  _(tags: tweet, america, security, standards, collaboration)_
+- 2013-09-09: [3-Sweep: Extracting Editable Objects from a Single Photo, SIGGRAPH ASIA 2013 - YouTube](http://www.youtube.com/watch?v=Oie1ZXWceqM)  _(tags: tweet)_
+- 2013-09-09: [Doctoral degrees: The disposable academic | The Economist](http://www.economist.com/node/17723223)  _(tags: research)_
+- 2013-09-09: [Pascal Junod &raquo; An Aspiring Scientist’s Frustration with Modern-Day Academia: A Resignation](http://crypto.junod.info/2013/09/09/an-aspiring-scientists-frustration-with-modern-day-academia-a-resignation/)  _(tags: tweet, research)_
+- 2013-09-07: [Lightning In A Jar](http://www.slideshare.net/morrisdj/lightning-in-a-jar)  _(tags: world)_
+- 2013-09-07: [Fire Sale: TSA Now Offering You Your Civil Liberties For A Fee! | Techdirt](http://www.techdirt.com/articles/20130905/03204124410/fire-sale-tsa-now-offering-your-civil-liberties-fee.shtml)  _(tags: tweet)_
+- 2013-09-06: [Ignite Strata Rx: Strata Rx 2013 - O&#39;Reilly Conferences, September 25 - 27, 2013, Boston, MA](http://strataconf.com/rx2013/public/cfp/284?cmp=tw-strata-strx13-tweet-general)  _(tags: stratarx, tweet)_
+- 2013-09-06: [Telepolis - How NSA access was built into Windows](http://m.heise.de/tp/artikel/5/5263/1.html?from-classic=1)  _(tags: tweet, security, america)_
+- 2013-09-05: [Everybody Loves Migrations at DjangoCon US 2013 | Lanyrd](http://lanyrd.com/2013/djangocon/scmqym/)  _(tags: djangocon, tweet)_
+- 2013-09-05: [Robot Turtles: The Board Game for Little Programmers by Dan Shapiro &mdash; Kickstarter](http://www.kickstarter.com/projects/danshapiro/robot-turtles-the-board-game-for-little-programmer)  _(tags: tweet)_
+- 2013-09-05: [Australian Passport Office](https://www.passports.gov.au/Web/index.aspx)  _(tags: tweet)_
+- 2013-09-05: [Schneier on Security: Our Newfound Fear of Risk](http://www.schneier.com/blog/archives/2013/09/our_newfound_fe.html?utm_source=twitterfeed&utm_medium=twitter)  _(tags: tweet)_
+- 2013-09-04: [Joining Samsung Open Source Group - &lt;Glazblog/&gt;](http://www.glazman.org/weblog/dotclear/index.php?post/2013/08/23/Joining-Samsung-Open-Source-Group)  _(tags: blog, tweet)_
+- 2013-09-04: [Hatnote Listen to Wikipedia](http://listen.hatnote.com/#nowelcomes,en)  _(tags: tweet, javascript, data, collaboration)_
+- 2013-09-03: [Emacs: Working with CSS Color Values](http://ergoemacs.org/emacs/emacs_CSS_colors.html)  _(tags: duh, awesome, tweet, emacs)_
+- 2013-09-03: [Intro from "The Science of Insecurity" 28c3 talk](http://www.cs.dartmouth.edu/~sergey/langsec//intro-28c3.html)  _(tags: tweet, security, pola)_
+- 2013-09-02: [[New App] Botifier Sends Android Notifications To Car Stereos And Any Other Bluetooth AVRCP 1.3 Display](http://www.androidpolice.com/2013/08/31/new-app-botifier-sends-android-notifications-to-car-stereos-and-any-other-bluetooth-avrcp-1-3-display/)  _(tags: no_tag)_
+- 2013-09-02: [Hands-On With Google Keep For Android: Notes, Checklists, Voice Notes, Pictures, Widgets, And Voice Actions Integration](http://www.androidpolice.com/2013/03/20/hands-on-with-the-google-keep-android-app-notes-checklists-voice-notes-pictures-widgets-and-voice-actions-integration/)  _(tags: no_tag)_

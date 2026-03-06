@@ -1,0 +1,104 @@
+---
+title: October 2016 Bookmarks: twitter, america, and qubes
+date: 2016-10-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "android", "capabilities", "data", "devops", "family", "games", "hardware", "informatics", "internet", "kc", "learning", "linux", "me", "mobile", "pc", "performance", "privacy", "programming", "protocols", "research", "science", "security", "shopping", "standards", "world"]
+---
+
+Shared bookmarks saved in October 2016.
+
+- total bookmarks: 90
+- total annotations captured: 16
+
+## Links
+
+- 2016-10-29: [.WEB is ICANN’s First Test of Accountability | Afilias](https://afilias.info/blogs/web-icanns-first-test-accountability)  _(tags: no_tag)_
+- 2016-10-29: [Support for Debian/Ubuntu? · Issue #2671 · cockpit-project/cockpit](https://github.com/cockpit-project/cockpit/issues/2671)  _(tags: no_tag)_
+- 2016-10-29: [edwardbadboy/tuned-ubuntu: Build and install tuned in Ubuntu](https://github.com/edwardbadboy/tuned-ubuntu)  _(tags: no_tag)_
+- 2016-10-29: [The Early History Of Smalltalk](http://worrydream.com/EarlyHistoryOfSmalltalk/)  _(tags: programming)_
+- 2016-10-29: [Running Cockpit](http://cockpit-project.org/running.html)  _(tags: no_tag)_
+- 2016-10-29: [Balances - zcash.flypool.org](http://zcash.flypool.org/miners/zcKN6ASpGdRfDrkvdf8bZ37sXw6WRV2agVgQcTk1KoxwKCqkE63nS9Q55Li4AAe9sghfwyvKb6umD5Lx89XA7yTihtxbq8m)  _(tags: me)_
+- 2016-10-29: [Project Vault Demo at Google I/O 2015 - YouTube](https://www.youtube.com/watch?v=V6qrQzn8uBo&feature=youtu.be)  _(tags: tweet)_
+- 2016-10-29: [www-talk from September to October 1991 by date](https://lists.w3.org/Archives/Public/www-talk/1991SepOct/)  _(tags: tweet)_
+- 2016-10-29: [Lesa Mitchell returns home to launch Kansas City Techstars and nurture startups here where her roots run deep | The Kansas City Star](http://www.kansascity.com/news/business/article111061852.html)  _(tags: tweet)_
+- 2016-10-29: [Completely agree with  this is the best.](https://twitter.com/JSpiegel2/status/792021767904649217)  _(tags: tweet)_
+- 2016-10-29: [etherchain-org/nheqminer: Equihash miner for NiceHash](https://github.com/etherchain-org/nheqminer)  _(tags: no_tag)_
+- 2016-10-28: [Zcash Has Launched: Here's How to Get Some | Bitcoin Magazine](https://bitcoinmagazine.com/articles/zcash-has-launched-here-s-how-to-get-some-1477670989)  _(tags: no_tag)_
+- 2016-10-28: [0.01612770 ETH/BTC Market - Poloniex Bitcoin/Cryptocurrency Exchange](https://www.poloniex.com/exchange)  _(tags: no_tag)_
+- 2016-10-28: [Bravo   for protecting ISP users privacy!](http://www.nytimes.com/glogin?URI=http%3A%2F%2Fwww.nytimes.com%2F2016%2F10%2F28%2Ftechnology%2Ffcc-tightens-privacy-rules-for-broadband-providers.html%3Fsmid%3Dtw-share%26_r%3D1)  _(tags: privacy, tweet)_
+- 2016-10-27: [seriot.ch - Parsing JSON is a Minefield](http://seriot.ch/parsing_json.html)  _(tags: tweet)_
+- 2016-10-27: [Russian Expat Founds CrowdStrike to Guard Against Russian Email Hackers - Who Is Dmitri Alperovitch?](http://www.esquire.com/news-politics/a49902/the-russian-emigre-leading-the-fight-to-protect-america/)  _(tags: tweet)_
+- 2016-10-27: [Creating Laws for Computer Security](http://www.dwheeler.com/essays/law-security.html)  _(tags: tweet)_
+- 2016-10-27: [AMIA 2016 Update: Childcare Available at Symposium - Registration Deadline Next Week!](http://echo4.bluehornet.com/hostedemail/email.htm?CID=36405614171&ch=E7E2A5B79E62ED094565EC6DCAA21278&h=741844d641b57003680861754f663ac3&ei=7nz1ROYNC&schema=echo4)  _(tags: amia2016, informatics, tweet)_
+- 2016-10-27: [Bus1: a new Linux interprocess communication proposal [LWN.net]](https://lwn.net/Articles/697191/)  _(tags: security, linux, capabilities)_
+- 2016-10-26: [Network protocols, sans I/O &mdash; Sans I/O 1.0.0 documentation](http://sans-io.readthedocs.io)  _(tags: tweet)_
+- 2016-10-26: [Getting teraflops out of microservices - Eric Jonas](http://ericjonas.com/pywren.html)  _(tags: tweet)_
+- 2016-10-24: [Principle of charity - Wikipedia](https://en.m.wikipedia.org/wiki/Principle_of_charity)  _(tags: tweet)_
+- 2016-10-24: [Amy van der Hiel on Twitter: &quot;one of the reasons I feel so lucky to work the Team I do - kind, thoughtful, smart and good (@koalie @tguild @slashdeiu @RalphSw27 et al) https://t.co/TvUyRaD5R4&quot;](https://twitter.com/i/web/status/790274834647355392)  _(tags: tweet)_
+- 2016-10-24: [Zcash + Ethereum = ❤ - YouTube](https://www.youtube.com/watch?v=PCW2EaBjVPs)  _(tags: tweet)_
+- 2016-10-24: [Getting started - seL4Wiki](https://wiki.sel4.systems/Getting%20started)  _(tags: capabilities)_
+- 2016-10-23: [Julie Zauzmer on Twitter: &quot;Today in West Virginia, a little boy about 8 years old told me he used to want to be president, but now he knows elections are rigged. 2016.&quot;](https://twitter.com/juliezauzmer/status/789981643859750912)  _(tags: tweet)_
+- 2016-10-22: [Double-dip Internet-of-Things botnet attack felt across the Internet | Ars Technica](http://arstechnica.com/security/2016/10/double-dip-internet-of-things-botnet-attack-felt-across-the-internet/)  _(tags: no_tag)_
+- 2016-10-22: [mjg59 | Fixing the IoT isn't going to be easy](http://mjg59.dreamwidth.org/45098.html)  _(tags: tweet)_
+- 2016-10-22: [Bitcoin is unstable without the block reward](https://freedom-to-tinker.com/2016/10/21/bitcoin-is-unstable-without-the-block-reward/)  _(tags: tweet)_
+- 2016-10-21: [Ant - Dev - ANT SQL task output to csv file contains extra new line appended in end of file](http://ant.1045680.n5.nabble.com/ANT-SQL-task-output-to-csv-file-contains-extra-new-line-appended-in-end-of-file-td5713686.html)  _(tags: no_tag)_
+- 2016-10-21: [4 my  Foundations of Modern Graph Query Languages](https://arxiv.org/abs/1610.06264)  _(tags: readinglist, tweet)_
+- 2016-10-20: [Benjamin Smedberg on Twitter: &quot;As of today&#39;s @FirefoxNightly Firefox will not load any NPAPI plugin except for Flash.&quot;](https://twitter.com/nsIAnswers/status/783300512758104064)  _(tags: tweet)_
+- 2016-10-20: [Nick Quaranto on Twitter: &quot;I really wonder if anyone at these car sharing companies who want to replace all vehicles have had kids&quot;](https://twitter.com/qrush/status/788594109204328448)  _(tags: tweet)_
+- 2016-10-20: [Modern Web 101: from Free Software Fetishism to Free Web](https://www.nexedi.com/blog/blog-Modern.Web)  _(tags: no_tag)_
+- 2016-10-19: [MobilePerf Insights: Why LTE Has Slowed by 50% in the US This Year - Twin Prime](http://twinprime.com/lte-has-slowed-by-50-in-the-us/)  _(tags: mobile, shopping)_
+- 2016-10-19: [This Election Is Being Rigged—but Not by Democrats | The Nation](https://www.thenation.com/article/this-election-is-being-rigged/)  _(tags: tweet, america)_
+- 2016-10-18: [Zcash - Deterministic Builds in Zcash](https://z.cash/blog/deterministic-builds.html)  _(tags: tweet)_
+- 2016-10-17: [Archive of Formal Proofs](https://www.isa-afp.org/entries/Simpl.shtml)  _(tags: no_tag)_
+- 2016-10-17: [Verified Trustworthy Software Systems audio and video recordings | Research Institute in Automated Program Analysis and Verification](https://verificationinstitute.org/verified-trustworthy-software-systems-audio-and-video-recordings/)  _(tags: security, research)_
+- 2016-10-17: [Industrial Control Systems](https://www.shodan.io/explore/category/industrial-control-systems)  _(tags: security, internet, world)_
+- 2016-10-16: [JSCert: Certified JavaScript](http://jscert.org/publications.html)  _(tags: no_tag)_
+- 2016-10-16: [MySQL 8.0 Labs: [Recursive] Common Table Expressions in MySQL (CTEs) | MySQL Server Blog](http://mysqlserverteam.com/mysql-8-0-labs-recursive-common-table-expressions-in-mysql-ctes/)  _(tags: data, standards)_
+- 2016-10-16: [How Half Of America Lost Its F**king Mind](http://www.cracked.com/blog/6-reasons-trumps-rise-that-no-one-talks-about/)  _(tags: tweet, america)_
+- 2016-10-15: [kentonv/home-container: Containerize your home directory](https://github.com/kentonv/home-container)  _(tags: no_tag)_
+- 2016-10-15: [Habitat Chronicles: Software Crisis: The Next Generation](http://habitatchronicles.com/2016/10/software-crisis-the-next-generation/)  _(tags: capabilities)_
+- 2016-10-15: [War is upon us - Prohashing Mining Pool Forums](https://forums.prohashing.com/viewtopic.php?f=11&t=968)  _(tags: tweet)_
+- 2016-10-15: [An optimistic, energizing, brilliant essay on the](https://www.wired.com/2016/10/president-obama-guest-edits-wired-essay/)  _(tags: whfrontiers, tweet, america)_
+- 2016-10-14: [Static types in Python, oh my(py)!](http://blog.zulip.org/2016/10/13/static-types-in-python-oh-mypy/)  _(tags: tweet)_
+- 2016-10-14: [Danny Weitzner on Twitter: &quot;Bravo @nytimes for standing up to bullying and reminding the world why the First Amendment is especially important this election season. https://t.co/8uMfVQoCGT&quot;](https://twitter.com/i/web/status/786642703945699328)  _(tags: tweet, america)_
+- 2016-10-14: [Contempt Culture - The Particular Finest](http://blog.aurynn.com/contempt-culture)  _(tags: tweet)_
+- 2016-10-13: [Trump, the GOP, and the Fall &#8211; Whatever](http://whatever.scalzi.com/2016/10/11/trump-the-gop-and-the-fall/)  _(tags: tweet)_
+- 2016-10-12: [Streamcaps — Monte 0.1 documentation](http://monte.readthedocs.io/en/latest/streamcaps.html)  _(tags: no_tag)_
+- 2016-10-12: [Bill DeRouchey on Twitter: &quot;Hillary deleted 33,000 emails. Bush/Cheney deleted 22,000,000. For every 1 she deleted, they deleted, yes, 666. https://t.co/9L61qRGWGn&quot;](https://twitter.com/billder/status/785687124129435648)  _(tags: tweet)_
+- 2016-10-12: [The George W. Bush White House ‘Lost’ 22 Million Emails](http://www.newsweek.com/2016/09/23/george-w-bush-white-house-lost-22-million-emails-497373.html)  _(tags: tweet, america)_
+- 2016-10-12: [Instagram](https://www.instagram.com/p/BLaJgXvBaKX/)  _(tags: tweet)_
+- 2016-10-11: [Facebook releases yarn package manager (partial npm replacement) : rust](https://www.reddit.com/r/rust/comments/56zjli/facebook_releases_yarn_package_manager_partial/)  _(tags: no_tag)_
+- 2016-10-11: [Dan Connolly on Twitter: &quot;every time you mark up a heading with &lt;b&gt; instead of &lt;h2&gt;, a cute little bunny rabbit gets DUG UP BY MY DOG AND EATEN&quot;](https://twitter.com/dckc/status/785524633948737536)  _(tags: tweet)_
+- 2016-10-09: [Ryan X. Charles on Twitter: &quot;RethinkDB, SageMath, Andreessen-Horowitz, Basecamp and Open Source Software https://t.co/EENrYQpXMt&quot;](https://twitter.com/ryanxcharles/status/784584074451181569)  _(tags: tweet)_
+- 2016-10-08: [Hillary Clinton weighs in on copyright law » MobyLives](http://www.mhpbooks.com/hillary-clinton-weighs-in-on-copyright-law/)  _(tags: no_tag)_
+- 2016-10-08: [Updated requirements for Qubes-certified hardware | Qubes OS Project](https://www.qubes-os.org/news/2016/07/21/new-hw-certification-for-q4/)  _(tags: pc, hardware, security)_
+- 2016-10-08: [Minimum requirements for Qubes OS 4.x and extended support for Qubes OS 3.2 | Qubes OS Project](https://www.qubes-os.org/news/2016/09/02/4-0-minimum-requirements-3-2-extended-support/)  _(tags: security, hardware)_
+- 2016-10-08: [Salt management stack in Qubes | Qubes OS Project](https://www.qubes-os.org/news/2015/12/14/mgmt-stack/)  _(tags: devops, security)_
+- 2016-10-08: [Qubes OS 3.2 has been released! | Qubes OS Project](https://www.qubes-os.org/news/2016/09/29/qubes-32/)  _(tags: devops)_
+- 2016-10-08: [Ivan Ristic on Twitter: &quot;I wrote a blog post to discuss the state of HPKP: Is HTTP Public Key Pinning Dead? https://t.co/qQlACaoPmZ&quot;](https://twitter.com/ivanristic/status/773087757333831680)  _(tags: fronteers, tweet)_
+- 2016-10-07: [Features and Caveats — Jedi 0.10.0 documentation](https://jedi.readthedocs.io/en/latest/docs/features.html)  _(tags: no_tag)_
+- 2016-10-07: [Jedi.el - Python auto-completion for Emacs — Emacs Jedi 0.2.0alpha2 documentation](http://tkf.github.io/emacs-jedi/latest/)  _(tags: no_tag)_
+- 2016-10-07: [Oracle Database 12c: EM Database Express](http://www.oracle.com/technetwork/database/manageability/emx-intro-1965965.html)  _(tags: web, security, ssl, performance, internet, protocols)_
+- 2016-10-06: [How to Crash Systemd in One Tweet](https://www.agwa.name/blog/post/how_to_crash_systemd_in_one_tweet)  _(tags: tweet)_
+- 2016-10-05: [Træfɪk](https://docs.traefik.io)  _(tags: no_tag)_
+- 2016-10-05: [Mike Pence, Trump&#039;s Reported VP Pick, Said &quot;Smoking Doesn&#039;t Kill&quot; | Mother Jones](http://www.motherjones.com/politics/2016/07/trumps-reported-vp-pick-mike-pence-said-smoking-doesnt-kill)  _(tags: vpdebate, tweet, america, science)_
+- 2016-10-05: [Jack Cline on Twitter: &quot;Today, #ChampionofScience @RepKevinYoder met w/ @KUMedCenter Profs. Jianming Qiu &amp; Peter Smith to discuss #ZikaVirus research progress. https://t.co/OA6hXdj44I&quot;](https://twitter.com/i/web/status/783381923498426368)  _(tags: championofscience, tweet, kc)_
+- 2016-10-05: [Timothy B. Lee on Twitter: &quot;I&#39;ve become convinced that this is one of the most important charts for understanding the modern economy. https://t.co/uDGCQAzIwn https://t.co/DO9dxWmqBB&quot;](https://twitter.com/i/web/status/783357996701196288)  _(tags: tweet)_
+- 2016-10-05: [Moto G⁴ - Unlocked Android Smartphone | Motorola](https://www.motorola.com/us/products/moto-g)  _(tags: tweet, mobile, shopping, programming)_
+- 2016-10-05: [Open Whisper Systems >> Government Requests >> Grand jury subpoena for Signal user data, Eastern District of Virginia](https://whispersystems.org/bigbrother/eastern-virginia-grand-jury/)  _(tags: tweet)_
+- 2016-10-05: [John Wilbanks on Twitter: &quot;Interesting - crowdsourced dataset ID, metadata extraction, and differential analysis by citizen scientists sourced from MOOCs. https://t.co/d8YFSYqeVy&quot;](https://twitter.com/i/web/status/783291121745133568)  _(tags: tweet)_
+- 2016-10-05: [2 12  constructive Galois Connections: Taming the Galois Connection Framework for Mechanazed Metathe - YouTube](https://www.youtube.com/watch?v=UpHkvcFMkBM)  _(tags: icfp16, tweet)_
+- 2016-10-05: [Microservice Web UIs](https://gustafnk.github.io/microservice-websites/)  _(tags: tweet)_
+- 2016-10-05: [Why the next 20 years will see a lot less technological disruption than the past 20 - Vox](http://www.vox.com/new-money/2016/10/3/13076152/silicon-valley-disruption-slow)  _(tags: no_tag)_
+- 2016-10-05: [The Mysterious Fiber Bomb Problem: A Debugging Story - Sandstorm Blog](https://sandstorm.io/news/2016-09-30-fiber-bomb-debugging-story)  _(tags: no_tag)_
+- 2016-10-05: [Parsing English in 500 Lines of Python | Blog | Explosion AI](https://explosion.ai/blog/parsing-english-in-python)  _(tags: no_tag)_
+- 2016-10-04: [- Motorola Support - Find Answers | Motorola Mobility, Inc.](https://motorola-global-portal.custhelp.com/app/software-upgrade-news/g_id/1949)  _(tags: no_tag)_
+- 2016-10-04: [The Coolest Features of Android Nougat You Might Have Missed](http://lifehacker.com/the-coolest-features-of-android-n-google-didnt-announce-1764114846)  _(tags: no_tag)_
+- 2016-10-04: [How to Extend Your Wi-Fi Network With an Old Router](http://lifehacker.com/how-to-extend-your-wi-fi-network-with-an-old-router-915783308)  _(tags: no_tag)_
+- 2016-10-04: [Simon Willison on Twitter: &quot;Most interesting part of this is the &quot;Used it before, would not use again&quot; scores. LESS, CoffeeScript, Angular 1 and Grunt are all over 25%. https://t.co/HMeNdz91L7&quot;](https://twitter.com/i/web/status/783005989989523456)  _(tags: tweet)_
+- 2016-10-04: [Barack Obama on 5 Days That Shaped His Presidency](http://nymag.com/daily/intelligencer/2016/10/barack-obama-on-5-days-that-shaped-his-presidency.html)  _(tags: tweet)_
+- 2016-10-02: [Shawn Medero on Twitter: &quot;It is possible my 6 year old &amp; I spent our Saturday afternoon building a LEGO Mindstorms automated (proximity sensor) toilet dispenser. https://t.co/8r3V15XeU4&quot;](https://twitter.com/i/web/status/782365304407982080)  _(tags: tweet)_
+- 2016-10-01: [Moto G4 - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Moto_G4)  _(tags: mobile, shopping, android)_
+- 2016-10-01: [Why amazing video games could be causing a big problem for America - The Washington Post](https://www.washingtonpost.com/news/wonk/wp/2016/09/23/why-amazing-video-games-could-be-causing-a-big-problem-for-america/)  _(tags: games, family, learning)_
+- 2016-10-01: [Kieren McCarthy on Twitter: &quot;It’s official! IANA transition to go ahead! Judge refused injunction&quot;](https://twitter.com/kierenmccarthy/status/781970903533891584)  _(tags: ianasteward, tweet)_
+- 2016-10-01: [Dan Connolly on Twitter: &quot;@jgarzik @ndw &quot;Got your message. I plan to respond in substance. Please remind me if you don&#39;t hear from me by xxx.&quot;&quot;](https://twitter.com/dckc/status/779832679932039168)  _(tags: tweet)_

@@ -1,0 +1,117 @@
+---
+title: April 2015 Bookmarks: github, stack, and python
+date: 2015-04-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "architecture", "collaboration", "data", "design", "dns", "fp", "hardware", "javascript", "me", "mobile", "music", "programming", "protocol", "python", "research", "science", "scm", "security", "sysadmin", "ubuntu", "video", "world"]
+---
+
+Shared bookmarks saved in April 2015.
+
+- total bookmarks: 103
+- total annotations captured: 15
+
+## Links
+
+- 2015-04-30: [The days are long but the decades are short - Sam Altman](http://blog.samaltman.com/the-days-are-long-but-the-decades-are-short)  _(tags: tweet)_
+- 2015-04-30: [paldepind/flyd · GitHub](https://github.com/paldepind/flyd)  _(tags: frp, javascript, fp, web, programming)_
+- 2015-04-30: [Hot module replacement comes to StealJS | Blog · Bitovi.com](http://blog.bitovi.com/hot-module-replacement-comes-to-stealjs/)  _(tags: no_tag)_
+- 2015-04-30: [MS Code License](https://code.visualstudio.com/License)  _(tags: no_tag)_
+- 2015-04-29: [Most philosophical 404 to date:](https://www-s.acm.illinois.edu/sigops/roll_your_own/i386/7.a.html#PDBR)  _(tags: tweet)_
+- 2015-04-29: [A day in the life of a stolen healthcare record](http://t.co/3ZfnTfTA4d)  _(tags: tweet)_
+- 2015-04-28: [Learning about  at the Yahoo trust unconference. M](http://t.co/LeDbDMVigP)  _(tags: zerocash, tweet)_
+- 2015-04-28: [How to steal encryption keys: Your cloud is not as secure as you may think! | microkerneldude](https://microkerneldude.wordpress.com/2015/04/27/how-to-steal-encryption-keys-your-cloud-is-not-as-secure-as-you-may-think/)  _(tags: security, tweet)_
+- 2015-04-26: [asimlqt/php-google-oauth](https://github.com/asimlqt/php-google-oauth)  _(tags: no_tag)_
+- 2015-04-26: [Migrating from OpenID 2.0 to OpenID Connect - Google Identity Platform — Google Developers](https://developers.google.com/identity/protocols/OpenID2Migration#shutdown-timetable)  _(tags: no_tag)_
+- 2015-04-25: [dg — it's a Python! No, it's a Haskell!](https://pyos.github.io/dg/)  _(tags: tweet)_
+- 2015-04-25: [How can I tell if a string repeats itself in Python? - Stack Overflow](http://stackoverflow.com/questions/29481088/how-can-i-tell-if-a-string-repeats-itself-in-python)  _(tags: python, programming, tweet)_
+- 2015-04-25: [From the Aether to the Ethernet &#8211; Attacking the Internet using Broadcast Digital Television | the morning paper](http://blog.acolyer.org/2015/04/23/from-the-aether-to-the-ethernet-attacking-the-internet-using-broadcast-digital-television/)  _(tags: tweet)_
+- 2015-04-24: [The Bad News For Infosec In The Target Settlement](http://www.darkreading.com/vulnerabilities---threats/the-bad-news-for-infosec-in-the-target-settlement/a/d-id/1320108?utm_content=buffer9dde8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2015-04-24: [Publishing is as publishing does – revealing &#8216;books&#8217; in the collection | Cooper Hewitt Labs](http://labs.cooperhewitt.org/2015/publishing-is-as-publishing-does-revealing-books-in-the-collection/)  _(tags: tweet)_
+- 2015-04-24: [plyer/README.rst at master · kivy/plyer · GitHub](https://github.com/kivy/plyer/blob/master/README.rst)  _(tags: tweet)_
+- 2015-04-23: [VividVervet/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/VividVervet/ReleaseNotes#Official_flavours)  _(tags: no_tag)_
+- 2015-04-23: [Core | Ubuntu developer portal](https://developer.ubuntu.com/en/snappy/)  _(tags: no_tag)_
+- 2015-04-23: [Seo Sanghyeon: Cohort analysis of Rust contributors](http://sanxiyn.blogspot.com/2015/04/cohort-analysis-of-rust-contributors.html?m=1)  _(tags: tweet)_
+- 2015-04-23: [My priorities for a free &amp; open Internet-Info](http://www.wired.com/2015/04/senator-ron-wyden-free-internet-trade/)  _(tags: cfaa, tweet)_
+- 2015-04-23: [IBM Chef Watson](https://www.ibmchefwatson.com)  _(tags: tweet)_
+- 2015-04-23: [7dAAA Program | Amsterdam Data Science](http://amsterdamdatascience.nl/aaa-data-science-program/)  _(tags: tweet)_
+- 2015-04-23: [[Wikidata-l] World's largest cities with a female mayor :-)](https://lists.wikimedia.org/pipermail/wikidata-l/2015-April/005852.html)  _(tags: tweet)_
+- 2015-04-23: [On a slightly more serious note about Agda, have you ever wondered how to write…](https://plus.google.com/u/0/+DanielPeebles/posts/ZrWC2JqZDY7)  _(tags: no_tag)_
+- 2015-04-22: [How to Center in CSS](http://howtocenterincss.com)  _(tags: tweet)_
+- 2015-04-22: [DuckDuckGo incorporates canIUse - cool!  - img.ly](http://img.ly/BHuS)  _(tags: tweet)_
+- 2015-04-22: [Autodesk Joins Mattel to Launch a 3D Platform for Kids&#039; Toys](http://thenextweb.com/dd/2015/04/21/autodesk-teams-up-with-mattel-to-launch-a-3d-initiative-for-kids-to-help-design-their-own-toys/?.com)  _(tags: tweet)_
+- 2015-04-22: [0001-Add-support-for-linux-musl-in-build-system.-Fix-glib.patch](https://gist.github.com/cl91/bb927df2525738502131#file-static-linking-against-musl-md)  _(tags: tweet)_
+- 2015-04-21: [Can I use... Support tables for HTML5, CSS3, etc](http://caniuse.com)  _(tags: web, design)_
+- 2015-04-21: [Fyrd/caniuse · GitHub](https://github.com/Fyrd/caniuse)  _(tags: no_tag)_
+- 2015-04-21: [jcushman/pdfquery](https://github.com/jcushman/pdfquery)  _(tags: no_tag)_
+- 2015-04-21: [scienceopen/Kalman-and-Bayesian-Filters-in-Python](https://github.com/scienceopen/Kalman-and-Bayesian-Filters-in-Python)  _(tags: no_tag)_
+- 2015-04-21: [Web Reflection: The DOM Is NOT Slow, Your Abstraction Is](http://webreflection.blogspot.com/2015/04/the-dom-is-not-slow-your-abstraction-is.html)  _(tags: tweet)_
+- 2015-04-21: [Happy 420! Here are the top 5 interest groups payi](http://t.co/WXUrclZUxA)  _(tags: tweet)_
+- 2015-04-20: [The data science ecosystem — Medium](https://medium.com/@balazskegl/the-data-science-ecosystem-678459ba6013)  _(tags: tweet)_
+- 2015-04-19: [Pure, stateless, type-checked React components with Immutable.js and Flow](https://gist.github.com/samwgoldman/79d0da4bda25738c20c1)  _(tags: tweet)_
+- 2015-04-19: [thefuck/README.md at master · nvbn/thefuck · GitHub](https://github.com/nvbn/thefuck/blob/master/README.md)  _(tags: tweet)_
+- 2015-04-19: [cure53/HTTPLeaks · GitHub](https://github.com/cure53/HTTPLeaks)  _(tags: tweet)_
+- 2015-04-18: [cURL - Tutorial](http://curl.haxx.se/docs/httpscripting.html)  _(tags: tweet)_
+- 2015-04-18: [purs-loader](https://www.npmjs.com/package/purs-loader)  _(tags: tweet)_
+- 2015-04-18: [Introduction to proving in Idris - YouTube](https://www.youtube.com/channel/UCsON_8vogp4nCQFTnfu43kA)  _(tags: fp, video)_
+- 2015-04-18: [David Christiansen » Blog Archive » Implementing an Emacs programming language mode: beyond the basics](http://www.davidchristiansen.dk/2014/07/16/implementing-an-emacs-programming-language-mode-beyond-the-basics/)  _(tags: no_tag)_
+- 2015-04-18: [haskell - Can I get `cabal install` to use multiple cores? - Stack Overflow](http://stackoverflow.com/questions/7238147/can-i-get-cabal-install-to-use-multiple-cores)  _(tags: no_tag)_
+- 2015-04-17: [Chromium Blog: Chrome 43 Beta: Web MIDI and upgrading legacy sites to HTTPS](http://blog.chromium.org/2015/04/chrome-43-beta-web-midi-and-upgrading.html)  _(tags: webmidi, tweet)_
+- 2015-04-17: [Jison / Documentation](http://zaach.github.io/jison/docs/)  _(tags: no_tag)_
+- 2015-04-17: [agershun/alasql](https://github.com/agershun/alasql)  _(tags: no_tag)_
+- 2015-04-17: [The Miso Project :: Dataset](http://misoproject.com/dataset/)  _(tags: no_tag)_
+- 2015-04-17: [jsoma/tabletop](https://github.com/jsoma/tabletop)  _(tags: javascript, data)_
+- 2015-04-17: [Asteroids in Purescript](http://maubi.net/asteroids/)  _(tags: no_tag)_
+- 2015-04-17: [Amber Smalltalk](http://amber-lang.net/index.html#get-started)  _(tags: no_tag)_
+- 2015-04-17: [haxe-syntax-light](https://atom.io/themes/haxe-syntax-light)  _(tags: no_tag)_
+- 2015-04-16: [Converting truth tables into Boolean expressions : Boolean Algebra - Electronics Textbook](http://www.allaboutcircuits.com/vol_4/chpt_7/9.html)  _(tags: no_tag)_
+- 2015-04-16: [The Code Is Just the Symptom — Medium](https://medium.com/@rubyghetto/the-code-is-just-the-symptom-c77f43b29320)  _(tags: tweet)_
+- 2015-04-16: [PyFormat: Using % and .format() for great good!](http://pyformat.info)  _(tags: python, tweet)_
+- 2015-04-16: [An example of using Make instead of Grunt for fast, simple and maintainable front-end asset compilation.](https://gist.github.com/toolmantim/6200029#file-makefile)  _(tags: tweet)_
+- 2015-04-16: [Crawling Toward a Wiser Web With :     http://t.co](http://t.co/zYS3MEOmFf)  _(tags: compsci, data, science, tweet)_
+- 2015-04-15: [Dr. Mei Liu, Ph.D., Assistant Professor, Medical Informatics](http://www.kumc.edu/ea-mi/faculty-and-staff-directory/assistant-professor-mei-liu-phd.html)  _(tags: research)_
+- 2015-04-15: [lcamtuf's blog: Finding bugs in SQLite, the easy way](http://lcamtuf.blogspot.com/2015/04/finding-bugs-in-sqlite-easy-way.html)  _(tags: tweet)_
+- 2015-04-15: [Gus Andrews — Medium](https://medium.com/@gusandrews)  _(tags: tweet)_
+- 2015-04-14: [Who Owns Medical Records: 50 State Comparison | Health Information & the Law](http://www.healthinfolaw.org/comparative-analysis/who-owns-medical-records-50-state-comparison?utm_content=bufferd9db5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2015-04-12: [pathlib 1.0.1 : Python Package Index](https://pypi.python.org/pypi/pathlib/)  _(tags: no_tag)_
+- 2015-04-11: [Introduction to Pyparsing: An Object-oriented Easy-to-Use Toolkit for Building Recursive Descent Parsers](http://www.ptmcg.com/geo/python/confs/TxUnconf2008Pyparsing.html)  _(tags: no_tag)_
+- 2015-04-11: [Three new Official Images added in March | Docker Blog](http://blog.docker.com/2015/04/three-new-official-images-added-in-march/)  _(tags: no_tag)_
+- 2015-04-11: [Dan Connolly - Google Scholar Citations](https://scholar.google.com/citations?hl=en&user=QQ5jiS4AAAAJ&view_op=list_works&gmla=AJsN-F4Lwz-CmztZHtAkEqeTviqbZi6G1DG7TKFD2s66MIEyzN9fCzGMaI9ojHWme8kGjXRsg9xYTeMrUKfieQG4uFXrKGnROiGPGaUqR_pIONVZPlA22cE)  _(tags: me, research)_
+- 2015-04-11: [The Philosophy of Ramda](http://fr.umio.us/the-philosophy-of-ramda/)  _(tags: no_tag)_
+- 2015-04-11: [xto6 - Transpile your codes to next-generation JavaScript](https://mohebifar.github.io/xto6/#try-live)  _(tags: no_tag)_
+- 2015-04-11: [jspm.io - Frictionless Browser Package Management](http://jspm.io)  _(tags: no_tag)_
+- 2015-04-11: [GitConcepts - Mercurial](http://mercurial.selenic.com/wiki/GitConcepts)  _(tags: no_tag)_
+- 2015-04-10: [Git hg rosetta stone · sympy/sympy Wiki](https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone)  _(tags: scm, collaboration)_
+- 2015-04-10: [Issue 110 - pysimplesoap - Problem with receiving unicode string with umlauts - Python simple and lightweight SOAP Library (a.k.a. soap2py) - Google Project Hosting](https://code.google.com/p/pysimplesoap/issues/detail?id=110)  _(tags: no_tag)_
+- 2015-04-10: [Schedule - Knowledge Representation and Reasoning:  Integrating Symbolic and Neural Approaches](https://sites.google.com/site/krr2015/home/schedule)  _(tags: tweet)_
+- 2015-04-10: [Samsung/KnowledgeSharingPlatform · GitHub](https://github.com/Samsung/KnowledgeSharingPlatform)  _(tags: tweet)_
+- 2015-04-10: [Florian on Twitter: &quot;#HonoringWebFolk @fantasai for finishing css21, writing half of css3, teaching me how it&#39;s done, and generally being awesome&quot;](https://twitter.com/frivoal/status/586281017775886337)  _(tags: tweet)_
+- 2015-04-10: [Dan Grover | Chinese Mobile App UI Trends](http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html)  _(tags: mobile, china, world)_
+- 2015-04-10: [Stack Overflow Developer Survey 2015](http://stackoverflow.com/research/developer-survey-2015#tech-tabsspaces)  _(tags: tweet)_
+- 2015-04-10: [Last Week Tonight with John Oliver: Government Surveillance (HBO) - YouTube](https://www.youtube.com/watch?v=XEVlyP4_11M&app=desktop)  _(tags: tweet)_
+- 2015-04-10: [Fight 215: Stop the Patriot Act's Mass Surveillance](https://fight215.org)  _(tags: endthisdragnet, fight215, tweet)_
+- 2015-04-10: [Revealed last secret of Don McLean's American Pie - pop's most enigmatic song | Daily Mail Online](http://www.dailymail.co.uk/news/article-3031310/Revealed-secret-American-Pie-pop-s-enigmatic-song-Drugs-Elvis-murders-lost-verse-sheds-new-light-Don-McLean-s-hauntingly-evocative-lyrics.html)  _(tags: music)_
+- 2015-04-09: [Sphinx Bootstrap Theme Updates - Mobile, Dropdowns, and More · Loose Bits](http://loose-bits.com/2012/11/19/sphinx-bootstrap-theme-updates.html)  _(tags: no_tag)_
+- 2015-04-09: [User DanC - Stack Overflow](http://stackoverflow.com/users/7963/danc)  _(tags: me)_
+- 2015-04-08: [5 years at Arcane Domain](http://blog.arcanedomain.com/2015/04/5-years/)  _(tags: tweet)_
+- 2015-04-08: [19Nobody Reads Your Blog - 56Why the command line is not usable](http://gandre.ws/blog/blog/2015/04/07/why-the-command-line-is-not-usable/)  _(tags: tweet)_
+- 2015-04-07: [": Couldn't be more excited for  to join  " ;; I'm](http://t.co/6tpL9pUPVF)  _(tags: tweet)_
+- 2015-04-05: [Shill: Scripting with Least Privilege](http://shill.seas.harvard.edu)  _(tags: no_tag)_
+- 2015-04-05: [Using TouchID for Authentication in your React Native app](https://auth0.com/blog/2015/04/03/using-touchid-for-authentication-in-your-react-native-app/)  _(tags: tweet)_
+- 2015-04-04: [TortoiseHg > Download](http://tortoisehg.bitbucket.org/download/index.html)  _(tags: sysadmin, dvcs, collaboration)_
+- 2015-04-04: [TortoiseHg PPA Packagers: Releases : “TortoiseHg PPA Packagers” team](https://launchpad.net/~tortoisehg-ppa/+archive/ubuntu/releases)  _(tags: sysadmin, ubuntu, problem, dvcs, collaboration)_
+- 2015-04-04: [Anker](http://www.ianker.com/info/)  _(tags: hardware)_
+- 2015-04-04: [Nexus 7 (2013 version) - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Nexus_7_(2013_version))  _(tags: mobile, hardware, battery)_
+- 2015-04-04: [BitLit | Know Your Shelf](http://www.bitlit.com)  _(tags: tweet)_
+- 2015-04-04: [A great follow-up NYT blog post on medical data sh](http://bits.blogs.nytimes.com/2015/04/02/using-patient-data-to-democratize-medical-discovery/?smid=tw-share&_r=1)  _(tags: tweet)_
+- 2015-04-04: [amazon s3 - How can I mount an S3 bucket to an EC2 instance and write to it with PHP? - Stack Overflow](http://stackoverflow.com/questions/16428552/how-can-i-mount-an-s3-bucket-to-an-ec2-instance-and-write-to-it-with-php)  _(tags: no_tag)_
+- 2015-04-04: [PostgreSQL: Documentation: 9.1: The pg_hba.conf File](http://www.postgresql.org/docs/9.1/static/auth-pg-hba-conf.html)  _(tags: no_tag)_
+- 2015-04-03: [Support | How to use Wireshark to capture a packet trace](https://www.novell.com/support/kb/doc.php?id=3892415)  _(tags: no_tag)_
+- 2015-04-03: [telehash/blockname](https://github.com/telehash/blockname)  _(tags: security, architecture, protocol, dns)_
+- 2015-04-03: [Jeremie's, Telehash History](http://quartzjer.tumblr.com/post/71784515314/telehash-history)  _(tags: no_tag)_
+- 2015-04-03: [LEMP Stack Info (Linux, Nginx, MySQL, PHP)](https://lemp.io)  _(tags: no_tag)_
+- 2015-04-03: [Dan Connolly - Stack Overflow Careers](https://careers.stackoverflow.com/dckc)  _(tags: me)_
+- 2015-04-02: [Why HTTP is Sometimes Better than HTTPS - Stormpath User Management API](https://stormpath.com/blog/why-http-is-sometimes-better-than-https/)  _(tags: tweet)_
+- 2015-04-02: [TimesMachine: Justice Powell: For Business, a Friend in Court - NYTimes.com](http://timesmachine.nytimes.com/timesmachine/1976/03/14/107210908.html?pageNumber=140)  _(tags: tweet)_
+- 2015-04-02: [CSS Expressive Generalizations and Gadgetry Level 1](http://dev.w3.org/csswg/css-egg/#speech)  _(tags: csswg, tweet)_
+- 2015-04-02: [NETGEAR Support | Answer | EX2700 FAQ's](http://kb.netgear.com/app/answers/detail/a_id/25226/~/ex2700-faqs)  _(tags: no_tag)_
+- 2015-04-01: [Google Chrome Blog: More Chromebooks, for everyone](http://chrome.blogspot.com/2015/03/more-chromebooks-for-everyone.html)  _(tags: tweet)_

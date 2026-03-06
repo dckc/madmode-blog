@@ -1,0 +1,101 @@
+---
+title: September 2012 Bookmarks: security, programming, and android
+date: 2012-09-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "android", "chrome", "data", "digital", "humor", "internet", "javascript", "media", "mobile", "music", "network", "opendata", "performance", "pim", "programming", "protocols", "python", "quality", "research", "scala", "security", "sysadmin", "ubuntu", "world"]
+---
+
+Shared bookmarks saved in September 2012.
+
+- total bookmarks: 87
+- total annotations captured: 31
+
+## Links
+
+- 2012-09-30: [gurgeh/selfspy](https://github.com/gurgeh/selfspy)  _(tags: pim, python)_
+- 2012-09-29: [Stripe Blog: Towards Transparency](https://stripe.com/blog/towards-transparency)  _(tags: tweet)_
+- 2012-09-29: [Dear  - it's not a "RESTful Link" -- it's just a L](http://whois.arin.net/rest/org/NOC4H)  _(tags: restjumpingshark, tweet)_
+- 2012-09-28: [Must check out: Ad Hawk, from . It's like Shazam f](http://adhawk.sunlightfoundation.com)  _(tags: tweet)_
+- 2012-09-28: [Top Apps for 25¢ - Android Apps on Google Play](https://play.google.com/store/apps/collection/promotion_celebrate_25_billion)  _(tags: android, 25billion, tweet)_
+- 2012-09-28: [Inappropriate Use of Adobe Code Signing Certificate &laquo;  Adobe Secure Software Engineering Team (ASSET) Blog](http://blogs.adobe.com/asset/2012/09/inappropriate-use-of-adobe-code-signing-certificate.html)  _(tags: tweet)_
+- 2012-09-28: [R2RML: RDB to RDF Mapping Language](http://www.w3.org/TR/r2rml/)  _(tags: tweet)_
+- 2012-09-28: [Learnable Programming](http://worrydream.com/LearnableProgramming/)  _(tags: tweet)_
+- 2012-09-28: [[VULNERABILITY] Remote wipe via iframe USSD trigger - xda-developers](http://forum.xda-developers.com/showthread.php?p=31994542)  _(tags: tweet)_
+- 2012-09-28: [It's time to break up the Euro - The Term Sheet: Fortune's deals blogTerm Sheet](http://finance.fortune.cnn.com/2012/09/25/euro-break-up/)  _(tags: euro, tweet)_
+- 2012-09-28: [Fix the machine, not the person (Aaron Swartz's Raw Thought)](http://www.aaronsw.com/weblog/nummi)  _(tags: tweet)_
+- 2012-09-28: [NYT journalists write to paper's top management, d](http://t.co/Fu3gWdZ8)  _(tags: labor, tweet)_
+- 2012-09-28: [Google News at 10: How the Algorithm Won Over the News Industry - Atlantic Mobile](http://m.theatlantic.com/technology/archive/2012/09/google-news-at-10-how-the-algorithm-won-over-the-news-industry/262641/)  _(tags: tweet)_
+- 2012-09-28: [Why Philip Roth needs a secondary source | Technology | guardian.co.uk](http://www.guardian.co.uk/technology/2012/sep/19/why-philip-roth-needs-secondary-source)  _(tags: tweet)_
+- 2012-09-28: [Re: [apps-discuss] JSON Schema considered harmful](http://www.ietf.org/mail-archive/web/apps-discuss/current/msg07284.html)  _(tags: tweet)_
+- 2012-09-28: [The New Shop Class &laquo; Dale Dougherty (@dalepd)](http://dalepd.com/2012/09/19/the-new-shop-class/)  _(tags: tweet)_
+- 2012-09-28: [Test the Web Forward](http://testthewebforward.org/paris-2012.html)  _(tags: tweet)_
+- 2012-09-28: [Feds Charge Activist with 13 Felonies for Rogue Downloading of Academic Articles | Threat Level | Wired.com](http://www.wired.com/threatlevel/2012/09/aaron-swartz-felony/all/)  _(tags: tweet)_
+- 2012-09-27: [How Do I Make This Hard to Misuse? - Rusty's Bleeding Edge Page](http://ozlabs.org/~rusty/index.cgi/tech/2008-03-30.html)  _(tags: programming)_
+- 2012-09-27: [Allen's Weblog: Ecru, A C Runtime For E](http://washort.twistedmatrix.com/2008/07/ecru-c-runtime-for-e.html)  _(tags: security, programming)_
+- 2012-09-20: [Arguments from Global Warming Skeptics and what the science really says](http://www.skepticalscience.com/argument.php)  _(tags: world)_
+- 2012-09-19: [[bitc-dev] Retrospective Thoughts on BitC](http://www.coyotos.org/pipermail/bitc-dev/2012-March/003300.html)  _(tags: programming)_
+- 2012-09-19: [Code : CapPython](https://code.launchpad.net/cappython)  _(tags: security, programming, python)_
+- 2012-09-19: [Chrome - Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.android.chrome)  _(tags: no_tag)_
+- 2012-09-19: [Chrome For Android Gets A Stronger Sandbox | TechCrunch](http://techcrunch.com/2012/09/12/chrome-for-android-gets-a-stronger-sandbox/)  _(tags: security, mobile)_
+- 2012-09-19: [newca12/scala-netty-examples](https://github.com/newca12/scala-netty-examples)  _(tags: programming, performance, protocols, scala)_
+- 2012-09-19: [Compiling/testing in 32-bit on Ubuntu X86-64](http://en.kioskea.net/faq/1137-compiling-testing-in-32-bit-on-ubuntu-x86-64)  _(tags: no_tag)_
+- 2012-09-19: [Mechanized LambdaJS](http://brownplt.github.com/2012/06/04/lambdajs-coq.html)  _(tags: programming, research, javascript)_
+- 2012-09-18: [David Byrne's Journal: 09.14.2012: Enhanced and Disenchanted](http://journal.davidbyrne.com/2012/09/enhanced-and-disenchanted.html)  _(tags: tweet)_
+- 2012-09-18: [The importance of language-level abstract Unicode strings &laquo; Unspecified Behaviour](http://unspecified.wordpress.com/2012/04/19/the-importance-of-language-level-abstract-unicode-strings/)  _(tags: tweet)_
+- 2012-09-17: [unscriptable/curl](https://github.com/unscriptable/curl)  _(tags: javascript, programming)_
+- 2012-09-17: [Montage | Tetsubo](http://tetsubo.org/home/montage/)  _(tags: javascript, programming)_
+- 2012-09-17: [XML, the eX Markup Language? | Eric van der Vlist](http://eric.van-der-vlist.com/blog/2012/02/14/xml-the-ex-markup-language/)  _(tags: tweet)_
+- 2012-09-17: [How the web should work | Boris Smus](http://smus.com/how-the-web-should-work/)  _(tags: tweet)_
+- 2012-09-16: [[Phoronix] X11 Turns 25 Years Old Today](http://www.phoronix.com/scan.php?page=article&item=x11_25_years&num=1)  _(tags: xwindows, tweet)_
+- 2012-09-16: [Troy Library on Vimeo](http://vimeo.com/47890552#at=0)  _(tags: tweet)_
+- 2012-09-15: [[all variants] why is /media in PRUNEPATHS in /etc/updatedb.conf - Ubuntu Forums](http://ubuntuforums.org/showthread.php?t=998230)  _(tags: ubuntu, sysadmin)_
+- 2012-09-15: [Welcome to ZicBee — Zicbee Web](http://zicbee.gnux.info/#email)  _(tags: music, data, digital, media)_
+- 2012-09-15: [Waterken News: Capability security on the Web](http://waterken.sourceforge.net/recent.html)  _(tags: security, web, programming)_
+- 2012-09-15: [Object Capability Model and Facets in Perstore/Pintura | Blog | SitePen](http://www.sitepen.com/blog/2010/03/08/object-capability-model-and-facets-in-perstorepintura/)  _(tags: javascript, programming, security)_
+- 2012-09-15: [Software Effort Estimation Considered Harmful - Rogish Reading Writing](http://mattrogish.com/blog/2012/08/16/software-effort-estimation-considered-harmful/)  _(tags: tweet)_
+- 2012-09-14: [Drupal development tutorial: Modelling business workflows with Drupal, Views & Rules | SEO Entrepreneur](http://seo-entrepreneur.com/content/drupal-development-tutorial-modelling-business-workflows-drupal-views-rules)  _(tags: drupal)_
+- 2012-09-14: [Resource Query Language: A Query Language for the Web, NoSQL | Blog | SitePen](http://www.sitepen.com/blog/2010/11/02/resource-query-language-a-query-language-for-the-web-nosql/#more-1321)  _(tags: programming, web, javascript)_
+- 2012-09-12: [brool » Blog Archive » Galaxy Nexus / Jelly Bean](http://www.brool.com/index.php/galaxy-nexus-jelly-bean)  _(tags: no_tag)_
+- 2012-09-12: [Fact-checkers are mad as hell and they&#039;re not taking it anymore&#8230; | craigconnects](http://craigconnects.org/2012/09/fact-checkers-are-mad-as-hell-and-theyre-not-taking-it-anymore.html)  _(tags: tweet)_
+- 2012-09-11: [Just One Mans Opinion: LOU COSTELLO BUYS A COMPUTER](http://twayneking.blogspot.com/2009/05/costello-calls-to-buy-computer-from.html)  _(tags: humor)_
+- 2012-09-10: [Custom Query revocation – tahoe-lafs](https://tahoe-lafs.org/trac/tahoe-lafs/query?status=!closed&keywords=~revocation)  _(tags: security)_
+- 2012-09-10: [SimpleTest | drupal.org](http://drupal.org/simpletest)  _(tags: drupal, programming, php, quality)_
+- 2012-09-09: [Open data movement: how to keep information from being politicized. - Slate Magazine](http://www.slate.com/articles/technology/future_tense/2012/09/open_data_movement_how_to_keep_information_from_being_politicized_.single.html)  _(tags: opendata, tweet)_
+- 2012-09-09: [&raquo; Save Homicide Watch Clay Shirky](http://www.shirky.com/weblog/2012/09/save-homicide-watch/)  _(tags: tweet)_
+- 2012-09-09: [&#8220;Armageddon&#8221; had bad science. Shocker, I know. | Bad Astronomy | Discover Magazine](http://blogs.discovermagazine.com/badastronomy/2012/09/07/armageddon-had-bad-science-shocker-i-know/)  _(tags: tweet)_
+- 2012-09-08: [Grace and Peace | Christianity Today](http://www.christianitytoday.com/ct/2008/june/22.50.html)  _(tags: no_tag)_
+- 2012-09-08: [MacOSX/2.4.11/Readme - GnuCash](http://wiki.gnucash.org/wiki/MacOSX/2.4.11/Readme)  _(tags: no_tag)_
+- 2012-09-07: [Cisco + OpenFlow + OpenStack = ONE software-defined network • The Register](http://www.theregister.co.uk/2012/06/14/cisco_one_sdn_openflow_openstack/)  _(tags: no_tag)_
+- 2012-09-07: [Mininet < OpenFlow < Foswiki](http://yuba.stanford.edu/foswiki/bin/view/OpenFlow/Mininet)  _(tags: research, protocols)_
+- 2012-09-07: [OpenFlow » Documents](http://www.openflow.org/wp/documents/)  _(tags: research, protocols, internet)_
+- 2012-09-07: [The End of Crypto - YouTube](https://www.youtube.com/watch?v=3ijjHZHNIbU)  _(tags: tweet)_
+- 2012-09-06: [mnot’s blog: Why PATCH is Good for Your HTTP API](http://www.mnot.net/blog/2012/09/05/patch?utm_source=dlvr.it&utm_medium=twitter)  _(tags: tweet)_
+- 2012-09-06: [True data liberation with IFTTT and Google Drive   - O&#039;Reilly Radar](http://radar.oreilly.com/2012/09/true-data-liberation.html)  _(tags: tweet)_
+- 2012-09-06: [[apps-discuss] I-D Action: draft-ietf-appsawg-json-pointer-04.txt](http://www.ietf.org/mail-archive/web/apps-discuss/current/msg06988.html)  _(tags: json, tweet)_
+- 2012-09-06: [World Wide Web Foundation | The Web Index](http://thewebindex.org)  _(tags: opendata, oneweb, webindex, tweet)_
+- 2012-09-06: [The Flowing Standard - W3C Blog](http://www.w3.org/QA/2012/09/the_flowing_standard.html)  _(tags: tweet)_
+- 2012-09-05: [gevent: A coroutine-based network library for Python](http://www.gevent.org)  _(tags: python, network, programming)_
+- 2012-09-05: [David Wetherill with a fantastic shot at the London 2012 Paralympic Games for GB (with replay)      - YouTube](http://www.youtube.com/watch?v=riR_SyhvB6s&feature=youtu.be)  _(tags: paralympics, tweet)_
+- 2012-09-05: [Google Chrome Blog: Celebrating 4 years: from a better web, to your web](http://chrome.blogspot.com/2012/09/fourth-birthday.html)  _(tags: chrome, tweet)_
+- 2012-09-03: [Inserting Google Calendars - Google Sites Help](https://support.google.com/sites/bin/answer.py?hl=en&answer=157219&topic=1046068&ctx=topic)  _(tags: no_tag)_
+- 2012-09-03: [Wal-Mart in exclusive deal to convert DVDs to digital for $2 each - latimes.com](http://latimesblogs.latimes.com/entertainmentnewsbuzz/2012/03/wal-mart-in-exclusive-deal-to-convert-dvds-to-digital-for-2-each.html)  _(tags: no_tag)_
+- 2012-09-03: [Google PowerMeter - Save Energy. Save Money. Make a Difference.](http://www.google.com/powermeter/about/)  _(tags: no_tag)_
+- 2012-09-03: [KCP&L - Residential - Energy Optimizer](http://www.kcplsave.com/residential/programs_and_services/energy_optimizer/default.html)  _(tags: no_tag)_
+- 2012-09-03: [Issue 272 - connectbot - enhancement: landscape mode - Secure shell (SSH) client for the Android platform - Google Project Hosting](http://code.google.com/p/connectbot/issues/detail?id=272&q=nexus&colspec=ID%20Type%20Status%20Milestone%20Summary%20Stars)  _(tags: no_tag)_
+- 2012-09-03: [A fix for "Incorrect key file for table '/tmp/#sql_xxxx_x.MYI'" in MySQL](http://www.mysqlperformancetuning.com/a-fix-for-incorrect-key-file-for-table-mysql)  _(tags: no_tag)_
+- 2012-09-02: [Introducing Ansible &mdash; Ansible - SSH-Based Configuration Management &amp; Deployment](http://ansible.github.com)  _(tags: puppet, tweet)_
+- 2012-09-01: [Horton's "Who Done It?"](http://erights.org/elib/capability/horton/index.html)  _(tags: security)_
+- 2012-09-01: [Google password change affecting Android](http://www.androidquestions.org/threads/152-Google-password-change-affecting-Android)  _(tags: no_tag)_
+- 2012-09-01: [zxcvbn tests](https://dl.dropbox.com/u/209/zxcvbn/test/index.html)  _(tags: security)_
+- 2012-09-01: [entropy - How reliable is a password strength checker? - IT Security](http://security.stackexchange.com/questions/2687/how-reliable-is-a-password-strength-checker)  _(tags: security)_
+- 2012-09-01: [Strength Test](http://rumkin.com/tools/password/passchk.php)  _(tags: security, javascript)_
+- 2012-09-01: [Coding Systems - GNU Emacs Manual](http://www.gnu.org/software/emacs/manual/html_node/emacs/Coding-Systems.html)  _(tags: no_tag)_
+- 2012-09-01: [What Successful People Do With The First Hour Of Their Work Day | Fast Company](http://www.fastcompany.com/3000619/what-successful-people-do-first-hour-their-work-day)  _(tags: no_tag)_
+- 2012-09-01: [Tech Tip: Retrieve Disk Info from the Command Line | Linux Journal](http://www.linuxjournal.com/content/tech-tip-retrieve-disk-info-command-line)  _(tags: no_tag)_
+- 2012-09-01: [SSH behavior — Fabric 1.4.3 documentation](http://docs.fabfile.org/en/1.4.3/usage/ssh.html)  _(tags: no_tag)_
+- 2012-09-01: [LinuxPasswordStorage - chromium - Storing passwords securely on Linux. - An open-source browser project to help move the web forward. - Google Project Hosting](http://code.google.com/p/chromium/wiki/LinuxPasswordStorage)  _(tags: no_tag)_
+- 2012-09-01: [GnomeKeyring/Pam - GNOME Live!](https://live.gnome.org/GnomeKeyring/Pam)  _(tags: no_tag)_
+- 2012-09-01: [psychomario/Key2QR](https://github.com/psychomario/Key2QR)  _(tags: security)_
+- 2012-09-01: [Galois - Blog - Quick authentication using mobile devices and QR Codes](http://corp.galois.com/blog/2011/1/5/quick-authentication-using-mobile-devices-and-qr-codes.html)  _(tags: security)_
+- 2012-09-01: [g10 Code - STEED](http://g10code.com/steed.html)  _(tags: no_tag)_
+- 2012-09-01: [Odd Bits: Signing data with ssh-agent](http://blog.oddbit.com/2011/05/signing-data-with-ssh-agent.html)  _(tags: python, programming, security)_

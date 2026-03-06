@@ -1,0 +1,152 @@
+---
+title: June 2015 Bookmarks: music, data, and health
+date: 2015-06-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "android", "bitcoin", "bluetooth", "capabilities", "car", "claims", "cloud", "collaboration", "commute", "data", "digital", "digital-media", "diy", "emr", "finances", "hardware", "health", "hosting", "javascript", "kc", "mac", "me", "media", "mobile", "music", "pc", "performance", "programming", "purescript", "python", "quality", "research", "rust", "scm", "security", "shopping", "signals", "sysadmin", "testing", "ubuntu"]
+---
+
+Shared bookmarks saved in June 2015.
+
+- total bookmarks: 138
+- total annotations captured: 77
+
+## Links
+
+- 2015-06-30: [Release v0.7.0 - &quot;MELTDOWN&quot; · purescript/purescript · GitHub](https://github.com/purescript/purescript/releases/tag/v0.7.0)  _(tags: purescript, tweet)_
+- 2015-06-30: [Why I&#039;m leaving London - Boing Boing](http://boingboing.net/2015/06/29/why-im-leaving-london.html)  _(tags: tweet)_
+- 2015-06-29: [Tutorial for beginners and code samples](https://developer.gnome.org/gnome-devel-demos/stable/beginner.js.html.en)  _(tags: no_tag)_
+- 2015-06-29: [George Kerevan: A default could be the chance to build a People’s Europe | World | The National](http://www.thenational.scot/world/george-kerevan-a-default-could-be-the-chance-to-build-a-peoples-europe.4586)  _(tags: tweet)_
+- 2015-06-25: [Google Fit - Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.fitness&hl=en)  _(tags: android, health, data, problem, mobile, commute)_
+- 2015-06-25: [Support ReplayGain in Google Play Music (aka Replay Gain)](https://productforums.google.com/forum/#!topic/play/fuYSdPwfuzY)  _(tags: android, problem, music)_
+- 2015-06-25: [Issue 4455 - android - Support ReplayGain for music playback - Android Open Source Project - Issue Tracker - Google Project Hosting](https://code.google.com/p/android/issues/detail?id=4455)  _(tags: android, problem, music)_
+- 2015-06-25: [Topic: Helping Google Music Fight the Loudness War (1/1) - Forums--Digital Domain - Digital Domain: CD Mastering | Mastered for iTunes | Audio Mastering | Blu-Ray Mastering](http://www.digido.com/forum/mastering-audio-general/157-helping-google-music-fight-the-loudness-war.html)  _(tags: no_tag)_
+- 2015-06-25: [python - Escape SQL "LIKE" value for Postgres with psycopg2 - Stack Overflow](http://stackoverflow.com/questions/2106207/escape-sql-like-value-for-postgres-with-psycopg2)  _(tags: no_tag)_
+- 2015-06-25: [kernel - Does Ubuntu support USB 3.0? - Ask Ubuntu](http://askubuntu.com/questions/12139/does-ubuntu-support-usb-3-0)  _(tags: no_tag)_
+- 2015-06-24: [jy987321/Wget at metalink · GitHub](https://github.com/jy987321/Wget/tree/metalink)  _(tags: gsoc, tweet)_
+- 2015-06-24: [Google protects Gmail users from themselves, addin](http://trib.al/Sbx5niS)  _(tags: tweet)_
+- 2015-06-23: [SCILHS i2b2 PCORnet Common Data Model Ontology Home - Related Project - SCILHS PCORnet Common Data Model Ontology - i2b2 Wiki](https://community.i2b2.org/wiki/display/SCILHS/SCILHS+i2b2+PCORnet+Common+Data+Model+Ontology+Home)  _(tags: no_tag)_
+- 2015-06-22: [Ta-Nehisi Coates on Twitter: &quot;Dylan Roof is not a terrorist in the exact same way that United States does not torture.&quot;](https://twitter.com/tanehisicoates/status/612423211574239232)  _(tags: tweet)_
+- 2015-06-22: [Secure Digital - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Secure_Digital)  _(tags: no_tag)_
+- 2015-06-21: [Google Groups](https://groups.google.com/forum/#!topic/playdar/nD8elxAXIak)  _(tags: no_tag)_
+- 2015-06-21: [MidasWWW - Motif based WWW browser now available. · dckc/MidasWWW@f9cbf10 · GitHub](https://github.com/dckc/MidasWWW/commit/f9cbf101e6f13d49a79fac756f9fbe1752dbf2e3)  _(tags: tweet)_
+- 2015-06-21: [coderwall.com : establishing geek cred since 1305712800](https://coderwall.com/p/byoycg/export-all-tables-in-a-sqlite3-db-to-csv-files)  _(tags: no_tag)_
+- 2015-06-20: [Discogs API Documentation](http://www.discogs.com/developers/)  _(tags: music, data, cloud)_
+- 2015-06-20: [Export - Discogs](http://www.discogs.com/users/export)  _(tags: music, data, cloud, problem)_
+- 2015-06-20: [MOTO G - Take a screenshot of the phone screen](https://motorola-global-en-roe.custhelp.com/app/answers/prod_answer_detail/a_id/96462/p/30,6720,9050)  _(tags: no_tag)_
+- 2015-06-20: [Release “Sooner or Later” by Rex Smith - MusicBrainz](http://musicbrainz.org/release/4d6b45a9-702b-451f-9bbb-b6053b29b7d8)  _(tags: music)_
+- 2015-06-20: [Tags - Documentation - MusicBrainz Picard](https://picard.musicbrainz.org/docs/tags/)  _(tags: no_tag)_
+- 2015-06-20: [Indexed Search Syntax - MusicBrainz](http://musicbrainz.org/doc/Indexed_Search_Syntax)  _(tags: no_tag)_
+- 2015-06-20: [Configuration Files — Ex Falso / Quod Libet (3.4)](https://quodlibet.readthedocs.org/en/latest/guide/config_files.html?highlight=hidden)  _(tags: no_tag)_
+- 2015-06-20: [kennyszub/google-music-playlist-scripts](https://github.com/kennyszub/google-music-playlist-scripts)  _(tags: no_tag)_
+- 2015-06-19: [My Collection - Discogs](http://www.discogs.com/user/dckc/collection)  _(tags: me, profile, music, data, metadata, library)_
+- 2015-06-19: [Downloads — Ex Falso / Quod Libet (3.4)](https://quodlibet.readthedocs.org/en/latest/downloads.html#ubuntu)  _(tags: no_tag)_
+- 2015-06-19: [mozilla-inbound: js/src/jsscan.c@9b2a99adc05e](https://hg.mozilla.org/integration/mozilla-inbound/file/9b2a99adc05e/js/src/jsscan.c#l1612)  _(tags: tweet)_
+- 2015-06-19: [You record your message. We deliver it to Congress. - MAYDAY](https://mayday.us/record/)  _(tags: lead4reform, tweet)_
+- 2015-06-19: [New clinical trial will try to determine the best aspirin dose to prevent heart disease](http://www.kumc.edu/news-listing-page/pcori-clinical-trial-on-heart-disease.html)  _(tags: coronaryarterydisease, tweet)_
+- 2015-06-19: [Jazz in the Woods - Home](http://www.jazzinthewoods.com)  _(tags: tweet)_
+- 2015-06-19: [BrendanEich on Twitter: &quot;New blog post - https://t.co/kp19BHPFSI #wasm #WebAssembly&quot;](https://twitter.com/BrendanEich/status/611202056670425088)  _(tags: tweet)_
+- 2015-06-19: [Redundancy vs dependencies: which is worse?](http://yosefk.com/blog/redundancy-vs-dependencies-which-is-worse.html)  _(tags: tweet)_
+- 2015-06-19: [RipRight: CD Ripper, Done Right](http://www.mcternan.me.uk/ripright/)  _(tags: no_tag)_
+- 2015-06-18: [Bengaluru programmer Thejesh, who exposed Airtel's 'spy code', seeks Israeli firm's apology](http://www.hindustantimes.com/technology-topstories/indian-techie-who-exposed-airtel-s-spy-code-asks-israeli-firm-to-apologise-over-legal-notice/article1-1359707.aspx)  _(tags: tweet)_
+- 2015-06-18: [Remote Code Execution as System User on Samsung Phones | NowSecure Blogs](https://www.nowsecure.com/blog/2015/06/16/remote-code-execution-as-system-user-on-samsung-phones/)  _(tags: tweet)_
+- 2015-06-18: [Solving riddles with Prolog and ES6 generators — Curiosity driven](https://curiosity-driven.org/prolog-interpreter#glue)  _(tags: no_tag)_
+- 2015-06-18: [pyDatalog](https://sites.google.com/site/pydatalog/)  _(tags: no_tag)_
+- 2015-06-18: [Solving riddles with Prolog and ES6 generators — Curiosity driven](https://curiosity-driven.org/prolog-interpreter)  _(tags: no_tag)_
+- 2015-06-17: [Trigger - Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.jwsoft.nfcactionlauncher)  _(tags: android, nfc, bluetooth, diy, someday, car)_
+- 2015-06-17: [Automate your Android phone in the car with NFC, Bluetooth - CNET](http://www.cnet.com/how-to/automate-your-android-phone-in-the-car-with-nfc-bluetooth/)  _(tags: android, car, nfc, bluetooth, diy, someday)_
+- 2015-06-17: [OS X Mavericks - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/OS_X_Mavericks)  _(tags: no_tag)_
+- 2015-06-17: [Unison: An API for distributed evaluation and building distributed systems in Unison](http://unisonweb.org/2015-06-02/distributed-evaluation.html)  _(tags: no_tag)_
+- 2015-06-16: [Unison: Quick update](http://unisonweb.org/2015-05-22/update.html)  _(tags: no_tag)_
+- 2015-06-16: [feuerbach/tasty](http://documentup.com/feuerbach/tasty)  _(tags: no_tag)_
+- 2015-06-16: [OpenSpecimen - A Free and Open Source Biobanking / Biorepository LIMS Solution with Support](http://www.openspecimen.org)  _(tags: no_tag)_
+- 2015-06-16: [html5 - MDN javascript docs for offline use - Stack Overflow](http://stackoverflow.com/questions/9501882/mdn-javascript-docs-for-offline-use)  _(tags: no_tag)_
+- 2015-06-14: [gmusicapi: an unofficial API for Google Play Music — gmusicapi 5.0.0 documentation](https://unofficial-google-music-api.readthedocs.org/en/latest/)  _(tags: music, programming, python, data, digital, media)_
+- 2015-06-14: [2.5. Storing your financial data](http://code.gnucash.org/docs/C/gnucash-guide/basics-files1.html)  _(tags: javascript, data, finances)_
+- 2015-06-14: [PostgreSQL: Documentation: 9.1: pg_dump](http://www.postgresql.org/docs/9.1/static/app-pgdump.html)  _(tags: no_tag)_
+- 2015-06-14: [beets: moving from Google Code to GitHub: a horrible, ultimately rewarding odyssey](http://beets.radbox.org/blog/github-issues.html)  _(tags: no_tag)_
+- 2015-06-14: [flow/Changelog.md at master · facebook/flow · GitHub](https://github.com/facebook/flow/blob/master/Changelog.md)  _(tags: tweet)_
+- 2015-06-14: [Redis Geo](https://matt.sh/redis-geo)  _(tags: tweet)_
+- 2015-06-14: [Chromaprint/Acoustid Plugin — beets 1.3.13 documentation](http://beets.readthedocs.org/en/v1.3.13/plugins/chroma.html)  _(tags: no_tag)_
+- 2015-06-14: [Getting Started — beets 1.3.13 documentation](http://beets.readthedocs.org/en/v1.3.13/guides/main.html)  _(tags: digital-media, music)_
+- 2015-06-14: [BagIt - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/BagIt)  _(tags: digital-media, preservation)_
+- 2015-06-14: [Request Google Music to support Replaygain - Hydrogenaudio Forums](http://www.hydrogenaud.io/forums/index.php?showtopic=106677)  _(tags: no_tag)_
+- 2015-06-14: [Any way to normalise Music in Google Music - Android Forums at AndroidCentral.com](http://forums.androidcentral.com/htc-one-m7/336921-any-way-normalise-music-google-music.html)  _(tags: music, android)_
+- 2015-06-13: [Simple Linux Utility for Resource Management](http://slurm.schedmd.com)  _(tags: no_tag)_
+- 2015-06-13: [security - How do I efficiently generate and validate file checksums? - Super User](http://superuser.com/questions/568555/how-do-i-efficiently-generate-and-validate-file-checksums)  _(tags: no_tag)_
+- 2015-06-13: [EncryptedHome - Community Help Wiki](https://help.ubuntu.com/community/EncryptedHome)  _(tags: no_tag)_
+- 2015-06-12: [claudiawilliams on Twitter: &quot;Analysis of large EHR data set shows link between common heartburn drug and heart attacks. Try that w/ paper records http://t.co/eM6XTJLC0d&quot;](https://twitter.com/claudiawilliams/status/608965561716998146)  _(tags: tweet)_
+- 2015-06-11: [Lowering Compiz memory usage - Ask Ubuntu](http://askubuntu.com/questions/82684/lowering-compiz-memory-usage)  _(tags: no_tag)_
+- 2015-06-11: [How can I find the hardware model in Linux? - Unix & Linux Stack Exchange](http://unix.stackexchange.com/questions/75750/how-can-i-find-the-hardware-model-in-linux)  _(tags: no_tag)_
+- 2015-06-11: [Xcode Command Line Tools · Yosemite · Install](http://railsapps.github.io/xcode-command-line-tools.html)  _(tags: mac, programming, sysadmin)_
+- 2015-06-11: [hardware - How do I find out my motherboard model? - Ask Ubuntu](http://askubuntu.com/questions/179958/how-do-i-find-out-my-motherboard-model)  _(tags: ubuntu, pc, hardware, shopping)_
+- 2015-06-11: [Keychain (Apple)/iCloud Keychain - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Keychain_(Apple)/iCloud_Keychain)  _(tags: mac, sysadmin, security)_
+- 2015-06-11: [JetBrains Plugin Repository :: NodeJS](https://plugins.jetbrains.com/plugin/6098?pr=idea)  _(tags: javascript)_
+- 2015-06-11: [JavaScript-Specific Guidelines](https://www.jetbrains.com/idea/help/javascript-specific-guidelines.html#d706765e18537)  _(tags: javascript, programming)_
+- 2015-06-11: [Apple’s iCloud Keychain: It works, but with frustrating limitations | Ars Technica](http://arstechnica.com/information-technology/2013/11/apples-icloud-keychain-it-works-but-its-limitations-are-frustrating/)  _(tags: no_tag)_
+- 2015-06-11: [Smart JavaScript editor, code-centric, focused on your productivity, with refactorings, DOM-based and browser-aware code completion and JavaScript Debugger. Part of WebStorm, PhpStorm, RubyMine, PyCharm and IntelliJ IDEA.](https://www.jetbrains.com/editors/javascript_editor.jsp?ide=idea)  _(tags: no_tag)_
+- 2015-06-11: [(6) Why won't Yosemite finish installing? - Quora](http://www.quora.com/Why-wont-Yosemite-finish-installing)  _(tags: no_tag)_
+- 2015-06-11: [OS X Yosemite Installation Stuck with Minutes Remaining? Wait!](http://osxdaily.com/2014/10/17/os-x-yosemite-installation-stuck/)  _(tags: no_tag)_
+- 2015-06-11: [Fix "File is too large for destination file system" Error](http://helpdeskgeek.com/help-desk/file-is-too-large-for-destination-file-system/)  _(tags: no_tag)_
+- 2015-06-11: [Michelle N. Meyer on Twitter: &quot;NIH announces changes to grant applications &amp; peer review to enhance scientific reproducibility, rigor &amp; transparency http://t.co/Qa5EHqWXCI&quot;](https://twitter.com/michellenmeyer/status/608634548734337024)  _(tags: tweet)_
+- 2015-06-11: [It&#8217;s The Future | The Circle Blog](http://blog.circleci.com/its-the-future/)  _(tags: tweet)_
+- 2015-06-11: [MaidSafe - The New Decentralized Internet](http://MaidSafe.net)  _(tags: rust, tweet)_
+- 2015-06-10: [Jest | Painless JavaScript Unit Testing](http://facebook.github.io/jest/)  _(tags: javascript, quality, qa, testing, programming)_
+- 2015-06-10: [Immutable.js](https://facebook.github.io/immutable-js/)  _(tags: no_tag)_
+- 2015-06-10: [Immutable.js](https://facebook.github.io/immutable-js/docs/)  _(tags: javascript)_
+- 2015-06-10: [Links » Capabilities for Python](http://www.links.org/?p=583)  _(tags: no_tag)_
+- 2015-06-10: [[cap-talk] What does the SQL storage of a cap-based application looks like?](http://www.eros-os.org/pipermail/cap-talk/2013-January/015601.html)  _(tags: no_tag)_
+- 2015-06-10: [[cap-talk] NaCl descriptors are not (all) capabilities](http://www.eros-os.org/pipermail/cap-talk/2009-November/013613.html)  _(tags: no_tag)_
+- 2015-06-10: [[cap-talk] "Immutable Law" #1 is alive and well at Microsoft](http://www.eros-os.org/pipermail/cap-talk/2007-October/009023.html)  _(tags: no_tag)_
+- 2015-06-10: [VDM Publishing - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/VDM_Publishing)  _(tags: no_tag)_
+- 2015-06-10: [A PictureBook of Secure Cooperation](http://www.skyhunter.com/marcs/SecurityPictureBook.ppt)  _(tags: security, capabilities)_
+- 2015-06-10: [etiennesegonzac/dom-scheduler · GitHub](https://github.com/etiennesegonzac/dom-scheduler)  _(tags: tweet)_
+- 2015-06-10: [Port Rust to PNaCl. by DiamondLovesYou · Pull Request #26148 · rust-lang/rust · GitHub](https://github.com/rust-lang/rust/pull/26148)  _(tags: tweet)_
+- 2015-06-10: [Israel and Palestine Would Make $173 Billion If They Stopped Fighting Today | Mother Jones](http://www.motherjones.com/mojo/2015/06/conflict-gaza-israel-palestine-costly-two-state-solution)  _(tags: tweet)_
+- 2015-06-10: [Experiments with ReactJS | Riviera Blog](http://lapin-bleu.net/riviera/?p=354)  _(tags: tweet)_
+- 2015-06-10: [Kali Linux | Penetration Testing and Ethical Hacking Linux Distribution](https://www.kali.org)  _(tags: no_tag)_
+- 2015-06-10: [Karma - Jenkins CI](http://karma-runner.github.io/0.12/plus/jenkins.html)  _(tags: no_tag)_
+- 2015-06-10: [EnvInject Plugin - Jenkins - Jenkins Wiki](https://wiki.jenkins-ci.org/display/JENKINS/EnvInject+Plugin)  _(tags: no_tag)_
+- 2015-06-09: [Choose ES6 modules Today! -Telerik Developer Network](http://developer.telerik.com/featured/choose-es6-modules-today/)  _(tags: no_tag)_
+- 2015-06-09: [Flow | Future Plans](http://flowtype.org/docs/coming-soon.html#_)  _(tags: no_tag)_
+- 2015-06-08: [Getting Started · jspm/jspm-cli Wiki](https://github.com/jspm/jspm-cli/wiki/Getting-Started)  _(tags: no_tag)_
+- 2015-06-08: [facebook / remotefilelog — Bitbucket](https://bitbucket.org/facebook/remotefilelog)  _(tags: scm, performance)_
+- 2015-06-08: [RemotefilelogExtension - Mercurial](https://mercurial.selenic.com/wiki/RemotefilelogExtension)  _(tags: no_tag)_
+- 2015-06-08: [1. Command line and environment — Python 2.7.10 documentation](https://docs.python.org/2/using/cmdline.html)  _(tags: no_tag)_
+- 2015-06-08: [honcho 0.6.6 : Python Package Index](https://pypi.python.org/pypi/honcho)  _(tags: no_tag)_
+- 2015-06-08: [Nat McHugh: How to make two binaries with the same MD5 hash](http://natmchugh.blogspot.it/2015/05/how-to-make-two-binaries-with-same-md5.html)  _(tags: tweet)_
+- 2015-06-06: [Olathe Summer Concert Series | Parks & Rec](http://www.olatheks.org/parksrec/olathe-summer-concert-series)  _(tags: kc, music)_
+- 2015-06-06: [Who Should Pay 2: The Hosting, From the Notebook of Aaron Gustafson](http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/)  _(tags: hosting)_
+- 2015-06-06: [Haskell Platform for Linux](https://www.haskell.org/platform/linux.html)  _(tags: no_tag)_
+- 2015-06-06: [Can nix be installed in a different location other than /nix? - Stack Overflow](http://stackoverflow.com/questions/29236953/can-nix-be-installed-in-a-different-location-other-than-nix)  _(tags: no_tag)_
+- 2015-06-06: [My lint-writing workflow &mdash; Llogiq on stuff](https://llogiq.github.io/2015/06/04/workflows.html)  _(tags: no_tag)_
+- 2015-06-06: [Coding Bootcamp in San Francisco. JavaScript focused programming school.](http://www.hackreactor.com/?utm_source=googlesem&utm_medium=branded&utm_campaign=info_mobile&gclid=CjwKEAjwtMqrBRDwtoehx72vm34SJACl_Un1DGjztISX6tEvm8iHSHjmXsdfwFI3rVWAFtE-yrQHnhoCRRPw_wcB)  _(tags: no_tag)_
+- 2015-06-06: [cabal2nix/user-guide.md at master · NixOS/cabal2nix](https://github.com/NixOS/cabal2nix/blob/master/doc/user-guide.md)  _(tags: no_tag)_
+- 2015-06-05: [Terra](http://terralang.org)  _(tags: no_tag)_
+- 2015-06-05: [Three months of Rust - Scattered Thoughts](http://scattered-thoughts.net/blog/2015/06/04/three-months-of-rust/)  _(tags: no_tag)_
+- 2015-06-05: [Cheatsheet - Nix Wiki](https://nixos.org/wiki/Cheatsheet)  _(tags: no_tag)_
+- 2015-06-05: [NixOs Tips on Twitter: ""nix" deps: nix-store -q --graph $(nix-env -q --out-path nix|cut -d' ' -f3) | dot -Tpng 2>/dev/null|feh -F - #NixOS http://t.co/UvOD7b0NtD"](https://twitter.com/NixOsTips/status/490235076236419073)  _(tags: no_tag)_
+- 2015-06-05: [SourceForge.net Repository - [grail] Index of /](http://grail.cvs.sourceforge.net/viewvc/grail/)  _(tags: tweet)_
+- 2015-06-05: [Elephant Grass for Gmail - Free, Open Source, Bitcoin-Powered Spam Control - Jesse Powell's Blog](http://jesse.forthewin.com/blog/2015/06/elephant-grass-for-gmail-open-source-bitcoin-powered-spam-control.html)  _(tags: bitcoin, tweet)_
+- 2015-06-05: [firepad](https://atom.io/packages/firepad)  _(tags: collaboration, programming, someday)_
+- 2015-06-04: [Nixpkgs Contributors Guide](http://nixos.org/nixpkgs/manual/)  _(tags: no_tag)_
+- 2015-06-04: [Nix manual](http://nixos.org/nix/manual/)  _(tags: no_tag)_
+- 2015-06-04: [New Performance Tools in Firefox Developer Edition 40 &#10025;        Mozilla Hacks &#8211; the Web developer blog](https://hacks.mozilla.org/2015/06/new-performance-tools-in-firefox-developer-edition-40/)  _(tags: tweet)_
+- 2015-06-04: [minimap](https://atom.io/packages/minimap)  _(tags: no_tag)_
+- 2015-06-04: [Secret Service API Draft](http://standards.freedesktop.org/secret-service/)  _(tags: no_tag)_
+- 2015-06-04: [guelfey/go.dbus](https://github.com/guelfey/go.dbus)  _(tags: no_tag)_
+- 2015-06-04: [sidorares/node-dbus](https://github.com/sidorares/node-dbus)  _(tags: no_tag)_
+- 2015-06-03: [W3C Advisory Committee Elects Advisory Board | W3C News](http://www.w3.org/blog/news/archives/4727)  _(tags: tweet)_
+- 2015-06-03: [Come to A Giants Game; Leave Your Bike with Us - San Francisco Bicycle Coalition](http://www.sfbike.org/news/giants/)  _(tags: tweet)_
+- 2015-06-03: [CNN Breaking News on Twitter: &quot;Senate approves bill to reform NSA domestic surveillance programs. http://t.co/t3se4er2fR&quot;](https://twitter.com/cnnbrk/status/605835501807886336)  _(tags: tweet)_
+- 2015-06-03: [rackt/react-autocomplete](https://github.com/rackt/react-autocomplete)  _(tags: no_tag)_
+- 2015-06-03: [reactabular - Spectacular tables for React.js](http://bebraw.github.io/reactabular/)  _(tags: no_tag)_
+- 2015-06-03: [prosperity-ofx](https://www.npmjs.com/package/prosperity-ofx)  _(tags: no_tag)_
+- 2015-06-03: [Nathanaela/fluentreports](https://github.com/Nathanaela/fluentreports)  _(tags: no_tag)_
+- 2015-06-02: [American Public Health Association - Comparing hospitals that perform coronary artery bypass surgery: the effect of outcome measures and data sources.](http://ajph.aphapublications.org/doi/abs/10.2105/AJPH.84.10.1609)  _(tags: health, research, claims, emr, signals)_
+- 2015-06-02: [American Public Health Association - The validity of hospital administrative data in monitoring variations in breast cancer surgery.](http://ajph.aphapublications.org/doi/abs/10.2105/AJPH.86.2.243)  _(tags: health, research, claims, emr, signals)_
+- 2015-06-02: [American Public Health Association - The accuracy of Medicare's hospital claims data: progress has been made, but problems remain.](http://ajph.aphapublications.org/doi/abs/10.2105/AJPH.82.2.243)  _(tags: health, research, claims, emr, signals)_
+- 2015-06-02: [Approach to addressing missing data for electronic medical records and pharmacy claims data research.](http://www.medscape.com/medline/abstract/25884526)  _(tags: health, research, claims, emr, signals)_
+- 2015-06-02: [Use of electronic medical records (EMR) for oncology outcomes research | CLEP](http://www.dovepress.com/use-of-electronic-medical-records-emr-for-oncology-outcomes-research-a-peer-reviewed-article-CLEP)  _(tags: health, research, claims, emr, signals)_
+- 2015-06-02: [WHEN 1+1=3: HOW ELECTRONIC HEALTH RECORDS AND CLAIMS CAN BE USED SYNERGISTICALLY « tHEORetically Speaking](http://www.healtheconomics.com/blog/when-113-how-electronic-health-records-and-claims-can-be-used-synergistically-2/)  _(tags: health, research, claims, emr, signals)_
+- 2015-06-02: [White Paper: The benefit of using both claims data and electronic medical record data in health care analysis - Optum.com](https://www.optum.com/thought-leadership/benefit-using-both-claims-data-electronic-medical-record-data-health-care-analysis.html)  _(tags: health, research, claims, emr, signals)_
+- 2015-06-02: [Electronic health records vs Medicaid claims: completeness of diabetes preventive care data in community health centers. - PubMed - NCBI](http://www.ncbi.nlm.nih.gov/pubmed/21747107/)  _(tags: health, research, claims, emr, signals)_

@@ -1,0 +1,103 @@
+---
+title: August 2013 Bookmarks: documentation, docker, and oracle
+date: 2013-08-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "capabilities", "devops", "javascript", "music", "photos", "programming", "python", "quality", "rustlang", "scala", "scm", "security", "shopping", "sysadmin", "ubuntu", "vm"]
+---
+
+Shared bookmarks saved in August 2013.
+
+- total bookmarks: 89
+- total annotations captured: 52
+
+## Links
+
+- 2013-08-30: [Setup — sbt Documentation](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html)  _(tags: no_tag)_
+- 2013-08-29: [scala - Setting target JVM in SBT - Stack Overflow](http://stackoverflow.com/questions/3831006/setting-target-jvm-in-sbt)  _(tags: no_tag)_
+- 2013-08-29: [Ask Tom "Upgrade JRE to 1.6"](http://asktom.oracle.com/pls/apex/f?p=100:11:0::::P11_QUESTION_ID:3130959400346743583)  _(tags: no_tag)_
+- 2013-08-29: [cryptography Info Page](http://www.metzdowd.com/mailman/listinfo/cryptography)  _(tags: tweet)_
+- 2013-08-29: [Google drops Nexus 4 price, now starts at $199 | The Verge](http://www.theverge.com/2013/8/27/4665960/google-drops-nexus-4-price-now-starts-at-199)  _(tags: tweet)_
+- 2013-08-28: [Coding Horror: The CODE Keyboard](http://www.codinghorror.com/blog/2013/08/the-code-keyboard.html)  _(tags: tweet)_
+- 2013-08-28: [WebAPI/DataStore - MozillaWiki](https://wiki.mozilla.org/WebAPI/DataStore)  _(tags: tweet)_
+- 2013-08-28: [Prettt-tty, pretty, pretty good!: The future of software, the end of apps, and why UX designers should care about type theory](http://pchiusano.blogspot.com/2013/05/the-future-of-software-end-of-apps-and.html)  _(tags: tweet)_
+- 2013-08-27: [NYTimes: The Decline of E-Empires](http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2013/08/26/opinion/krugman-the-decline-of-e-empires.html&OQ=_rQ3D1Q26&OP=6d05b289Q2F-Q3CiQ25-Q5CeQ25-AAA-Q23Q25HX-rQ3C1gQ7BQ3CQ3CQ25c-cCh)-Co-cQ2A-Q3Ci6Q5C6Q3CQ5C-Q7CQ7BKxHyQ5CQ24Q25Q23Q27Q24rQ271X6Q5CQ27Q24Q3CGQ24Q27Q24Q27Hi6Q7BQ27g5Q23Q25HX)  _(tags: tweet)_
+- 2013-08-27: [NYTimes: How Technology Wrecks the Middle Class](http://www.nytimes.com/glogin?URI=http://opinionator.blogs.nytimes.com/2013/08/24/how-technology-wrecks-the-middle-class/&OQ=_rQ3D1Q26&OP=a0274628Q2FQ7EQ2FQ5BmQ7EUsQ2AQ7EpppQ7EQ3CQ2AQ27ZQ7EI5XR)  _(tags: tweet)_
+- 2013-08-27: [PEP 446 -- Make newly created file descriptors non-inheritable](http://www.python.org/dev/peps/pep-0446/)  _(tags: tweet)_
+- 2013-08-26: [Dead-Simple Dependency Injection - YouTube](http://www.youtube.com/watch?v=ZasXwtTRkio)  _(tags: scala, tweet)_
+- 2013-08-26: [Sign White House petition: Res](http://t.co/NiKZS2xXGH)  _(tags: tweet)_
+- 2013-08-25: [Nebraska Change Agent -   Using Diigo + Twitter to Deliver a Powerful One-two Punch](http://bethstill.edublogs.org/2013/08/18/using-diigo-twitter-to-deliver-a-powerful-one-two-punch/)  _(tags: tweet)_
+- 2013-08-24: [Mixbook | About Mixbook](http://www.mixbook.com/about-mixbook)  _(tags: no_tag)_
+- 2013-08-24: [Servo passes acid1! (diff from reference is ) http](https://www.evernote.com/shard/s2/sh/e8141281-6cf3-42a9-8aaf-d85ce954b8de/876ea5eeae0daf5039a49acefb653e96/deep/0/acid1-diff.png.png)  _(tags: tweet)_
+- 2013-08-24: [TortoiseHg PPA Packagers: Releases : "TortoiseHg PPA Packagers" team](https://launchpad.net/~tortoisehg-ppa/+archive/releases)  _(tags: dvcs, scm, sysadmin, ubuntu)_
+- 2013-08-23: [Larry Lessig and EFF sue music licensing company over bogus YouTube copyright claims - Boing Boing](http://boingboing.net/2013/08/22/larry-lessig-and-eff-sue-music.html)  _(tags: tweet)_
+- 2013-08-23: [Flashing Tomato over OpenWRT on WRT54GL | TechFindings](http://zo0ok.com/techfindings/archives/370)  _(tags: no_tag)_
+- 2013-08-23: [Index of /attitude_adjustment/12.09/brcm47xx/generic/](http://downloads.openwrt.org/attitude_adjustment/12.09/brcm47xx/generic/)  _(tags: no_tag)_
+- 2013-08-22: [A week with Mozilla's](http://relistan.com/a-week-with-mozilla-rust/)  _(tags: rustlang, tweet)_
+- 2013-08-22: [JAMA Network | JAMA | Groups Experiment With Digital Tools for Patient Consent](http://jama.jamanetwork.com/article.aspx?articleid=1730508)  _(tags: tweet)_
+- 2013-08-20: [crosbymichael/boxcars](https://github.com/crosbymichael/boxcars)  _(tags: sysadmin)_
+- 2013-08-20: [Installation on Amazon EC2 - Docker Documentation](http://docs.docker.io/en/latest/installation/amazon/)  _(tags: vm, devops, sysadmin)_
+- 2013-08-20: [Jan-Piet Mens :: Provisioning CentOS EC2 instances with Ansible](http://jpmens.net/2012/11/21/provisioning-centos-ec2-instances-with-ansible/)  _(tags: vm)_
+- 2013-08-20: [An Introduction to boto’s EC2 interface — boto v2.10.0](http://docs.pythonboto.org/en/latest/ec2_tut.html)  _(tags: python, sysadmin, vm)_
+- 2013-08-20: [chmod 777 @self: Sigh..](http://www.chmod777self.com/2013/08/sigh.html)  _(tags: tweet)_
+- 2013-08-19: [Google Groups](https://groups.google.com/forum/#!topic/python-tulip/ut4vTG-08k8)  _(tags: tweet)_
+- 2013-08-17: [Photo Books, Photo Cards, Scrapbooks, Yearbooks and Calendars | Mixbook](http://www.mixbook.com)  _(tags: tweet, photos)_
+- 2013-08-17: [myType™ Pocketable Bluetooth Keyboard for Phones & Tablets by myType™ Keyboard &mdash; Kickstarter](http://www.kickstarter.com/projects/mytype/mytypetm-pocketable-bluetooth-keyboard-for-phones?utm_source=buffer&utm_campaign=Buffer&utm_content=buffer6d3eb&utm_medium=twitter)  _(tags: tweet)_
+- 2013-08-16: [iPod Touch - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/IPod_Touch)  _(tags: no_tag)_
+- 2013-08-16: [ImplicitCad.org](http://www.implicitcad.org)  _(tags: tweet)_
+- 2013-08-16: [11 proven practices for more effective, efficient peer code review](https://www.ibm.com/developerworks/rational/library/11-proven-practices-for-peer-review/)  _(tags: tweet)_
+- 2013-08-16: [The Downward Spiral of Microdata | The Beautiful, Tormented Machine](http://manu.sporny.org/2013/microdata-downward-spiral/)  _(tags: tweet)_
+- 2013-08-16: [Researchers figure out how to hack tens of thousands of servers](http://www.washingtonpost.com/blogs/the-switch/wp/2013/08/14/researchers-figure-out-how-to-hack-tens-of-thousands-of-servers/)  _(tags: security, sec13, tweet)_
+- 2013-08-16: [2 years ago, I stopped reviewing for closed access](http://t.co/83lyf0CBK8)  _(tags: tweet)_
+- 2013-08-15: [Wireless devices go battery-free with new communication technique | UW Today](http://www.washington.edu/news/2013/08/13/wireless-devices-go-battery-free-with-new-communication-technique/)  _(tags: tweet)_
+- 2013-08-15: [Gumbo, a pure-C HTML5 parser. Looking forward to t](https://t.co/Lsd8ctxiL6)  _(tags: tweet)_
+- 2013-08-13: [Type Debugger for Scala](http://lampwww.epfl.ch/~plocinic/type-debugger-tutorial/tutorial.html)  _(tags: scala, programming, quality)_
+- 2013-08-13: [Load .JAR file using SQL Developer | Oracle Forums](https://forums.oracle.com/thread/1107257)  _(tags: no_tag)_
+- 2013-08-13: [Java Installation and Configuration](http://docs.oracle.com/cd/B28359_01/java.111/b31225/chfour.htm)  _(tags: no_tag)_
+- 2013-08-13: [loadjava error | Oracle Forums](https://forums.oracle.com/thread/352921)  _(tags: no_tag)_
+- 2013-08-13: [PRNG: Pseudo Random Noise Generator: Bluetooth Household](http://prng.blogspot.com/2013/08/bluetooth-household.html)  _(tags: tweet)_
+- 2013-08-13: [server configuration - Is Jenkins/Hudson ciphered password storage "safe"? - Server Fault](http://serverfault.com/questions/299425/is-jenkins-hudson-ciphered-password-storage-safe)  _(tags: no_tag)_
+- 2013-08-13: [Least Authority](https://leastauthority.com/about_us)  _(tags: no_tag)_
+- 2013-08-13: [Exploring Google's Go programming language - C2FO - Working Capital Made Easy](https://c2fo.com/insights/exploring-googles-go-programming-language/)  _(tags: no_tag)_
+- 2013-08-12: [How much to rent a PA system in your town? - Harmony Central](http://www.harmonycentral.com/t5/Live-Sound-Production/How-much-to-rent-a-PA-system-in-your-town/td-p/9742116)  _(tags: music, shopping)_
+- 2013-08-12: [Kansas and Al Qaeda - NYTimes.com](http://mobile.nytimes.com/2013/08/11/opinion/sunday/friedman-kansas-and-al-qaeda.html)  _(tags: tweet)_
+- 2013-08-12: [Dear Don Graham - The Washington Post](http://www.washingtonpost.com/opinions/dear-don-graham/2013/08/08/25571e52-ff70-11e2-9a3e-916de805f65d_story.html?hpid=z3)  _(tags: washingtonpost, donaldgraham, tweet)_
+- 2013-08-11: [GettingStarted - joe-e - Instructions for installing and getting started with Joe-E - Capability-secure subset of Java - Google Project Hosting](https://code.google.com/p/joe-e/wiki/GettingStarted)  _(tags: no_tag)_
+- 2013-08-11: [Google Native Client - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Google_Native_Client)  _(tags: no_tag)_
+- 2013-08-11: [livingsocial/keyspace](https://github.com/livingsocial/keyspace)  _(tags: no_tag)_
+- 2013-08-10: [DFeet - GNOME Wiki!](https://wiki.gnome.org/DFeet/)  _(tags: no_tag)_
+- 2013-08-10: [Running webinos | webinos developer portal](https://developer.webinos.org/running)  _(tags: no_tag)_
+- 2013-08-10: [traceur-compiler - Google's vehicle for Javascript Language Design Experimentation - Google Project Hosting](https://code.google.com/p/traceur-compiler/)  _(tags: no_tag)_
+- 2013-08-10: [ECMAScript - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/ECMAScript)  _(tags: no_tag)_
+- 2013-08-10: [splitbrain/dokuwiki](https://github.com/splitbrain/dokuwiki/blob/master/doku.php)  _(tags: no_tag)_
+- 2013-08-10: [strawman:concurrency [ES Wiki]](http://wiki.ecmascript.org/doku.php?id=strawman:concurrency)  _(tags: javascript, security, capabilities)_
+- 2013-08-10: [Google Authenticator - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Google_Authenticator)  _(tags: no_tag)_
+- 2013-08-10: [Interfacing Leap Motion with Arduino thanks to Node.js | /dev/xavier](http://xseignard.github.io/2013/06/25/interfacing-leap-motion-with-arduino-thanks-to-nodejs/?utm_source=buffer&utm_campaign=Buffer&utm_content=buffer9ea74&utm_medium=twitter)  _(tags: tweet)_
+- 2013-08-10: [thatch45/salt](https://github.com/thatch45/salt)  _(tags: no_tag)_
+- 2013-08-10: [List for general discussion of cryptography, particularly focused on technical matters](http://comments.gmane.org/gmane.comp.security.cryptography.randombit/4011)  _(tags: no_tag)_
+- 2013-08-10: [If I Had More Time, I Would Have Written a Shorter Letter |](http://quoteinvestigator.com/2012/04/28/shorter-letter/)  _(tags: tweet)_
+- 2013-08-09: [Revelation Password Manager for GNOME](http://revelation.olasagasti.info)  _(tags: no_tag)_
+- 2013-08-09: [wired.com](http://www.wired.com)  _(tags: tweet)_
+- 2013-08-09: [Pelican Development Blog](http://blog.getpelican.com)  _(tags: tweet)_
+- 2013-08-08: [java.sql.SQLData - Oracle object mapping problem - Stack Overflow](http://stackoverflow.com/questions/3335385/java-sql-sqldata-oracle-object-mapping-problem)  _(tags: no_tag)_
+- 2013-08-08: [Go To Hellman: Proposal: The Dated Creative Commons License](http://go-to-hellman.blogspot.com/2013/07/proposal-dated-creative-commons-license.html)  _(tags: tweet)_
+- 2013-08-07: [Xerox Scanners / Photocopiers Randomly Alter Numbers | The FontFeed](http://fontfeed.com/archives/xerox-scanners%e2%80%8a%e2%80%8aphotocopiers-randomly-alter-numbers/)  _(tags: tweet)_
+- 2013-08-07: [Cloud Platform Blog: Google App Engine: Hello World using Push-to-Deploy](http://googlecloudplatform.blogspot.com/2013/07/google-app-engine-hello-world-using.html?utm_source=buffer&utm_campaign=Buffer&utm_content=buffer1a07e&utm_medium=twitter)  _(tags: tweet)_
+- 2013-08-06: [For Geeks | Using R to Extract Excel/csv File of Citation Data from Zotero | Robert Vesco](http://www.robertvesco.com/2011/07/technology-open-source-software/using-r-to-extract-excelcsv-file-of-citation-data-zotero.html)  _(tags: no_tag)_
+- 2013-08-05: [The Ecuadorian Library — Geek Empire — Medium](https://medium.com/geek-empire-1/a1ebd2b4a0e5)  _(tags: tweet)_
+- 2013-08-03: [subclipse: Wiki: JavaHL](http://subclipse.tigris.org/wiki/JavaHL)  _(tags: no_tag)_
+- 2013-08-03: [dotcloud/hipache](https://github.com/dotcloud/hipache)  _(tags: no_tag)_
+- 2013-08-03: [How to Get Startup Ideas](http://paulgraham.com/startupideas.html)  _(tags: no_tag)_
+- 2013-08-02: [PHAMIS—A Multihospital Integrated Medical Information System](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2231971/)  _(tags: no_tag)_
+- 2013-08-02: [Foundations offer $2 million challenge for innovative use of health data | Vital Signs | The healthcare business blog from Modern Healthcare](http://www.modernhealthcare.com/article/20130801/BLOG/308019996?AllowView=VW8xUmo5Q21TcWJOb1gzb0tNN3RLZ0h0MWg5SVgra3NZRzROR3l0WWRMWGJYUDBBRWxyd01qUzMyWmVqNTMwWUpiV24=&utm_source=link-20130801-BLOG-308019996&utm_medium=email&utm_campaign=hits)  _(tags: tweet)_
+- 2013-08-02: [kernel - get rid of kvm: disabled by bios - Ask Ubuntu](http://askubuntu.com/questions/263179/get-rid-of-kvm-disabled-by-bios)  _(tags: no_tag)_
+- 2013-08-02: [FAQ - KVM](http://www.linux-kvm.org/page/FAQ#.22KVM:_disabled_by_BIOS.22_error)  _(tags: no_tag)_
+- 2013-08-02: [DevDocs/KernelOops - madwifi-project.org - Trac](http://madwifi-project.org/wiki/DevDocs/KernelOops)  _(tags: no_tag)_
+- 2013-08-02: [Setting Up a Dev Environment - Docker Documentation](http://docs.docker.io/en/latest/contributing/devenvironment/)  _(tags: no_tag)_
+- 2013-08-02: [Requirements and Installation on Ubuntu Linux - Docker Documentation](http://docs.docker.io/en/latest/installation/ubuntulinux/#ubuntu-precise)  _(tags: no_tag)_
+- 2013-08-02: [Running a Node.js app on CentOS - Docker Documentation](http://docs.docker.io/en/latest/examples/nodejs_web_app/)  _(tags: no_tag)_
+- 2013-08-02: [dotcloud/docker](https://github.com/dotcloud/docker)  _(tags: no_tag)_
+- 2013-08-02: [Hello world example - Docker Documentation](http://docs.docker.io/en/latest/examples/hello_world/#hello-world)  _(tags: no_tag)_
+- 2013-08-02: [Paying technical debt in rustc - Adventures in the Absurd](http://aatch.github.io/blog/2013/06/19/paying-technical-debt-in-rustc/)  _(tags: no_tag)_
+- 2013-08-01: [Intel&#39;s first &#39;open-source PC&#39; on sale for $199 - Computerworld](http://www.computerworld.com/s/article/9241234/Intel_39_s_first_39_open_source_PC_39_on_sale_for_199?utm_source=buffer&utm_campaign=Buffer&utm_content=bufferd5148&utm_medium=twitter)  _(tags: tweet)_
+- 2013-08-01: [xkcd: Devotion to Duty](http://xkcd.com/705/)  _(tags: sysadminday, tweet)_
+- 2013-08-01: [Calling JAVA class from Oracle using loadjava. Inserting message in RabbitMQ on updating Oracle Db. | shdhumale](http://shdhumale.wordpress.com/2011/01/28/calling-java-class-from-oracle-using-loadjava-inserting-message-in-rabbitmq-on-updating-oracle-db/)  _(tags: no_tag)_

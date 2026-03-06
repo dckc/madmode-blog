@@ -1,0 +1,104 @@
+---
+title: November 2011 Bookmarks: programming, python, and security
+date: 2011-11-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "capabilities", "cloud", "data", "digital", "economics", "faith", "family", "health", "javascript", "kc", "learning", "linux", "logic", "mac", "media", "mobile", "photo", "photos", "policy", "programming", "python", "quality", "research", "security", "shopping", "sports", "statistics", "sysadmin", "tpac", "usability", "video", "windows", "xml"]
+---
+
+Shared bookmarks saved in November 2011.
+
+- total bookmarks: 90
+- total annotations captured: 21
+
+## Links
+
+- 2011-11-30: [Tutorial — Alembic v0.1.0 documentation](http://packages.python.org/alembic/tutorial.html#the-migration-environment)  _(tags: programming, python, someday, data)_
+- 2011-11-30: [DebuggingTutorial - winpdb - A tutorial for learning how to debug with Winpdb. - Winpdb - A platform independent Python debugger - Google Project Hosting](http://code.google.com/p/winpdb/wiki/DebuggingTutorial)  _(tags: programming, python, someday, ide)_
+- 2011-11-25: [Official Google Blog: Advanced sign-in security for your Google account](http://googleblog.blogspot.com/2011/02/advanced-sign-in-security-for-your.html)  _(tags: security)_
+- 2011-11-25: [Setup - Accounts Help](http://www.google.com/support/accounts/bin/static.py?page=guide.cs&guide=1056283&topic=1056285)  _(tags: security)_
+- 2011-11-25: [What Are You Waiting For?      - YouTube](http://www.youtube.com/watch?v=cuzlQ7sv-bY&feature=share)  _(tags: tweet)_
+- 2011-11-24: [Steve Hannah: This week » .NET: The most unlikely savior of Desktop Java on the Mac](http://www.shannah.ca/blog/?p=176)  _(tags: programming, mac)_
+- 2011-11-24: [optimization - Good introductory text about GHC implementation? - Stack Overflow](http://stackoverflow.com/questions/6048194/good-introductory-text-about-ghc-implementation)  _(tags: programming)_
+- 2011-11-24: [End-to-End Verification of Security Policy Enforcement - Microsoft Research](http://research.microsoft.com/en-us/projects/fine)  _(tags: programming, security, research, logic)_
+- 2011-11-24: [Flapjax](http://www.flapjax-lang.org/tutorial)  _(tags: programming)_
+- 2011-11-24: [Why SOPA and PROTECT-IP Are So Hard to Kill - Blog - OpenCongress](http://www.opencongress.org/articles/view/2434-Why-SOPA-and-PROTECT-IP-Are-So-Hard-to-Kill)  _(tags: tweet)_
+- 2011-11-24: [Evolving ECMAScript - IEBlog - Site Home - MSDN Blogs](http://blogs.msdn.com/b/ie/archive/2011/11/22/evolving-ecmascript.aspx)  _(tags: dart, ecmascript, tweet)_
+- 2011-11-23: [Contracts - Bitcoin](https://en.bitcoin.it/wiki/Contracts)  _(tags: economics)_
+- 2011-11-23: [LanguageFeatures - traceur-compiler - Traceur Language Features - Google's vehicle for Javascript Language Design Experimentation - Google Project Hosting](http://code.google.com/p/traceur-compiler/wiki/LanguageFeatures)  _(tags: javascript, programming)_
+- 2011-11-22: [Lacking Rhoticity: An introduction to FreeBSD-Capsicum](http://lackingrhoticity.blogspot.com/2010/11/introduction-to-freebsd-capsicum.html)  _(tags: security, linux)_
+- 2011-11-22: [Satoshi Nakamoto and Bitcoin Virtual Currency : The New Yorker](http://www.newyorker.com/reporting/2011/10/10/111010fa_fact_davis)  _(tags: no_tag)_
+- 2011-11-22: [Stop Censorship &mdash; Take Action Before Senate Vote | Demand Progress](http://stopcensorship.org)  _(tags: tweet)_
+- 2011-11-22: [Thomas Suarez: A 12-year-old app developer | Video on TED.com](http://www.ted.com/talks/thomas_suarez_a_12_year_old_app_developer.html?awesm=on.ted.com_9yOf&utm_campaign=thomas_suarez_a_12_year_old_app_developer&utm_medium=on.ted.com-twitter&utm_source=direct-on.ted.com&utm_content=ted.com-talkpage)  _(tags: kc, googlefiber, ted, tweet)_
+- 2011-11-22: [PyPy Status Blog: PyPy 1.7 - widening the sweet spot](http://morepypy.blogspot.com/2011/11/pypy-17-widening-sweet-spot.html)  _(tags: tweet)_
+- 2011-11-21: [Mozilla Aims to 'Iconize' Skills with Standardized 'Merit Badges'](http://www.readwriteweb.com/archives/mozilla_aims_to_iconize_skills_with_standardized_m.php)  _(tags: web, learning)_
+- 2011-11-21: [International Classification of Diseases for Oncology - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/ICD-O)  _(tags: health, data)_
+- 2011-11-21: [Topographical codes - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Topographical_codes)  _(tags: health, data)_
+- 2011-11-21: [Disease - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Disease#Morbidity)  _(tags: health, data)_
+- 2011-11-21: [Neoplasm - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Neoplasm)  _(tags: health, data)_
+- 2011-11-21: [Learn to code | Codecademy](http://www.codecademy.com)  _(tags: programming, learning)_
+- 2011-11-21: [Computer Programming for Children, Minus Cryptic Syntax - NYTimes.com](http://www.nytimes.com/2011/11/10/technology/personaltech/computer-programming-for-children-minus-cryptic-syntax.html?_r=1)  _(tags: programming, learning)_
+- 2011-11-21: [Poets & Police: Seems to me the US is in a troubl](http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2011/11/20/opinion/sunday/at-occupy-berkeley-beat-poets-has-new-meaning.html&OQ=_rQ3D3&OP=2ba43a09Q2FQ25Rg9Q25E0ZBp00ikQ25k2Q7EQ7EQ25Q7EQ7EQ25k2Q250DuQ51u0Q51Q25ByQ51EeQ7DQ25ei@0ZZyDQ7D@9gp8gngQ7D@9gei@D0giB@XeB@Q51gR@CgeQ51uQ51Q3DQ2BXiCn)  _(tags: tweet)_
+- 2011-11-21: [Jean Bezivin - Google+ - The last session of the Google Developer Day 2011 Berlin…](https://plus.google.com/105933370793992913359/posts/bLfSagtziBC)  _(tags: tweet)_
+- 2011-11-21: [Open Letter to Chancellor Linda P.B. Katehi | UCDavis Bicycle Barricade](http://bicyclebarricade.wordpress.com/2011/11/19/open-letter-to-chancellor-linda-p-b-katehi)  _(tags: tweet)_
+- 2011-11-20: [Open vs. Fast, Good vs. Evil, Google vs. Facebook « hueniverse](http://hueniverse.com/2010/05/open-vs-fast-good-vs-evil-google-vs-facebook)  _(tags: no_tag)_
+- 2011-11-19: [Sovereign Keys: A Proposal to Make HTTPS and Email More Secure | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2011/11/sovereign-keys-proposal-make-https-and-email-more-secure)  _(tags: web, security)_
+- 2011-11-19: [One Per Cent: Occupy vs Tea Party: what their Twitter networks reveal](http://www.newscientist.com/blogs/onepercent/2011/11/occupy-vs-tea-party-what-their.html)  _(tags: occupy, teaparty, tweet)_
+- 2011-11-18: [CeltFootball's Channel - YouTube](http://www.youtube.com/user/CeltFootball)  _(tags: family, video, sports)_
+- 2011-11-18: [Acts 3 - ESVBible.org](http://www.esvbible.org/Acts+3)  _(tags: scripture)_
+- 2011-11-18: [Lead Bullets | TechCrunch](http://techcrunch.com/2011/10/25/lead-bullets)  _(tags: tweet)_
+- 2011-11-18: [We Need A Battery Miracle - Professor Donald Sadoway Liquid Metal Battery](http://www.thegatesnotes.com/Topics/Energy/We-Need-A-Battery-Miracle?WT.mc_id=11_17_Sadoway_TW&WT.tsrc=Twitter)  _(tags: renewableenergy, tweet)_
+- 2011-11-18: [W3Conf Twitter timeline](http://people.w3.org/~dom/w3conf)  _(tags: w3conf, tweet)_
+- 2011-11-18: [25 26 Arrested Reporters and What They Do | The Awl](http://www.theawl.com/2011/11/25-arrested-reporters-and-what-they-do)  _(tags: ows, tweet)_
+- 2011-11-18: [Announcing jQuery Mobile 1.0  | jQuery Mobile](http://jquerymobile.com/blog/2011/11/16/announcing-jquery-mobile-1-0)  _(tags: tweet)_
+- 2011-11-17: [Search using your terms, verbatim - Inside Search](http://insidesearch.blogspot.com/2011/11/search-using-your-terms-verbatim.html)  _(tags: webscience, tweet)_
+- 2011-11-17: [Kansas City Broadband Leadership Summit - Burke      - YouTube](http://www.youtube.com/watch?v=2c32Bs9RbTk&feature=related)  _(tags: fiber, kc, tweet)_
+- 2011-11-17: [I wish I had time to read everything on this page](http://t.co/qroXNMY3)  _(tags: tweet)_
+- 2011-11-17: [finally caught up with comments on reddit AMA](http://t.co/DV20TSsJ)  _(tags: tweet)_
+- 2011-11-16: [Mystery Church: Joplin, MO > MISSION JOPLIN](http://www.mysterychurch.com/mission-joplin)  _(tags: america, faith, kc)_
+- 2011-11-14: [How do you turn off login banner for non-interactive ssh?](http://www.linuxquestions.org/questions/linux-security-4/how-do-you-turn-off-login-banner-for-non-interactive-ssh-470516)  _(tags: sysadmin, security)_
+- 2011-11-14: [Getting started? virtualenv? - spyder | Google Groups](http://groups.google.com/group/spyderlib/browse_thread/thread/aeeeb5167c196f22?hl=en)  _(tags: python, programming, statistics)_
+- 2011-11-14: [Expert: Regulators &quot;slow to catch up&quot; to Microsoft patent bullying](http://arstechnica.com/tech-policy/news/2011/11/expert-regulators-unlikely-to-stop-microsoft-patent-bullying.ars)  _(tags: tweet)_
+- 2011-11-14: [schema blog: Using RDFa 1.1 Lite with Schema.org](http://blog.schema.org/2011/11/using-rdfa-11-lite-with-schemaorg.html)  _(tags: tweet)_
+- 2011-11-13: [FCC net neutrality rules live on, after close Senate vote](http://www.digitaltrends.com/web/fcc-net-neutrality-rules-live-on-after-close-senate-vote)  _(tags: tweet)_
+- 2011-11-13: [The Number One Trait of a Great Developer | Engine Yard Blog](http://www.engineyard.com/blog/2011/the-number-one-trait-of-a-great-developer)  _(tags: tweet)_
+- 2011-11-13: [mndrix: Bitcoin: Gold of the Future](http://mndrix.blogspot.com/2011/11/bitcoin-gold-of-future.html)  _(tags: tweet)_
+- 2011-11-13: [Terracotta Lego Army &laquo; Flickr Blog](http://blog.flickr.net/en/2011/11/09/terracotta-lego-army)  _(tags: tweet)_
+- 2011-11-11: [Top 10 Reasons Java Programs Envy Scala by Graham Lea on Prezi](http://prezi.com/07yqjyfcotn6/top-10-reasons-java-programs-envy-scala)  _(tags: programming)_
+- 2011-11-11: [Tilt](http://blog.mozilla.com/tilt)  _(tags: web, programming)_
+- 2011-11-10: [TPAC 2011: Minutes of TPAC Plenary](http://www.w3.org/2011/11/02-tpac-minutes)  _(tags: tpac, tweet)_
+- 2011-11-10: [Data Science Kit&nbsp;-&nbsp;Deals&nbsp;-&nbsp;O'Reilly Media](http://shop.oreilly.com/category/deals/data-science-kit.do)  _(tags: strataconf, tweet)_
+- 2011-11-10: [republic wireless - how it works](http://republicwireless.com/how)  _(tags: mobile, shopping)_
+- 2011-11-10: [Why I’m Done Making Desktop Applications | www.kalzumeus.com | Readability](http://www.readability.com/articles/tfjzf5zj)  _(tags: no_tag)_
+- 2011-11-10: [Don’t Call Yourself A Programmer, And Other Career Advice | Kalzumeus Software](http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer)  _(tags: no_tag)_
+- 2011-11-09: [Job Search | one search. all jobs. Indeed.com](http://www.indeed.com)  _(tags: tweet)_
+- 2011-11-09: [New 5 Billion Page Web Index with Page Rank Now Available for Free from Common Crawl Foundation](http://m.readwriteweb.com/archives/common_crawl_foundation_announces_5_billion_page_w.php)  _(tags: tweet)_
+- 2011-11-09: [Patient Protection and Affordable Care Act - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Patient_Protection_and_Affordable_Care_Act)  _(tags: america, health, policy)_
+- 2011-11-09: [You Can’t Ignore The Web: OpenTable Launches New HTML5 Website | TechCrunch](http://techcrunch.com/2011/11/09/you-cant-ignore-the-web-opentable-launches-new-html5-website)  _(tags: mobile, web)_
+- 2011-11-09: [Why Big Media Is Going Nuclear Against The DMCA | TechCrunch](http://techcrunch.com/2011/11/06/big-media-nuclear-dmca)  _(tags: digital, media, economics)_
+- 2011-11-09: [The Social Graph is Neither (Pinboard Blog)](http://blog.pinboard.in/2011/11/the_social_graph_is_neither)  _(tags: tweet)_
+- 2011-11-08: [AppArmor - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/AppArmor)  _(tags: security)_
+- 2011-11-07: [cluster - Node.js v0.6.0 Manual &amp; Documentation](http://nodejs.org/docs/v0.6.0/api/cluster.html)  _(tags: tweet)_
+- 2011-11-07: [Steve Jobs&#8217;s Real Genius : The New Yorker](http://www.newyorker.com/reporting/2011/11/14/111114fa_fact_gladwell?currentPage=all)  _(tags: tweet)_
+- 2011-11-07: [OpenRePub](http://openrepub.org)  _(tags: tweet)_
+- 2011-11-07: [So, watching folks at  hack a distributed wiki on](http://opalang.org)  _(tags: offlineweb, tweet)_
+- 2011-11-07: [Remember the moment when you saw this map and unde](http://upload.wikimedia.org/wikipedia/commons/d/d4/Cable_map18.svg)  _(tags: tweet)_
+- 2011-11-07: [kripken/emscripten - GitHub](https://github.com/kripken/emscripten)  _(tags: tweet)_
+- 2011-11-07: [With pop-ups like this, no one can be sure of anyt](http://t.co/hx4Ggwza)  _(tags: tweet)_
+- 2011-11-07: [fogus: Programming language development: the past 5 years](http://blog.fogus.me/2011/10/18/programming-language-development-the-past-5-years)  _(tags: programming)_
+- 2011-11-07: [What’s New In Python 3.2 — Python v3.3a0 documentation](http://docs.python.org/dev/whatsnew/3.2.html)  _(tags: python, programming)_
+- 2011-11-06: [Introduction to Petname Systems](http://www.skyhunter.com/marcs/petnames/IntroPetNames.html)  _(tags: security)_
+- 2011-11-06: [about.rst in trunk/docs – tahoe-lafs](https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/docs/about.rst)  _(tags: cloud, security, data)_
+- 2011-11-05: [Getting started with Libxml2 and Python (Part 1) - ++ ukchill.com ++](http://ukchill.com/technology/getting-started-with-libxml2-and-python-part-1/#Libxml2_and_HTML)  _(tags: programming, python, xml, data)_
+- 2011-11-05: [Ian Bicking: a blog :: Javascript on the server AND the client is not a big deal](http://blog.ianbicking.org/2011/03/30/js-on-server-and-client-is-not-a-big-deal)  _(tags: programming, javascript)_
+- 2011-11-05: [Ian Bicking: a blog](http://blog.ianbicking.org/)  _(tags: no_tag)_
+- 2011-11-03: [Static Analysis FTW | Brendan Eich](http://brendaneich.com/2010/08/static-analysis-ftw)  _(tags: programming)_
+- 2011-11-03: [Making Policy Decisions Disappear into the User's Workflow](http://www.hpl.hp.com/techreports/2009/HPL-2009-341.html)  _(tags: security, programming, capabilities, windows, usability)_
+- 2011-11-03: [How do you connect to a MySQL database using Oracle SQL Developer? - Stack Overflow](http://stackoverflow.com/questions/89696/how-do-you-connect-to-a-mysql-database-using-oracle-sql-developer)  _(tags: programming)_
+- 2011-11-03: [Configuring SQL Developer for MySQL | TechRepublic](http://www.techrepublic.com/blog/programming-and-development/configuring-sql-developer-for-mysql/564)  _(tags: programming)_
+- 2011-11-03: [MySQL :: Download Connector/J](http://www.mysql.com/downloads/connector/j)  _(tags: no_tag)_
+- 2011-11-03: [Ubuntu -- Details of package pylint in natty](http://packages.ubuntu.com/natty/pylint)  _(tags: python, programming)_
+- 2011-11-03: [Liten: A deduplication command line tool and library](http://liten.googlecode.com/hg/docs/liten_documentation.html)  _(tags: programming, python, media, sysadmin, someday, photo)_
+- 2011-11-03: [Coding Horror: On Parenthood](http://www.codinghorror.com/blog/2011/10/on-parenthood.html)  _(tags: no_tag)_
+- 2011-11-03: [Schneier's PalmPilot -- Waterken YURL](http://waterken.com/dev/YURL/Schneier)  _(tags: no_tag)_
+- 2011-11-02: [Michael Nielsen on Networked Science - WSJ.com](http://online.wsj.com/article/SB10001424052970204644504576653573191370088.html)  _(tags: no_tag)_
+- 2011-11-02: [Google Python Style Guide](http://google-styleguide.googlecode.com/svn/trunk/pyguide.html)  _(tags: programming, quality, python)_

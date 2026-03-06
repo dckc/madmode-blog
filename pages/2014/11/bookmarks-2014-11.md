@@ -1,0 +1,193 @@
+---
+title: November 2014 Bookmarks: groupon, shopping, and python
+date: 2014-11-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "android", "auto", "bluetooth", "capabilities", "cloud-services", "college", "data", "digital", "diy", "emacs", "firefox", "fp", "games", "golang", "haskell", "health", "internet", "javascript", "jobs", "kc", "linux", "mac", "machine-learning", "media", "mobile", "music", "netneutrality", "performance", "photos", "programming", "python", "security", "sel4", "shopping", "sql", "sxsw", "sysadmin", "tv", "ubuntu", "visualization", "vm", "windows", "world"]
+---
+
+Shared bookmarks saved in November 2014.
+
+- total bookmarks: 179
+- total annotations captured: 65
+
+## Links
+
+- 2014-11-30: [Silicon Valley&#39;s Culture of Amorality &ndash; Water Will Find its Way | Tom Foremski | LinkedIn](https://www.linkedin.com/today/post/article/20141123194522-529261-silicon-valley-s-culture-of-amorality-water-will-find-its-way)  _(tags: changetheratio, tweet)_
+- 2014-11-29: [7. Notes on spreadsheets etc — Python Hacks - Scientific/financial Computing using Python](http://www.bruunisejs.dk/PythonHacks/rstFiles/500%20Notes%20on%20spreadsheets%20etc.html#python-scripting-in-gnumeric)  _(tags: no_tag)_
+- 2014-11-29: [Set of 2 Garden Tool Hangers | Groupon](http://gr.pn/1xVfHqa)  _(tags: shopping, garage)_
+- 2014-11-29: [Junior Miracle Fold Laundry Folder | Groupon](http://gr.pn/1xVfwuZ)  _(tags: shopping, tv)_
+- 2014-11-29: [230-Piece Assortment of Nylon Zip Ties | Groupon](http://gr.pn/1xVeMWG)  _(tags: shopping)_
+- 2014-11-29: [Black &amp; Decker Power Tools | Groupon](http://gr.pn/1rEL8bC)  _(tags: shopping, diy)_
+- 2014-11-29: [41-Compartment Hardware-Storage Box | Groupon](http://gr.pn/1rEKWsR)  _(tags: shopping, diy)_
+- 2014-11-29: [Gutter Blaster Arched Pressure Washer | Groupon](http://gr.pn/1rEKAT0)  _(tags: no_tag)_
+- 2014-11-29: [22&#39; Little Giant Ladder | Groupon](http://gr.pn/1rEIQcm)  _(tags: no_tag)_
+- 2014-11-29: [Motion Activated Indoor or Outdoor Light | Groupon](http://gr.pn/1rEIFOt)  _(tags: shopping)_
+- 2014-11-29: [As Seen on TV Handy EZ Windshield Wiper | Groupon](http://gr.pn/1rEIp1P)  _(tags: shopping, auto)_
+- 2014-11-29: [Roadster Smartphone Sticky Pad Dash Mount | Groupon](http://gr.pn/1rEIm69)  _(tags: shopping, mobile, auto)_
+- 2014-11-29: [Roku LT Player or Streaming Stick with 2 Months Free of Rdio  | Groupon](http://gr.pn/1rEHKxl)  _(tags: shopping, tv)_
+- 2014-11-29: [iHip Jigsaw USB Wall Charger with Pass-Through AC Outlet | Groupon](http://gr.pn/1rEHpLg)  _(tags: no_tag)_
+- 2014-11-29: [WD My Passport Slim 1TB USB 3.0 External Hard Drive with Auto Backup | Groupon](http://gr.pn/1rEG2fA)  _(tags: no_tag)_
+- 2014-11-29: [HMDX Sleep Station Projection Alarm Clock with USB Charging Port | Groupon](http://gr.pn/1rEFN45)  _(tags: no_tag)_
+- 2014-11-29: [Linksys Dual-Band Wireless-N High Speed WiFi Range Extender | Groupon](http://gr.pn/1rEFiqL)  _(tags: no_tag)_
+- 2014-11-29: [Jabra Tour Bluetooth In-Car Speakerphone | Groupon](http://gr.pn/1rEF034)  _(tags: no_tag)_
+- 2014-11-29: [ZyXEL Universal N300 Wireless Range Extender  | Groupon](http://gr.pn/1rEEa6g)  _(tags: no_tag)_
+- 2014-11-29: [Aduro BookCase Folio and Wallet for iPhone or Samsung Galaxy | Groupon](http://gr.pn/1rEDVbw)  _(tags: no_tag)_
+- 2014-11-29: [ASUS 13&quot; Google Chromebook with 16GB SSD and 2GB RAM | Groupon](http://gr.pn/1rEDGgs)  _(tags: no_tag)_
+- 2014-11-29: [Samsung WiFi Blu-ray Player with HDMI Cable | Groupon](http://gr.pn/1rEDxcU)  _(tags: no_tag)_
+- 2014-11-29: [Wii Mini with Mario Kart Wii  | Groupon](http://gr.pn/1rEDkXr)  _(tags: shopping, games)_
+- 2014-11-29: [HP EliteBook 8440p 14&quot; Laptop with Intel Core i7-640M 2.8GHz Processor | Groupon](http://gr.pn/1rECSIz)  _(tags: no_tag)_
+- 2014-11-29: [Kansas City from the top of the World War I memori](https://t.co/PYy24ziaBR)  _(tags: tweet)_
+- 2014-11-29: [Genode - Release notes for the Genode OS Framework 14.11](http://genode.org/documentation/release-notes/14.11)  _(tags: tweet)_
+- 2014-11-29: [LG Nexus 4 16GB 4.7&quot; 4G Android Smartphone (Manufacturer Refurbished) | Groupon](http://gr.pn/1rECauR)  _(tags: no_tag)_
+- 2014-11-29: [JLab GO Wireless Bluetooth Sport Headphones with Sport Armband | Groupon](http://gr.pn/1rEBKVx)  _(tags: no_tag)_
+- 2014-11-29: [Motorola TX500 Universal Bluetooth Car Speakerphone | Groupon](http://gr.pn/1rEBDsQ)  _(tags: no_tag)_
+- 2014-11-29: [Google 32GB Nexus 7 7&quot; Tablet with 4G | Groupon](http://gr.pn/1ynAeq5)  _(tags: no_tag)_
+- 2014-11-29: [Apple iPhone 4S, 5, or 5s | Groupon](http://gr.pn/1ynzUra)  _(tags: no_tag)_
+- 2014-11-29: [Source Force Multi-Function Hydration Backpack | Groupon](http://gr.pn/1ynzp0c)  _(tags: no_tag)_
+- 2014-11-29: [2-Piece Ultimate Couture Extra Large Shag Memory Foam Bath Rug Set | Groupon](http://gr.pn/1ynzcu9)  _(tags: no_tag)_
+- 2014-11-29: [3-Piece Pet-Food Storage-Container Set | Groupon](http://gr.pn/1ynyYTO)  _(tags: no_tag)_
+- 2014-11-29: [Skechers GOwalk Activity Trackers  | Groupon](http://gr.pn/1ynyEnS)  _(tags: no_tag)_
+- 2014-11-29: [Exclusive to Groupon: Extra $1 Off Wallet Ninja | Groupon](http://gr.pn/1ynxYPB)  _(tags: shopping)_
+- 2014-11-29: [BassBoomz 2.0 Portable Wireless Bluetooth Speaker | Groupon](http://gr.pn/1ynxOrl)  _(tags: shopping, music)_
+- 2014-11-29: [Samsung Galaxy Gear SmartWatch | Groupon](http://gr.pn/1ynxxEY)  _(tags: shopping, android, mobile)_
+- 2014-11-29: [Hotel Grand Down-Alternative Comforter | Groupon](http://gr.pn/1ynwOn7)  _(tags: shopping)_
+- 2014-11-29: [Garmin Vívofit Fitness Band with Optional Heart-Rate Monitor | Groupon](http://gr.pn/1ynwzIS)  _(tags: shopping, health)_
+- 2014-11-28: [Internship | Software or QA Engineering Intern - Summer 2015](https://www.internmatch.com/company/netapp-inc/roles/software-or-qa-engineering-intern-summer-2015?i=2&location=224399&page=-1&s=-1)  _(tags: college, jobs)_
+- 2014-11-28: [CPU Sim - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/CPU_Sim)  _(tags: no_tag)_
+- 2014-11-28: [How to Easily Install Ubuntu on Chromebook with Crouton | Linux.com](http://www.linux.com/learn/tutorials/795730-how-to-easily-install-ubuntu-on-chromebook-with-crouton)  _(tags: no_tag)_
+- 2014-11-28: [Fractals/Apollonian fractals - Wikibooks, open books for an open world](http://en.wikibooks.org/wiki/Fractals/Apollonian_fractals)  _(tags: no_tag)_
+- 2014-11-27: [BootServices - Community Help Wiki](https://help.ubuntu.com/community/BootServices)  _(tags: no_tag)_
+- 2014-11-27: [software rec - GUI tool to manage services in Ubuntu - Super User](http://superuser.com/questions/339583/gui-tool-to-manage-services-in-ubuntu)  _(tags: no_tag)_
+- 2014-11-27: [» Linuxaria – Everything about GNU/Linux and Open source How to remove Zeitgeist in Ubuntu and why](http://linuxaria.com/howto/how-to-remove-zeitgeist-in-ubuntu-and-why)  _(tags: no_tag)_
+- 2014-11-27: [Using filters - Gmail Help](https://support.google.com/mail/answer/6579?hl=en)  _(tags: no_tag)_
+- 2014-11-27: [Python Data Analysis Library — pandas: Python Data Analysis Library](http://pandas.pydata.org)  _(tags: python, data, programming)_
+- 2014-11-27: [scikit-learn: machine learning in Python — scikit-learn 0.15.2 documentation](http://scikit-learn.org/stable/)  _(tags: python, machine learning, programming, data, machine-learning)_
+- 2014-11-27: [ŷhat | Intuitive Classification using KNN and Python](http://blog.yhathq.com/posts/classification-using-knn-and-python.html)  _(tags: no_tag)_
+- 2014-11-27: [Seaborn: statistical data visualization — seaborn 0.5.1 documentation](http://stanford.edu/~mwaskom/software/seaborn/)  _(tags: python, data, visualization)_
+- 2014-11-27: [Check AT&T U-verse Availability - U-verse TV, Internet & Voice Coverage](https://www.att.com/shop/availability.html?product_suite=gigapower&saveme=True)  _(tags: internet, kc, performance)_
+- 2014-11-27: [Miniconda — Conda](http://conda.pydata.org/miniconda.html)  _(tags: no_tag)_
+- 2014-11-26: [Installing IPython — IPython](http://ipython.org/install.html)  _(tags: no_tag)_
+- 2014-11-26: [Documentation - Meteor](http://docs.meteor.com/#/basic/buildingmobileapps)  _(tags: no_tag)_
+- 2014-11-26: [Accessing Google Spreadsheets from Node.js | NCZOnline](http://www.nczonline.net/blog/2014/03/04/accessing-google-spreadsheets-from-node-js/)  _(tags: no_tag)_
+- 2014-11-26: [flow/src/parser at master · facebook/flow · GitHub](https://github.com/facebook/flow/tree/master/src/parser)  _(tags: tweet)_
+- 2014-11-25: [Welcome to Phabricator, Wikimedia’s new collaboration platform « Wikimedia blog](https://blog.wikimedia.org/2014/11/24/welcome-to-phabricator-wikimedias-new-collaboration-platform/)  _(tags: no_tag)_
+- 2014-11-25: [Phabricator - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Phabricator)  _(tags: no_tag)_
+- 2014-11-25: [Phabricator](http://phabricator.org)  _(tags: no_tag)_
+- 2014-11-25: [What I Learned From Building An App For Low-Income Americans ⚙ Co.Labs ⚙ code + community](http://www.fastcolabs.com/3038792/what-i-learned-from-building-an-app-for-low-income-americans)  _(tags: no_tag)_
+- 2014-11-25: [Flow | Running Flow code](http://flowtype.org/docs/running.html#_)  _(tags: no_tag)_
+- 2014-11-25: [facebook/immutable-js](https://github.com/facebook/immutable-js)  _(tags: javascript, fp)_
+- 2014-11-25: [flow/flow-types.el at e63c6a26416d1eb20d31cefb684490292ac7c744 · takaishi/flow](https://github.com/takaishi/flow/blob/e63c6a26416d1eb20d31cefb684490292ac7c744/flow-types.el)  _(tags: no_tag)_
+- 2014-11-25: [Home Page | arCHMage](http://archmage.sourceforge.net)  _(tags: no_tag)_
+- 2014-11-25: [PrincetonUniversity/VST · GitHub](https://github.com/PrincetonUniversity/VST)  _(tags: tweet)_
+- 2014-11-25: [The Future of the Web (According to Google)](https://divshot.com/blog/opinion/the-future-of-the-web-according-to-google/)  _(tags: chromedevsummit, tweet)_
+- 2014-11-25: [In case you missed it, the New York Times has a lo](http://open.blogs.nytimes.com/2014/11/13/embracing-https/?_r=5)  _(tags: tweet)_
+- 2014-11-24: [FCC Data Base Checks](http://ah0a.org/FCC/Graphs.html)  _(tags: resiliency, world)_
+- 2014-11-24: [Control whether Firefox automatically fills in forms with your information | Firefox Help](https://support.mozilla.org/en-US/kb/control-firefox-automatically-fills-in-forms)  _(tags: firefox, problem)_
+- 2014-11-24: [Time for Better Security for NoSQL](http://hackingdistributed.com/2014/11/23/macaroons-in-hyperdex/)  _(tags: no_tag)_
+- 2014-11-24: [Turn your Raspberry Pi into a Wireless Portable Bluetooth Audio System A2DP](http://www.instructables.com/id/Turn-your-Raspberry-Pi-into-a-Portable-Bluetooth-A/)  _(tags: music, digital, media, bluetooth)_
+- 2014-11-24: [Playing .wma music files - Android Forums at AndroidCentral.com](http://forums.androidcentral.com/google-nexus-5/346061-playing-wma-music-files.html)  _(tags: no_tag)_
+- 2014-11-24: [Google Play Music supported file types - Google Play Help](https://support.google.com/googleplay/answer/1100462?hl=en)  _(tags: no_tag)_
+- 2014-11-23: [Rip music from a CD - Windows Help](http://windows.microsoft.com/en-us/windows/rip-music-from-cd#rip-music-from-cd=windows-7)  _(tags: music, windows, digital, media)_
+- 2014-11-22: [Untitled](http://mobile.extremetech.com/latest/222135-android-5-dot-0-lollipop-all-the-details-and-features-of-googles-sweetest-treat-yet?origref=)  _(tags: android)_
+- 2014-11-22: [Untitled](http://www.ericidle.com/blog/?p=522)  _(tags: no_tag)_
+- 2014-11-22: [Sam Ruby reports from the standards snakepit:](http://intertwingly.net/blog/2014/11/20/WHATWG-W3C-Collaboration)  _(tags: tweet)_
+- 2014-11-22: [Underdog.io — Inside Oyster's Tech Stack](http://blog.underdog.io/post/103208090007/inside-oysters-tech-stack)  _(tags: no_tag)_
+- 2014-11-21: [Comments in Hugo](http://gohugo.io/extras/comments/)  _(tags: no_tag)_
+- 2014-11-21: [Read, Review, Refactor - Hi, Purescript! - Emacs for Purescript Development](https://blog.cppcabrera.com/posts/purescript-emacs.html)  _(tags: emacs, javascript, programming)_
+- 2014-11-21: [flake8 2.2.5 : Python Package Index](https://pypi.python.org/pypi/flake8)  _(tags: no_tag)_
+- 2014-11-21: [python - Plotting pandas timedelta - Stack Overflow](http://stackoverflow.com/questions/23543909/plotting-pandas-timedelta)  _(tags: no_tag)_
+- 2014-11-21: [On HTML5 and the Group That Rules the Web](http://www.newyorker.com/tech/elements/group-rules-web)  _(tags: tweet)_
+- 2014-11-21: [Congrats, , Alex Crichton, and everyone else on sh](https://crates.io)  _(tags: tweet)_
+- 2014-11-20: [Using Compresion in HDF5](http://www.hdfgroup.org/HDF5/faq/compression.html)  _(tags: no_tag)_
+- 2014-11-20: [Cargo and crates.io](http://doc.crates.io/crates-io.html)  _(tags: no_tag)_
+- 2014-11-20: [How do I update Drupal 7 Core with only security patches? - Drupal Answers](http://drupal.stackexchange.com/questions/71576/how-do-i-update-drupal-7-core-with-only-security-patches)  _(tags: no_tag)_
+- 2014-11-20: [Mozilla strikes Firefox search deal with Yahoo, ending long partnership with Google | ZDNet](http://www.zdnet.com/mozilla-strikes-firefox-search-deal-with-yahoo-ending-long-partnership-with-google-7000035983/)  _(tags: tweet)_
+- 2014-11-20: [U.S. develops  panic button  for democracy activists](http://mobile.reuters.com/article/idUSTRE72O6DH20110325?irpc=932)  _(tags: tweet)_
+- 2014-11-20: [TypeScript and the Road to 2.0 - TypeScript - Site Home - MSDN Blogs](http://blogs.msdn.com/b/typescript/archive/2014/10/22/typescript-and-the-road-to-2-0.aspx)  _(tags: no_tag)_
+- 2014-11-19: [Where to find silent mode in Android Lollipop — Tech News and Analysis](https://gigaom.com/2014/11/17/silent-vibrate-do-not-disturb-android-priority-notifications/)  _(tags: no_tag)_
+- 2014-11-19: [Boutique Jazz Age Hotel in Downtown Kansas City | Groupon](http://gr.pn/11i9c7y)  _(tags: no_tag)_
+- 2014-11-19: [Can Money Buy Happiness? Here’s What Science Has to Say - WSJ](http://online.wsj.com/articles/can-money-buy-happiness-heres-what-science-has-to-say-1415569538?mod=e2tw)  _(tags: tweet)_
+- 2014-11-19: [Lollipop's sound options of None/Priority/All feels like a step backwards : Android](http://www.reddit.com/r/Android/comments/2k31nz/lollipops_sound_options_of_nonepriorityall_feels/)  _(tags: android, mobile)_
+- 2014-11-19: [A JavaScript library for building user interfaces | React](http://facebook.github.io/react/index.html)  _(tags: no_tag)_
+- 2014-11-19: [Facebook launches Flow, a static typechecker for javascript : programming](http://www.reddit.com/r/programming/comments/2mosgi/facebook_launches_flow_a_static_typechecker_for/)  _(tags: no_tag)_
+- 2014-11-18: [Flow | Objects](http://flowtype.org/docs/objects.html#_)  _(tags: no_tag)_
+- 2014-11-18: [Flow | A Flux & React demo](http://flowtype.org/docs/react-example.html)  _(tags: no_tag)_
+- 2014-11-18: [Flow | Five simple examples](http://flowtype.org/docs/five-simple-examples.html#1-hello-flow)  _(tags: no_tag)_
+- 2014-11-18: [Flow, a new static type checker for JavaScript | Engineering Blog | Facebook Code | Facebook](https://code.prod.facebook.com/posts/1505962329687926/flow-a-new-static-type-checker-for-javascript/)  _(tags: no_tag)_
+- 2014-11-18: [Launching in 2015: A Certificate Authority to Encrypt the Entire Web | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2014/11/certificate-authority-encrypt-entire-web)  _(tags: no_tag)_
+- 2014-11-18: [Tutorial | MonetDB](https://www.monetdb.org/Documentation/UserGuide/Tutorial)  _(tags: data, performance)_
+- 2014-11-18: [Nexus 5 Android 5.0 Lollipop update: it's here! - AndroidPIT](http://www.androidpit.com/nexus-5-android-update)  _(tags: no_tag)_
+- 2014-11-18: [Issue 1570 -  android-developer-preview -  BLE advertise mode not working -  A public project for reporting issues with Android Developer Preview releases - Google Project Hosting](https://code.google.com/p/android-developer-preview/issues/detail?id=1570)  _(tags: wat, android, tweet)_
+- 2014-11-18: [IETF Memes — Bear really wants to make his point.](http://ietfmemes.tumblr.com/post/102585579224/bear-really-wants-to-make-his-point#_=_)  _(tags: tweet)_
+- 2014-11-18: [Experienced users: how easy is Rust's memory management system to use? : rust](https://www.reddit.com/r/rust/comments/2m9qw9/experienced_users_how_easy_is_rusts_memory/)  _(tags: no_tag)_
+- 2014-11-18: [This Week in Rust 57 · This Week in Rust](http://this-week-in-rust.org/blog/2014/11/17/this-week-in-rust-57/)  _(tags: no_tag)_
+- 2014-11-17: [[rust-dev] Why mod.rs files?](https://mail.mozilla.org/pipermail/rust-dev/2014-April/009554.html)  _(tags: no_tag)_
+- 2014-11-17: [Orange and SQL | Orange Blog](http://blog.biolab.si/2014/05/30/orange-and-sql/)  _(tags: data, sql, machine-learning, analytics)_
+- 2014-11-17: [http://nbviewer.ipython.org/github/gumption/Python_for_Data_Science/blob/master/4_Python_Simple_Decision_Tree.ipynb](http://nbviewer.ipython.org/github/gumption/Python_for_Data_Science/blob/master/4_Python_Simple_Decision_Tree.ipynb)  _(tags: machine-learning, python)_
+- 2014-11-17: [1.8. Decision Trees — scikit-learn 0.15.2 documentation](http://scikit-learn.org/stable/modules/tree.html)  _(tags: machine-learning, python)_
+- 2014-11-16: [Solar Phone Chargers Review 2014 | Best Solar Charger for Cell Phones | Solar Mobile Charger - TopTenREVIEWS](http://solar-phone-charger-review.toptenreviews.com)  _(tags: no_tag)_
+- 2014-11-15: [mammothlive2](http://www.mammothlive.com)  _(tags: no_tag)_
+- 2014-11-15: [Ted Nelson's Eulogy for Douglas Engelbart](http://harmful.cat-v.org/Blog/2013/12/26/0/)  _(tags: no_tag)_
+- 2014-11-15: [Rc — The Plan 9 Shell](http://doc.cat-v.org/plan_9/4th_edition/papers/rc)  _(tags: no_tag)_
+- 2014-11-15: [After Docker: Unikernels and Immutable Infrastructure — Medium](https://medium.com/@darrenrush/after-docker-unikernels-and-immutable-infrastructure-93d5a91c849e)  _(tags: no_tag)_
+- 2014-11-15: [clive go kernel](http://lsub.org/ls/clive.html)  _(tags: golang, vm, microkernel)_
+- 2014-11-15: [Self-Repairing Software Tackles Bugs | University of Utah News](http://unews.utah.edu/news_releases/self-repairing-software-tackles-bugs/)  _(tags: security)_
+- 2014-11-15: [We No Longer Live in the 1990s — Medium](https://medium.com/@joyclee/we-no-longer-live-in-the-1990s-8c5f43f16ca0)  _(tags: tweet)_
+- 2014-11-15: [Jon at Known](http://judell.withknown.com)  _(tags: tweet)_
+- 2014-11-15: [Impact Challenge Day 12: Make your data discoverable on a data repository - Impactstory blog](http://blog.impactstory.org/impact-challenge-data-repository/)  _(tags: rdm, tweet)_
+- 2014-11-15: [The most practical, creative ways to use NFC with your Android device - CNET](http://www.cnet.com/how-to/the-most-practical-creative-ways-to-use-nfc-with-your-android-device/)  _(tags: no_tag)_
+- 2014-11-15: [Six Sweet Things You Can Automate With NFC and Your Android Phone](http://lifehacker.com/six-sweet-things-you-can-do-with-nfc-1323120090)  _(tags: no_tag)_
+- 2014-11-14: [Text my wife when I leave work by leorstern - IFTTT](https://ifttt.com/recipes/158448-text-my-wife-when-i-leave-work)  _(tags: no_tag)_
+- 2014-11-14: [Fitbit App Gallery - FitTap](http://www.fitbit.com/apps/fittap)  _(tags: no_tag)_
+- 2014-11-14: [Fitbit App Gallery - FitDataSync](http://www.fitbit.com/apps/fitdatasync)  _(tags: no_tag)_
+- 2014-11-14: [Garmin Connect](http://connect.garmin.com/en-US/start)  _(tags: no_tag)_
+- 2014-11-14: [Amazon.com: Garmin Vivofit Fitness Band - Black: Electronics](http://www.amazon.com/Garmin-Vivofit-Fitness-Band-Black/dp/B00HFPOXM4/ref=sr_1_1?s=electronics&ie=UTF8&qid=1415945035&sr=1-1)  _(tags: no_tag)_
+- 2014-11-14: [The Innovations Issue: Why Are There So Few New Dr](http://trib.al/ImrPqlf)  _(tags: tweet)_
+- 2014-11-13: [State of the Hackintosh 2014: A peek into a shadowy subculture of Apple fans | Cult of Mac](http://www.cultofmac.com/279706/state-hackintosh-march-2014/)  _(tags: vm, photos, mac)_
+- 2014-11-13: [Fully-Insured Woman Faces Bankruptcy After Being Taken to Wrong Hospital](http://gawker.com/fully-insured-woman-faces-bankruptcy-after-being-taken-1657810810)  _(tags: tweet)_
+- 2014-11-13: [ISPs Removing Their Customers' Email Encryption | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2014/11/starttls-downgrade-attacks)  _(tags: tcpcrypt, tcpinc, tweet)_
+- 2014-11-13: [Does the Internet need &#8220;Governance&#8221;? | jg&#039;s Ramblings](http://gettys.wordpress.com/2014/11/12/does-the-internet-need-governance/)  _(tags: tweet)_
+- 2014-11-13: [Variation in Melanism and Female Preference in Proximate but Ecologically Distinct Environments - Culumber - 2014 - Ethology - Wiley Online Library](http://onlinelibrary.wiley.com/doi/10.1111/eth.12282/abstract)  _(tags: addedvalue, tweet)_
+- 2014-11-13: [Future of Blink-in-JS - Google Презентации](https://docs.google.com/presentation/d/1-5wpqeIltM40DAZdQBhbqnzOZuFNezS4eUfx1T4YV50/edit?usp=sharing)  _(tags: tweet)_
+- 2014-11-12: [dpr » Blog Archive » Does the Internet need “governance”?](http://www.reed.com/blog-dpr/?p=164)  _(tags: no_tag)_
+- 2014-11-11: [WHAAAAAT. “: Christopher Nolan](http://trib.al/gfKOWwI)  _(tags: tweet)_
+- 2014-11-11: [Dear Senator Ted Cruz, I'm going to explain to you how Net Neutrality ACTUALLY works - The Oatmeal](http://theoatmeal.com/blog/net_neutrality)  _(tags: netneutrality, itsnotthathard, tweet)_
+- 2014-11-11: [The terrible and wonderful reasons why I run long distances - Part 6 - The Oatmeal](http://theoatmeal.com/comics/running6)  _(tags: no_tag)_
+- 2014-11-09: [About RDP | Awelon Blue](http://awelonblue.wordpress.com/about/)  _(tags: awelon, fp, capabilities)_
+- 2014-11-09: [Logarithmic History v3 | Awelon Blue](http://awelonblue.wordpress.com/2014/10/08/logarithmic-history-v3/)  _(tags: awelon, fp, capabilities)_
+- 2014-11-09: [awelon/AboutABC.md at master · dmbarbour/awelon](https://github.com/dmbarbour/awelon/blob/master/AboutABC.md)  _(tags: awelon, fp, capabilities)_
+- 2014-11-09: [awelon/AwelonProject.md at master · dmbarbour/awelon](https://github.com/dmbarbour/awelon/blob/master/AwelonProject.md)  _(tags: awelon, fp, capabilities)_
+- 2014-11-08: [CrashPlan App Closes In Some Linux Installations - Code42](http://support.code42.com/CrashPlan/Latest/Troubleshooting/CrashPlan_App_Closes_In_Some_Linux_Installations)  _(tags: no_tag)_
+- 2014-11-08: [folders2flickr - Flickr upload power tool - Google Project Hosting](https://code.google.com/p/folders2flickr/)  _(tags: no_tag)_
+- 2014-11-08: [Linux Real-Time File Watching Errors - Code42](http://support.code42.com/CrashPlan/Latest/Troubleshooting/Linux_Real-Time_File_Watching_Errors)  _(tags: sysadmin, backup, linux, ubuntu)_
+- 2014-11-08: [[minutes] Next steps on trust and permissions for Web applications](http://www.w3.org/2014/07/permissions/minutes.html)  _(tags: capabilities, security, web)_
+- 2014-11-08: [OWLED 2014: Day 2 LiveBlogging | OWL: Experiences and Directions Community Group](http://www.w3.org/community/owled/2014/10/18/owled-2014-day-2-liveblogging/)  _(tags: no_tag)_
+- 2014-11-08: [Downloading Your Info | Facebook Help Center | Facebook](https://www.facebook.com/help/131112897028467/)  _(tags: cloud-services)_
+- 2014-11-08: [Trovebox Community Edition](https://github.com/photo)  _(tags: photos, programming)_
+- 2014-11-08: [Welcome to Python Flickr API's documentation! - Python Flickr API 2.0-beta0 documentation](http://stuvel.eu/media/flickrapi-docs/documentation/)  _(tags: photos, programming, javascript)_
+- 2014-11-08: [phpFlickrSynch - Store your Flickr photos metadata locally - nicolas leroy](http://www.nicolasleroy.fr/scripts-and-coding/phpflickrsynch/)  _(tags: photos, programming)_
+- 2014-11-08: [flickrfs - manishrjain](https://sites.google.com/site/manishrjain/flickrfs)  _(tags: photos, cloud-services)_
+- 2014-11-08: [Hackage: flickr: Haskell binding to the Flickr API](https://hackage.haskell.org/package/flickr)  _(tags: photos, programming)_
+- 2014-11-08: [Wearables Are Totally Failing the People Who Need Them Most | WIRED](http://www.wired.com/2014/11/where-fitness-trackers-fail/)  _(tags: tweet)_
+- 2014-11-08: [Ebola programme launch | IMI - Innovative Medicines Initiative](http://www.imi.europa.eu/content/ebola-programme-launch)  _(tags: tweet)_
+- 2014-11-08: [15 rules for communicating at GitHub &raquo; Ben Balter](http://ben.balter.com/2014/11/06/rules-of-communicating-at-github/?utm_content=buffer4561b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2014-11-07: [~ubuntu-branches/ubuntu/precise/rtkit/precise : contents of README at revision 14](http://bazaar.launchpad.net/~ubuntu-branches/ubuntu/precise/rtkit/precise/view/head:/README#L39)  _(tags: no_tag)_
+- 2014-11-07: [How Verizon Wireless Is Tracking You All Around the Web](https://www.yahoo.com/tech/how-verizon-wireless-is-tracking-you-all-around-the-web-101717604364.html)  _(tags: tweet)_
+- 2014-11-07: [iShare Medical](http://www.isharemedical.com)  _(tags: no_tag)_
+- 2014-11-06: [EmacsWiki: Category Eshell](http://www.emacswiki.org/emacs/CategoryEshell)  _(tags: no_tag)_
+- 2014-11-06: [Cerner CEO: Lack of interoperability among health records systems 'immoral' - Wichita Business Journal](http://www.bizjournals.com/wichita/morning_call/2014/11/cerner-ceo-lack-of-interoperability-among-health.html?ana=twt)  _(tags: tweet)_
+- 2014-11-06: [PyPy Status Blog: PyPy IO improvements](http://morepypy.blogspot.com/2014/11/pypy-io-improvements.html)  _(tags: tweet)_
+- 2014-11-06: [My First Year at November Project - Tantek](http://tantek.com/2014/308/b2/my-first-year-november-project)  _(tags: tweet)_
+- 2014-11-05: [Outside spending in campaign&#39;s final three weeks tops $300 million  - Sunlight Foundation Blog](http://sunlightfoundation.com/blog/2014/11/03/outside-spending-in-campaigns-final-three-weeks-tops-300-million/)  _(tags: tweet)_
+- 2014-11-05: [Hacker Yoga - Part 0: Arms - Gun.io](https://gun.io/blog/hacker-yoga-part-zero-arms/)  _(tags: health)_
+- 2014-11-05: [» Clojonic: Pythonic Clojure](http://www.pixelmonkey.org/2014/11/02/clojonic)  _(tags: no_tag)_
+- 2014-11-04: [Guest Speaker - Jérôme Petazzoni - Docker - DevOps Kansas City (Kansas City, MO)- Meetup](http://www.meetup.com/DevOps-Kansas-City/events/216573362/)  _(tags: meetup, tweet)_
+- 2014-11-04: [curl | sh](http://curlpipesh.tumblr.com)  _(tags: tweet)_
+- 2014-11-04: [Adactio: Journal&mdash;Just what is it that you want to do?](https://adactio.com/journal/7774)  _(tags: tweet)_
+- 2014-11-03: [Software Carpentry: Why We Don't Teach Testing (Even Though We'd Like To)](http://software-carpentry.org/blog/2014/10/why-we-dont-teach-testing.html)  _(tags: tweet)_
+- 2014-11-03: [MAYDAY.US - We tried. We learned. We're trying something new.](https://mayday.us)  _(tags: sxsw, maydaymovement, tweet)_
+- 2014-11-03: [Industrial Control Systems on the Internet - presented at 4SICS.se](https://icsmap.shodan.io)  _(tags: tweet)_
+- 2014-11-01: [Watch Snowpiercer Online | Netflix](http://www.netflix.com/WiMovie/70270364)  _(tags: tweet)_
+- 2014-11-01: [Howl&#x27;s Moving Castle - CodePen](http://codepen.io/gordonnl/full/byouf/)  _(tags: tweet)_
+- 2014-11-01: [HaskForce - The Haskell plugin for IntelliJ IDEA](http://carymrobbins.github.io/intellij-haskforce/)  _(tags: haskell, tweet)_
+- 2014-11-01: [Genode - Genode on seL4 - Building a simple root task from scratch](http://genode.org/documentation/articles/sel4_part_1)  _(tags: sel4, tweet)_

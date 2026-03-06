@@ -1,0 +1,110 @@
+---
+title: December 2013 Bookmarks: ipython, github, and programming
+date: 2013-12-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "collaboration", "devops", "idris", "learning", "logic", "music", "photos", "programming", "publishing", "quality", "rdf", "research", "rustlang", "security", "sparql", "statistics", "sysadmin", "types", "w3c"]
+---
+
+Shared bookmarks saved in December 2013.
+
+- total bookmarks: 96
+- total annotations captured: 37
+
+## Links
+
+- 2013-12-31: [SoftBound + CETS: Complete and Compatible Full Memory Safety for C](http://acg.cis.upenn.edu/softbound/)  _(tags: no_tag)_
+- 2013-12-31: [CCC-TV - Bug class genocide](https://media.ccc.de/browse/congress/2013/30C3_-_5412_-_en_-_saal_1_-_201312271830_-_bug_class_genocide_-_andreas_bogk.html)  _(tags: no_tag)_
+- 2013-12-31: [What I Didn't Say](http://paulgraham.com/wids.html)  _(tags: tweet)_
+- 2013-12-31: [On Hacking MicroSD Cards &laquo;  bunnie&#039;s blog](http://www.bunniestudios.com/blog/?p=3554)  _(tags: tweet)_
+- 2013-12-31: [I’m 22 years old and what is this. — Medium](https://medium.com/p/d73c2573c254)  _(tags: tweet)_
+- 2013-12-31: [Rust is surprisingly expressive](http://words.steveklabnik.com/rust-is-surprisingly-expressive)  _(tags: tweet)_
+- 2013-12-31: [Tails - About](https://tails.boum.org/about/)  _(tags: security, sysadmin)_
+- 2013-12-30: [Visit to the World's Fair of 2014](http://www.nytimes.com/books/97/03/23/lifetimes/asi-v-fair.html)  _(tags: tweet)_
+- 2013-12-30: [Transfinite induction - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Transfinite_induction)  _(tags: no_tag)_
+- 2013-12-30: [The Agda Wiki - Standard Library](http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Libraries.StandardLibrary)  _(tags: no_tag)_
+- 2013-12-30: [Code-Infection Blog: Google+ Comments on your non-blogger site](http://blog.code-infection.com/2013/04/google-comments-on-your-none-blogger.html)  _(tags: publishing, someday, collaboration)_
+- 2013-12-29: [[SOLVED] texlive 2009 + evince = no love [Archive] - Ubuntu Forums](http://ubuntuforums.org/archive/index.php/t-1373346.html)  _(tags: no_tag)_
+- 2013-12-29: [Bug #1010909 “permission denied: /usr/bin/{mktexpk,mktextfm}” : Bugs : “texlive-bin” package : Ubuntu](https://bugs.launchpad.net/ubuntu/+source/texlive-bin/+bug/1010909)  _(tags: no_tag)_
+- 2013-12-29: [Fernando Perez: Blogging with the IPython notebook](http://blog.fperez.org/2012/09/blogging-with-ipython-notebook.html)  _(tags: no_tag)_
+- 2013-12-28: [Amazon supports Static JavaScript Apps](http://scripting.com/2013/11/01/amazonBreaksThroughOnStaticJavascriptApps)  _(tags: no_tag)_
+- 2013-12-28: [#youbroketheinternet](http://youbroketheinternet.org)  _(tags: youbroketheinternet, 30c3, tweet)_
+- 2013-12-28: [The choice: pay more taxes or give to charity. Cho](http://t.co/dtVUYQhcNd)  _(tags: tweet)_
+- 2013-12-28: [Quantum Python: Animating the Schrodinger Equation](http://jakevdp.github.io/blog/2012/09/05/quantum-python/)  _(tags: no_tag)_
+- 2013-12-28: [Numba — numba](http://numba.pydata.org)  _(tags: no_tag)_
+- 2013-12-28: [Blogging with IPython in Octopress](http://jakevdp.github.io/blog/2012/10/04/blogging-with-ipython/)  _(tags: no_tag)_
+- 2013-12-28: [Goodbye Octopress, Hello Pelican | thecrumb](http://thecrumb.com/2013/02/24/goodbye-octopress-hello-pelican/)  _(tags: no_tag)_
+- 2013-12-28: [Nikola | Nikola](http://getnikola.com)  _(tags: no_tag)_
+- 2013-12-27: [How IPython Notebook and Github have changed the way I teach Python | peak 5390](http://peak5390.wordpress.com/2013/09/22/how-ipython-notebook-and-github-have-changed-the-way-i-teach-python/)  _(tags: no_tag)_
+- 2013-12-27: ["abort: git remote error: refs/heads/master failed to update" when pushing to local clone · Issue #236 · schacon/hg-git](https://github.com/schacon/hg-git/issues/236)  _(tags: no_tag)_
+- 2013-12-27: [auto merge of #10965 : alexcrichton/rust/libgreen, r=brson ·  9477c49 · mozilla/rust · GitHub](https://github.com/mozilla/rust/commit/9477c49a7b4eec2c2a3e0d9a28c4129e3d1fa6ec)  _(tags: tweet)_
+- 2013-12-27: [Burn the Fucking System to the Ground | Popehat](http://www.popehat.com/2013/12/23/burn-the-fucking-system-to-the-ground/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Popehat+%28Popehat%29)  _(tags: tweet)_
+- 2013-12-27: [Division Theorem - ProofWiki](http://www.proofwiki.org/wiki/Division_Theorem)  _(tags: no_tag)_
+- 2013-12-27: [Examples for ipython backends in other languages? - Stack Overflow](http://stackoverflow.com/questions/16545651/examples-for-ipython-backends-in-other-languages)  _(tags: no_tag)_
+- 2013-12-27: [Your Very First Microprocessor - Andrew Gibiansky](http://andrew.gibiansky.com/blog/electrical-engineering/your-very-first-microprocessor/)  _(tags: no_tag)_
+- 2013-12-27: [Creating Language Kernels for IPython - Andrew Gibiansky](http://andrew.gibiansky.com/blog/ipython/ipython-kernels/)  _(tags: no_tag)_
+- 2013-12-27: [IHaskell: Haskell for IPython](http://gibiansky.github.io/IHaskell/)  _(tags: no_tag)_
+- 2013-12-27: [MathJax-Users - Re: Vertical space between formulas in gather* blocks - msg#00000 - Recent Discussion OSDir.com](http://osdir.com/ml/MathJax-Users/2011-10/msg00000.html)  _(tags: no_tag)_
+- 2013-12-27: [http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/notebooks/Typesetting%20Math%20Using%20MathJax.ipynb](http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/notebooks/Typesetting%20Math%20Using%20MathJax.ipynb)  _(tags: no_tag)_
+- 2013-12-27: [Patrick Vernon - Google+ - Is there a way to enable MathJax in Google Plus?﻿](https://plus.google.com/+PatrickVernon/posts/LQG9Nh1EsGC)  _(tags: no_tag)_
+- 2013-12-24: [clojure-emacs/cider · GitHub](https://github.com/clojure-emacs/cider?utm_source=buffer&utm_campaign=Buffer&utm_content=buffer7e3b0&utm_medium=twitter)  _(tags: updating, tweet)_
+- 2013-12-24: [This Is Your Brain on Gluten - James Hamblin - The Atlantic](http://www.theatlantic.com/health/archive/2013/12/this-is-your-brain-on-gluten/282550/)  _(tags: tweet)_
+- 2013-12-24: [BBC News - Royal pardon for codebreaker Alan Turing](http://www.bbc.co.uk/news/technology-25495315)  _(tags: tweet)_
+- 2013-12-23: [Deliverables: a categorical approach to program development in type theory](http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-247/)  _(tags: logic, research, someday, programming)_
+- 2013-12-23: [Well-founded recursion in Agda : Inside 206-105](http://blog.ezyang.com/2010/06/well-founded-recursion-in-agda/comment-page-1/#comment-625)  _(tags: no_tag)_
+- 2013-12-23: [Chapter 1  The Gallina specification language](http://coq.inria.fr/refman/Reference-Manual003.html#sec47)  _(tags: no_tag)_
+- 2013-12-22: [Stonehenge: a very British success on Salisbury Plain | The Times](http://www.thetimes.co.uk/tto/opinion/columnists/article3953692.ece)  _(tags: tweet)_
+- 2013-12-22: [Well-founded recursion in Agda : Inside 206-105](http://blog.ezyang.com/2010/06/well-founded-recursion-in-agda/)  _(tags: no_tag)_
+- 2013-12-21: [Write The Docs NA - A two day conference for technical writers, documentarians, and all those who write the docs.](http://conf.writethedocs.org/na/2014/index.html?utm_source=buffer&utm_campaign=Buffer&utm_content=buffer382bf&utm_medium=twitter)  _(tags: tweet)_
+- 2013-12-21: [What Bluetooth Profiles Are Supported On My SGH-T459 (Gravity) Phone? : T-Mobile Cell Phones | Samsung](http://www.samsung.com/us/support/SupportOwnersFAQPopup.do?faq_id=FAQ00041357&fm_seq=41525)  _(tags: no_tag)_
+- 2013-12-19: [Purchasing Multiple Extensions Will Protect Your Brand - Namecheap Blog](http://community.namecheap.com/blog/)  _(tags: no_tag)_
+- 2013-12-19: [linux - AWS EC2 instance Application logs - Stack Overflow](http://stackoverflow.com/questions/14379392/aws-ec2-instance-application-logs)  _(tags: no_tag)_
+- 2013-12-19: [WebRTC Experiments & Demos ® Muaz Khan](https://www.webrtc-experiment.com)  _(tags: collaboration)_
+- 2013-12-19: [Workshop on Web Payments: How do you want to pay? - 24-25 March 2014](http://www.w3.org/2013/10/payments/)  _(tags: w3c, futureofmoney, tweet)_
+- 2013-12-19: [951863 &ndash; Investigate why un-PGOing nsDebugImpl.cpp caused a 5-10% performance improvement](https://bugzilla.mozilla.org/show_bug.cgi?id=951863)  _(tags: complexity, tweet)_
+- 2013-12-18: [Coast by Opera, now updated - Opera Software](http://www.operasoftware.com/press/theprmachine)  _(tags: tweet)_
+- 2013-12-18: [rustc: Optimize reading metadata by 4x by alexcrichton · Pull Request #11017 · mozilla/rust · GitHub](https://github.com/mozilla/rust/pull/11017)  _(tags: rustlang, tweet)_
+- 2013-12-18: [Glaxo Will Stop Paying Doctors](http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2013/12/17/business/glaxo-says-it-will-stop-paying-doctors-to-promote-drugs.html&OQ=smidQ3Dtw-shareQ26_rQ3D1Q26&OP=4dab4a20Q2FQ2B(r-Q2BQ26Q22-Q2BuuuQ2BQ5D-46Q2Bg(z9x((-Q51Q2BQ51Q20eMQ2BeQ51Q2Be3Q2BQ23o9Q3EQ26Q3C99Q2BB6C8(a9CQ229aQ3E-auQ3E66a9-(rarCQ22Q3EQ26Bag(z-(x9a-(arx(4(-Q3CagxoB9VQ5D-46)  _(tags: tweet)_
+- 2013-12-18: [Quickly Transfer Photos Between Facebook, Google+ and Flickr](http://www.guidingtech.com/10407/quickly-transfer-photos-between-facebook-google-flickr/)  _(tags: photos)_
+- 2013-12-17: [How to return a string value from a bash function - Stack Overflow](http://stackoverflow.com/questions/3236871/how-to-return-a-string-value-from-a-bash-function)  _(tags: no_tag)_
+- 2013-12-17: [Ted Nelson’s homage to Doug En](http://bits.blogs.nytimes.com/2013/12/16/an-homage-to-douglas-engelbart-and-a-critique-of-the-state-of-tech/?_r=1&)  _(tags: tweet)_
+- 2013-12-17: [Mark Crispin - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Mark_Crispin)  _(tags: tweet)_
+- 2013-12-16: ["Dependent Type Providers", by David Raymond Chris](http://itu.dk/people/drc/pubs/dependent-type-providers.pdf)  _(tags: types, lang, tweet)_
+- 2013-12-16: [Strong piece on how tech culture kills civic commu](http://www.nytimes.com/2013/12/14/opinion/what-tech-hasnt-learned-from-urban-planning.html?pagewanted=all&_r=2&)  _(tags: tweet)_
+- 2013-12-16: [Docker.io + MTA + SMTP + IMAP = yes, please - RedAlt](http://redalt.com/dockerio-mta-smtp-imap-yes-please)  _(tags: no_tag)_
+- 2013-12-16: [Idris-dev/libs/base/Language/Reflection.idr at master · idris-lang/Idris-dev](https://github.com/idris-lang/Idris-dev/blob/master/libs/base/Language/Reflection.idr)  _(tags: no_tag)_
+- 2013-12-14: [INRIAGForge: Coq: SCM Repository](https://gforge.inria.fr/scm/browser.php?group_id=269)  _(tags: no_tag)_
+- 2013-12-14: [Standard Library | The Coq Proof Assistant](http://coq.inria.fr/library/Coq.ZArith.Wf_Z.html)  _(tags: no_tag)_
+- 2013-12-13: [Dr. Banjo | Best Ways to Start Learning Banjo](http://www.drbanjo.com/best-ways-to-start-learning-banjo.php)  _(tags: learning, banjo, music)_
+- 2013-12-13: [[ubuntu] Epson Perfection V370 Scanner - So Close! [Archive] - Ubuntu Forums](http://ubuntuforums.org/archive/index.php/t-2108555.html)  _(tags: no_tag)_
+- 2013-12-13: [Cory Doctorow: Only 4200 sigs necessary on this vital petition on warrantless email seizure](http://mostlysignssomeportents.tumblr.com/post/69761956953/only-4200-sigs-necessary-on-this-vital-petition-on#_=_)  _(tags: tweet)_
+- 2013-12-12: [Requirements and Installation on Ubuntu Linux - Docker Documentation](http://docs.docker.io/en/latest/installation/ubuntulinux/)  _(tags: no_tag)_
+- 2013-12-12: [How to use your own Registry | Docker Blog](http://blog.docker.io/2013/07/how-to-use-your-own-registry/)  _(tags: sysadmin, devops)_
+- 2013-12-12: [Ten steps towards native devops for your Python 3 application](http://hwit.org/ten-steps-towards-native-devops-for-your-python-3-application.html)  _(tags: no_tag)_
+- 2013-12-11: [Rebecca Solnit · Diary: Google Invades · LRB 7 February 2013](http://www.lrb.co.uk/v35/n03/rebecca-solnit/diary)  _(tags: no_tag)_
+- 2013-12-11: [Google Groups](https://groups.google.com/forum/#!forum/idris-lang)  _(tags: no_tag)_
+- 2013-12-10: [Overview](http://www.cl.cam.ac.uk/research/hvg/Isabelle/overview.html)  _(tags: no_tag)_
+- 2013-12-10: [Why I&#x27;m turning JavaScript off by default](http://tommorris.org/posts/8677)  _(tags: tweet)_
+- 2013-12-10: [Warning](http://t.co/ym5QVzzjGw)  _(tags: tweet)_
+- 2013-12-09: [Press Release](https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html)  _(tags: tweet)_
+- 2013-12-07: [Shtetl-Optimized  &raquo; Blog Archive   &raquo; Twenty Reasons to Believe Oswald Acted Alone](http://www.scottaaronson.com/blog/?p=1596)  _(tags: tweet)_
+- 2013-12-07: [Real-time query processing for billion node graphs - Microsoft Research](http://research.microsoft.com/en-us/projects/trinity/query.aspx)  _(tags: microsoft, sparql, webscale, semanticweb, bing, goodrelations)_
+- 2013-12-07: [Least Authority](https://leastauthority.com)  _(tags: tweet)_
+- 2013-12-07: [phenomnomnominal/tuner.coffee · GitHub](https://github.com/phenomnomnominal/tuner.coffee)  _(tags: litcoffee, webaudio, tweet)_
+- 2013-12-06: [Django South Seg Fault - Stack Overflow](http://stackoverflow.com/questions/19127614/django-south-seg-fault)  _(tags: no_tag)_
+- 2013-12-06: [Google Apps update alerts: Gmail and Calendar support in Google Takeout](http://googleappsupdates.blogspot.com/2013/12/gmail-and-calendar-support-in-google.html)  _(tags: googleapps, tweet)_
+- 2013-12-05: [Data Dumps - Freebase API &mdash; Google Developers](https://developers.google.com/freebase/data)  _(tags: rdf, tweet)_
+- 2013-12-05: [Ptch Blog - Ptch Joins Yahoo!](http://blog.ptch.com/post/68919650988/ptch-joins-yahoo)  _(tags: tweet)_
+- 2013-12-04: [hadley/devtools](https://github.com/hadley/devtools)  _(tags: r, programming, statistics)_
+- 2013-12-04: [spending some time with  to get my nginx HSTS and](https://t.co/pjjSrCIzcC)  _(tags: tweet)_
+- 2013-12-04: [Gävle goat - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/G%C3%A4vle_goat)  _(tags: tweet)_
+- 2013-12-04: [Mustache templating in Idris](https://gist.github.com/timjb/7735351)  _(tags: idris, tweet)_
+- 2013-12-03: [Bug 14947 – R CMD BUILD fails when sysdata.rda is in R directory](https://bugs.r-project.org/bugzilla3/show_bug.cgi?id=14947)  _(tags: r, programming)_
+- 2013-12-03: [knitr/inst/doc/Makefile at 7eb34104d5410645f5c0fa35b4f7906e2bcc1cb8 · yihui/knitr](https://github.com/yihui/knitr/blob/7eb34104/inst/doc/Makefile)  _(tags: r, programming, quality)_
+- 2013-12-03: [Writing R Extensions](http://cran.r-project.org/doc/manuals/R-exts.html)  _(tags: programming, statistics, r)_
+- 2013-12-03: [Google Groups](https://groups.google.com/forum/#!topic/alt.os.linux.suse/bIKIPzfbvOo)  _(tags: sysadmin, suse)_
+- 2013-12-03: [r - Cannot call roxygenize function from Rscript batch file - Stack Overflow](http://stackoverflow.com/questions/8964515/cannot-call-roxygenize-function-from-rscript-batch-file)  _(tags: programming, statistics, r)_
+- 2013-12-03: [&#8216;A once-in-human-history opportunity’ |  Harvard Gazette](http://news.harvard.edu/gazette/story/2013/12/a-once-in-human-history-opportunity/)  _(tags: gh2035, tweet)_
+- 2013-12-03: [US push on intellectual property conflicts with international norms | Al Jazeera America](http://america.aljazeera.com/opinions/2013/12/tpp-intellectualpropertywikileaks.html)  _(tags: tpp, tweet)_
+- 2013-12-03: [CEO. Why The Climate Corporation Sold Itself to Mo](http://Climate.com)  _(tags: tweet)_
+- 2013-12-03: [koalaman/shellcheck · GitHub](https://github.com/koalaman/shellcheck)  _(tags: tweet)_
+- 2013-12-03: [Translation table explaining the truth behind British politeness becomes internet hit - Telegraph](http://www.telegraph.co.uk/news/newstopics/howaboutthat/10280244/Translation-table-explaining-the-truth-behind-British-politeness-becomes-internet-hit.html)  _(tags: tweet)_

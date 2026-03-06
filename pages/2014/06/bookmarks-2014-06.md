@@ -1,0 +1,106 @@
+---
+title: June 2014 Bookmarks: programming, data, and javascript
+date: 2014-06-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "android", "auto", "capabilities", "cloud", "collaboration", "data", "devops", "digital", "diy", "emacs", "family", "formal", "fp", "google", "graphics", "hardware", "haskell", "health", "humor", "installation", "java", "javascript", "learning", "linkeddata", "mac", "media", "mobile", "movies", "music", "numeric", "office", "performance", "programming", "proof", "protocols", "python", "quality", "research", "rustlang", "scala", "scm", "security", "sel4", "shopping", "standards", "sysadmin", "testing", "types", "visualization", "w3c", "world"]
+---
+
+Shared bookmarks saved in June 2014.
+
+- total bookmarks: 92
+- total annotations captured: 15
+
+## Links
+
+- 2014-06-30: [Serguei Pakhomov - College of Pharmacy - University of Minnesota](http://www.pharmacy.umn.edu/faculty/pakhomov_serguei/)  _(tags: msp, gpc)_
+- 2014-06-30: [Trollius — Trollius 0.4.1 documentation](http://trollius.readthedocs.org)  _(tags: no_tag)_
+- 2014-06-30: [Teenage Haskell | twdkz](http://twdkz.wordpress.com/2014/06/26/teenage-haskell/)  _(tags: fp, haskell, graphics, learning)_
+- 2014-06-30: [JetBrains Plugin Repository :: Heroku Integration](http://plugins.jetbrains.com/plugin/6659?pr=phpStorm)  _(tags: devops, scala)_
+- 2014-06-30: [Which freaking PaaS should I use? - Techworld.com](http://howto.techworld.com/data-centre/3404351/which-freaking-paas-should-i-use/)  _(tags: devops)_
+- 2014-06-29: [The Internet's Own Boy - The Message - Medium](https://medium.com/message/the-internets-own-boy-c815ae07a417)  _(tags: tweet, aaronsw, america)_
+- 2014-06-29: [Even the Editor of Facebook&#039;s Mood Study Thought It Was Creepy - Atlantic Mobile](http://m.theatlantic.com/technology/archive/2014/06/even-the-editor-of-facebooks-mood-study-thought-it-was-creepy/373649/)  _(tags: tweet)_
+- 2014-06-29: [Facebook unethical experiment: It made news feeds happier or sadder to manipulate people&rsquo;s emotions.](http://www.slate.com/articles/health_and_science/science/2014/06/facebook_unethical_experiment_it_made_news_feeds_happier_or_sadder_to_manipulate.html)  _(tags: tweet)_
+- 2014-06-29: [CluonFlux.com - E's not Dead, E's Scalafying?](http://cluonflux.com/article/49/e-s-not-dead-e-s-scalafying)  _(tags: capabilities, scala)_
+- 2014-06-29: [Getting Started with Scala on Heroku | Heroku Dev Center](https://devcenter.heroku.com/articles/getting-started-with-scala)  _(tags: devops, scala)_
+- 2014-06-29: [tpolecat](http://tpolecat.github.io/2014/04/22/lambdaconf.html)  _(tags: scala, learning)_
+- 2014-06-28: [Installation | Scalatra](http://www.scalatra.org/getting-started/installation.html)  _(tags: scala, installation, web, framework)_
+- 2014-06-28: [Google App Engine | Deployment | Scalatra](http://www.scalatra.org/2.2/guides/deployment/google-app-engine.html)  _(tags: scala, devops, java)_
+- 2014-06-28: [akka - Re: [akka-user] Akka on GAE (Google App Engine) - msg#00474 - Recent Discussion OSDir.com](http://osdir.com/ml/akka/2012-11/msg00474.html)  _(tags: scala, devops)_
+- 2014-06-28: [Evolution of Build Systems | Karussell](http://karussell.wordpress.com/2009/09/29/evolution-of-build-systems/)  _(tags: programming)_
+- 2014-06-27: [How to read a checkbox's value in a excel file by django? - Stack Overflow](http://stackoverflow.com/questions/17416898/how-to-read-a-checkboxs-value-in-a-excel-file-by-django)  _(tags: python, office, nojoy)_
+- 2014-06-27: [LukeW | Google I/O: Re-introducing the Mobile Web](http://www.lukew.com/ff/entry.asp?1895)  _(tags: googleio, tweet)_
+- 2014-06-27: [the @W3C web site today #rebeccapurple on Twitpic](http://twitpic.com/e6yexp)  _(tags: rebeccapurple, tweet)_
+- 2014-06-26: [Getting Real: What's Your Problem? (by 37signals)](https://gettingreal.37signals.com/ch02_Whats_Your_Problem.php)  _(tags: programming, learning)_
+- 2014-06-26: [New in Android: L Developer Preview and Google Play Services 5.0 | Android Developers Blog](http://android-developers.blogspot.ru/2014/06/developer-preview-and-play-services-5.html?utm_content=bufferfcef6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2014-06-26: [puffnfresh/amqp-pathwatcher · GitHub](https://github.com/puffnfresh/amqp-pathwatcher)  _(tags: haskell, tweet)_
+- 2014-06-26: [google/cayley · GitHub](https://github.com/google/cayley/)  _(tags: linkeddata, tweet)_
+- 2014-06-26: [Hospital Networks Are Leaking Data, Leaving Critical Devices Vulnerable | Threat Level | WIRED](http://www.wired.com/2014/06/hospital-networks-leaking-data/?mbid=social_gplus&utm_content=buffer8c2fe&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet, health, data, security)_
+- 2014-06-26: [Numeric Javascript](http://numericjs.com)  _(tags: javascript, data, numeric)_
+- 2014-06-26: [Teoria: A JavaScript Music Theory Library for Working With Notes, Chords, and More | Badass JavaScript](http://badassjs.com/post/41708259332/teoria-a-javascript-music-theory-library-for-working)  _(tags: javascript, music)_
+- 2014-06-26: [VexFlow - HTML5 Music Engraving](http://www.vexflow.com)  _(tags: javascript, music)_
+- 2014-06-25: [How to Simplify Payment Forms - YouTube](https://www.youtube.com/watch?v=wi9BnTuAoes&list=PLg-UKERBljNy2Yem3RJkYL1V70dpzkysC&app=desktop)  _(tags: tweet, ux)_
+- 2014-06-25: [Introducing ggvis | RStudio Blog](http://blog.rstudio.org/2014/06/23/introducing-ggvis/)  _(tags: tweet, data, visualization, web, r)_
+- 2014-06-24: [trollius 1.0.3 : Python Package Index](https://pypi.python.org/pypi/trollius)  _(tags: tweet, python, async, protocols)_
+- 2014-06-24: [Inside the Mirrortocracy](http://carlos.bueno.org/2014/06/mirrortocracy.html)  _(tags: tweet, collaboration, programming)_
+- 2014-06-24: [Static checking of units in Servo | Mozilla Research](https://blog.mozilla.org/research/2014/06/23/static-checking-of-units-in-servo/)  _(tags: tweet, types, quality)_
+- 2014-06-23: [Cgrep by awgn](http://awgn.github.io/cgrep/)  _(tags: programming, sysadmin)_
+- 2014-06-22: [The dawn of Cyber-Colonialism | Conspicuous Chatter](http://conspicuouschatter.wordpress.com/2014/06/21/the-dawn-of-cyber-colonialism/)  _(tags: tweet, world)_
+- 2014-06-22: [NBDiff](http://nbdiff.org)  _(tags: tweet)_
+- 2014-06-22: [Buffalo Bill Gates](http://buffalobillgates.tumblr.com)  _(tags: tweet, humor)_
+- 2014-06-21: [pyOBD - Open-source OBD-II diagnostics](http://www.obdtester.com/pyobd)  _(tags: diy, auto, python)_
+- 2014-06-21: [Google Groups: Google Play Movies won't cast](https://productforums.google.com/forum/m/#!msg/chromecast/LzTNUQmtuTg/MyLznrQeP5UJ)  _(tags: digital, media, problem, movies)_
+- 2014-06-20: [Microsoft Research JavaScript Cryptography Library - Microsoft Research](http://research.microsoft.com/en-us/downloads/29f9385d-da4c-479a-b2ea-2a7bb335d727/default.aspx)  _(tags: tweet)_
+- 2014-06-20: [Eric's Archived Thoughts:   rebeccapurple](http://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/)  _(tags: tweet)_
+- 2014-06-20: [Bad Day for Bad Patents: Supreme Court Unanimously Strikes Down Abstract Software Patent | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2014/06/bad-day-bad-patents-supreme-court-unanimously-strikes-down-abstract-software)  _(tags: tweet)_
+- 2014-06-20: [[Phoronix] bf5The X Window System Turns 30 Years Old Today](http://www.phoronix.com/scan.php?page=news_item&px=MTcyNDQ)  _(tags: tweet)_
+- 2014-06-20: [SCOTUS: "Stating an abstract i](http://www.supremecourt.gov/opinions/13pdf/13-298_7lh8.pdf)  _(tags: tweet)_
+- 2014-06-20: [T-Mobile's event is more entertaining than your av](http://live.theverge.com/t-mobile-uncarrier-50-liveblog/?utm_content=bufferfa639&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2014-06-18: [Choice of Algorithms in the W3C Crypto API   | Cryptosense](http://cryptosense.com/choice-of-algorithms-in-the-w3c-crypto-api/)  _(tags: w3c, crypto, tweet)_
+- 2014-06-18: [Cable TV boxes become 2nd biggest energy users in many homes&nbsp;-&nbsp;Los Angeles Times](http://www.latimes.com/nation/la-na-power-hog-20140617-story.html#page=1)  _(tags: tweet)_
+- 2014-06-17: [txtorcon &mdash; timaq4ygg2iegci7.onion: txtorcon documentation](https://txtorcon.readthedocs.org/en/latest/)  _(tags: tweet)_
+- 2014-06-17: [Ghana has to ration electricity so that everyone can watch the World Cup - Vox](http://www.vox.com/2014/6/16/5814142/ghana-has-to-ration-electricity-just-so-everyone-can-watch-the-world)  _(tags: tweet)_
+- 2014-06-15: [Citing “Intense Public Interest and Concern” Over Mass Surveillance, Judge Orders DOJ to Turn Over Secret Legal Opinions for Court to Review | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2014/06/citing-intense-public-interest-and-concern-over-mass-surveillance-judge-orders-doj)  _(tags: tweet)_
+- 2014-06-14: [MacBook Air - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/MacBook_Air)  _(tags: mac, hardware)_
+- 2014-06-14: [Carbon Copy Cloner - Download](http://www.bombich.com/download.html)  _(tags: mac, sysadmin)_
+- 2014-06-14: [can't log in to filevault user account: Apple Support Communities](https://discussions.apple.com/thread/3996311?tstart=0)  _(tags: mac, sysadmin)_
+- 2014-06-14: [MacBook (High Quality) Installation Video at OtherWorldComputing.com](http://eshop.macsales.com/installvideos/macbook_air_0809_ssd_h/)  _(tags: mac, hardware, diy)_
+- 2014-06-14: [OWC OWCSSDAPMB120 120GB Aura Pro MBA Solid State... in stock at OWC](http://eshop.macsales.com/item/OWC/SSDAPMB120/)  _(tags: mac, hardware, diy, office, shopping)_
+- 2014-06-14: [MacBook Air Models A1237 and A1304 Audio Cable Replacement - iFixit](https://www.ifixit.com/Guide/MacBook+Air+Models+A1237+and+A1304+Audio+Cable+Replacement/861)  _(tags: mac, hardware, diy, music)_
+- 2014-06-13: [The Color Purple  &#8211;   Jeffrey Zeldman Presents The Daily Report: Web Design News &amp; Insights Since 1995](http://www.zeldman.com/2014/06/10/the-color-purple/)  _(tags: 663399becca, tweet, family, rip)_
+- 2014-06-12: [Well shit. It seems like I have the choice of wipi](https://plus.google.com/108313527900507320366/posts/aoNQ9itKKjs)  _(tags: tweet, hardware, sysadmin)_
+- 2014-06-11: [wow… judge confirms: bad teach](http://www.nytimes.com/2014/06/11/us/california-teacher-tenure-laws-ruled-unconstitutional.html?_r=1)  _(tags: tweet)_
+- 2014-06-11: [Java to Clojure: Martin Fowler's "Refactoring" refactored functionally - Adam Bard and his magical blog](http://adambard.com/blog/refactoring-refactored/)  _(tags: tweet)_
+- 2014-06-11: [Google Cloud Platform Blog: An update on container support on Google Cloud Platform](http://googlecloudplatform.blogspot.ru/2014/06/an-update-on-container-support-on-google-cloud-platform.html)  _(tags: tweet, programming, devops)_
+- 2014-06-11: [Haskell Data Analysis Cookbook](http://haskelldata.com)  _(tags: tweet, fp, data, programming)_
+- 2014-06-07: [on the blog:  RFC2616 is Dead](https://www.mnot.net/blog/2014/06/07/rfc2616_is_dead?utm_source=dlvr.it&utm_medium=twitter)  _(tags: tweet, protocols, standards)_
+- 2014-06-07: [Did the Taliban ever really exist? | Big Issue](http://www.bigissue.com/features/interviews/3919/did-the-taliban-ever-really-exist)  _(tags: tweet, world)_
+- 2014-06-07: [iOS 8 scans credit card details using iPhone camera | The Verge](http://www.theverge.com/2014/6/6/5785194/ios-8-scans-credit-cards-with-camera?utm_content=buffer9c9e5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet, security, protocols)_
+- 2014-06-07: [Writing / analyzing music with Haskell](https://music-suite.github.io/docs/ref/)  _(tags: tweet, music, programming)_
+- 2014-06-07: [2eCode for late safepoint placement available | 12Reasonably Logical59](http://www.philipreames.com/Blog/2014/06/04/code-for-late-safepoint-placement-available/)  _(tags: tweet)_
+- 2014-06-06: [Apple - iOS 8 - Family Sharing](http://www.apple.com/ios/ios8/family-sharing/)  _(tags: tweet)_
+- 2014-06-06: [gfx: Add display list optimization to eliminate clipped items before by pcwalton · Pull Request #2588 · mozilla/servo · GitHub](https://github.com/mozilla/servo/pull/2588)  _(tags: tweet)_
+- 2014-06-06: [Guardian launches SecureDrop system for whistleblowers to share files | Technology | theguardian.com](http://www.theguardian.com/technology/2014/jun/05/guardian-launches-securedrop-whistleblowers-documents)  _(tags: tweet)_
+- 2014-06-06: [How I discovered CCS Injection Vulnerability (CVE-2014-0224) - OpenSSL #ccsinjection Vulnerability](http://ccsinjection.lepidum.co.jp/blog/2014-06-05/CCS-Injection-en/index.html#how-did-i-discover-the-bug)  _(tags: coq, openssl, tweet, quality, proof)_
+- 2014-06-06: [Dropbox - Webhooks tutorial](https://www.dropbox.com/developers/webhooks/tutorial)  _(tags: tweet)_
+- 2014-06-06: [UnRisk Insight: Fast Functional Goats, Lions and Wolves](http://unriskinsight.blogspot.com/2014/06/fast-functional-goats-lions-and-wolves.html)  _(tags: programming, fp, performance)_
+- 2014-06-05: [Android 4.4.3 Update Features List: What's new? - Opinion - Trusted Reviews](http://www.trustedreviews.com/opinions/android-4-4-3-update-features-list-what-s-new)  _(tags: android, mobile)_
+- 2014-06-05: [Idris - Idris 0.9.13 released](http://www.idris-lang.org/idris-0-9-13-released/)  _(tags: fp, programming, quality, formal)_
+- 2014-06-05: [tranSMART-N · GitHub](https://github.com/tranSMART-N)  _(tags: programming, health, research, data, performance, cloud)_
+- 2014-06-05: [Selling Swift: what a fool believes - O! Mr Speaker!](http://www.mrspeaker.net/2014/06/04/selling-swift/)  _(tags: tweet)_
+- 2014-06-05: [Radio Shack Teams Up With PCH International To Create A Retail Pipeline For Hardware Startups  |  TechCrunch](http://techcrunch.com/2014/06/04/radio-shack-teams-up-with-pch-international-to-create-a-retail-pipeline-for-hardware-startups/)  _(tags: tweet)_
+- 2014-06-05: [Home | seL4](http://sel4.Systems)  _(tags: sel4, security, embedded, yam, tweet)_
+- 2014-06-05: [Getting Started with TortoiseHG - YouTube](http://www.youtube.com/watch?v=wqU9MFplgrQ)  _(tags: scm, learning)_
+- 2014-06-05: [ECMAScript compatibility table](http://kangax.github.io/compat-table/es6/)  _(tags: javascript, quality, testing)_
+- 2014-06-04: [end-to-end -   End-To-End - Google Project Hosting](https://code.google.com/p/end-to-end/)  _(tags: google, pgp, encryption, tweet)_
+- 2014-06-04: [Tablib: Pythonic Tabular Datasets &laquo;  Another Word For It](http://tm.durusau.net/?p=53500)  _(tags: tablib, python, tweet)_
+- 2014-06-04: [Apple&#x27;s most important health news has nothing to do with fitness tracking - Vox](http://www.vox.com/2014/6/3/5773118/apples-most-important-health-news-has-nothing-to-do-with-fitness)  _(tags: tweet, mobile, health, data)_
+- 2014-06-03: [Tablib: Pythonic Tabular Datasets — Tablib 0.10.0 documentation](http://tablib.readthedocs.org/en/latest/?utm_content=buffer2f6e7)  _(tags: python, data, programming)_
+- 2014-06-03: [graydon2 | Swift](http://graydon2.dreamwidth.org/5785.html)  _(tags: tweet)_
+- 2014-06-03: [JS NICE: Statistical renaming, Type inference and Deobfuscation](http://www.jsnice.org)  _(tags: tweet)_
+- 2014-06-03: [FIVB World League](http://www.teamusa.org/~/link.aspx?_id=377C859FD13B4CB48C3E08D031641EC8&_z=z)  _(tags: wllongbeach, tweet)_
+- 2014-06-03: [Bugzilla Main Page](https://bugs.webkit.org)  _(tags: tweet)_
+- 2014-06-03: [rust playpen](http://playtest.rust-lang.org)  _(tags: rustlang, tweet)_
+- 2014-06-03: [Evaluating re-identification risks with respect to the HIPAA privacy rule -- Benitez and Malin 17 (2): 169 -- Journal of the         American Medical Informatics Association](http://jamia.bmj.com/content/17/2/169)  _(tags: hdpalooza, tweet)_
+- 2014-06-03: [EmacsWiki: Tabs Are Evil](http://www.emacswiki.org/emacs/TabsAreEvil)  _(tags: emacs)_
+- 2014-06-02: ["Chrome and Stale-While-Revalidate"](https://www.mnot.net/blog/2014/06/01/chrome_and_stale-while-revalidate?utm_source=dlvr.it&utm_medium=twitter)  _(tags: tweet)_
+- 2014-06-01: [gmail-safe](https://www.npmjs.org/package/gmail-safe)  _(tags: javascript, cloud)_

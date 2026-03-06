@@ -1,0 +1,158 @@
+---
+title: December 2014 Bookmarks: programming, pebble, and github
+date: 2014-12-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "android", "architecture", "auto", "collaboration", "data", "devops", "emacs", "fp", "graphics", "haskell", "health", "html5", "http", "indieweb", "javascript", "jobs", "kc", "learning", "me", "ml", "mobile", "pebble", "performance", "photos", "programming", "publishing", "python", "quality", "research", "rust", "scala", "security", "tools", "video", "vm"]
+---
+
+Shared bookmarks saved in December 2014.
+
+- total bookmarks: 144
+- total annotations captured: 41
+
+## Links
+
+- 2014-12-31: [How to reset darktable - Ask Ubuntu](http://askubuntu.com/questions/194616/how-to-reset-darktable)  _(tags: no_tag)_
+- 2014-12-30: [GIGABYTE - Support - Warranty Info](http://www.gigabyte.us/support-downloads/customer-service.aspx)  _(tags: no_tag)_
+- 2014-12-29: [Google Tracker 2015: Everything we know Google is working on for the new year | Ars Technica](http://arstechnica.com/gadgets/2014/12/google-tracker-2015-everything-google-is-working-on-for-the-new-year/)  _(tags: no_tag)_
+- 2014-12-29: [GIGABYTE Motherboard GA-990FXA-UD3 AM3+ AMD 990FX + SB950 SATA 6Gb/s USB 3.0 ATX - Newegg.com](http://www.newegg.com/Product/Product.aspx?Item=N82E16813128514)  _(tags: no_tag)_
+- 2014-12-29: [GIGABYTE - Motherboard - Socket AM3+ - GA-990FXA-UD3 (rev. 1.0)](http://www.gigabyte.com/products/product-page.aspx?pid=3894#ov)  _(tags: no_tag)_
+- 2014-12-29: [New Build is Failing, Black Screen, Fans on, LED's on, No beeps from speaker [Solved] - Speakers - Components](http://www.tomshardware.com/answers/id-1769897/build-failing-black-screen-fans-led-beeps-speaker.html)  _(tags: no_tag)_
+- 2014-12-29: [Eric's Archived Thoughts:   Well, That Escalated Quickly](http://meyerweb.com/eric/thoughts/2014/12/27/well-that-escalated-quickly/)  _(tags: tweet)_
+- 2014-12-29: [Concisely put and absolutely correct. These flaws](http://blogs.reuters.com/breakingviews/2014/12/26/bitcoins-defects-will-hasten-its-demise-in-2015/)  _(tags: tweet)_
+- 2014-12-29: [On gaining tenure as an open scientist](http://ivory.idyll.org/blog/2014-open-and-tenured.html)  _(tags: tweet)_
+- 2014-12-29: [Manchester Police Help Santa on Christmas Day  | NBC Southern California](http://www.nbclosangeles.com/news/national-international/Manchester-286828801.html?_osource=SocialFlowTwt_LABrand)  _(tags: tweet)_
+- 2014-12-26: [libdnn/README.md at master · botonchou/libdnn · GitHub](https://github.com/botonchou/libdnn/blob/master/README.md)  _(tags: ml, data)_
+- 2014-12-26: [Genode OS Framework / Mailing Lists](http://sourceforge.net/p/genode/mailman/message/33174331/)  _(tags: tweet)_
+- 2014-12-23: [mahmoud/clastic](https://github.com/mahmoud/clastic)  _(tags: no_tag)_
+- 2014-12-23: [Configure — CherryPy 3.3.0 documentation](http://docs.cherrypy.org/en/latest/config.html#configindepth)  _(tags: no_tag)_
+- 2014-12-23: [Foreword for Experienced Programmers — Flask Documentation (0.10)](http://flask.pocoo.org/docs/0.10/advanced_foreword/)  _(tags: no_tag)_
+- 2014-12-22: [A tale of two's complement - uncategorized - Rust Programming Language Forum](http://discuss.rust-lang.org/t/a-tale-of-twos-complement/1062)  _(tags: no_tag)_
+- 2014-12-22: [Coding rules - Cryptography Coding Standard](https://cryptocoding.net/index.php/Coding_rules)  _(tags: security, quality)_
+- 2014-12-22: [Duktape Programmer's Guide](http://duktape.org/guide.html#comparisontolua)  _(tags: no_tag)_
+- 2014-12-22: [Cap'n Proto: Road Map](http://kentonv.github.io/capnproto/roadmap.html)  _(tags: no_tag)_
+- 2014-12-21: [Erja Lyytinen - Not a good girl - YouTube](https://www.youtube.com/watch?v=Th1JJ9UZCVg)  _(tags: tweet)_
+- 2014-12-21: [[Python-ideas] Type Hinting Kick-off](https://mail.python.org/pipermail/python-ideas/2014-December/030430.html)  _(tags: tweet)_
+- 2014-12-21: [Hoglund Brain Imaging Center](http://www.kumc.edu/school-of-medicine/hoglund-brain-imaging-center.html)  _(tags: neuroscience, bestofku, tweet)_
+- 2014-12-21: [The Web Platform](https://specs.webplatform.org)  _(tags: tweet)_
+- 2014-12-21: [Susan Wojcicki: Paid Maternity Leave Is Good for Business - WSJ](http://www.wsj.com/news/article_email/susan-wojcicki-paid-maternity-leave-is-good-for-business-1418773756-lMyQjAxMTE0MjE4NzYxNjc5Wj)  _(tags: tweet)_
+- 2014-12-21: [Bad code isn&#8217;t Technical Debt, it&#8217;s an unhedged Call Option &#8211; Steve Freeman](http://www.higherorderlogic.com/2010/07/bad-code-isnt-technical-debt-its-an-unhedged-call-option/)  _(tags: no_tag)_
+- 2014-12-21: [Threema - Seriously secure messaging -](https://threema.ch/en/)  _(tags: mobile, android, security)_
+- 2014-12-21: [DNS Lookup - MxToolbox](http://mxtoolbox.com/DNSLookup.aspx)  _(tags: no_tag)_
+- 2014-12-21: [Setting up a custom domain with GitHub Pages - User Documentation](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)  _(tags: no_tag)_
+- 2014-12-20: [Digital Cable TV, HDTV & Premium Channels - CCI - Kansas City](http://www.surewest.com/digitaltv/channel/channel_lineup_kc.php)  _(tags: no_tag)_
+- 2014-12-20: [Machine Learning: The High Interest Credit Card of Technical Debt](http://research.google.com/pubs/pub43146.html)  _(tags: no_tag)_
+- 2014-12-20: [What is Nuitka | Nuitka Home](http://nuitka.net/pages/overview.html)  _(tags: no_tag)_
+- 2014-12-20: [Underdog.io — Inside Timehop's Tech Stack](http://blog.underdog.io/post/105614784787/inside-timehops-tech-stack)  _(tags: no_tag)_
+- 2014-12-20: [Frequently Asked Questions — Mypy 0.0.1.dev1 documentation](http://mypy.readthedocs.org/en/latest/faq.html#will-static-typing-make-my-programs-run-faster)  _(tags: no_tag)_
+- 2014-12-20: [The Toxoplasma Of Rage | Slate Star Codex](http://slatestarcodex.com/2014/12/17/the-toxoplasma-of-rage/)  _(tags: tweet)_
+- 2014-12-20: [PebbleJS and Settings - Pebble Forums](http://forums.getpebble.com/discussion/15485/pebblejs-and-settings)  _(tags: no_tag)_
+- 2014-12-20: [Pebble | Misfit](http://help.getpebble.com/customer/portal/articles/1710334-misfit)  _(tags: no_tag)_
+- 2014-12-20: [Using Pebble.js // Pebble Developers](http://developer.getpebble.com/guides/js-apps/pebble-js/)  _(tags: no_tag)_
+- 2014-12-20: [Jeremy Howard: The wonderful and terrifying implications of computers that can learn | Talk Video | TED.com](http://on.ted.com/e0dMx)  _(tags: no_tag)_
+- 2014-12-19: [Adactio: Journal—The password anti-pattern](https://adactio.com/journal/1357)  _(tags: no_tag)_
+- 2014-12-19: [“Emailing” Hardware To Space — Backchannel — Medium](https://medium.com/backchannel/how-we-email-hardware-to-space-7d46eed00c98?utm_content=bufferbcbcc&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2014-12-19: [Carolyn &amp; Sam Ruby Night Club Two Step - YouTube](https://www.youtube.com/watch?v=6umCkCzd9Do&feature=youtu.be)  _(tags: tweet)_
+- 2014-12-19: [Take Action &ndash; Google](https://takeaction.withgoogle.com/page/s/I-demand-real-surveillance-reform-in-2015?utm_medium=social&utm_source=twitter)  _(tags: tweet)_
+- 2014-12-19: [Building Vim from 1993 today](https://passy.svbtle.com/building-vim-from-1993-today)  _(tags: tweet)_
+- 2014-12-19: [​Lollipop 5.01 review: The Android release we've been waiting for | ZDNet](http://www.zdnet.com/article/lollipop-5-01-review-the-android-release-weve-been-waiting-for/)  _(tags: no_tag)_
+- 2014-12-19: [sql - The Go Programming Language](http://golang.org/pkg/database/sql/#DB.Query)  _(tags: no_tag)_
+- 2014-12-19: [OCILIB (C and C++ Driver for Oracle): Initializing the library](http://orclib.sourceforge.net/doc/html/group___ocilib_c_api_initialization.html#ga01464863ddd68393106b63fb8cc1ead1)  _(tags: no_tag)_
+- 2014-12-19: [Columnarization in Rust](http://www.frankmcsherry.org/columnarization/serialization/rust/2014/12/15/Columnarization-in-Rust.html)  _(tags: no_tag)_
+- 2014-12-19: [Notebook](http://indiana.edu/~ppaml/HakaruTutorial.html)  _(tags: haskell, tweet)_
+- 2014-12-19: [domenic/html-as-custom-elements · GitHub](https://github.com/domenic/html-as-custom-elements)  _(tags: tweet)_
+- 2014-12-18: [Identifying most relevant concepts to describe clinical trial eligibility criteria](https://www.researchgate.net/publication/235946645_Identifying_most_relevant_concepts_to_describe_clinical_trial_eligibility_criteria)  _(tags: research, health, data)_
+- 2014-12-18: [What IDE are people using to program Go : golang](http://www.reddit.com/r/golang/comments/2p9vfb/what_ide_are_people_using_to_program_go/)  _(tags: no_tag)_
+- 2014-12-18: [List comprehension in Go - Stack Overflow](http://stackoverflow.com/questions/17415567/list-comprehension-in-go)  _(tags: programming, quality)_
+- 2014-12-18: [misc/nacl/README - The Go Programming Language](http://golang.org/misc/nacl/README)  _(tags: no_tag)_
+- 2014-12-18: [I don&#x27;t need your permission!](http://blog.danlew.net/2014/11/26/i-dont-need-your-permission/)  _(tags: no_tag)_
+- 2014-12-18: [mvdnes/element76](https://github.com/mvdnes/element76)  _(tags: no_tag)_
+- 2014-12-18: [Using QEMU Disk Images for Xen DomainU Systems - Virtuatopia](http://www.virtuatopia.com/index.php/Using_QEMU_Disk_Images_for_Xen_DomainU_Systems)  _(tags: no_tag)_
+- 2014-12-18: [Xen Project Software Overview - Xen](http://wiki.xen.org/wiki/Xen_Project_Software_Overview#Introduction_to_Xen_Project_Architecture)  _(tags: no_tag)_
+- 2014-12-18: [XL - Xen management tool, based on LibXenlight](http://xenbits.xen.org/docs/4.4-testing/man/xl.1.html)  _(tags: no_tag)_
+- 2014-12-18: [libvirt](https://help.ubuntu.com/12.04/serverguide/libvirt.html)  _(tags: no_tag)_
+- 2014-12-18: [Qmemman – Qubes OS](https://qubes-os.org/wiki/Qmemman)  _(tags: no_tag)_
+- 2014-12-18: [Qubes OS](https://qubes-os.org)  _(tags: security, vm, someday)_
+- 2014-12-18: [emirozer/fake2db · GitHub](https://github.com/emirozer/fake2db)  _(tags: no_tag)_
+- 2014-12-17: [Nintendo GameCube Teardown - iFixit](https://www.ifixit.com/Teardown/Nintendo+GameCube+Teardown/1727)  _(tags: no_tag)_
+- 2014-12-16: [Teaching Tree](http://www.teachingtree.co/cs/)  _(tags: learning)_
+- 2014-12-16: [Big-O Algorithm Complexity Cheat Sheet](http://bigocheatsheet.com)  _(tags: no_tag)_
+- 2014-12-16: [How to Write a Spelling Corrector](http://www.norvig.com/spell-correct.html)  _(tags: ml, data, python)_
+- 2014-12-15: [Good advice  any age: “: 35 th](http://trib.al/fYpZeRT)  _(tags: tweet)_
+- 2014-12-15: [darktable | the photo workflow software](http://www.darktable.org)  _(tags: photos)_
+- 2014-12-14: [Blog: Mark Medovich on Software Defined Networks – KUMC BMI](https://informatics.kumc.edu/work/blog/2012/10/on-software-defined-networks)  _(tags: vm)_
+- 2014-12-14: [Research Blog: Introducing Structured Snippets, now a part of Google Web Search](http://googleresearch.blogspot.nl/2014/09/introducing-structured-snippets-now.html)  _(tags: no_tag)_
+- 2014-12-13: [Costco.com - Shop for Tires](http://tires2.costco.com/SearchResults.aspx?SearchID=b70bf57e-7459-4c04-bfbc-4e59b03f9c55)  _(tags: auto)_
+- 2014-12-13: [Job offers &#187; Parietal](https://team.inria.fr/parietal/job-offers/#software-engineer)  _(tags: python, machinelearning, job, tweet)_
+- 2014-12-12: [Zooko and Amber](http://zooko-and-amber.blogspot.ru/2014/12/commemoration-of-our-union.html)  _(tags: tweet)_
+- 2014-12-12: [Porting Guide · sandstorm-io/sandstorm Wiki](https://github.com/sandstorm-io/sandstorm/wiki/Porting-Guide)  _(tags: no_tag)_
+- 2014-12-12: [Xen - Community Help Wiki](https://help.ubuntu.com/community/Xen)  _(tags: no_tag)_
+- 2014-12-12: [libvirt: Applications using libvirt](http://libvirt.org/apps.html)  _(tags: no_tag)_
+- 2014-12-12: [Lime Text Editor](http://limetext.org)  _(tags: developer, tools)_
+- 2014-12-12: [Xen - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Xen)  _(tags: no_tag)_
+- 2014-12-12: [The virtues of Xen | Red Hat](http://www.redhat.com/magazine/014dec05/features/xen/)  _(tags: vm)_
+- 2014-12-11: [Ethos (papers)](http://www.ethos-os.org/papers.html)  _(tags: security, research, langsec)_
+- 2014-12-10: [Build @ Misfit](https://build.misfit.com/signup)  _(tags: mobile, programming, health)_
+- 2014-12-09: [Duktape](http://duktape.org)  _(tags: javascript)_
+- 2014-12-09: [knsv/mermaid · GitHub](https://github.com/knsv/mermaid)  _(tags: tweet, graphics)_
+- 2014-12-09: [http4s](http://http4s.org)  _(tags: scala, tweet, http)_
+- 2014-12-09: [Thunderclap: Solve ALS Together](https://www.thunderclap.it/projects/20087-solve-als-together)  _(tags: openscience, als, tweet)_
+- 2014-12-09: [IBM Watson Analytics Goes Public - InformationWeek](http://www.informationweek.com/big-data/big-data-analytics/ibm-watson-analytics-goes-public/d/d-id/1317887)  _(tags: analytics, datascience, tweet)_
+- 2014-12-09: [shutdown -h never: Morgan (Reece) Phillips @linuxpoetry](http://linux-poetry.com/blog/section/releng/15/)  _(tags: mozlandia, tweet, devops)_
+- 2014-12-09: [Apache Cordova API Documentation](http://cordova.apache.org/docs/en/4.0.0//guide_cli_index.md.html#The%20Command-Line%20Interface)  _(tags: mobile, android, programming, html5)_
+- 2014-12-09: [24 days of Rust - racer | siciarz.net](https://siciarz.net/24-days-of-rust-racer/)  _(tags: rust, emacs)_
+- 2014-12-08: [Chapter 25. The Scala Plugin](http://www.gradle.org/docs/current/userguide/scala_plugin.html)  _(tags: no_tag)_
+- 2014-12-08: [Why a fr*kload of Java developers want Gradle, IntelliJ, Scala and other technologies supported by professional organizations | zeroturnaround.com](http://zeroturnaround.com/rebellabs/why-a-frkload-of-java-developers-want-gradle-intellij-scala-and-other-technologies-supported-by-professional-organizations/)  _(tags: no_tag)_
+- 2014-12-08: [What's New in IntelliJ IDEA 14](https://www.jetbrains.com/idea/whatsnew/)  _(tags: no_tag)_
+- 2014-12-08: [Developer Tools for PhoneGap, Cordova and Ionic in IntelliJ IDEA 14 | JetBrains IntelliJ IDEA Blog](http://blog.jetbrains.com/idea/2014/09/developer-tools-for-phonegap-cordova-and-ionic-in-intellij-idea-14/)  _(tags: android, developer, tools)_
+- 2014-12-08: [Veritasium Information - YouTube](https://www.youtube.com/watch?v=zUDqI9PJpc8)  _(tags: no_tag)_
+- 2014-12-08: [The Nerdery | An Interactive Production Company: Better Interactive Development Through Science](http://nerdery.com)  _(tags: kc, programming, jobs)_
+- 2014-12-08: [The Nerdery | An Interactive Production Company: Better Interactive Development Through Science](http://nerdery.com/tour_applications/new)  _(tags: kc, programming, jobs)_
+- 2014-12-08: [Troll Detection with Scikit-Learn | no free hunch](http://blog.kaggle.com/2012/09/26/impermium-andreas-blog/)  _(tags: no_tag)_
+- 2014-12-08: [http://readwrite.com/2014/10/28/android-security-smart-lock-lollipop](http://readwrite.com/2014/10/28/android-security-smart-lock-lollipop)  _(tags: pebble, android, mobile)_
+- 2014-12-08: [Morgan & Claypool Publishers - Synthesis Lectures on the Semantic Web: Theory and Technology - 3(2):1 - Abstract](http://www.morganclaypool.com/doi/abs/10.2200/S00481ED1V01Y201302WBE005)  _(tags: no_tag)_
+- 2014-12-08: [Pebble - Android - Setting Up Notifications](http://help.getpebble.com/customer/portal/articles/1725780-android---setting-up-notifications-)  _(tags: problem, mobile, smartwatch, pebble)_
+- 2014-12-08: [Full text of "Aaron Swartz A Programmable Web"](https://archive.org/stream/AaronSwartzAProgrammableWeb/Aaron%20Swartz%20%20A%20Programmable%20Web_djvu.txt)  _(tags: no_tag)_
+- 2014-12-07: [Battery Life - Pebble](http://help.getpebble.com/customer/portal/articles/1564016-battery-life)  _(tags: mobile, battery)_
+- 2014-12-07: [ninenines/cowboy](https://github.com/ninenines/cowboy)  _(tags: no_tag)_
+- 2014-12-07: [snarfed/activitystreams-unofficial](https://github.com/snarfed/activitystreams-unofficial)  _(tags: no_tag)_
+- 2014-12-07: [#Mozilla(.org) #ChooseIndependent video, ironically via YouTube “where your info isn’t being bought & sold where power is in your hands, not in a corporate database” as embedded on Mozilla’s website: https://www.mozilla.org/en-US/firefox/independent/ And](http://tantek.com/2014/336/t2/mozilla-chooseindependent-video-ironically-youtube)  _(tags: no_tag)_
+- 2014-12-06: [KMP Table Tutorial - YouTube](https://www.youtube.com/watch?v=rfisBOOLN9M)  _(tags: algorithm, learning)_
+- 2014-12-06: [knuth string search algorithm - Google Search](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8&client=ubuntu#q=Knuth%E2%80%93Morris%E2%80%93Pratt+algorithm+animation)  _(tags: algorithm, learning)_
+- 2014-12-06: [CPU Sim Home Page](http://www.cs.colby.edu/djskrien/CPUSim/)  _(tags: programming, architecture)_
+- 2014-12-06: [Programming Interview: Knuth Morris Pratt Algorithm (KMP) Introduction Prefix function (part 1) - YouTube](https://www.youtube.com/watch?v=SVKe7bvQ4Xk)  _(tags: programming, algorithm, learning, performance, video, lecture)_
+- 2014-12-06: [lykahb/groundhog · GitHub](https://github.com/lykahb/groundhog)  _(tags: data, fp)_
+- 2014-12-06: [iquiw/company-ghc · GitHub](https://github.com/iquiw/company-ghc)  _(tags: no_tag)_
+- 2014-12-06: [Untitled](https://joeyh.name/blog/entry/clean_OS_reinstalls_with_propellor/)  _(tags: no_tag)_
+- 2014-12-06: [Enabling Webmentions in Jekyll](http://t.co/jRjj4jikVK)  _(tags: tweet)_
+- 2014-12-06: [Enabling Webmentions in Jekyll, From the Notebook of Aaron Gustafson](https://aaron-gustafson.com/notebook/2014/enabling-webmentions-in-jekyll/)  _(tags: publishing, collaboration, indieweb)_
+- 2014-12-06: [Running Time Graphs](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/)  _(tags: no_tag)_
+- 2014-12-05: [Meet Diigo Outliner – the best way to structurally organize your information and thoughts | Diigo Blog](http://blog.diigo.com/2014/12/04/meet-diigo-outliner-the-best-way-to-structurally-organize-your-information-and-thoughts/)  _(tags: no_tag)_
+- 2014-12-05: [Divide and conquer algorithms - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Divide_and_conquer_algorithms)  _(tags: algorithms)_
+- 2014-12-05: [Sorting by divide-and-conquer](https://www.ics.uci.edu/~eppstein/161/960118.html)  _(tags: research, algorithms)_
+- 2014-12-05: [Google leaving SysApps from Mounir Lamouri on 2014-12-02 (public-sysapps@w3.org from December 2014)](http://lists.w3.org/Archives/Public/public-sysapps/2014Dec/0000.html)  _(tags: tweet)_
+- 2014-12-05: [docopt/docopt · GitHub](https://github.com/docopt/docopt)  _(tags: python)_
+- 2014-12-05: [BurntSushi/xsv · GitHub](https://github.com/BurntSushi/xsv)  _(tags: data, rust)_
+- 2014-12-05: [Data Science Toolkit](http://www.datasciencetoolkit.org)  _(tags: data)_
+- 2014-12-04: [c   - llvm ir back to human-readable source language? - Stack Overflow](http://stackoverflow.com/questions/5180914/llvm-ir-back-to-human-readable-source-language)  _(tags: pebble, rust, mobile, embedded, programming)_
+- 2014-12-04: [My First Month With The Pebble Smart Watch -- AppAdvice](http://appadvice.com/appnn/2013/09/my-first-month-with-the-pebble-smart-watch)  _(tags: pebble)_
+- 2014-12-04: [How do I increase my backlight time? - Pebble Forums](http://forums.getpebble.com/discussion/9431/how-do-i-increase-my-backlight-time)  _(tags: pebble)_
+- 2014-12-04: [#9757227 - Pastie](http://pastie.org/9757227)  _(tags: tweet)_
+- 2014-12-03: [If programming languages were vehicles](http://crashworks.org/if_programming_languages_were_vehicles/)  _(tags: no_tag)_
+- 2014-12-03: [Problems installing the agent on SLES · Issue #189 · MeetMe/newrelic-plugin-agent](https://github.com/MeetMe/newrelic-plugin-agent/issues/189)  _(tags: no_tag)_
+- 2014-12-03: [pdfMake](http://pdfmake.org/#/)  _(tags: javascript)_
+- 2014-12-03: [Special People Numbers Registry (SPNR)](http://www.iana.org/assignments/special-registry/special-registry.xhtml)  _(tags: iana, tweet)_
+- 2014-12-03: [KU Medical Center's Linda Redford works with prisons to provide better health care to elderly inmates](http://www.kumc.edu/news-listing-page/ku-medical-center-works-with-prisons-to-provide-better-care-to-elderly-inmates.html)  _(tags: kucommunities, tweet)_
+- 2014-12-03: [Walmart.com: Save money. Live better.](http://WalMart.com)  _(tags: webperf, webdevelopment, html5, tweet)_
+- 2014-12-03: [Geometry Interfaces Module Level 1](http://dev.w3.org/fxtf/geometry/)  _(tags: tweet)_
+- 2014-12-03: [Visualizing High-Dimensional Data in the Browser with SVD, t-SNE and Three.js | Datacratic](http://datacratic.com/site/blog/visualizing-high-dimensional-data-browser-svd-t-sne-and-threejs)  _(tags: javascript, tweet)_
+- 2014-12-02: [SOUPS - Symposium On Usable Privacy and Security](http://cups.cs.cmu.edu/soups/2015/cfp.php)  _(tags: tweet)_
+- 2014-12-02: [Encrypting strings in Android: Let&#8217;s make better mistakes &lsaquo; Tozny](http://tozny.com/blog/encrypting-strings-in-android-lets-make-better-mistakes/)  _(tags: tweet)_
+- 2014-12-02: [Zepheira | The Art of Data](http://zepheira.com)  _(tags: tweet)_
+- 2014-12-02: [The Gates Foundation pushes to make more academic research free and open to the public - Vox](http://www.vox.com/2014/11/24/7277319/gates-foundation-free-journals)  _(tags: oa, tweet)_
+- 2014-12-02: [why setuid java didn't work](http://blog.tinola.com/?e=7)  _(tags: no_tag)_
+- 2014-12-02: [Java for Everything](http://www.teamten.com/lawrence/writings/java-for-everything.html)  _(tags: no_tag)_
+- 2014-12-02: [Building image search an engine using Python and OpenCV - PyImageSearch](http://www.pyimagesearch.com/2014/12/01/complete-guide-building-image-search-engine-python-opencv/)  _(tags: no_tag)_
+- 2014-12-01: [Dan Connolly | Kaggle](https://www.kaggle.com/users/265676/dan-connolly)  _(tags: me, data)_
+- 2014-12-01: [David Thaler | Kaggle](https://www.kaggle.com/users/91264/david-thaler)  _(tags: no_tag)_
+- 2014-12-01: [Create a package for Android — Kivy 1.9.0-dev documentation](http://kivy.org/docs/guide/packaging-android.html)  _(tags: android, python, mobile)_

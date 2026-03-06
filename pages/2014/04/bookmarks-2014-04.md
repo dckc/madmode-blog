@@ -1,0 +1,195 @@
+---
+title: April 2014 Bookmarks: ubuntu, linux, and github
+date: 2014-04-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "android", "auto", "cloud", "devops", "digital", "graphics", "haskell", "hosting", "idris", "java", "javascript", "linux", "logic", "media", "mobile", "performance", "pim", "privacy", "programming", "proof", "python", "quality", "research", "rustlang", "security", "shopping", "statistics", "sysadmin", "sysdamin", "ubuntu"]
+---
+
+Shared bookmarks saved in April 2014.
+
+- total bookmarks: 181
+- total annotations captured: 71
+
+## Links
+
+- 2014-04-30: [Bug #1249663 "Trusty gnome flashback indicator-applet-complete d..." : Bugs : "indicator-applet" package : Ubuntu](https://bugs.launchpad.net/ubuntu/+source/indicator-applet/+bug/1249663)  _(tags: sysdamin, ubuntu)_
+- 2014-04-30: [The Muen Separation Kernel](http://www.muen.sk)  _(tags: no_tag)_
+- 2014-04-30: [SwapFaq - Community Help Wiki](https://help.ubuntu.com/community/SwapFaq#What_is_swappiness_and_how_do_I_change_it.3F)  _(tags: sysadmin, ubuntu)_
+- 2014-04-30: [[kubuntu] firefox + process kswapd0 slow system - All Things Unix | DSLReports Forums](http://www.dslreports.com/forum/r14619959-kubuntu-firefox-process-kswapd0-slow-system)  _(tags: sysadmin, performance, web)_
+- 2014-04-30: [Nodyn: Node.JS for the JVM](http://nodyn.io)  _(tags: devops, javascript)_
+- 2014-04-30: [rF*](http://research.microsoft.com/apps/mobile/showpage.aspx?page=/en-us/projects/fstar/)  _(tags: security, quality, research, programming)_
+- 2014-04-29: [Ubuntu 14.04 LTS: Why you should not use it, at al](https://tim.siosm.fr/blog/2014/04/25/why-not-ubuntu-14.04-lts/)  _(tags: tweet)_
+- 2014-04-29: [Networked Pong in Idris &#8211; Simon Fowler](http://www.simonjf.com/wordpress/?p=42)  _(tags: tweet)_
+- 2014-04-29: [Get started quicker with our docker image](http://kamon.io/teamblog/2014/04/27/get-started-quicker-with-our-docker-image/)  _(tags: tweet)_
+- 2014-04-29: [starts out a bit slow, but really worth reading al](http://t.co/zhExYAUhNP)  _(tags: tweet)_
+- 2014-04-28: [$10,000 Security Bug Bounty for Certificate Verification | Mozilla Security Blog](http://blog.mozilla.org/security/2014/04/24/10000-security-bug-bounty-for-certificate-verification/)  _(tags: tweet)_
+- 2014-04-27: [beets: the music geek’s media organizer](http://beets.radbox.org)  _(tags: digital, media, orgainzation, pim)_
+- 2014-04-25: [GaloisInc/cryptol · GitHub](https://github.com/GaloisInc/cryptol)  _(tags: tweet)_
+- 2014-04-25: [Fuse is a Telemetrics Platform for Your Car: Trips on Your Calendar](http://www.windley.com/archives/2014/04/fuse_is_a_telemetrics_platform_for_your_car_trips_on_your_calendar.shtml)  _(tags: internetofmythings, tweet)_
+- 2014-04-25: [F* (a dependently-typed variant of F# for program verification) re-released under Apache 2.0 : fsharp](http://www.reddit.com/r/fsharp/comments/23vdx3/f_a_dependentlytyped_variant_of_f_for_program/)  _(tags: fsharp, tweet)_
+- 2014-04-25: [Cryptol](http://www.cryptol.net/)  _(tags: tweet)_
+- 2014-04-25: [ISACA Nordic Keynote - Google Презентации](https://docs.google.com/presentation/d/1Sv8IHkBtBEXjSW7WktEYg4EbAUHtVyXIZBrAGD3WR5Y/edit?pli=1#slide=id.p)  _(tags: tweet)_
+- 2014-04-24: [Publications | Andreas Gal](http://andreasgal.com/publications/)  _(tags: web, logic, research, proof, javascript)_
+- 2014-04-24: [A portable virtual machine target for proof-carrying code](http://www.sciencedirect.com/science/article/pii/S0167642305000365)  _(tags: no_tag)_
+- 2014-04-24: [nikswamy/FStar · GitHub](https://github.com/nikswamy/FStar)  _(tags: no_tag)_
+- 2014-04-24: [Fstar: Secure Distributed Programming with Value-Dependent Types - Microsoft Research](http://research.microsoft.com/en-us/projects/fstar/)  _(tags: security, research, proof, web, quality)_
+- 2014-04-24: [We need better mobile multitasking - Bret Taylor's blog](http://backchannel.org/blog/mobile-multitasking)  _(tags: web, mobile)_
+- 2014-04-24: [Frequently Asked Questions](http://joinfuse.com/faq.html)  _(tags: auto, mobile, shopping, android, cloud)_
+- 2014-04-24: [Sorting It All Out: SquareTag, CloudOS, and KRL - developer - Confluence](http://developer.kynetx.com/display/docs/Sorting+It+All+Out%3A+SquareTag%2C+CloudOS%2C+and+KRL)  _(tags: no_tag)_
+- 2014-04-24: [Cryptology ePrint Archive: Report 2014/248](http://eprint.iacr.org/2014/248)  _(tags: tweet)_
+- 2014-04-24: [You have ruined JavaScript -](http://codeofrob.com/entries/you-have-ruined-javascript.html)  _(tags: programming, rant, tweet)_
+- 2014-04-23: [updated benchmark comparison to C++](http://dwrensha.github.io/capnproto-rust/2014/01/15/benchmark-update.html)  _(tags: tweet)_
+- 2014-04-23: [Space Monkey | Beyond the Cloud](https://www.spacemonkey.com/blog/posts/go-space-monkey)  _(tags: tweet)_
+- 2014-04-23: [How to support full Unicode in MySQL databases · Mathias Bynens](http://mathiasbynens.be/notes/mysql-utf8mb4)  _(tags: tweet)_
+- 2014-04-23: [Project Naptha](http://projectnaptha.com)  _(tags: text, graphics, web)_
+- 2014-04-23: [Node.js Deployments with Docker, Dokku, & Digital Ocean](http://blog.yld.io/2014/03/26/node-js-deployments-with-docker-dokku-digital-ocean/)  _(tags: indie, paas, hosting)_
+- 2014-04-22: [Wow, this is hard:](http://java.metagno.me)  _(tags: java, tweet)_
+- 2014-04-22: [Bellman Confirms A Suspicion | Existential Type](http://existentialtype.wordpress.com/2014/04/21/bellman-confirms-a-suspicion/)  _(tags: tweet)_
+- 2014-04-21: [cr.yp.to: 2014.04.11: NIST's cryptographic standardization process](http://blog.cr.yp.to/20140411-nist.html)  _(tags: tweet)_
+- 2014-04-21: [Greg Mankiw's Blog: Transitory Income and the One Percent](http://gregmankiw.blogspot.ru/2014/04/transitory-income-and-one-percent.html)  _(tags: tweet)_
+- 2014-04-21: [cryptography - Could program verification techniques prevent bugs of the genre of Heartbleed from occurring? - Computer Science Stack Exchange](http://cs.stackexchange.com/questions/23856/could-program-verification-techniques-prevent-bugs-of-the-genre-of-heartbleed-fr)  _(tags: no_tag)_
+- 2014-04-21: [grsecurity](http://grsecurity.net)  _(tags: security, linux)_
+- 2014-04-19: [OpenSSL Valhalla Rampage](http://opensslrampage.org)  _(tags: tweet)_
+- 2014-04-19: [Is the US an Oligarchy? Not So Fast. | Ramez Naam](http://rameznaam.com/2014/04/17/is-the-us-an-oligarchy-not-so-fast/)  _(tags: tweet)_
+- 2014-04-19: [Bug #1309971 “other workspaces are blank with no way to switch b...” : Bugs : “gnome-panel” package : Ubuntu](https://bugs.launchpad.net/ubuntu/+source/gnome-panel/+bug/1309971)  _(tags: no_tag)_
+- 2014-04-18: [How To Reset The Gnome Panel To Default](http://ubuntuforums.org/showthread.php?t=1520623)  _(tags: no_tag)_
+- 2014-04-18: [[gnome] viewport/workspace switcher breaks desktop](http://ubuntuforums.org/showthread.php?t=2200529)  _(tags: no_tag)_
+- 2014-04-18: [How To Install And Tweak GNOME Flashback Session In Ubuntu 14.04 ~ Web Upd8: Ubuntu / Linux blog](http://www.webupd8.org/2014/04/how-to-install-and-tweak-gnome.html)  _(tags: no_tag)_
+- 2014-04-18: [uninstall - Remove ubuntu-gnome-desktop? - Ask Ubuntu](http://askubuntu.com/questions/244654/remove-ubuntu-gnome-desktop)  _(tags: no_tag)_
+- 2014-04-18: [uninstall - How to remove xubuntu-desktop? - Ask Ubuntu](http://askubuntu.com/questions/92084/how-to-remove-xubuntu-desktop)  _(tags: no_tag)_
+- 2014-04-18: [[SOLVED] openvpn through networkmanager does not connect on lucid](http://ubuntuforums.org/showthread.php?t=1540278)  _(tags: no_tag)_
+- 2014-04-18: [Ubuntu 14.04 LTS Debuts With OpenStack Icehouse and Docker Support | Linux.com](http://www.linux.com/news/software/applications/770342--ubuntu-1404-lts-debuts-with-openstack-icehouse-and-docker-support)  _(tags: tweet)_
+- 2014-04-18: [javascript is the worst.](http://t.co/L32k5ki7AB)  _(tags: tweet)_
+- 2014-04-18: [The Setup / Clay Shirky](http://clay.shirky.usesthis.com)  _(tags: tweet)_
+- 2014-04-18: [10 Things To Do After Installing Ubuntu 14.04 Trusty Tahr To Get A Near Perfect Desktop ~ Web Upd8: Ubuntu / Linux blog](http://www.webupd8.org/2014/04/10-things-to-do-after-installing-ubuntu.html)  _(tags: no_tag)_
+- 2014-04-18: [Ubuntu 14.04 released | Hacker News](https://news.ycombinator.com/item?id=7604177)  _(tags: no_tag)_
+- 2014-04-18: [Upgrading from 12.04.4 LTS to 14.04 LTS via the Update Manager : Ubuntu](http://www.reddit.com/r/Ubuntu/comments/1y1y0u/upgrading_from_12044_lts_to_1404_lts_via_the/)  _(tags: no_tag)_
+- 2014-04-17: [DockerCon Hackathon - Docker San Francisco (San Francisco, CA)- Meetup](http://www.meetup.com/Docker-meetups/events/170030222/)  _(tags: tweet)_
+- 2014-04-17: [Группы Google](https://groups.google.com/forum/#!topic/scalaz/Li1uWmxSLlM)  _(tags: tweet)_
+- 2014-04-17: [Heartbleed Shows Government Must Lead on Internet Security - Scientific American](http://www.scientificamerican.com/article/heartbleed-shows-government-must-lead-on-internet-security/?utm_source=hootsuite&utm_campaign=hootsuite)  _(tags: tweet)_
+- 2014-04-17: [Software System Award - ACM Award](http://awards.acm.org/software_system/)  _(tags: tweet)_
+- 2014-04-17: [Ubuntu GNOME 14.04 (Trusty Tahr) Daily Build](http://cdimage.ubuntu.com/ubuntu-gnome/daily-live/current/)  _(tags: no_tag)_
+- 2014-04-17: [TrustyTahr/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/TrustyTahr/ReleaseNotes)  _(tags: no_tag)_
+- 2014-04-17: [Ubuntu 14.04 LTS: the cloud platform of choice | Insights](http://insights.ubuntu.com/news/ubuntu-14-04-lts-the-cloud-platform-of-choice/)  _(tags: no_tag)_
+- 2014-04-17: [lua-colony](https://www.npmjs.org/package/lua-colony)  _(tags: no_tag)_
+- 2014-04-16: [Red Hat Enterprise Linux - Docker Documentation](http://docs.docker.io/installation/rhel/)  _(tags: no_tag)_
+- 2014-04-16: [yhat/ggplot · GitHub](https://github.com/yhat/ggplot)  _(tags: graphics, python, statistics, programming)_
+- 2014-04-16: [PyData 2014 | Silicon Valley | May 2 - 4](http://pydata.org/sv2014/abstracts/#207)  _(tags: no_tag)_
+- 2014-04-16: [sql - mysql "with" clause - Stack Overflow](http://stackoverflow.com/questions/324935/mysql-with-clause)  _(tags: no_tag)_
+- 2014-04-16: [ssh - Is it possible to find out the hosts in the known_hosts file? - Unix & Linux Stack Exchange](http://unix.stackexchange.com/questions/31549/is-it-possible-to-find-out-the-hosts-in-the-known-hosts-file)  _(tags: no_tag)_
+- 2014-04-16: [Wearables: Are You Still Using... | Polar](http://polarb.com/publishers/results/poll_sets/2898)  _(tags: tweet)_
+- 2014-04-16: [Absolutely amazing.  generating x86 assembly:](https://research.microsoft.com/en-us/um/people/nick/coqasm.pdf)  _(tags: coq, tweet)_
+- 2014-04-16: [Twitter welcomes Gnip to the flock | Twitter Blogs](https://blog.twitter.com/2014/twitter-welcomes-gnip-to-the-flock)  _(tags: tweet)_
+- 2014-04-16: [New drug could cure nearly any viral infection | MIT News Office](http://newsoffice.mit.edu/2011/antiviral-0810?utm_content=buffer2fcd0&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: ebola, tweet)_
+- 2014-04-16: [The 2-state Israel/Palestine option is dead, dead,](http://www.nytimes.com/2014/04/15/opinion/in-the-middle-east-time-to-move-on.html?hp&rref=opinion&_r=3)  _(tags: tweet)_
+- 2014-04-16: [#2217 (SandboxViolation: mkdir('/usr/lib/python2.7/site-packages/cryptography/hazmat/bindings/__pycache__', 511) {})     – Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs/ticket/2217#comment:23)  _(tags: tweet)_
+- 2014-04-16: [Frank Lemanschik : Automated Update a Running Docker Container and CleanUP old Version of it!](https://coderwall.com/p/ag1agw)  _(tags: no_tag)_
+- 2014-04-16: [dckc/ipython-docker Repository | Docker Index](https://index.docker.io/u/dckc/ipython-docker/)  _(tags: no_tag)_
+- 2014-04-16: [2.0 Series — IPython 2.0.0 documentation](http://ipython.org/ipython-doc/2/whatsnew/version2.0.html)  _(tags: no_tag)_
+- 2014-04-16: [Docker 0.10: quality and ops tooling | Docker Blog](http://blog.docker.io/2014/04/docker-0-10-quality-and-ops-tooling/)  _(tags: no_tag)_
+- 2014-04-15: [Please Put OpenSSL Out of Its Misery - ACM Queue](http://queue.acm.org/detail.cfm?id=2602816)  _(tags: tweet)_
+- 2014-04-15: [NIH Data Sharing Repositories](http://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html)  _(tags: bigdata, tweet)_
+- 2014-04-15: [sodiumoxide/src/sodiumoxide/crypto/stream.rs at master · dnaq/sodiumoxide](https://github.com/dnaq/sodiumoxide/blob/master/src/sodiumoxide/crypto/stream.rs)  _(tags: no_tag)_
+- 2014-04-15: [RFC: Make libstd a facade by alexcrichton · Pull Request #40 · rust-lang/rfcs](https://github.com/rust-lang/rfcs/pull/40)  _(tags: no_tag)_
+- 2014-04-15: [QEMU - OSDev Wiki](http://wiki.osdev.org/QEMU)  _(tags: no_tag)_
+- 2014-04-15: [Preventing heartbleed bugs with safe programming languages](http://bluishcoder.co.nz/2014/04/11/preventing-heartbleed-bugs-with-safe-languages.html)  _(tags: tweet)_
+- 2014-04-15: [Beware the spinal trap | Comment is free | The Guardian](http://www.theguardian.com/commentisfree/2008/apr/19/controversiesinscience-health)  _(tags: no_tag)_
+- 2014-04-15: [Transcribing Piano Rolls, the Pythonic Way - __del__( self )](http://zulko.github.io/blog/2014/02/12/transcribing-piano-rolls/)  _(tags: tweet)_
+- 2014-04-14: [Obama lets NTSB exploit widespread tire vulnerabilities | Benlog](http://benlog.com/2014/04/13/obama-lets-ntsb-exploit-widespread-tire-vulnerabilities/)  _(tags: tweet)_
+- 2014-04-14: [peps: 76d43e52d978](http://hg.python.org/peps/rev/76d43e52d978)  _(tags: tweet)_
+- 2014-04-14: [Sysdig Examples · draios/sysdig Wiki · GitHub](https://github.com/draios/sysdig/wiki/Sysdig%20Examples)  _(tags: tweet)_
+- 2014-04-14: [Names are Not Locators and URN](http://tools.ietf.org/html/draft-ietf-urnbis-urns-are-not-uris-00)  _(tags: tweet)_
+- 2014-04-14: [Operating system development · mozilla/rust Wiki](https://github.com/mozilla/rust/wiki/Operating-system-development)  _(tags: no_tag)_
+- 2014-04-14: [Day 43: SOMETHING IS ERASING MY PROGRAM WHILE IT’S RUNNING (oh wait oops) - Julia Evans](http://jvns.ca/blog/2013/12/16/day-43-hopefully-the-last-day-spent-fixing-linker-problems/)  _(tags: no_tag)_
+- 2014-04-14: [NOVA Microhypervisor](http://hypervisor.org)  _(tags: no_tag)_
+- 2014-04-14: [seL4 what exactly is in the kernel](http://os.inf.tu-dresden.de/pipermail/l4-hackers/2014/006257.html)  _(tags: no_tag)_
+- 2014-04-14: [Day 37: After 5 days, my OS doesn't crash when I press a key - Julia Evans](http://jvns.ca/blog/2013/12/04/day-37-how-a-keyboard-works/)  _(tags: no_tag)_
+- 2014-04-14: [Simple 8-bit Assembler Simulator in Javascript](http://schweigi.github.io/assembler-simulator/)  _(tags: no_tag)_
+- 2014-04-14: [thestinger/rust-core](https://github.com/thestinger/rust-core)  _(tags: programming)_
+- 2014-04-14: [Genode - Genode News](http://genode.org/news/genode-os-framework-release-14.02)  _(tags: no_tag)_
+- 2014-04-14: [tsgates/rust.ko](https://github.com/tsgates/rust.ko)  _(tags: no_tag)_
+- 2014-04-14: [rust.ko: a minimal Linux kernel module for Rust - The Changelog](http://thechangelog.com/rust-ko-a-minimal-linux-kernel-module-for-rust/)  _(tags: no_tag)_
+- 2014-04-13: [PEP 466 -- Network Security Enhancement Exception for Python 2.7](http://legacy.python.org/dev/peps/pep-0466/)  _(tags: python, tweet)_
+- 2014-04-13: ['Secure storage of private (RSA) keys' - MARC](http://marc.info/?l=openssl-users&m=139723710923076&w=2)  _(tags: tweet)_
+- 2014-04-12: [NSA Said to Exploit Heartbleed Bug for Intelligence for Years - Bloomberg](http://www.bloomberg.com/news/2014-04-11/nsa-said-to-have-used-heartbleed-bug-exposing-consumers.html)  _(tags: heartbleed, tweet)_
+- 2014-04-12: ["This document does not introduce any new security](https://tools.ietf.org/html/rfc6520#section-7)  _(tags: famouslastwords, heartbleed, tweet)_
+- 2014-04-11: [Answering the Critical Question: Can You Get Private SSL Keys Using Heartbleed? | CloudFlare Blog](http://blog.cloudflare.com/answering-the-critical-question-can-you-get-private-ssl-keys-using-heartbleed)  _(tags: no_tag)_
+- 2014-04-11: [Service Workers](http://slightlyoff.github.io/ServiceWorker/spec/service_worker/)  _(tags: no_tag)_
+- 2014-04-11: [analysis of openssl freelist reuse](http://www.tedunangst.com/flak/post/analysis-of-openssl-freelist-reuse)  _(tags: tweet)_
+- 2014-04-11: [Kolibree: The World's First Connected Electric Toothbrush by Kolibree &mdash; Kickstarter](https://www.kickstarter.com/projects/2134904849/kolibree-the-worlds-first-connected-electric-tooth?utm_content=bufferb1cf7&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2014-04-11: [Internet Heartbleed Health Report](https://zmap.io/heartbleed/)  _(tags: tweet)_
+- 2014-04-11: [idris-hackers/idris-crypto · GitHub](https://github.com/idris-hackers/idris-crypto)  _(tags: idris, tweet)_
+- 2014-04-11: [Every time an Apache project graduates, lots of li](https://github.com/apache/incubator-spark/)  _(tags: ironic, tweet)_
+- 2014-04-11: [What the Tamiflu saga tells us about drug trials and big pharma | Business | The Guardian](http://www.theguardian.com/business/2014/apr/10/tamiflu-saga-drug-trials-big-pharma)  _(tags: tweet)_
+- 2014-04-11: [Git man page generator](http://git-man-page-generator.lokaltog.net)  _(tags: tweet)_
+- 2014-04-11: [Lawrence Lessig: The unstoppable walk to political reform | Talk Video | TED.com](http://on.ted.com/d07q9)  _(tags: lessig, ted)_
+- 2014-04-11: [From Mercurial to Git ... (commands mapping)](http://www.aloop.org/2010/11/27/from-mercurial-to-git-commands-mapping/)  _(tags: no_tag)_
+- 2014-04-11: [The First Open Ranking of the World Wide Web Is Available - Slashdot](http://search.slashdot.org/story/14/02/12/1651243/the-first-open-ranking-of-the-world-wide-web-is-available)  _(tags: no_tag)_
+- 2014-04-11: [The Common Crawl WWW Ranking](http://wwwranking.webdatacommons.org)  _(tags: no_tag)_
+- 2014-04-10: [Needs and subjective well-being around th... [J Pers Soc Psychol. 2011] - PubMed - NCBI](http://www.ncbi.nlm.nih.gov/pubmed/21688922)  _(tags: tweet)_
+- 2014-04-10: [Top Hosting Service for Node.js | Code-Tricks](http://code-tricks.com/top-hosting-service-for-node-js/)  _(tags: no_tag)_
+- 2014-04-10: [StrongLoop | Comparing Node.js Support on PaaS Hosting Providers](http://strongloop.com/strongblog/a-comparison-of-node-js-paas-hosting-providers/)  _(tags: no_tag)_
+- 2014-04-10: [Linux Developers Consider On-Screen QR Codes For Kernel Panics - Slashdot](http://linux.slashdot.org/story/14/04/05/2228251/linux-developers-consider-on-screen-qr-codes-for-kernel-panics)  _(tags: no_tag)_
+- 2014-04-10: [Re: FYA: http: heartbleed.com](http://article.gmane.org/gmane.os.openbsd.misc/211963)  _(tags: no_tag)_
+- 2014-04-09: [Functional Python : blog : Josh Bohde](http://joshbohde.com/blog/functional-python)  _(tags: no_tag)_
+- 2014-04-09: [Self Hosting Git : blog : Josh Bohde](http://joshbohde.com/blog/self-hosting-git)  _(tags: no_tag)_
+- 2014-04-09: [Test your server for Heartbleed (CVE-2014-0160)](http://filippo.io/Heartbleed/faq.html#donate)  _(tags: no_tag)_
+- 2014-04-09: [Why has student debt increased so much?  - Student debt - Vox](http://www.vox.com/cards/student-debt/why-has-student-debt-increased-so-much)  _(tags: tweet)_
+- 2014-04-09: [ISACA Nordic Keynote - Google Презентации](https://docs.google.com/presentation/d/1Sv8IHkBtBEXjSW7WktEYg4EbAUHtVyXIZBrAGD3WR5Y/preview?sle=true#slide=id.p)  _(tags: tweet)_
+- 2014-04-09: [aanand/git-up](https://github.com/aanand/git-up)  _(tags: no_tag)_
+- 2014-04-09: [purescript/purescript-reactive-jquery](https://github.com/purescript/purescript-reactive-jquery)  _(tags: no_tag)_
+- 2014-04-09: [Emacs: Set Environment Variables within Emacs](http://ergoemacs.org/emacs/emacs_env_var_paths.html)  _(tags: no_tag)_
+- 2014-04-09: [Introduction — PureScript 0.5.0 documentation](http://purescript.readthedocs.org/en/latest/intro.html)  _(tags: no_tag)_
+- 2014-04-09: [Rewriting A WebApp With ECMAScript 6 — TasteJS](http://blog.tastejs.com/rewriting-a-webapp-with-ecmascript-6)  _(tags: no_tag)_
+- 2014-04-09: [RxJS Reactive Extensions for JavaScript](http://reactive-extensions.github.io/RxJS/)  _(tags: no_tag)_
+- 2014-04-08: [How Browsers Work: Behind the scenes of modern web browsers - HTML5 Rocks](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)  _(tags: tweet)_
+- 2014-04-08: [Heartbleed Bug](http://heartbleed.com)  _(tags: tweet)_
+- 2014-04-08: [WorldWideWeb typed links UI from 1994](http://wiki.foaf-project.org/z/images/3/3a/WorldWideWeb-IB.png)  _(tags: webhistory, tweet)_
+- 2014-04-08: [BBC News - Half-century milestone for IBM mainframes](http://www.bbc.com/news/technology-26886579)  _(tags: tweet)_
+- 2014-04-08: [Abductive logic programming - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Abductive_logic_programming#Example_1)  _(tags: tweet)_
+- 2014-04-08: [ses](https://www.npmjs.org/package/ses)  _(tags: no_tag)_
+- 2014-04-08: [Grid Template for Bootstrap](http://getbootstrap.com/examples/grid/)  _(tags: no_tag)_
+- 2014-04-08: [PyData.org | About/numfocus](http://pydata.org/about/numfocus/)  _(tags: no_tag)_
+- 2014-04-07: [The History of Python: Personal History - part 2, CNRI and beyond](http://python-history.blogspot.com/2009/01/personal-history-part-2-cnri-and-beyond.html)  _(tags: no_tag)_
+- 2014-04-07: [A Tale of Two Clocks - Scheduling Web Audio with Precision - HTML5 Rocks](http://www.html5rocks.com/en/tutorials/audio/scheduling/)  _(tags: no_tag)_
+- 2014-04-07: [Ace - The High Performance Code Editor for the Web](http://ace.c9.io/#nav=production)  _(tags: no_tag)_
+- 2014-04-07: [Working locally | ShiftEdit](https://shiftedit.net/blog/working-locally)  _(tags: no_tag)_
+- 2014-04-07: [HgGit - Mercurial](http://mercurial.selenic.com/wiki/HgGit)  _(tags: no_tag)_
+- 2014-04-06: [Zenni Optical - Eyeglasses,FAQ Glasses](http://www.zennioptical.com/faq/can-i-check-how-multiple-pairs-will-look-on-me-at-the-same-time?count=1&subcount=4#faqTopic)  _(tags: eyeglasses)_
+- 2014-04-06: [Crowdfunding the Novena Open Laptop &laquo;  bunnie&#039;s blog](http://www.bunniestudios.com/blog/?p=3657)  _(tags: tweet)_
+- 2014-04-06: [bsteinb/rust-iteratorcomprehensions](https://github.com/bsteinb/rust-iteratorcomprehensions)  _(tags: no_tag)_
+- 2014-04-06: [phildawes/racer](https://github.com/phildawes/racer)  _(tags: no_tag)_
+- 2014-04-06: [Getting a footpedal working with Linux | Conversational Aesthetics](http://saulalbert.net/blog/transcription-with-a-foot-pedal-under-linux/)  _(tags: no_tag)_
+- 2014-04-05: [Issue 4 - footpedal - Error when opening after install - USB foot pedal integration for GNOME desktops - Google Project Hosting](https://code.google.com/p/footpedal/issues/detail?id=4)  _(tags: no_tag)_
+- 2014-04-05: [footpedal - USB foot pedal integration for GNOME desktops - Google Project Hosting](https://code.google.com/p/footpedal/)  _(tags: no_tag)_
+- 2014-04-05: [footpedal_0.4-0ubuntu1_all.deb - footpedal - Ubuntu package - USB foot pedal integration for GNOME desktops - Google Project Hosting](https://code.google.com/p/footpedal/downloads/detail?name=footpedal_0.4-0ubuntu1_all.deb)  _(tags: no_tag)_
+- 2014-04-05: [Google Groups](https://groups.google.com/forum/#!topic/chromebook-central/_3g-ooSyzkY)  _(tags: no_tag)_
+- 2014-04-05: [Update makes Chromebooks better for work and play — Tech News and Analysis](http://gigaom.com/2012/08/21/update-makes-chromebooks-better-for-work-and-play/)  _(tags: no_tag)_
+- 2014-04-05: [GamepadAPI - MozillaWiki](https://wiki.mozilla.org/GamepadAPI)  _(tags: no_tag)_
+- 2014-04-05: [http://www.gamepadjs.com/](http://www.gamepadjs.com)  _(tags: no_tag)_
+- 2014-04-05: [[SOLVED] Configuring a Philips Speech Footcontrol USB device (Page 1) / Kernel & Hardware / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=145462)  _(tags: no_tag)_
+- 2014-04-05: [foot pedal for medical transcription](http://www.linuxquestions.org/questions/suse-novell-60/foot-pedal-for-medical-transcription-366401/)  _(tags: no_tag)_
+- 2014-04-05: [spindown - Spindown is a daemon that spins down idle disks and so saving energy and giving the disks a longer lifetime. - Google Project Hosting](https://code.google.com/p/spindown/)  _(tags: no_tag)_
+- 2014-04-05: [Devices – lm-sensors](http://www.lm-sensors.org/wiki/Devices)  _(tags: no_tag)_
+- 2014-04-05: [12.10 - Fan speed in ubuntu: pwmconfig no pwm-capable sensor modules installed - Ask Ubuntu](http://askubuntu.com/questions/281478/fan-speed-in-ubuntu-pwmconfig-no-pwm-capable-sensor-modules-installed)  _(tags: no_tag)_
+- 2014-04-05: [Fractal Design Arc Mini R2 MicroATX Tower | silentpcreview.com](http://www.silentpcreview.com/Fractal_Design_Arc_Mini_R2)  _(tags: no_tag)_
+- 2014-04-05: [rustc::middle::borrowck::doc - Rust](http://static.rust-lang.org/doc/master/rustc/middle/borrowck/doc/index.html)  _(tags: rustlang, tweet)_
+- 2014-04-05: [For the Record — Medium](https://medium.com/p/7645a4bf8a2?utm_content=buffer6a30f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2014-04-05: [5-year-old discovers major Xbox One security flaw, earns big reward | The Verge](http://www.theverge.com/2014/4/4/5582208/5-year-old-discovers-xbox-one-security-flaw)  _(tags: tweet)_
+- 2014-04-05: [Spin down idle drives in Ubuntu Server to save electricity - Lucid, Karmic, Jaunty and Intrepid](http://www.havetheknowhow.com/Configure-the-server/Spin-down-idle-drives.html)  _(tags: no_tag)_
+- 2014-04-05: [ModemManager](http://www.freedesktop.org/wiki/Software/ModemManager/)  _(tags: no_tag)_
+- 2014-04-05: [Dependently Typed Programming in Idris: A Demo - David Raymond Christiansen](http://bmsherman.github.io/idris-drc-3-26-14/)  _(tags: programming)_
+- 2014-04-04: [meyerweb.com](http://meyerweb.com)  _(tags: tweet)_
+- 2014-04-04: [[rust-dev] Rust 0.10 Released](https://mail.mozilla.org/pipermail/rust-dev/2014-April/009387.html)  _(tags: tweet)_
+- 2014-04-03: [The Rust Containers and Iterators Guide](http://static.rust-lang.org/doc/0.10/guide-container.html)  _(tags: no_tag)_
+- 2014-04-03: [std::str - Rust](http://static.rust-lang.org/doc/0.10/std/str/index.html)  _(tags: no_tag)_
+- 2014-04-03: [nathforge/pyotp · GitHub](https://github.com/nathforge/pyotp)  _(tags: no_tag)_
+- 2014-04-03: [statusIE](http://status.modern.IE)  _(tags: tweet)_
+- 2014-04-02: [How to clean up output of linux 'script' command - Super User](http://superuser.com/questions/236930/how-to-clean-up-output-of-linux-script-command)  _(tags: no_tag)_
+- 2014-04-02: [The Haste compiler](http://haste-lang.org/#try)  _(tags: haskell, javascript, tweet)_
+- 2014-04-02: [LukeW | An Event Apart: SVG is for Everybody](http://www.lukew.com/ff/entry.asp?1859)  _(tags: aeasea, tweet)_
+- 2014-04-01: [The Day Our Privacy Died - YouTube](https://www.youtube.com/watch?v=sxfTHHltsWA)  _(tags: privacy, tweet)_
+- 2014-04-01: [NSA Blows Its Own Top Secret Program in Order to Propagandize - The Intercept](https://firstlook.org/theintercept/2014/03/31/nsa-worlds-blows-top-secret-program/)  _(tags: tweet)_
+- 2014-04-01: [L.P.D.: Libertarian Police Department : The New Yorker](http://www.newyorker.com/online/blogs/shouts/2014/03/libertarian-police-department.html)  _(tags: tweet)_
+- 2014-04-01: [Horse’s mouth on the NSA/RSA/T](http://t.co/2oTOLedF2k)  _(tags: tweet)_
+- 2014-04-01: [Linked API not returning honors | LinkedIn Developer Network](https://developer.linkedin.com/forum/linked-api-not-returning-honors)  _(tags: no_tag)_

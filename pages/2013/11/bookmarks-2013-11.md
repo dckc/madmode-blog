@@ -1,0 +1,169 @@
+---
+title: November 2013 Bookmarks: programming, quality, and vm
+date: 2013-11-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "android", "capabilities", "cloud", "collaboration", "data", "devops", "digital", "family", "hardware", "haskell", "health", "humor", "javascript", "kc", "learning", "linux", "mac", "media", "mobile", "netneutrality", "office", "photos", "presentation", "programming", "protocols", "publishing", "python", "quality", "research", "rootstrikers", "rustlang", "scala", "security", "shopping", "statistics", "sysadmin", "training", "ubuntu", "video", "vm"]
+---
+
+Shared bookmarks saved in November 2013.
+
+- total bookmarks: 155
+- total annotations captured: 81
+
+## Links
+
+- 2013-11-30: [me: "did you just tell me to go fuck myself?" Scal](https://gist.github.com/mattb/7714439/raw/fc900348c2d2cee210cf1bc9837d4d4690c7d7e9/gistfile1.txt)  _(tags: tweet, scala, humor)_
+- 2013-11-30: [Sexy Types – Are We Done Yet? - Microsoft Research](https://research.microsoft.com/apps/video/dl.aspx?id=150045)  _(tags: tweet)_
+- 2013-11-29: [Tutorials - Google Apps Script - Google Developers](https://developers.google.com/apps-script/articles)  _(tags: programming, office, training, learning)_
+- 2013-11-28: [Fuzzing A Verified SAT Solver | QA9](https://queuea9.wordpress.com/2012/04/06/fuzzing-a-verified-sat-solver/)  _(tags: programming, research, quality)_
+- 2013-11-28: [guru-lang - Implementation of the Guru verified programming language. - Google Project Hosting](https://code.google.com/p/guru-lang/)  _(tags: programming, research, quality)_
+- 2013-11-27: [ERROR: System Fan Has Failed.Service PC to prevent damage to... - HP Support Forum - 1375143](http://h30434.www3.hp.com/t5/Desktop-Hardware/ERROR-System-Fan-Has-Failed-Service-PC-to-prevent-damage-to/td-p/1375143)  _(tags: no_tag)_
+- 2013-11-26: [R-Forge: data.table: SCM Repository](https://r-forge.r-project.org/scm/viewvc.php/pkg/man/data.table.Rd?view=markup&root=datatable)  _(tags: r, programming, statistics)_
+- 2013-11-26: [Undefined symbol (Rf_PrintWarnings) when using rpy 2.3.1 and R 3.0.1](http://blog.mcbryan.co.uk/2013/05/rpy231-and-r301.html)  _(tags: python, r, programming, statistics)_
+- 2013-11-26: [Why Care About the N.S.A.? - Video - NYTimes.com](http://www.nytimes.com/video/opinion/100000002571435/why-care-about-the-nsa.html?playlistId=100000001150263)  _(tags: tweet)_
+- 2013-11-26: [Rensselaer Professor Deborah L. McGuinness Named Fellow of the AAAS | News &amp; Events](http://news.rpi.edu/content/2013/11/25/deborah-l-mcguinness-named-fellow-aaas)  _(tags: twcrpi, tweet)_
+- 2013-11-26: [quarterto/fantasy-http · GitHub](https://github.com/quarterto/fantasy-http)  _(tags: tweet)_
+- 2013-11-26: [LiquidHaskell Caught Telling Lies! - LiquidHaskell](http://goto.ucsd.edu/~rjhala/liquid/haskell/blog/blog/2013/11/23/telling_lies.lhs/)  _(tags: haskell, tweet, quality, programming, research)_
+- 2013-11-26: [Newegg trial: Crypto legend takes the stand, goes for knockout patent punch | Ars Technica](http://arstechnica.com/tech-policy/2013/11/newegg-trial-crypto-legend-diffie-takes-the-stand-to-knock-out-patent/)  _(tags: tweet)_
+- 2013-11-26: [Dangers of unusual character encodings](http://zaynar.co.uk/docs/charset-encoding-xss.html)  _(tags: tweet, web, security)_
+- 2013-11-26: [Network Monitoring · ariya/phantomjs Wiki](https://github.com/ariya/phantomjs/wiki/Network-Monitoring)  _(tags: no_tag)_
+- 2013-11-26: [Walther recursion](http://people.csail.mit.edu/kostas/CADE1996Details.html)  _(tags: no_tag)_
+- 2013-11-26: [Walther recursion - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Walther_recursion)  _(tags: no_tag)_
+- 2013-11-25: [Something changed on the Internet...thought provok](http://crookedtimber.org/2013/11/19/something-changed/)  _(tags: icann48, tweet)_
+- 2013-11-24: [Install Fonts,TimesNewRoman,Arial,Verdana in OpenOffice 2.4.1 in Linux - OpenOffice - Linux/Free BSD](http://www.tomshardware.com/forum/236457-50-install-fonts-timesnewroman-arial-verdana-openoffice-linux)  _(tags: no_tag)_
+- 2013-11-24: [grub2 - How do I remove or hide old kernel versions, to clean up the boot menu? - Ask Ubuntu](http://askubuntu.com/questions/2793/how-do-i-remove-or-hide-old-kernel-versions-to-clean-up-the-boot-menu)  _(tags: sysadmin, ubuntu, someday)_
+- 2013-11-24: [polygonal/core](https://github.com/polygonal/core)  _(tags: no_tag)_
+- 2013-11-24: [CompCert - Context and motivations](http://compcert.inria.fr/motivations.html)  _(tags: programming, quality, research)_
+- 2013-11-24: [http://compcert.inria.fr/doc/LICENSE](http://compcert.inria.fr/doc/LICENSE)  _(tags: no_tag)_
+- 2013-11-24: [CompCert - Downloads](http://compcert.inria.fr/download.html)  _(tags: no_tag)_
+- 2013-11-24: [CompCert - The CompCert C compiler](http://compcert.inria.fr/compcert-C.html)  _(tags: no_tag)_
+- 2013-11-24: [Publication page](http://www.leshatton.org/MISRA_comp_1105.html)  _(tags: programming, quality)_
+- 2013-11-24: [Publication page](http://www.leshatton.org/arxiv_jul2012_hatton.html)  _(tags: no_tag)_
+- 2013-11-23: [Review: Puppet Vs. Chef Vs. Ansible Vs. Salt - Slashdot](http://tech.slashdot.org/story/13/11/22/0239230/review-puppet-vs-chef-vs-ansible-vs-salt)  _(tags: sysadmin, vm, python, devops)_
+- 2013-11-23: [Growing the community by 3: We're hiring! | Mozilla Gigabit Community Fund](https://blog.mozilla.org/gigabit/growing-the-community-by-3-were-hiring/)  _(tags: tweet, kc)_
+- 2013-11-23: [Forward Secrecy at Twitter | Twitter Blogs](https://blog.twitter.com/2013/forward-secrecy-at-twitter-0)  _(tags: tweet, security, research)_
+- 2013-11-23: [folktale/laws · GitHub](https://github.com/folktale/laws)  _(tags: tweet)_
+- 2013-11-23: [Home | Rootstrikers](http://www.rootstrikers.org/#!/project/we-need-citizen-funded-elections)  _(tags: rootstrikers, tweet)_
+- 2013-11-23: [The Wolfram Language and Mathematica on Raspberry Pi, for free | Raspberry Pi](http://www.raspberrypi.org/archives/5282)  _(tags: tweet)_
+- 2013-11-23: [Opinion: 'Stalker economy' here to stay - CNN.com](http://edition.cnn.com/2013/11/20/opinion/schneier-stalker-economy/index.html)  _(tags: tweet)_
+- 2013-11-22: [History of T](http://www.paulgraham.com/thist.html)  _(tags: tweet)_
+- 2013-11-22: [Brendan Eich, Mozilla's CTO, on EME and DRM - Open Enterprise](http://blogs.computerworlduk.com/open-enterprise/2013/11/brendan-eich-mozillas-cto-on-eme-and-drm/index.htm#comment-1128519450)  _(tags: tweet)_
+- 2013-11-22: [WereMath](http://people.csail.mit.edu/karger/Werewolf/math.html)  _(tags: tweet)_
+- 2013-11-22: [The absurdity of Senate filibusters on Presidentia](http://www.nytimes.com/2013/11/22/us/politics/reid-sets-in-motion-steps-to-limit-use-of-filibuster.html?_r=1&)  _(tags: tweet)_
+- 2013-11-21: [Documenting functions · Advanced R.](http://adv-r.had.co.nz/Documenting-functions.html)  _(tags: quality, programming, r, statistics)_
+- 2013-11-21: [Software patent reform just died in the House, thanks to IBM and Microsoft](http://www.washingtonpost.com/blogs/the-switch/wp/2013/11/20/software-patent-reform-just-died-in-the-house-thanks-to-ibm-and-microsoft/)  _(tags: tweet)_
+- 2013-11-20: [Repeated attacks hijack huge chunks of Internet traffic, researchers warn | Ars Technica](http://arstechnica.com/security/2013/11/repeated-attacks-hijack-huge-chunks-of-internet-traffic-researchers-warn/)  _(tags: no_tag)_
+- 2013-11-20: [How We Deploy 300 Times a Day](http://dev.hubspot.com/blog/how-we-deploy-300-times-a-day?utm_source=twitter&utm_medium=social&utm_content=2699064)  _(tags: tweet)_
+- 2013-11-20: [CMAP: "Why do you use Microsoft Word?" - Charlie's Diary](http://www.antipope.org/charlie/blog-static/2013/11/cmap-why-do-you-use-microsoft-.html)  _(tags: tweet)_
+- 2013-11-19: [Namespaces · Advanced R.](http://adv-r.had.co.nz/Namespaces.html)  _(tags: r, programming, statistics, quality)_
+- 2013-11-19: [hvesalai/sbt-mode · GitHub](https://github.com/hvesalai/sbt-mode)  _(tags: tweet)_
+- 2013-11-19: [Dr. Latanya Sweeney's Home Page](http://dataprivacylab.org/people/sweeney/)  _(tags: tweet)_
+- 2013-11-19: [[citation needed]&raquo; Blog Archive &raquo; The homogenization of scientific computing, or why Python is steadily eating other languages&#8217; lunch](http://www.talyarkoni.org/blog/2013/11/18/the-homogenization-of-scientific-computing-or-why-python-is-steadily-eating-other-languages-lunch/)  _(tags: tweet)_
+- 2013-11-19: [End User Usage — Jedi 0.7.1.alpha1 documentation](http://jedi.jedidjah.ch/en/latest/docs/usage.html#other-software-using-jedi)  _(tags: no_tag)_
+- 2013-11-19: [Jedi.el - Python auto-completion for Emacs — Emacs Jedi 0.1.2 documentation](http://tkf.github.io/emacs-jedi/)  _(tags: no_tag)_
+- 2013-11-19: [R Package Vignettes with Markdown | (R news & tutorials)](http://www.r-bloggers.com/r-package-vignettes-with-markdown/)  _(tags: r, programming, quality, statistics)_
+- 2013-11-18: [My research workflow, based on Github](http://carlboettiger.info/2012/05/06/research-workflow.html)  _(tags: no_tag)_
+- 2013-11-18: [test() won't work after check() when S4 methods are involved · Issue #60 · hadley/devtools](https://github.com/hadley/devtools/issues/60)  _(tags: programming, r, statistics)_
+- 2013-11-17: [LINUX TIPS/FAQs: Backup your Gmail account in maildir format using fetchmail](http://basavrajb.blogspot.com/2010/10/backup-your-gmail-account-in-maildir.html)  _(tags: sysadmin, someday, cloud)_
+- 2013-11-17: [Embedded in Academia : Integer Undefined Behaviors in Open Source Crypto Libraries](http://blog.regehr.org/archives/1054)  _(tags: tweet, security, quality)_
+- 2013-11-16: [Introducing ART | Android Developers](http://source.android.com/devices/tech/dalvik/art.html)  _(tags: no_tag)_
+- 2013-11-16: [Techualization: Introducing BrowsePass, a KeePass on the web](http://techualization.blogspot.de/2013/09/introducing-browsepass-keepass-on-web.html)  _(tags: no_tag)_
+- 2013-11-16: [The second operating system hiding in every mobile phone](http://www.osnews.com/story/27416/The_second_operating_system_hiding_in_every_mobile_phone)  _(tags: tweet)_
+- 2013-11-16: [Everything You Need To Know About Make-A-Wish Foundation&#39;s Adorable, Crime-Fighting Batkid](http://www.buzzfeed.com/ryanhatesthis/everything-you-need-to-know-about-the-make-a-wish-foundation)  _(tags: sfbatkid, tweet)_
+- 2013-11-16: ["Apple-II board with 4kB RAM: $600. Additional RAM](https://s3.amazonaws.com/s3data.computerhistory.org/atchm/documents/102723982-05-01-acc.pdf)  _(tags: tweet)_
+- 2013-11-15: [What is HDR and When Should I Use It In My Photos?](http://lifehacker.com/5991508/what-is-hdr-and-when-should-i-use-it-in-my-photos)  _(tags: no_tag)_
+- 2013-11-15: [High-dynamic-range imaging - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/High-dynamic-range_imaging)  _(tags: no_tag)_
+- 2013-11-15: [Nexus 5: Common Problems Users Have and How to Fix Them | Digital Trends](http://www.digitaltrends.com/mobile/nexus-5-problems/)  _(tags: no_tag)_
+- 2013-11-15: [Returns, refunds and replacements - Google Play Help](https://support.google.com/googleplay/answer/2411741?hl=en)  _(tags: mobile, hardware, shopping, android)_
+- 2013-11-15: [azakai: C++ to JavaScript: Emscripten, Mandreel, and now Duetto](http://mozakai.blogspot.com/2013/11/c-to-javascript-emscripten-mandreel-and.html)  _(tags: tweet)_
+- 2013-11-15: [Coin » Use One Coin for All of Your Cards](https://onlycoin.com)  _(tags: onecard, tweet)_
+- 2013-11-14: [cURL - SSL libraries compared](http://curl.haxx.se/docs/ssl-compared.html)  _(tags: protocols, security)_
+- 2013-11-14: [Network Security Services | MDN](https://developer.mozilla.org/en-US/docs/NSS)  _(tags: security, programming)_
+- 2013-11-14: [S4 · Advanced R.](http://adv-r.had.co.nz/S4.html)  _(tags: no_tag)_
+- 2013-11-14: [Package basics · Advanced R.](http://adv-r.had.co.nz/Package-basics.html)  _(tags: no_tag)_
+- 2013-11-14: [javascript - jsdoc documentation functions inside module - Stack Overflow](http://stackoverflow.com/questions/19413347/jsdoc-documentation-functions-inside-module)  _(tags: javascript, quality)_
+- 2013-11-14: [Existential type-curry : Inside 206-105](http://blog.ezyang.com/2010/10/existential-type-curry/)  _(tags: no_tag)_
+- 2013-11-14: [Google Groups](http://productforums.google.com/forum/#!topic/google-plus-discuss/q2mKpZjaQqA)  _(tags: no_tag)_
+- 2013-11-14: [How do I use on photo in more than one album on facebook?](http://answers.yahoo.com/question/index?qid=20090425224348AARwcX0)  _(tags: photos, data, collaboration)_
+- 2013-11-14: [Python Facebook - Upload Image - Stack Overflow](http://stackoverflow.com/questions/11096963/python-facebook-upload-image)  _(tags: photos, cloud, publishing, family, someday)_
+- 2013-11-14: [Something Very Big Is Coming: Our Most Important Technology Project Yet—Wolfram|Alpha Blog](http://blog.wolframalpha.com/2013/11/13/something-very-big-is-coming-our-most-important-technology-project-yet/)  _(tags: no_tag)_
+- 2013-11-14: [Amazon.com: VTECH CS6114 DECT 6.0 Cordless Phone, White/Grey, 1 Handset: Office Products](http://www.amazon.com/VTECH-CS6114-Cordless-Phone-Handset/dp/B004OA758C/ref=sr_1_6?s=office-products&ie=UTF8&qid=1384405028&sr=1-6&keywords=cordless+phone+speakerphone+headphone+jack)  _(tags: no_tag)_
+- 2013-11-14: [Amazon.com: VTech CS6419 DECT 6.0 Cordless Phone, Black/Silver, 1 Handset: Office Products](http://www.amazon.com/VTech-CS6419-Cordless-Silver-Handset/dp/B004OA74MY/ref=sr_1_5?s=office-products&ie=UTF8&qid=1384404891&sr=1-5&keywords=cordless+phone+speakerphone)  _(tags: no_tag)_
+- 2013-11-14: [Genode - Future Challanges of the Genode project](http://genode.org/about/challenges)  _(tags: no_tag)_
+- 2013-11-14: [Upgrade a standard SIM to a micro SIM | T-Mobile Support](http://support.t-mobile.com/message/304031#304031)  _(tags: no_tag)_
+- 2013-11-13: [12 resolutions for programmers](http://matt.might.net/articles/programmers-resolutions/)  _(tags: no_tag)_
+- 2013-11-13: [Hacking strength: Gaining muscle with least resistance](http://matt.might.net/articles/hacking-strength/)  _(tags: health)_
+- 2013-11-13: [Supreme Court Of Canada To Police: Get A Warrant To Search Computers And Mobile Phones - Data Protection - Canada](http://www.mondaq.com/canada/x/274424/Data+Protection+Privacy/Supreme+Court+Of+Canada+To+Police+Get+A+Warrant+To+Search+Computers+And+Mobile+Phones)  _(tags: cdnpoli, cdntech, tweet)_
+- 2013-11-13: [Fabulous healthcare big data partnerships announce](http://m.whitehouse.gov/sites/default/files/microsites/ostp/Data2Action%20Announcements.pdf)  _(tags: bluebutton, tweet)_
+- 2013-11-13: [Chromium Blog: Portable Native Client: The "pinnacle" of speed, security, and portability](http://blog.chromium.org/2013/11/portable-native-client-pinnacle-of.html)  _(tags: tweet)_
+- 2013-11-13: [Building up to a Point via Adjunctions - School of Haskell | FP Complete](https://www.fpcomplete.com/user/gbaz/building-up-to-a-point-via-adjunctions)  _(tags: haskell, tweet)_
+- 2013-11-12: [The Plan | Luke Palmer](http://lukepalmer.wordpress.com/2013/04/01/the-plan/)  _(tags: no_tag)_
+- 2013-11-12: [There is hope for secure programming in JavaScript](https://research.microsoft.com/en-us/um/people/nswamy/papers/gradual-typing-embedded-securely-in-javascript-draft.pdf)  _(tags: tweet)_
+- 2013-11-12: [Slides: Mobile is eating the world  &#8211;  Quartz](http://qz.com/145704/slides-mobile-is-eating-the-world/)  _(tags: tweet)_
+- 2013-11-12: [F*: A Verifying Compiler for ML Programs - Microsoft Research](http://research.microsoft.com/en-us/downloads/e9089b8e-8871-46a8-987b-75effdcf70e6/default.aspx)  _(tags: programming, research)_
+- 2013-11-12: [myHack Guide | myHack](http://myhack.sojugarden.com/guide/)  _(tags: mac, vm)_
+- 2013-11-12: [Mac OS X Snow Leopard in Virtualbox](http://virtualbox-snow-leopard.blogspot.com)  _(tags: no_tag)_
+- 2013-11-12: [It’s Done, Install Mac Snow Leopard 10.6.3 on Oracle VirtualBox 3.2 in Non Apple, Intel PC](http://www.sysprobs.com/install-mac-snow-leopard-1063-oracle-virtualbox-32-apple-intel-pc)  _(tags: no_tag)_
+- 2013-11-12: [I am getting stuck at "Waiting for DSMOS" or "DSMOS has arrived" - Technical FAQ - InsanelyMac Forum](http://www.insanelymac.com/forum/topic/278692-i-am-getting-stuck-at-waiting-for-dsmos-or-dsmos-has-arrived/)  _(tags: no_tag)_
+- 2013-11-12: [DSDT - OSx86](http://wiki.osx86project.org/wiki/index.php/DSDT)  _(tags: mac, vm)_
+- 2013-11-11: [Developing Facebook's New Photo Viewer](http://www.facebook.com/notes/facebook-engineering/developing-facebooks-new-photo-viewer/499447633919)  _(tags: no_tag)_
+- 2013-11-11: [More Beautiful Photos](http://www.facebook.com/notes/facebook/more-beautiful-photos/432670242130)  _(tags: digital, media, photos, collaboration, family)_
+- 2013-11-11: [MadMode: All knotted up about media management | Code](http://www.madmode.com/2009/advogato_entry0070.html)  _(tags: mac, digital, media, photos)_
+- 2013-11-11: [Compare MD5 of ADC's 10a432 with Retailing DVD? [Archive] - MacRumors Forums](http://forums.macrumors.com/archive/index.php/t-774186.html)  _(tags: mac, vm, linux)_
+- 2013-11-11: [Mac OS X: Requirements for Quartz Extreme and Core Image graphics](http://support.apple.com/kb/ht1582)  _(tags: mac, vm)_
+- 2013-11-11: [Bless System in Mac OS X, if your partition won't boot: | Ubuntu Linux Elementary OS Luna Help and Advice](http://wilkiecat.wordpress.com/2012/02/03/bless-system-in-mac-os-x-if-your-partition-wont-boot/)  _(tags: mac, vm)_
+- 2013-11-11: [IETF 88 Technical Plenary: Hardening The Internet - YouTube](https://www.youtube.com/watch?v=oV71hhEpQ20#t=1507)  _(tags: snowden, tweet)_
+- 2013-11-11: [haxney/speculate · GitHub](https://github.com/haxney/speculate)  _(tags: rustlang, tweet)_
+- 2013-11-11: [10.6.8 update causes many problems](http://www.tonymacx86.com/snow-leopard-desktop-support/97081-10-6-8-update-causes-many-problems.html)  _(tags: mac, vm)_
+- 2013-11-11: [[SOLVED] SL install unable to Bless - OSx86 10.6 (Snow Leopard) - InsanelyMac Forum](http://www.insanelymac.com/forum/topic/184060-solved-sl-install-unable-to-bless/)  _(tags: mac, vm)_
+- 2013-11-11: [Issue 390 - xnu-dev - Kernel Panic VM_Page_Set_Colors - A fork of the Apple® Darwin XNU kernel for generic x86 PCs - Google Project Hosting](http://code.google.com/p/xnu-dev/issues/detail?id=390)  _(tags: vm, mac)_
+- 2013-11-11: [Snow leopard on ubuntu using virtual box | SOLANCER](http://solancer.blogspot.com/2011/05/snow-leopard-on-ubuntu-using-virtual.html)  _(tags: no_tag)_
+- 2013-11-11: [Neil Mitchell's Haskell Blog: Exploding Patterns in FilePath](http://neilmitchell.blogspot.com/2007/04/exploding-patterns-in-filepath.html)  _(tags: programming, quality)_
+- 2013-11-11: [How to install Mac OS X Snow Leopard in Virtualbox [Windows]](http://www.macbreaker.com/2012/02/snow-leopard-virtualbox.html)  _(tags: mac, vm)_
+- 2013-11-10: [free](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0)  _(tags: vm)_
+- 2013-11-10: [OSX86/Hackint0sh | Prasys' Blog](http://prasys.info/osx86hackint0sh/)  _(tags: vm, mac, hardware)_
+- 2013-11-10: [Converting .dmg to .iso file in Ubuntu Linux ~ Daily Technologies Update](http://dailytechnologiesupdate.blogspot.com/2011/11/converting-dmg-to-iso-file-in-ubuntu.html)  _(tags: no_tag)_
+- 2013-11-09: [The Best Photo Management App for Linux](http://lifehacker.com/5877908/the-best-photo-management-app-for-linux)  _(tags: photos, linux)_
+- 2013-11-09: [Google Play](https://play.google.com/store/order?order=15731260465432498277.1546182967160260)  _(tags: no_tag)_
+- 2013-11-09: [MacBook - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/MacBook)  _(tags: no_tag)_
+- 2013-11-09: [OS X Mavericks - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/OS_X_Mavericks)  _(tags: mac)_
+- 2013-11-09: [Save Students a Billion Dollars](http://www.slideshare.net/txtbks/billion-dollar-keynote)  _(tags: opened13, tweet)_
+- 2013-11-09: [Home - schema.org](http://schema.org)  _(tags: tweet)_
+- 2013-11-08: [Mathigon | World of Mathematics](http://world.mathigon.org)  _(tags: tweet)_
+- 2013-11-08: [Is Code the Most Important Language in the World? | Off Book | PBS Digital Studios - YouTube](http://www.youtube.com/watch?v=Vxv0-sggnqA&utm_source=buffer&utm_campaign=Buffer&utm_content=bufferdf399&utm_medium=twitter)  _(tags: tweet)_
+- 2013-11-08: [I accidentally a thing about 's immutable List. Um](https://raw.github.com/tpolecat/examples/master/doc/List.pdf)  _(tags: scala, tweet)_
+- 2013-11-08: [The Web: on Mobile and Beyond](http://www.w3.org/2013/Talks/dhm-mobicase/)  _(tags: tweet)_
+- 2013-11-08: [Efficient float32 arithmetic in JavaScript | JavaScript](https://blog.mozilla.org/javascript/2013/11/07/efficient-float32-arithmetic-in-javascript/)  _(tags: tweet)_
+- 2013-11-08: [Accepted Papers | International Semantic Web Conference 2013](http://iswc2013.semanticweb.org/content/accepted-papers)  _(tags: iswc2013, tweet)_
+- 2013-11-07: [Tim Berners-Lee: encryption cracking by spy agencies 'appalling and foolish' | World news | The Guardian](http://www.theguardian.com/world/2013/nov/06/tim-berners-lee-encryption-spy-agencies)  _(tags: tweet)_
+- 2013-11-07: [Oscar Health Insurance for New York](https://www.hioscar.com)  _(tags: tweet)_
+- 2013-11-07: [Help Us Help Molly Holzschlag   by Brian Keith Sullivan - GoFundMe](http://www.gofundme.com/HelpUsHelpMolly)  _(tags: tweet)_
+- 2013-11-07: [We&#039;re About to Lose Net Neutrality &mdash; And the Internet as We Know It | Wired Opinion | Wired.com](http://www.wired.com/opinion/2013/11/so-the-internets-about-to-lose-its-net-neutrality/)  _(tags: netneutrality, tweet)_
+- 2013-11-07: [Health Care After The Deluge - Defrag 2013](http://www.slideshare.net/wilbanks/defrag-wilbanks)  _(tags: defragcon, tweet)_
+- 2013-11-07: [syntax - Error with varargs for function-objects in Scala? - Stack Overflow](http://stackoverflow.com/questions/8623126/error-with-varargs-for-function-objects-in-scala)  _(tags: no_tag)_
+- 2013-11-06: [futex(7) - Linux manual page](http://man7.org/linux/man-pages/man7/futex.7.html)  _(tags: no_tag)_
+- 2013-11-06: [Genode - How to use Genode with the NOVA hypervisor](http://genode.org/documentation/platforms/nova)  _(tags: no_tag)_
+- 2013-11-06: [Giving it away? Part 2: On microkernels and the national interest | microkerneldude](http://microkerneldude.wordpress.com/2012/10/02/giving-it-away-part-2-on-microkernels-and-the-national-interes/)  _(tags: vm, security, capabilities, programming, research, quality)_
+- 2013-11-06: [Preemption (computing) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Preemption_(computing))  _(tags: programming, research)_
+- 2013-11-05: [Information: Google Galaxy Nexus (GSM) ("maguro") - CyanogenMod](http://wiki.cyanogenmod.org/w/Maguro_Info)  _(tags: no_tag)_
+- 2013-11-05: [Zeros in JavaScript](http://zero.milosz.ca)  _(tags: tweet, programming, quality, javascript)_
+- 2013-11-05: [Meetings &mdash; SecKC | Kansas City&#039;s Premier Infosec Meetup](http://SecKC.org/registration/)  _(tags: seckc, tweet)_
+- 2013-11-05: [Tesco's plan to tailor adverts via facial recognition stokes privacy fears | Business | theguardian.com](http://www.theguardian.com/business/2013/nov/03/privacy-tesco-scan-customers-faces)  _(tags: tweet)_
+- 2013-11-05: [Offices For All! Why Open-Office Layouts Are Bad For Employees, Bosses, And Productivity | Fast Company | Business + Innovation](http://www.fastcompany.com/3019758/dialed/offices-for-all-why-open-office-layouts-are-bad-for-employees-bosses-and-productivity?utm_source=buffer&utm_campaign=Buffer&utm_content=buffer7aa08&utm_medium=twitter)  _(tags: tweet)_
+- 2013-11-05: [fantasyland (Fantasy Land) · GitHub](https://github.com/fantasyland)  _(tags: javascript, tweet, programming, quality)_
+- 2013-11-04: [Pacific Northwest Scala 2013 We're Doing It All Wrong by Paul Phillips - YouTube](http://www.youtube.com/watch?v=TS1lpKBMkgg)  _(tags: programming, research, video, presentation)_
+- 2013-11-04: [Linux rpm cheat sheet](http://www.cyberciti.biz/howto/question/linux/linux-rpm-cheat-sheet.php)  _(tags: sysadmin)_
+- 2013-11-04: [KeePassX – Frequently Asked Questions](http://www.keepassx.org/faq/#q_3)  _(tags: no_tag)_
+- 2013-11-04: [KeePass 2 AppIndicator Extension For Ubuntu - 推酷](http://www.tuicool.com/articles/Eb2e2u)  _(tags: no_tag)_
+- 2013-11-04: [Bug #1116512 “Double-clicking password entry from overview freez...” : Bugs : “keepass2” package : Ubuntu](https://bugs.launchpad.net/ubuntu/+source/keepass2/+bug/1116512)  _(tags: no_tag)_
+- 2013-11-04: [[SOLVED] Problems LDAP and SSH](http://ubuntuforums.org/showthread.php?t=1432469)  _(tags: no_tag)_
+- 2013-11-04: [Wayback Machine, Use in Proxy Mode - Archive-It Help - IA Webteam Confluence](https://webarchive.jira.com/wiki/display/ARIH/Wayback+Machine%2C+Use+in+Proxy+Mode)  _(tags: tweet)_
+- 2013-11-03: [PLOS Biology: The Assessment of Science: The Relative Merits of Post-Publication Review, the Impact Factor, and the Number of Citations](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001675)  _(tags: tweet)_
+- 2013-11-02: [Events Calendar](http://www.practicalbioethics.org/events-education/events-calendar)  _(tags: centerforpracticalbioethics, tweet)_
+- 2013-11-02: [Breaking the 1000 ms mobile barrier - Velocity NYC 2013 - YouTube](http://www.youtube.com/watch?v=I4vX-twze9I)  _(tags: tweet)_
+- 2013-11-02: [America labelled by an Austral](http://24.media.tumblr.com/5600829df2c14cb1fb12bde5e1c662f4/tumblr_mvdkh4QXi51qm7oolo1_1280.jpg)  _(tags: tweet)_
+- 2013-11-02: [paf31/purescript · GitHub](https://github.com/paf31/purescript)  _(tags: tweet)_
+- 2013-11-02: [Plenary on Internet Hardening | IETF Blog](https://www.ietf.org/blog/2013/10/plenary-on-internet-hardening/)  _(tags: tweet)_
+- 2013-11-02: [Running the diginorm paper script pipeline &mdash; ANGUS 2.0 documentation](http://ged.msu.edu/angus/diginorm-2012/pipeline-notes.html)  _(tags: tweet)_
+- 2013-11-01: [Lightbeam for Firefox: Privacy Education for Users &amp; Open Data for Publishers | The Mozilla Blog](https://blog.mozilla.org/blog/2013/10/25/lightbeam-for-firefox-privacy-education-for-users-open-data-for-publishers/)  _(tags: tweet)_
+- 2013-11-01: [Code behind this comp-bio paper (,  et al) is on g](http://arxiv.org/pdf/1203.4802v2.pdf)  _(tags: tweet)_

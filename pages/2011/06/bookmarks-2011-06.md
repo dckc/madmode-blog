@@ -1,0 +1,109 @@
+---
+title: June 2011 Bookmarks: programming, ubuntu, and music
+date: 2011-06-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "android", "cloud", "collaboration", "college", "css", "data", "design", "diy", "economics", "education", "feed", "finance", "games", "geo", "graphics", "gtd", "hardware", "health", "home", "java", "javascript", "kc", "kumc", "learning", "linux", "mac", "me", "microformats", "mobile", "movies", "music", "oracle", "paper", "performance", "phone", "photos", "politics", "programming", "publishing", "python", "quality", "review", "rootstrikers", "scala", "scm", "security", "shopping", "sql", "standards", "sysadmin", "ubuntu", "video", "wiki", "world"]
+---
+
+Shared bookmarks saved in June 2011.
+
+- total bookmarks: 95
+- total annotations captured: 25
+
+## Links
+
+- 2011-06-29: [Firefox update policy: the enterprise is wrong, not Mozilla](http://arstechnica.com/business/news/2011/06/firefox-update-policy-the-enterprise-is-wrong-not-mozilla.ars/2)  _(tags: no_tag)_
+- 2011-06-28: [BIRT Project - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/BIRT_Project)  _(tags: programming, data)_
+- 2011-06-28: [Anzo Connect: Semantic Web ETL in 5 Minutes - TechnicaLee Speaking](http://www.thefigtrees.net/lee/blog/2011/06/anzo_connect_semantic_web_etl.html)  _(tags: tweet)_
+- 2011-06-28: [Maker Faire at Union Station showcases magic of creativity - KansasCity.com - dalepd | Dale Dougherty](http://dalepd.com/maker-faire-at-union-station-showcases-magic)  _(tags: tweet)_
+- 2011-06-28: [Ex-Lehman chief risk officer appointed World Bank treasurer](http://www.bankingtimes.co.uk/2011/06/25/ex-lehman-chief-risk-officer-appointed-world-bank-treasurer)  _(tags: rootstrikers, tweet)_
+- 2011-06-28: [Congress, put country first: End oil subsidies - SignOnSanDiego.com](http://www.signonsandiego.com/news/2011/jun/26/put-country-first-end-oil-subsidies)  _(tags: tweet)_
+- 2011-06-26: [[ubuntu] ipod touch 3rd gen won't mount in ubuntu 10.04 - Ubuntu Forums](http://ubuntuforums.org/showthread.php?t=1677258)  _(tags: ubuntu, sysadmin, ipod, mac, music)_
+- 2011-06-26: [Internet and e-mail policy and practice](http://jl.ly/ICANN/boondoggle.html?seemore=y)  _(tags: no_tag)_
+- 2011-06-23: [Bug #762918 in gnome-screensaver (Ubuntu): “Natty Screensaver freezes system after some period of inactivity”](https://bugs.launchpad.net/ubuntu/+source/gnome-screensaver/+bug/762918)  _(tags: ubuntu, sysadmin)_
+- 2011-06-23: [Modern community building - Joel on Software](http://www.joelonsoftware.com/items/2011/05/26.html)  _(tags: collaboration)_
+- 2011-06-23: [It's Not Just Usability - Joel on Software](http://www.joelonsoftware.com/articles/NotJustUsability.html)  _(tags: no_tag)_
+- 2011-06-22: [A Citizen's Guide to Radon | Radon | US EPA](http://www.epa.gov/radon/pubs/citguide.html#howtotest)  _(tags: no_tag)_
+- 2011-06-22: [Setting up OFXDirectConnect in GnuCash 2 - GnuCash](http://wiki.gnucash.org/wiki/Setting_up_OFXDirectConnect_in_GnuCash_2)  _(tags: finance, linux)_
+- 2011-06-22: [Yodlee MoneyCenter Review - Yodlee MoneyCenter Online Personal Finance Software](http://financialsoft.about.com/od/onlinesoftware/gr/Yodlee-Moneycenter-Review.htm)  _(tags: cloud, finance)_
+- 2011-06-21: [WiGit: A Simple Git-based Wiki | El Tramo](http://el-tramo.be/software/wigit)  _(tags: web, publishing, scm, wiki)_
+- 2011-06-21: [JavaRanch Journal - March 2006 Volume 5 Issue 2](http://www.javaranch.com/journal/200603/Journal200603.jsp#a5)  _(tags: web, programming, java)_
+- 2011-06-21: [Bowler - RESTful Scala Web Framework](http://bowlerframework.org)  _(tags: web, scala, programming)_
+- 2011-06-21: [An American robs a bank of $1, just for free health care in jail - Shareables](http://thenextweb.com/shareables/2011/06/20/an-american-robs-a-bank-of-1-just-for-free-health-care-in-jail)  _(tags: tweet)_
+- 2011-06-21: [YouTube        - &#x202a;Y Combinator&#39;s Graham Says Startups Must Improve Lives&#x202c;&rlm;](http://www.youtube.com/watch?v=2lcp0uZsY7k)  _(tags: tweet)_
+- 2011-06-21: [YouTube        - &#x202a;The Truth About the Economy&#x202c;&rlm;](http://www.youtube.com/watch?v=JTzMqm2TwgE&feature=autoshare)  _(tags: tweet)_
+- 2011-06-21: [Asciiflow - ASCII Flow Diagram Tool](http://www.asciiflow.com)  _(tags: tweet)_
+- 2011-06-21: [[Widgets] URI spec needs HTTP responses and dereferencing model from Marcos Caceres on 2011-06-09 (public-webapps@w3.org from April to June 2011)](http://lists.w3.org/Archives/Public/public-webapps/2011AprJun/0973.html)  _(tags: tweet)_
+- 2011-06-21: [The Babbage Files: Emacs user at work](http://babbagefiles.blogspot.com/2011/06/emacs-user-at-work.html)  _(tags: tweet)_
+- 2011-06-21: [igoeIP Apple Patent Blog: If you did not patent it, Apple did not &quot;steal&quot; it.](http://www.applepatent.com/2011/06/if-you-did-not-patent-it-apple-did-not.html)  _(tags: tweet)_
+- 2011-06-21: [Rattle and thumb: NHL star picks up U2 hitchhiker](http://www.canada.com/sports/Rattle+thumb+star+picks+hitchhiker/4881064/story.html)  _(tags: tweet)_
+- 2011-06-21: [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)  _(tags: no_tag)_
+- 2011-06-20: [BBC News - World's oceans in 'shocking' decline](http://www.bbc.co.uk/news/science-environment-13796479)  _(tags: world)_
+- 2011-06-20: [html - Button inside of anchor link works in Firefox but not in Internet Explorer? - Stack Overflow](http://stackoverflow.com/questions/802839/button-inside-of-anchor-link-works-in-firefox-but-not-in-internet-explorer)  _(tags: web, design, standards)_
+- 2011-06-20: [javascript - Why does everyone like jQuery more than prototype/script.aculo.us or MooTools or whatever? - Stack Overflow](http://stackoverflow.com/questions/176324/why-does-everyone-like-jquery-more-than-prototype-script-aculo-us-or-mootools-or)  _(tags: programming, javascript)_
+- 2011-06-19: [Publications | Andreas Gal](http://andreasgal.com/publications)  _(tags: security, quality)_
+- 2011-06-18: [HP 1040 Fax series overview - HP Small & Medium Business products](http://h10010.www1.hp.com/wwpc/us/en/sm/WF05a/15179-15179-64176-12137-64346-424308.html)  _(tags: paper, hardware)_
+- 2011-06-18: [Google Voice (Transfer to another Google Account) - Google Voice Help](http://www.google.tk/support/forum/p/voice/thread?tid=44223c7f4c6ff4d1&hl=en&start=120)  _(tags: someday, cloud, home, phone)_
+- 2011-06-18: [Receiving a phone call in Gmail - Google Chat Help](http://www.google.com/support/chat/bin/answer.py?answer=187936)  _(tags: cloud, home, phone)_
+- 2011-06-18: [Number Porting FAQS : Number Porting - Google Voice Help](http://www.google.com/support/voice/bin/answer.py?hl=en&answer=1065667#About number porting)  _(tags: cloud, home, phone)_
+- 2011-06-17: [GNOME color-picker-applet (Page 1) / Newbie Corner / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=106205)  _(tags: ubuntu, sysadmin, web, design)_
+- 2011-06-17: [[SOLVED] "No valid VPN secrets" - Ubuntu Forums](http://ubuntuforums.org/showthread.php?t=1564642)  _(tags: ubuntu, sysadmin, kumc)_
+- 2011-06-16: [Microformats 2 and RDFa Collaboration | The Beautiful, Tormented Machine](http://manu.sporny.org/2011/microformats-2)  _(tags: web, data)_
+- 2011-06-16: [Why using Maven for Clojure builds is a no-brainer | cemerick](http://cemerick.com/2010/03/25/why-using-maven-for-clojure-builds-is-a-no-brainer)  _(tags: programming, java)_
+- 2011-06-16: [Programming and software development, medium-rare | cemerick](http://cemerick.com/2010/07/15/programming-and-software-development-medium-rare)  _(tags: no_tag)_
+- 2011-06-16: [JPype - Java to Python integration](http://jpype.sourceforge.net)  _(tags: programming, java, python)_
+- 2011-06-16: [The placebo effect is what makes the software world go ’round | cemerick](http://cemerick.com/2010/09/07/the-placebo-effect-is-what-makes-the-software-world-go-round)  _(tags: no_tag)_
+- 2011-06-16: [behind the times: 10 Second Code Review](http://hamletdarcy.blogspot.com/2009/07/10-second-code-review.html)  _(tags: programming, java, quality)_
+- 2011-06-15: [Chapter 2. The JBoss Server - A Quick Tour](http://docs.jboss.org/jbossas/getting_started/v5/html/tour.html)  _(tags: no_tag)_
+- 2011-06-15: [ssh 'connection reset by peer' problem since 5.8p1](http://lists.mindrot.org/pipermail/openssh-unix-dev/2011-February/029379.html)  _(tags: sysadmin)_
+- 2011-06-15: [Who's Who on #scala &mdash; Gist](https://gist.github.com/1025321)  _(tags: scala, tweet)_
+- 2011-06-15: [Design-Side Includes (DSI) • Open Source (free) Web Content Reuser Utility](http://www.centerkey.com/dsi)  _(tags: web, publishing, performance)_
+- 2011-06-15: [KU Medical Center wins $20 million grant from National Institutes of Health - KansasCity.com](http://www.kansascity.com/2011/06/14/2950924/ku-school-of-medicine-wins-20.html)  _(tags: kc, kumc, nih, ctsa)_
+- 2011-06-15: [Debating the Value of College in America : The New Yorker](http://www.newyorker.com/arts/critics/atlarge/2011/06/06/110606crat_atlarge_menand?currentPage=all)  _(tags: education, college, learning, america, economics)_
+- 2011-06-15: [Reinventing Fire » Blog Archive » The Timble](http://schepers.cc/timble#comment-871)  _(tags: no_tag)_
+- 2011-06-15: [the best goal is no goal | zen habits](http://zenhabits.net/no-goal)  _(tags: gtd)_
+- 2011-06-14: [ssh 'connection reset by peer' problem since 5.8p1](http://lists.mindrot.org/pipermail/openssh-unix-dev/2011-February/029392.html)  _(tags: web, ubuntu)_
+- 2011-06-14: [Why pay when some sites are free?](http://www.smugmug.com/photos/photo-sharing-sites-compared)  _(tags: photos, cloud)_
+- 2011-06-13: [How To Change Your Lawn Mower Oil](http://www.bladeslawncare.com/mowers/lawnmoweroilchange.html)  _(tags: diy)_
+- 2011-06-11: [David Janes' Code Weblog » AUMFP – The Almost Universal Microformats Parser](http://code.davidjanes.com/blog/?p=14)  _(tags: programming, microformats, python)_
+- 2011-06-11: [Map Boundaries of the United States](http://www.mapboundary.com)  _(tags: geo, map)_
+- 2011-06-11: [Brother DR520 (25,000 YLD) Replacement Drum Cartridge:Amazon:Electronics](http://www.amazon.com/gp/aw/d/B000BQ818G/ref=redir_mdp_mobile/176-0238836-8846970)  _(tags: shopping, someday, paper)_
+- 2011-06-11: [Jake Shimabukuro plays "Bohemian Rhapsody" | Video on TED.com](http://www.ted.com/talks/jake_shimabukuro_plays_bohemian_rhapsody.html)  _(tags: music)_
+- 2011-06-10: [Shotwell](http://yorba.org/shotwell)  _(tags: photos, programming)_
+- 2011-06-10: [Upgrade From Leopard to Lion: Apple Support Communities](https://discussions.apple.com/message/15374112)  _(tags: mac, sysadmin)_
+- 2011-06-10: [How Obama Let Wall Street Pull an Inside Job (AAPL, BAC, GS, IBM, JPM, MSFT, XRX)](http://www.fool.com/investing/general/2010/09/30/how-obama-let-wall-street-pull-an-inside-job.aspx)  _(tags: america, movies, economics)_
+- 2011-06-10: [Alex Moore: Inside Job Director: 'Obama Blew it'](http://www.huffingtonpost.com/alex-moore/inside-job-director-obama_b_746110.html)  _(tags: america, movies, economics)_
+- 2011-06-10: [A List Apart: Articles: Responsive Web Design](http://www.alistapart.com/articles/responsive-web-design)  _(tags: css, design, web)_
+- 2011-06-10: [typesafe's blog - Home](http://blog.typesafe.com)  _(tags: programming, performance)_
+- 2011-06-10: [CSS Gradient Background Maker](http://ie.microsoft.com/testdrive/Graphics/CSSGradientBackgroundMaker/Default.html)  _(tags: web, design)_
+- 2011-06-10: [bbum's weblog-o-mat » Blog Archive » AppleScript for the rest of us](http://www.friday.com/bbum/2006/03/24/applescript-for-the-rest-of-us)  _(tags: mac, music, programming)_
+- 2011-06-10: [Playlick](http://www.playlick.com)  _(tags: mac, music)_
+- 2011-06-10: ["It Just Works."](http://techcrunch.com/2011/06/08/apple-icloud-google-cloud)  _(tags: mac, web, cloud)_
+- 2011-06-10: [Samsung gift to Cyanogen modders: Free phones | Crave - CNET](http://news.cnet.com/8301-17938_105-20070069-1/samsung-gift-to-cyanogen-modders-free-phones/?part=rss&tag=feed&subj=AndroidAtlas)  _(tags: android, mobile)_
+- 2011-06-08: [Schema.org and Pre-Existing Communities](http://hsivonen.iki.fi/schema-org-and-communities)  _(tags: tweet)_
+- 2011-06-08: [Schema.org | groups.drupal.org](http://groups.drupal.org/node/153354#comment-514684)  _(tags: web, data)_
+- 2011-06-08: [Converting or Importing Windows Media player playlists to iTunes Playlists - iLounge Forums](http://forums.ilounge.com/itunes-mac-pc/186915-converting-importing-windows-media-player-playlists-itunes-playlists.html)  _(tags: music, mac)_
+- 2011-06-08: [Mental Benefits of Walking | Emotional Benefits of Exercise | Arthritis Today Magazine](http://www.arthritistoday.org/fitness/walking/tips-and-strategies/mental-benefits-of-walking.php)  _(tags: health)_
+- 2011-06-08: [How To Move A Pool Table](http://www.pool-billiard-accessories.com/billiards/pool-tables/how-to-move-a-pool-table-or-billiards)  _(tags: diy)_
+- 2011-06-08: [Amazing Moving Prices! - Easy Moves](http://www.easymoveskc.com/pricing.htm)  _(tags: kc)_
+- 2011-06-07: [Samushka: Installing Oracle SQL Developer in Ubuntu](http://samushka.blogspot.com/2009/04/installing-oracle-sql-developer-on.html)  _(tags: ubuntu, oracle, sql, programming)_
+- 2011-06-04: [S.750: Fair Elections Now Act - U.S. Congress - OpenCongress](http://www.opencongress.org/bill/112-s750/show)  _(tags: america, economics, politics)_
+- 2011-06-04: [An extraordinary documentary about influence and government](http://fixcongressfirst.org/blog/2010/an-extraordinary-documentary-about-influence-and-g)  _(tags: america, economics, politics, movies, ****)_
+- 2011-06-04: [Fair Elections Now](http://fairelectionsnow.org/progress/7718/candidate/by-state/ks)  _(tags: america, economics, politics, kc)_
+- 2011-06-04: [dckc's Profile - OpenCongress](http://www.opencongress.org/users/dckc/profile)  _(tags: america, me, profile)_
+- 2011-06-04: [FontStruct | Build, Share, Download Fonts](http://fontstruct.com)  _(tags: fonts, design)_
+- 2011-06-04: [GIMP Video Tutorials](http://www.designyourownweb.com/gimp-tutorial.htm)  _(tags: tutorial, design, video, graphics)_
+- 2011-06-04: [12 Amazing and Creative Javascript Games | Queness](http://www.queness.com/post/2584/12-amazing-and-creative-javascript-games)  _(tags: javascript, games, programming)_
+- 2011-06-04: [JS WARS - Jonas Wagner's Blog](http://29a.ch/jswars)  _(tags: javascript, games, programming)_
+- 2011-06-04: [JavaScript Kit- Games scripts](http://www.javascriptkit.com/script/cutindex22.shtml)  _(tags: javascript, games, programming)_
+- 2011-06-04: [RemoteDroid » Use your Android phone as a wireless keyboard and mouse to remote control your computer](http://www.remotedroid.net)  _(tags: android, mac, sysadmin)_
+- 2011-06-04: [The Loudness War Analyzed « Music Machinery](http://musicmachinery.com/2009/03/23/the-loudness-war)  _(tags: music)_
+- 2011-06-04: [Playing with Playdar « Music Machinery](http://musicmachinery.com/2009/10/18/playing-with-playdar)  _(tags: music, programming, feed)_
+- 2011-06-04: [Playdar - Music Content Resolver](http://www.playdar.org)  _(tags: music, data, cloud, collaboration)_
+- 2011-06-04: [phoshare - Exports and synchronizes images and metadata from iPhoto on a Mac - Google Project Hosting](http://code.google.com/p/phoshare)  _(tags: photos, sysadmin, mac, linux)_
+- 2011-06-03: [Using multiple profiles on Google Chrome : Using multiple accounts simultaneously - Accounts Help](http://www.google.com/support/accounts/bin/answer.py?answer=179236)  _(tags: web, sysadmin)_
+- 2011-06-03: [KC pipefitters union strikes over benefits, pension issues - KansasCity.com](http://www.kansascity.com/2011/06/02/2922540/kc-pipefitters-union-strikes-over.html)  _(tags: kc, kumc)_
+- 2011-06-03: [Inside Job (film) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Inside_Job_(film))  _(tags: ****, movie, review, america, economics, world)_
+- 2011-06-01: [Official Google Blog: Ensuring your information is safe online](http://googleblog.blogspot.com/2011/06/ensuring-your-information-is-safe.html)  _(tags: android, done, security, cloud)_
+- 2011-06-01: [Google Authenticator - Android Market](https://market.android.com/details?id=com.google.android.apps.authenticator)  _(tags: android, someday, security)_
+- 2011-06-01: [Welcome to Firefox Sync](http://www.mozilla.com/en-US/firefox/sync/firstrun.html)  _(tags: sysadmin)_

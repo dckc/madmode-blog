@@ -1,0 +1,144 @@
+---
+title: January 2013 Bookmarks: aaron, swartz, and security
+date: 2013-01-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "android", "calendar", "collaboration", "data", "digital", "economics", "fail", "finances", "hardware", "haskell", "health", "history", "html", "javascript", "logic", "media", "mobile", "movies", "music", "open-source", "pc", "presentation", "programming", "publishing", "python", "quality", "research", "scm", "security", "shopping", "sysadmin", "ubuntu", "video", "world", "writing"]
+---
+
+Shared bookmarks saved in January 2013.
+
+- total bookmarks: 130
+- total annotations captured: 57
+
+## Links
+
+- 2013-01-31: [The Future Of The Web &mdash; A Draft &ndash; TNG - The Nitty Gritty](http://thenittygritty.co/the-future-of-the-web-a-draft)  _(tags: tweet)_
+- 2013-01-31: [Dropbox Release Feature Update Focusing on Content Instead of Files - Liz Gannes - News - AllThingsD](http://allthingsd.com/20130130/whats-next-for-dropbox-this-year-content-instead-of-files/?mod=atdtweet)  _(tags: tweet)_
+- 2013-01-29: [DivConq Framework](http://www.divconq.com)  _(tags: no_tag)_
+- 2013-01-29: [Seth's Blog: Eleven things organizations can learn from airports](http://sethgodin.typepad.com/seths_blog/2013/01/ten-things-organizations-can-learn-from-airports-.html)  _(tags: tweet)_
+- 2013-01-29: [http://guppylake.com/nsb/pubs/](http://guppylake.com/nsb/pubs/)  _(tags: no_tag)_
+- 2013-01-28: [Drupal version control - professional development - Drupal Answers](http://drupal.stackexchange.com/questions/11293/drupal-version-control-professional-development)  _(tags: drupal, publishing, scm, quality)_
+- 2013-01-28: [The Monad.Reader/Issue3/Notes on Learning Haskell - HaskellWiki](http://www.haskell.org/haskellwiki/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell)  _(tags: no_tag)_
+- 2013-01-28: [Nine by Nine: Semantic Web Inference using Haskell](http://www.ninebynine.org/Software/swish-0.1.html)  _(tags: programming, data, haskell)_
+- 2013-01-28: [PHP - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/PHP)  _(tags: no_tag)_
+- 2013-01-28: [Integrating the World Wide Web and database technology](http://cat.inist.fr/?aModele=afficheN&cpsidt=3207746)  _(tags: no_tag)_
+- 2013-01-28: [Web Database Construction Kit with Cold Fusion 2.0, with CD-ROM](http://dl.acm.org/citation.cfm?id=548141)  _(tags: no_tag)_
+- 2013-01-28: [Database Transaction Models for Advanced Applications (The Morgan Kaufmann Series in Data Management Systems): Ahmed K. Elmagarmid: 9781558602144: Amazon.com: Books](http://www.amazon.com/Database-Transaction-Advanced-Applications-Management/dp/1558602143/ref=sr_1_1?ie=UTF8&qid=1359341631&sr=8-1&keywords=Database+transaction+models+for+advanced+applications+Elmagarmid)  _(tags: no_tag)_
+- 2013-01-28: [FoRK Archive: Re: Caching](http://www.xent.com/FoRK-archive/sept99/0696.html)  _(tags: no_tag)_
+- 2013-01-27: [OpenMarket - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/OpenMarket)  _(tags: web, history)_
+- 2013-01-27: [AOLserver - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/AOLserver)  _(tags: no_tag)_
+- 2013-01-27: [jwz: Happy Run Some Old Web Browsers Day!](http://www.jwz.org/blog/2008/03/happy-run-some-old-web-browsers-day/)  _(tags: web, history)_
+- 2013-01-27: [Killer Products: Netsite](http://home.mcom.com/MCOM/products_docs/server.html)  _(tags: web, history)_
+- 2013-01-27: [How a photo food diary app may help you to lose weight: » taylor-made fitness](http://www.taylormadefitness.biz/18/01/2013/how-a-photo-food-diary-app-may-help-you-to-lose-weight/828/)  _(tags: health, mobile)_
+- 2013-01-26: [Google Drive for Linux](https://tools.google.com/dlpage/drive/?hl=en#eula)  _(tags: no_tag)_
+- 2013-01-26: [zestyping: Aaron Swartz.](http://wolog.net/259514.html)  _(tags: tweet)_
+- 2013-01-26: [Dale Dougherty: MAKE Division Spins Out From O&#39;Reilly Media as Separate Company - Yahoo! Finance - newsle](http://newsle.com/article/0/56814641/)  _(tags: tweet)_
+- 2013-01-26: [Aaron's Army](https://public.resource.org/aaron/army/)  _(tags: tweet)_
+- 2013-01-26: [iOS Automation and Workflows with Drafts](http://www.macstories.net/reviews/ios-automation-and-workflows-with-drafts/)  _(tags: tweet)_
+- 2013-01-26: [Why we spun out Maker Media   - O&#039;Reilly Radar](http://radar.oreilly.com/2013/01/why-we-spun-out-maker-media.html)  _(tags: tweet)_
+- 2013-01-26: [Urban Dictionary: ubuntu](http://www.urbandictionary.com/define.php?term=ubuntu)  _(tags: tweet)_
+- 2013-01-26: [Some evidence that "provable security" is negative](http://cr.yp.to/talks/2013.01.23/slides.pdf)  _(tags: tweet)_
+- 2013-01-26: [Tom Chiarella on the Happiness of Aaron Swartz - Aaron Swartz Eulogy - Esquire](http://www.esquire.com/_mobile/blogs/culture/happiness-aaron-swartz-eulogy-15013973?src=soc_fcbk)  _(tags: tweet)_
+- 2013-01-26: [[erlang-questions] hobbyists, erlang, elixir (was Improve $handle_undefined_function)](http://erlang.org/pipermail/erlang-questions/2013-January/071949.html)  _(tags: no_tag)_
+- 2013-01-26: [An Insight, An Idea with Tim Berners-Lee | World Economic Forum - An Insight, An Idea with Tim Berners-Lee](http://www.weforum.org/sessions/summary/insight-idea-tim-berners-lee)  _(tags: aaronswartz, davos, tweet, world)_
+- 2013-01-26: [Expecting Short Inferential Distances - Less Wrong](http://lesswrong.com/lw/kg/expecting_short_inferential_distances/)  _(tags: no_tag)_
+- 2013-01-26: [Survey: Americans Love Their Public Libraries | Common Dreams](https://www.commondreams.org/headline/2013/01/25-7)  _(tags: commons)_
+- 2013-01-26: [Google finally makes it easy to enable WebGL support in latest Chrome for Android beta - The Next Web](http://thenextweb.com/google/2013/01/25/google-finally-makes-it-easy-to-enable-webgl-support-in-latest-chrome-for-android-beta/?fromcat=all)  _(tags: mobile, web)_
+- 2013-01-26: [System.IO](http://hackage.haskell.org/packages/archive/base/latest/doc/html/System-IO.html#t:fixIO)  _(tags: no_tag)_
+- 2013-01-25: [eddology • by edd dumbill, An open access journal for Big Data](http://eddology.com/post/41253882293/big-data-journal)  _(tags: tweet)_
+- 2013-01-25: [The Archdruid Report: Restoring the Commons](http://thearchdruidreport.blogspot.com/2013/01/restoring-commons.html)  _(tags: tweet)_
+- 2013-01-25: [Actual Facebook Graph Searches](http://actualfacebookgraphsearches.tumblr.com)  _(tags: tweet)_
+- 2013-01-24: [MSI R6670-MD2GD3 Radeon HD 6670 2GB 128-bit DDR3 PCI Express 2.1 x16 HDCP Ready Video Card FRYS.com](http://www.frys.com/product/7106592)  _(tags: pc, hardware, shopping)_
+- 2013-01-24: [Gigabyte 760G, AMD Phenom II x6 1045T 2.7GHz processor, 2x Adata Premier SRS 4GB DDR3 1333Mhz Memory Module, Thermaltake V2 Plus Mid Tower Case w/450W PSU, & Kingwin 120MM Yellow LED Case Fan Bundle at TigerDirect.com](http://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=7620165&Sku=B69-0929&SRCCODE=LINKSHARE&cm_mmc_o=-ddCjC1bELltzywCjC-d2CjCdwwp&AffiliateID=lw9MynSeamY-n0UqoicpZb2rmoecQQ1pKw)  _(tags: pc, hardware, shopping)_
+- 2013-01-24: [Please don't help my kids](http://kottke.org/13/01/please-dont-help-my-kids)  _(tags: tweet)_
+- 2013-01-24: [January 22, 2013: To the MIT community - The Tech](http://tech.mit.edu/V132/N63/abelson.html)  _(tags: aaronswartz, tweet)_
+- 2013-01-24: [texlive.js](http://manuels.github.com/texlive.js/website/)  _(tags: tweet)_
+- 2013-01-24: [Inbox Zero for Life &ndash;         Keith Rarick](http://xph.us/2013/01/22/inbox-zero-for-life.html)  _(tags: tweet)_
+- 2013-01-24: [nealford.com • Why Everyone (Eventually) Hates (or Leaves) Maven](http://nealford.com/memeagora/2013/01/22/why_everyone_eventually_hates_maven.html)  _(tags: no_tag)_
+- 2013-01-24: [Lincoln (2012 film) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Lincoln_(2012_film))  _(tags: movies, america, ***)_
+- 2013-01-23: [CRUD Ain’t Hard | Dead Programmer's Cafe](http://www.deadprogrammer.com/crud-is-not-difficult)  _(tags: no_tag)_
+- 2013-01-22: [Ahmed Al-Khabaz expelled from Dawson College after finding security flaw | Canada | News | National Post](http://news.nationalpost.com/2013/01/20/youth-expelled-from-montreal-college-after-finding-sloppy-coding-that-compromised-security-of-250000-students-personal-data/)  _(tags: tweet)_
+- 2013-01-22: [Online shopping - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Online_shopping)  _(tags: no_tag)_
+- 2013-01-22: [Illustrated History of Web Forms](http://www.1stwebdesigner.com/inspiration/illustrated-history-of-web-forms/)  _(tags: web, history)_
+- 2013-01-21: [Official.fm Launches Its New Music Promotion Platform | TechCrunch](http://techcrunch.com/2012/04/23/official-fm-launches-its-new-music-promotion-platform/)  _(tags: collaboration, music)_
+- 2013-01-21: [Last.fm Music Manager](http://musicmanager.last.fm/manage/upload?)  _(tags: no_tag)_
+- 2013-01-21: [Online Calendar: Easy-to-Use Free Online Calendar](https://www.keepandshare.com/htm/calendars/online_calendar/best_free_online_calendar.php)  _(tags: collaboration, calendar)_
+- 2013-01-21: [Opentape](http://opentape.fm)  _(tags: music, collaboration)_
+- 2013-01-21: [Cutting with Novacut 12.04 in Novacut Artist Diaries on Vimeo](http://vimeo.com/groups/novacutartistdiaries/videos/41021504)  _(tags: video, editing, digital, media, open-source)_
+- 2013-01-21: [Vint Cerf appointed to National Science Board by P](http://t.co/1ozmAqRK)  _(tags: tweet)_
+- 2013-01-21: [Event Overview and Context | I Am Therefore IAuth](http://iauth.org/event-overview/)  _(tags: tweet)_
+- 2013-01-21: [Frequently Asked Questions about Ken](http://ai.eecs.umich.edu/~tpkelly/Ken/KenFAQ.html)  _(tags: no_tag)_
+- 2013-01-20: [[No Comment] | Carmen Ortiz Strikes Out, by Scott Horton | Harper&#039;s Magazine](http://harpers.org/blog/2013/01/carmen-ortiz-strikes-out/)  _(tags: swartz, tweet)_
+- 2013-01-20: [Internet Users Demand Less Interactivity | The Onion - America's Finest News Source](http://www.theonion.com/articles/internet-users-demand-less-interactivity,30920/)  _(tags: tweet)_
+- 2013-01-19: [That Loving Feeling Takes a Lot of Work - NYTimes.com](http://well.blogs.nytimes.com/2013/01/14/that-loving-feeling-takes-a-lot-of-work/?smid=tw-share)  _(tags: no_tag)_
+- 2013-01-19: [Predictions for 2013](https://freedom-to-tinker.com/blog/felten/predictions-for-2013/)  _(tags: no_tag)_
+- 2013-01-18: [[e-lang] Marketing (was: E syntax and the C tradition)](http://www.eros-os.org/pipermail/e-lang/2002-June/006771.html)  _(tags: no_tag)_
+- 2013-01-18: [USDOJ: US Attorney's Office - District of Massachusetts](http://www.justice.gov/usao/ma/news/2011/July/SwartzAaronPR.html)  _(tags: tweet)_
+- 2013-01-18: [Demand justice for Aaron:  Support &quot;Aaron&#39;s Law&quot; and inquiry into his prosecution | Demand Progress](http://act.demandprogress.org/letter/aaron_justice/)  _(tags: tweet)_
+- 2013-01-18: [Why I&#8217;ve also joined the good guys &laquo; Gowers&#039;s Weblog](http://gowers.wordpress.com/2013/01/16/why-ive-also-joined-the-good-guys/)  _(tags: tweet)_
+- 2013-01-18: [PythonVirtualEnvironment – KUMC BMI](https://informatics.kumc.edu/work/wiki/PythonVirtualEnvironment)  _(tags: tweet)_
+- 2013-01-18: [John's Combinatory Logic Playground](http://homepages.cwi.nl/~tromp/cl/cl.html)  _(tags: programming, research, logic)_
+- 2013-01-17: [How can I convert IMPUTE2 (.haps .sample) to PLINK (.map .ped)? - BioStar](http://www.biostars.org/p/17266/)  _(tags: health, research)_
+- 2013-01-17: [In Memory Of Aaron Swartz (Nov 8, 1986 -- Jan 11, 2013) - YouTube](https://www.youtube.com/watch?v=f_r8ajOQWiU)  _(tags: aaronswartz, tweet)_
+- 2013-01-17: [Health Design Challenge: d+collab // THE PATIENT RECORD](http://healthdesignchallenge.com/#showcase)  _(tags: tweet)_
+- 2013-01-17: [The Second Amendment was Ratified to Preserve Slavery](http://truth-out.org/news/item/13890-the-second-amendment-was-ratified-to-preserve-slavery)  _(tags: america)_
+- 2013-01-16: [8.11. weakref — Weak references — Python v2.7.3 documentation](http://docs.python.org/2/library/weakref.html)  _(tags: security)_
+- 2013-01-16: [Announcing Simple for Android | Simple Blog](https://www.simple.com/blog/Banking/announcing-simple-for-android/)  _(tags: tweet)_
+- 2013-01-16: [Java Security Flaw Is Repaired; Experts Still Recommend Disabling It : The Two-Way : NPR](http://www.npr.org/blogs/thetwo-way/2013/01/14/169338707/java-security-flaw-is-repaired-experts-still-recommend-disabling-it)  _(tags: tweet)_
+- 2013-01-16: [Intense  article quoting lawyer stating MIT refuse](http://t.co/BVVtF6YA)  _(tags: tweet)_
+- 2013-01-16: [Re: The future of WCAG - maximising its strengths not its weaknesses from Joshue O Connor on 2013-01-09 (w3c-wai-ig@w3.org from January to March 2013)](http://lists.w3.org/Archives/Public/w3c-wai-ig/2013JanMar/0027.html)  _(tags: fail, tweet)_
+- 2013-01-15: [Frontiers | Designing next-generation platforms for evaluating scientific output: what scientists can learn from the social web | Frontiers in Computational Neuroscience](http://www.frontiersin.org/Computational_Neuroscience/10.3389/fncom.2012.00072/full)  _(tags: research, publishing, collaboration)_
+- 2013-01-15: [#PDFTribute list of documents](http://pdftribute.net)  _(tags: collaboration)_
+- 2013-01-15: [Posthumously pardon Aaron Swartz. | We the People: Your Voice in Our Government](https://petitions.whitehouse.gov/petition/posthumously-pardon-aaron-swartz/DVpdmSBj)  _(tags: america)_
+- 2013-01-14: [Tupperwolf - Suicide reporting on the internet](http://vruba.tumblr.com/post/40355513414/suicide-reporting-on-the-internet)  _(tags: health)_
+- 2013-01-14: [Ian Bicking - Google+ - I&#39;ve been thinking about Aaron Swartz more and more as the…](https://plus.google.com/+IanBicking/posts/MDdVLdrcNmN)  _(tags: tweet)_
+- 2013-01-14: [Cyber Crime Protection Security Act (2012; 112th Congress S. 2111) - GovTrack.us](http://www.govtrack.us/congress/bills/112/s2111)  _(tags: tweet)_
+- 2013-01-14: [Aaron | Benlog](http://benlog.com/articles/2013/01/13/aaron/)  _(tags: aaron)_
+- 2013-01-13: [Remove United States District Attorney Carmen Ortiz from office for overreach in the case of Aaron Swartz. | We the People: Your Voice in Our Government](https://petitions.whitehouse.gov/petition/remove-united-states-district-attorney-carmen-ortiz-office-overreach-case-aaron-swartz/RQNrG1Ck)  _(tags: tweet)_
+- 2013-01-13: [Aaron Swartz, American hero](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/01/12/aaron-swartz-american-hero/)  _(tags: tweet)_
+- 2013-01-13: [The Truth about Aaron Swartz&#8217;s &#8220;Crime&#8221; &laquo; Unhandled Exception](http://unhandled.com/2013/01/12/the-truth-about-aaron-swartzs-crime/)  _(tags: tweet)_
+- 2013-01-13: [Hacker News](http://news.ycombinator.com)  _(tags: tribute, tweet)_
+- 2013-01-13: [rdfweb update, web-o-trust tests etc](http://lists.foaf-project.org/pipermail/foaf-dev/2000-August/004214.html)  _(tags: tweet)_
+- 2013-01-13: [This Isn&#039;t the Petition Response You&#039;re Looking For | We the People: Your Voice in Our Government](https://petitions.whitehouse.gov/response/isnt-petition-response-youre-looking)  _(tags: tweet)_
+- 2013-01-13: [Aaron Swartz, hero of the open world, dies | Internet Archive Blogs](http://blog.archive.org/2013/01/12/aaron-swartz-hero-of-the-open-world-rip/)  _(tags: tweet)_
+- 2013-01-12: [Reference: IFI CLAIMS Announces Top 50 U.S. Patent Assignees of 2012; Google at 21, Apple at 22  | LJ INFOdocket](http://www.infodocket.com/2013/01/10/reference-ifi-claims-announces-top-50-u-s-patent-assignees-of-2012-google-at-21/)  _(tags: tweet)_
+- 2013-01-11: [Congressman Kevin Yoder : Press Releases : Representative Yoder Introduces Pay-Cut; Pension Elimination Bills](http://yoder.house.gov/press-releases/representative-yoder-introduces-paycut-pension-elimination-bills/)  _(tags: cutmypay, tweet)_
+- 2013-01-08: [This is fairly astounding; stripenight/racer:](http://www.stripenight.com/racer/)  _(tags: tweet)_
+- 2013-01-08: [757726 &ndash; disallow enumeration of navigator.plugins](https://bugzilla.mozilla.org/show_bug.cgi?id=757726)  _(tags: tweet)_
+- 2013-01-08: [flatiron/blacksmith · GitHub](https://github.com/flatiron/blacksmith)  _(tags: writing, publishing)_
+- 2013-01-08: [flatiron/plates · GitHub](https://github.com/flatiron/plates)  _(tags: javascript, template, html)_
+- 2013-01-08: [arobson/anvil.js · GitHub](https://github.com/arobson/anvil.js)  _(tags: javascript, modules)_
+- 2013-01-08: [leonidas/transparency · GitHub](https://github.com/leonidas/transparency)  _(tags: javascript, html)_
+- 2013-01-08: [Cartographer](http://sharplearningcurve.com/cartographer.js/)  _(tags: javascript, html)_
+- 2013-01-08: [JavaScript Templates Engine PURE | BeeBole](http://beebole.com/pure/)  _(tags: javascript, html)_
+- 2013-01-07: [DirectoryStorage FAQ](http://dirstorage.sourceforge.net/FAQ.html)  _(tags: sysadmin, publishing, python)_
+- 2013-01-07: [nohup - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Nohup)  _(tags: sysadmin)_
+- 2013-01-07: [Issue 165731 - chromium - Reverted r172627 because it broke all visual output on linux/nvidia/gprecise - An open-source browser project to help move the web forward. - Google Project Hosting](http://code.google.com/p/chromium/issues/detail?id=165731)  _(tags: sysadmin, problem)_
+- 2013-01-07: [California man says he can drive in carpool lane with corporation papers - U.S. News](http://usnews.nbcnews.com/_news/2013/01/05/16372432-california-man-says-he-can-drive-in-carpool-lane-with-corporation-papers#.UOn6I432HNc.twitter)  _(tags: tweet)_
+- 2013-01-06: [GnuCash - User - Basic reporting: Subtotal by Description field?](http://gnucash.1415818.n4.nabble.com/Basic-reporting-Subtotal-by-Description-field-td1421478.html)  _(tags: finances)_
+- 2013-01-05: [Skype - Community Ubuntu Documentation](https://help.ubuntu.com/community/Skype)  _(tags: ubuntu, sysadmin)_
+- 2013-01-05: [The official Dilbert website with Scott Adams' color comic strips, animation, mashups and more!](http://www.dilbert.com/2012-12-31/)  _(tags: tweet)_
+- 2013-01-05: [Run LLVM Assembly In Your Browser](http://kripken.github.com/llvm.js/demo.html)  _(tags: tweet)_
+- 2013-01-05: [Saving publishing, one tweet at a time   - O&#039;Reilly Radar](http://radar.oreilly.com/2012/12/save-publishing.html)  _(tags: tweet)_
+- 2013-01-05: [Hash-Flooding DOS Reloaded: Attacks and defenses [29C3] - YouTube](https://www.youtube.com/watch?v=wGYj8fhhUVA)  _(tags: tweet)_
+- 2013-01-05: [Gregory&#8217;s iPhone Contract | Janell Burley Hofmann](http://www.janellburleyhofmann.com/gregorys-iphone-contract/)  _(tags: tweet)_
+- 2013-01-05: [Page Weight Matters | Chris Zacharias](http://blog.chriszacharias.com/page-weight-matters)  _(tags: tweet)_
+- 2013-01-05: [Listen to J.R.R. Tolkien Read a Lengthy Excerpt from The Hobbit (1952) | Open Culture](http://www.openculture.com/2012/12/listen_to_jrr_tolkien_read_a_lengthy_excerpt_from_ithe_hobbiti_1952.html)  _(tags: tweet)_
+- 2013-01-05: [Re-igniting the Crypto Wars on the web [29C3] - YouTube](https://www.youtube.com/watch?v=fkp0yo7Q0Ow)  _(tags: tweet)_
+- 2013-01-05: [Four border collie puppies born Dec 26. Here are three having... on Twitpic](http://twitpic.com/bqxqev)  _(tags: tweet)_
+- 2013-01-04: [klein 0.1.0 : Python Package Index](http://pypi.python.org/pypi/klein/0.1.0)  _(tags: no_tag)_
+- 2013-01-04: [5 ways to save Best Buy from extinction - Fortune Tech](http://tech.fortune.cnn.com/2013/01/03/5-ways-to-save-best-buy-from-extinction/)  _(tags: economics)_
+- 2013-01-04: [Ken Ludwig - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Ken_Ludwig)  _(tags: no_tag)_
+- 2013-01-03: [Converting Maildir to mbox via mutt](http://linsec.ca/blog/2010/01/04/converting-maildir-to-mbox-via-mutt/)  _(tags: sysadmin)_
+- 2013-01-02: [Racket Documentation](http://docs.racket-lang.org)  _(tags: programming, research)_
+- 2013-01-02: [Run Your Research: On the Effectiveness of Lightweight Mechanization](http://www.eecs.northwestern.edu/~robby/lightweight-metatheory/)  _(tags: security, research, logic)_
+- 2013-01-02: [Robby Findler: Publications](http://www.eecs.northwestern.edu/~robby/pubs/)  _(tags: programming, research)_
+- 2013-01-02: [PLaneT Package Repository : PLaneT > dyoo > js-vm.plt](http://planet.racket-lang.org/display.ss?package=js-vm.plt&owner=dyoo)  _(tags: no_tag)_
+- 2013-01-02: [OWASP AppSec 2010: (New) Object Capabilities and Isolation of Untrusted Web Applications 1/3 - YouTube](http://www.youtube.com/watch?v=WBIVqOu5Atg)  _(tags: security, video, recording, presentation, someday)_
+- 2013-01-02: [General talks about Haskell](http://research.microsoft.com/en-us/um/people/simonpj/papers/haskell-retrospective/)  _(tags: programming)_
+- 2013-01-02: [CTO : Orthogonal Persistence](http://tunes.org/wiki/orthogonal_20persistence.html)  _(tags: security, quality, programming)_
+- 2013-01-02: [L4Ka - Persistence](http://www.l4ka.org/persistence)  _(tags: research, programming)_
+- 2013-01-02: [Continuity of Care Document - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Continuity_of_Care_Document)  _(tags: no_tag)_
+- 2013-01-02: [hAudio for microformats mixtapes, in progress | Decentralized Information Group (DIG) Breadcrumbs](http://dig.csail.mit.edu/breadcrumbs/node/228)  _(tags: someday, music, mobile, android)_
+- 2013-01-01: [Car Adapter for Toshiba SD P2500 SDP2500 SDP1200 DVD Player Power Cord Charger | eBay](http://www.ebay.com/itm/Car-Adapter-For-Toshiba-SD-P2500-SDP2500-SDP1200-DVD-Player-Power-Cord-Charger-/120985078053)  _(tags: shopping)_
+- 2013-01-01: [Enercell 12V/3A Radar Detector Vehicle Power Adapter : Adapters | RadioShack.com](http://www.radioshack.com/product/index.jsp?productId=3908732)  _(tags: shopping)_

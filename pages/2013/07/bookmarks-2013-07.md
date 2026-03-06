@@ -1,0 +1,130 @@
+---
+title: July 2013 Bookmarks: programming, security, and javascript
+date: 2013-07-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "capabilities", "cloud", "functional", "golang", "haskell", "history", "javascript", "kc", "learning", "performance", "programming", "python", "quality", "rustlang", "scala", "scm", "security", "standards", "storage", "sysadmin", "ubuntu", "vm"]
+---
+
+Shared bookmarks saved in July 2013.
+
+- total bookmarks: 116
+- total annotations captured: 43
+
+## Links
+
+- 2013-07-31: [Introduction · hadley/devtools Wiki](https://github.com/hadley/devtools/wiki/Introduction)  _(tags: no_tag)_
+- 2013-07-31: [Android - Android 4.3, Jelly Bean](http://www.android.com/about/jelly-bean/)  _(tags: no_tag)_
+- 2013-07-31: [λ Tony's blog λ - Sticks, stones, but names are not useful to me](http://tmorris.net/posts/identifier-names/index.html)  _(tags: no_tag)_
+- 2013-07-31: [7.25. Safe Haskell](http://www.haskell.org/ghc/docs/7.6.2/html/users_guide/safe-haskell.html)  _(tags: no_tag)_
+- 2013-07-31: [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)  _(tags: tweet, scm, learning)_
+- 2013-07-31: [MIT/Abelson rpt on Aaron Swartz finds no wrongdoin](http://swartz-report.mit.edu/docs/report-to-the-president.pdf)  _(tags: tweet)_
+- 2013-07-31: [Google Groups](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/Du9lhfui1Mo)  _(tags: tweet)_
+- 2013-07-31: [The Often Misunderstood GEP Instruction — LLVM 3.4 documentation](http://llvm.org/docs/GetElementPtr.html)  _(tags: no_tag)_
+- 2013-07-30: [Last Week in Rust - Ramblin's](http://cmr.github.io/blog/2013/07/29/last-week-in-rust/)  _(tags: rustlang, tweet)_
+- 2013-07-30: [Amazon.com: How to Capture Playstation 3 via HDMI (BlackMagic Intensity Pro)](http://www.amazon.com/Capture-Playstation-HDMI-BlackMagic-Intensity/lm/R275EEY7V41KI7)  _(tags: tweet)_
+- 2013-07-30: [Twelephone](http://blog.twelephone.com)  _(tags: tweet)_
+- 2013-07-30: [400120 – Add statically-updated, per-tab CPU and RAM monitor](https://bugzilla.mozilla.org/show_bug.cgi?id=400120)  _(tags: no_tag)_
+- 2013-07-30: [[Python-Dev] Ridiculously minor tweaks?](http://mail.python.org/pipermail/python-dev/2003-March/033964.html)  _(tags: no_tag)_
+- 2013-07-30: [PEP 428 -- The pathlib module -- object-oriented filesystem paths](http://www.python.org/dev/peps/pep-0428/#constructing)  _(tags: python, programming, security, capabilities)_
+- 2013-07-29: [Schema Objects and Oracle JVM Utilities](http://docs.oracle.com/cd/B28359_01/java.111/b31225/cheleven.htm)  _(tags: no_tag)_
+- 2013-07-29: [Security · tada/pljava Wiki](https://github.com/tada/pljava/wiki/Security)  _(tags: no_tag)_
+- 2013-07-29: [Mapping an sql type to a java class · tada/pljava Wiki](https://github.com/tada/pljava/wiki/Mapping-an-sql-type-to-a-java-class)  _(tags: no_tag)_
+- 2013-07-29: [Home · tada/pljava Wiki](https://github.com/tada/pljava/wiki)  _(tags: no_tag)_
+- 2013-07-29: [Developing Java Stored Procedures](http://docs.oracle.com/cd/B19306_01/java.102/b14187/chfive.htm)  _(tags: no_tag)_
+- 2013-07-29: [Publishing Java Classes With Call Specifications](http://docs.oracle.com/cd/B19306_01/java.102/b14187/chsix.htm)  _(tags: no_tag)_
+- 2013-07-29: [Chrome Browser](https://www.google.com/intl/en/chrome/browser/)  _(tags: golang, tweet)_
+- 2013-07-29: [xmlpath - GoDoc](http://godoc.org/launchpad.net/xmlpath)  _(tags: no_tag)_
+- 2013-07-29: [InstallFromSource - go-wiki - Install Go from Source - Go Language Community Wiki - Google Project Hosting](https://code.google.com/p/go-wiki/wiki/InstallFromSource#Install_C_tools)  _(tags: no_tag)_
+- 2013-07-29: [Create a currency converter phone app | Ubuntu App Developer](http://developer.ubuntu.com/resources/tutorials/getting-started/currency-converter-phone-app/)  _(tags: no_tag)_
+- 2013-07-29: [QML - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/QML)  _(tags: no_tag)_
+- 2013-07-29: [testing - The Go Programming Language](http://golang.org/pkg/testing/)  _(tags: programming, quality)_
+- 2013-07-29: [surma/stacksignal](https://github.com/surma/stacksignal)  _(tags: no_tag)_
+- 2013-07-29: [Effective Go - The Go Programming Language](http://golang.org/doc/effective_go.html)  _(tags: no_tag)_
+- 2013-07-29: [dl.google.com: Powered by Go](http://talks.golang.org/2013/oscon-dl.slide#17)  _(tags: no_tag)_
+- 2013-07-29: [How many ways can you slice a URL and name the pieces? - Tantek](http://tantek.com/2011/238/b1/many-ways-slice-url-name-pieces)  _(tags: web, history, url, standards)_
+- 2013-07-28: [&lsquo;Printing Out the Internet&rsquo; exhibit is crowdsourced work of art - The Washington Post](http://www.washingtonpost.com/lifestyle/style/print-this-web-page-mail-it-to-mexico-citys-labor-gallery-make-art/2013/07/26/534e2582-f320-11e2-ae43-b31dc363c3bf_story.html)  _(tags: tweet)_
+- 2013-07-27: [Python Iteration](http://nedbatchelder.com/text/iter/iter.html#1)  _(tags: tweet)_
+- 2013-07-27: [Nate Silver Didn&#039;t Fit In at the New York Times Because He Believed in the Real World](http://www.fair.org/blog/2013/07/24/nate-silver-didnt-fit-in-at-the-new-york-times-because-he-believed-in-the-real-world/)  _(tags: tweet)_
+- 2013-07-27: [Helm, a functionally reactive game engine](http://helm-engine.org)  _(tags: helm, haskell, tweet)_
+- 2013-07-27: [NearlyFreeSpeech.NET Blog » IPv6, SSL, scheduled tasks, storage discounts & bulk bandwidth](http://blog.nearlyfreespeech.net/2012/12/26/ipv6-ssl-scheduled-tasks-storage-discounts-bulk-bandwidth/)  _(tags: no_tag)_
+- 2013-07-27: [Google Groups](http://productforums.google.com/forum/#!topic/chrome/EdX_Crq5evw)  _(tags: no_tag)_
+- 2013-07-25: [Google Chrome Blog: From TVs to tablets: Everything you love, across all your screens](http://chrome.blogspot.com/2013/07/from-tvs-to-tablets-everything-you-love.html)  _(tags: chromecast, tweet)_
+- 2013-07-25: [Project M - About](http://projectmgame.com/en/about)  _(tags: no_tag)_
+- 2013-07-24: [Casting Your Content to the Big Screen - Google Cast — Google Developers](https://developers.google.com/cast/)  _(tags: no_tag)_
+- 2013-07-24: [Google Launches The $35 Chromecast Streaming Device To Bring Chrome To The Living Room | TechCrunch](http://techcrunch.com/2013/07/24/google-chromecast/)  _(tags: no_tag)_
+- 2013-07-24: [Netflix Streams Full HD to New Google Tablet, But Still No High-Def on Apple Devices | Variety](http://variety.com/2013/digital/news/netflix-streams-full-hd-to-new-google-tablet-while-apple-users-must-wait-1200567418/)  _(tags: no_tag)_
+- 2013-07-24: [Google Unveils Chromecast, New Video Device for TVs - Yahoo! Finance Canada](http://ca.finance.yahoo.com/news/google-unveils-chromecast-video-device-tvs-173300190.html)  _(tags: no_tag)_
+- 2013-07-24: [Space Monkey: Taking the cloud out of the datacenter by Space Monkey — Kickstarter](http://www.kickstarter.com/projects/clintgc/space-monkey-taking-the-cloud-out-of-the-datacente?ref=card)  _(tags: hardare, cloud, storage)_
+- 2013-07-23: [Elsevier](http://www.mayoclinicproceedings.org/webfiles/html/nocookies.html)  _(tags: tweet)_
+- 2013-07-23: [ActiveTable bookmarklet | High Performance Web Sites](http://www.stevesouders.com/blog/2013/07/16/activetable-bookmarklet/)  _(tags: tweet)_
+- 2013-07-21: [Cursed a few times but now  r6440 passes  and http](http://www.w3.org/2013/TurtleTests/turtle-syntax-ln-dots.ttl)  _(tags: eye, tweet)_
+- 2013-07-21: [Yandex.Company — Yandex Blog](http://company.yandex.com/press_center/blog/entry.xml?pid=30)  _(tags: tweet)_
+- 2013-07-21: [Slides from 's presentation at Northeastern Univer](http://smallcultfollowing.com/babysteps/pubs/2013.07.17-NEU.pdf)  _(tags: rustlang, tweet)_
+- 2013-07-21: [Minimal Runtime · Issue #4 · lampepfl/scala-js · GitHub](https://github.com/lampepfl/scala-js/issues/4#issuecomment-21188824)  _(tags: scala, tweet)_
+- 2013-07-21: [Plex (software) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Plex_(software))  _(tags: no_tag)_
+- 2013-07-20: [#indiewebcamp 2013-07-20](http://indiewebcamp.com/irc/2013-07-20)  _(tags: no_tag)_
+- 2013-07-20: [LAPP Stack Cloud Hosting, Installers and Virtual Machines.](http://bitnami.com/stack/lapp)  _(tags: vm, sysadmin)_
+- 2013-07-20: [WikiStart - Tiny Tiny RSS](http://tt-rss.org/redmine/projects/tt-rss/wiki)  _(tags: no_tag)_
+- 2013-07-20: [810718 &ndash; Enforce pldhash RECURSION_LEVEL checks dynamically: abort on mutating a hash during iteration](https://bugzilla.mozilla.org/show_bug.cgi?id=810718)  _(tags: tweet)_
+- 2013-07-19: [How Apple and Amazon Security Flaws Led to My Epic Hacking | Gadget Lab | Wired.com](http://www.wired.com/gadgetlab/2012/08/apple-amazon-mat-honan-hacking/3/)  _(tags: cloud, security)_
+- 2013-07-19: [Argonaut: Purely Functional JSON in Scala](http://argonaut.io)  _(tags: tweet)_
+- 2013-07-19: [Scala.js](http://lampwww.epfl.ch/~doeraene/scala-js/)  _(tags: no_tag)_
+- 2013-07-19: [Add a "My Notes" menu at the bottom to Android's Power Note App – Customer Feedback for Diigo](http://feedback.diigo.com/forums/76211-ideas/suggestions/2682303-add-a-my-notes-menu-at-the-bottom-to-android-s-p)  _(tags: no_tag)_
+- 2013-07-19: [Tutorial – How to set up BitTorrent Sync on a Linux server to create a Dropbox-like syncing solution | Nickology.com](http://nickology.com/2013/05/06/bitorrent/)  _(tags: no_tag)_
+- 2013-07-19: [Rotate a Video 90 degrees with VLC or Windows Live Movie Maker](http://www.howtogeek.com/howto/14751/rotate-a-video-90-degrees-with-vlc-or-windows-live-movie-maker/)  _(tags: no_tag)_
+- 2013-07-18: [Is there a way to keep Hudson / Jenkins configuration files in source control? - Stack Overflow](http://stackoverflow.com/questions/2087142/is-there-a-way-to-keep-hudson-jenkins-configuration-files-in-source-control)  _(tags: no_tag)_
+- 2013-07-18: [Howto map SVN User to Jenkins people - Stack Overflow](http://stackoverflow.com/questions/10915642/howto-map-svn-user-to-jenkins-people)  _(tags: no_tag)_
+- 2013-07-18: [JavaScript + Jenkins = Winning!](http://www.slideshare.net/emwendelin/javascript-ci)  _(tags: javascript, quality)_
+- 2013-07-18: [chb/sample_ccdas · GitHub](https://github.com/chb/sample_ccdas)  _(tags: tweet)_
+- 2013-07-18: [Why  is the best language for I/O and how to do it](https://qconnewyork.com/sites/default/files/QConNY2013_RunarBjarnesson_PurelyFunctionalIO.pdf)  _(tags: haskell, scala, tweet)_
+- 2013-07-18: [So glad to see Obamacare is not working ;-) MT : H](http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2013/07/17/health/health-plan-cost-for-new-yorkers-set-to-fall-50.html&OQ=partnerQ3DrssQ26emcQ3DrssQ26smidQ3Dtw-nytimesQ26_rQ3D2Q26pagewantedQ3DallQ26&OP=48963787Q2FLgp5LQ5DQ3F5L444LQ3B5ArL.gQ5CvQ3Agg5YLYnlQ20LnQ3CLlQ3CLQ3Bowr5Q3BLQ3Bowr5Q3BQ7EprwQ5DQ7EQ5Cgv5Q7E6gQ3AQ7EQ5Do4Q7EQ3FgQ3A@oQ3AvQ7Evo5Q7E5gQ7E6wrrQ7EVn(Q3B5Ar)  _(tags: tweet)_
+- 2013-07-17: [how to list all members of a group](http://www.linuxquestions.org/questions/linux-newbie-8/how-to-list-all-members-of-a-group-602785/)  _(tags: no_tag)_
+- 2013-07-17: [41RSS commission new research into public perceptions of statistics3 | 8RSSeNewsa](http://www.rssenews.org.uk/2013/07/rss-commission-new-research-into-public-perceptions-of-statistics/)  _(tags: tweet)_
+- 2013-07-17: [The New Web Play Store Is Insanely Fast - Here Is Why [Analysis]](http://www.androidpolice.com/2013/07/15/the-new-web-play-store-is-insanely-fast-here-is-why-analysis/)  _(tags: tweet)_
+- 2013-07-17: [Surviving being senior (tech) management -  Laughing Meme](http://laughingmeme.org/2013/07/16/surviving-being-senior-management/)  _(tags: tweet)_
+- 2013-07-17: [ppedemon/Bluejelly · GitHub](https://github.com/ppedemon/Bluejelly)  _(tags: tweet)_
+- 2013-07-17: [Doctor saves his own life by putting medical info online &raquo; Knoxville News Sentinel](http://www.knoxnews.com/news/2013/jul/14/doctor-saves-his-own-life-by-putting-medical/)  _(tags: tweet)_
+- 2013-07-17: [Why Behavior Change Apps Fail To Change Behavior  |  TechCrunch](http://techcrunch.com/2013/07/13/why-behavior-change-apps-fail-to-change-behavior/)  _(tags: tweet)_
+- 2013-07-17: [The Netflix Tech Blog: NfWebCrypto: a Web Cryptography API Native Polyfill](http://techblog.netflix.com/2013/07/nfwebcrypto-web-cryptography-api-native.html)  _(tags: tweet)_
+- 2013-07-17: [Jenny McCarthy Joins 'The View'](http://www.huffingtonpost.com/2013/07/15/jenny-mccarthy-view-host_n_3598970.html)  _(tags: tweet)_
+- 2013-07-17: [The Internet Archive Rescues Bitcoiners From Banking Oblivion | Wired Enterprise | Wired.com](http://www.wired.com/wiredenterprise/2013/07/iafcu/)  _(tags: tweet)_
+- 2013-07-17: [Home - fieldpapers.org](http://fieldpapers.org)  _(tags: tweet)_
+- 2013-07-16: [University of Texas at Austin: What is it like to be a UT Austin computer science student? - Quora](http://www.quora.com/University-of-Texas-at-Austin/What-is-it-like-to-be-a-UT-Austin-computer-science-student)  _(tags: no_tag)_
+- 2013-07-16: [React (JS Library): How is Facebook's React JavaScript library? - Quora](http://www.quora.com/React-JS-Library/How-is-Facebooks-React-JavaScript-library)  _(tags: no_tag)_
+- 2013-07-16: [React | JSX Syntax](http://facebook.github.io/react/docs/syntax.html)  _(tags: javascript, performance)_
+- 2013-07-15: [Mango Powers Through Losers Bracket to Secure First Place Finish in Super Smash Bros. Melee at Evo 2013 &laquo; Shoryuken](http://shoryuken.com/2013/07/14/mango-powers-through-losers-bracket-to-secure-first-place-finish-in-super-smash-bros-melee-at-evo-2013/)  _(tags: tweet)_
+- 2013-07-15: [Evo 2013 Final Results &#8211; The Largest Fighting Game Tournament in the World &laquo; Shoryuken](http://shoryuken.com/2013/07/14/evo-2013-the-largest-fighting-game-tournament-in-the-world-streaming-live-from-las-vegas/)  _(tags: evo2013, tweet)_
+- 2013-07-15: [Ask a Korean!: Culturalism, Gladwell, and Airplane Crashes](http://askakorean.blogspot.hk/2013/07/culturalism-gladwell-and-airplane.html?m=1)  _(tags: tweet)_
+- 2013-07-14: [DragonBox - The multi-platform Math Game](http://www.dragonboxapp.com)  _(tags: tweet)_
+- 2013-07-14: [Chrome DevTools Revolutions 2013 - HTML5 Rocks](http://www.html5rocks.com/en/tutorials/developertools/revolutions2013/)  _(tags: tweet)_
+- 2013-07-14: [[cryptography] [liberationtech] Heml.is - &quot;The Beautiful &amp;Secure Messenger&quot;](http://lists.randombit.net/pipermail/cryptography/2013-July/004728.html)  _(tags: tweet)_
+- 2013-07-14: [Obama gives himself control of all communication systems in America — RT USA](http://rt.com/usa/obama-president-order-communications-770/#.UeBSE_O8HIo.twitter)  _(tags: tweet)_
+- 2013-07-14: [What Makes Code Hard to Understand? | synesthesiam](http://synesthesiam.com/posts/what-makes-code-hard-to-understand.html)  _(tags: tweet)_
+- 2013-07-11: [Updated WebRTC and Web Audio resources list:  -- s](http://t.co/peTKYkk86V)  _(tags: tweet)_
+- 2013-07-11: [Secret government: America against democracy | The Economist](http://www.economist.com/blogs/democracyinamerica/2013/07/secret-government)  _(tags: tweet)_
+- 2013-07-10: [The Badass Flight Attendants Of Asiana 214 &laquo; The Dish](http://dish.andrewsullivan.com/2013/07/09/the-badass-flight-attendants-of-asiana-214/)  _(tags: tweet)_
+- 2013-07-10: [Edward Snowden: 'The US government will say I aided our enemies' – video interview | World news | guardian.co.uk](http://www.guardian.co.uk/world/video/2013/jul/08/edward-snowden-video-interview)  _(tags: tweet)_
+- 2013-07-10: [A gene ontology inferred from molecular networks :  Nature Biotechnology :  Nature Publishing Group](http://www.nature.com/nbt/journal/v31/n1/full/nbt.2463.html)  _(tags: tweet)_
+- 2013-07-10: [12benadida@square | 6Benlog79](http://benlog.com/articles/2013/07/08/benadidasquare/)  _(tags: tweet)_
+- 2013-07-10: [The F.E.C. is still in a state of disfunction in t](http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2013/07/06/opinion/sabotage-at-the-election-commission.html&OQ=smidQ3Dtw-shareQ26_rQ3D1Q26&OP=dd3749ddQ2FCQ5E5Q26CQ7B4Q26CfffCeQ269mC6Q5E.WQ3CQ5EQ5EQ26Q27CQ27NQ2FKCN)CNQ24CQ5E5bQ7BbQ5EQ7BCWYRQ5EQ26YSQ51UYQ26UQ26eQ51UQ51mQ51.Q26bQ5EQ7BU.Q5E99bWWbQ5EQ7BQ20eQ269m)  _(tags: tweet)_
+- 2013-07-10: [. amicus brief (on behalf of )](http://torekeland.com/wp-content/uploads/2013/07/Mozilla-Amicus.pdf)  _(tags: freeweev, tweet)_
+- 2013-07-08: [Creating a Simple Build Pipeline with Jenkins/Hudson and NAnt](http://www.russellallen.info/post/2011/06/04/Creating-a-Simple-Build-Pipeline-with-JenkinsHudson-and-NAnt.aspx)  _(tags: no_tag)_
+- 2013-07-06: [Kauffman Center for the Performing Arts | TEDxKC 2013](https://tickets.kauffmancenter.org/single/psDetail.aspx?psn=6333)  _(tags: tweet)_
+- 2013-07-06: [Clapper Says His Denial of Mass Data Collection Was a True Statement, a Noble Lie, and an Honest Mistake. Pick One. - Hit &amp; Run : Reason.com](http://reason.com/blog/2013/07/04/clapper-says-his-denial-of-mass-data-col)  _(tags: tweet)_
+- 2013-07-05: [On July 4th join the protest against NSA surveillance.](http://cms.fightforthefuture.org/july-4th-celebrate-4th-amendment-post-it-everywhere/)  _(tags: july4th, nsa, tweet)_
+- 2013-07-05: [A few words on Doug Engelbart](http://worrydream.com/Engelbart/)  _(tags: tweet)_
+- 2013-07-04: [Parking at Paris and Bellagio - Las Vegas Forum - TripAdvisor](http://www.tripadvisor.com/ShowTopic-g45963-i10-k1254173-Parking_at_Paris_and_Bellagio-Las_Vegas_Nevada.html)  _(tags: no_tag)_
+- 2013-07-04: [Roost Lodge, Vail, United States Overview | Priceline.com Hotels](http://www.priceline.com/hotel/hotelOverviewGuide.do?key=hiqel2pm&propID=13415505&jsk=504a200a544a200a20130704202417a58021589478&plf=PCLN)  _(tags: no_tag)_
+- 2013-07-04: [Evergreen Lodge At Vail, Vail, CO, United States Overview | Priceline.com Hotels](http://www.priceline.com/hotel/hotelOverviewGuide.do?key=hiqel2pm&propID=48559&jsk=504a200a544a200a20130704202417a58021589478&plf=PCLN)  _(tags: no_tag)_
+- 2013-07-04: [PLEASE HELP! ---"Your Google Apps account has been disabled by your administra​tor" -- I AM the administrator! - Google Groups](http://productforums.google.com/forum/#!searchin/apps/Your$20Google$20Apps$20account$20has$20been$20disabled$20by$20your$20administrator./apps/LJtmkFsi78w/iMuLcng2yAAJ)  _(tags: no_tag)_
+- 2013-07-04: [Awards - Doug Engelbart Institute](http://www.dougengelbart.org/about/honors.html)  _(tags: no_tag)_
+- 2013-07-04: [jqMath - Put Math on the Web](http://mathscribe.com/author/jqmath.html)  _(tags: no_tag)_
+- 2013-07-04: [Matthew Copeland - Lambda Lounge KC (Kansas City, MO) - Meetup](http://www.meetup.com/lamba-lounge-kc/members/74011892/)  _(tags: functional, programming, ku, business-card, llkc, kc)_
+- 2013-07-04: [Question #231889 : Questions : Launchpad itself](https://answers.launchpad.net/launchpad/+question/231889)  _(tags: ubuntu, programming, problem)_
+- 2013-07-04: [How Did American Become So Fearful and Timid That We've Given Away Essential Liberties? Some Are Even Afraid to Speak up | Alternet](http://www.alternet.org/civil-liberties/americans-are-afraid-speak)  _(tags: tweet, america, security)_
+- 2013-07-04: [Wonderful photo of Ted Nelson,](http://hyperland.com/TN,Doug,AaronSwartz,Ca2001-eugenekim.PNG)  _(tags: tweet)_
+- 2013-07-04: [Adactio: Journal&mdash;Battle for the planet of the APIs](http://adactio.com/journal/6291/)  _(tags: tweet)_
+- 2013-07-04: [[rust-dev] Rust 0.7 released](https://mail.mozilla.org/pipermail/rust-dev/2013-July/004667.html)  _(tags: tweet)_
+- 2013-07-03: [I am Lawrence Lessig (academic, activist, now collaborator with DEMAND PROGRESS). AMA! : IAmA](http://www.reddit.com/r/IAmA/comments/1hibzy/i_am_lawrence_lessig_academic_activist_now/)  _(tags: tweet)_
+- 2013-07-03: [Ever wanted to see what Google (and others, inc re](http://www.ftc.gov/os/comments/pae/pae-0047.pdf)  _(tags: tweet)_
+- 2013-07-02: [Enough with the JavaScript already!](http://www.slideshare.net/nzakas/enough-withthejavascriptalready)  _(tags: velocityconf, tweet)_

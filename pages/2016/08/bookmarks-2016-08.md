@@ -1,0 +1,125 @@
+---
+title: August 2016 Bookmarks: security, linux, and ubuntu
+date: 2016-08-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "capabilities", "capability-security", "data", "devops", "diy", "family", "health", "installation", "javascript", "kc", "learning", "linux", "mobile", "music", "privacy", "programming", "python", "quality", "security", "shopping", "sysadmin", "testing", "uri", "vm", "world"]
+---
+
+Shared bookmarks saved in August 2016.
+
+- total bookmarks: 111
+- total annotations captured: 60
+
+## Links
+
+- 2016-08-31: [ProGuard](http://proguard.sourceforge.net/index.html)  _(tags: no_tag)_
+- 2016-08-30: [Introduction · Pony Tutorial](http://tutorial.ponylang.org)  _(tags: no_tag)_
+- 2016-08-30: [java - Reducing jar file size? - Stack Overflow](http://stackoverflow.com/questions/7810896/reducing-jar-file-size)  _(tags: no_tag)_
+- 2016-08-29: [SQLite Query Language: expression](https://www.sqlite.org/lang_expr.html)  _(tags: no_tag)_
+- 2016-08-29: [Measure Anything, Measure Everything - Code as Craft](https://codeascraft.com/2011/02/15/measure-anything-measure-everything/)  _(tags: devops)_
+- 2016-08-29: [Google Groups](https://groups.google.com/forum/#!topic/golang-nuts/jZW4ljARelU)  _(tags: no_tag)_
+- 2016-08-29: [entr(1)](http://entrproject.org)  _(tags: quality, testing, linux)_
+- 2016-08-28: [Is there a pm2 or forever equivalent? : golang](https://www.reddit.com/r/golang/comments/4pgipb/is_there_a_pm2_or_forever_equivalent/)  _(tags: devops)_
+- 2016-08-28: [Research in Software Engineering (RiSE) - Microsoft Research](https://www.microsoft.com/en-us/research/group/research-in-software-engineering-rise/)  _(tags: no_tag)_
+- 2016-08-28: [ethercalc/Dockerfile at master · audreyt/ethercalc](https://github.com/audreyt/ethercalc/blob/master/Dockerfile)  _(tags: no_tag)_
+- 2016-08-28: [pm2](https://www.npmjs.com/package/pm2)  _(tags: devops)_
+- 2016-08-28: [Microsoft/dafny: Dafny is a verification-aware programming language](https://github.com/Microsoft/dafny)  _(tags: no_tag)_
+- 2016-08-28: [Boogie: An Intermediate Verification Language - Microsoft Research](https://www.microsoft.com/en-us/research/project/boogie-an-intermediate-verification-language/)  _(tags: no_tag)_
+- 2016-08-28: [HAVOC - Microsoft Research](https://www.microsoft.com/en-us/research/project/havoc/)  _(tags: no_tag)_
+- 2016-08-28: [Safe to the Last Instruction: Automated Verification of a Type-Safe Operating System - Microsoft Research](https://www.microsoft.com/en-us/research/publication/safe-to-the-last-instruction-automated-verification-of-a-type-safe-operating-system/)  _(tags: no_tag)_
+- 2016-08-28: [Verifying Constant-Time Implementations - YouTube](https://www.youtube.com/watch?v=Ykr9gGZavU0)  _(tags: no_tag)_
+- 2016-08-28: [Verifying Constant-Time Implementations | USENIX](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/almeida)  _(tags: no_tag)_
+- 2016-08-27: [NATS - Cloud Native, Open Source, High Performance Messaging](https://nats.io)  _(tags: no_tag)_
+- 2016-08-27: [Project Everest by project-everest](https://project-everest.github.io)  _(tags: tweet)_
+- 2016-08-27: [zombiezen/sandpass: Password manager for Sandstorm](https://github.com/zombiezen/sandpass)  _(tags: no_tag)_
+- 2016-08-27: [Free Your Stuff: Open sourcing reviews and other casual contributions · Open Source Musings](http://scottnesbitt.io/2016/07/25/freeyourstuff/)  _(tags: no_tag)_
+- 2016-08-27: [Papers](http://spw16.langsec.org/papers.html)  _(tags: no_tag)_
+- 2016-08-27: [Sam Smith - I'm Not the Only One (Thirdstory Cover) - YouTube](https://www.youtube.com/watch?v=3Y7Vq9749s8&feature=youtu.be)  _(tags: no_tag)_
+- 2016-08-27: [Thirdstory - G Train (Searching EP) - YouTube](https://www.youtube.com/watch?v=hXE2TzUM9SE&feature=youtu.be)  _(tags: no_tag)_
+- 2016-08-27: [Thirdstory — TEDxKC](http://www.tedxkc.org/thirdstory)  _(tags: music, kc)_
+- 2016-08-27: [Stan Tatkin — TEDxKC](http://www.tedxkc.org/stan-tatkin)  _(tags: kc)_
+- 2016-08-27: [Michael Rea — TEDxKC](http://www.tedxkc.org/michael-rea)  _(tags: health, kc)_
+- 2016-08-27: [Harriet Lerner — TEDxKC](http://www.tedxkc.org/harriet-lerner)  _(tags: kc)_
+- 2016-08-27: [James Hobson — TEDxKC](http://www.tedxkc.org/james-hobson)  _(tags: kc, diy)_
+- 2016-08-27: [Rupi Kaur — TEDxKC](http://www.tedxkc.org/rupi-kaur)  _(tags: no_tag)_
+- 2016-08-27: [R. Luke Dubois — TEDxKC](http://www.tedxkc.org/r-luke-dubois)  _(tags: no_tag)_
+- 2016-08-27: [miTLS, Triple Handshake, SMACK, FREAK, Logjam, and SLOTH](http://www.mitls.org)  _(tags: no_tag)_
+- 2016-08-27: [Issues · mitls/mitls-fstar](https://github.com/mitls/mitls-fstar/issues)  _(tags: no_tag)_
+- 2016-08-27: [Dependent Types and Multi-monadic Effects in F*](https://www.fstar-lang.org/papers/mumon/popl2016.html?transition=none)  _(tags: no_tag)_
+- 2016-08-27: [Zcash - zkSNARKs in Ethereum](https://z.cash/blog/zksnarks-in-ethereum.html)  _(tags: no_tag)_
+- 2016-08-27: [Docker Security Scanning safeguards the container content lifecycle - Docker Blog](https://blog.docker.com/2016/05/docker-security-scanning/)  _(tags: no_tag)_
+- 2016-08-27: [apache/incubator-airflow: Apache Airflow (Incubating)](https://github.com/apache/incubator-airflow)  _(tags: no_tag)_
+- 2016-08-27: [FAQ — Airflow Documentation](http://airflow.incubator.apache.org/faq.html)  _(tags: no_tag)_
+- 2016-08-27: [The Leaning Tower of Babel](http://blog.mockbrian.com/2016/08/22/leaning-tower-of-babel/)  _(tags: no_tag)_
+- 2016-08-26: [vincenthz/hs-certificate: Certificate and Key Reader/Writer in haskell](https://github.com/vincenthz/hs-certificate)  _(tags: no_tag)_
+- 2016-08-26: [http://genode-labs.com/publications/nfeske-genode-fosdem-2013-02.pdf](http://genode-labs.com/publications/nfeske-genode-fosdem-2013-02.pdf)  _(tags: security, vm)_
+- 2016-08-26: [Object Support in Oracle Programming Environments](https://docs.oracle.com/cd/B28359_01/appdev.111/b28371/adobjenv.htm)  _(tags: no_tag)_
+- 2016-08-26: [REST Data Services Developers Guide](http://www.oracle.com/technetwork/developer-tools/rest-data-services/documentation/listener-dev-guide-1979546.html)  _(tags: no_tag)_
+- 2016-08-26: [Parse JSON into Oracle table using PL/SQL - Stack Overflow](http://stackoverflow.com/questions/27122612/parse-json-into-oracle-table-using-pl-sql)  _(tags: no_tag)_
+- 2016-08-26: [pljson/pljson: PL/JSON is a generic JSON object written in PL/SQL. Using PL/SQL object syntax, users instantiate a JSON object and then add members, arrays and additional JSON objects. This object type can store JSON data, in Oracle, persistently.](https://github.com/pljson/pljson)  _(tags: no_tag)_
+- 2016-08-26: [Running Groovy Scripts in the Database](http://www.db-nemec.com/groovy/Running_Groovy_Scripts_in_the_Database.html)  _(tags: no_tag)_
+- 2016-08-26: [WebStorm 2016.3 Early Access Preview: Flow, PostCSS, and more | WebStorm Blog](https://blog.jetbrains.com/webstorm/2016/08/webstorm-2016-3-early-access-preview/)  _(tags: tweet)_
+- 2016-08-26: [Token Authentication - Vault by HashiCorp](https://www.vaultproject.io/docs/internals/token.html)  _(tags: no_tag)_
+- 2016-08-26: [Protecting Corporate Data... When an Employee Leaves](http://www.druva.com/blog/protecting-corporate-data-employee-leaves/)  _(tags: no_tag)_
+- 2016-08-26: [How to fire a sys admin: When IT pros go rogue - IT Security - Spiceworks](https://community.spiceworks.com/topic/334270-how-to-fire-a-sys-admin-when-it-pros-go-rogue)  _(tags: no_tag)_
+- 2016-08-26: [security - Steps to take when technical staff leave - Server Fault](http://serverfault.com/questions/285723/steps-to-take-when-technical-staff-leave)  _(tags: no_tag)_
+- 2016-08-26: [corporate policy - When a sysadmin leaves what extra precautions need to be taken? - Information Security Stack Exchange](http://security.stackexchange.com/questions/222/when-a-sysadmin-leaves-what-extra-precautions-need-to-be-taken)  _(tags: no_tag)_
+- 2016-08-26: [sudo access for cluster operations? | Oracle Community](https://community.oracle.com/thread/2379445?start=0&tstart=0)  _(tags: no_tag)_
+- 2016-08-26: [Secret Backend: SSH - Vault by HashiCorp](https://www.vaultproject.io/docs/secrets/ssh/index.html)  _(tags: no_tag)_
+- 2016-08-25: [Audit Backends - Vault by HashiCorp](https://www.vaultproject.io/docs/audit/index.html)  _(tags: no_tag)_
+- 2016-08-24: [Rok Garbas](https://garbas.si/2016/pypi2nix-reborn.html)  _(tags: no_tag)_
+- 2016-08-24: [Vulnix v1.0 release | Flying Circus](https://blog.flyingcircus.io/2016/07/27/vulnix-v1-0-release/)  _(tags: no_tag)_
+- 2016-08-24: [locale-gen doesn't work - Ask Ubuntu](http://askubuntu.com/questions/753516/locale-gen-doesnt-work)  _(tags: no_tag)_
+- 2016-08-24: [[bitcoin-dev] Bitcoin Core 0.13.0 released](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2016-August/013055.html)  _(tags: tweet)_
+- 2016-08-24: [Official Google Webmaster Central Blog: Helping users easily access content on mobile](https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html?m=1)  _(tags: tweet)_
+- 2016-08-24: [Eyes Above The Waves: Random Thoughts On Rust: crates.io And IDEs](http://robert.ocallahan.org/2016/08/random-thoughts-on-rust-cratesio-and.html)  _(tags: tweet)_
+- 2016-08-24: [Security non-events - Docs](https://docs.sandstorm.io/en/latest/using/security-non-events/)  _(tags: no_tag)_
+- 2016-08-24: [Docker Security Non-events](https://docs.docker.com/engine/security/non-events/)  _(tags: no_tag)_
+- 2016-08-24: [Big Data SQL Analytics Platform, Data Warehouse Solutions | Hewlett Packard Enterprise](http://www8.hp.com/us/en/software-solutions/advanced-sql-big-data-analytics/index.html)  _(tags: no_tag)_
+- 2016-08-24: [Free sandcats.io HTTPS - Docs](https://docs.sandstorm.io/en/latest/administering/sandcats-https/)  _(tags: no_tag)_
+- 2016-08-24: [What You Missed at Gradle Summit 2016](http://blog.metova.com/gradle-summit-2016)  _(tags: no_tag)_
+- 2016-08-22: [Gary Bernhardt on Twitter: &quot;When Twitter did its &quot;#!&quot; URL thing, some of us said &quot;this is bad; those links will eventually break&quot;. Well, they&#39;re now broken on mobile.&quot;](https://twitter.com/garybernhardt/status/767504119917518849)  _(tags: uri, tweet)_
+- 2016-08-22: [The War on Cash - The Long and Short](http://thelongandshort.org/society/war-on-cash)  _(tags: tweet)_
+- 2016-08-20: [Topic of Cancer &#8211; Reinventing Fire](http://schepers.cc/topic-of-cancer)  _(tags: cancersurvivor, tweet)_
+- 2016-08-20: [Nuxi CloudABI for Debian, Ubuntu and other Debian derivatives](https://nuxi.nl/cloudabi/debian/)  _(tags: capability-security, capabilities, security)_
+- 2016-08-20: [NuxiNL/cloudlibc: CloudABI's standard C library](https://github.com/NuxiNL/cloudlibc)  _(tags: no_tag)_
+- 2016-08-19: [The Use of Name Spaces in Plan 9](http://www.cs.bell-labs.com/sys/doc/names.html)  _(tags: no_tag)_
+- 2016-08-19: [Anatomy of a user namespaces vulnerability [LWN.net]](http://lwn.net/Articles/543273/)  _(tags: security, vm)_
+- 2016-08-18: [LXD: the next-generation container hypervisor for Linux | Cloud | Ubuntu](http://www.ubuntu.com/cloud/lxd)  _(tags: no_tag)_
+- 2016-08-18: [https://hub.docker.com/r/diogomonica/docker-bench-security/](https://hub.docker.com/r/diogomonica/docker-bench-security/)  _(tags: no_tag)_
+- 2016-08-18: [Docker security](https://docs.docker.com/engine/security/security/)  _(tags: vm, openmastery-learning, openmastery, learning, security)_
+- 2016-08-17: [Great write-up by  of  libs yo](http://www.oreilly.com/programming/free/files/20-python-libraries-you-arent-using-but-should.pdf)  _(tags: python, tweet)_
+- 2016-08-16: [Deciphering Glyph ::        Python Packaging Is Good Now](https://glyph.twistedmatrix.com/2016/08/python-packaging.html)  _(tags: tweet, python, programming, installation)_
+- 2016-08-14: [Keyboard Shortcuts Don't Work Properly After 14.04 -> 16.04 Upgrade - Ask Ubuntu](http://askubuntu.com/questions/764430/keyboard-shortcuts-dont-work-properly-after-14-04-16-04-upgrade)  _(tags: problem, sysadmin)_
+- 2016-08-13: [Stream nbcolympics.com video on linux : linux](https://www.reddit.com/r/linux/comments/4x19l2/stream_nbcolympicscom_video_on_linux/)  _(tags: no_tag)_
+- 2016-08-13: [High-Volume Secret Sharing — Snips Blog — Medium](https://medium.com/snips-ai/high-volume-secret-sharing-2e7dc5b41e9a)  _(tags: privacy, crypto, tweet)_
+- 2016-08-13: [Pac-Man on the Sequoia AVC-Edge DRE Voting Machine](https://jhalderm.com/pacman/)  _(tags: tweet, america, security)_
+- 2016-08-13: [4G LTE CellSpot overview | T-Mobile Support](https://support.t-mobile.com/docs/DOC-24269)  _(tags: mobile, shopping)_
+- 2016-08-13: [uApp Explorer](https://uappexplorer.com/apps?type=snappy&sort=-last_updated)  _(tags: no_tag)_
+- 2016-08-13: [Transactional updates - Snaps are universal Linux packages](http://snapcraft.io/docs/core/updates)  _(tags: no_tag)_
+- 2016-08-13: [Snap stores - Snaps are universal Linux packages](http://snapcraft.io/docs/core/store)  _(tags: no_tag)_
+- 2016-08-13: [Snaps interfaces - Snaps are universal Linux packages](http://snapcraft.io/docs/reference/interfaces)  _(tags: no_tag)_
+- 2016-08-13: [GNU Guix Reference Manual: USB Stick Installation](https://www.gnu.org/software/guix/manual/html_node/USB-Stick-Installation.html)  _(tags: key-continuity, linux)_
+- 2016-08-13: [GNU Guix Reference Manual: Limitations](https://www.gnu.org/software/guix/manual/html_node/Limitations.html)  _(tags: no_tag)_
+- 2016-08-13: [guile compiler tasks -- wingolog](https://wingolog.org/archives/2016/02/04/guile-compiler-tasks)  _(tags: no_tag)_
+- 2016-08-13: [Ubuntu - GnuCash](http://wiki.gnucash.org/wiki/Ubuntu)  _(tags: no_tag)_
+- 2016-08-13: [GetDeb.net V2 - Software for Ubuntu Linux - Updates for Ubuntu 16.04](http://www.getdeb.net/updates/Ubuntu/16.04)  _(tags: no_tag)_
+- 2016-08-13: [Link via an ambassador container](https://docs.docker.com/engine/admin/ambassador_pattern_linking/)  _(tags: vm)_
+- 2016-08-12: [Application Deployment — Python Packaging User Guide documentation](https://packaging.python.org/deployment/)  _(tags: no_tag)_
+- 2016-08-12: [Polyfill service](https://polyfill.io/v2/docs/)  _(tags: tweet, javascript, web-evolution)_
+- 2016-08-12: [Share many as one, with the Collections app - Sandstorm Blog](https://sandstorm.io/news/2016-08-09-collections-app)  _(tags: no_tag)_
+- 2016-08-12: [Instructions on how to upgrade your Ubuntu desktop. | Ubuntu](http://www.ubuntu.com/download/desktop/upgrade)  _(tags: no_tag)_
+- 2016-08-11: [Zero-cost futures in Rust &middot; Aaron Turon](http://aturon.github.io/blog/2016/08/11/futures/)  _(tags: tweet)_
+- 2016-08-08: [I Peeked Into My Node_Modules Directory And You Won’t Believe What Happened Next — friendship .js — Medium](https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558)  _(tags: tweet)_
+- 2016-08-08: [GitHub - leebyron/flow-remove-types: Removes Flow type annotations from JavaScript files with speed and simplicity.](https://github.com/leebyron/flow-remove-types)  _(tags: tweet)_
+- 2016-08-06: [25 years ago the world changed forever | W3C Blog](https://www.w3.org/blog/2016/08/25-years-ago-the-world-changed-forever/)  _(tags: tweet)_
+- 2016-08-06: [OnHub, the Google On app and your privacy - OnHub Help](https://support.google.com/onhub/answer/6246642?hl=en)  _(tags: shopping, security, privacy, data)_
+- 2016-08-06: [Making Ethernet Cables - Ground Control](http://www.groundcontrol.com/galileo/ch5-ethernet.htm)  _(tags: diy, ethernet, achievement-unlocked)_
+- 2016-08-06: [Nuxi CloudABI](https://nuxi.nl/cloudabi/)  _(tags: capabilities)_
+- 2016-08-05: [Ever wondered how L4 is being used in iOS devices?](https://www.blackhat.com/docs/us-16/materials/us-16-Mandt-Demystifying-The-Secure-Enclave-Processor.pdf)  _(tags: tweet)_
+- 2016-08-03: [Trending Groovy repositories on GitHub today · GitHub](https://github.com/trending/groovy)  _(tags: no_tag)_
+- 2016-08-02: [Windows Support is here!  https://t.co/JX55MJKVkB](https://t.co/ChpXDbAFsA)  _(tags: tweet)_
+- 2016-08-02: [Privacy Activists Launch Database to Track Global Sales of Surveillance Tech | Motherboard](http://motherboard.vice.com/read/privacy-activists-launch-database-to-track-global-sales-of-surveillance-tech?utm-source=mbtwitter)  _(tags: tweet)_
+- 2016-08-02: [Letter to My Two Sons – November 13th, 2015 | Benlog](https://benlog.com/2015/11/13/letter-to-my-two-sons-november-13th-2015/)  _(tags: america, world, family, security)_
+- 2016-08-01: [Untitled](http://pleac.sourceforge.net/pleac_groovy/)  _(tags: no_tag)_
+- 2016-08-01: [GitHub - paulk-asert/awesome-groovy: source code for the slides here:](https://github.com/paulk-asert/awesome-groovy)  _(tags: no_tag)_

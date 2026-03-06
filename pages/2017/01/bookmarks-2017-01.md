@@ -1,0 +1,174 @@
+---
+title: January 2017 Bookmarks: twitter, trump, and america
+date: 2017-01-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "capabilities", "data", "design", "fp", "golang", "health", "javascript", "kc", "ksleg", "learning", "logic", "nix", "nixos", "politics", "presentation", "programming", "publishing", "rust", "security", "shopping", "sysadmin", "usability", "video", "vm", "wifi"]
+---
+
+Shared bookmarks saved in January 2017.
+
+- total bookmarks: 160
+- total annotations captured: 3
+
+## Links
+
+- 2017-01-31: [Trump’s National Security Coup Cuts Intelligence Out of Big Decisions | Observer](http://observer.com/2017/01/donald-trump-bannon-flynn-national-security-coup/)  _(tags: johnschindler, nsc, tweet)_
+- 2017-01-31: [Not with a whimper but with a BANG. Way to be.](https://www.nytimes.com/glogin?URI=https%3A%2F%2Fwww.nytimes.com%2F2017%2F01%2F30%2Fus%2Fpolitics%2Fattorney-general-civil-rights-refugee.html%3Fsmid%3Dtw-share%26_r%3D1)  _(tags: tweet)_
+- 2017-01-31: [Mike Butcher on Twitter: &quot;Steele dossier said Putin offered Trump 19% of Rosneft if he became President &amp; removed sanctions. Last week 19.5% of Rosneft was sold... https://t.co/Ub88Y4bv6n&quot;](https://twitter.com/mikebutcher/status/826014671182372869)  _(tags: tweet)_
+- 2017-01-31: [Col. Morris Davis on Twitter: &quot;Can&#39;t credibly claim to respect the military when you boot the top military officer off NSC for Breitbart&#39;s Bannon.  @POTUS @realDonaldTrump https://t.co/OfWKDYtL0a&quot;](https://twitter.com/i/web/status/826046221403963392)  _(tags: tweet)_
+- 2017-01-30: [AltDOJ on Twitter: &quot;Outside Trump Hotel, heading toward the Capitol. Crowd keeps coming &amp; coming, growing bigger &amp; bigger. #MuslimBan #CNNSOTU #resist https://t.co/B6cw8U0qOL&quot;](https://twitter.com/i/web/status/825801054839197696)  _(tags: muslimban, tweet)_
+- 2017-01-29: [John Schindler on Twitter: &quot;Flynn+Bannon are running the WH. Both are abrasive d-bags. They&#39;ll alienate everyone not in their gang in no time.&#10;&#10;https://t.co/XfhwS6WCQt&quot;](https://twitter.com/20committee/status/825504273656139776)  _(tags: tweet)_
+- 2017-01-29: [Daniel Abraham on Twitter: &quot;Hey, @TheDemocrats. Have you considered having a press conference about anything today? Speaking up about anything concerning going on?&quot;](https://twitter.com/abrahamhanover/status/825500058745397248)  _(tags: tweet)_
+- 2017-01-29: [Chance of being killed by refugee terrorist in United States is one in 3.6 billion | The Independent](http://www.independent.co.uk/news/world/americas/refugee-terrorist-chances-of-killed-one-in-3-billion-donald-trump-immigration-ban-syria-yemen-libya-a7548151.html)  _(tags: tweet)_
+- 2017-01-29: [Bernie Sanders on Twitter: &quot;Trump&#39;s anti-Muslim order plays into the hands of fanatics wishing to harm America. Love and compassion trump hatred and intolerance. https://t.co/hUzvqqqd9H&quot;](https://twitter.com/i/web/status/825381179775971328)  _(tags: tweet)_
+- 2017-01-28: [Wouldn't You Know It? Florida is the Genesis of the Trump Voter Fraud Story | Sunshine State News | Florida Political News](http://www.sunshinestatenews.com/story/wouldnt-you-know-it-florida-genesis-trump-voter-fraud-story)  _(tags: tweet)_
+- 2017-01-28: [Torture doesn&#8217;t work &#8230; except when it does | The XX Committee](https://20committee.com/2012/12/11/torture-doesnt-work-except-when-it-does/)  _(tags: tweet)_
+- 2017-01-28: [Botmaster of 350k twitter bots can send spam, mani](https://arxiv.org/abs/1701.02405)  _(tags: tweet)_
+- 2017-01-28: [via : the rise of  notebooks](https://t.co/S0WPUuGsl0)  _(tags: datascience, tweet)_
+- 2017-01-27: [Refactoring std for ultimate portability - libs - Rust Internals](https://internals.rust-lang.org/t/refactoring-std-for-ultimate-portability/4301/32)  _(tags: rust, capabilities)_
+- 2017-01-27: [Rust + CloudABI - Rust Internals](https://internals.rust-lang.org/t/rust-cloudabi/3773)  _(tags: rust, capabilities)_
+- 2017-01-27: [How to use Vagrant for local web development — osteel's blog](http://tech.osteel.me/posts/2015/01/25/how-to-use-vagrant-for-local-web-development.html)  _(tags: vm)_
+- 2017-01-27: [A Brief Chat With Elon Musk About Climate Change, Rex Tillerson, and Donald Trump](http://gizmodo.com/a-brief-chat-with-elon-musk-about-climate-change-rex-t-1791620750)  _(tags: no_tag)_
+- 2017-01-27: [Thomas Rid on Twitter: &quot;Presidential infosec, post-DNC hack&#10;—@POTUS uses private email&#10;—&quot;old, unsecured&quot; Android phone&#10;—@POTUS has no 2FA&#10;—Spicer tweets password 2x https://t.co/sdOvLKrWLu&quot;](https://twitter.com/i/web/status/824695530664108033)  _(tags: tweet)_
+- 2017-01-27: [America Is Already Paying for the Wall With Mexico - The Atlantic](https://www.theatlantic.com/international/archive/2017/01/america-is-already-paying-for-the-wall-with-mexico/514658/)  _(tags: tweet)_
+- 2017-01-27: [The Monad Fear - LINE Haskell Boot Camp](https://e.xtendo.org/monad)  _(tags: learning, fp)_
+- 2017-01-26: [Trump administration backs off plan to scrub climate pages from EPA website - The Washington Post](https://www.washingtonpost.com/news/energy-environment/wp/2017/01/25/trump-administration-backs-off-plan-to-scrub-climate-pages-from-epa-website/)  _(tags: tweet)_
+- 2017-01-26: [The Associated Press on Twitter: &quot;BREAKING: Trump administration mandating EPA scientific studies, data undergo review by political staff before public release.&quot;](https://twitter.com/AP/status/824374557893083146)  _(tags: tweet)_
+- 2017-01-26: [Tech Wizard on Twitter: &quot;Thanks to our terrific friends &amp; clients for your support during Sean&#39;s recovery. Finally got the cast and pins removed this week! #Smile https://t.co/7ZGZkZ9Xfp&quot;](https://twitter.com/i/web/status/824374920423542784)  _(tags: tweet)_
+- 2017-01-26: [Memo freezing NIH communications with Congress triggers jitters | Science | AAAS](http://www.sciencemag.org/news/2017/01/memo-freezing-nih-communications-congress-triggers-jitters)  _(tags: tweet)_
+- 2017-01-26: [Ivan Sigal on Twitter: &quot;Four more journalists get felony charges after covering inauguration unrest https://t.co/xiF7aqjRNP&quot;](https://twitter.com/ivonotes/status/824249442559729664)  _(tags: tweet)_
+- 2017-01-26: [Wow: South Dakota GOP will declare 'state of emergency' to repeal voter-approved ethics reform law](http://www.dailykos.com/story/2017/01/24/1624215/-Wow-South-Dakota-GOP-will-declare-state-of-emergency-to-repeal-voter-approved-ethics-reform-law)  _(tags: tweet)_
+- 2017-01-26: [Evan McMullin to launch conservative group opposing Trump | Washington Examiner](http://www.washingtonexaminer.com/evan-mcmullin-to-launch-conservative-group-opposing-trump/article/2612880?custom_click=rss)  _(tags: tweet)_
+- 2017-01-26: [BREAKING: Trump admin drafts executive order to ro](https://www.nytimes.com/2017/01/25/us/politics/cia-detainee-prisons.html?_r=0)  _(tags: tweet)_
+- 2017-01-26: [5 Calls: Make your voice heard](https://5calls.org)  _(tags: tweet)_
+- 2017-01-26: [Trump admin bans communications from EPA to public  | Boston Herald](http://www.bostonherald.com/news/us_politics/2017/01/trump_admin_bans_communications_from_epa_to_public)  _(tags: tweet)_
+- 2017-01-25: [sam zeff on Twitter: &quot;BREAKING:A 7% across board cut to balance #Kansas budget would cost all @ksregents institutions a combined $53 million #ksed #ksleg @kcur https://t.co/YCrOQ75bkN&quot;](https://twitter.com/samzeff/status/823996557104128001)  _(tags: highered, ksleg, tweet)_
+- 2017-01-25: [The Lead CNN on Twitter: &quot;.@jaketapper: There is a reason White House is providing no evidence about voter fraud claim – there is no evidence. https://t.co/abX6903oZi https://t.co/fi5vkeK7Um&quot;](https://twitter.com/TheLeadCNN/status/824001221019181057)  _(tags: tweet)_
+- 2017-01-25: [How to Culture Jam a Populist in Four Easy Steps | Caracas Chronicles](https://www.caracaschronicles.com/2017/01/20/culturejam/)  _(tags: tweet)_
+- 2017-01-25: [Andrew Stuttaford on Twitter: &quot;Nato has our &#39;unshakeable commitment&#39;, Pentagon chief vows https://t.co/zAigKxxP3V&quot;](https://twitter.com/AStuttaford/status/823885549471748097)  _(tags: tweet)_
+- 2017-01-25: [Washington Post on Twitter: &quot;Despite no evidence,Trump tells congressional leaders that millions of illegal ballots cost him the popular vote https://t.co/xcuWzsTmYI&quot;](https://twitter.com/washingtonpost/status/823704305354018816)  _(tags: tweet)_
+- 2017-01-25: [Trump freezes hiring of many federal workers - The Washington Post](https://www.washingtonpost.com/powerpost/trump-freezes-hiring-of-federal-workers/2017/01/23/f14d8180-e190-11e6-ba11-63c4b4fb5a63_story.html?pushid=breaking-news_1485216043&tid=notifi_push_breaking-news&utm_term=.5db425b1c3b7)  _(tags: tweet)_
+- 2017-01-25: [The first days inside Trump’s White House: Fury, tumult and a reboot - The Washington Post](https://www.washingtonpost.com/politics/the-first-days-inside-trumps-white-house-fury-tumult-and-a-reboot/2017/01/23/7ceef1b0-e191-11e6-ba11-63c4b4fb5a63_story.html)  _(tags: tweet)_
+- 2017-01-25: [There have been just four documented cases of voter fraud in the 2016 election - The Washington Post](https://www.washingtonpost.com/news/the-fix/wp/2016/12/01/0-000002-percent-of-all-the-ballots-cast-in-the-2016-election-were-fraudulent/?utm_term=.51f8ebf9b4d0)  _(tags: america)_
+- 2017-01-25: [Study Finds No Evidence of Widespread Voter Fraud - NBC News](http://www.nbcnews.com/news/us-news/study-finds-no-evidence-widespread-voter-fraud-n637776)  _(tags: america)_
+- 2017-01-25: [The Shocking Affront of Donald Trump’s C.I.A. Stunt - NYTimes.com](https://mobile.nytimes.com/2017/01/24/opinion/the-shocking-affront-of-donald-trumps-cia-stunt.html?smid=tw-share&_r=0&referer=https://t.co/Lw2wK3vs3S)  _(tags: america)_
+- 2017-01-24: [Jason Goldberg on Twitter: &quot;Amazon 1-Click Patent Expires this year https://t.co/T84r6dVNoY via @pymnts&quot;](https://twitter.com/retailgeek/status/823547372059893760)  _(tags: tweet)_
+- 2017-01-24: [I was at FB from 2006-2015, and Scuba caused a phase change in how Facebook&#x27;s pe... | Hacker News](https://news.ycombinator.com/item?id=13463905)  _(tags: tweet)_
+- 2017-01-24: [Climate Reality on Twitter: &quot;In &quot;a huge victory for democracy,” a judge has ruled that Exxon must hand over 40 years of #ClimateChange documents https://t.co/d5VQMsbwTi https://t.co/7SBcS4PkAa&quot;](https://twitter.com/i/web/status/823518727832485889)  _(tags: climatechange, tweet)_
+- 2017-01-24: [Homebrew — The missing package manager for macOS](http://brew.sh)  _(tags: no_tag)_
+- 2017-01-24: [SQLite4: The Design Of SQLite4](http://sqlite.org/src4/doc/trunk/www/design.wiki)  _(tags: no_tag)_
+- 2017-01-23: [Yordano Ventura, Kansas City Royals pitcher, dies at age 25 in vehicle crash in Dominican Republic | The Kansas City Star](http://www.kansascity.com/sports/mlb/kansas-city-royals/article128080059.html)  _(tags: tweet)_
+- 2017-01-23: [Trump’s Vainglorious Affront to the C.I.A. - The New Yorker](http://www.newyorker.com/news/news-desk/trumps-vainglorious-affront-to-the-c-i-a?mbid=social_twitter)  _(tags: tweet)_
+- 2017-01-23: [Roberta on Twitter: &quot;This guy was SECRETARY OF STATE yesterday. Today, he marches against the new administration. This doesn&#39;t just...happen, y&#39;all.](https://twitter.com/i/web/status/822897078410117120)  _(tags: tweet)_
+- 2017-01-23: [Donald Trump Disrupts the Western Spy Alliance | Observer](http://observer.com/2017/01/donald-trump-intelligence-community-kremlin-spy-alliance/)  _(tags: tweet)_
+- 2017-01-23: [Bernie Sanders on Twitter: &quot;President Trump, you made a big mistake. By trying to divide us up by race, religion, gender and nationality you actually brought us closer. https://t.co/U7deCCTFx9&quot;](https://twitter.com/i/web/status/822930622926745602)  _(tags: tweet)_
+- 2017-01-23: [Wireless access point - DD-WRT Wiki](http://www.dd-wrt.com/wiki/index.php/Wireless_Access_Point)  _(tags: sysadmin, wifi)_
+- 2017-01-23: [Fix Double NAT / Two Wi-Fi networks are running at the same time - Google Wifi Help](https://support.google.com/wifi/answer/6277579)  _(tags: sysadmin, wifi)_
+- 2017-01-22: [Sally Wengrover, PhD on Twitter: &quot;#Indivisible @IndivisibleKS #TheResistance #StrongerTogetherKC #WomensMarch @JerryMoran @SenPatRoberts @RepKevinYoder https://t.co/xPbDPkvynB&quot;](https://twitter.com/i/web/status/823037173033267201)  _(tags: indivisible, theresistance, strongertogetherkc, womensmarch, tweet)_
+- 2017-01-22: [John Schindler on Twitter: &quot;14 years ago, however misguidedly, I signed on for Operation IRAQI FREEDOM. I didn&#39;t sign on for Op STEAL IRAQI OIL, asshole.&#10;&#10;FYI @POTUS&quot;](https://twitter.com/20committee/status/823012221009752064)  _(tags: tweet)_
+- 2017-01-22: [Ari Berman on Twitter: &quot;Via UConn prof @djpressman, between 3.3 million to 4.2 million people marched today. Largest protests in US history https://t.co/DA6gR2QFs6 https://t.co/O3PZ6O6Dim&quot;](https://twitter.com/i/web/status/823001984085164032)  _(tags: tweet)_
+- 2017-01-22: [Immediately release Donald Trump&#039;s full tax returns, with all information needed to verify emoluments clause compliance. | We the People: Your Voice in Our Government](https://petitions.whitehouse.gov/petition/immediately-release-donald-trumps-full-tax-returns-all-information-needed-verify-emoluments-clause-compliance)  _(tags: tweet)_
+- 2017-01-22: [Hundreds of Thousands Flood DC for Women's March  | NBC4 Washington](http://www.nbcwashington.com/news/local/Women-Descend-on-Washington-for-Womens-March-411397085.html?_osource=SocialFlowTwt_DCBrand)  _(tags: tweet)_
+- 2017-01-22: [Assigning blame to unsafe code](http://smallcultfollowing.com/babysteps/blog/2017/01/22/assigning-blame-to-unsafe-code/)  _(tags: tweet)_
+- 2017-01-22: [Trump&#39;s White House called its first press briefing to complain about reporters’ tweets - Vox](http://www.vox.com/2017/1/21/14347812/trump-press-briefing-sean-spicer)  _(tags: tweet)_
+- 2017-01-22: [Nick Shapiro on Twitter: &quot;Former CIA Dir Brennan is deeply saddened and angered at Trump&#39;s despicable display of self-aggrandizement...(1/2)&quot;](https://twitter.com/nick_shapiro/status/822948484756041728)  _(tags: tweet)_
+- 2017-01-22: [Brian Stelter on Twitter: &quot;FYI, CNN made a conscious choice not to show the @PressSec statement live. The decision was to monitor the statement &amp; then report on it.&quot;](https://twitter.com/brianstelter/status/822941805503254528)  _(tags: tweet)_
+- 2017-01-22: [rick on Twitter: &quot;Absolute worst part about PressSec Sean Spicer&#39;s outright lies &amp; agitprop?&#10;&#10;He&#39;s a commissioned officer in the United States Navy Reserve.](https://twitter.com/PlunkettPrime/status/822940813076418560)  _(tags: tweet)_
+- 2017-01-22: [Pwn All The Things on Twitter: &quot;Full transcript of President Trump&#39;s remarks to @CIA, as delivered https://t.co/PYy3MAUAHJ&quot;](https://twitter.com/pwnallthethings/status/822935397235916800)  _(tags: tweet)_
+- 2017-01-22: [Bradd Jaffy on Twitter: &quot;“This was the largest audience to ever witness an inauguration -- period,” Trump White House press secretary falsely claims. Patently false. https://t.co/QL971jmyMt&quot;](https://twitter.com/i/web/status/822942516529995776)  _(tags: tweet)_
+- 2017-01-22: [Rick Byers on Twitter: &quot;We really should block/warn for HTTP downloads in Chrome - users have no indication of the danger.  https://t.co/NsiwyVBBKa /cc @laparisa https://t.co/GUQPYyvdf8&quot;](https://twitter.com/i/web/status/822871829954052096)  _(tags: tweet)_
+- 2017-01-22: [Katharine Hayhoe on Twitter: &quot;You know something&#39;s up when there&#39;s even a #WomensMarch in Lubbock TX, the 2nd most conservative city in the US. During a dust storm. https://t.co/pgq1zluN8Z&quot;](https://twitter.com/i/web/status/822921915983687680)  _(tags: womensmarch, tweet)_
+- 2017-01-22: [Flynn is creating the most military-heavy National Security Council of the modern era - The Washington Post](https://www.washingtonpost.com/opinions/global-opinions/flynn-is-creating-the-most-military-heavy-national-security-council-of-the-modern-era/2017/01/20/8a45ce9c-df20-11e6-918c-99ede3c8cafa_story.html?utm_term=.230e2ebf6729)  _(tags: tweet)_
+- 2017-01-21: [Talk @ Paris Rust Meetup](https://www.ralfj.de/blog/2017/01/20/paris-rust-meetup.html)  _(tags: logic, programming, presentation, video)_
+- 2017-01-21: [ARIPartFinder](http://www.cubcadet.com/webapp/wcs/stores/servlet/ARIPartFinderView?storeId=10051&catalogId=14101&langId=-1)  _(tags: shopping, lawn)_
+- 2017-01-21: [H.R. 2048: Uniting and Strengthening America by Fulfilling Rights and Ensuring Effective Discipline Over Monitoring Act of 2015 -- GovTrack.us](https://www.govtrack.us/congress/votes/114-2015/h224)  _(tags: america, survellance, data)_
+- 2017-01-21: [The White House | whitehouse.gov](https://www.whitehouse.gov)  _(tags: tweet)_
+- 2017-01-21: [The White House | whitehouse.gov](https://obamawhitehouse.archives.gov)  _(tags: tweet)_
+- 2017-01-21: [RootsAction on Twitter: &quot;Be first to sign: https://t.co/0uai7UFLvB https://t.co/gKO4ESRA3m&quot;](https://twitter.com/Roots_Action/status/822528559008907265)  _(tags: tweet)_
+- 2017-01-21: [Track Trump. The First 100 Days](http://www.track-trump.com)  _(tags: tweet)_
+- 2017-01-21: [Major Fake News Operation Tracked Back to Republican Operative](https://theintercept.com/2017/01/19/major-fake-news-operation-tracked-back-republican-operative/)  _(tags: tweet)_
+- 2017-01-21: [Kyle Buchanan on Twitter: &quot;Pretty sure the flag-waving cover photo from Trump&#39;s new POTUS account is, uh, a picture from Barack Obama&#39;s Inauguration https://t.co/8ZvJKPzjV7&quot;](https://twitter.com/i/web/status/822492155809656833)  _(tags: tweet)_
+- 2017-01-21: [Pitt Griffin on Twitter: &quot;During #Obama&#39;s 8 years, not one administration official was indicted. How do the other President&#39;s stack up? Notice a party bias? https://t.co/r2alnlMzDE&quot;](https://twitter.com/i/web/status/821898645079552002)  _(tags: obama, tweet)_
+- 2017-01-21: [A Hypothesis-powered toolkit for fact checkers &#8211; Hypothesis](https://hypothes.is/blog/a-hypothesis-powered-toolkit-for-fact-checkers/)  _(tags: tweet)_
+- 2017-01-20: [Breaking: Trump asks NIH Director Francis Collins to stay on | Science | AAAS](http://www.sciencemag.org/news/2017/01/trump-asks-nih-director-francis-collins-stay)  _(tags: tweet)_
+- 2017-01-20: [Announcing Parity 1.5 | Ethcore](https://blog.ethcore.io/introducing-parity-1-5-nativity/)  _(tags: tweet)_
+- 2017-01-20: [U.S. News on Twitter: &quot;As a thank you to his staffers, Barack Obama had Bruce Springsteen play a two-hour acoustic concert. https://t.co/noIR8bvUXY https://t.co/yTZECyg79N&quot;](https://twitter.com/i/web/status/822156445307334657)  _(tags: tweet)_
+- 2017-01-20: [Spy Clouds Hang Over Trump’s Inauguration | Observer](http://observer.com/2017/01/spy-clouds-hang-over-trumps-inauguration/)  _(tags: tweet)_
+- 2017-01-20: [Julie Samuels on Twitter: &quot;Big news! Michelle Lee is going to remain as Director of @uspto! Looking forward to more good work from her and her team. #FixPatents&quot;](https://twitter.com/juliepsamuels/status/822138307035402241)  _(tags: tweet)_
+- 2017-01-20: [Really genius modeling of historic calendar system](http://perio.do/pdfs/Grieshaber-2016-GODOT.pdf)  _(tags: tweet)_
+- 2017-01-20: [What is the 'Indivisible' guide? | MSNBC](http://www.msnbc.com/rachel-maddow/watch/what-is-the-indivisible-guide-847974467669)  _(tags: america, politics)_
+- 2017-01-20: [ACA Stories - KS - Indivisible Kansas City](http://www.indivisiblekc.com/aca-stories---ks.html)  _(tags: america, health, kc, politics)_
+- 2017-01-19: [The End Of The Loudness War? |](http://www.soundonsound.com/techniques/end-loudness-war)  _(tags: tweet)_
+- 2017-01-19: [‘He Has This Deep Fear That He Is Not a Legitimate President’ - POLITICO Magazine](http://www.politico.com/magazine/story/2017/01/trump-biographers-presidency-legitimate-214655)  _(tags: america)_
+- 2017-01-18: [pom: a parser combinator library without macros](https://t.co/0GYG03wfzY)  _(tags: tweet)_
+- 2017-01-18: [Large Scale Machine Learning and Other Animals: CryptoNets: scoring deep learning on encrypted data](http://bickson.blogspot.com/2017/01/cryptonets-scoring-deep-learning-on.html)  _(tags: tweet)_
+- 2017-01-18: [All I Know Is What’s on the Internet — Real Life](http://reallifemag.com/all-i-know-is-whats-on-the-internet/)  _(tags: tweet)_
+- 2017-01-18: [Not Acceptable!](http://pixielang.org)  _(tags: no_tag)_
+- 2017-01-17: [“I have no dealings with Russi](https://www.nytimes.com/2017/01/16/us/politics/donald-trump-russia-business.html?_r=1)  _(tags: tweet)_
+- 2017-01-17: [Mark Nottingham on Twitter: &quot;&quot;89% [of EU citizens] agree with the proposal that default Web browser settings should stop their information from being shared.&quot; https://t.co/6gvwQjXJXN&quot;](https://twitter.com/i/web/status/820893665706942465)  _(tags: tweet)_
+- 2017-01-17: [America, America - BLARB](http://blog.lareviewofbooks.org/essays/america-america/)  _(tags: tweet)_
+- 2017-01-17: [The Line of Death – text/plain](https://textslashplain.com/2017/01/14/the-line-of-death/)  _(tags: security, usability, design)_
+- 2017-01-17: [Troubleshooting Postgres Performance Problems](http://feeding.cloud.geek.nz/posts/troubleshooting-postgres-performance/)  _(tags: no_tag)_
+- 2017-01-17: [Trump to Europe: Drop Dead - POLITICO Magazine](http://www.politico.com/magazine/story/2017/01/trump-to-europe-drop-dead-214640)  _(tags: tweet, america)_
+- 2017-01-16: [This is one of the coolest interactives I've seen](https://www.nytimes.com/glogin?URI=https%3A%2F%2Fwww.nytimes.com%2Finteractive%2F2017%2F01%2F15%2Fus%2Fpolitics%2Fyou-draw-obama-legacy.html%3Fsmid%3Dfb-share%26_r%3D2)  _(tags: tweet)_
+- 2017-01-16: [less ambitious than truth-checking but you might f](https://t.co/vb68lp7tpH)  _(tags: tweet)_
+- 2017-01-16: [Ignore invalid self-signed ssl certificate in node.js with https.request? - Stack Overflow](http://stackoverflow.com/questions/10888610/ignore-invalid-self-signed-ssl-certificate-in-node-js-with-https-request)  _(tags: javascript)_
+- 2017-01-16: [OWASP WebScarab NG Project - OWASP](https://www.owasp.org/index.php/OWASP_WebScarab_NG_Project)  _(tags: no_tag)_
+- 2017-01-15: [me from today's : "Facebook has a browser but it's](https://t.co/qOktCZYa4s)  _(tags: tweet)_
+- 2017-01-15: [Lina Lightbringer on Twitter: &quot;It&#39;s MLK weekend and Trump is attacking a civil rights hero so it&#39;s a good time to repost the MLK quote that us white folk gotta memorize. https://t.co/nIY4iFCtxa&quot;](https://twitter.com/i/web/status/820292371921379328)  _(tags: tweet)_
+- 2017-01-15: [Twitter](https://mobile.twitter.com/thedailybeast/status/820052879763533824)  _(tags: tweet)_
+- 2017-01-15: [Surprising contenders emerge for Trump's NIH chief : Nature News &amp; Comment](http://www.nature.com/news/surprising-contenders-emerge-for-trump-s-nih-chief-1.21295)  _(tags: tweet)_
+- 2017-01-15: [SymPy: symbolic computing in Python [PeerJ]](https://peerj.com/articles/cs-103/)  _(tags: tweet)_
+- 2017-01-14: [Read the Docs 2016 Stats &mdash; Read the Docs Blog](https://blog.readthedocs.com/read-the-docs-2016-stats/)  _(tags: tweet)_
+- 2017-01-14: [Nature News&amp;Comment on Twitter: &quot;Gates Foundation research can’t be published in top journals because of clashes regarding open access policy: https://t.co/GcDiTkfRw4 https://t.co/XyzZayBuRj&quot;](https://twitter.com/NatureNews/status/819971068010070016)  _(tags: tweet)_
+- 2017-01-14: [Gates Foundation research can’t be published in top journals : Nature News &amp; Comment](http://www.nature.com/news/gates-foundation-research-can-t-be-published-in-top-journals-1.21299)  _(tags: tweet)_
+- 2017-01-14: [Tim Wu: ‘The internet is like the classic story of the party that went sour’ | Technology | The Guardian](https://www.theguardian.com/technology/2017/jan/08/tim-wu-interview-internet-classic-party-went-sour-attention-merchants)  _(tags: tweet)_
+- 2017-01-14: [Judd Legum on Twitter: &quot;This is the Director of the Office of Government Ethics explain why Trump MUST sell his businesses.&#10;&#10;Every American should read this quote. https://t.co/taEckDEuoe&quot;](https://twitter.com/i/web/status/819665490301911042)  _(tags: tweet)_
+- 2017-01-14: [Improv bass loop - YouTube](https://www.youtube.com/watch?v=gX4j-pQCDE8)  _(tags: tweet)_
+- 2017-01-14: [Google Online Security Blog: Security Through Transparency](https://security.googleblog.com/2017/01/security-through-transparency.html)  _(tags: tweet)_
+- 2017-01-14: [Carl T. Bergstrom on Twitter: &quot;After months of work, we&#39;re  now live.&#10;&#10;A course for these troubled times: Calling Bullshit in the Age of Big Data.&#10;&#10;https://t.co/Q5MdeoVozt https://t.co/4tcen0ymzs&quot;](https://twitter.com/i/web/status/819430803385876480)  _(tags: tweet)_
+- 2017-01-13: [Steven Strogatz on Twitter: &quot;Hear me try to explain eigenvalues &amp; eigenvectors intuitively, without visuals, in 5 minutes, while clarifying why they matter. Ready? Go! https://t.co/4h0KOKSpXJ&quot;](https://twitter.com/i/web/status/819371554962362368)  _(tags: tweet)_
+- 2017-01-13: [Daniel MacArthur on Twitter: &quot;Calling Bullshit In The Age Of Big Data: a course in critical thinking in the modern era: https://t.co/KEWqAmtys0 https://t.co/W04NCuUGtC&quot;](https://twitter.com/dgmacarthur/status/819539752676429824)  _(tags: tweet)_
+- 2017-01-13: [Calling Bullshit](http://callingbullshit.org)  _(tags: tweet)_
+- 2017-01-12: [New Research Suggests the Appendix Has a Purpose After All - Slashdot](https://science.slashdot.org/story/17/01/11/2016237/new-research-suggests-the-appendix-has-a-purpose-after-all)  _(tags: no_tag)_
+- 2017-01-12: [Ezra Klein on Twitter: &quot;The federal government’s top ethics expert called Trump’s conflict of interest plan “meaningless”: https://t.co/PocZawFAgI&quot;](https://twitter.com/ezraklein/status/819323631868252160)  _(tags: tweet)_
+- 2017-01-12: [“Everyone Made Themselves the Hero.” Remembering Aaron Swartz | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2017/01/everyone-made-themselves-hero-remembering-aaron-swartz)  _(tags: tweet)_
+- 2017-01-12: [The government official in charge of ethics just harshly condemned Trump’s plan - Vox](http://www.vox.com/2017/1/11/14243146/trump-conflicts-office-government-ethics-speech)  _(tags: tweet)_
+- 2017-01-12: [Dr. Yasmin on Twitter: &quot;&quot;I also want to point out the last time a country tried to wall itself completely from its neighbor was in Berlin in 1961&quot; #tillersonhearing https://t.co/XJ0GphcseY&quot;](https://twitter.com/i/web/status/819312245406580736)  _(tags: tweet)_
+- 2017-01-12: [running  and  on an  Omega 2+, cross compiled from](https://t.co/3I3pE2WS4W)  _(tags: tweet)_
+- 2017-01-12: [Why Did BuzzFeed Publish the Trump Dossier? - The Atlantic](https://www.theatlantic.com/politics/archive/2017/01/why-did-buzzfeed-publish-the-trump-dossier/512771/)  _(tags: tweet)_
+- 2017-01-12: [John Wilbanks on Twitter: &quot;Attend a congressional town hall. Visit your congressional district office. Write a letter to / call your congress critter. Don’t just tweet https://t.co/gW6aZs8o0U&quot;](https://twitter.com/i/web/status/819225360978079744)  _(tags: tweet)_
+- 2017-01-12: [Philip Bump on Twitter: &quot;Wired&#39;s analysis of Goldengate is worth reading.  https://t.co/6m0JlxkfNM&quot;](https://twitter.com/pbump/status/819054758484844545)  _(tags: russianhack, tweet)_
+- 2017-01-12: [Jim Roberts on Twitter: &quot;Facing storm of pressure over ethics reviews, GOP Senators cave &amp; delay confirmation hearings of 4 Trump nominees. https://t.co/n0l0FVDBbI https://t.co/0yFI0ReE4k&quot;](https://twitter.com/nycjim/status/819019016266219521)  _(tags: tweet)_
+- 2017-01-12: [A manifesto for reproducible science : Nature Human Behaviour](http://www.nature.com/articles/s41562-016-0021)  _(tags: reproducible, tweet)_
+- 2017-01-11: [Obamacare Repeal Might Have Just Died Tonight](http://nymag.com/daily/intelligencer/2017/01/obamacare-repeal-might-have-just-died-tonight.html)  _(tags: tweet)_
+- 2017-01-11: [Google Groups](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/IVgkxkRNtMo)  _(tags: tweet)_
+- 2017-01-11: [Bash on Ubuntu on Windows - Release Notes](https://msdn.microsoft.com/en-us/commandline/wsl/release_notes)  _(tags: tweet)_
+- 2017-01-11: [Wikimedia Foundation receives $3 million grant from Alfred P. Sloan Foundation to make freely licensed images accessible and reusable across the web &#8211; Wikimedia Blog](https://blog.wikimedia.org/2017/01/09/sloan-foundation-structured-data/)  _(tags: wikidata, glamwiki, tweet)_
+- 2017-01-11: [WashPost PR | Job Postings: Rapid-Response Investigative Team](http://washpostpr.tumblr.com/post/155627106137/job-postings-rapid-response-investigative-team)  _(tags: tweet)_
+- 2017-01-10: [Release beets 1.4.3 · beetbox/beets · GitHub](https://github.com/beetbox/beets/releases/tag/v1.4.3)  _(tags: tweet)_
+- 2017-01-10: [Chuck Schumer on Twitter: &quot;Our requests are eminently reasonable, shared by leaders of both parties. I&#39;ll return this letter to @SenateMajLdr with the same requests. https://t.co/IMT7ZtJFjV&quot;](https://twitter.com/i/web/status/818544880658108416)  _(tags: tweet)_
+- 2017-01-10: [Sarah Kendzior on Twitter: &quot;Hey can you call him again and ask him about divestment, Russian interference, why he&#39;s made lists of fed employees, and his nuclear policy? https://t.co/JsJa5NnPqn&quot;](https://twitter.com/i/web/status/818424020576174080)  _(tags: tweet)_
+- 2017-01-09: [intuit sql quality talk](http://conferences.oreilly.com/strata/strata-ca/public/schedule/detail/56077)  _(tags: no_tag)_
+- 2017-01-09: [Schooled by the Electoral College &#8211; Reinventing Fire](http://schepers.cc/schooled-by-the-electoral-college)  _(tags: npvic, tweet)_
+- 2017-01-09: [GitHub on Twitter: &quot;Find commit messages within your project or across all of GitHub. https://t.co/oDiVquJoc8&quot;](https://twitter.com/github/status/816428386356580353)  _(tags: tweet)_
+- 2017-01-07: [Python - IndieWeb](https://indieweb.org/Python)  _(tags: no_tag)_
+- 2017-01-07: [Renewing Medium’s focus – 3 min read](https://blog.medium.com/renewing-mediums-focus-98f374a960be?gi=c42fa032246a)  _(tags: tweet)_
+- 2017-01-07: [Did Media Literacy Backfire? – Data &amp; Society: Points](https://points.datasociety.net/did-media-literacy-backfire-7418c084d88d?source=linkShare-3b16402f5b9d-1483726190&gi=b6ea3a7cfe18)  _(tags: tweet)_
+- 2017-01-06: [GeoLytics - US Census demographic and GIS data products](http://www.geolytics.com/USCensus,Zip4,Products.asp)  _(tags: no_tag)_
+- 2017-01-06: [[Nix-dev] Announcing: NixOS Security Team, and Request for Comments](http://lists.science.uu.nl/pipermail/nix-dev/2017-January/022447.html)  _(tags: nixos, tweet, security, nix)_
+- 2017-01-06: [Replacing the Jet Engine While Still Flying | Jen Simmons](http://jensimmons.com/post/jan-4-2017/replacing-jet-engine-while-still-flying)  _(tags: tweet)_
+- 2017-01-06: [GitHub - proteuslabs/nix-kubernetes: Kubernetes deployment manager written in nix](https://github.com/proteuslabs/nix-kubernetes)  _(tags: nix, nixos, tweet)_
+- 2017-01-06: [Donald Trump Complete - Best Tweets, Speeches, Policies | Factba.se](https://factba.se)  _(tags: tweet)_
+- 2017-01-06: [Line (application) - Wikipedia](https://en.wikipedia.org/wiki/Line_(application))  _(tags: no_tag)_
+- 2017-01-05: [capnp-rpc-rust now uses futures-rs](https://dwrensha.github.io/capnproto-rust/2017/01/04/rpc-futures.html)  _(tags: tweet)_
+- 2017-01-05: [Google Open Source Blog: Grumpy: Go running Python!](https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html)  _(tags: golang, tweet)_
+- 2017-01-04: [Bill McKibben on Twitter: &quot;Lawmakers in Germany--home to planet&#39;s 4th-largest auto industry--vote to ban internal combustion engine by 2030 https://t.co/1jUaQkxMER&quot;](https://twitter.com/billmckibben/status/816473412164026368)  _(tags: tweet)_
+- 2017-01-03: [igorvolsky on Twitter: &quot;House Republicans held a secret vote during a secret meeting on a national holiday in order to eliminate their independent ethics watchdog&quot;](https://twitter.com/igorvolsky/status/816114257960046596)  _(tags: tweet)_
+- 2017-01-03: [Brad Fitzpatrick on Twitter: &quot;UPnP committee:&#10;&quot;Hey, let&#39;s use SOAP &amp; XML &amp; tons of namespaces! Cool!&quot;&#10;Little bit later:&#10;&quot;How to make a list? Oh, let&#39;s use CSV _in_ XML!&quot; https://t.co/UkhTVusj6V&quot;](https://twitter.com/i/web/status/816061942133460992)  _(tags: tweet)_
+- 2017-01-03: [The Secret To Learning New Skills Twice As Fast  | Co.Exist | ideas + impact](https://www.fastcoexist.com/3056223/the-secret-to-learning-new-skills-twice-as-fast?utm_content=bufferb7258&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2017-01-03: [Putin&rsquo;s Real Long Game - POLITICO Magazine](http://www.politico.com/magazine/story/2017/01/putins-real-long-game-214589)  _(tags: tweet)_
+- 2017-01-03: [GitHub - tcr/rust-hindley-milner: An implementation of the Hindley-Milner type system in Rust.](https://github.com/tcr/rust-hindley-milner)  _(tags: tweet)_
+- 2017-01-01: [Hexo - A fast, simple & powerful blog framework](https://hexo.io)  _(tags: publishing, javascript)_
+- 2017-01-01: [Subgraph - Blog](https://subgraph.com/blog/index.en.html)  _(tags: tweet)_
+- 2017-01-01: [A Proof of Stake Design Philosophy – Vitalik Buterin – Medium](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51)  _(tags: tweet)_

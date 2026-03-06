@@ -1,0 +1,172 @@
+---
+title: May 2013 Bookmarks: programming, haxe, and ubuntu
+date: 2013-05-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "android", "capabilities", "collaboration", "data", "devops", "digital", "fail", "functional", "games", "haskell", "health", "javascript", "kumc", "linux", "mac", "media", "mobile", "music", "opendata", "programming", "python", "quality", "research", "scala", "scm", "security", "shopping", "software", "sports", "sysadmin", "ubuntu", "vm", "volleyball", "w3c", "xml"]
+---
+
+Shared bookmarks saved in May 2013.
+
+- total bookmarks: 158
+- total annotations captured: 93
+
+## Links
+
+- 2013-05-31: [sbt/sbt-assembly · GitHub](https://github.com/sbt/sbt-assembly)  _(tags: devops, scala, programming)_
+- 2013-05-31: [logging - What are the best Haskell libraries to operationalize a program? - Stack Overflow](http://stackoverflow.com/questions/5808825/what-are-the-best-haskell-libraries-to-operationalize-a-program)  _(tags: devops, programming, quality, scala, haskell)_
+- 2013-05-31: [azakai: Lua in JavaScript: Running a VM in a VM](http://mozakai.blogspot.com/2013/05/lua-in-javascript-running-vm-in-vm.html)  _(tags: tweet)_
+- 2013-05-31: [WYSIWYG HTML editing producing markup that won't m](https://www.inkling.com/read/developing-inkling-habitat/release-notes/wysiwyg-text-editing)  _(tags: tweet)_
+- 2013-05-31: [Hack Kansas City | National Day of Civic Hacking](http://hackforchange.org/hack-kansas-city)  _(tags: ndoch, tweet)_
+- 2013-05-30: [Lacking Rhoticity: Introducing CapPython](http://lackingrhoticity.blogspot.com/2008/08/introducing-cappython.html)  _(tags: python, security)_
+- 2013-05-30: [Docker - the Linux container engine](http://www.docker.io)  _(tags: no_tag)_
+- 2013-05-30: [lxc Linux Containers](http://lxc.sourceforge.net)  _(tags: vm, capabilities, security, sysadmin, devops)_
+- 2013-05-30: [FAQ - Docker Documentation](http://docs.docker.io/en/latest/faq.html)  _(tags: no_tag)_
+- 2013-05-30: [Jobs | Hypothes.is](http://hypothes.is/jobs)  _(tags: tweet)_
+- 2013-05-29: [Anatomy of a hack: How crackers ransack passwords like “qeadzcwrsfxv1331” | Ars Technica](http://arstechnica.com/security/2013/05/how-crackers-make-minced-meat-out-of-your-passwords/2/)  _(tags: no_tag)_
+- 2013-05-29: [version-0.8](http://elm-lang.org/blog/announce/version-0.8.elm)  _(tags: tweet)_
+- 2013-05-29: [Tweets out of Context](http://twitter.bug.quietbabylon.com)  _(tags: tweet)_
+- 2013-05-29: [Original Bike Tricks from Tim Knoll - YouTube](http://www.youtube.com/watch?v=d1J43_TXly0&feature=youtu.be)  _(tags: tweet)_
+- 2013-05-28: [How Google Builds Its Maps—and What It Means for the Future of Everything - Alexis C. Madrigal - The Atlantic](http://www.theatlantic.com/technology/archive/2012/09/how-google-builds-its-maps-and-what-it-means-for-the-future-of-everything/261913/)  _(tags: no_tag)_
+- 2013-05-28: [Hdf5 is for Lovers (PyData SV 2013)](http://www.slideshare.net/PyData/hdf5-isforlovers)  _(tags: data, python)_
+- 2013-05-28: [Screenshots of Despair. "This is a poem we found o](http://www.jwz.org/blog/2013/05/screenshots-of-despair/)  _(tags: tweet)_
+- 2013-05-27: [UbuntuUpdates - Package "linux-image-3.5.0-31-generic" (precise 12.04)](http://www.ubuntuupdates.org/package/canonical_kernel_team/precise/main/base/linux-image-3.5.0-31-generic)  _(tags: ubuntu, linux, problem)_
+- 2013-05-27: [Newfound love of @staticmethod in Python - Peterbe.com](http://www.peterbe.com/plog/newfound-love-of-staticmethod)  _(tags: no_tag)_
+- 2013-05-26: [Commons:Featured pictures - Wikimedia Commons](http://commons.wikimedia.org/wiki/Commons:Featured_pictures)  _(tags: tweet)_
+- 2013-05-25: [The complete correctness of sorting](http://twanvl.nl/blog/agda/sorting)  _(tags: agda, tweet)_
+- 2013-05-25: [ES Discuss](http://esdiscuss.org/notes)  _(tags: collaboration)_
+- 2013-05-25: [rwldrn/idiomatic.js · GitHub](https://github.com/rwldrn/idiomatic.js)  _(tags: no_tag)_
+- 2013-05-25: [ES Discuss](http://esdiscuss.org/notes/2013-03-12)  _(tags: no_tag)_
+- 2013-05-25: [Drums Older maxwin pearl drum set](http://kansascity.craigslist.org/msg/3821333716.html)  _(tags: music, shopping)_
+- 2013-05-24: [Linux and it's schizophrenic clipboards | Sparrowtail](http://www.sparrowtail.com/linux-and-its-schizophrenic-clipboards)  _(tags: no_tag)_
+- 2013-05-24: [UbuntuCompilationGuide – FFmpeg](https://ffmpeg.org/trac/ffmpeg/wiki/UbuntuCompilationGuide)  _(tags: no_tag)_
+- 2013-05-24: [KeePass Password Safe](http://keepass.info)  _(tags: kumc, security)_
+- 2013-05-24: [Standards - Using the GNU Compiler Collection (GCC)](http://gcc.gnu.org/onlinedocs/gcc-4.1.2/gcc/Standards.html)  _(tags: no_tag)_
+- 2013-05-24: [BBC News - Online appeal unearths historic web page](http://www.bbc.co.uk/news/technology-22652675)  _(tags: no_tag)_
+- 2013-05-24: [D-Link | DCS-2132L Cloud Camera 2200, HD Day/Night Network Cloud Camera](http://www.dlink.com/us/en/home-solutions/view/network-cameras/dcs-2132l-cloud-camera-2200)  _(tags: pola, fail)_
+- 2013-05-24: [Hostapd : The Linux Way to create Virtual Wifi Access Point | Foo, Bar and Foobar](http://nims11.wordpress.com/2012/04/27/hostapd-the-linux-way-to-create-virtual-wifi-access-point/)  _(tags: no_tag)_
+- 2013-05-24: [mydlink](https://www.mydlink.com/support#DCS-2132L)  _(tags: no_tag)_
+- 2013-05-24: [12.04 - Sound works but no device shown in the Sound settings - Ask Ubuntu](http://askubuntu.com/questions/193575/sound-works-but-no-device-shown-in-the-sound-settings)  _(tags: no_tag)_
+- 2013-05-24: [12.04 - Firefox 15 hangs with Ubuntu kernel update - Ask Ubuntu](http://askubuntu.com/questions/191398/firefox-15-hangs-with-ubuntu-kernel-update)  _(tags: no_tag)_
+- 2013-05-24: [[ubuntu] Ubuntu 12.04 No sound devices](http://ubuntuforums.org/showthread.php?t=2141941)  _(tags: no_tag)_
+- 2013-05-24: [ai/autoprefixer · GitHub](https://github.com/ai/autoprefixer)  _(tags: tweet)_
+- 2013-05-24: [SIGGRAPH 2013 : Technical Papers Preview Trailer - YouTube](https://www.youtube.com/watch?v=JAFhkdGtHck)  _(tags: tweet)_
+- 2013-05-24: [Google abandons open standards for instant messaging](http://www.osnews.com/story/27063/Google_abandons_open_standards_for_instant_messaging)  _(tags: tweet)_
+- 2013-05-24: [What Mattered in Obama's Speech Today: Ending the Open-Ended 'War on Terror' - James Fallows - The Atlantic](http://www.theatlantic.com/politics/archive/2013/05/what-mattered-in-obamas-speech-today-ending-the-open-ended-war-on-terror/276208/)  _(tags: tweet)_
+- 2013-05-24: [New constraint-based, bottom-up type-inference now properly compiles type-classes with direct evidence.](https://gist.github.com/puffnfresh/5640906)  _(tags: tweet)_
+- 2013-05-24: [kriszyp/dbind · GitHub](https://github.com/kriszyp/dbind)  _(tags: no_tag)_
+- 2013-05-24: [Lab for Automated Reasoning and Analysis - LARA: Wiki](http://lara.epfl.ch/w/insynth)  _(tags: no_tag)_
+- 2013-05-23: [Configuring Oracle SQL Developer for Microsoft SQL Server and MySQL | Gokhan Atil's Oracle Blog](http://www.gokhanatil.com/2011/09/configuring-oracle-sql-developer-for-microsoft-sql-server-and-mysql.html)  _(tags: no_tag)_
+- 2013-05-23: [Comparing and merging Microsoft Word documents](http://support.microsoft.com/kb/306484)  _(tags: no_tag)_
+- 2013-05-23: [Re-Identification Symposium |](http://blogs.law.harvard.edu/billofhealth/category/re-identification-symposium/)  _(tags: tweet)_
+- 2013-05-23: [New MinimaLT protocol spearheaded by Mike Petullo:](http://cr.yp.to/tcpip/minimalt-20130522.pdf)  _(tags: tweet)_
+- 2013-05-23: [Growing number of Americans going carless - NBC News.com](http://www.nbcnews.com/business/growing-number-americans-going-carless-6C10019243)  _(tags: carless, tweet)_
+- 2013-05-22: [Research tool - Google Drive Help](http://support.google.com/drive/bin/answer.py?hl=en&answer=2481802)  _(tags: no_tag)_
+- 2013-05-22: [Using Oracle SQLDeveloper to access SQLServer | DJ's blog](http://djiang.wordpress.com/2007/02/27/using-oracle-sqldeveloper-to-access-sqlserver/)  _(tags: no_tag)_
+- 2013-05-22: [Overview - Redmine](http://www.redmine.org)  _(tags: no_tag)_
+- 2013-05-22: [Words in Boxes: Essential Windows Tools](http://www.wordsinboxes.com/2010/01/essential-windows-tools.html)  _(tags: no_tag)_
+- 2013-05-22: [Words in Boxes](http://www.wordsinboxes.com/search?updated-max=2011-12-21T08:39:00-06:00&max-results=3)  _(tags: no_tag)_
+- 2013-05-22: [Words in Boxes: What I’ve Been Reading](http://www.wordsinboxes.com/2012/03/what-ive-been-reading_22.html)  _(tags: no_tag)_
+- 2013-05-22: [Words in Boxes: Migrating repositories from Bitbucket to Github](http://www.wordsinboxes.com/2012/02/migrating-repositories-from-bitbucket.html)  _(tags: scm)_
+- 2013-05-22: [Migrating from Github to Bitbucket](http://joeworkman.net/blog/post-40133335482)  _(tags: scm)_
+- 2013-05-22: [Migrating from Bitbucket to GitHub | Headspring](http://www.headspring.com/patrick/migrating-from-bitbucket-to-github/)  _(tags: scm, collaboration)_
+- 2013-05-22: [The Pragmatic Bookshelf | Programming Elixir](http://pragprog.com/book/elixir/programming-elixir)  _(tags: no_tag)_
+- 2013-05-22: [Staying Connected - IRC, MeetUps, Google+ Hangouts, & More - Chef - Opscode Open Source Wiki](http://wiki.opscode.com/pages/viewpage.action?pageId=26510047)  _(tags: no_tag)_
+- 2013-05-22: [Rethinking the IRC Experience | MIT Center for Civic Media](http://civic.mit.edu/blog/schultzd/rethinking-the-irc-experience)  _(tags: no_tag)_
+- 2013-05-22: [Why Professors at San Jose State Won't Use a Harvard Professor's MOOC - Technology - The Chronicle of Higher Education](http://chronicle.com/article/Why-Professors-at-San-Jose/138941/)  _(tags: no_tag)_
+- 2013-05-22: [Cleaning up my IM contacts. Sigh.   - img.ly](http://img.ly/uVvN)  _(tags: tweet)_
+- 2013-05-22: [Functional connection management from :](http://jwesleysmith.bitbucket.org/connection-mgmt.pdf)  _(tags: ylj13, tweet)_
+- 2013-05-22: [In addition to Gmail, Google adds JSON-LD support](http://manu.sporny.org/2013/json-ld-google-search/)  _(tags: jsonld, w3c, search, tweet)_
+- 2013-05-22: [Windows on the Web ∙ An A List Apart Column](http://alistapart.com/column/windows-on-the-web)  _(tags: no_tag)_
+- 2013-05-22: [Pick a license · Issue #45 · mozilla/servo](https://github.com/mozilla/servo/issues/45)  _(tags: no_tag)_
+- 2013-05-22: [some sort of iOS support · Issue #6170 · mozilla/rust](https://github.com/mozilla/rust/issues/6170)  _(tags: no_tag)_
+- 2013-05-22: [[rust-dev] No range integer type? Saftey beyond memory?](https://mail.mozilla.org/pipermail/rust-dev/2013-May/004087.html)  _(tags: software, quality)_
+- 2013-05-22: [Eternally Confuzzled - Using rand()](http://eternallyconfuzzled.com/arts/jsw_art_rand.aspx)  _(tags: no_tag)_
+- 2013-05-22: [Trellis - The PEAK Developers' Center](http://peak.telecommunity.com/DevCenter/Trellis#toc)  _(tags: no_tag)_
+- 2013-05-22: [Trellis 0.7a2 : Python Package Index](https://pypi.python.org/pypi/Trellis)  _(tags: python, programming, software, quality)_
+- 2013-05-22: [Parallelism and concurrency need different tools](http://www.yosefk.com/blog/parallelism-and-concurrency-need-different-tools.html)  _(tags: no_tag)_
+- 2013-05-22: [[rust-dev] rusti: a call to action](https://mail.mozilla.org/pipermail/rust-dev/2013-May/004075.html)  _(tags: no_tag)_
+- 2013-05-21: [func](https://fedorahosted.org/func/)  _(tags: no_tag)_
+- 2013-05-21: [High Scalability - High Scalability - The Tumblr Architecture Yahoo Bought for a Cool Billion&nbsp;Dollars](http://highscalability.com/blog/2013/5/20/the-tumblr-architecture-yahoo-bought-for-a-cool-billion-doll.html)  _(tags: tweet)_
+- 2013-05-21: [80The end* of website development as a profession - Chris Hardie](http://www.chrishardie.com/2013/05/end-of-website-development/)  _(tags: tweet)_
+- 2013-05-21: [wireless - Why is WPA-encrypted ad-hoc mode disabled in 12.04? - Ask Ubuntu](http://askubuntu.com/questions/154779/why-is-wpa-encrypted-ad-hoc-mode-disabled-in-12-04)  _(tags: no_tag)_
+- 2013-05-21: [Software Foundations](http://www.cis.upenn.edu/~bcpierce/sf/)  _(tags: programming, research, someday, quality)_
+- 2013-05-21: [4.5. Other event sources with libtcr](http://oss.linbit.com/libtcr/documentation/ar01s04s05.html)  _(tags: no_tag)_
+- 2013-05-21: [Chinese hackers who breached Google gained access to sensitive data, U.S. officials say - The Washington Post](http://www.washingtonpost.com/world/national-security/chinese-hackers-who-breached-google-gained-access-to-sensitive-data-us-officials-say/2013/05/20/51330428-be34-11e2-89c9-3be8095fe767_story.html)  _(tags: tweet)_
+- 2013-05-21: [Do Extraterrestrials Use Functional Programming? // Speaker Deck](https://speakerdeck.com/mchakravarty/do-extraterrestrials-use-functional-programming)  _(tags: tweet)_
+- 2013-05-21: ["and then they fight" phase of OA is the new norma](http://del-fi.org/post/50918775743/officially-entering-and-then-they-fight-phase-of-open)  _(tags: tweet)_
+- 2013-05-20: [EFF Will Accept Bitcoins to Support Digital Liberty | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2013/05/eff-will-accept-bitcoins-support-digital-liberty)  _(tags: tweet)_
+- 2013-05-19: [puffnfresh/brushtail · GitHub](https://github.com/puffnfresh/brushtail)  _(tags: altjs, tweet)_
+- 2013-05-19: [MAKE |   MAKE and Radio Shack Expand Partnership, Product Offerings](http://blog.makezine.com/2013/05/17/make-and-radio-shack-expand/)  _(tags: tweet)_
+- 2013-05-19: [lloyd.io - lloyd's blog.](http://lloyd.io/what-is-persona)  _(tags: tweet)_
+- 2013-05-19: [Strange Loop](https://thestrangeloop.com/sessions/scala-vs-idris-dependent-types-now-and-in-the-future)  _(tags: tweet)_
+- 2013-05-19: [Peter Suber - Google+ - Elsevier, NewsCorp, Facebook, and Yahoo join ignorant…](https://plus.google.com/109377556796183035206/posts/ZVMLUuWNYyH)  _(tags: tweet)_
+- 2013-05-19: [wycats/jsidl · GitHub](https://github.com/wycats/jsidl)  _(tags: tweet)_
+- 2013-05-18: [Google still doesn't fix Bluetooth in 4.2.2 : Android](http://www.reddit.com/r/Android/comments/18nnp1/google_still_doesnt_fix_bluetooth_in_422/)  _(tags: no_tag)_
+- 2013-05-18: [Bluetooth keeps disconnecting device after 4.2.2 OTA - Android Forums at AndroidCentral.com](http://forums.androidcentral.com/verizon-galaxy-nexus/263108-bluetooth-keeps-disconnecting-device-after-4-2-2-ota.html)  _(tags: no_tag)_
+- 2013-05-18: [Google Groups](http://productforums.google.com/forum/#!msg/mobile/1ZBdWovHB7U/Zb9MAbgsdYMJ)  _(tags: mobile, android)_
+- 2013-05-18: [Intel-based Macs: Resetting the System Management Controller (SMC)](http://support.apple.com/kb/ht3964)  _(tags: sysadmin, mac, someday)_
+- 2013-05-18: [macbook fan always on: Apple Support Communities](https://discussions.apple.com/thread/3775489?start=0&tstart=0)  _(tags: no_tag)_
+- 2013-05-18: [Multithreaded Programming - Haxe](http://haxe.org/doc/neko/threads)  _(tags: no_tag)_
+- 2013-05-18: [RSS isn't dead: the best Google Reader alternatives | The Verge](http://www.theverge.com/2013/3/19/4119006/the-best-google-reader-alternatives)  _(tags: no_tag)_
+- 2013-05-18: [Google Chrome Developers - Google+ - Introducing Portable Native Client (PNaCl)Native Client…](https://plus.google.com/+GoogleChromeDevelopers/posts/2ELYVHaZjcd)  _(tags: io13, tweet)_
+- 2013-05-18: [Amazon.com: Someone Could Get H5aeurt: A Memoir of Twenty-First-Century Parenthood (9781592408320): Drew Magary: Books](http://www.amazon.com/Someone-Could-Get-Hurt-Fatherhood/dp/159240832X)  _(tags: tweet)_
+- 2013-05-17: [Mission Beach Volleyball - Rotator Cuff Injury, therapy, and treatment.](http://www.missionbeachvolleyball.com/Injuries/Shoulder/RotatorCuff.aspx)  _(tags: volleyball, health, sports, someday)_
+- 2013-05-17: [Senior Research Engineer, Servo — Mozilla Jobs — Open Positions](https://careers.mozilla.org/en-US/position/obMdXfwR)  _(tags: web, security, someday)_
+- 2013-05-17: [Google Chrome Developers - Google+ - World&#39;s First Demo of Mobile Hardware-Accelerated WebRTC…](https://plus.google.com/+GoogleChromeDevelopers/posts/7GBb86mn92n)  _(tags: tweet)_
+- 2013-05-17: [The Language of the System - Rich Hickey - YouTube](http://www.youtube.com/watch?v=ROor6_NGIWU&feature=youtu.be)  _(tags: tweet)_
+- 2013-05-16: [MidwestPHP 2013 - Chris Tankersley's Blog](http://ctankersley.com/2013/04/02/midwestphp-2013/)  _(tags: no_tag)_
+- 2013-05-16: [MidwestPHP - March 2 and 3, 2013](http://www.midwestphp.com)  _(tags: no_tag)_
+- 2013-05-16: [SOLID (object-oriented design) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design))  _(tags: no_tag)_
+- 2013-05-16: [SimpleTest Overview | drupal.org](http://drupal.org/node/394888)  _(tags: no_tag)_
+- 2013-05-16: [Strongbox and Aaron Swartz : The New Yorker](http://www.newyorker.com/online/blogs/newsdesk/2013/05/strongbox-and-aaron-swartz.html)  _(tags: tweet)_
+- 2013-05-16: [Cointagion.com and No Starch Press launch bitcoin ebook store (Check out our cool new payment system!) : Bitcoin](http://www.reddit.com/r/Bitcoin/comments/1edkj7/cointagioncom_and_no_starch_press_launch_bitcoin/)  _(tags: tweet)_
+- 2013-05-15: [MySQL :: MySQL 5.0 Reference Manual :: 18.2 Using Stored Routines (Procedures and Functions)](http://dev.mysql.com/doc/refman/5.0/en/stored-routines.html)  _(tags: no_tag)_
+- 2013-05-15: [An Introduction to Stored Procedures in MySQL 5 | Nettuts+](http://net.tutsplus.com/tutorials/an-introduction-to-stored-procedures/)  _(tags: no_tag)_
+- 2013-05-14: [SBOL Designer - YouTube](https://www.youtube.com/watch?v=57HbAhXjYyo)  _(tags: tweet)_
+- 2013-05-13: [MySQL :: Re: Ubuntu: Cannot start SSH tunnel manager](http://forums.mysql.com/read.php?152,509854,558132#msg-558132)  _(tags: no_tag)_
+- 2013-05-13: [I&#039;m a Master! @Purdue University on Twitpic](http://twitpic.com/cq6830)  _(tags: tweet)_
+- 2013-05-12: [Umm, wow. This looks pretty amazing. ": Markets ar](http://arxiv.org/abs/1002.2284v2)  _(tags: tweet)_
+- 2013-05-12: [Two Oregon insurers rethink 2014 premiums as state posts first-ever rate comparison | OregonLive.com](http://www.oregonlive.com/health/index.ssf/2013/05/two_oregon_insurers_reconsider.html)  _(tags: tweet)_
+- 2013-05-10: [Google unveils 5-year roadmap for strong authentication | ZDNet](http://www.zdnet.com/google-unveils-5-year-roadmap-for-strong-authentication-7000015147/)  _(tags: no_tag)_
+- 2013-05-10: [Making open and machine readable the new default f](http://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf)  _(tags: opendata, winning, tweet)_
+- 2013-05-10: [Landmark Steps to Liberate Open Data  | The White House](http://www.whitehouse.gov/blog/2013/05/09/landmark-steps-liberate-open-data)  _(tags: tweet)_
+- 2013-05-10: [The optical output on my Olevia 537-B12 isnt working with - JustAnswer](http://www.justanswer.com/home-theater-stereo/7cuao-optical-output-olevia-537-b12-isn-t-working.html)  _(tags: no_tag)_
+- 2013-05-10: [can't get Surround from TV's digital audio output](http://forum.videohelp.com/threads/291355-can-t-get-Surround-from-TV-s-digital-audio-output)  _(tags: no_tag)_
+- 2013-05-09: [How to Use Google Docs Folders as Labels](http://googlesystem.blogspot.com/2009/05/how-to-use-google-docs-folders-as.html)  _(tags: no_tag)_
+- 2013-05-09: [Sony eSupport - DAV-FR8 - Support](http://esupport.sony.com/US/p/model-home.pl?mdl=DAVFR8&template_id=1&region_id=1&tab=manuals#/manualsTab)  _(tags: digital, media, shopping)_
+- 2013-05-09: [How do I change Emacs's font face for Python docstrings? - Stack Overflow](http://stackoverflow.com/questions/5130088/how-do-i-change-emacss-font-face-for-python-docstrings)  _(tags: no_tag)_
+- 2013-05-09: [Vanyaland: Video premiere: The Symptoms "All In All (Alone)" // EP release party 05.14 @ Great Scott](http://vanyaland.blogspot.com/2013/05/video-premiere-symptoms-all-in-all-ep.html)  _(tags: tweet)_
+- 2013-05-08: [CPU Caches | JAXconf](http://jaxconf.com/sessions/cpu-caches)  _(tags: no_tag)_
+- 2013-05-08: [Spock vs Spock. One of the best commercials in qui](http://io9.com/old-spock-battles-new-spock-in-the-greatest-car-commerc-493836696)  _(tags: tweet)_
+- 2013-05-08: [Major updates to my  articles at IBM. Part 2: cove](http://t.co/hgEsKtO8ZG)  _(tags: microxml, javascript, xml, tweet)_
+- 2013-05-08: [How Selections Work](http://bost.ocks.org/mike/selection/)  _(tags: tweet)_
+- 2013-05-07: [How to solve Ubuntu blank screen boot | Ashoo's Ubuntu Blog](http://www.ashwinraon.com/2012/08/how-to-solve-ubuntu-blank-screen-boot/)  _(tags: no_tag)_
+- 2013-05-07: [Upgrade Ubuntu 12.10 >>> Ubuntu 13.04 Black Screen Boot Failed with Nvidia Geforce Gt630 WHY? - Ask Ubuntu](http://askubuntu.com/questions/286062/upgrade-ubuntu-12-10-ubuntu-13-04-black-screen-boot-failed-with-nvidia-gefor)  _(tags: no_tag)_
+- 2013-05-07: [linux - How can I access my mini-pc (RaspberryPi / MK802 / Mele A1000 / VIA APC) via ethernet/wifi without having Monitor? - Super User](http://superuser.com/questions/440857/how-can-i-access-my-mini-pc-raspberrypi-mk802-mele-a1000-via-apc-via-eth)  _(tags: no_tag)_
+- 2013-05-07: [sql - How to handle DB passwords in R connection strings? - Stack Overflow](http://stackoverflow.com/questions/13033573/how-to-handle-db-passwords-in-r-connection-strings)  _(tags: security)_
+- 2013-05-07: [Want fast Clojure persistent data structures in No](http://swannodette.github.io/mori/)  _(tags: tweet)_
+- 2013-05-07: [Schneier on Security: Honeywords](http://www.schneier.com/blog/archives/2013/05/honeywords.html?utm_source=twitterfeed&utm_medium=twitter)  _(tags: tweet)_
+- 2013-05-07: [Haxe Forum - Haxe](http://haxe.org/forum/thread/3395#nabble-td5076513)  _(tags: no_tag)_
+- 2013-05-07: [Switched to IMMIX for Internal Garbage Collection | Game Haxe](http://gamehaxe.com/2009/08/17/switched-to-immix-for-internal-garbage-collection/)  _(tags: no_tag)_
+- 2013-05-07: [C Foreign Function Interface - Haxe](http://haxe.org/doc/cpp/ffi)  _(tags: no_tag)_
+- 2013-05-07: [cloudshift/hx-emacs · GitHub](https://github.com/cloudshift/hx-emacs)  _(tags: no_tag)_
+- 2013-05-04: [NME :: Vampire Volleyball](http://www.nme.io/community/forums/showcase/vampire-volleyball/)  _(tags: mobile, games)_
+- 2013-05-04: [Roy](http://brianmckenna.org/files/presentations/spainjs-roy/)  _(tags: programming, functional, javascript)_
+- 2013-05-04: [NME](https://haxenme.atlassian.net/browse/NME#selectedTab=com.atlassian.jira.plugin.system.project%3Asummary-panel)  _(tags: collaboration, mobile, programming)_
+- 2013-05-04: [NME :: What is NME and how it relates to NEKO?](http://www.nme.io/community/forums/general-discussion/what-is-nme-and-how-it-relates-to-neko/)  _(tags: no_tag)_
+- 2013-05-04: [Motion-Twin](http://tech.motion-twin.com/php.html)  _(tags: no_tag)_
+- 2013-05-04: [MTASC - Nicolas Cannasse Blog](http://ncannasse.fr/blog/mtasc)  _(tags: no_tag)_
+- 2013-05-04: [Miyoko Shida Rigolo - YouTube](https://www.youtube.com/watch?feature=player_embedded&v=dnDeo0yhIws)  _(tags: tweet)_
+- 2013-05-04: [It&#8217;s Time To Get Formal With Linked Data - semanticweb.com](http://semanticweb.com/its-time-to-get-formal-with-linked-data_b36870)  _(tags: tweet)_
+- 2013-05-03: [Android + HXCPP – a Quickstart Guide | Game Haxe](http://gamehaxe.com/2010/09/30/android-hxcpp-a-quickstart-guide/)  _(tags: programming, android, mobile)_
+- 2013-05-03: [Issue 622 - haxe - haxe.Utf8 - Haxe is a crossplatform open source programming language - Google Project Hosting](http://code.google.com/p/haxe/issues/detail?id=622)  _(tags: programming)_
+- 2013-05-03: [Haxe-AngularJS-test/src/site/MainController.hx at master · cambiata/Haxe-AngularJS-test · GitHub](https://github.com/cambiata/Haxe-AngularJS-test/blob/master/src/site/MainController.hx)  _(tags: programming)_
+- 2013-05-03: [lua [NekoVM]](http://nekovm.org/lua)  _(tags: no_tag)_
+- 2013-05-03: [Getting started with Haxe/C++ - Haxe](http://haxe.org/doc/start/cpp)  _(tags: no_tag)_
+- 2013-05-03: ["using" mixin - Haxe](http://haxe.org/manual/using)  _(tags: programming)_
+- 2013-05-03: [Mahatma Gandhi - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Ghandi)  _(tags: no_tag)_
+- 2013-05-03: [SecurityFocus](http://www.securityfocus.com/archive/1/507267)  _(tags: no_tag)_
+- 2013-05-03: [Haxe - CoffeeScript and future haXe syntax](http://haxe.org/forum/thread/3395#nabble-td7073960)  _(tags: programming)_
+- 2013-05-03: [Syntax - Haxe](http://haxe.org/ref/syntax)  _(tags: programming)_
+- 2013-05-03: [Google Groups](https://groups.google.com/forum/#!msg/haxelang/arEGBQnnl9s/FBDqun5NQ9AJ)  _(tags: no_tag)_
+- 2013-05-01: [http://info.cern.ch](http://info.cern.ch)  _(tags: tweet)_

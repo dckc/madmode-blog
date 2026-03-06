@@ -1,0 +1,103 @@
+---
+title: February 2014 Bookmarks: ubuntu, python, and github
+date: 2014-02-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "bitcoin", "cloud-services", "collaboration", "data", "finances", "guitar", "hardware", "health", "javascript", "mac", "me", "mobile", "movies", "music", "office", "performance", "programming", "python", "research", "scala", "security", "semantic", "shopping", "ssh", "sysadmin", "travel", "ubuntu", "writing"]
+---
+
+Shared bookmarks saved in February 2014.
+
+- total bookmarks: 89
+- total annotations captured: 25
+
+## Links
+
+- 2014-02-28: [Fargo and Personal Cloud Application Architectures](http://www.windley.com/archives/2014/02/fargo_and_personal_cloud_application_architectures.shtml)  _(tags: tweet)_
+- 2014-02-28: [Microsoft's to-do list / Tiamat](http://tiamat.tsotech.com/microsoft)  _(tags: no_tag)_
+- 2014-02-28: [4K is for programmers / Tiamat](http://tiamat.tsotech.com/4k-is-for-programmers)  _(tags: tweet)_
+- 2014-02-28: [The Careto/Mask APT: Frequently Asked Questions - Securelist](https://www.securelist.com/en/blog/208216078/The_Careto_Mask_APT_Frequently_Asked_Questions)  _(tags: no_tag)_
+- 2014-02-27: [Adactio: Journal&mdash;Continuum](http://adactio.com/journal/6692/)  _(tags: tweet)_
+- 2014-02-26: [This is the web platform - Tales of a Developer Advocate](http://paul.kinlan.me/this-is-the-web-platform/)  _(tags: tweet)_
+- 2014-02-26: [Electronic Health Records-for care, research and policy.   Key findings from survey on patient views towards EHRs](http://wwwf.imperial.ac.uk/blog/electronichealthrecords/2014/02/24/key-findings-from-survey-on-patient-views-towards-ehrs/)  _(tags: caredata, tweet)_
+- 2014-02-26: [Chris Wilson&#039;s answer to How much did current &amp; former members of The Web Standards Project influence the resurgence of the modern browser wars? - Quora](http://www.quora.com/How-much-did-current-former-members-of-The-Web-Standards-Project-influence-the-resurgence-of-the-modern-browser-wars/answer/Chris-Wilson-1?srid=2wX&share=1)  _(tags: tweet)_
+- 2014-02-26: [Doctored.js - a new kind of editor](http://holloway.co.nz/doctored/)  _(tags: tweet)_
+- 2014-02-26: [Why Is Academic Writing So Academic? : The New Yorker](http://www.newyorker.com/online/blogs/books/2014/02/why-is-academic-writing-so-academic.html)  _(tags: tweet)_
+- 2014-02-26: ['Lego Movie' Sequel Set for 2017](http://mashable.com/2014/02/22/lego-movie-sequel/?utm_cid=mash-com-Tw-main-link)  _(tags: tweet)_
+- 2014-02-25: [James Iry&#8217;s history of programming languages (illustrated with pictures and large fonts) | The Quick Word](http://thequickword.wordpress.com/2014/02/16/james-irys-history-of-programming-languages-illustrated-with-pictures-and-large-fonts/)  _(tags: tweet)_
+- 2014-02-25: [Gnumeric: Change rows into columns](http://gnuru.org/article/1524/gnumeric-change-rows-into-columns)  _(tags: no_tag)_
+- 2014-02-25: [Ebury SSH Rootkit - Frequently Asked Questions](https://www.cert-bund.de/ebury-faq)  _(tags: ebury, ssh, rootkit, tweet)_
+- 2014-02-25: [Two Weeks In - Notes - Kinsights](https://kinsights.com/notes/135/two-weeks-in/)  _(tags: tweet)_
+- 2014-02-25: [Federal funding of KU research reaches new record in 2013   | The University of Kansas](https://news.ku.edu/2014/02/17/federal-funding-ku-research-reaches-new-record-2013)  _(tags: kuresearch, tweet)_
+- 2014-02-25: [Ken Shirriff's blog: Hidden surprises in the Bitcoin blockchain and how they are stored: Nelson Mandela, Wikileaks, photos, and Python software](http://www.righto.com/2014/02/ascii-bernanke-wikileaks-photographs.html)  _(tags: bitcoin, tweet)_
+- 2014-02-25: [Tidbit](http://tidbit.co.in)  _(tags: tweet)_
+- 2014-02-25: [Rendered Prose Diffs · GitHub](https://github.com/blog/1784-rendered-prose-diffs)  _(tags: tweet)_
+- 2014-02-25: [Once you go Diigo, you&#039;ll never go back. - Cult of Pedagogy](http://www.cultofpedagogy.com/diigo/)  _(tags: tweet)_
+- 2014-02-25: [OK, Maybe we jumped the gun on the whole Google Glass thing - On The Media](http://www.onthemedia.org/story/ok-maybe-we-jumped-gun-whole-google-glass-thing/)  _(tags: tweet)_
+- 2014-02-25: [FreePress.net | Comcast + Time Warner Cable = Disaster](http://act.freepress.net/sign/consol_comcast_twc/?source=twitter)  _(tags: tweet)_
+- 2014-02-25: [: Copyright holders cannot prevent websites linkin](http://curia.europa.eu/jcms/jcms/Jo2_16799)  _(tags: ecj, tweet)_
+- 2014-02-25: [Roman Nurik - Google+ - Introducing Muzei Live Wallpaper: A living museum for your…](https://plus.google.com/+RomanNurik/posts/h8tG8oLcTEq)  _(tags: tweet)_
+- 2014-02-23: [A Mark Ettinger Moment - HOME](http://markettinger.org)  _(tags: guitar, music, travel)_
+- 2014-02-20: [Google Groups](https://groups.google.com/forum/#!topic/linux.debian.bugs.dist/x4esARk1BDs)  _(tags: no_tag)_
+- 2014-02-18: [Yves Morieux: As work gets more complex, 6 rules to simplify | Video on TED.com](http://on.ted.com/c01K2)  _(tags: collaboration)_
+- 2014-02-18: [Why I Love My Dropcam (and My Daughter Hates It)](https://www.yahoo.com/tech/why-i-love-my-dropcam-and-my-daughter-hates-it-76129613211.html)  _(tags: no_tag)_
+- 2014-02-17: [15.2. io — Core tools for working with streams — Python v2.7.6 documentation](http://docs.python.org/2/library/io.html)  _(tags: no_tag)_
+- 2014-02-17: [fdemmer/libkeepass · GitHub](https://github.com/fdemmer/libkeepass)  _(tags: python, security)_
+- 2014-02-17: [Netty at Twitter with Finagle | Twitter Blogs](https://blog.twitter.com/2014/netty-at-twitter-with-finagle)  _(tags: performance)_
+- 2014-02-16: [srveit/mechanize-js · GitHub](https://github.com/srveit/mechanize-js)  _(tags: javascript, python, programming, data, finances)_
+- 2014-02-15: [0install: Comparison](http://0install.net/comparison.html)  _(tags: no_tag)_
+- 2014-02-13: [Ontology Design Considerations for SNOMED CT and other OWL ontologies | Biomedical Ontologies](http://biomedicalontologies.com/2013/03/02/owl-ontology-design-considerations/)  _(tags: no_tag)_
+- 2014-02-13: [Surfing the sea of SNOMED CT - Browsing and searching with Snow Owl](http://www.b2international.com/help/index.jsp?topic=%2Fcom.b2international.snowowl.help%2Feclipsehelp%2FGetting_Started_with_Snow_Owl%2FSurfing-the-sea-of-SNOMED-CT-Browsing-and-searching-with-Snow-Owl.html)  _(tags: semantic, web, health, research, data)_
+- 2014-02-13: [SNOMED CT Documentation](http://www.ihtsdo.org/fileadmin/user_upload/doc/en_us/tig.html?t=cm_title)  _(tags: no_tag)_
+- 2014-02-13: [SNOMED CT - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/SNOMED_CT)  _(tags: no_tag)_
+- 2014-02-13: [To Make Hospitals Less Deadly, a Dose of Data - NYTimes.com](http://opinionator.blogs.nytimes.com/2013/12/04/to-make-hospitals-less-deadly-a-dose-of-data/?_php=true&_type=blogs&_r=0)  _(tags: no_tag)_
+- 2014-02-11: [Study on power of leveraging data from multiple ho](http://research.microsoft.com/en-us/um/people/horvitz/transfer_studies_CDI.pdf)  _(tags: tweet)_
+- 2014-02-10: [when selfish acts become altruistic | Benlog](http://benlog.com/2014/02/09/when-selfish-acts-become-altruistic/)  _(tags: tweet)_
+- 2014-02-09: [Have we won the safety battle? - Air Facts Journal](http://airfactsjournal.com/2014/01/won-safety-battle/)  _(tags: tweet)_
+- 2014-02-09: [The Tree of Life: A day to think, to pause, to ponder](http://phylogenomics.blogspot.com/2013/02/a-day-to-think-to-pause-to-ponder.html?spref=tw)  _(tags: tweet)_
+- 2014-02-09: [Academia needs more of the theatrical spirit &laquo; The Lab and Field](http://labandfield.wordpress.com/2014/02/08/academia-needs-more-of-the-theatrical-spirit/)  _(tags: tweet)_
+- 2014-02-08: [p/imap-upload/code - Revision 10: /](https://svn.code.sf.net/p/imap-upload/code/)  _(tags: cloud-services, digital-preservation)_
+- 2014-02-08: [New to me: Security Approaches in Using Tablet Com](http://repository.academyhealth.org/cgi/viewcontent.cgi?article=1008&context=egems)  _(tags: tweet)_
+- 2014-02-08: [My Fandango - Public Profile dan290](http://www.fandango.com/PublicProfilePage.aspx?cuname=dan290)  _(tags: me, movies)_
+- 2014-02-07: [CrashPlan issues with Java 7 | Biomedical Ontologies](http://biomedicalontologies.com/2012/11/02/crashplan-issues-with-java-7/)  _(tags: no_tag)_
+- 2014-02-07: [EnvironmentVariables - Community Ubuntu Documentation](https://help.ubuntu.com/community/EnvironmentVariables)  _(tags: no_tag)_
+- 2014-02-07: [installation - How to integrate KeyPass2 and Firefox using Keefox/PassIFox in Ubuntu 13.04 & 13.10 - Ask Ubuntu](http://askubuntu.com/questions/291002/how-to-integrate-keypass2-and-firefox-using-keefox-passifox-in-ubuntu-13-04-13)  _(tags: no_tag)_
+- 2014-02-07: [en | Installation | Linux · luckyrat/KeeFox Wiki · GitHub](https://github.com/luckyrat/KeeFox/wiki/en-%7C-Installation-%7C-Linux)  _(tags: no_tag)_
+- 2014-02-07: [pfn/keepasshttp · GitHub](https://github.com/pfn/keepasshttp)  _(tags: no_tag)_
+- 2014-02-07: [Learn Data Science by nborwankar](http://learnds.com)  _(tags: no_tag)_
+- 2014-02-07: [Writing an IPython extension to show object graphs](http://nbviewer.ipython.org/gist/deeplook/4770302)  _(tags: writing, python)_
+- 2014-02-07: [Show apt-get installed packages history via commandline? - Ask Ubuntu](http://askubuntu.com/questions/21657/show-apt-get-installed-packages-history-via-commandline)  _(tags: sysadmin, ubuntu)_
+- 2014-02-07: [Emacs Redux](http://emacsredux.com)  _(tags: no_tag)_
+- 2014-02-07: [11.04 - Why doesn't my Alt+F2 work? - Ask Ubuntu](http://askubuntu.com/questions/39446/why-doesnt-my-altf2-work)  _(tags: no_tag)_
+- 2014-02-07: [indicator - What can replace system monitoring in the top Gnome Panel in Unity? - Ask Ubuntu](http://askubuntu.com/questions/29757/what-can-replace-system-monitoring-in-the-top-gnome-panel-in-unity)  _(tags: sysadmin, ubuntu)_
+- 2014-02-07: [System Load Indicator — Ubuntu Apps Directory](https://apps.ubuntu.com/cat/applications/indicator-multiload/)  _(tags: sysadmin, ubuntu)_
+- 2014-02-07: [How to Install Gnome Classic in Ubuntu 13.10 Saucy | UbuntuHandbook](http://ubuntuhandbook.org/index.php/2013/08/install-gnome-classic-in-ubuntu-13-10/)  _(tags: no_tag)_
+- 2014-02-06: [Blockchain&#8217;s Response to Apple | Blockchain.info Team Blog](http://blog.blockchain.info/2014/02/06/blockchain-response-to-apple/)  _(tags: tweet)_
+- 2014-02-06: [Jessica McKellar: The Future of Python - A Choose Your Own Adventure (Keynote) | ontwik](http://ontwik.com/jessica-mckellar-future-python-choose-adventure-keynote/)  _(tags: tweet)_
+- 2014-02-06: [Accessing biological data in R with semantic web technologies [PeerJ PrePrints]](https://peerj.com/preprints/185/)  _(tags: tweet)_
+- 2014-02-06: [Serge Semenov. Photography. Gallery @ Serge Semenov . Photographer . Gallery](http://www.sergesemenov.com)  _(tags: tweet)_
+- 2014-02-06: [The Experimental Enterprise - Forbes](http://www.forbes.com/sites/edddumbill/2014/02/05/the-experimental-enterprise/?utm_content=bufferc76cb&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2014-02-06: [purescript/purescript-quickcheck · GitHub](https://github.com/purescript/purescript-quickcheck)  _(tags: tweet)_
+- 2014-02-06: [NSA Reform — Notes from a Strange World — Medium](https://medium.com/quinn-norton/b9253a123859)  _(tags: tweet)_
+- 2014-02-06: [Petition | Allow Bitcoin wallets on the iPhone | Change.org](http://www.change.org/petitions/apple-allow-bitcoin-wallets-on-the-iphone)  _(tags: no_tag)_
+- 2014-02-06: [How to Use Bookmarklets in Chrome for Mobile](http://www.labnol.org/software/google-chrome-bookmarklets/27894/)  _(tags: mobile)_
+- 2014-02-05: [How to Install a Google Drive Client on Ubuntu](http://news.softpedia.com/news/How-to-Install-a-Google-Drive-Client-on-Ubuntu-381532.shtml)  _(tags: no_tag)_
+- 2014-02-05: [Insync pricing plans](https://www.insynchq.com/pricing)  _(tags: no_tag)_
+- 2014-02-05: [Google Drive for Linux? Patience, patience... | Internet & Media - CNET News](http://news.cnet.com/8301-1023_3-57612742-93/google-drive-for-linux-patience-patience../)  _(tags: no_tag)_
+- 2014-02-05: [Google Drive for Linux](https://tools.google.com/dlpage/drive)  _(tags: no_tag)_
+- 2014-02-05: [Dan Connolly - Google+](https://plus.google.com/112068148589999713385/posts)  _(tags: me, collaboration, writing)_
+- 2014-02-05: [Hunting the core | FromDual](http://www.fromdual.com/hunting-the-core)  _(tags: no_tag)_
+- 2014-02-05: [gist:8812750](https://gist.github.com/tpolecat/8812750)  _(tags: scala, tweet)_
+- 2014-02-05: [There's a new version of Idris to play with...](http://t.co/WitkggoskL)  _(tags: tweet)_
+- 2014-02-05: [Resolve a DOI Name](http://dx.doi.org)  _(tags: whytheurlschemethen, tweet)_
+- 2014-02-05: [dinedal/textql · GitHub](https://github.com/dinedal/textql)  _(tags: tweet)_
+- 2014-02-05: [xhtml2pdf 0.0.5 : Python Package Index](https://pypi.python.org/pypi/xhtml2pdf/0.0.5)  _(tags: no_tag)_
+- 2014-02-05: [pyfpdf - Simple PDF generation for Python (FPDF PHP port) AKA fpdf.py - Google Project Hosting](https://code.google.com/p/pyfpdf/)  _(tags: no_tag)_
+- 2014-02-05: [The Static Web Returns](http://robmuh.com/the-static-web-returns/)  _(tags: no_tag)_
+- 2014-02-04: [Developing Biomedical Ontologies in OWL](http://www.cs.man.ac.uk/~rector/tutorials/Biomed-Tutorial-2007b-dagstuhl/Presentations/Dagstuhl-june-2007-03.pdf)  _(tags: health, data, research)_
+- 2014-02-04: [Autogenic training - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Autogenic_training)  _(tags: health)_
+- 2014-02-04: [Foot Pedals for Transcribe!](http://www.seventhstring.com/xscribe/pedals.html)  _(tags: no_tag)_
+- 2014-02-04: [Buy Transcribe!](http://www.seventhstring.com/xscribe/buy.html)  _(tags: hardware, mac, shopping)_
+- 2014-02-04: [IN-USB-2 Infinity USB Foot Pedal for Computer Transcription](http://www.upcdatabase.com/item/094922207159)  _(tags: office, shopping, mac)_
+- 2014-02-03: [ZeroBin Security Audit](https://defuse.ca/audits/zerobin.htm)  _(tags: tweet)_
+- 2014-02-03: [doxsey.net | Rethinking Web Development: WebRTC](http://www.doxsey.net/blog/rethinking-web-development--webrtc/)  _(tags: tweet)_
+- 2014-02-03: [Donna and Yahoo | Donna Blog](http://blog.don.na/2014/01/30/donna-and-yahoo/)  _(tags: tweet)_

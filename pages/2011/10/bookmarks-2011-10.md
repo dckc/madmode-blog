@@ -1,0 +1,117 @@
+---
+title: October 2011 Bookmarks: programming, research, and amia2011
+date: 2011-10-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "404", "america", "amia", "amia2011", "android", "capabilities", "collaboration", "data", "dca", "debian", "design", "economics", "emacs", "games", "geo", "getmoneyout", "hardware", "health", "javascript", "kc", "mobile", "movies", "politics", "presentation", "programming", "publishing", "python", "quality", "research", "review", "rootstrikers", "scala", "security", "sgs", "shopping", "sysadmin", "world", "writing"]
+---
+
+Shared bookmarks saved in October 2011.
+
+- total bookmarks: 103
+- total annotations captured: 35
+
+## Links
+
+- 2011-10-31: [Avería – The Average Font](http://iotic.com/averia)  _(tags: tweet)_
+- 2011-10-31: [Exploding Software-Engineering Myths - Microsoft Research](http://research.microsoft.com/en-us/news/features/nagappan-100609.aspx)  _(tags: programming, quality)_
+- 2011-10-30: [CALIFORNIA / UC dropping National Merit Scholarships / System will use money for other student stipends - SFGate](http://articles.sfgate.com/2005-07-14/bay-area/17381944_1_national-merit-scholarships-merit-based-scholarships-uc-students)  _(tags: no_tag)_
+- 2011-10-30: [Blow to National Merit Scholarships | Inside Higher Ed](http://www.insidehighered.com/news/2009/09/01/merit)  _(tags: no_tag)_
+- 2011-10-30: [Contagion (film) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Contagion_(film))  _(tags: movies, review, ***)_
+- 2011-10-27: [Secure String Interpolation](http://google-caja.googlecode.com/svn/changes/mikesamuel/string-interpolation-29-Jan-2008/trunk/src/js/com/google/caja/interp/index.html)  _(tags: programming, web, security, javascript)_
+- 2011-10-26: [5 things my 4-year-old taught me about technology &mdash; Tech News and Analysis](http://gigaom.com/2011/10/25/5-things-my-4-year-old-taught-me-about-technology)  _(tags: tweet)_
+- 2011-10-26: [A Four-fold Franciscan Blessing](http://www.allsaintsbrookline.org/prayers/prayer4.html)  _(tags: amia2011, tweet)_
+- 2011-10-26: [Detection theory - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Detection_theory)  _(tags: amia2011, health, research)_
+- 2011-10-26: [Implementation of a platform dedicated to the biomedical analysis terminologies management page 9](http://proceedings.amia.org/1lp0hb/9?highlightText=cormont&)  _(tags: amia2011, amia, health, research, 404)_
+- 2011-10-26: [Investigating the Semantic Interoperability of Laboratory Data Exchanged Using LOINC Codes in Three Large Institutions page 1](http://proceedings.amia.org/1lomo6/1)  _(tags: amia2011, amia, health, research)_
+- 2011-10-26: [Auditing Hierarchical Cycles to Locate Other Inconsistencies in the UMLS page 1](http://proceedings.amia.org/1lojdm/1)  _(tags: amia2011, amia, health, research)_
+- 2011-10-26: [An OWL Meta-Ontology for Representing the Clinical Element Model page 1](http://proceedings.amia.org/1lp021/1)  _(tags: amia2011, amia, health, research, data, web)_
+- 2011-10-26: [WHO | International Classification of Functioning, Disability and Health (ICF)](http://www.who.int/classifications/icf/en)  _(tags: amia2011, amia, health, world, data, terminology)_
+- 2011-10-26: [e-News: October 13, 2011 | AMIA](http://www.amia.org/news-and-publications/amia-enews/e-news-october-13-2011#article1)  _(tags: presentation, amia2011, amia, health, world)_
+- 2011-10-26: [The iSchool at Drexel University](http://www.ischool.drexel.edu/PS/GraduatePrograms/Degrees/MSHI)  _(tags: research, health, amia, amia2011, dca)_
+- 2011-10-26: [The iSchool at Drexel University](http://www.ischool.drexel.edu)  _(tags: research, amia2011, amia, dca)_
+- 2011-10-26: [Rust Documentation](http://www.rust-lang.org/doc/rust.html)  _(tags: programming)_
+- 2011-10-26: [Research Papers - The Chromium Projects](http://www.chromium.org/nativeclient/reference/research-papers)  _(tags: capabilities, web, security)_
+- 2011-10-26: [Simson L. Garfinkel: Design Principles and Patterns for Computer Systems That Are Simultaneously Secure and Usable](http://simson.net/thesis)  _(tags: no_tag)_
+- 2011-10-26: [OLPC Bitfrost - OLPC](http://wiki.laptop.org/go/OLPC_Bitfrost#Threat_model:_bad_things_that_software_can_do)  _(tags: no_tag)_
+- 2011-10-26: [spyderlib - Spyder is the Scientific PYthon Development EnviRonment - Google Project Hosting](http://code.google.com/p/spyderlib)  _(tags: python, programming, writing)_
+- 2011-10-25: [First steps in Scala for beginning programmers, Part 9 &laquo; Bcomposes](http://bcomposes.wordpress.com/2011/10/24/first-steps-in-scala-for-beginning-programmers-part-9)  _(tags: scala, tweet)_
+- 2011-10-25: [John McCarthy -- Father of AI and Lisp -- Dies at 84 | Wired Enterprise | Wired.com](http://www.wired.com/wiredenterprise/2011/10/john-mccarthy-father-of-ai-and-lisp-dies-at-84)  _(tags: no_tag)_
+- 2011-10-24: [draft-pbryan-json-patch-02 - JSON Patch](http://tools.ietf.org/html/draft-pbryan-json-patch-02)  _(tags: tweet)_
+- 2011-10-23: [When the physician-researcher gets canc - PubMed Mobile](http://www.ncbi.nlm.nih.gov/m/pubmed/12064753)  _(tags: amia2011, tweet)_
+- 2011-10-23: [Apple closes in on No. 1 in market cap on S&amp;P 500 - The Tell - MarketWatch](http://blogs.marketwatch.com/thetell/2011/08/09/apple-closes-in-on-no-1-in-market-cap-on-sp-500)  _(tags: ux, hci, amia2011, tweet)_
+- 2011-10-23: [TBCommons.org](http://www.tbcommons.org)  _(tags: tweet)_
+- 2011-10-22: [Samsung Galaxy S SGH-T959 - XDA-Developers](http://forum.xda-developers.com/wiki/Samsung_Galaxy_S_SGH-T959)  _(tags: android, sgs)_
+- 2011-10-21: [new JSON Pointer spec -](http://www.ietf.org/id/draft-pbryan-zyp-json-pointer-01.txt)  _(tags: tweet)_
+- 2011-10-21: [Unity is the end of Ubuntu - Perfect Sense](http://www.jemmatzan.com/2011/10/unity-is-the-end-of-ubuntu.html)  _(tags: tweet)_
+- 2011-10-21: [LukeW | Mobile First](http://www.lukew.com/presos/preso.asp?26)  _(tags: web, design, mobile)_
+- 2011-10-21: [WebAPI/WebUSB - MozillaWiki](https://wiki.mozilla.org/WebAPI/WebUSB)  _(tags: web, programming, security)_
+- 2011-10-21: [Automated clinicalontologyextraction](http://www.slideshare.net/chimezie/automated-clinicalontologyextraction)  _(tags: research, health, data, web)_
+- 2011-10-21: [NCBO Webinar: Chimezie Ogbuji, Oct. 5 @ 10am PT from Trish Whetzel on 2011-10-03 (public-semweb-lifesci@w3.org from October 2011)](http://lists.w3.org/Archives/Public/public-semweb-lifesci/2011Oct/0005.html)  _(tags: research, health, data, web)_
+- 2011-10-20: [Video- The Daily Show: Scorn in the U.S.A.  | The Political Carnival](http://thepoliticalcarnival.net/2011/10/19/video-the-daily-show-scorn-in-the-u-s-a)  _(tags: tweet)_
+- 2011-10-20: ['I will donate $20 to Buddy Roemer's campaign for President' - PledgeBank](http://www.pledgebank.com/HelpBuddy)  _(tags: rootstrikers, ows, getmoneyout, tweet)_
+- 2011-10-20: [Dropbox: The Inside Story Of Tech's Hottest Startup - Forbes](http://www.forbes.com/sites/victoriabarret/2011/10/18/dropbox-the-inside-story-of-techs-hottest-startup/?utm_source=twitterfeed&utm_medium=twitter)  _(tags: tweet)_
+- 2011-10-20: [Draw a Stickman](http://www.drawastickman.com)  _(tags: tweet)_
+- 2011-10-20: [draft-nottingham-http-new-status-02 - Additional HTTP Status Codes](http://tools.ietf.org/html/draft-nottingham-http-new-status-02)  _(tags: tweet)_
+- 2011-10-20: [HTTP 511 Network Authenticatio](http://t.co/vO2JP3Ya)  _(tags: tweet)_
+- 2011-10-20: [Is the Woody doll&#39;s voice really Tom Hanks? - The Graham Norton Show - Series 9 Episode 9 - BBC One      - YouTube](https://www.youtube.com/watch?v=LNptl7bjRhI)  _(tags: tweet)_
+- 2011-10-20: [How Amazon Makes Money From The Kindle](http://www.businessinsider.com/kindle-economics-2011-10?utm_source=twbutton&utm_medium=social&utm_campaign=research)  _(tags: tweet)_
+- 2011-10-20: [Aaron Bradley - Google+ - Wow, this was quick. Some initial reactions to Google&#39;s…](https://plus.google.com/106943062990152739506/posts/AxcXtc1yoRt)  _(tags: tweet)_
+- 2011-10-20: [Quantum Levitation      - YouTube](http://www.youtube.com/watch?v=Ws6AAhTw7RA&feature=youtube_gdata_player)  _(tags: tweet)_
+- 2011-10-20: [Dropbox: The Inside Story Of Tech's Hottest Startup - Forbes](http://www.forbes.com/sites/victoriabarret/2011/10/18/dropbox-the-inside-story-of-techs-hottest-startup/3)  _(tags: no_tag)_
+- 2011-10-20: [Vaio Z128 Laptop + External GTX580 = BIG Grin! ;) - Overclockers Australia Forums](http://forums.overclockers.com.au/showthread.php?t=988062)  _(tags: hardware, games)_
+- 2011-10-19: [Octopress](http://octopress.org)  _(tags: web, writing, publishing, sysadmin, someday)_
+- 2011-10-17: [Lost in JIT: PyPy's future directions](http://lostinjit.blogspot.com/2011/10/pypys-future-directions.html)  _(tags: programming, python)_
+- 2011-10-17: [Tav's Blog » Paving the Way to Securing the Python Interpreter](http://tav.espians.com/paving-the-way-to-securing-the-python-interpreter.html)  _(tags: programming, security, python)_
+- 2011-10-17: [Secure Mashups with dojox.secure](http://www.sitepen.com/blog/2008/08/01/secure-mashups-with-dojoxsecure)  _(tags: programming, javascript, security)_
+- 2011-10-16: [Jean-Baptiste Queru - Google+ - Dizzying but invisible depthYou just went to the Google…](https://plus.google.com/112218872649456413744/posts/dfydM2Cnepe)  _(tags: tweet)_
+- 2011-10-16: [Philip Greenspun's Weblog » Lunch with a Nobel laureate in Economics](http://blogs.law.harvard.edu/philg/2011/10/04/lunch-with-a-nobel-laureate-in-economics)  _(tags: no_tag)_
+- 2011-10-15: [xslide](http://sourceforge.net/apps/trac/xslide/wiki)  _(tags: emacs, tweet)_
+- 2011-10-15: [pad.riseup.net](https://pad.riseup.net)  _(tags: tweet)_
+- 2011-10-15: [The Ides of March (film) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/The_Ides_of_March_(film))  _(tags: movies, politics)_
+- 2011-10-15: [Ides of March - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Ides_of_March)  _(tags: no_tag)_
+- 2011-10-15: [Ubuntu Linux 11.10 "Oneiric Ocelot" Released; Here's What's New](http://lifehacker.com/5836779/first-look-at-ubuntu-linux-1110-oneiric-ocelot-beta)  _(tags: no_tag)_
+- 2011-10-15: [Save to delicious | Diigo](https://secure.diigo.com/tools/save_to_others)  _(tags: collaboration, security, problem)_
+- 2011-10-15: [Computing Publications : Session Types in Haskell: Updating Message Passing for the 21st Century](http://pubs.doc.ic.ac.uk/session-types-in-haskell)  _(tags: programming, research)_
+- 2011-10-15: [Escape Expression](http://www.erights.org/elang/kernel/EscapeExpr.html)  _(tags: no_tag)_
+- 2011-10-15: [Kernel Reference](http://www.erights.org/elang/kernel/index.html)  _(tags: no_tag)_
+- 2011-10-14: [Rob Pike - Google+ - I just heard that, after a long illness, Dennis Ritchie…](https://plus.google.com/u/0/101960720994009339267/posts/ENuEDDYfvKP?hl=en)  _(tags: tweet)_
+- 2011-10-14: [Calling All Ice Cream Sandwich Lovers      - YouTube](http://www.youtube.com/watch?v=RX4btquQzUE)  _(tags: tweet)_
+- 2011-10-14: [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more](http://Amazon.com)  _(tags: tweet)_
+- 2011-10-14: [We'll have two great speakers for you tomorrow. Mo](http://seckc.org)  _(tags: tweet)_
+- 2011-10-14: [GEP 8 - Static type checking - Groovy JSR - Codehaus](http://docs.codehaus.org/display/GroovyJSR/GEP+8+-+Static+type+checking)  _(tags: groovy, tweet)_
+- 2011-10-14: [Are you of South Asian descent? A great person needs your help. &ndash; Marco.org](http://www.marco.org/2011/10/07/amit-gupta-marrow-search)  _(tags: tweet)_
+- 2011-10-14: [Checkbox Label Positioning in CSS : alexking.org](http://alexking.org/blog/2005/07/18/css-checkbox-label-positioning)  _(tags: web, design)_
+- 2011-10-14: [A Year of Clojure : Pure Danger Tech](http://tech.puredanger.com/2010/12/31/a-year-of-clojure)  _(tags: no_tag)_
+- 2011-10-14: [Greater Kansas City 2600](http://www.kc2600.com)  _(tags: kc, programming, someday)_
+- 2011-10-12: [Occupy Wall Street      - YouTube](https://www.youtube.com/watch?v=ZpttXetMX78)  _(tags: occupywallstreet, tweet)_
+- 2011-10-12: [Kern Type, the kerning game](http://type.method.ac)  _(tags: tweet)_
+- 2011-10-12: [Optional Types in Dart : Dart : Structured web programming](http://www.dartlang.org/articles/optional-types/#checked-mode)  _(tags: tweet)_
+- 2011-10-12: [Language Specification : Dart : Structured web programming](http://www.dartlang.org/docs/spec/index.html)  _(tags: programming, research)_
+- 2011-10-12: [Walnut/Ordinary Programming - Erights](http://wiki.erights.org/wiki/Walnut/Ordinary_Programming#Library_Packages:_emakers)  _(tags: no_tag)_
+- 2011-10-11: [What I've learned about testing over the last year - Jake Goulding](http://jakegoulding.com/blog/2011/10/10/learned-about-testing-last-year)  _(tags: programming, quality)_
+- 2011-10-11: [Bad httpd conf - DreamHost](http://wiki.dreamhost.com/Bad_httpd_conf)  _(tags: no_tag)_
+- 2011-10-10: [Kris' blog: SQL Developer and Java memory use](http://krisrice.blogspot.com/2010/03/sql-developer-and-java-memory-use.html)  _(tags: no_tag)_
+- 2011-10-09: [Lagfix, Galaxy S Lagfix that work | Project Voodoo, Galaxy S improvements](http://project-voodoo.org/lagfix)  _(tags: no_tag)_
+- 2011-10-09: [Team Whiskey • View topic - Future of Team Whiskey](http://board.teamwhiskey.com/viewtopic.php?f=3&t=4913)  _(tags: no_tag)_
+- 2011-10-09: [MySQL versus PostgreSQL: Adding a 'Last Modified Time' Column to a Table](http://pointbeing.net/weblog/2008/03/mysql-versus-postgresql-adding-a-last-modified-column-to-a-table.html)  _(tags: no_tag)_
+- 2011-10-08: [Off To The Races: Help Find 10,000 Censorship Opponents In 24hrs | Demand Progress](http://act.demandprogress.org/act/creative_america/?referring_akid=.194196.pE4I30&source=typ-tw)  _(tags: tweet)_
+- 2011-10-08: [Against Nostalgia - New York Times Op-Ed on Steve](http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2011/10/06/opinion/jobs-looked-to-the-future.html&OQ=_rQ3D3&OP=3ba539b4Q2FipQ5EQ3EiQ3FTHQ7EdTT6-i-fIIiIfifyiTQ2AS4ST4iVTQ3EQ7EQ278TTeQ5EQ3FQ276TQ276Q3BQ5EQ27,q6qdQ5EQ25Q3B6E8)  _(tags: tweet)_
+- 2011-10-08: [Root Toolbox FREE - Android Market](https://market.android.com/details?id=com.lukemovement.roottoolbox.free&feature=search_result)  _(tags: no_tag)_
+- 2011-10-08: [Steve Jobs, Enemy of Nostalgia - NYTimes.com](http://www.nytimes.com/2011/10/06/opinion/jobs-looked-to-the-future.html?_r=2)  _(tags: no_tag)_
+- 2011-10-08: [Vibrant bricked? Maybe not. [E:Can't mount, Solved] - xda-developers](http://forum.xda-developers.com/showthread.php?t=817186)  _(tags: android, sysadmin)_
+- 2011-10-08: [Flashing Android Froyo in a Galaxy S with Ubuntu and Heimdall « William Markito – Blog](http://wmarkito.wordpress.com/2011/02/11/flashing-android-froyo-in-a-galaxy-s-with-ubuntu-and-heimdall)  _(tags: no_tag)_
+- 2011-10-08: [How can I get "Download mode" Samsung vibrant - Page 6 - xda-developers](http://forum.xda-developers.com/showthread.php?t=728332&page=6)  _(tags: no_tag)_
+- 2011-10-08: [Samsung Galaxy S SGH-T959 - XDA-Developers](http://forum.xda-developers.com/wiki/index.php?title=Samsung_Galaxy_S_SGH-T959#Stock_JK2_.28Flashable_Zip.29)  _(tags: mobile, sgh-t959, android)_
+- 2011-10-08: [andrdcndy: Samsung Vibrant Custom ROM List](http://alchemistar.blogspot.com/2010/11/samsung-vibrant-custom-rom-list-1110.html)  _(tags: mobile, android)_
+- 2011-10-06: [Steve Jobs:  Arab-American, Buddhist, Psychedelic Drug User, and Capitalist World-Changer | Informed Comment](http://www.juancole.com/2011/10/steve-jobs-arab-american-buddhist-psychedelic-drug-user-and-capitalist-world-changer.html)  _(tags: tweet)_
+- 2011-10-05: [openSUSE HOWTO](http://lilypond.org/blog/janneke/openSUSE-HOWTO)  _(tags: sysadmin, suse, debian)_
+- 2011-10-05: [History of United States postage rates - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/History_of_United_States_postage_rates)  _(tags: no_tag)_
+- 2011-10-04: [CyanogenMod nightlies changelog for Vibrantmtd](http://cm-nightlies.appspot.com/?device=vibrantmtd)  _(tags: mobile, android, sgs)_
+- 2011-10-03: [Internet governance: In praise of chaos | The Economist](http://www.economist.com/node/21531011)  _(tags: tweet)_
+- 2011-10-03: [Cant install soft or load repos from yast after upg to SP1](http://forums.novell.com/suse/suse-product-discussion-forums/suse-linux-enterprise/suse-linux-enterprise-desktop-sled/sled-updates/430610-cant-install-soft-load-repos-yast-after-upg-sp1.html)  _(tags: no_tag)_
+- 2011-10-03: [MySQL :: MySQL 5.6 Reference Manual :: 12.2.9 SELECT Syntax](http://dev.mysql.com/doc/refman/5.6/en/select.html)  _(tags: no_tag)_
+- 2011-10-03: [DockBoss+: Plug Android phones into iPhone docks | Android Atlas - CNET Reviews](http://reviews.cnet.com/8301-19736_7-20110799-251/dockboss-plug-android-phones-into-iphone-docks/?part=rss&tag=feed&subj=AndroidAtlas)  _(tags: mobile, shopping, someday)_
+- 2011-10-02: [The Bankers and the Revolutionaries - NYTimes.com](http://www.nytimes.com/2011/10/02/opinion/sunday/kristof-the-bankers-and-the-revolutionaries.html?_r=1&src=tp)  _(tags: america, collaboration, economics)_
+- 2011-10-01: [Google Wallet: First Impressions](http://mashable.com/2011/09/20/google-wallet-review)  _(tags: no_tag)_
+- 2011-10-01: [[CM7][OMFGB]Software GPS Fix | V1.5.1 - 9/25/11 | Keep the (GPS) lights on! - xda-developers](http://forum.xda-developers.com/showthread.php?t=1199613)  _(tags: android, geo)_
+- 2011-10-01: [Possible UGKG3 Gingerbread Gps Fix For Vibrant (For GPS Devs) - xda-developers](http://forum.xda-developers.com/showthread.php?t=1220656)  _(tags: no_tag)_

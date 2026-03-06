@@ -1,0 +1,106 @@
+---
+title: March 2007 Bookmarks: html, xhtml, and hardware
+date: 2007-03-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "architecture", "austin", "books", "bos", "calendar", "collaboration", "debian", "design", "digital", "diy", "dogs", "duke", "economics", "faith", "family", "finance", "geo", "grddl", "guitar", "hardware", "hastac", "health", "history", "html", "http", "ietf", "im", "javascript", "kc", "kit", "leadership", "linux", "mac", "media", "microformats", "mobile", "movies", "music", "openid", "photo", "photos", "pim", "politics", "press", "publishing", "python", "quality", "rdu", "scm", "security", "semantic", "shopping", "social", "software", "sxsw", "sxswi", "sysadmin", "talk", "testing", "training", "travel", "uri", "usa", "w3c", "wish", "world", "writing", "xhtml"]
+---
+
+Shared bookmarks saved in March 2007.
+
+- total bookmarks: 92
+- total annotations captured: 1
+
+## Links
+
+- 2007-03-31: [Everything Good is Bad For You (Aaron Swartz's Raw Thought)](http://www.aaronsw.com/weblog/everythinggood)  _(tags: digital, media, training, web, design)_
+- 2007-03-30: [DotNext - Kansas City (Kansas City, MO) - Meetup.com](http://webstandards.meetup.com/121/?gj=sj35)  _(tags: kc, web, design)_
+- 2007-03-30: [Midwest Web Design and Standards Jam (Overland Park, KS) - Meetup.com](http://webdesign.meetup.com/448/?gj=sj27)  _(tags: kc, web, design, w3c, html, xhtml)_
+- 2007-03-30: [FLUKE 8020A - Category: Multimeters](http://www.labx.com/v2/spiderdealer2/vistaSearchDetails.cfm?LVid=3338898)  _(tags: hardware, sysadmin)_
+- 2007-03-30: [Google Talk and AIM come together - BigBlueBall Forums](http://www.bigblueball.com/forums/google-talk-news/33352-google-talk-aim-come-together.html)  _(tags: im, w3c, ietf)_
+- 2007-03-30: [Official Google Blog: Get your people talking](http://googleblog.blogspot.com/2006/08/get-your-people-talking.html)  _(tags: sysadmin)_
+- 2007-03-29: [Joseph and the Amazing Technicolor Dreamcoat - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Joseph_and_the_Amazing_Technicolor_Dreamcoat)  _(tags: kc, music, ***, faith)_
+- 2007-03-29: [craigslist: kansas city, MO classifieds for jobs, apartments, personals, for sale, services, community, and events](http://kansascity.craigslist.org)  _(tags: kc, finance, mac)_
+- 2007-03-29: [Results of mobile tests](http://simon.html5.org/articles/mobile-results)  _(tags: xhtml, quality)_
+- 2007-03-28: [:: system76 :: Linux Laptops, Linux Desktops, Linux Servers ::](http://www.system76.com)  _(tags: hardware, shopping, debian)_
+- 2007-03-28: [VIA Arena - VT8251 Linux Support](http://forums.viaarena.com/messageview.aspx?catid=28&threadid=71754)  _(tags: hardware)_
+- 2007-03-28: [Newegg.com - Foxconn NF4SK8AA-8KRS Socket 939 NVIDIA nForce4 SLI ATX AMD Motherboard - Retail](http://www.newegg.com/Product/Product.aspx?Item=N82E16813186059)  _(tags: hardware, shopping)_
+- 2007-03-28: [Newegg.com - ASUS M2NPV-VM Socket AM2 NVIDIA GeForce 6150 Micro ATX AMD Motherboard - Retail](http://www.newegg.com/Product/Product.asp?Item=N82E16813131014)  _(tags: hardware, shopping)_
+- 2007-03-28: [Micro Center Online BYOPC Specific Product Information](http://www.microcenter.com/byos/byos_single_product_results.phtml?product_id=257300)  _(tags: hardware, shopping)_
+- 2007-03-28: [Serial ATA (SATA) on Linux](http://linuxmafia.com/faq/Hardware/sata.html)  _(tags: hardware, shopping)_
+- 2007-03-28: [Asus A8S-X SiS Socket 939 ATX Motherboard and an AMD Sempron 3000  1.80GHz OEM Processor at TigerDirect.com](http://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=2748061&Sku=MBM-A8SX-3000)  _(tags: hardware, shopping)_
+- 2007-03-28: [Amazon.com: Asus M2N-E AMD Athlon 64/Sempron Ready Socket AM2 ATX Motherboard: Electronics](http://www.amazon.com/Asus-M2N-E-Athlon-Sempron-Motherboard/dp/B000FVZKV8/ref=sr_1_2/104-6338739-8286302?ie=UTF8&s=electronics&qid=1175053706&sr=1-2)  _(tags: hardware, shopping)_
+- 2007-03-28: [Product Reviews K7S741GXMG-6L Motherboard](http://compare-prices.tomshardware.com/reviews/6608439)  _(tags: hardware, shopping)_
+- 2007-03-28: [Serial ATA - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Serial_ATA)  _(tags: hardware, sysadmin)_
+- 2007-03-28: [DFI Product for Mainboard KT600-AL](http://www.dfi.com.tw/Product/xx_product_spec_details_r_us.jsp?PRODUCT_ID=2520&CATEGORY_TYPE=null)  _(tags: hardware, sysadmin)_
+- 2007-03-28: [Stereo - 2.0 and 2.1 > Logitech? R-20](http://www.logitech.com/index.cfm/products/details/US/EN,CRID=2173,CONTENTID=9819)  _(tags: hardware, sysadmin, music, digital, media)_
+- 2007-03-28: [Logitech R20 2.1 Multimedia Speaker System / Microcenter](http://www.microcenter.com/single_product_results.phtml?product_id=219781)  _(tags: hardware, kc, music, digital, media)_
+- 2007-03-28: [UPC Database: 097855026736](http://www.upcdatabase.com/itemnotfound.asp?upc=0097855026736)  _(tags: hardware, music)_
+- 2007-03-27: [The Future of HTML Presentation Slides - Lachy’s Log](http://lachy.id.au/log/2007/02/future-of-html-slides)  _(tags: toread, html, xhtml, web, history, design)_
+- 2007-03-26: [macosxhints.com - 10.4: Share an iPhoto library among multiple users](http://www.macosxhints.com/article.php?story=20050904072808460&lsrc=osxh)  _(tags: mac, photo, photos)_
+- 2007-03-26: [Web Browser Standards Support](http://www.webdevout.net/browser-support)  _(tags: xhtml, html, quality)_
+- 2007-03-26: [Web Browser DOM Support](http://www.webdevout.net/browser-support-dom)  _(tags: html, xhtml, quality)_
+- 2007-03-26: [Web Browser HTML Support](http://www.webdevout.net/browser-support-html)  _(tags: xhtml, html, quality)_
+- 2007-03-26: [Web Browser CSS Support](http://www.webdevout.net/browser-support-css)  _(tags: html, xhtml, quality)_
+- 2007-03-26: [Web Browser ECMAScript Support](http://www.webdevout.net/browser-support-ecmascript)  _(tags: html, xhtml, quality)_
+- 2007-03-26: [iMac G4 lamp-style 800MHz, 15" LCD, 60GB disk, 512MB RAM](http://kansascity.craigslist.org/sys/300570235.html)  _(tags: mac, kc)_
+- 2007-03-26: [Universal Clicker Products](http://www.clickerproducts.com/diy04/products/sub_family/0,1341,uid-emWEa2JkZWRoZA==_424,00.html)  _(tags: diy, family, kc)_
+- 2007-03-26: [The Dead Sea Scrolls Exhibit Feb 8 - May 13, 2007 at Union Station Kansas City](http://www.unionstation.org/deadseascrolls/index.cfm)  _(tags: faith, kc)_
+- 2007-03-26: [The Holiday (2006)](http://www.imdb.com/title/tt0457939)  _(tags: movies, ***)_
+- 2007-03-25: [Damn Small Linux on a bootable 1 Gig USB pen drive](http://www.damnsmalllinux.org/usb.html)  _(tags: sysadmin, shopping, debian)_
+- 2007-03-25: [ChrisLord.net : /Software/Dates/](http://chrislord.net/blog/Software/Dates)  _(tags: calendar)_
+- 2007-03-25: [Bug 160787 - lvm support (gparted)](http://bugzilla.gnome.org/show_bug.cgi?id=160787)  _(tags: debian, sysadmin)_
+- 2007-03-25: [GPARTED DOCUMENTATION - GENERALITIES](http://gparted.sourceforge.net/larry/generalities/gparted.htm)  _(tags: debian, sysadmin)_
+- 2007-03-25: [All hail S.M.A.R.T. and external USB hard disk drives! - Lenz Grimmer's blog](http://lenz.homelinux.org/archives/44-All-hail-S.M.A.R.T.-and-external-USB-hard-disk-drives!.html)  _(tags: sysadmin)_
+- 2007-03-25: [Celebrating the release of GNOME 2.18! | FootNotes](http://gnomedesktop.org/node/2964)  _(tags: debian)_
+- 2007-03-23: [Joe Gregorio | BitWorking | Pudge Mailing List](http://bitworking.org/news/151/Pudge-Mailing-List)  _(tags: python, quality)_
+- 2007-03-23: [Elton John signs entire back catalog exclusively to iTunes...](http://arstechnica.com/journals/apple.ars/2007/03/21/elton-john-signs-entire-back-catalog-exclusively-to-itunes)  _(tags: digital, media, training)_
+- 2007-03-23: [Surfin’ Safari - Blog Archive ? Apple Joins HTML Working Group, You Can Too](http://webkit.org/blog/98/apple-joins-html-working-group-you-can-too)  _(tags: xhtml, html, w3c)_
+- 2007-03-23: [A Man Named Dave by Dave Pelzer](http://en.wikipedia.org/wiki/A_Man_Named_Dave)  _(tags: books, faith, family, ***)_
+- 2007-03-23: [ongoing ? JRuby Servlets](http://www.tbray.org/ongoing/When/200x/2007/03/21/JRuby-Servlets)  _(tags: web, architecture, qotd)_
+- 2007-03-23: [Joe Gregorio | BitWorking | REST Tip: Deep etags give you more benefits.](http://bitworking.org/news/150/REST-Tip-Deep-etags-give-you-more-benefits)  _(tags: web, architecture, http)_
+- 2007-03-22: [FW: Alioth goes Mercurial](http://www.selenic.com/pipermail/mercurial/2007-March/012507.html)  _(tags: scm)_
+- 2007-03-21: [Music and Lyrics (2007)](http://www.imdb.com/title/tt0758766)  _(tags: movies, ***, music, romance)_
+- 2007-03-21: [A Good Year (2006)](http://www.imdb.com/title/tt0401445)  _(tags: movies, ***)_
+- 2007-03-21: [MIT Campus Crusade for Christ](http://web.mit.edu/mitccc)  _(tags: faith, bos)_
+- 2007-03-21: [heise Security - Know-how - How Skype & Co. get round firewalls](http://www.heise-security.co.uk/articles/82481)  _(tags: w3c, ietf, web, architecture, toread)_
+- 2007-03-21: [The BRAD BLOG : DIEBOLD VOTING MACHINE KEY COPIED FROM PHOTO AT COMPANY'S OWN ONLINE STORE!](http://www.bradblog.com/?p=4066#more-4066)  _(tags: security, politics)_
+- 2007-03-21: [W3C to Develop New HTML Spec](http://www.eweek.com/article2/0%2C1759%2C2101517%2C00.asp?kc=EWRSS03119TX1K0000594)  _(tags: html, xhtml, w3c, press, article, media)_
+- 2007-03-19: [IEBlog : The  prolog, strict mode, and XHTML in IE](http://blogs.msdn.com/ie/archive/2005/09/15/467901.aspx)  _(tags: w3c, html, xhtml, ietf, web, architecture)_
+- 2007-03-19: [Quail Valley Homes Association Board Members](http://www.quailvalleyopks.com/boardmembers.htm)  _(tags: kc, politics, web, design, training, xhtml)_
+- 2007-03-17: [Weblogs Forum - Too Much Fun with Python on Nokia Phone](http://www.artima.com/forums/flat.jsp?forum=106&thread=148064)  _(tags: python, mobile)_
+- 2007-03-17: [T-Mobile Dash @ Mobility Today](http://mobilitytoday.com/articles/tmobile_dash_announced.html)  _(tags: mobile, shopping)_
+- 2007-03-17: [Where the Social Web Meets the Semantic Web](http://videolectures.net/iswc06_gruber_wswms)  _(tags: todo, talk, digital, media, semantic, web)_
+- 2007-03-16: [Self-Monitoring, Analysis, and Reporting Technology - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Self-Monitoring%2C_Analysis%2C_and_Reporting_Technology)  _(tags: sysadmin, debian)_
+- 2007-03-16: [smartmontools Home Page (last updated $Date: 2007/02/11 14:25:21 $)](http://smartmontools.sourceforge.net)  _(tags: sysadmin, debian)_
+- 2007-03-15: [Lulu.com - Self Publishing - Free](http://www.lulu.com)  _(tags: publishing, sxsw, austin, aus, books, writing)_
+- 2007-03-15: [BBC - The State Within - Homepage](http://www.bbc.co.uk/drama/thestatewithin)  _(tags: politics, digital, media, travel, bos, aus)_
+- 2007-03-15: [W3C DOM Compatibility Tables](http://www.quirksmode.org/dom/compatibility.html)  _(tags: w3c, html, xhtml, quality, javascript)_
+- 2007-03-14: [Dan’s Blog (2.0) » Browser Panel at SXSW](http://www.torgo.com/blog/2007/03/browser-panel-at-sxsw.html)  _(tags: sxsw, sxswi, sxswi2007, xhtml, w3c, html-wg)_
+- 2007-03-13: [Slashdot | Open Source Federal Income Tax Software](http://linux.slashdot.org/article.pl?sid=07/03/10/1720250&from=rss)  _(tags: tax, pim, usa, finance)_
+- 2007-03-09: [Sam Ruby: Open Invitation](http://www.intertwingly.net/blog/2007/03/07/Open-Invitation)  _(tags: w3c, html)_
+- 2007-03-09: [Invest Like Trump. Not! [Fool.com] March 07, 2007](http://www.fool.com/investing/value/2007/03/07/invest-like-trump-not.aspx)  _(tags: finance, media, training)_
+- 2007-03-09: [Electronic Techtonics: "Historic" . . . and Way Cool Too | HASTAC](http://www.hastac.org/node/671)  _(tags: hastac, duke, collaboration, rdu)_
+- 2007-03-09: [BookCrossing Crisis by Robin Cook - Review - BookCrossing](http://www.bookcrossing.com/journal/4877685)  _(tags: openid, books, geo, semantic, web, social)_
+- 2007-03-09: [The Beatles - Ticket to Ride – Music at Last.fm](http://www.last.fm/music/The%20Beatles/_/Ticket%20to%20Ride)  _(tags: digital, media, music, guitar, semantic, web)_
+- 2007-03-09: [Ticket to Ride - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Ticket_to_Ride)  _(tags: music, guitar, travel, bos)_
+- 2007-03-09: [Crisis by Robin Cook](http://www.amazon.com/Crisis-Robin-Cook/dp/0399153578)  _(tags: travel, books, bos, family, leadership)_
+- 2007-03-09: [Meet the HTML Working Group chairs in Austin at SxSWi - W3C QA Weblog](http://www.w3.org/QA/2007/03/meet_the_html_working_group_ch.html)  _(tags: austin, microformats, html, xhtml, w3c, sxsw)_
+- 2007-03-07: [Cool URIs for the Semantic Web](http://www.dfki.uni-kl.de/~sauermann/2006/11/cooluris/)  _(tags: semantic, web, architecture, uri, toread)_
+- 2007-03-06: [Ajaxus place on the net: Browser Wars: Mozilla, IE, Opera join up for a panel discussion](http://ajaxus.net/2007/03/browser-wars-mozilla-ie-opera-join-up.html)  _(tags: xhtml, w3c)_
+- 2007-03-05: [YUI Theater — “Browser Wars Episode II: Attack of the DOMs” ? Yahoo! User Interface Blog](http://yuiblog.com/blog/2007/03/05/browserwars)  _(tags: todo, toread, xhtml, w3c)_
+- 2007-03-03: [ANYCOM® Bluetooth HS-777 headset](http://www.anycom.com/products/bluetooth_telecommunication/c_style_headset_hs_777/?id=102&partno=CC3098)  _(tags: mobile, kit)_
+- 2007-03-03: [Stomp United States Shows](http://situationmarketing.com/stompdates/ustourpage.php)  _(tags: web, design, microformats, wish, grddl, calendar)_
+- 2007-03-03: [Stomp (dance troupe) - Wikipedia](http://en.wikipedia.org/wiki/Stomp_(dance_troupe))  _(tags: kc, ****)_
+- 2007-03-03: [The Pursuit of Happyness (2006)](http://www.imdb.com/title/tt0454921)  _(tags: movies, ****, family)_
+- 2007-03-03: [Sweet Land (2005)](http://www.imdb.com/title/tt0428038)  _(tags: movies, ***, faith, family)_
+- 2007-03-03: [Tivoli Cinemas in Westport](http://www.tivolikc.com)  _(tags: movies, kc)_
+- 2007-03-03: [The Amazing Change](http://www.theamazingchange.com)  _(tags: wai-happy-not, world, faith)_
+- 2007-03-03: [Amazing Grace: The Movie - The Official Movie Website](http://www.amazinggracemovie.com)  _(tags: movies, ***, faith)_
+- 2007-03-03: [Bug 7190 - menus disappear from menubar in MDI app](http://bugs.winehq.org/show_bug.cgi?id=7190)  _(tags: debian, sysadmin, problem, finance)_
+- 2007-03-03: [Three Monkeys, Three Typewriters, Two Days: Help needed writing layout regression tests](http://weblogs.mozillazine.org/bz/archives/017637.html)  _(tags: xhtml, quality, testing)_
+- 2007-03-03: [State of Oregon vs Randal Schwartz computer security case](http://www.lightlink.com/spacenka/fors)  _(tags: security)_
+- 2007-03-02: [www.myspace.com/rodneyatkins](http://www.myspace.com/rodneyatkins)  _(tags: family, music)_
+- 2007-03-02: [P - Panosteitis](http://www.vetinfo.com/dencyclopedia/depano.html)  _(tags: health, dogs)_
+- 2007-03-02: [A List Apart: Articles: Where Our Standards Went Wrong](http://www.alistapart.com/articles/whereourstandardswentwrong)  _(tags: xhtml, quality)_
+- 2007-03-01: [LWN: Who wrote 2.6.20?](http://lwn.net/Articles/222773)  _(tags: linux, economics)_
+- 2007-03-01: [List of tz zones by country - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/List_of_tz_zones_by_country)  _(tags: grddl, geo, semantic, web)_

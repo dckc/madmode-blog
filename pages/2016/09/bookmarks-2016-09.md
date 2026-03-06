@@ -1,0 +1,101 @@
+---
+title: September 2016 Bookmarks: security, ubuntu, and rust
+date: 2016-09-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "bug", "capabilities", "cloud", "collaboration", "commute", "design", "haskell", "indieweb", "internet", "javascript", "kc", "me", "mobile", "movies", "pc", "pim", "presentation", "programming", "protocols", "publishing", "quality", "research", "rust", "security", "shopping", "sports", "standards", "sysadmin", "ubuntu", "usa", "video", "vm", "voice"]
+---
+
+Shared bookmarks saved in September 2016.
+
+- total bookmarks: 87
+- total annotations captured: 33
+
+## Links
+
+- 2016-09-28: [GitHub - ticki/cyano: [WIP] Transpile Rust (MIR) to JavaScript.](https://github.com/ticki/cyano)  _(tags: tweet)_
+- 2016-09-26: [ThinkProgress on Twitter: &quot;UPDATE: Commission on Presidential Debates adopts official Trump campaign line, says moderators shouldn&#39;t fact-check https://t.co/67jlWRtI89&quot;](https://twitter.com/thinkprogress/status/780079712345489408)  _(tags: tweet)_
+- 2016-09-26: [Tools for a Safer PC — Krebs on Security](http://krebsonsecurity.com/tools-for-a-safer-pc/)  _(tags: security, pc)_
+- 2016-09-26: [Are Credit Monitoring Services Worth It? — Krebs on Security](https://krebsonsecurity.com/2014/03/are-credit-monitoring-services-worth-it/)  _(tags: no_tag)_
+- 2016-09-26: [The Lingering Mess from Default Insecurity | Dennis Nadeau Complaint Blog](http://www.dennisnadeaucomplaint.com/the-lingering-mess-from-default-insecurity/)  _(tags: no_tag)_
+- 2016-09-26: [The Democratization of Censorship — Krebs on Security](https://krebsonsecurity.com/2016/09/the-democratization-of-censorship/)  _(tags: security)_
+- 2016-09-25: [bahmutov/really-need: Node require wrapper with options for cache busting, pre- and post-processing](https://github.com/bahmutov/really-need)  _(tags: no_tag)_
+- 2016-09-24: [Simon Willison on Twitter: &quot;Excellent feature of Google Photos: select a group of photos, hit &quot;Shift dates &amp; times&quot;, enter date/date of first photo and correct them all https://t.co/9gPvh5wf9E&quot;](https://twitter.com/i/web/status/779455352488079361)  _(tags: tweet)_
+- 2016-09-23: [Amazon.com: Moto G (4th Generation) - Black - 16 GB - Unlocked - Prime Exclusive - with Lockscreen Offers & Ads: Cell Phones & Accessories](https://www.amazon.com/Moto-4th-Generation-Exclusive-Lockscreen/dp/B01DZJFSZ4/ref=sr_1_1?s=wireless&ie=UTF8&qid=1474637647&sr=1-1&keywords=moto%2Bg4&th=1)  _(tags: mobile, shopping)_
+- 2016-09-22: [GitHub - rudymatela/fitspec: refine properties for testing Haskell programs](https://github.com/rudymatela/fitspec)  _(tags: icfp2016, haskell, tweet)_
+- 2016-09-22: [GitHub - adobe/node-smb-server: A 100% JavaScript implementation of the SMB file sharing protocol.](https://github.com/adobe/node-smb-server)  _(tags: tweet)_
+- 2016-09-22: [Roy T. Fielding on Twitter: &quot;I am really looking forward to the next iteration, when &quot;endpoints&quot; are renamed as &quot;resources&quot; and &quot;lambdas&quot; are renamed as &quot;CGI scripts&quot;. https://t.co/vBY6JDu4EN&quot;](https://twitter.com/i/web/status/778691824156233732)  _(tags: tweet)_
+- 2016-09-22: [Introducing TLS 1.3](https://blog.cloudflare.com/introducing-tls-1-3/)  _(tags: tweet)_
+- 2016-09-21: [Monzo – Building a Modern Bank Backend](https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/)  _(tags: kubernetes, tweet)_
+- 2016-09-21: [Introducing the EpiPencil, an opensource epinephri](https://fourthievesvinegar.org/blog/2016/09/introducing-the-epipencil)  _(tags: tweet)_
+- 2016-09-21: [University of Kansas Athletics - Jayhawk Television Network](http://www.kuathletics.com/sports/2013/6/21/GEN_0621130651.aspx)  _(tags: no_tag)_
+- 2016-09-21: [Some fans left out of new Jayhawk Network deal | The Wichita Eagle](http://www.kansas.com/sports/college/big-12/university-of-kansas/article1122073.html)  _(tags: isp, kc, sports)_
+- 2016-09-20: [Amazon's Alexa Is Not Even Remotely Secure and I Really Don't Care](http://gizmodo.com/alexa-is-not-even-remotely-secure-and-really-i-dont-car-1764761117)  _(tags: security, cloud, voice, shopping)_
+- 2016-09-20: [Amazon.com Help: Alexa and Alexa Device FAQs](https://www.amazon.com/gp/help/customer/display.html?nodeId=201602230)  _(tags: no_tag)_
+- 2016-09-19: [Robin Berjon on Twitter: &quot;@_developit I just now figured it out \o/ I had screwed up my browserify config. 160K shaved off — very sweet. Thanks :)&quot;](https://twitter.com/robinberjon/status/776633660300783617)  _(tags: tweet)_
+- 2016-09-19: [Medium](https://medium.com/tag/flowtype)  _(tags: tweet)_
+- 2016-09-19: [Abandoning Commitment in HCI  | Awelon Blue](https://awelonblue.wordpress.com/2012/05/20/abandoning-commitment-in-hci/)  _(tags: tweet)_
+- 2016-09-19: [U.S. Paralympics on Twitter: &quot;A goal by @BremerDrew16 puts #USA in the lead!](https://twitter.com/USParalympics/status/776123664915849216)  _(tags: usa, tweet)_
+- 2016-09-19: [Cognitive bias cheat sheet](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18?gi=2ecdd83fc63a)  _(tags: tweet)_
+- 2016-09-19: [xkcd: Earth Temperature Timeline](http://xkcd.com/1732/)  _(tags: tweet)_
+- 2016-09-19: [Incremental Compilation - The Rust Programming Language Blog](https://blog.rust-lang.org/2016/09/08/incremental.html)  _(tags: tweet)_
+- 2016-09-19: [CDT on Twitter: &quot;.@tedcruz is wrong about the internet transition, and it&#39;s important you know why: https://t.co/0UqnOZHbrW&quot;](https://twitter.com/CenDemTech/status/775734363161923585)  _(tags: iana, tweet)_
+- 2016-09-19: [Preventing Alzheimer’s Disease Is Easier Than You Think | Psychology Today](https://www.psychologytoday.com/blog/diagnosis-diet/201609/preventing-alzheimer-s-disease-is-easier-you-think)  _(tags: alzheimers, tweet)_
+- 2016-09-19: [GitHub - mathics/Mathics: a general-purpose computer algebra system](https://github.com/mathics/Mathics)  _(tags: tweet)_
+- 2016-09-19: [EU Announces That All Scientific Articles Should Be Freely Accessible by 2020](http://futurism.com/eu-announces-that-all-european-scientific-articles-should-be-freely-accessible-by-2020/)  _(tags: tweet)_
+- 2016-09-19: [Rustdoc Meets The Self-Documenting Editor &#8211; Wilfred Hughes::Blog](http://www.wilfred.me.uk/blog/2016/08/27/rustdoc-meets-the-self-documenting-editor/)  _(tags: tweet)_
+- 2016-09-19: [Expanding the Tokio project &middot; Aaron Turon](http://aturon.github.io/blog/2016/08/26/tokio/)  _(tags: tweet)_
+- 2016-09-19: [Sandstorm App Market](https://apps.sandstorm.io/app/rq41p170hcs5rzg66axggv8r90fjcssdky8891kq5s7jcpm1813h)  _(tags: tweet)_
+- 2016-09-17: [typeshed/hashlib.pyi at master · python/typeshed](https://github.com/python/typeshed/tree/master/stdlib/3)  _(tags: no_tag)_
+- 2016-09-17: [notify - Rust](https://docs.rs/notify/2.6.3/notify/)  _(tags: ambient-authority, rust, capabilities, someday, pim)_
+- 2016-09-17: [Journal Article Tag Suite - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Journal_Article_Tag_Suite)  _(tags: research, markup)_
+- 2016-09-17: [Cognitive bias cheat sheet](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18)  _(tags: no_tag)_
+- 2016-09-16: [Ghost - IndieWeb](https://indieweb.org/Ghost)  _(tags: publishing, indieweb)_
+- 2016-09-16: [User:Madmode.com - IndieWeb](https://indieweb.org/User:Madmode.com)  _(tags: me, publishing, collaboration)_
+- 2016-09-16: [13. Ten Years of Standards Failure · redecentralize.org](http://redecentralize.org/conf2015/2016/09/07/13-ten-years-of-standards-failure.html)  _(tags: presentation, video, commute, standards)_
+- 2016-09-16: [IndieAuth - Sign in with your domain name](https://indieauth.com/auth?me=madmode.com&redirect_uri=https%3A%2F%2Findieweb.org%2FSpecial%3AIndieAuth%3Freturnto%3DIRC_People&client_id=https%3A%2F%2Findieweb.org%2FSpecial%3AIndieAuth)  _(tags: publishing, security, hci, design)_
+- 2016-09-16: [Genode - Release notes for the Genode OS Framework 16.05](http://genode.org/documentation/release-notes/16.05)  _(tags: os, vm, quality, security, capabilities, rust)_
+- 2016-09-16: [ehmry/unicode-signature: Signatures that don't look like garbage](https://github.com/ehmry/unicode-signature)  _(tags: no_tag)_
+- 2016-09-16: [About – F-Droid](https://f-droid.org/about/)  _(tags: mobile, programming)_
+- 2016-09-16: [MuJS: reference manual](http://mujs.com/docs/reference)  _(tags: javascript, programming)_
+- 2016-09-16: [The Ninja build system](https://ninja-build.org/manual.html)  _(tags: no_tag)_
+- 2016-09-16: [The ELF and COFF Linkers — lld 4.0 documentation](http://lld.llvm.org/NewLLD.html)  _(tags: no_tag)_
+- 2016-09-15: [MuJS: about](http://mujs.com/docs/about)  _(tags: javascript, capabilities)_
+- 2016-09-15: [FreeRTOS - Market leading RTOS (Real Time Operating System) for embedded systems with Internet of Things extensions](http://www.freertos.org)  _(tags: no_tag)_
+- 2016-09-15: [Genode - Release notes for the Genode OS Framework 16.08](http://genode.org/documentation/release-notes/16.08)  _(tags: no_tag)_
+- 2016-09-15: [Ethos (papers)](https://www.ethos-os.org/papers.html)  _(tags: security, ddos, protocols, internet)_
+- 2016-09-15: [pkexec](https://www.freedesktop.org/software/polkit/docs/0.105/pkexec.1.html)  _(tags: no_tag)_
+- 2016-09-15: [Finally, a GUI for Managing Systemd Services, Written in Rust – Michael Aaron Murphy](https://mmstickman.wordpress.com/2015/12/12/finally-a-gui-for-managing-systemd-services/)  _(tags: rust, sysadmin)_
+- 2016-09-15: [Emacs: How do I set flycheck to Python 3? - Stack Overflow](http://stackoverflow.com/questions/37720869/emacs-how-do-i-set-flycheck-to-python-3)  _(tags: no_tag)_
+- 2016-09-14: [mheily/jobd: A job management framework](https://github.com/mheily/jobd/issues/24)  _(tags: no_tag)_
+- 2016-09-14: [Concepts · mheily/jobd Wiki](https://github.com/mheily/jobd/wiki/concepts)  _(tags: no_tag)_
+- 2016-09-14: [Chapter 2. Design of the Job Framework](http://mheily.github.io/jobd/ch02.html)  _(tags: no_tag)_
+- 2016-09-14: [Experimental JavaScript compiler shakes up ideas about speed, simplicity | InfoWorld](http://www.infoworld.com/article/2685357/javascript/experimental-javascript-compiler-higgs.html)  _(tags: no_tag)_
+- 2016-09-14: [polkit - Authorization Manager](https://cgit.freedesktop.org/polkit/tree/configure.ac)  _(tags: no_tag)_
+- 2016-09-14: [Polkit is a *nightmare*. And I agree with you on the churn. There was a time whe... | Hacker News](https://news.ycombinator.com/item?id=9718309)  _(tags: no_tag)_
+- 2016-09-14: [How To Add Swap Space on Ubuntu 16.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)  _(tags: sysadmin, ubuntu)_
+- 2016-09-14: [Puny Geek: Ubuntu 12.04 - How to solve "The disk drive for /dev/mapper/cryptswap1 is not ready yet or not present" error at boot](http://punygeek.blogspot.com/2012/10/ubuntu-1204-how-to-solve-disk-drive-for.html)  _(tags: sysadmin, ubuntu)_
+- 2016-09-14: [linux - What is this dm-0 device? - Super User](http://superuser.com/questions/131519/what-is-this-dm-0-device)  _(tags: sysadmin, ubuntu)_
+- 2016-09-14: [boot - What to do about "the disk drive for /dev/mapper/cryptswap1 is not ready yet or not present"? - Ask Ubuntu](http://askubuntu.com/questions/341979/what-to-do-about-the-disk-drive-for-dev-mapper-cryptswap1-is-not-ready-yet-or)  _(tags: no_tag)_
+- 2016-09-14: [Compile error on Ubuntu 16.04 · Issue #33 · mmstick/systemd-manager](https://github.com/mmstick/systemd-manager/issues/33)  _(tags: no_tag)_
+- 2016-09-14: [stephenrkell/liballocs: Runtime and toolchain for whole-program monitoring of allocations and their data types](https://github.com/stephenrkell/liballocs)  _(tags: no_tag)_
+- 2016-09-14: [Stephen Kell](http://www.cl.cam.ac.uk/~srk31/)  _(tags: no_tag)_
+- 2016-09-13: [San Andreas (film) - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/San_Andreas_(film))  _(tags: movies, critical-systems)_
+- 2016-09-13: [Release notes/13.2.7 - OLPC](http://wiki.laptop.org/go/Release_notes/13.2.7)  _(tags: no_tag)_
+- 2016-09-13: [A Grow.io Introduction – sam.today](https://www.sam.today/blog/a-grow-io-introduction/)  _(tags: no_tag)_
+- 2016-09-13: [Grow – A declarative, file-based microsite generator](http://grow.io)  _(tags: no_tag)_
+- 2016-09-12: [Bug #952223 “Ctrl+Alt+T doesn't open the terminal in GNOME Shell...” : Bugs : mutter package : Ubuntu](https://bugs.launchpad.net/ubuntu/+source/mutter/+bug/952223)  _(tags: ubuntu, sysadmin, problem, bug)_
+- 2016-09-10: [OpenShot Video Editor | PPA Instructions](http://www.openshot.org/ppa/)  _(tags: no_tag)_
+- 2016-09-10: [uLisp - Tail-call optimization](http://www.ulisp.com/show?1BBP)  _(tags: no_tag)_
+- 2016-09-09: [Kanban in Emacs Org-Mode to Get More Work Done | jr0cket](http://jr0cket.co.uk/2016/09/Kanban-board-Emacs-Org-mode-to-get-work-done.html)  _(tags: no_tag)_
+- 2016-09-09: [About | Lobsters](https://lobste.rs/about)  _(tags: no_tag)_
+- 2016-09-09: [Advantages of a Graph-Based Metadata Repository](https://neo4j.com/blog/advantage-graph-based-metadata-repository/)  _(tags: no_tag)_
+- 2016-09-07: [SQL*Loader Command-Line Reference](https://docs.oracle.com/cd/B19306_01/server.102/b14215/ldr_params.htm)  _(tags: no_tag)_
+- 2016-09-07: [PyPy Status Blog: PyPy warmup improvements](https://morepypy.blogspot.com/2015/09/pypy-warmup-improvements.html)  _(tags: no_tag)_
+- 2016-09-02: [Docker Quick Start | SUSE Linux Enterprise Server 12 SP1](https://www.suse.com/documentation/sles-12/singlehtml/dockerquick/dockerquick.html)  _(tags: no_tag)_
+- 2016-09-02: [Nicholas Piël » Benchmark of Python Web Servers](http://nichol.as/benchmark-of-python-web-servers)  _(tags: no_tag)_
+- 2016-09-02: [systemd's binary logs and corruption : linux](https://www.reddit.com/r/linux/comments/1y6q0l/systemds_binary_logs_and_corruption/)  _(tags: no_tag)_
+- 2016-09-02: [[cap-talk] Is Polkit (nearly) a powerbox?](http://www.eros-os.org/pipermail/cap-talk/2016-February/016745.html)  _(tags: no_tag)_
+- 2016-09-02: [Automatically start containers](https://docs.docker.com/engine/admin/host_integration/)  _(tags: no_tag)_
+- 2016-09-02: [ruby - Can't install vagrant plugins in ubuntu 16.04 - Stack Overflow](http://stackoverflow.com/questions/36811863/cant-install-vagrant-plugins-in-ubuntu-16-04/36991648)  _(tags: no_tag)_
+- 2016-09-02: [DD-WRT Forum :: View topic - stop-dns-rebind](http://www.dd-wrt.com/phpBB2/viewtopic.php?p=509683)  _(tags: no_tag)_
+- 2016-09-01: [http://www2.fiit.stuba.sk/~kosik/](http://www2.fiit.stuba.sk/~kosik/)  _(tags: security, capabilities, programming, operating-systems)_

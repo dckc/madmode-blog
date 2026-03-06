@@ -1,0 +1,117 @@
+---
+title: May 2015 Bookmarks: rust, programming, and python
+date: 2015-05-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "collaboration", "data", "digital-media", "family", "fp", "genode", "javascript", "mac", "machine-learning", "ml", "music", "office", "outfitting", "performance", "photos", "programming", "publishing", "purescript", "python", "quality", "road-trip", "rust", "rustlang", "scala", "scm", "sel4", "statistics", "sysadmin", "types", "w3c", "xml"]
+---
+
+Shared bookmarks saved in May 2015.
+
+- total bookmarks: 103
+- total annotations captured: 29
+
+## Links
+
+- 2015-05-31: [Haskell Formlets: Composable web form construction and validation](http://chrisdone.com/posts/haskell-formlets)  _(tags: no_tag)_
+- 2015-05-31: [snowkit/atom-haxe](https://github.com/snowkit/atom-haxe)  _(tags: no_tag)_
+- 2015-05-31: [ECML/PKDD 15: Taxi Trajectory Prediction (I) | Kaggle](https://www.kaggle.com/hochthom/pkdd-15-predict-taxi-service-trajectory-i/visualization-of-taxi-trip-end-points)  _(tags: tweet)_
+- 2015-05-31: [Chris Ball  &raquo; Announcing GitTorrent: A Decentralized GitHub](http://blog.printf.net/articles/2015/05/29/announcing-gittorrent-a-decentralized-github/)  _(tags: no_tag)_
+- 2015-05-30: [Computer Laboratory: Capability Hardware Enhanced RISC Instructions (CHERI)](https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/)  _(tags: no_tag)_
+- 2015-05-30: [Sir Tim Berners-Lee Inventor of the World Wide Web Honoured With Statue](http://www.artlyst.com/articles/sir-tim-bernerslee-inventor-of-the-world-wide-web-honoured-with-statue)  _(tags: webdev, w3c, tweet)_
+- 2015-05-30: [The Web is not Poor Man&#8217;s Native | in progress](http://cwilso.com/2015/05/29/the-web-is-not-poor-mans-native/)  _(tags: tweet)_
+- 2015-05-30: [felixge/faster-than-c](https://github.com/felixge/faster-than-c/)  _(tags: javascript, performance, data)_
+- 2015-05-30: [EmacsWiki: Emacs Client](http://www.emacswiki.org/emacs/EmacsClient#toc1)  _(tags: no_tag)_
+- 2015-05-30: [numtel/mysql-live-select](https://github.com/numtel/mysql-live-select)  _(tags: no_tag)_
+- 2015-05-29: [U.N. report: Encryption is important to human rights &#8212; and backdoors undermine it - The Washington Post](http://www.washingtonpost.com/blogs/the-switch/wp/2015/05/28/un-report-encryption-is-important-to-human-rights-and-backdoors-undermine-it/)  _(tags: tweet)_
+- 2015-05-29: [Embrace Ambiguity with Haskell&#39;s Types](http://www.stackbuilders.com/news/embrace-ambiguity-with-haskell-s-types)  _(tags: fp)_
+- 2015-05-28: [ide-flow](https://atom.io/packages/ide-flow)  _(tags: javascript, types, ide, quality, fp)_
+- 2015-05-28: [Toad the Wet Sprocket - All You Want - Google Play Music](https://play.google.com/music/listen?u=0#/album///All+You+Want)  _(tags: music, family, road-trip)_
+- 2015-05-28: [Try Meteor](https://www.meteor.com/install)  _(tags: no_tag)_
+- 2015-05-27: [Rust for Python Programmers | Armin Ronacher's Thoughts and Writings](http://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/)  _(tags: tweet, rustlang, rust, python, programming)_
+- 2015-05-27: [Thinking in Git — Thinking in Git documentation](http://talks.edunham.net/linuxfestnorthwest2015/git/)  _(tags: no_tag)_
+- 2015-05-27: [graydon2 | Rust release lightning talk](http://graydon2.dreamwidth.org/214016.html)  _(tags: no_tag)_
+- 2015-05-27: [Developing native Android App using Groovy | Object Partners](https://objectpartners.com/2014/09/04/developing-native-android-app-using-groovy/)  _(tags: no_tag)_
+- 2015-05-27: [IRS system mined for over 100,000 taxpayer records by fraudsters [Updated] | Ars Technica](http://arstechnica.com/security/2015/05/report-irs-admits-its-been-hacked-tax-info-stolen-for-100000-plus/)  _(tags: tweet)_
+- 2015-05-27: [Genode - Genode News](http://genode.org/news/genode-os-framework-release-15.05)  _(tags: l4, tweet)_
+- 2015-05-27: [LinkedIn founder Reid Hoffman on the biggest lie employers tell employees - Vox](http://www.vox.com/2015/5/22/8639717/reid-hoffman-the-alliance?utm_content=buffer13af4&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2015-05-27: [Genode - Release notes for the Genode OS Framework 15.05](http://genode.org/documentation/release-notes/15.05)  _(tags: genode, sel4, tweet)_
+- 2015-05-27: [Ford launches pay-per-minute GoDrive carsharing service in London](http://thenextweb.com/uk/2015/05/26/ford-launches-pay-per-minute-godrive-carsharing-service-in-london/?.com)  _(tags: tweet)_
+- 2015-05-27: [Noam Chomsky: Why the Internet Hasn't Freed Our Minds—Propaganda Continues to Dominate | Alternet](http://www.alternet.org/media/noam-chomsky-why-internet-hasnt-freed-our-minds-propaganda-continues-dominate)  _(tags: tweet)_
+- 2015-05-26: [takezoe/gitbucket](https://github.com/takezoe/gitbucket)  _(tags: scm, scala)_
+- 2015-05-26: [Hesham M. ALMatary : Porting seL4 to RISC-V | Status Report No.1](http://heshamelmatary.blogspot.co.uk/2015/05/porting-sel4-to-risc-v-status-report-no1.html)  _(tags: tweet)_
+- 2015-05-25: [Brother PT1180 User Manual - Owner's Manual](http://www.ptouchdirect.com/ptouch/umpt1180.html)  _(tags: office)_
+- 2015-05-25: [updatedb & locate command problem - Files from external hard drive are no longer indexed after rebooting - Ask Ubuntu](http://askubuntu.com/questions/60202/updatedb-locate-command-problem-files-from-external-hard-drive-are-no-longer)  _(tags: sysadmin, digital-media, photos)_
+- 2015-05-25: [how to mount sparsebundle? | Apple Support Communities](https://discussions.apple.com/thread/2082558?tstart=0)  _(tags: mac, sysadmin)_
+- 2015-05-24: [&#8220;Lisl&#8217;s Stis&#8221;: Recurrent Neural Networks for Folk Music Generation | High Noon GMT](https://highnoongmt.wordpress.com/2015/05/22/lisls-stis-recurrent-neural-networks-for-folk-music-generation/)  _(tags: tweet, deep-learning, music, machine-learning, ml)_
+- 2015-05-23: [Top 10 data mining algorithms in plain English | rayli.net](http://rayli.net/blog/data/top-10-data-mining-algorithms-in-plain-english)  _(tags: tweet, machine-learning, data-mining, data, big-data)_
+- 2015-05-23: [A web API as a type - haskell-servant](http://haskell-servant.github.io/tutorial/api-type.html)  _(tags: web, programming, fp)_
+- 2015-05-22: [The Groovy programming language - Servlet support](http://www.groovy-lang.org/servlet.html)  _(tags: no_tag)_
+- 2015-05-22: [Simple Servlets in Groovy | Andrew Taylor](http://www.redtoad.ca/ataylor/2012/02/simple-servlets-in-groovy/)  _(tags: no_tag)_
+- 2015-05-22: [Developer Guide - JBoss AS 7.1 - Project Documentation Editor](https://docs.jboss.org/author/display/AS71/Developer+Guide)  _(tags: no_tag)_
+- 2015-05-22: [Halogen Presentation at PureScript Conf 2015 - YouTube](https://www.youtube.com/watch?v=AbDX-wRigAo)  _(tags: purescript, tweet)_
+- 2015-05-22: [Rendering IPython notebooks on GitHub](https://blog.jupyter.org/2015/05/07/rendering-notebooks-on-github/)  _(tags: publishing, programming)_
+- 2015-05-22: [Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/Chapter1.ipynb at master · CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Chapter1.ipynb)  _(tags: programming, stats)_
+- 2015-05-22: [jupyter/jupyter-drive](https://github.com/jupyter/jupyter-drive)  _(tags: no_tag)_
+- 2015-05-22: [Help | Authorea](https://www.authorea.com/help)  _(tags: no_tag)_
+- 2015-05-22: [How to use Authorea offline | Authorea](https://www.authorea.com/users/3/articles/17235/_show_article)  _(tags: no_tag)_
+- 2015-05-22: [Can I create an iPython notebook using JavaScript as the language in the cells? - Stack Overflow](http://stackoverflow.com/questions/28080079/can-i-create-an-ipython-notebook-using-javascript-as-the-language-in-the-cells)  _(tags: no_tag)_
+- 2015-05-21: [Quantifying Productivity](http://karpathy.github.io/2014/08/03/quantifying-productivity/)  _(tags: no_tag)_
+- 2015-05-21: [Torch | Scientific computing for LuaJIT.](http://torch.ch)  _(tags: no_tag)_
+- 2015-05-21: [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)  _(tags: tweet, deep-learning, data)_
+- 2015-05-21: [How we hire - Bytemark Careers](https://careers.bytemark.co.uk/process)  _(tags: tweet)_
+- 2015-05-20: [Choosing R or Python for data analysis? An infographic](http://blog.datacamp.com/r-or-python-for-data-analysis/?imm_mid=0d2357&cmp=em-data-na-na-newsltr_20150520)  _(tags: python, programming, statistics)_
+- 2015-05-20: [D-ß-hydroxybutyrate: an anti-aging ketone body](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4414129/)  _(tags: tweet)_
+- 2015-05-20: [The Crosswalk Project](https://crosswalk-project.org)  _(tags: pgday, tweet)_
+- 2015-05-20: [Google Cloud Platform Blog: Introducing Preemptible VMs, a new class of compute available at 70% off standard pricing](http://googlecloudplatform.blogspot.com/2015/05/Introducing-Preemptible-VMs-a-new-class-of-compute-available-at-70-off-standard-pricing.html)  _(tags: tweet)_
+- 2015-05-20: [Automatic Developer Platform | Build Apps for Any Car](https://developer.automatic.com/?utm_content=buffer34730&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2015-05-20: [Joe Mathewson on Twitter: &quot;Some ads may be annoying. What&#39;s more annoying is not having an income from hard work enjoyed by billions of people. https://t.co/NKkHWY6JUO&quot;](https://twitter.com/j0ejack/status/599990179089281025)  _(tags: tweet)_
+- 2015-05-20: [Coinscope](http://cs.umd.edu/projects/coinscope/)  _(tags: tweet)_
+- 2015-05-20: [Hg-Git Mercurial Plugin](http://hg-git.github.io)  _(tags: no_tag)_
+- 2015-05-20: [brson/multirust](https://github.com/brson/multirust)  _(tags: no_tag)_
+- 2015-05-19: [phpwutz/libkeepass](https://github.com/phpwutz/libkeepass)  _(tags: no_tag)_
+- 2015-05-19: [First they came ... - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/First_they_came_...)  _(tags: no_tag)_
+- 2015-05-19: [Martin Niemöller: "First they came for the Socialists..."](http://www.ushmm.org/wlc/en/article.php?ModuleId=10007392)  _(tags: no_tag)_
+- 2015-05-19: [Download SourceTree for free](https://www.sourcetreeapp.com/download/)  _(tags: mac, outfitting, programming, collaboration)_
+- 2015-05-19: [GNU Emacs For Mac OS X](http://emacsformacosx.com)  _(tags: mac, outfitting, programming)_
+- 2015-05-19: [Ten blunt things I wish I could tell clients  &#8211;  Karl Groves](http://www.karlgroves.com/2013/05/27/ten-blunt-things-i-wish-i-could-tell-clients/)  _(tags: tweet)_
+- 2015-05-19: [Genode - Genode on seL4 - Porting the core component](http://genode.org/documentation/articles/sel4_part_3)  _(tags: tweet)_
+- 2015-05-19: [Haskell for all: The internet of code](http://www.haskellforall.com/2015/05/the-internet-of-code.html)  _(tags: tweet)_
+- 2015-05-18: [3dFull disclosure : 4096 RSA key in the strongset factored. on 2eTrilema - A blog by Mircea Popescu.](http://trilema.com/2015/full-disclosure-4096-rsa-key-in-the-strongset-factored/)  _(tags: tweet)_
+- 2015-05-17: [The Best Shower Head | The Sweethome](http://thesweethome.com/reviews/the-best-shower-head/)  _(tags: tweet)_
+- 2015-05-16: [The Little Prover | The MIT Press](http://mitpress.mit.edu/books/little-prover#.VVXugr42kfc.twitter)  _(tags: tweet)_
+- 2015-05-16: [Nextdoor: Join the free private social network for your neighborhood](https://nextdoor.com)  _(tags: tweet)_
+- 2015-05-16: [Test drive of a petrol car   - Tesla Club Sweden](http://teslaclubsweden.se/test-drive-of-a-petrol-car/)  _(tags: tweet)_
+- 2015-05-16: [Can we stop rustc --test warning of an unused main()? · Issue #12327 · rust-lang/rust](https://github.com/rust-lang/rust/issues/12327)  _(tags: no_tag)_
+- 2015-05-16: [MELPA](http://melpa.org/#/getting-started)  _(tags: no_tag)_
+- 2015-05-15: [SXD Document and XPath 0.1.0 released - pure Rust XML and XPath libraries : rust](http://www.reddit.com/r/rust/comments/360h49/sxd_document_and_xpath_010_released_pure_rust_xml/)  _(tags: rustlang, tweet, rust, xml)_
+- 2015-05-13: [Blog post arguing that Bitcoin](https://freedom-to-tinker.com/blog/randomwalker/bitcoin-faces-a-crossroads-needs-an-effective-decision-making-process/)  _(tags: tweet)_
+- 2015-05-12: [The White House Names Dr. Ed Felten as Deputy U.S. Chief Technology Officer | The White House](https://www.whitehouse.gov/blog/2015/05/11/white-house-names-dr-ed-felten-deputy-us-chief-technology-officer)  _(tags: tweet)_
+- 2015-05-12: [Ron Wyden on Twitter: &quot;I will filibuster any attempts at a straight renewal of the Patriot Act #EndThisDragnet&quot;](https://twitter.com/RonWyden/status/597885716509622273)  _(tags: tweet)_
+- 2015-05-12: [ascribe.io | Take control of your intellectual property.](https://www.ascribe.io)  _(tags: tweet)_
+- 2015-05-12: [America’s Epidemic of Unnecessary Care - The New Yorker](http://www.newyorker.com/magazine/2015/05/11/overkill-atul-gawande)  _(tags: tweet)_
+- 2015-05-12: [Abstraction without overhead: traits in Rust - The Rust Programming Language Blog](http://blog.rust-lang.org/2015/05/11/traits.html)  _(tags: rustlang, tweet)_
+- 2015-05-12: [ICalico - IPRE Wiki](http://calicoproject.org/ICalico#Calico_Notebook_Extensions)  _(tags: no_tag)_
+- 2015-05-09: [reiserfs partition lost, any way to recover?](http://www.linuxquestions.org/questions/linux-newbie-8/reiserfs-partition-lost-any-way-to-recover-248680/)  _(tags: no_tag)_
+- 2015-05-09: [Foremost](http://foremost.sourceforge.net)  _(tags: no_tag)_
+- 2015-05-09: [SecKC | May | 2015 Tickets, Overland Park | Eventbrite](http://www.eventbrite.com/e/seckc-may-2015-tickets-16901399541)  _(tags: seckc, tweet)_
+- 2015-05-09: [Download Anaconda Python Distribution](http://continuum.io/downloads)  _(tags: tweet)_
+- 2015-05-08: [GitHub + Jupyter Notebooks = &lt;3 · GitHub](https://github.com/blog/1995-github-jupyter-notebooks-3)  _(tags: tweet)_
+- 2015-05-07: [A gallery of interesting IPython Notebooks · ipython/ipython Wiki · GitHub](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)  _(tags: no_tag)_
+- 2015-05-06: [My IPython-powered semi-automatic git workflow | Damian's blog](http://www.damian.oquanta.info/posts/my-ipython-powered-semi-automatic-git-workflow.html)  _(tags: no_tag)_
+- 2015-05-06: [Deploy your Nikola-powered blog content from the IPython notebook | Damian's blog](http://www.damian.oquanta.info/posts/deploy-your-nikola-powered-blog-content-from-the-ipython-notebook.html)  _(tags: no_tag)_
+- 2015-05-06: [Nikola | Nikola](https://getnikola.com)  _(tags: no_tag)_
+- 2015-05-06: [Blogging with IPython and Collapsible Input Cells](http://joergdietrich.github.io/notebook-collapse-input.html)  _(tags: no_tag)_
+- 2015-05-06: [Membership Information](https://www.cpscentral.com/client/warranty.aspx?mid=1089337)  _(tags: no_tag)_
+- 2015-05-06: [Your Password is Too Damn Short](http://blog.codinghorror.com/your-password-is-too-damn-short/)  _(tags: tweet)_
+- 2015-05-06: [Jean-François Abramatic, 20 ans aux côtés du W3C - Inria](http://www.inria.fr/actualite/actualites-inria/jean-francois-abramatic-20-ans-aux-cotes-du-w3c?utm_content=bufferf2036&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: w3c20, tweet)_
+- 2015-05-06: [How SQLite Is Tested](https://www.sqlite.org/draft/testing.html#aflfuzz)  _(tags: tweet)_
+- 2015-05-05: [PHP: md5(&#x27;240610708&#x27;) == md5(&#x27;QNKCDZO&#x27;) | Hacker News](https://news.ycombinator.com/item?id=9484757)  _(tags: tweet)_
+- 2015-05-05: [ADAPTABLE  study greenlighted! Finally - answers f](http://www.pcori.org/sites/default/files/PCORnet-ADAPTABLE-Aspirin-Study-Infographic-LG-050415.jpg)  _(tags: pcornet, aspirin, patients, pcori, hearthealth, heartdisease)_
+- 2015-05-05: [95 Theses for a New Health Ecosystem — Medium](https://medium.com/@healthrosetta/95-theses-for-a-new-health-ecosystem-b32d0cdce2ce)  _(tags: tweet)_
+- 2015-05-02: [Michael[tm] Smith on Twitter: &quot;It’s 2015 and the source for the JavaScript spec is an MS Word document rather than, say, a Web document, in HTML. https://t.co/VW9OXoyQ3u&quot;](https://twitter.com/sideshowbarker/status/594205492466987008)  _(tags: tweet)_
+- 2015-05-02: [Tokyo Is Not Expensive — Medium](https://medium.com/@mrkirkland/tokyo-is-not-expensive-6840109204e?source=tw-lo_de830aee43d1-1430098667783)  _(tags: denver, tweet)_
+- 2015-05-01: [Programmatic access to Exchange 2010 using EWS, SOAP, and Python | In a pickle](http://blogs.it.ox.ac.uk/inapickle/2012/09/19/programmatic-access-to-exchange-2010-using-ews-soap-and-python/)  _(tags: python, office, cube-life)_
+- 2015-05-01: [PHP: PHP tags - Manual](http://php.net/manual/en/language.basic-syntax.phptags.php)  _(tags: no_tag)_
+- 2015-05-01: [Change MySQL Password on Ubuntu – dpkg-reconfigure mysql-server-5.1 | Tero Karvinen](http://terokarvinen.com/2012/change-mysql-password-dpkg-reconfigure-mysql-server-5-1-ubuntu-debian-error-1045)  _(tags: no_tag)_
+- 2015-05-01: [jQuery considered harmful | Lea Verou](http://lea.verou.me/2015/04/jquery-considered-harmful/)  _(tags: no_tag)_
+- 2015-05-01: [Capsicum Implementation Status](http://capsicum-linux.org)  _(tags: no_tag)_

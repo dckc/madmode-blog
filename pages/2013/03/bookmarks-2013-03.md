@@ -1,0 +1,116 @@
+---
+title: March 2013 Bookmarks: pyvideo, research, and linux
+date: 2013-03-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "3d", "capabilities", "collaboration", "data", "design", "finance", "graphics", "hardware", "health", "html5", "javascript", "kc", "linux", "math", "pc", "performance", "personal", "programming", "python", "quality", "research", "scala", "security", "statistics", "sysadmin", "vm", "writing"]
+---
+
+Shared bookmarks saved in March 2013.
+
+- total bookmarks: 102
+- total annotations captured: 59
+
+## Links
+
+- 2013-03-30: [pyvideo.org - Introduction to SQLAlchemy](http://pyvideo.org/video/1711/introduction-to-sqlalchemy)  _(tags: no_tag)_
+- 2013-03-30: [pyvideo.org - Advanced Machine Learning with scikit-learn](http://pyvideo.org/video/1719/advanced-machine-learning-with-scikit-learn)  _(tags: no_tag)_
+- 2013-03-30: [pyvideo.org - Transforming Code into Beautiful, Idiomatic Python](http://pyvideo.org/video/1780/transforming-code-into-beautiful-idiomatic-pytho)  _(tags: no_tag)_
+- 2013-03-30: [pyvideo.org - The SQLAlchemy Session - In Depth](http://pyvideo.org/video/1767/the-sqlalchemy-session-in-depth-0)  _(tags: no_tag)_
+- 2013-03-30: [pyvideo.org - Scrapy: it GETs the web](http://pyvideo.org/video/1685/scrapy-it-gets-the-web)  _(tags: no_tag)_
+- 2013-03-30: [pyvideo.org - Making Apache suck less for hosting Python web applications.](http://pyvideo.org/video/1773/making-apache-suck-less-for-hosting-python-web-ap)  _(tags: no_tag)_
+- 2013-03-30: [pyvideo.org - Beyond Passwords: Secure Authentication with Mozilla Persona](http://pyvideo.org/video/1764/beyond-passwords-secure-authentication-with-mozi-0)  _(tags: no_tag)_
+- 2013-03-30: [pyvideo.org - Worry-Free Parsers with Parsley](http://pyvideo.org/video/1736/worry-free-parsers-with-parsley)  _(tags: no_tag)_
+- 2013-03-30: [pyvideo.org - PyCon US 2013](http://pyvideo.org/category/33/pycon-us-2013)  _(tags: tweet)_
+- 2013-03-30: [Keyboard shortcuts - Gmail Help](http://support.google.com/mail/answer/6594?hl=en)  _(tags: no_tag)_
+- 2013-03-29: [Want to Help People? Just Give Them Money - Jacquelline Fuller - Harvard Business Review](http://blogs.hbr.org/cs/2013/03/want_to_help_people_just_give.html)  _(tags: tweet)_
+- 2013-03-28: [GNOME 3.8 Release Notes](https://help.gnome.org/misc/release-notes/3.8/)  _(tags: no_tag)_
+- 2013-03-28: [Programming in Scala, First Edition](http://www.artima.com/pins1ed/index.html)  _(tags: no_tag)_
+- 2013-03-27: [Speakers | Health Datapalooza IV](http://healthdatapalooza.org/speakers/)  _(tags: health, data)_
+- 2013-03-27: [FAQ How do I increase the heap size available to Eclipse? - Eclipsepedia](http://wiki.eclipse.org/FAQ_How_do_I_increase_the_heap_size_available_to_Eclipse%3F)  _(tags: no_tag)_
+- 2013-03-27: [MulgaSoft](http://www.mulgasoft.com)  _(tags: no_tag)_
+- 2013-03-27: [MOOC completion rates](http://www.katyjordan.com/MOOCproject.html)  _(tags: no_tag)_
+- 2013-03-27: [Data Management for Clinical Research / Coursera.org](https://www.coursera.org/course/datamanagement)  _(tags: research, health)_
+- 2013-03-27: [Malicious Software and its Underground Economy: Two Sides to Every Story / Coursera.org](https://www.coursera.org/course/malsoftware)  _(tags: research, security)_
+- 2013-03-27: [Mathematical Biostatistics Boot Camp / Coursera.org](https://www.coursera.org/course/biostats)  _(tags: research, health, statistics)_
+- 2013-03-25: [Could CSS3 be making sites that are not testable? - The Automated Tester](http://www.theautomatedtester.co.uk/blog/2013/could-css3-be-making-sites-that-are-not-testable.html)  _(tags: no_tag)_
+- 2013-03-25: [FlexSlider 2](http://flexslider.woothemes.com)  _(tags: web, design)_
+- 2013-03-25: [java.io.Console support in Eclipse IDE - Stack Overflow](http://stackoverflow.com/questions/104254/java-io-console-support-in-eclipse-ide)  _(tags: no_tag)_
+- 2013-03-25: [Scala Interpreter — Scala IDE 2.0.0 documentation](http://scala-ide.org/docs/user/features/scalainterpreter.html)  _(tags: no_tag)_
+- 2013-03-24: [OFFICIAL TICKETS | Stomp | Kauffman Center | Kansas City | April 5-7, 2013 | Theater League](http://theaterleague.com/kansascity/stomp/)  _(tags: kc)_
+- 2013-03-24: [Download the 3.0 Release of the Scala IDE for Eclipse - Scala IDE for Eclipse](http://scala-ide.org/download/current.html)  _(tags: programming, scala, ide, writing)_
+- 2013-03-24: [Chapter 20.  Solid-State Disk Deployment Guidelines - Red Hat Customer Portal](https://access.redhat.com/knowledge/docs/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/newmds-ssdtuning.html)  _(tags: pc, hardware, linux)_
+- 2013-03-24: [tomato42/lvmts · GitHub](https://github.com/tomato42/lvmts)  _(tags: pc, hardware, linux, performance)_
+- 2013-03-24: [SSD, LVM, Tiered storage - speeding up your storage - alpha version! (Page 1) / GNU/Linux Discussion / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=113529)  _(tags: no_tag)_
+- 2013-03-24: [Guide software RAID/LVM TRIM support on Linux](http://www.ocztechnologyforum.com/forum/showthread.php?82648-software-RAID-LVM-TRIM-support-on-Linux)  _(tags: pc, hardware, performance, linux)_
+- 2013-03-24: [Powerful Web Services Through Composition -- web-calculus](http://www.waterken.com/dev/Web/REST/)  _(tags: programming, research, security)_
+- 2013-03-24: [[cap-talk] ... enforcement - hope? Capabilities as clumsy, not](http://www.eros-os.org/pipermail/cap-talk/2004-September/001943.html)  _(tags: research, security)_
+- 2013-03-24: [mypy - FAQ](http://mypy-lang.org/faq.html#python)  _(tags: no_tag)_
+- 2013-03-24: [mypy - A New Python Variant with Dynamic and Static Typing](http://mypy-lang.org)  _(tags: programming, python, quality)_
+- 2013-03-23: [MySQL :: MySQL 5.5 Reference Manual :: 13.1.17 CREATE TABLE Syntax](http://dev.mysql.com/doc/refman/5.5/en/create-table.html)  _(tags: no_tag)_
+- 2013-03-23: [GnuCash: kvp_frame.h Source File](http://code.neil.williamsleesmill.me.uk/gnome2/kvp__frame_8h-source.html)  _(tags: personal, finance, data)_
+- 2013-03-23: [GnuCash - User - what is the table 'slots' good for](http://gnucash.1415818.n4.nabble.com/what-is-the-table-slots-good-for-td4658122.html)  _(tags: no_tag)_
+- 2013-03-23: [while coding  &raquo; Blog Archive   &raquo; How To Hire Me (or any other programmer for that matter)](http://www.youell.com/matt/writing/?p=898&utm_source=buffer&buffer_share=cc6ee)  _(tags: tweet)_
+- 2013-03-23: [TidBITS:  Apple Implements Two-Factor Authentication for Apple IDs](http://tidbits.com/article/13654)  _(tags: tweet)_
+- 2013-03-23: [ViziCities development diary #1: One month in | Rawkes](http://rawkes.com/articles/vizicities-dev-diary-1)  _(tags: tweet)_
+- 2013-03-23: [The 26th Reid list of programming languages used f](http://isedj.org/2012-10/N4/ISEDJv10n4p24.pdf)  _(tags: tweet)_
+- 2013-03-23: [Google Fiber Expands 1Gbps Internet Service To Another City: Olathe, Kansas - Forbes](http://www.forbes.com/sites/parmyolson/2013/03/20/google-fiber-expands-1gb-internet-service-to-another-city-olathe-kansas/)  _(tags: tweet, kc)_
+- 2013-03-23: [Adria Richards, PyCon, and How We All Lost | Amanda Blum](http://amandablumwords.wordpress.com/2013/03/21/3/)  _(tags: tweet)_
+- 2013-03-23: [SPARQL 1.1 is now a  RECOMMENDATION. Fantastic wor](http://t.co/YYFfs0Ts4u)  _(tags: tweet)_
+- 2013-03-23: [CIA's Tech Head on Your Data: 'We Try To Collect Everything And Hang On To It Forever'](http://gawker.com/5991731/cias-tech-head-on-your-data-we-try-to-collect-everything-and-hang-on-to-it-forever?utm_source=dlvr.it&utm_medium=twitter)  _(tags: tweet)_
+- 2013-03-22: [[rust-dev] Rust on Xen](https://mail.mozilla.org/pipermail/rust-dev/2013-March/003335.html)  _(tags: vm, programming, someday)_
+- 2013-03-22: [[rust-dev] Rust on Xen](https://mail.mozilla.org/pipermail/rust-dev/2013-March/003303.html)  _(tags: no_tag)_
+- 2013-03-22: [The New Freedom to Tinker Movement](https://freedom-to-tinker.com/blog/felten/the-new-freedom-to-tinker-movement/)  _(tags: no_tag)_
+- 2013-03-21: [Let us pay for this service so it won&rsquo;t go down &ndash; Marco.org](http://www.marco.org/2011/04/05/let-us-pay-for-this-service-so-it-wont-go-down)  _(tags: tweet)_
+- 2013-03-21: [Adobe&#8217;s ECMA TC-39 Involvement](http://blogs.adobe.com/standards/2013/03/21/adobes-ecma-tc-39-involvement/)  _(tags: tweet)_
+- 2013-03-21: [pufuwozu/wartremover · GitHub](https://github.com/pufuwozu/wartremover)  _(tags: scala, tweet)_
+- 2013-03-21: [Identity at Mozilla](http://identity.mozilla.com/post/45842909320/users-dont-like-social-login)  _(tags: mozillapersona, tweet)_
+- 2013-03-20: [Ian Hickson - Google+ - Discussions about DRM often land on the fundamental problem…](https://plus.google.com/107429617152575897589/posts/iPmatxBYuj2)  _(tags: tweet)_
+- 2013-03-20: [Google Groups](https://groups.google.com/forum/#!topic/python-tulip/bmphRrryuFk)  _(tags: async, python, tweet)_
+- 2013-03-19: [Nina Conti Live At The Apollo - YouTube](http://www.youtube.com/watch?v=7ixiP_nmCfU)  _(tags: tweet)_
+- 2013-03-19: [Checkboxes that kill your product &mdash; Alex Limi](http://limi.net/checkboxes-that-kill)  _(tags: tweet)_
+- 2013-03-19: [Well Schneier is just a breath of optimism this mo](http://www.wired.com/opinion/2013/03/security-when-the-bad-guys-have-technology-too-how-do-we-survive/)  _(tags: tweet)_
+- 2013-03-15: [Quantum Explanations - Less Wrong](http://lesswrong.com/lw/pc/quantum_explanations/)  _(tags: no_tag)_
+- 2013-03-14: [conversion - How do I convert an SVG to a PDF on Linux - Super User](http://superuser.com/questions/381125/how-do-i-convert-an-svg-to-a-pdf-on-linux)  _(tags: no_tag)_
+- 2013-03-14: [What I wish Tim Berners-Lee understood about DRM | Technology | guardian.co.uk](http://www.guardian.co.uk/technology/blog/2013/mar/12/tim-berners-lee-drm-cory-doctorow)  _(tags: tweet)_
+- 2013-03-14: [Official Google Reader Blog: Powering Down Google Reader](http://googlereader.blogspot.com/2013/03/powering-down-google-reader.html)  _(tags: tweet)_
+- 2013-03-14: [Photo by rossmonstr &bull; Instagram](http://instagram.com/p/WxGDicmT9b/)  _(tags: tweet)_
+- 2013-03-13: [Parsoid: How Wikipedia catches up with the web — Wikimedia blog](https://blog.wikimedia.org/2013/03/04/parsoid-how-wikipedia-catches-up-with-the-web/)  _(tags: rdfa, mediawiki, html5, tweet)_
+- 2013-03-12: [a future caller alternative ?](https://mail.mozilla.org/pipermail/es-discuss/2013-March/029080.html)  _(tags: tweet, capabilities, mozilla, security, programming)_
+- 2013-03-10: [GUID Partition Table - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/GUID_Partition_Table)  _(tags: sysadmin)_
+- 2013-03-09: [Spring Classic - Kansas City Metro Bicycle Club, Inc.](http://www.kcmbc.org/content.aspx?page_id=87&club_id=368691&item_id=255586)  _(tags: no_tag)_
+- 2013-03-09: [ClearImage Online Barcode Decoder](http://online-barcode-reader.inliteresearch.com/default.aspx)  _(tags: no_tag)_
+- 2013-03-09: [android-scripting - Scripting Layer for Android brings scripting languages to Android. - Google Project Hosting](https://code.google.com/p/android-scripting/)  _(tags: no_tag)_
+- 2013-03-08: [A First Parallel Program in Rust - Leah Hanson](http://blog.leahhanson.us/a-first-parallel-program-in-rust.html)  _(tags: no_tag)_
+- 2013-03-06: [This is why Obama can&#8217;t make a deal with Republicans](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/03/02/this-is-why-obama-cant-make-a-deal-with-republicans/)  _(tags: tweet)_
+- 2013-03-06: [Not Risk But Trust | Wild Webmink](http://webmink.com/2013/03/03/not-risk-but-trust/)  _(tags: tweet)_
+- 2013-03-05: [TeXmacs style files (FSF GNU project)](http://www.texmacs.org/tmweb/manual/webman-style.en.html)  _(tags: writing, research, math)_
+- 2013-03-05: [DICOM - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/DICOM)  _(tags: no_tag)_
+- 2013-03-05: [The High Price of Doctors: A Disease of Regulation, Bryan Caplan | EconLog | Library of Economics and Liberty](http://econlog.econlib.org/archives/2013/03/the_high_price.html)  _(tags: tweet)_
+- 2013-03-05: [LaTeX documentation](http://latex-project.org/guides/)  _(tags: no_tag)_
+- 2013-03-05: [LyX wiki | Tools / PyClient](http://wiki.lyx.org/Tools/PyClient)  _(tags: no_tag)_
+- 2013-03-04: [Plugins - KeePass](http://keepass.info/plugins.html)  _(tags: no_tag)_
+- 2013-03-04: [Schneier on Security: Password Advice](http://www.schneier.com/blog/archives/2009/08/password_advice.html)  _(tags: no_tag)_
+- 2013-03-04: [Gazelle (web browser) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Gazelle_(web_browser))  _(tags: web, security, research)_
+- 2013-03-04: [RockSalt](http://dl.acm.org/citation.cfm?doid=2254064.2254111)  _(tags: no_tag)_
+- 2013-03-03: [xkcd: Virus Venn Diagram](http://m.xkcd.com)  _(tags: tweet)_
+- 2013-03-03: [Strata 2013 Complete Video Compilation: Strata 2013 - O&#39;Reilly Conferences, February 26 - 28, 2013, Santa Clara, CA](http://strataconf.com/strata2013/public/sv/q/462)  _(tags: strataconf, tweet)_
+- 2013-03-03: [Quark : A Web Browser with a Formally Verified Kernel](http://goto.ucsd.edu/quark/)  _(tags: web, security, research)_
+- 2013-03-03: [Checking Proofs Written in TeX](http://proofcheck.org)  _(tags: python, research, math)_
+- 2013-03-03: [An Introduction to Libaio](http://www.morphisms.net/~wkj/software/libaio/intro.html)  _(tags: no_tag)_
+- 2013-03-03: [The PracTeX Journal - TeX Users Group](http://www.tug.org/pracjourn/2007-1/neveln/)  _(tags: math, research, python)_
+- 2013-03-03: [Woody Bledsoe: His Life and Legacy | Ballantyne | AI Magazine](http://www.aaai.org/ojs/index.php/aimagazine/article/view/1207/)  _(tags: no_tag)_
+- 2013-03-03: [Popular oracle modules - Node.JS Modules](https://nodejsmodules.org/tags/oracle)  _(tags: javascript, data)_
+- 2013-03-03: [Node.JS Modules](https://nodejsmodules.org/pkg/oracle)  _(tags: no_tag)_
+- 2013-03-03: [Node.JS Modules](https://nodejsmodules.org/pkg/db-oracle)  _(tags: no_tag)_
+- 2013-03-02: [TUD - Operating Systems - NOVA](http://www.inf.tu-dresden.de/index.php?node_id=2625&ln=en)  _(tags: no_tag)_
+- 2013-03-01: [Visualizing what the eye can't see, as if we were](http://www.nytimes.com/video/2013/02/27/science/100000002087758/finding-the-visible-in-the-invisible.html)  _(tags: tweet)_
+- 2013-03-01: [It&#039;s the Sugar, Folks - NYTimes.com](http://opinionator.blogs.nytimes.com/2013/02/27/its-the-sugar-folks/)  _(tags: sugar, tweet)_
+- 2013-03-01: [At Davos, I was delighted to see the turn  &amp; B](http://www.weforum.org/issues/rethinking-personal-data)  _(tags: tweet)_
+- 2013-03-01: [Portal 2 : Linux + Steam Games Tested by Linux Gamers](http://www.steamgamesonlinux.com/portal-2/)  _(tags: no_tag)_
+- 2013-03-01: [Verold Studio - Online 3D Collaboration](http://studio.verold.com)  _(tags: collaboration, graphics, 3d)_
+- 2013-03-01: [WebGL Stats](http://webglstats.com)  _(tags: web, graphics)_
+- 2013-03-01: [CoffeePhysics: A Fast New Physics Engine Written in CoffeeScript - Badass JavaScript](http://badassjs.com/post/18503583619/coffeephysics-a-fast-new-physics-engine-written-in)  _(tags: javascript, graphics, programming)_
+- 2013-03-01: [Soulwire » Experiments in Code](http://soulwire.co.uk/experiments)  _(tags: web, graphics, javascript)_
+- 2013-03-01: [Switching Proprietary Drivers - Linux Issues - Knowledge Base - Steam Support](https://support.steampowered.com/kb_article.php?ref=8509-RFXM-1964&l=english)  _(tags: no_tag)_
+- 2013-03-01: [GeForce 600 Series - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/GeForce_600_Series)  _(tags: no_tag)_
+- 2013-03-01: [Index of /packages/archive/TicTacToe/latest/doc/html](http://hackage.haskell.org/packages/archive/TicTacToe/latest/doc/html/)  _(tags: programming)_

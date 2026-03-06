@@ -1,0 +1,128 @@
+---
+title: October 2006 Bookmarks: w3c, semantic, and debian
+date: 2006-10-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "aaai", "architecture", "austin", "birthday", "bos", "calendar", "collaboration", "datamining", "debian", "design", "digital", "dogs", "economics", "event", "faith", "finance", "formal", "grddl", "guitar", "hardware", "health", "humor", "ietf", "javascript", "kc", "linux", "literacy", "logic", "mac", "math", "media", "microformats", "mobile", "movies", "music", "openid", "owl", "pc", "photo", "photos", "pim", "policy", "politics", "press", "programming", "proof", "python", "quality", "rdf", "remote", "research", "rules", "security", "semantic", "shopping", "spam", "sparql", "sync", "sysadmin", "training", "travel", "uri", "w3c", "xhtml", "yvr"]
+---
+
+Shared bookmarks saved in October 2006.
+
+- total bookmarks: 114
+- total annotations captured: 2
+
+## Links
+
+- 2006-10-31: [google-rfc-2445 - Google Code](http://code.google.com/p/google-rfc-2445)  _(tags: calendar)_
+- 2006-10-31: [CALSIFY iCalendar List of issues - Roundup issue tracker](http://www.ofcourseimright.com/cgi-bin/roundup/calsify)  _(tags: ietf, w3c, calendar, quality)_
+- 2006-10-31: [ietf-calsify-rfc2445bis-03.txt](http://ietfreport.isoc.org/idref/draft-ietf-calsify-rfc2445bis)  _(tags: calendar, ietf, w3c)_
+- 2006-10-31: [[Ietf-calsify] Java implementation of RFC 2445 Recurrences](http://lists.osafoundation.org/pipermail/ietf-calsify/2006-October/001327.html)  _(tags: calendar)_
+- 2006-10-31: [Tomboy : Simple note taking](http://www.beatniksoftware.com/tomboy)  _(tags: debian, web, architecture, uri)_
+- 2006-10-31: [Debian -- debian-goodies](http://packages.debian.org/unstable/utils/debian-goodies)  _(tags: debian, sysadmin)_
+- 2006-10-31: [SecureApt - Debian Wiki](http://wiki.debian.org/SecureApt)  _(tags: security, debian)_
+- 2006-10-31: [future of DWN](http://kitenet.net/~joey/blog/entry/future_of_DWN.html)  _(tags: debian)_
+- 2006-10-31: [changed web browser](http://kitenet.net/~joey/blog/entry/changed_web_browser.html)  _(tags: debian, web)_
+- 2006-10-31: [#199810 - [NONFREE-DOC:RFC] Includes non-free documentation (RFC2307) - Debian Bug report logs](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=199810)  _(tags: w3c, ietf, debian)_
+- 2006-10-31: [bobdc.blog: Integrating relational databases with RDF/OWL](http://www.snee.com/bobdc.blog/2006/10/integrating_relational_databas.html)  _(tags: owl, rdf, semantic, web, w3c)_
+- 2006-10-31: [How to Reinvent Government](http://www.fathers.com/government/index.html)  _(tags: politics, faith)_
+- 2006-10-31: [24 Hour Fitness Metcalf (Overland Park) Club](http://www.24hourfitness.com/db/club_detail.generate_club?p_clb_num=00361)  _(tags: health, kc)_
+- 2006-10-30: [Slashdot | MySpace Accounts Compromised By Phishers](http://it.slashdot.org/article.pl?sid=06/10/29/1859218&from=rss)  _(tags: xhtml, security, web, architecture)_
+- 2006-10-30: [Fujitsu Computer Systems Tablets](http://www.fpc.fujitsu.com/www/products_pentablets.shtml?products/pentablets/stylistic_3500)  _(tags: pc, hardware, mobile)_
+- 2006-10-30: [Why user space sucks](https://ols2006.108.redhat.com/reprints/jones-reprint.pdf)  _(tags: linux, quality)_
+- 2006-10-30: [Slashdot | EMI Exec Says 'The Music CD is Dead'](http://slashdot.org/articles/06/10/27/1711223.shtml)  _(tags: digital, media)_
+- 2006-10-30: [How not to fix HTML – Le ‽blog personnel‽ de Joe Clark](http://blog.fawny.org/2006/10/28/tbl-html)  _(tags: xhtml)_
+- 2006-10-30: [A Completely New HTML WG | 2006-10-27 | BitWorking](http://bitworking.org/news/A_Completely_New_HTML_WG)  _(tags: xhtml)_
+- 2006-10-30: [The Basic Intuitionistic Logic of Proofs](http://web.cs.gc.cuny.edu/~rllc/publications/bibliography/b2hd-artemoviemhoff05.html)  _(tags: semantic, web, logic, research, proof)_
+- 2006-10-30: [The Cafes ‽ Why Tim Berners-Lee is Wrong](http://cafe.elharo.com/xml/why-tim-berners-lee-is-wrong)  _(tags: xhtml, web, architecture, security)_
+- 2006-10-29: [Reinventing HTML: discuss - W3C QA Weblog](http://www.w3.org/QA/2006/10/reinventing_html_discuss.html)  _(tags: xhtml, w3c)_
+- 2006-10-29: [Slashdot | HTML to be 'Incrementally Evolved'](http://developers.slashdot.org/developers/06/10/28/131246.shtml)  _(tags: w3c, xhtml)_
+- 2006-10-28: [Seahorse/DBus - GNOME Live!](http://live.gnome.org/Seahorse/DBus)  _(tags: python, security)_
+- 2006-10-28: [W3C Looks to GRDDL For Semantic Web Sense](http://www.internetnews.com/dev-news/article.php/3640361)  _(tags: grddl, w3c, press, rdf, semantic, web)_
+- 2006-10-28: [Simple vs. Complex usually wins…are you listening W3C?! ‽ SEND IT!!!](http://direwolff.wordpress.com/2006/10/26/simple-vs-complex-usually-winsare-you-listening-w3c/)  _(tags: grddl, rdf, w3c, semantic, web)_
+- 2006-10-28: [IT Services: Stanford WebAuth](http://webauth.stanford.edu)  _(tags: web, architecture, security)_
+- 2006-10-28: [Into the BlogVoid](http://www.blogvoid.com)  _(tags: faith)_
+- 2006-10-27: [Software Freedom Law Center](http://www.softwarefreedom.org/team.html)  _(tags: w3c, programming, policy)_
+- 2006-10-26: [Login with OpenID - SIMILE](http://simile.mit.edu/wiki/Special:OpenIDLogin)  _(tags: web, security, architecture)_
+- 2006-10-26: [A look at emerging Web security architectures from a Semantic Web perspective](http://www.w3.org/2006/03dc-aus-lga/swauth)  _(tags: web, security, architecture, microformats, grddl)_
+- 2006-10-26: [Draft: OpenID Attribute Exchange 1.0 -Draft 1](http://openid.net/specs/openid-attribute-exchange-1_0-01.html)  _(tags: web, security, openid, grddl, architecture, microformats)_
+- 2006-10-26: [Who are you?](http://norman.walsh.name/2006/10/20/identity)  _(tags: web, security, architecture)_
+- 2006-10-26: [Creating Passionate Users: Why face-to-face still matters!](http://headrush.typepad.com/creating_passionate_users/2006/04/why_facetoface_.html)  _(tags: travel, remote, presence)_
+- 2006-10-25: [idea: todo: semantic web date selector ‽ Imaginings](http://bewest.wordpress.com/2006/10/24/idea-todo-semantic-web-date-selector)  _(tags: grddl, xhtml, microformats, semantic, web, w3c)_
+- 2006-10-25: [Peanut butter and jelly sandwich - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Peanut_butter_and_jelly_sandwich)  _(tags: health, kc)_
+- 2006-10-25: [Mindswap Weblog ‽ Blog Archive ‽ Tim Berners-Lee at AAAI](http://www.mindswap.org/blog/2006/07/21/tim-berners-lee-at-aaai)  _(tags: aaai, bos, semantic, web)_
+- 2006-10-25: [Piggy Bank 3.0 and Solvent 2.0 released](http://www.bloglines.com/blog/HAngel?id=1188)  _(tags: grddl, semantic, web)_
+- 2006-10-25: [Technorati Weblog: Blog Claiming with OpenId](http://technorati.com/weblog/2006/10/144.html)  _(tags: web, security)_
+- 2006-10-25: [Referee - SIMILE](http://simile.mit.edu/wiki/Referee)  _(tags: spam, web, design)_
+- 2006-10-25: [Stefano's Linotype ~ Toolmaking in SoCal](http://www.betaversion.org/~stefano/linotype/news/97)  _(tags: web, design)_
+- 2006-10-25: [A meaningful Web for humans and machines, Part 1: How humans can share the wealth of the Web](http://www-128.ibm.com/developerworks/web/library/wa-hmach1/index.html?ca=drs-)  _(tags: rdf, semantic, web, calendar, grddl, microformats)_
+- 2006-10-25: [Process Handbook OWL-Version](http://www.ifi.unizh.ch/ddis/research/semweb/process-handbook/process-handbook-owl-version)  _(tags: owl, rdf, semantic, web, w3c)_
+- 2006-10-25: [Talking to the Semantic Web](http://www.ifi.unizh.ch/ddis/research/semweb/talking-to-the-semantic-web/#c836)  _(tags: sparql, rdf, w3c, semantic, web)_
+- 2006-10-25: [Semantic Web Client Library](http://sites.wiwiss.fu-berlin.de/suhl/bizer/ng4j/semwebclient)  _(tags: sparql, w3c, semantic, web, rdf)_
+- 2006-10-25: [Evaluation of WYSIWYG-editors- Standards Schmandards](http://standards-schmandards.com/2006/wysiwyg-editor-test)  _(tags: xhtml, javascript, web, design)_
+- 2006-10-25: [podblogger project homepage](http://www.podblogger.de/mp3stick)  _(tags: digital, media, python)_
+- 2006-10-24: [vgs_rss: Scrybe: Online Organiser with true Offline support](http://vgs-rss.livejournal.com/420873.html)  _(tags: sync, calendar, pim, sysadmin, javascript)_
+- 2006-10-24: [Minding the Planet](http://novaspivack.typepad.com/nova_spivacks_weblog/)  _(tags: rdf, semantic, web, datamining)_
+- 2006-10-24: [InfoWorld Tech Watch | InfoWorld | W3C wades in on browser security | October 17, 2006 10:55 AM | By Paul Roberts](http://weblog.infoworld.com/techwatch/archives/008408.html)  _(tags: w3c, security, press, article)_
+- 2006-10-24: [StructureWatch ‽ Blog Archive ‽ RDF/A: The Easy Way to Publish Your Metadata](http://structurewatch.org/index.php/2006/10/11/rdfa-the-easy-way-to-publish-your-metadata)  _(tags: w3c, xhtml, grddl, rdf, semantic, web)_
+- 2006-10-24: [What is the problem I have with MicroFormats: there is no URI - Fr?d?rick Giasson's Weblog - A vision of the socially-wired world](http://fgiasson.com/blog/index.php?title=what_is_the_problem_i_have_with_microfor&more=1&c=1&tb=1&pb=1)  _(tags: grddl, w3c, rdf, semantic, web, uri)_
+- 2006-10-24: [Breakaway Christian Music Podcast | Spotlighting Independant Christian Artists](http://www.breakawaypodcast.com)  _(tags: faith, digital, media)_
+- 2006-10-24: [The Corner Church](http://masseysmusic.podomatic.com)  _(tags: faith, digital, media, music)_
+- 2006-10-24: [Jesus Geek](http://jesusgeek.gmpodcasting.net)  _(tags: faith, digital, media)_
+- 2006-10-24: [Universal Serial Bus - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Usb)  _(tags: hardware)_
+- 2006-10-23: [Unix File System - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Berkeley_Fast_File_System)  _(tags: mac, linux, sysadmin)_
+- 2006-10-23: [SourceForge.net: Mac OS X Ext2 Filesystem](http://sourceforge.net/projects/ext2fsx)  _(tags: mac, debian, sysadmin)_
+- 2006-10-22: [Installing Debian 3.0 onto an Apple iBook](http://people.debian.org/~branden/ibook.html)  _(tags: mac, debian, sysadmin)_
+- 2006-10-22: [CocoaDev: UFSFileSystem](http://www.cocoadev.com/index.pl?UFSFileSystem)  _(tags: debian, mac, sysadmin)_
+- 2006-10-22: [LWN: securityfs](http://lwn.net/Articles/153366)  _(tags: debian)_
+- 2006-10-22: [Ian Murdock’s Weblog ‽ Blog Archive ‽ A practical solution to the Debian/Firefox problem?](http://ianmurdock.com/?p=370)  _(tags: debian, web)_
+- 2006-10-22: [BadgerFish](http://badgerfish.ning.com/)  _(tags: web, design, python, javascript, w3c)_
+- 2006-10-22: [Elisa Media Center](http://www.fluendo.com/elisa)  _(tags: python, linux, digital, media)_
+- 2006-10-22: [Usable Security ‽ Blog Archive ‽ Julia Gideon, Serge Egelman, Lorrie Faith Cranor, and Alessandro Acquisti: Power Strips, Prophylactics, and Privacy, Oh My!](http://usablesecurity.com/2006/07/14/julia-gideon-serge-egelman-lorrie-faith-cranor-and-alessandro-acquisti-power-strips-prophylactics-and-privacy-oh-my)  _(tags: web, security, policy, w3c)_
+- 2006-10-22: [Passpet: Convenient Password Management and Phishing Protection](http://passpet.org)  _(tags: web, security, w3c)_
+- 2006-10-21: [The Home-Produced Movie Revolution | Linux Journal](http://www.linuxjournal.com/node/1000032)  _(tags: digital, media)_
+- 2006-10-20: [Tales of a Semantic Web Consultancy ‽ Blog Archive ‽ OWLED 2006 is nigh](http://clarkparsia.com/weblog/2006/10/13/owled-2006-is-nigh)  _(tags: atl, owl, w3c, logic, research, semantic)_
+- 2006-10-20: [XML and Scheme](http://okmij.org/ftp/Scheme/xml.html)  _(tags: math, xhtml, web, design, w3c, proof)_
+- 2006-10-20: [SXML](http://okmij.org/ftp/Scheme/SXML.html)  _(tags: xhtml, logic)_
+- 2006-10-20: [Radeon R100 - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Radeon_R100#RV100)  _(tags: debian, hardware)_
+- 2006-10-20: [Re: XFN on the GRDDL [was: Profiles attribute...] from Tantek ‽elik on 2004-01-17 (public-rdf-in-xhtml-tf@w3.org from January 2004)](http://lists.w3.org/Archives/Public/public-rdf-in-xhtml-tf/2004Jan/0015.html)  _(tags: grddl, w3c, xhtml, rdf, semantic, web)_
+- 2006-10-20: [Brendan's Roadmap Updates: Mozilla 2](http://weblogs.mozillazine.org/roadmap/archives/2006/10/mozilla_2.html)  _(tags: w3c, semantic, web)_
+- 2006-10-20: [Mozilla 2 : baby and bathwater](http://dannyayers.com/2006/10/17/mozilla-2--baby-and)  _(tags: w3c, semantic, web)_
+- 2006-10-20: [Semantic Nodix: RDF in Mozilla 2](http://semantic.nodix.net/2006/10/rdf-in-mozilla-2.html)  _(tags: w3c, semantic, web)_
+- 2006-10-20: [The Guardian (2006/I)](http://www.imdb.com/title/tt0406816)  _(tags: movies, kc, ****)_
+- 2006-10-19: [Installing ACL2 on a Mac / Semantic Web Interest Group IRC Chat Logs for 2006-09-14](http://chatlogs.planetrdf.com/swig/2006-09-14.html#T15-12-39)  _(tags: semantic, web, w3c, research, austin, formal)_
+- 2006-10-19: [Scientific American: Dependable Software by Design](http://sciam.com/print_version.cfm?articleID=00020D04-CFD8-146C-8D8D83414B7F0000)  _(tags: toread, semantic, web, w3c, quality, formal)_
+- 2006-10-19: [pay no initiation fee* 24 Hour fitness](http://www.24hourfitness.com/html/mem_info/promocoupons/natoffersub/index.html?p_cmp_id=ILC-natoffersub)  _(tags: health, kc)_
+- 2006-10-19: [Howto Install a Debian GNU/Linux system onto a USB flash thumbdrive | Feraga | Creating a privacy optimized GNU/Linux installation for USB Flash drives and other removable media.](http://feraga.com/node/25)  _(tags: debian)_
+- 2006-10-18: [Tim Owens For Kansas House](http://www.timowens.org)  _(tags: kc, politics)_
+- 2006-10-17: [Amazon.com: Apple iMac Desktop 15" M8535LL/B (800MHz PowerPC G4, 256MB RAM, 60GB HDD, DVD-RW/CD-RW drive): Computers & PC Hardware](http://www.amazon.com/Apple-Desktop-M8535LL-800MHz-PowerPC/dp/B00005V5YP/ref=sr_11_1/104-9369366-4074359?ie=UTF8)  _(tags: hardware, mac)_
+- 2006-10-17: [Slashdot | Virtual Economies Attract Real-World Tax Attention](http://games.slashdot.org/article.pl?sid=06/10/16/1747235&from=rss)  _(tags: web, architecture, economics, w3c)_
+- 2006-10-16: [Search: hanger Page 1 at music123](http://www.music123.com/Search/Default.aspx?N=64&Ntt=hanger)  _(tags: music, guitar, birthday, shopping)_
+- 2006-10-16: [Micro Center 300GB Internal Serial ATA Hard Drive sku#447078](http://www.microcenter.com/byos/byos_single_product_results.phtml?product_id=213236)  _(tags: hardware, shopping, kc)_
+- 2006-10-16: [Elias Torres ‽ Blog Archive ‽ How should I manage my digital photos?](http://torrez.us/archives/2006/10/09/501)  _(tags: photo, web, design, photos)_
+- 2006-10-16: [1GB Buffalo DDR400 RAM Micro Center # 346403](http://www.microcenter.com/byos/byos_single_product_results.phtml?product_id=238535)  _(tags: hardware, shopping, kc)_
+- 2006-10-16: [Amazon.com: Canon PIXMA iP5200 Photo Printer: Electronics](http://www.amazon.com/Canon-PIXMA-iP5200-Photo-Printer/dp/B000AYH7TI/sr=8-1/qid=1161016314/ref=pd_bbs_sr_1/104-9369366-4074359?ie=UTF8)  _(tags: hardware, shopping, photo, photos)_
+- 2006-10-16: [Photo Inkjet Printers - Photo Printer - PIXMA iP5200 - Canon USA Consumer Products](https://www.usa.canon.com/consumer/controller?act=ModelDetailAct&fcategoryid=117&modelid=11993)  _(tags: hardware, shopping, kc, photo, photos)_
+- 2006-10-14: [Internet Alchemy ‽ Talis, Web 2.0 and All That](http://iandavis.com/blog/2005/07/talis-web-20-and-all-that)  _(tags: web, architecture, design, w3c)_
+- 2006-10-14: [Garmin: Foretrex 101](http://www.garmin.com/products/foretrex101)  _(tags: shopping, kc)_
+- 2006-10-14: [The ONE Campaign | FrontPage](http://one.org/)  _(tags: faith, politics, economics)_
+- 2006-10-13: [Johnson County Election Office | For Voters | Advance Voting](http://www.jocoelection.org/voters/AdvanceVoting.htm#2)  _(tags: kc, politics)_
+- 2006-10-13: [Johnson County Park & Recreation District: Youth Soccer Park](http://www.jcprd.com/pages/soccer_park.cfm)  _(tags: kc, soccer, politics)_
+- 2006-10-11: [Web Architecture and Quality: closing the loop - W3C QA Weblog](http://www.w3.org/QA/2006/10/arch_qa_loop.html)  _(tags: quality, w3c, web, architecture)_
+- 2006-10-10: [From 'View Source' to Open Source @ AJAXWORLD MAGAZINE](http://ajax.sys-con.com/read/276333.htm)  _(tags: w3c, web, architecture, toread)_
+- 2006-10-10: [developerWorks Interviews: Tim Berners-Lee](http://www-128.ibm.com/developerworks/podcast/dwi/cm-int082206.html)  _(tags: w3c, web, architecture)_
+- 2006-10-10: [Guiding Eyes Usage FAQ](http://emacspeak.sourceforge.net/raman/hubbell-labrador/usage-faq.html)  _(tags: humor, dogs)_
+- 2006-10-09: [One Small Step for the Blogosphere...](http://blogs.sun.com/jonathan/entry/one_small_step_for_the)  _(tags: media, literacy, training)_
+- 2006-10-09: [[Ietf-calsify] request for more discussion on issue 40](http://lists.osafoundation.org/pipermail/ietf-calsify/2006-September/001148.html)  _(tags: quality, collaboration, w3c, ietf)_
+- 2006-10-07: [What is a Knowledge Representation?](http://groups.csail.mit.edu/medg/ftp/psz/k-rep.html)  _(tags: semantic, web, w3c, toread)_
+- 2006-10-07: [Linux for Christians | Ichthux](http://www.ichthux.com)  _(tags: debian, faith, sysadmin)_
+- 2006-10-07: [LinuxChanges - KernelNewbies Wiki](http://kernelnewbies.org/LinuxChanges)  _(tags: debian, sysadmin)_
+- 2006-10-06: [XBRL specifications](http://www.xbrl.org/SpecRecommendations)  _(tags: w3c, semantic, web, finance, economics, rdf)_
+- 2006-10-05: [Vancouver, CA; October 2006 - a photoset on Flickr](http://www.flickr.com/photos/ndw/sets/72157594314092638)  _(tags: w3c, travel, yvr, photo, photos)_
+- 2006-10-04: [Workshop on Semantic Web Enabled Software Engineering (SWESE)](http://km.aifb.uni-karlsruhe.de/ws/swese2006)  _(tags: w3c, semantic, web, athens, iswc)_
+- 2006-10-03: [Hacking for Christ: DNS Structure](http://weblogs.mozillazine.org/gerv/archives/2006/10/dns_structure.html)  _(tags: ietf, w3c, web, architecture, security, rules)_
+- 2006-10-03: [OMEGA description](http://www.ags.uni-sb.de/~omega/software/omega)  _(tags: math, semantic, web, proof, xhtml, research)_
+- 2006-10-03: [GtkMathView Home Page](http://helm.cs.unibo.it/software/mml-widget)  _(tags: xhtml, semantic, web, w3c)_
+- 2006-10-03: [Lua: workshop 2006](http://www.lua.org/wshop06.html)  _(tags: design, programming)_
+- 2006-10-02: [jwz - fink, darwinports](http://jwz.livejournal.com/494188.html)  _(tags: mac, debian, sysadmin)_
+- 2006-10-01: [Temporal Reasoner CoBrA: Context Broker Architecture](http://cobra.umbc.edu/time.html)  _(tags: w3c, semantic, web, calendar)_
+- 2006-10-01: [mnot’s Web log: Javascript Updates](http://www.mnot.net/blog/2006/09/28/js)  _(tags: javascript, quality, w3c)_
+- 2006-10-01: [Riding Rails: Crazy Egg is crazy cool and on Rails](http://weblog.rubyonrails.com/2006/9/8/crazy-egg-is-crazy-cool-and-on-rails)  _(tags: web, design, w3c)_

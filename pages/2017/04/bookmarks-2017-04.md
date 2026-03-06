@@ -1,0 +1,110 @@
+---
+title: April 2017 Bookmarks: twitter, trump, and data
+date: 2017-04-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "a11y", "bitcoin", "capabilities", "data", "fp", "geo", "golang", "marketing", "netneutrality", "opendata", "programming", "python", "rustlang", "security", "sel4", "xml"]
+---
+
+Shared bookmarks saved in April 2017.
+
+- total bookmarks: 96
+- total annotations captured: 6
+
+## Links
+
+- 2017-04-30: [Ian MacIntyre on Twitter: &quot;I mean, you always read about Americans getting shot because their loved ones kept loaded academic elites in the home https://t.co/lWtlEn902v&quot;](https://twitter.com/i/web/status/858070315162894339)  _(tags: tweet)_
+- 2017-04-29: [Perform a Linear Regression—Wolfram Language Documentation](https://reference.wolfram.com/language/howto/PerformALinearRegression.html)  _(tags: no_tag)_
+- 2017-04-29: [list manipulation - Select rows from table by keys - Mathematica Stack Exchange](https://mathematica.stackexchange.com/questions/20974/select-rows-from-table-by-keys)  _(tags: no_tag)_
+- 2017-04-29: [Dataset—Wolfram Language Documentation](http://reference.wolfram.com/language/ref/Dataset.html)  _(tags: data, programming)_
+- 2017-04-29: [Trevor Timm on Twitter: &quot;More details added by @charlie_savage. Apparently the FISA court wouldn&#39;t renew its 702 surveillance program until NSA halted this practice&quot;](https://twitter.com/trevortimm/status/858016331224027136)  _(tags: tweet)_
+- 2017-04-29: [Jake Archibald on Twitter: &quot;](https://twitter.com/jaffathecake/status/857975483497099269)  _(tags: tweet)_
+- 2017-04-29: [Savannah Git Hosting - gnulib.git/commitdiff](http://git.savannah.gnu.org/gitweb/?p=gnulib.git;a=commitdiff;h=94e01571)  _(tags: tweet)_
+- 2017-04-28: [Khaliya on Twitter: &quot;&quot;The only people that refer to their clients as users are drug dealers &amp; technologists.&quot; iPhone addiction is real. #TED2017 @manoushz https://t.co/qkG0SGjPYt&quot;](https://twitter.com/i/web/status/857753876727869440)  _(tags: tweet)_
+- 2017-04-28: [Sen. Al Franken on Twitter: &quot;#NetNeutrality ensures that a website for a local pizza place in rural OR or MN loads as quickly as the website for Pizza Hut or Domino’s. https://t.co/rFtmFxfQAr&quot;](https://twitter.com/i/web/status/857606266302214144)  _(tags: netneutrality, tweet)_
+- 2017-04-28: [Release v0.45.0 · facebook/flow · GitHub](https://github.com/facebook/flow/releases/tag/v0.45.0)  _(tags: tweet)_
+- 2017-04-28: [GitHub - paritytech/parity-bitcoin: The Parity Bitcoin client](https://github.com/paritytech/parity-bitcoin)  _(tags: parity, bitcoin, tweet)_
+- 2017-04-28: [URL Standard](https://url.spec.whatwg.org)  _(tags: tweet)_
+- 2017-04-28: [Robert Reich on Twitter: &quot;Trump wants to give a &quot;one-time&quot; tax amnesty to corporations with trillions in earnings abroad. Let&#39;s look at what happened the last time: https://t.co/EgwjkUlMj8&quot;](https://twitter.com/i/web/status/857380881937317888)  _(tags: tweet)_
+- 2017-04-27: [SortedContainers — sortedcontainers 1.5.7 documentation](http://www.grantjenks.com/docs/sortedcontainers/)  _(tags: no_tag)_
+- 2017-04-26: [The Water Jug Problem in Hedgehog - clrnd's](http://clrnd.com.ar/posts/2017-04-21-the-water-jug-problem-in-hedgehog.html)  _(tags: tweet)_
+- 2017-04-26: [Google is using QUIC for ad and tracking requests,](https://blog.brave.com/quic-in-the-wild-for-google-ad-advantage/)  _(tags: tweet)_
+- 2017-04-26: ['Zen And The Art of Motorcycle Maintenance' Author Robert M. Pirsig Dies At 88 : The Two-Way : NPR](http://www.npr.org/sections/thetwo-way/2017/04/24/525443040/-zen-and-the-art-of-motorcycle-maintenance-author-robert-m-pirsig-dies-at-88?utm_campaign=storyshare&utm_source=twitter.com&utm_medium=social)  _(tags: tweet)_
+- 2017-04-26: [I am making something new.  I hope you like it.](https://t.co/BYCWDkydBU)  _(tags: wikitribune, tweet)_
+- 2017-04-26: [A Neighborhood of Infinity: The Three Projections of Doctor Futamura](http://blog.sigfpe.com/2009/05/three-projections-of-doctor-futamura.html)  _(tags: no_tag)_
+- 2017-04-24: [We have one goal: Flip the House in 2018. And we h](https://t.co/If2EaAI2nI)  _(tags: tweet)_
+- 2017-04-24: [Underclothes That Display The 4th Amendment When X-Rayed by TSA](https://laughingsquid.com/underclothes-that-display-the-4th-amendment-when-x-rayed-by-tsa/)  _(tags: tweet)_
+- 2017-04-24: [Adam Khan on Twitter: &quot;NYC expected 3% growth in tourism, will now post first slump in 7 years–*$1.4 billion* less in foreign money for businesses than expected https://t.co/KTZrmEpvjR&quot;](https://twitter.com/i/web/status/856304363693682688)  _(tags: tweet)_
+- 2017-04-24: [BREAKING  announced it will shut down its  site  w](https://t.co/gXW2l6f1sL)  _(tags: opendata, pollution, endangereddata, tweet)_
+- 2017-04-23: [horse and his boy](https://jocolibrary.bibliocommons.com/item/show/531130036_the_horse_and_his_boy)  _(tags: no_tag)_
+- 2017-04-22: [The full story of Google's failed book scanning pr](https://www.theatlantic.com/technology/archive/2017/04/the-tragedy-of-google-books/523320/?utm_source=twb)  _(tags: tweet)_
+- 2017-04-21: [8 Bulk Update Methods Compared | Oracle FAQ](http://www.orafaq.com/node/2450)  _(tags: no_tag)_
+- 2017-04-21: [Shawn Douglas on Twitter: &quot;After years of reformatting Current &amp; Pending Support docs, I ran out of patience and created GrantMerge. Enjoy! https://t.co/clBGTJlGEK https://t.co/xpK2nzggQZ&quot;](https://twitter.com/i/web/status/854830472454488064)  _(tags: tweet)_
+- 2017-04-21: [Donald J. Trump on Twitter: &quot;released by &quot;Intelligence&quot; even knowing there is no proof, and never will be. My people will have a full report on hacking within 90 days!&quot;](https://twitter.com/realdonaldtrump/status/819865802849587200)  _(tags: tweet)_
+- 2017-04-21: [Adblock Plus Acquires Pirate Bay Founder&#039;s Micropayment Service Flattr - TorrentFreak](https://torrentfreak.com/adblock-plus-acquires-pirate-bay-founders-micropayment-service-flattr-170405/)  _(tags: tweet)_
+- 2017-04-20: [Julian Gough on Twitter: &quot;Really enjoying this time-travel thriller, where a man stuck in 2013 tweets desperate warnings to his 2017 self, who has become President. https://t.co/JQZAFN0Thh&quot;](https://twitter.com/i/web/status/852917560903434240)  _(tags: tweet)_
+- 2017-04-20: [It's been two fun months of learning while mining](https://t.co/DKlT9SYV3G)  _(tags: zcash, cryptocurrency, tweet)_
+- 2017-04-20: [7.14. Rewrite rules](https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/rewrite-rules.html)  _(tags: no_tag)_
+- 2017-04-19: [For the "web", unless you're using Edge, Firefox,](https://t.co/bNYYDPSCzA)  _(tags: tweet)_
+- 2017-04-19: [DHS Head to America: Shut Up, Be Terrified, and Do What You’re Told - Hit &amp; Run : Reason.com](http://reason.com/blog/2017/04/18/dhs-head-to-america-shut-up-be-terrified)  _(tags: tweet)_
+- 2017-04-19: [Starting 2017 off strong - Trustworthy Systems Blog](https://research.csiro.au/tsblog/starting-2017-off-strong/)  _(tags: hacms, sel4, tweet)_
+- 2017-04-18: [Seth Abramson on Twitter: &quot;Please RETWEET if you&#39;re one of the 74% of Americans (ABC/WaPo Poll) who want to see Trump&#39;s taxes and were _not_ paid to hold that opinion. https://t.co/xa2dR178AM&quot;](https://twitter.com/i/web/status/853685518785290240)  _(tags: tweet)_
+- 2017-04-18: [typhon/mix.mt at master · monte-language/typhon](https://github.com/monte-language/typhon/blob/master/mast/lib/monte/mix.mt)  _(tags: no_tag)_
+- 2017-04-17: [Fancy Hands Developers](https://www.fancyhands.com/developer)  _(tags: no_tag)_
+- 2017-04-17: [What are some uncommon ways to work smarter instead of harder? - Quora](https://www.quora.com/What-are-some-uncommon-ways-to-work-smarter-instead-of-harder)  _(tags: no_tag)_
+- 2017-04-17: [RescueTime : Features](https://www.rescuetime.com/features)  _(tags: no_tag)_
+- 2017-04-17: [Fermat&#39;s Library on Twitter: &quot;Visual traveling waves, standing waves, beating, and random motion produced by fifteen uncoupled pendulums of increasing lengths https://t.co/NcFsxfKaOD&quot;](https://twitter.com/i/web/status/853636256470712321)  _(tags: tweet)_
+- 2017-04-17: [64% of Republicans want to see Trump&#39;s tax returns - Axios](https://www.axios.com/64-of-republicans-want-to-see-trumps-tax-returns-2359211284.html)  _(tags: tweet)_
+- 2017-04-17: [Ten simple rules for making research software more robust](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412)  _(tags: tweet)_
+- 2017-04-17: [Optimizing Rust Struct Size: A 6-month Compiler Development Project | Blindly Coding](http://camlorn.net/posts/April%202017/rust-struct-field-reordering.html)  _(tags: rustlang, programming, tweet)_
+- 2017-04-16: [What are some traits/practices of experienced/good programmers that every beginner programmer should know? - Quora](https://www.quora.com/What-are-some-traits-practices-of-experienced-good-programmers-that-every-beginner-programmer-should-know)  _(tags: no_tag)_
+- 2017-04-16: [Why I’m betting on Elixir – Medium](https://medium.com/@kenmazaika/why-im-betting-on-elixir-7c8f847b58)  _(tags: no_tag)_
+- 2017-04-16: [Steve Hilton: 'I’m rich, but I understand the frustrations people have' | Politics | The Guardian](https://www.theguardian.com/politics/2017/apr/15/steve-hilton-im-rich-but-i-understand-the-frustrations-people-have?CMP=share_btn_tw)  _(tags: tweet)_
+- 2017-04-16: [Well now, this puts things in perspective  via  ht](https://www.nytimes.com/interactive/2017/04/14/upshot/drug-overdose-epidemic-you-draw-it.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=second-column-region&region=top-news&WT.nav=top-news&_r=2)  _(tags: tweet)_
+- 2017-04-16: [The 20% Statistician: Five reasons blog posts are of higher scientific quality than journal articles](http://daniellakens.blogspot.nl/2017/04/five-reasons-blog-posts-are-of-higher.html)  _(tags: tweet)_
+- 2017-04-16: [Actions - H.R.305 - 115th Congress (2017-2018): Presidential Tax Transparency Act | Congress.gov | Library of Congress](https://www.congress.gov/bill/115th-congress/house-bill/305/all-actions)  _(tags: tweet)_
+- 2017-04-16: [Raspberry Pi GUI Tutorial - Bald Engineer](https://www.baldengineer.com/raspberry-pi-gui-tutorial.html)  _(tags: no_tag)_
+- 2017-04-15: [New Bomb Capable Of Creating 1,500 New Terrorists In Single Blast - The Onion - America's Finest News Source](http://www.theonion.com/graphic/new-bomb-capable-of-creating-1500-new-terrorists-i-8778?utm_content=Main&utm_campaign=SF&utm_source=Twitter&utm_medium=SocialMarketing)  _(tags: tweet)_
+- 2017-04-13: [Relm, a GUI library, based on GTK+ and futures, written in Rust](http://relm.ml/relm-intro)  _(tags: tweet)_
+- 2017-04-13: [Nate Silver on Twitter: &quot;Estes underperformed Trump&#39;s margin by 20.3 points. If every district behaved like that, Dems would gain 122 (!) House seats next November. https://t.co/4H9AjAhF84&quot;](https://twitter.com/i/web/status/852160966875914241)  _(tags: tweet)_
+- 2017-04-13: [Simon Willison on Twitter: &quot;This is fantastic - so much actionable intelligence on optimizing React apps for mobile, including testing at 5x slower CPU and 3G network https://t.co/3YDcFKM0je&quot;](https://twitter.com/i/web/status/852143464464605186)  _(tags: tweet)_
+- 2017-04-12: [The future of the open internet — and our way of life — is in your hands](https://medium.freecodecamp.com/inside-the-invisible-war-for-the-open-internet-dd31a29a3f08)  _(tags: no_tag)_
+- 2017-04-12: [ipfconline on Twitter: &quot;Inbound #Marketing Importance: #InboundMarketing Is Responsible for 90% of Clicks on Internet.&#10;[via @nvkvamshi] #SEO #Sales #GrowthHacking https://t.co/a3Strrdyk1&quot;](https://twitter.com/i/web/status/851933151190536192)  _(tags: marketing, inboundmarketing, tweet)_
+- 2017-04-12: [Hungrybox on Twitter: &quot;family: the deductible is $3500&#10;&#10;smash community: Hold my beer real quick &#10;&#10;$10,000 raised. &#10;Seriously you guys are amazing https://t.co/KgHMf7948U&quot;](https://twitter.com/i/web/status/851755748338135042)  _(tags: tweet)_
+- 2017-04-10: [Instagram](https://www.instagram.com/p/BSrYcmdDPrT/)  _(tags: tweet)_
+- 2017-04-10: [Peter's Notes](https://peterroelants.github.io/posts/neural_network_implementation_part02/)  _(tags: no_tag)_
+- 2017-04-10: [A Neural Network in 11 lines of Python (Part 1) - i am trask](https://iamtrask.github.io/2015/07/12/basic-python-network/)  _(tags: no_tag)_
+- 2017-04-08: [LLVM Debian/Ubuntu nightly packages](http://apt.llvm.org)  _(tags: no_tag)_
+- 2017-04-08: [Press Release: W3C Launches Web Accessibility Initiative](https://www.w3.org/Press/WAI-Launch.html)  _(tags: a11y, grateful, tweet)_
+- 2017-04-08: [Kentucky Coal Mining Museum converts to solar power](http://www.wymt.com/content/news/Kentucky-Coal-Mining-Museum-converts-to-solar-power-418430563.html)  _(tags: tweet)_
+- 2017-04-08: [Soon to be badgeless?](http://intertwingly.net/blog/2017/04/07/Badges-We-dont-need-no-stinkin-badges)  _(tags: tweet)_
+- 2017-04-08: [Home - schema.org](http://Schema.org)  _(tags: tweet)_
+- 2017-04-08: [040617 tranSMAR Ti2b2 Letter of Intent Release Final.pdf - Google Drive](https://drive.google.com/file/d/0B8lizkKDeaKhczBmazNsRnlXc0k/view?utm_content=buffer2b4f8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: i2b2, transmart, tweet)_
+- 2017-04-08: [Ralph Caraveo on Twitter: &quot;Wrote a Flappy Bird clone in #rustlang that is a clone of a #golang version by @francesc using #sdl2 https://t.co/UP3KlZTFTS https://t.co/vnukVxETR6&quot;](https://twitter.com/i/web/status/850199215238070273)  _(tags: rustlang, golang, sdl2, tweet)_
+- 2017-04-07: [How to set up L2TP/IPsec VPN on Linux (using NetworkManager & strongSwan) | Best VPNz](https://www.bestvpnz.com/how-to-set-up-l2tp-ipsec-vpn-on-linux-networkmanager-strongswan/)  _(tags: no_tag)_
+- 2017-04-07: [Kushner Omitted Meeting With Russians on Security Clearance Forms - NYTimes.com](https://mobile.nytimes.com/2017/04/06/us/politics/jared-kushner-russians-security-clearance.html?referer=)  _(tags: tweet)_
+- 2017-04-07: [JΞSŦΞR ✪ ΔCŦUAL³³º¹ on Twitter: &quot;^^^ Confirmed. Not just hearsay. Trump is now going after individual Twitter accounts that are meanies to him. Twitter is suing to prevent. https://t.co/WpKjdaFs4J&quot;](https://twitter.com/i/web/status/850077279527022592)  _(tags: tweet)_
+- 2017-04-07: [Donald J. Trump on Twitter: &quot;The President must get Congressional approval before attacking Syria-big mistake if he does not!&quot;](https://twitter.com/realDonaldTrump/status/373581528405905408)  _(tags: tweet)_
+- 2017-04-07: [Sign up](https://mobile.twitter.com/signup)  _(tags: tweet)_
+- 2017-04-07: [Michele Busby on Twitter: &quot;It would be nice if &quot;Academic Use Only&quot; software came with a shopping cart for commercial users and not endless discussions with lawyers.&quot;](https://twitter.com/michelebusby/status/849708368138833922)  _(tags: tweet)_
+- 2017-04-07: [Financial Times on Twitter: &quot;Tencent has edged past Wells Fargo to enter the world&#39;s top 10 largest companies list, joining Apple and Amazon https://t.co/xMpWxYjTAT https://t.co/7aQUhkbcoE&quot;](https://twitter.com/FT/status/849880612286722048)  _(tags: tweet)_
+- 2017-04-07: [All take and no give? Many scientists resist shift to open data | Times Higher Education (THE)](https://www.timeshighereducation.com/news/all-take-and-no-give-many-scientists-resist-shift-open-data)  _(tags: tweet)_
+- 2017-04-06: [Where does trac store the users and passwords in a default installation? - Stack Overflow](http://stackoverflow.com/questions/15435637/where-does-trac-store-the-users-and-passwords-in-a-default-installation)  _(tags: no_tag)_
+- 2017-04-06: [Python strftime reference](http://strftime.org)  _(tags: tweet)_
+- 2017-04-06: [Completely loving «Unpaywall»](http://unpaywall.org)  _(tags: tweet)_
+- 2017-04-06: [Monzo on Twitter: &quot;We&#39;re thrilled to announce that we are now a fully licensed bank! A huge thanks to you all for your support ❤️ https://t.co/ZEGCY1Wq5w https://t.co/64lVWiY58w&quot;](https://twitter.com/i/web/status/849671454245490693)  _(tags: tweet)_
+- 2017-04-05: [Learning from Tim Berners-Lee on the occasion of receiving the Turing Award |  Internet Policy Research Initiative @ MIT](https://internetpolicy.mit.edu/timbl-turing-lessons/)  _(tags: tweet)_
+- 2017-04-05: [Official ACM on Twitter: &quot;@timberners_lee, inventor of the World Wide Web, one of the most influential innovations in history, will receive the 2016 #ACMTuringAward https://t.co/l7yuD575R4&quot;](https://twitter.com/i/web/status/849226323218374656)  _(tags: tweet)_
+- 2017-04-05: [Jupyter Notebook 5.0](http://blog.jupyter.org/2017/04/04/jupyter-notebook-5-0/?utm_content=buffera0b70&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2017-04-05: [How It All Started: Pre-W3C Web and Internet Background](https://www.w3.org/2004/Talks/w3c10-HowItAllStarted/?n=16)  _(tags: tweet)_
+- 2017-04-04: [Data lake - Wikipedia](https://en.wikipedia.org/wiki/Data_lake)  _(tags: tbicri16, data)_
+- 2017-04-04: [Danny Weitzner on Twitter: &quot;WH removes privacy rules leaving users unprotected: repeal without replace. Many privacy approaches possible but total dereg not responsible https://t.co/X5zBt9mrUa&quot;](https://twitter.com/i/web/status/849099450354192387)  _(tags: tweet)_
+- 2017-04-03: [Luke O&#39;Neil on Twitter: &quot;Nothing in 15 brutal years in decaying media has demoralized me as much as learning an entry level blogger at Breitbart made like 175k.&quot;](https://twitter.com/lukeoneil47/status/848321141391360002)  _(tags: tweet)_
+- 2017-04-03: [The Recurse Center User’s Manual - Recurse Center](https://www.recurse.com/manual)  _(tags: tweet)_
+- 2017-04-02: [✨ I](https://twitter.com/maybekatz/status/848134030205648896)  _(tags: tweet)_
+- 2017-04-01: [KML Reference  |  Keyhole Markup Language  |  Google Developers](https://developers.google.com/kml/documentation/kmlreference)  _(tags: no_tag)_
+- 2017-04-01: [Keyhole Markup Language - Wikipedia](https://en.wikipedia.org/wiki/Keyhole_Markup_Language)  _(tags: no_tag)_
+- 2017-04-01: [pyKML Tutorial — pyKML v0.1.0 documentation](https://pythonhosted.org/pykml/tutorial.html)  _(tags: geo, python)_
+- 2017-04-01: [Text.XML.HXQ.XQuery](https://hackage.haskell.org/package/HXQ-0.20.1/docs/Text-XML-HXQ-XQuery.html)  _(tags: no_tag)_
+- 2017-04-01: [BaseX | XQuery](http://basex.org/products/xquery/)  _(tags: xml, geo, fp)_
+- 2017-04-01: [Sandboxing landscape — Idea of the day](https://idea.popcount.org/2017-03-28-sandboxing-landscape/)  _(tags: capabilities, security)_
+- 2017-04-01: [The Sweethome on Twitter: &quot;To find the best bike lock, we picked, chopped, and cut 27 bike locks to pieces. The survivors: https://t.co/cU2sTYCCNO https://t.co/tSk6CX4x8w&quot;](https://twitter.com/homesweethome/status/839952988328321025)  _(tags: tweet)_

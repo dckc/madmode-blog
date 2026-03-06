@@ -1,0 +1,137 @@
+---
+title: May 2014 Bookmarks: python, data, and programming
+date: 2014-05-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "a11y", "capabilities", "cloud", "data", "decentralization", "devops", "diy", "event", "fail", "family", "fb", "formal", "games", "geo", "graphics", "guitar", "hardware", "health", "installation", "java", "javascript", "kc", "kumc", "learning", "linux", "logic", "mac", "media", "mobile", "music", "numeric", "office", "openaccess", "performance", "phone", "photos", "pim", "presentation", "press", "programming", "proof", "pydata", "python", "quality", "research", "rustlang", "scala", "science", "scm", "security", "shopping", "statistics", "style", "sysadmin", "sysdamin", "travel", "video", "visualization", "vm", "windows", "writing"]
+---
+
+Shared bookmarks saved in May 2014.
+
+- total bookmarks: 123
+- total annotations captured: 36
+
+## Links
+
+- 2014-05-31: [Web SQL Database: In Memoriam | Read the Tea Leaves](http://nolanlawson.com/2014/04/26/web-sql-database-in-memoriam/)  _(tags: tweet)_
+- 2014-05-30: [YouTube](https://www.youtube.com/watch?v=pOCmqZzXrdI)  _(tags: tweet)_
+- 2014-05-30: [Genode - Release notes for the Genode OS Framework 14.05](http://genode.org/documentation/release-notes/14.05)  _(tags: tweet)_
+- 2014-05-30: [The Serval Mesh - Android Apps on Google Play](https://play.google.com/store/apps/details?id=org.servalproject)  _(tags: tweet)_
+- 2014-05-30: [Midwest.io](http://www.midwest.io)  _(tags: midwestio, tweet, kc, programming, event)_
+- 2014-05-28: [Remarks by the President at the National Defense University | The White House](http://www.whitehouse.gov/the-press-office/2013/05/23/remarks-president-national-defense-university)  _(tags: tweet)_
+- 2014-05-28: [1015957 &ndash; HTTP cache v2: use mmap to access files](https://bugzilla.mozilla.org/show_bug.cgi?id=1015957#c2)  _(tags: tweet)_
+- 2014-05-28: [Introducing R for Big Data with PivotalR | Pivotal P.O.V.](http://blog.gopivotal.com/pivotal/products/introducing-r-for-big-data-with-pivotalr?utm_source=rss&utm_medium=rss&utm_campaign=introducing-r-for-big-data-with-pivotalr)  _(tags: tweet)_
+- 2014-05-28: [Philips HTL7180/F7 Soundbar with Detachable Wireless Surround Speakers](http://m.costco.com/.product.100094258.html)  _(tags: shopping, media)_
+- 2014-05-28: [Lecture series on SES and capability-based security by Mark Miller](https://mail.mozilla.org/pipermail/es-discuss/2011-November/017958.html)  _(tags: video, presentation, capability, security, learning)_
+- 2014-05-28: [The Existential Operator](https://mail.mozilla.org/pipermail/es-discuss/2014-May/037262.html)  _(tags: javascript)_
+- 2014-05-28: [Integrating the Webs' dependency systems](https://mail.mozilla.org/pipermail/es-discuss/2014-May/037265.html)  _(tags: web, installation)_
+- 2014-05-28: [Secure ECMAScript Workshop](http://ses.json.org)  _(tags: javascript, security, capabilities)_
+- 2014-05-28: [flickrapi](https://www.npmjs.org/package/flickrapi)  _(tags: photos, javascript, cloud)_
+- 2014-05-27: [The Internet With A Human Face - Beyond Tellerrand 2014 Conference Talk](http://idlewords.com/bt14.htm)  _(tags: tweet)_
+- 2014-05-27: [Facebook Microphone Update Draws Mixed Reactions On Twitter, Raising Privacy Concerns And Skepticism](http://www.ibtimes.com/facebook-microphone-update-draws-mixed-reactions-twitter-raising-privacy-concerns-1589333?utm_content=buffer8d8aa&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2014-05-27: [PureScript (Maybe This Time We Get JavaScript Right) - Strange Loop](https://thestrangeloop.com/sessions/purescript-maybe-this-time-we-get-javascript-right)  _(tags: tweet)_
+- 2014-05-27: [Game Theory Is Really Counterintuitive | William Spaniel](http://wjspaniel.wordpress.com/2014/05/25/game-theory-is-really-counterintuitive/)  _(tags: tweet)_
+- 2014-05-27: [Usage Survey of Web Servers broken down by Ranking](http://w3techs.com/technologies/cross/web_server/ranking)  _(tags: tweet)_
+- 2014-05-27: [Barclays Downgrades Electric Utility Bonds, Sees Viable Solar Competition - Income Investing - Barrons.com](http://blogs.barrons.com/incomeinvesting/2014/05/23/barclays-downgrades-electric-utility-bonds-sees-viable-solar-competition/)  _(tags: tweet)_
+- 2014-05-27: [Salmon Run: IPython Notebooks for StatLearning Exercises](http://sujitpal.blogspot.fr/2014/05/ipython-notebooks-for-statlearning.html)  _(tags: ipython, tweet)_
+- 2014-05-27: [Facebook Microphone Update To Store Data: Social Media Giant Confirms New Feature Will Aggregate Information](http://www.ibtimes.com/facebook-microphone-update-store-data-social-media-giant-confirms-new-feature-will-1588916)  _(tags: tweet)_
+- 2014-05-26: [Frama-C](http://frama-c.com/acsl.html)  _(tags: research, proof, quality, logic)_
+- 2014-05-26: [Frama-C](http://frama-c.com)  _(tags: programming, quality)_
+- 2014-05-26: [Linux Performance](http://www.brendangregg.com/linuxperf.html?utm_content=bufferecd0a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: linux, tweet)_
+- 2014-05-26: [Christopher Michael-Martinez&#8217;s Father Gets It Right about Guns : The New Yorker](http://www.newyorker.com/online/blogs/newsdesk/2014/05/christopher-michael-martinezs-father-gets-it-right.html)  _(tags: tweet)_
+- 2014-05-26: [ProxyTypes 0.9 : Python Package Index](https://pypi.python.org/pypi/ProxyTypes)  _(tags: python, capabilities)_
+- 2014-05-26: [Object Proxying « Python recipes « ActiveState Code](http://code.activestate.com/recipes/496741-object-proxying/)  _(tags: python, capabilities)_
+- 2014-05-25: [What Amazon is doing is appall](http://bits.blogs.nytimes.com/2014/05/23/amazon-escalates-its-battle-against-hachette/?_php=true&_type=blogs&_php=true&_type=blogs&_php=true&_type=blogs&_r=2&)  _(tags: tweet)_
+- 2014-05-25: [Natalie Grant - In The End (Official Video) Chords - Chordify](http://chordify.net/chords/natalie-grant-in-the-end-official-video-natalie-grant)  _(tags: music, guitar)_
+- 2014-05-24: [retnuh/waterken](https://github.com/retnuh/waterken)  _(tags: object, capabilities, java)_
+- 2014-05-24: [&lt;google-sheets&gt; - component for interacting](http://googlewebcomponents.github.io/google-sheets/)  _(tags: tweet)_
+- 2014-05-23: [Home · rumpkernel/wiki Wiki · GitHub](https://github.com/rumpkernel/wiki/wiki)  _(tags: microkernel, capabilities)_
+- 2014-05-23: [rumpkernel/pci-userspace · GitHub](https://github.com/rumpkernel/pci-userspace)  _(tags: microkernel, capabilities)_
+- 2014-05-23: [PyData 2014 | Silicon Valley | May 2 - 4](http://pydata.org/sv2014/keynotes/#abstract_174)  _(tags: someday, python, quality, programming)_
+- 2014-05-23: [The Power of Irrelevance](http://erights.org/data/irrelevance.html)  _(tags: python, quality, pydata)_
+- 2014-05-23: [The homogenization of scientific computing (2013) | Hacker News](https://news.ycombinator.com/item?id=7729006)  _(tags: pydata)_
+- 2014-05-23: [Why Python is Better than Matlab for Scientific Software | Meta Rabbit](http://metarabbit.wordpress.com/2013/10/18/why-python-is-better-than-matlab-for-scientific-software/)  _(tags: python, science, numeric)_
+- 2014-05-23: [DanC / pcornet-dm — Bitbucket](https://bitbucket.org/DanC/pcornet-dm)  _(tags: travel, mobile, fail, scm, cloud)_
+- 2014-05-23: [American Airlines - Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.aa.android)  _(tags: travel, mobile, fail)_
+- 2014-05-23: [Convert fortran to python and make integrated interface | Fortran | Python](https://www.freelancer.com/projects/Python-Fortran/Convert-fortran-python-make-integrated.html)  _(tags: python, programming, scientific)_
+- 2014-05-23: [Write some Software | Java | Objective C | Python | Scala | Web Services](https://www.freelancer.com/projects/Java-Python/Write-some-Software.5960745.html)  _(tags: scala)_
+- 2014-05-23: [Long-Term Music Composers Needed | Other - Multimedia Services Job. Review Proposals on Elance](https://www.elance.com/j/long-term-music-composers-needed/57172122/?backurl=aHR0cHM6Ly93d3cuZWxhbmNlLmNvbS9yL2pvYnMvcS1NdXNpYyUyMENvbXBvc2l0aW9u)  _(tags: no_tag)_
+- 2014-05-22: [CamScanner | Windows Phone Apps+Games Store (United States)](http://www.windowsphone.com/en-us/store/app/camscanner/d991ee36-dc78-41e1-9406-0943f13c70fb)  _(tags: windows, phone, mobile, office)_
+- 2014-05-22: [A Maintainable Style Guide - Ian Feather](http://ianfeather.co.uk/a-maintainable-style-guide/)  _(tags: tweet)_
+- 2014-05-22: [Growth of Articles Published in Fully OA Journals Using a CC-BY License | Open Access Scholarly Publishers Association](http://oaspa.org/growth-of-fully-oa-journals-using-a-cc-by-license/)  _(tags: openaccess, tweet)_
+- 2014-05-21: [Cryptology ePrint Archive: Report 2013/784](https://eprint.iacr.org/2013/784)  _(tags: tweet)_
+- 2014-05-21: [Apple Accessibility Workshops | Access iQ](http://www.accessiq.org/news/news/2014/05/apple-accessibility-workshops)  _(tags: a11y, osx, ios, tweet)_
+- 2014-05-21: [Python Tutor - Visualize Python, Java, C, C++, JavaScript, TypeScript, and Ruby code execution](http://pythontutor.com)  _(tags: tweet, python, learning)_
+- 2014-05-21: [Inside the Nerdery -](http://blog.nerdery.com)  _(tags: kc, programming, games, performance, web)_
+- 2014-05-20: [Python Object Graphs — objgraph 1.8.1 documentation](http://mg.pov.lt/objgraph/)  _(tags: python, visualization, debugging)_
+- 2014-05-20: [Everything Is Broken — The Message — Medium](https://medium.com/message/81e5f33a24e1)  _(tags: tweet)_
+- 2014-05-20: [Lawrence Lessig to receive Lifetime Achievement Webby Award - Creative Commons](http://creativecommons.org/weblog/entry/42585?utm_campaign=sm&utm_medium=twitter&utm_source=twitter3)  _(tags: webbys, tweet)_
+- 2014-05-19: [The Power of Irrelevance](http://www.erights.org/data/irrelevance.html)  _(tags: programming, quality)_
+- 2014-05-19: [60 Words - Radiolab](http://www.radiolab.org/story/60-words/)  _(tags: fb, tweet)_
+- 2014-05-19: [Convergence | Beta](http://convergence.io/index.html)  _(tags: decentralization, security, web)_
+- 2014-05-19: [kframework/python-semantics](https://github.com/kframework/python-semantics)  _(tags: python, quality, formal, proof, research, logic)_
+- 2014-05-19: [kframework/javascript-semantics](https://github.com/kframework/javascript-semantics)  _(tags: proof, research, logic, javascript, quality)_
+- 2014-05-19: [K Framework](http://www.kframework.org/index.php/Main_Page)  _(tags: proof, logic, research, programming)_
+- 2014-05-18: [PyPy's sandboxing features - PyPy 2.3.0 documentation](http://pypy.readthedocs.org/en/latest/sandbox.html)  _(tags: capabilities, python, security)_
+- 2014-05-18: [Getting Started with RPython - PyPy 2.3.0 documentation](http://pypy.readthedocs.org/en/latest/getting-started-dev.html)  _(tags: python, performance)_
+- 2014-05-18: [cr.yp.to: 2014.05.17: Some small suggestions for the Intel instruction set](http://blog.cr.yp.to/20140517-insns.html)  _(tags: tweet)_
+- 2014-05-18: [This looks fantastic: Beaker is a code notebook fo](http://t.co/Q3W25lc2Bc)  _(tags: tweet)_
+- 2014-05-18: [Google launching IPython notebook integration with](https://plus.google.com/+KayurPatel/posts/P89KQiKdXBk)  _(tags: tweet)_
+- 2014-05-17: [Hardware Scrambling - No More Password Leaks | Light Blue Touchpaper](http://www.lightbluetouchpaper.org/2014/03/07/hardware-scrambling-no-more-password-leaks/)  _(tags: hardware, security)_
+- 2014-05-17: [Safe Serialization Under Mutual Suspicion/Introducing Data E - ERights.org Wiki](http://wiki.erights.org/wiki/Safe_Serialization_Under_Mutual_Suspicion/Introducing_Data_E)  _(tags: programming, security, capabilities)_
+- 2014-05-16: [Miles Macklin&#039;s blog &raquo; Flex](http://blog.mmacklin.com/flex/)  _(tags: tweet)_
+- 2014-05-16: [Top 10 Startups Built on Docker | CenturyLink Labs](http://www.centurylinklabs.com/top-10-startups-built-on-docker/)  _(tags: devops)_
+- 2014-05-15: [Demo Videos &mdash; Glue 0.1 documentation](http://www.glueviz.org/en/latest/videos.html)  _(tags: tweet)_
+- 2014-05-15: [World Cup calendar | Football News | Sky Sports](http://www1.skysports.com/FIFA-World-Cup-2014/news/15241/9066717/world-cup-calendar)  _(tags: tweet)_
+- 2014-05-15: [Not that I'm maintaining it, but  is updated today](http://pip2014.com)  _(tags: tweet)_
+- 2014-05-15: [Группы Google](https://groups.google.com/forum/m/#!msg/mozilla.dev.platform/96dZw1jXTvM/hkNn65-Spf4J)  _(tags: tweet)_
+- 2014-05-15: [URL Query Arguments &mdash; Spinneret 0.0.1 documentation](https://txspinneret.readthedocs.org/en/latest/query.html#parsing-query-arguments)  _(tags: tweet)_
+- 2014-05-15: [Announcing TurnKey Docker optimized builds | TurnKey GNU/Linux Blog](http://www.turnkeylinux.org/blog/announcing-docker-builds)  _(tags: devops, sysadmin)_
+- 2014-05-15: [Thomas Hawk Digital Connection » Blog Archive » 10 Reasons Why Google+ Is Better for Social Photography Than Flickr](http://thomashawk.com/2011/11/10-reasons-why-google-is-better-for-social-photography-than-flickr.html)  _(tags: photos)_
+- 2014-05-15: [Inside the Go Playground - The Go Blog](http://blog.golang.org/playground)  _(tags: programming, security, capabilities)_
+- 2014-05-14: [Geotagged Google+ photos now appear in Google Earth](http://phandroid.com/2013/09/06/google-earth-geotagged-photos/)  _(tags: photos, maps, geo)_
+- 2014-05-14: [Google vs. Dropbox: Which Is Better for Hosting and Sharing Photos?](http://lifehacker.com/google-vs-dropbox-which-is-better-for-hosting-and-sha-1488854866)  _(tags: photos)_
+- 2014-05-14: [CrashPlan Client Closes In Some Linux Installations - Code42](http://support.code42.com/CrashPlan/Latest/Troubleshooting/CrashPlan_Client_Closes_In_Some_Linux_Installations)  _(tags: sysdamin)_
+- 2014-05-14: [Epson Perfection V370, Drivers & Downloads - Technical Support - Epson America, Inc.](http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=216541&BV_UseBVCookie=yes&infoType=Downloads&platform=OSF_O_LINUX)  _(tags: linux, graphics, hardware)_
+- 2014-05-14: [Epson Perfection V370 Color Photo Scanner | Linux Hardware Guide.com](http://www.linux-hardware-guide.com/2013-06-16-epson-perfection-v370-color-photo-scanner)  _(tags: office, hardware, shopping)_
+- 2014-05-14: [[ubuntu] Epson Perfection V370 Scanner - So Close!](http://ubuntuforums.org/showthread.php?t=2108555)  _(tags: hardware, linux)_
+- 2014-05-14: [Epson Perfection V370 Scanner Driver and Software | VueScan](http://www.hamrick.com/vuescan/epson_perfection_v370.html)  _(tags: office, shopping, hardware)_
+- 2014-05-14: [Import flights from TripIt – OpenFlights](http://openflights.org/blog/2012/03/16/import-flights-from-tripit/)  _(tags: travel, pim, data, someday, cloud)_
+- 2014-05-14: [No more JS frameworks        | BitWorking](http://bitworking.org/news/2014/05/zero_framework_manifesto)  _(tags: tweet)_
+- 2014-05-14: [Kaspersky Lab's New Secure Operating System | Nota Bene: Eugene Kaspersky's Official Blog](http://eugene.kaspersky.com/2012/10/16/kl-developing-its-own-operating-system-we-confirm-the-rumors-and-end-the-speculation/)  _(tags: quality, security)_
+- 2014-05-14: [Free and Open Science for Your Thesis - Chymeric Tutorials](http://tutorials.chymera.eu/blog/2014/02/24/open-science-for-thesis/)  _(tags: reproducible, research, devops)_
+- 2014-05-14: [How to activate a sprinkler system in the spring | Waterwise Landscapes and Waterscapes | Fort Collins landscaping, sprinklers, xeriscapes, environmental restoration](http://www.waterwiselandscapes.com/waterwisdom/how-activate-sprinkler-system-spring)  _(tags: diy, house, family)_
+- 2014-05-14: [Toshiba CB35-A3120 Chromebook review: It hits a sweet spot | PCWorld](http://www.pcworld.com/article/2097960/toshiba-cb35-a3120-chromebook-review-it-hits-a-sweet-spot.html)  _(tags: hardware, shopping)_
+- 2014-05-14: [Asus Chromebox announcement](http://forum.xbmc.org/showthread.php?tid=185329&page=6)  _(tags: sysadmin)_
+- 2014-05-13: [Stunning. Scientists investigating Antarctic ice s](http://www.nytimes.com/2014/05/13/science/earth/collapse-of-parts-of-west-antarctica-ice-sheet-has-begun-scientists-say.html?hp&_r=2)  _(tags: tweet)_
+- 2014-05-12: [HypervisorSupportMatrix - OpenStack](https://wiki.openstack.org/wiki/HypervisorSupportMatrix)  _(tags: vm, devops)_
+- 2014-05-12: [Optimization killers · petkaantonov/bluebird Wiki · GitHub](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers)  _(tags: tweet)_
+- 2014-05-11: [Why Formula 1 Racers Are Relearning How to Drive | Autopia | WIRED](http://www.wired.com/2014/05/f1-drivers-skills/?utm_content=buffer2b182&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)  _(tags: tweet)_
+- 2014-05-10: [“If you make promises about pr](http://www.nytimes.com/2014/05/09/technology/snapchat-reaches-settlement-with-federal-trade-commission.html?_r=3)  _(tags: tweet)_
+- 2014-05-08: [Reshaping and Pivot Tables - pandas 0.13.1 documentation](http://pandas.pydata.org/pandas-docs/stable/reshaping.html)  _(tags: statistics, programming, python, data, numeric)_
+- 2014-05-08: [Diving into Open Data with IPython Notebook & Pandas](http://nbviewer.ipython.org/github/jvns/talks/blob/master/pyconca2013/pistes-cyclables.ipynb)  _(tags: python, sysadmin, exploratory, programming, data, numeric)_
+- 2014-05-07: [setup.py vs requirements.txt &middot; Caremad](https://caremad.io/blog/setup-vs-requirement/)  _(tags: tweet)_
+- 2014-05-07: [Printf and Scanf are compatible :: lpaste — Lambda pastebin](http://lpaste.net/1844130150833192960)  _(tags: tweet)_
+- 2014-05-07: [PyPy.js: Now faster than CPython](https://rfk.id.au/blog/entry/pypy-js-faster-than-cpython/)  _(tags: tweet)_
+- 2014-05-07: [Citizens as partners in the use of clinical data - Data](http://strata.oreilly.com/2014/05/citizens-as-partners-in-the-use-of-clinical-data.html)  _(tags: tweet, health, pcori, gpc, research)_
+- 2014-05-07: [Scientists embark on unprecedented effort to connect millions of patient medical records - The Washington Post](http://www.washingtonpost.com/national/health-science/scientists-embark-on-unprecedented-effort-to-connect-millions-of-patient-medical-records/2014/04/15/ea7c966a-b12e-11e3-9627-c65021d6d572_story.html)  _(tags: research, health, kumc, press, media)_
+- 2014-05-07: [Untitled](https://tahoe-lafs.org/pipermail/tahoe-dev/2014-May/009032.html)  _(tags: capabilities)_
+- 2014-05-06: [PyData 2014 | Silicon Valley | May 2 - 4](http://pydata.org/sv2014/abstracts/#212)  _(tags: pydata)_
+- 2014-05-06: [Open Radar](http://openradar.appspot.com/page/1)  _(tags: tweet)_
+- 2014-05-05: [asmeurer/pandoc (1.12.3)](https://binstar.org/asmeurer/pandoc)  _(tags: tweet)_
+- 2014-05-05: [Mac OS X - Docker Documentation](http://docs.docker.io/installation/mac/)  _(tags: mac, devops)_
+- 2014-05-04: [python - How to get started with ipython notebook reveal.js slideshows? - Stack Overflow](http://stackoverflow.com/questions/23451227/how-to-get-started-with-ipython-notebook-reveal-js-slideshows)  _(tags: writing, python, style)_
+- 2014-05-04: [IPython notebook reveal-based slideshows](http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/)  _(tags: writing, style)_
+- 2014-05-04: [python - How do I separate slides when exporting an IPython notebook to reveal.js? - Stack Overflow](http://stackoverflow.com/questions/20441848/how-do-i-separate-slides-when-exporting-an-ipython-notebook-to-reveal-js)  _(tags: writing)_
+- 2014-05-04: [LibHDFS - Hadoop Wiki](http://wiki.apache.org/hadoop/LibHDFS)  _(tags: no_tag)_
+- 2014-05-04: [hdfs-haskell/src/System/HDFS/Base.hsc at master · kim/hdfs-haskell · GitHub](https://github.com/kim/hdfs-haskell/blob/master/src/System/HDFS/Base.hsc)  _(tags: no_tag)_
+- 2014-05-04: [Trident tutorial · nathanmarz/storm Wiki · GitHub](https://github.com/nathanmarz/storm/wiki/Trident-tutorial)  _(tags: pydata, devops, data, scaling, performance)_
+- 2014-05-04: [Apache Kafka - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Apache_Kafka)  _(tags: scaling, pydata, devops, data, performance)_
+- 2014-05-04: [exoticorn/gba-rust · GitHub](https://github.com/exoticorn/gba-rust)  _(tags: rustlang, tweet)_
+- 2014-05-04: [Data Wrangling with Pandas](http://nbviewer.ipython.org/urls/gist.github.com/fonnesbeck/5850413/raw/3a9406c73365480bc58d5e75bc80f7962243ba17/2.+Data+Wrangling+with+Pandas.ipynb)  _(tags: statistics, python, data)_
+- 2014-05-03: [Jacob-Barhak (Jacob Barhak) · GitHub](https://github.com/Jacob-Barhak)  _(tags: #health, #research, #quality)_
+- 2014-05-02: [Practical Neurology - Daily Coverage Philadelphia 2014](http://practicalneurology.com/series/daily-coverage-philadelphia-2014/video.asp?f=ifudosopopo)  _(tags: alzheimers, aanam, tweet)_
+- 2014-05-02: ["Unchecked Exceptions can be Strictly More Powerfu](http://www.hpl.hp.com/personal/Mark_Lillibridge/Unchecked_Exceptions/hosc99.pdf)  _(tags: tweet)_
+- 2014-05-01: [The Great Works of Software — Medium](https://medium.com/p/705b87339971)  _(tags: tweet)_
+- 2014-05-01: [3D artists give beach a new dimension - Entertainment - NZ Herald News](http://www.nzherald.co.nz/entertainment/news/article.cfm?c_id=1501119&objectid=11245291&ref=NZH_FBpage)  _(tags: art, artists, beach, tweet)_
+- 2014-05-01: [Psst! Wearable Devices Could Make Big Tech Leaps, Into Your Ear : All Tech Considered : NPR](http://www.npr.org/blogs/alltechconsidered/2014/04/23/306171641/psst-wearable-devices-could-make-big-tech-leaps-into-your-ear)  _(tags: tweet)_
+- 2014-05-01: [Improving Human-Compiler Interaction Through Customizable Type Feedback](http://infoscience.epfl.ch/record/197948)  _(tags: tweet)_

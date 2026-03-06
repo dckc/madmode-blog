@@ -1,0 +1,105 @@
+---
+title: June 2016 Bookmarks: twitter, bitcoin, and decentralized
+date: 2016-06-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "bitcoin", "blockchain", "bos", "data", "event", "fp", "health", "java", "linkeddata", "me", "opensource", "pim", "programming", "python", "research", "rust", "security", "sel4", "travel", "w3c"]
+---
+
+Shared bookmarks saved in June 2016.
+
+- total bookmarks: 91
+- total annotations captured: 49
+
+## Links
+
+- 2016-06-29: [Strange to hear colleagues and](https://t.co/ddo961CJDI)  _(tags: tweet)_
+- 2016-06-28: [Passwords would be much less 'bad' if developers d](https://t.co/N8Qunm02tF)  _(tags: tweet)_
+- 2016-06-27: [President Obama should pardon Edward Snowden before leaving office | The Verge](http://www.theverge.com/2016/6/27/12040196/president-obama-pardon-edward-snowden-free)  _(tags: tweet)_
+- 2016-06-27: [Eric Lander: Majority of cancer cures will take decades](https://www.statnews.com/2016/06/26/lander-cancer-cure-reality-check/)  _(tags: tweet)_
+- 2016-06-25: [As Seen at PLDI: Precise, Dynamic Information Flow for Database-Backed Applications — Medium](https://medium.com/@jeanqasaur/as-seen-on-pldi-precise-dynamic-information-flow-for-database-backed-applications-3a22878f4e36)  _(tags: tweet)_
+- 2016-06-25: [Angelina Jolie Sparks Rise in Genetic Testing for Treat Breast Cancer](http://www.curetoday.com/publications/cure/2015/breast-2015/the-jolie-effect)  _(tags: precisionmedicine, patient, payor, pharma, tweet)_
+- 2016-06-24: [Mundane Essays: It's your data, not TripIt's, take 2](http://muness.blogspot.com/2014/07/its-your-data-not-tripits-take-2.html)  _(tags: travel, data, pim, programming)_
+- 2016-06-24: [[1507.03513] Precise, Dynamic Information Flow for Database-Backed Applications](http://arxiv.org/abs/1507.03513)  _(tags: programming, research, security)_
+- 2016-06-24: [lihaoyi/macropy: Macros in Python: quasiquotes, case classes, LINQ and more!](https://github.com/lihaoyi/macropy)  _(tags: programming, python)_
+- 2016-06-22: [Bernie Sanders on Twitter: &quot;Please go to my website at https://t.co/IsNuum2y5X to learn more about how you can effectively run for office. #OurRevolution&quot;](https://twitter.com/berniesanders/status/743606472454574084)  _(tags: tweet)_
+- 2016-06-22: [Why Micropayments Are Hard - Yours Engineering](https://engineering.yours.network/articles/2016-06-21-why-micropayments-are-hard/)  _(tags: tweet)_
+- 2016-06-22: [Ken Janoski on Twitter: &quot;#Healthcare #cybersecurity is reactive, must shift to &#39;proactive threat hunting&#39; says Raytheon https://t.co/wQFvi3pKgV&quot;](https://twitter.com/KenJanoski/status/745609912907083777)  _(tags: tweet)_
+- 2016-06-22: [Help Us Stop the Updates to Rule 41 | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2016/06/help-us-stop-updates-rule-41)  _(tags: tweet)_
+- 2016-06-22: [3 shell scripts: Kill weasel words, avoid the passive, eliminate duplicates](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/)  _(tags: no_tag)_
+- 2016-06-22: [The CRAPL: An academic-strength open source license](http://matt.might.net/articles/crapl/)  _(tags: no_tag)_
+- 2016-06-22: [PAANDA: The academic alternative to NDAs](http://matt.might.net/articles/paanda-nda-for-academics/)  _(tags: no_tag)_
+- 2016-06-22: [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)  _(tags: no_tag)_
+- 2016-06-22: [Precision Medicine 2016 | Department of Biomedical Informatics](https://dbmi.hms.harvard.edu/precision-medicine-2016)  _(tags: health, data, event, bos, travel)_
+- 2016-06-21: [How  helps to detect unexpected interactions betwe](https://www.growkudos.com/publications/10.3233%252Fsw-150212)  _(tags: linkeddata, tweet)_
+- 2016-06-21: [Cory Doctorow on Twitter: &quot;Video: Guarding the Decentralized Web from its founders&#39; human frailty&#10;https://t.co/xfT3YsxrhY https://t.co/hX8uVgOd7w&quot;](https://twitter.com/doctorow/status/744984753825165312)  _(tags: w3c, tweet)_
+- 2016-06-21: [Rust - seL4Wiki](https://wiki.sel4.systems/Rust)  _(tags: tweet)_
+- 2016-06-21: [Robert VerBruggen on Twitter: &quot;&quot;Justice Kagan First Justice to Use Link Shortener (goo.gl)&quot; https://t.co/J26G8WCj5M&quot;](https://twitter.com/RAVerBruggen/status/744960606516580352)  _(tags: tweet)_
+- 2016-06-21: [GitHub - kadena-io/juno: Smart Contracts Running on a BFT Hardened Raft](https://github.com/kadena-io/juno)  _(tags: tweet)_
+- 2016-06-21: [Wilder-James](http://www.ewj.me/wilder-james)  _(tags: tweet)_
+- 2016-06-19: [FAQ-Compiling (general) - CodeBlocks](http://wiki.codeblocks.org/index.php/FAQ-Compiling_(general))  _(tags: no_tag)_
+- 2016-06-19: [Code::Blocks](http://www.codeblocks.org)  _(tags: no_tag)_
+- 2016-06-19: [c++ - unique_ptr compile error - Stack Overflow](http://stackoverflow.com/questions/9766568/unique-ptr-compile-error)  _(tags: no_tag)_
+- 2016-06-18: [xkcd: Code Quality 2](http://xkcd.com/1695/)  _(tags: tweet)_
+- 2016-06-18: [Yvan Boily on Twitter: &quot;This is one of the most exciting browser features I have seen in a long time...  nice work @TanviHacks &amp; team! https://t.co/KqfNa9qxde&quot;](https://twitter.com/ygjb/status/743842656439017472)  _(tags: tweet)_
+- 2016-06-18: [I wrote about the DAO hack.](http://www.bloomberg.com/view/articles/2016-06-17/blockchain-company-s-smart-contracts-were-dumb)  _(tags: tweet)_
+- 2016-06-17: [Smart contracts beyond the age of innocence &#8211; Bentham&#039;s Gaze](https://www.benthamsgaze.org/2016/06/17/smart-contracts-beyond-the-age-of-innocence/)  _(tags: daohack, dao, tweet)_
+- 2016-06-17: [Verified software can (and will) be cheaper than buggy stuff | microkerneldude](https://microkerneldude.wordpress.com/2016/06/16/verified-software-can-and-will-be-cheaper-than-buggy-stuff/)  _(tags: no_tag)_
+- 2016-06-17: [microkerneldude | Random rants and pontifications by Gernot Heiser](https://microkerneldude.wordpress.com)  _(tags: sel4, tweet)_
+- 2016-06-17: [The Principled Documentation Manifesto](http://hackingdistributed.com/2013/02/11/principled-documentation/)  _(tags: no_tag)_
+- 2016-06-17: [Nexus OS Overview](http://www.cs.cornell.edu/people/egs/nexus/)  _(tags: no_tag)_
+- 2016-06-17: [Thoughts on The DAO Hack](http://hackingdistributed.com/2016/06/17/thoughts-on-the-dao-hack/)  _(tags: no_tag)_
+- 2016-06-17: [Scanning Live Ethereum Contracts for the "Unchecked-Send" Bug](http://hackingdistributed.com/2016/06/16/scanning-live-ethereum-contracts-for-bugs/)  _(tags: no_tag)_
+- 2016-06-17: [CRITICAL UPDATE Re: DAO Vulnerability - Ethereum Blog](https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability/)  _(tags: no_tag)_
+- 2016-06-17: [Makes sense! I am particularly interested whether your security model could sup... | Hacker News](https://news.ycombinator.com/item?id=10126344)  _(tags: no_tag)_
+- 2016-06-17: [On "The Future of JavaScript MVC Frameworks"](http://blog.reverberate.org/2014/02/on-future-of-javascript-mvc-frameworks.html)  _(tags: no_tag)_
+- 2016-06-17: [The average cost of a data breach is now $4 million - Help Net Security](https://www.helpnetsecurity.com/2016/06/16/data-breach-cost-4-million/)  _(tags: health, data, security)_
+- 2016-06-17: [The Average Cost of a Data Breach Is Now $4 Million - Slashdot](https://yro.slashdot.org/story/16/06/16/1836228/the-average-cost-of-a-data-breach-is-now-4-million)  _(tags: no_tag)_
+- 2016-06-17: [A functional reactive alternative to Spring](https://stacksandfoundations.com/2016/06/09/a-functional-reactive-java-web-framework/)  _(tags: java, web, programming, fp)_
+- 2016-06-16: [Non Standard](https://norman.walsh.name/2016/05/28/non-standard)  _(tags: tweet)_
+- 2016-06-16: [Raise the Crime Rate | Issue 13 | n+1](https://nplusonemag.com/issue-13/politics/raise-the-crime-rate/)  _(tags: tweet)_
+- 2016-06-14: [VEE 2016 Program - VEE 2016](http://conf.researchr.org/track/vee-2016/Program)  _(tags: no_tag)_
+- 2016-06-14: [FFTW - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/FFTW)  _(tags: no_tag)_
+- 2016-06-14: [Most Influential PLDI Paper Award](http://www.sigplan.org/Awards/PLDI/)  _(tags: programming, research)_
+- 2016-06-14: [rustc (segmentation fault) · Issue #258 · Microsoft/BashOnWindows · GitHub](https://github.com/Microsoft/BashOnWindows/issues/258)  _(tags: tweet)_
+- 2016-06-14: [Sign Up | LinkedIn](https://www.linkedin.com/start/join?trk=login_reg_redirect&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpeople%2Fexport-settings)  _(tags: tweet)_
+- 2016-06-14: [kottke.org on Twitter: &quot;Microsoft is buying LinkedIn for $26.2 billion, all cash https://t.co/IGGSiZT2Gi&quot;](https://twitter.com/kottke/status/742343638705942528)  _(tags: tweet)_
+- 2016-06-14: [Global Tech Issue 2016](http://www.bloomberg.com/features/2016-global-tech-inventors/)  _(tags: tweet)_
+- 2016-06-13: [Alexandria at the Decentralized Web Summit - YouTube](https://www.youtube.com/watch?v=D5owZMsVRX0)  _(tags: dwebsummit, tweet)_
+- 2016-06-13: [BlockTechGroup on Twitter: "Check out @Alexandria's #DWebSummit presentation, including an incredible compliment from @timberners_lee himself! https://t.co/Q5AANbG2ro"](https://twitter.com/BlocktechGroup/status/742427454438965248)  _(tags: no_tag)_
+- 2016-06-12: [dckc - A bitcoin freelancer for hire](https://www.xbtfreelancer.com/user/21034?return=dashboardprofile)  _(tags: me)_
+- 2016-06-12: [I’m Getting 5% of My $96K Salary Paid in Bitcoin: Here’s How and Why – Open](https://open.buffer.com/getting-paid-in-bitcoin/)  _(tags: no_tag)_
+- 2016-06-12: [Best Bitcoin Cloud Mining Contract Reviews](https://www.bitcoinmining.com/best-bitcoin-cloud-mining-contract-reviews/)  _(tags: no_tag)_
+- 2016-06-12: [How to get started with Bitcoin mining.](https://www.weusecoins.com/en/mining-guide/)  _(tags: no_tag)_
+- 2016-06-12: [Introduction to Micropayment Channels](https://21.co/learn/intro-to-micropayment-channels/)  _(tags: no_tag)_
+- 2016-06-12: [How 21 Micropayments Work](https://21.co/learn/21-micropayments/)  _(tags: no_tag)_
+- 2016-06-12: [Ping21: Earn Bitcoin by Monitoring Uptime and Latency](https://21.co/learn/ping21-earn-bitcoin-by-monitoring-uptime-and-latency/)  _(tags: no_tag)_
+- 2016-06-12: [Introduction to 21](https://21.co/learn/intro-to-21/)  _(tags: no_tag)_
+- 2016-06-12: [zerotier/ZeroTierOne: Network Virtualization Everywhere](https://github.com/zerotier/ZeroTierOne)  _(tags: no_tag)_
+- 2016-06-12: [ZeroTier | Blog](https://www.zerotier.com/blog/?p=612)  _(tags: no_tag)_
+- 2016-06-12: [ZeroTier | Software Defined Networking](https://www.zerotier.com)  _(tags: no_tag)_
+- 2016-06-12: [21 - madmode](https://21.co/madmode/)  _(tags: me, programming, bitcoin, blockchain)_
+- 2016-06-12: [Getting Started with Swagger – Swagger](http://swagger.io/getting-started/)  _(tags: no_tag)_
+- 2016-06-12: [Specification – Swagger](http://swagger.io/specification/)  _(tags: no_tag)_
+- 2016-06-12: [bips/bip-0032.mediawiki at master · bitcoin/bips](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)  _(tags: no_tag)_
+- 2016-06-12: [21 is an Open Source Library for the Machine-Payable Web — Medium](https://medium.com/@21/21-is-an-open-source-library-for-the-machine-payable-web-4f30d1437fde)  _(tags: no_tag)_
+- 2016-06-11: [Cogent | SSRG | NICTA](https://ssrg.nicta.com.au/projects/TS/cogent.pml)  _(tags: tweet)_
+- 2016-06-10: [linkedin park on Twitter: &quot;WOW. @doctorow got me teary eyed and brought everyone to their feet at #DWebSummit https://t.co/ygjUMmkZlp&quot;](https://twitter.com/blondtron/status/740661986413813760)  _(tags: tweet)_
+- 2016-06-10: [How we will keep the Decentralized Web decentralized: my talk from the Decentralized Web Summit / Boing Boing](http://boingboing.net/2016/06/09/how-will-we-keep-the-decentral.html)  _(tags: dwebsummit, tweet)_
+- 2016-06-10: [Decentralized Web Summit - Live From The Internet Archive - YouTube](https://www.youtube.com/watch?v=Yth7O6yeZRE&feature=youtu.be&t=5h12m38s)  _(tags: tweet)_
+- 2016-06-10: [USN-2993-1: Firefox vulnerabilities | Ubuntu](http://www.ubuntu.com/usn/usn-2993-1/)  _(tags: web, security, rust)_
+- 2016-06-09: [Decentralized Web Summit: Locking the Web Open](https://www.decentralizedweb.net/schedule/)  _(tags: no_tag)_
+- 2016-06-09: [Yaron Minsky on Twitter: &quot;Woot! Whole program dead-code elimination for native code OCaml executables: https://t.co/AF7pMej3JO&quot;](https://twitter.com/yminsky/status/740650683846799360)  _(tags: tweet)_
+- 2016-06-09: [+timblee on Onename](https://onename.com/timblee)  _(tags: tweet)_
+- 2016-06-09: [The Apache Foundation&#039;s incredible rise | InfoWorld](http://www.infoworld.com/article/3079813/open-source-tools/the-apache-foundations-incredible-rise.html)  _(tags: opensource, tweet)_
+- 2016-06-09: [Philip Guo on Twitter: &quot;Live Programming mode in Python Tutor -- real-time visualizations to make it easier to experiment and fiddle -- https://t.co/1chAQL4Z2e&quot;](https://twitter.com/pgbovine/status/740602465314308096)  _(tags: tweet)_
+- 2016-06-08: [XenialXerus/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/XenialXerus/ReleaseNotes)  _(tags: no_tag)_
+- 2016-06-03: [K Lars Lohn - Keynote - PyCon 2016 - YouTube](https://www.youtube.com/watch?v=bSfe5M_zG2s)  _(tags: pycon2016, tweet)_
+- 2016-06-02: [gfody comments on How to waste CPU and kill your disk by scaling 100 million inefficiently](https://www.reddit.com/r/programming/comments/4m64lb/how_to_waste_cpu_and_kill_your_disk_by_scaling/d3t80ue)  _(tags: no_tag)_
+- 2016-06-02: [RPython Language — RPython Documentation](http://rpython.readthedocs.io/en/latest/rpython.html)  _(tags: no_tag)_
+- 2016-06-01: [Remittance and the Power of Bitcoin — SolidX Blog](https://blog.sldx.com/remittance-and-the-power-of-bitcoin-91baa0b3b814?gi=6b256234f2ed)  _(tags: bitcoin, remittance, china, blockchain, tweet)_
+- 2016-06-01: [Massive FBI Biometric Database Must Be Subject to Appropriate Public Scrutiny | Center for Democracy &amp; Technology](https://cdt.org/blog/massive-fbi-biometric-database-must-be-subject-to-appropriate-public-scrutiny/)  _(tags: biometric, tweet)_
+- 2016-06-01: [Dr. Ann on Twitter: &quot;The sugar conspiracy | Ian Leslie https://t.co/xe8LNOvUoR&quot;](https://twitter.com/annchildersmd/status/737859535008845824)  _(tags: tweet)_
+- 2016-06-01: [Wither OWL](http://www.slideshare.net/jahendler/wither-owl)  _(tags: eswc2016, tweet)_
+- 2016-06-01: [SSL/TLS and PKI Timeline](https://www.feistyduck.com/ssl-tls-and-pki-timeline/)  _(tags: tweet)_
+- 2016-06-01: [Trusted Timestamp - 30bd31b0c55b6b81321021cba3ddbecaacd05236290d7282a088bb22b3efb352](http://www.originstamp.org/s/30bd31b0c55b6b81321021cba3ddbecaacd05236290d7282a088bb22b3efb352)  _(tags: no_tag)_
+- 2016-06-01: [Timestamping On The Blockchain » Brave New Coin](http://bravenewcoin.com/news/timestamping-on-the-blockchain)  _(tags: no_tag)_

@@ -1,0 +1,124 @@
+---
+title: October 2012 Bookmarks: security, programming, and rust
+date: 2012-10-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "architecture", "books", "cloud", "diy", "emacs", "fp", "guitar", "hardware", "history", "http", "javascript", "kc", "linux", "math", "movies", "ocap", "opendata", "pc", "performance", "pim", "power", "programming", "publishing", "research", "review", "rust", "rustlang", "scm", "security", "services", "sysadmin", "ubuntu", "vm", "wishlist", "world", "writing"]
+---
+
+Shared bookmarks saved in October 2012.
+
+- total bookmarks: 110
+- total annotations captured: 64
+
+## Links
+
+- 2012-10-31: [If You Never Anticipated An Event Like Hurricane Sandy, What Do You Do Now? | Forrester Blogs](http://blogs.forrester.com/stephanie_balaouras/12-10-30-if_you_never_anticipated_an_event_like_hurricane_sandy_what_do_you_do_now)  _(tags: sandy, forrester, tweet)_
+- 2012-10-31: [Informatics is a natural science](http://www.slideshare.net/Frank.van.Harmelen/informatics-is-a-natural-science)  _(tags: tweet)_
+- 2012-10-27: [index](http://www.insilmaril.de/vym/#mc:0)  _(tags: pim, linux)_
+- 2012-10-27: [Congratulations on IE10: from Mozilla with cake](http://limpet.net/mbrubeck/2012/10/26/mozilla-ie10-cake.html)  _(tags: tweet)_
+- 2012-10-27: [Coding Horror: The Future of Markdown](http://www.codinghorror.com/blog/2012/10/the-future-of-markdown.html)  _(tags: tweet)_
+- 2012-10-27: [Suggestions for the security model deliverable from John Lyle on 2012-10-26 (public-sysapps@w3.org from October 2012)](http://lists.w3.org/Archives/Public/public-sysapps/2012Oct/0039.html)  _(tags: tweet)_
+- 2012-10-26: [Simon Phipps' blog - InfoWorld](http://www.infoworld.com/blogs/open-sources?source=footer)  _(tags: patents, linux)_
+- 2012-10-26: [Why I left my MacBook for a Chromebook | Open Source Software - InfoWorld](http://www.infoworld.com/d/open-source-software/why-i-left-my-macbook-chromebook-205705?page=0,1)  _(tags: no_tag)_
+- 2012-10-26: [Emergency Announcement -- diigo.com domain](http://www.diigo.com/about/domain)  _(tags: cloud, services, problem, solved)_
+- 2012-10-25: [Dulwich](http://www.samba.org/~jelmer/dulwich/)  _(tags: scm)_
+- 2012-10-25: [Least Authority rust std/core libs · Issue #2 · dckc/rust](https://github.com/dckc/rust/issues/2)  _(tags: security, programming, pola)_
+- 2012-10-25: [DavisDoesDownUnder: Linux syscall, vsyscall, and vDSO... Oh My!](http://davisdoesdownunder.blogspot.com/2011/02/linux-syscall-vsyscall-and-vdso-oh-my.html)  _(tags: linux, programming)_
+- 2012-10-25: [Kansas City Software Defined Networking Luncheon featuring Juniper - Event Summary | Online Registration by Cvent](http://www.cvent.com/events/kansas-city-software-defined-networking-luncheon-featuring-juniper/event-summary-839a98e0bf9042ff93f1c312229fe510.aspx?i=dc1c9fa8-3df1-42b3-b4f5-4403a23efe5d)  _(tags: kc, networking, research)_
+- 2012-10-24: [rel=vcs-* microformat](http://joeyh.name/rfc/rel-vcs/)  _(tags: tweet)_
+- 2012-10-24: [The story of linux-{gate,vdso}.so « root'ing the net](http://blogs.igalia.com/aperez/2009/01/13/the-story-of-linux-gatevdsoso/)  _(tags: no_tag)_
+- 2012-10-21: [The Rust Programming Language](http://www.rust-lang.org)  _(tags: programming, security)_
+- 2012-10-21: [The Litigators | Johnson County Library | BiblioCommons](http://jocolibrary.bibliocommons.com/item/show/1123578036_the_litigators)  _(tags: books, wishlist)_
+- 2012-10-21: [Traditional Republicans for Common Sense - About Us](http://www.kansascommonsense.com/about_us.html)  _(tags: no_tag)_
+- 2012-10-21: [Kansas needs a loyal opposition to Brownback | Midwest Voices](http://voices.kansascity.com/entries/kansas-needs-loyal-opposition-brownback/)  _(tags: america, kc)_
+- 2012-10-21: [Sound of Cylons - YouTube](http://www.youtube.com/watch?v=iMUezhpuEoE)  _(tags: tweet)_
+- 2012-10-21: [Sage Notebook](http://nb.sagemath.org)  _(tags: someday, math, research, writing)_
+- 2012-10-20: [Filesystem — An Introduction to libuv](http://nikhilm.github.com/uvbook/filesystem.html)  _(tags: programming, security)_
+- 2012-10-20: [» Architecture ZeroVM: lightweight virtualization](http://zerovm.org/architecture/)  _(tags: vm, security)_
+- 2012-10-20: [Dazo-org/zerovm](https://github.com/Dazo-org/zerovm)  _(tags: programming, security)_
+- 2012-10-20: [ZeroVM: lightweight containers based on Google Native Client | Hacker News](http://news.ycombinator.com/item?id=3746222)  _(tags: no_tag)_
+- 2012-10-19: [Linear Types](http://c2.com/cgi/wiki?LinearTypes)  _(tags: no_tag)_
+- 2012-10-19: [Google announces new Samsung Chromebook, available for $249 on Monday (hands-on video and photos) | The Verge](http://www.theverge.com/2012/10/18/3521492/google-new-samsung-chromebook-249-monday)  _(tags: foreveryone, tweet)_
+- 2012-10-18: [Existential Types FTW -](https://www.precog.com/blog-precog-2/entry/existential-types-ftw)  _(tags: tweet)_
+- 2012-10-18: [rust : Kevin Cantu](https://launchpad.net/~kevincantu/+archive/rust)  _(tags: programming, ubuntu)_
+- 2012-10-18: [[Haskell-cafe] Encapsulation in Haskell](http://www.haskell.org/pipermail/haskell-cafe/2005-December/013344.html)  _(tags: programming)_
+- 2012-10-18: [Why Haskell matters - HaskellWiki](http://www.haskell.org/haskellwiki/Why_Haskell_matters)  _(tags: no_tag)_
+- 2012-10-18: [Getting started with Emacs 24 - (think)](http://batsov.com/articles/2011/10/09/getting-started-with-emacs-24/)  _(tags: no_tag)_
+- 2012-10-18: [emacs-snapshot Debian packages](http://emacs.naquadah.org)  _(tags: no_tag)_
+- 2012-10-18: [All newest Emacs versions, always : Damien Cassou](https://launchpad.net/~cassou/+archive/emacs)  _(tags: no_tag)_
+- 2012-10-18: [Doc project FAQ · mozilla/rust Wiki](https://github.com/mozilla/rust/wiki/Doc-project-FAQ)  _(tags: scm)_
+- 2012-10-18: [Rust Reference Manual](http://dl.rust-lang.org/doc/0.4/rust.html#pure-functions)  _(tags: rust, rustlang, fp)_
+- 2012-10-18: [Let's reconsider our "users" - Jack's](http://jacks.tumblr.com/post/33785796042/lets-reconsider-our-users)  _(tags: tweet)_
+- 2012-10-18: [Advantages of RDF over Relational Databases - ANSWERS](http://answers.semanticweb.com/questions/19183/advantages-of-rdf-over-relational-databases)  _(tags: tweet)_
+- 2012-10-18: [WebPlatform.org — Your Web, documented](http://www.webplatform.org)  _(tags: tweet)_
+- 2012-10-17: [Data-E in JSON — ERights.org Wiki](http://wiki.erights.org/mediawiki/index.php/Data-E_in_JSON)  _(tags: ocap)_
+- 2012-10-17: [[cap-talk] The Taming of the JavaScript](http://www.eros-os.org/pipermail/cap-talk/2009-June/012661.html)  _(tags: no_tag)_
+- 2012-10-17: [Yet another Java flaw allows “complete” bypass of security sandbox | Ars Technica](http://arstechnica.com/security/2012/09/yet-another-java-flaw-allows-complete-bypass-of-security-sandbox/)  _(tags: security)_
+- 2012-10-17: [Another Critical Security Flaw In Java Appears Before Oracle Has Even Resolved The Last One - Forbes](http://www.forbes.com/sites/andygreenberg/2012/09/25/another-critical-security-flaw-in-java-appears-before-oracle-has-even-resolved-the-last-one/)  _(tags: security)_
+- 2012-10-17: [DBMS Musings: Distinguishing Two Major Types of Column-Stores](http://dbmsmusings.blogspot.com/2010/03/distinguishing-two-major-types-of_29.html)  _(tags: database, architecture)_
+- 2012-10-17: [William Ting](http://williamting.com/posts/2012/05/30/migrating-from-jekyll-to-pelican/)  _(tags: no_tag)_
+- 2012-10-17: [Pelican, 9 months later](http://blog.notmyidea.org/pelican-9-months-later.html)  _(tags: publishing)_
+- 2012-10-17: [Hubbub | HTML Parsing Library](http://www.netsurf-browser.org/projects/hubbub/)  _(tags: no_tag)_
+- 2012-10-17: [NetSurf | User Information](http://www.netsurf-browser.org/documentation/info#JavaScript)  _(tags: no_tag)_
+- 2012-10-17: [Module time](http://dl.rust-lang.org/doc/0.4/std/time.html#function-now)  _(tags: programming, security)_
+- 2012-10-17: [rparse/TODO at master · jesse99/rparse · GitHub](https://github.com/jesse99/rparse/blob/master/TODO)  _(tags: no_tag)_
+- 2012-10-17: [cargo-central/packages.json at master · mozilla/cargo-central · GitHub](https://github.com/mozilla/cargo-central/blob/master/packages.json)  _(tags: programming)_
+- 2012-10-17: [Participants in the Web Cryptography Working Group - DBWG, the Working Groups Database](https://www.w3.org/2000/09/dbwg/details?group=54174&public=1)  _(tags: web, crypto, tweet)_
+- 2012-10-17: [701637 – DOM related GC | Cycle Collector Crash triggered by harfbuzz buffer overrun](https://bugzilla.mozilla.org/show_bug.cgi?id=701637)  _(tags: programming, security)_
+- 2012-10-17: [The State of Servo, Mozilla's parallelized Rust browser | Hacker News](http://news.ycombinator.com/item?id=4166428)  _(tags: no_tag)_
+- 2012-10-16: [Crate std](http://dl.rust-lang.org/doc/0.4/std/index.html)  _(tags: programming)_
+- 2012-10-16: [HTML parser-related datatypes - Google Groups](https://groups.google.com/forum/#!topic/mozilla.dev.servo/aMyWB7p6MaY)  _(tags: no_tag)_
+- 2012-10-16: [The Rust Language Tutorial](http://dl.rust-lang.org/doc/0.4/tutorial.html)  _(tags: no_tag)_
+- 2012-10-16: [SourceForge.net: CapROS: capros-devel](http://sourceforge.net/mailarchive/forum.php?thread_name=4BC8DFEE.4040500%40macslab.com&forum_name=capros-devel)  _(tags: no_tag)_
+- 2012-10-16: [LLVM - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Llvm)  _(tags: no_tag)_
+- 2012-10-16: [kittyguy / ccs-xenv / source / — Bitbucket](https://bitbucket.org/kittyguy/ccs-xenv/src)  _(tags: no_tag)_
+- 2012-10-16: [SourceForge.net: CapROS: capros-devel](http://sourceforge.net/mailarchive/forum.php?thread_name=4B8FE0C0.80402%40macslab.com&forum_name=capros-devel)  _(tags: no_tag)_
+- 2012-10-16: [Defense without violence](http://www.macslab.com/charlies/invincibility.html)  _(tags: world)_
+- 2012-10-16: [Xen - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Xen)  _(tags: vm)_
+- 2012-10-16: [Motherboard Specifications, MCP61PM-HM (Nettle) HP Pavilion a6030n Desktop PC | HP® Support](http://h10025.www1.hp.com/ewfrf/wc/document?docname=c00906137&tmp_task=prodinfoCategory&cc=us&dlc=en&lang=en&lc=en&product=3377275#N31)  _(tags: pc, hardware)_
+- 2012-10-15: [Sublime Text, Vi, Emacs: TypeScript enabled! - Interoperability @ Microsoft - Site Home - MSDN Blogs](http://blogs.msdn.com/b/interoperability/archive/2012/10/01/sublime-text-vi-emacs-typescript-enabled.aspx)  _(tags: emacs, javascript)_
+- 2012-10-15: [Language-theoretic Security](http://www.cs.dartmouth.edu/~sergey/langsec/)  _(tags: security, research)_
+- 2012-10-14: [The marshmallow test, revisited](http://www.washingtonpost.com/blogs/ezra-klein/wp/2012/10/13/the-marshmallow-test-revisited/)  _(tags: tweet)_
+- 2012-10-12: [any easy way to support WeakMap in node - Google Groups](https://groups.google.com/forum/?fromgroups=#!topic/nodejs/i0RBf63os9A)  _(tags: no_tag)_
+- 2012-10-12: [The Checkpoint Mechanism](http://www.capros.org/design-notes/Checkpoint.html)  _(tags: no_tag)_
+- 2012-10-12: [Persistence, Non-persistence, and Device Drivers](http://www.capros.org/design-notes/UserDrivers.html)  _(tags: no_tag)_
+- 2012-10-11: [Denial of service via hash collisions [LWN.net]](http://lwn.net/Articles/474912/)  _(tags: security, proramming)_
+- 2012-10-11: [Crit-bit trees](http://cr.yp.to/critbit.html)  _(tags: programming)_
+- 2012-10-10: [PostgreSQL: Documentation: 9.1: The Connection Service File](http://www.postgresql.org/docs/9.1/static/libpq-pgservice.html)  _(tags: database, sysadmin)_
+- 2012-10-10: [disnet/contracts.coffee @ GitHub](http://disnetdev.com/contracts.coffee/)  _(tags: javascript, programming)_
+- 2012-10-09: [Dear America: what is wrong with you?](http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2012/10/09/health/attention-disorder-or-not-children-prescribed-pills-to-help-in-school.html&OQ=_rQ3D1&OP=478b1d61Q2FFtu9FQ5DQ3C4rDQ3CQ3CsQ27FQ27Q7CQ3EQ27FQ3EQ7CFQ7CxFSuYPsSFYssuAsQ26Q3CAjQ5DQ26rQ3CDQ5DuDjQ3CDjAQ3Csj4SQ26PQ5DDuAjQ3BDur4DQ269uQ5DjQ3BQ26PPrjsQ3CjSuPQ3BjQ26Ajr4SQ3CQ3CPQ5CSsQ2AP)  _(tags: tweet)_
+- 2012-10-09: [The State of JavaScript](http://brendaneich.github.com/Strange-Loop-2012/#/)  _(tags: tweet, javascript)_
+- 2012-10-09: [WWW-Talk Jul-Sep 1994: Content-Transfer-Encoding: packets for HTTP](http://1997.webhistory.org/www.lists/www-talk.1994q3/1147.html)  _(tags: http, web, history)_
+- 2012-10-09: [Popcorn.js | The HTML5 Media Framework](http://popcornjs.org)  _(tags: no_tag)_
+- 2012-10-09: [How to Die - NYTimes.com](http://www.nytimes.com/2012/10/08/opinion/keller-how-to-die.html?smid=tw-share)  _(tags: no_tag)_
+- 2012-10-08: [WebPlatform.org — Your Web, documented](http://www1.webplatform.org)  _(tags: tweet)_
+- 2012-10-08: [Oatmeal fundraiser for Tesla museum is a triumph - Boing Boing](http://boingboing.net/2012/10/07/oatmeal-fundraiser-for-tesla-m.html)  _(tags: tweet)_
+- 2012-10-08: [Nobel Prize-winning NCI director tours area health facilities  / LJWorld.com](http://www2.ljworld.com/news/2012/oct/05/nobel-prize-winner-tours-facilities/)  _(tags: tweet)_
+- 2012-10-08: [Google, Microsoft, Facebook and Others Launch Web Platform Docs, A Web Standards Documentation Site | TechCrunch](http://techcrunch.com/2012/10/08/google-microsoft-facebook-and-others-launch-web-platform-docs-a-web-standards-documentation-site/)  _(tags: tweet)_
+- 2012-10-08: [osxmonad keybindings on Vimeo](http://vimeo.com/50960925)  _(tags: osxmonad, tweet)_
+- 2012-10-08: [Re: my revised proposal for ECB (was: Support for ECB - proposal for  a decision) from Zooko Wilcox-OHearn on 2012-10-08 (public-webcrypto@w3.org from October 2012)](http://lists.w3.org/Archives/Public/public-webcrypto/2012Oct/0018.html)  _(tags: tweet)_
+- 2012-10-08: [Bug #954595 “ImportError: cannot import name urandom from os” : Bugs : “python2.7” package : Ubuntu](https://bugs.launchpad.net/ubuntu/+source/python2.7/+bug/954595)  _(tags: no_tag)_
+- 2012-10-06: [Trouble with the Curve (2012) - IMDb](http://www.imdb.com/title/tt2083383/)  _(tags: movies, review, ***)_
+- 2012-10-06: [reference:file_and_folder_hierarchy [CrashPlan PROe Support]](http://www.crashplan.com/enterprise/support/doku.php/reference/file_and_folder_hierarchy)  _(tags: sysadmin)_
+- 2012-10-06: [SSDs save battery power, right? Wrong. -- Engadget](http://www.engadget.com/2008/07/01/ssds-save-battery-power-right-wrong/)  _(tags: hardware, battery, power)_
+- 2012-10-05: [[cap-talk] struggling to learn what techniques supplant passwords](http://www.eros-os.org/pipermail/cap-talk/2011-November/015050.html)  _(tags: security, architecture)_
+- 2012-10-05: [Draw Me Nearer Chords by Caedmons Call tabs @ Ultimate Guitar Archive](http://www.ultimate-guitar.com/print.php/id1020703/?transpose=0)  _(tags: chords, guitar)_
+- 2012-10-05: [Blog: "In-Home Monitoring in Support of Caregivers for Patients with Dementia" wins NSF US-Ignite grant – KUMC BMI](http://informatics.kumc.edu/work/blog/2012/09/dimentia-monitoring-nsf)  _(tags: tweet)_
+- 2012-10-05: [World Development Report - WDR 2013 Data](http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTWDRS/EXTNWDR2013/0,,contentMDK:23282924~pagePK:8261309~piPK:8258028~theSitePK:8258025,00.html)  _(tags: opendata, tweet)_
+- 2012-10-05: [PBS Statement Regarding October 3 Presidential Debate : PBS](http://www.pbs.org/about/news/archive/2012/statement-presidential-debate/)  _(tags: tweet)_
+- 2012-10-05: [What HTTP/2.0 Will Do For You](http://www.slideshare.net/mnot/what-http20-will-do-for-you)  _(tags: velocityconf, tweet)_
+- 2012-10-05: [Re: [http-auth] CRIME to Basic or Bearer Tokens](http://www.ietf.org/mail-archive/web/http-auth/current/msg01058.html)  _(tags: tweet)_
+- 2012-10-05: [Esprima and Harmony Module don&#039;t code today what you can&#039;t debug tomorrow](http://ariya.ofilabs.com/2012/06/esprima-and-harmony-module.html)  _(tags: harmony, typescript, tweet)_
+- 2012-10-05: [How to replace a Whirlpool Duet washer bellow tub door seal](http://appliancejunk.com/forums/index.php?topic=306.0)  _(tags: diy)_
+- 2012-10-05: [Replacement parts for Maytag MHWE300VW00 AUTOMATIC WASHER | AppliancePartsPros.com](http://www.appliancepartspros.com/partsearch/model.aspx?model_id=5519507)  _(tags: diy)_
+- 2012-10-04: [Performance Implications of Bundling and Minification on Web Browsing - Henrik's Blog - Site Home - MSDN Blogs](http://blogs.msdn.com/b/henrikn/archive/2012/06/17/performance-implications-of-bundling-and-minification-on-http.aspx)  _(tags: performance)_
+- 2012-10-04: [Snap poll, who won the debate?](http://mydd.com/2004/9/30/snap-poll-who-won-the-debate)  _(tags: tweet)_
+- 2012-10-04: [Mozilla Ignite](https://mozillaignite.org/judges/)  _(tags: no_tag)_
+- 2012-10-04: [Mozilla and National Science Foundation seek developers to build “apps from the future” | The Mozilla Blog](https://blog.mozilla.org/blog/2012/09/26/ignite/)  _(tags: no_tag)_
+- 2012-10-03: [Words Of War And Weakness: The Zero-Day Exploit Market](http://www.techweekeurope.co.uk/news/zero-day-exploit-vulnerabilties-cyber-war-91964)  _(tags: tweet)_
+- 2012-10-02: [TypeScript - Tutorial](http://www.typescriptlang.org/Tutorial/)  _(tags: no_tag)_
+- 2012-10-01: [Vesa Linja-ahon blogi: A group of Finnish math teachers write an open textbook in a weekend hackathon](http://linja-aho.blogspot.fi/2012/09/a-group-of-finnish-math-teachers-write.html)  _(tags: tweet)_
+- 2012-10-01: [The key to successful urban bike sharing programs](http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2012/09/30/sunday-review/to-encourage-biking-cities-forget-about-helmets.html&OQ=_rQ3D1Q26&OP=a6cd3d04Q2F!Vdi!Q2Axi!HHH!6i(Y!EVLQ24rVVis!sQ2BQ25s!Q2Bl!Q2FQ2B!Q249Q2AE-xQ5CreQ7CKeH!iVQ5CeQ2ALV9r-NeQ5CQ3DKoKQ2ANQ5CLKiKeQ24Q5C4VrNeiQ5C-Q3DV9iQ5C6eY(eiQ24Q3E6i(Y)  _(tags: tweet)_
+- 2012-10-01: [Toward a Formalism for Communication On the Web](http://www.w3.org/MarkUp/html-spec/html-essay.html)  _(tags: webhistory, tweet)_
+- 2012-10-01: [The Case for Abolishing Patents (Yes, All of Them) - Business - The Atlantic](http://www.theatlantic.com/business/print/2012/09/the-case-for-abolishing-patents-yes-all-of-them/262913/)  _(tags: tweet)_
+- 2012-10-01: [URL Standard](http://url.spec.whatwg.org)  _(tags: tweet)_

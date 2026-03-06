@@ -1,0 +1,126 @@
+---
+title: January 2014 Bookmarks: research, linux, and python
+date: 2014-01-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "android", "bitcoin", "collaboration", "data", "fail", "firefox", "fp", "geo", "gtd", "hardware", "haskell", "health", "kc", "logic", "mac", "me", "pc", "programming", "python", "quality", "research", "rustlang", "scala", "scm", "sql", "sysadmin", "ubuntu", "vm"]
+---
+
+Shared bookmarks saved in January 2014.
+
+- total bookmarks: 112
+- total annotations captured: 45
+
+## Links
+
+- 2014-01-30: [Official Blog: Lenovo to acquire Motorola Mobility](http://googleblog.blogspot.com/2014/01/lenovo-to-acquire-motorola-mobility.html)  _(tags: tweet)_
+- 2014-01-30: [Pilot Project Begins To Replace Your Hotel Key With Your Smartphone Using Bluetooth  |  TechCrunch](http://techcrunch.com/2014/01/27/pilot-project-begins-to-replace-your-hotel-key-with-your-smartphone-using-bluetooth/)  _(tags: tweet)_
+- 2014-01-28: [SELinux FAQ](http://docs.fedoraproject.org/en-US/Fedora/13/html/SELinux_FAQ/index.html#id4626257)  _(tags: no_tag)_
+- 2014-01-28: [Minnesota is cancelled tomorrow](http://i.imgur.com/tu0UBZn.jpg)  _(tags: tweet)_
+- 2014-01-28: [DOJ Says Company That Vetted Snowden Faked 665,000 Background Checks | Techdirt](http://www.techdirt.com/articles/20140124/12433225982/doj-says-company-that-vetted-snowden-faked-665000-background-checks.shtml)  _(tags: tweet)_
+- 2014-01-27: [ubuntu - How to boot EC2 instance into `safe mode'? - Server Fault](http://serverfault.com/questions/170858/how-to-boot-ec2-instance-into-safe-mode)  _(tags: no_tag)_
+- 2014-01-27: [The New Adventures of Stephen Fry  &raquo;  Mac at 30](http://www.stephenfry.com/2014/01/24/mac-at-30/#sthash.ytZzcYJs.uxfs)  _(tags: tweet)_
+- 2014-01-22: [BlueHost VS Arvixe - Web Hosting Comparison](http://wpmatter.com/bluehost-vs-arvixe/)  _(tags: no_tag)_
+- 2014-01-22: [mysql-connector-python 1.1.4 : Python Package Index](https://pypi.python.org/pypi/mysql-connector-python/1.1.4)  _(tags: no_tag)_
+- 2014-01-20: [Want to Buy a SSL Certificate? - Powered by Kayako Fusion Help Desk Software](https://support.arvixe.com/index.php?/Knowledgebase/Article/View/153/17/want-to-buy-a-ssl-certificate)  _(tags: no_tag)_
+- 2014-01-20: [Proper Phone Etiquette in the Workplace | Everyday Life - Global Post](http://everydaylife.globalpost.com/proper-phone-etiquette-workplace-1129.html)  _(tags: no_tag)_
+- 2014-01-20: [How To Professionally Put A Caller On Hold](http://operationstech.about.com/od/businesstelephonesystems/a/PhoneOnHold.htm)  _(tags: no_tag)_
+- 2014-01-19: [trunk - Chameleon Svn Source Tree - Chameleon open source boot loader project.](http://forge.voodooprojects.org/p/chameleon/source/tree/HEAD/trunk)  _(tags: no_tag)_
+- 2014-01-19: [CDS Repository - /www/stage/session-31/cds/vmw-desktop/fusion/6.0.2/1398658/packages](http://softwareupdate.vmware.com/cds/vmw-desktop/fusion/6.0.2/1398658/packages/)  _(tags: no_tag)_
+- 2014-01-19: [Download VMware Workstation 10.0 - My VMware](https://my.vmware.com/group/vmware/details?downloadGroup=WKST-1001-LX&productId=362&rPId=4540#product_downloads)  _(tags: no_tag)_
+- 2014-01-19: [Kasun's Blog: How to Remove VMware Player in Linux](http://kasunc.blogspot.com/2012/03/how-to-remove-vmware-player-in-linux.html)  _(tags: no_tag)_
+- 2014-01-19: [Install Mac OSX Snow Leopard 10.6.6 VMware on Windows PC](http://geeknizer.com/install-mac-osx-snow-leopard-10-6-6-vmware-on-windows-pc/)  _(tags: vm, mac)_
+- 2014-01-19: [Installation Guides - OSx86](http://wiki.osx86project.org/wiki/index.php/Installation_Guides)  _(tags: no_tag)_
+- 2014-01-19: [The need to explain a newspaper. | No Such Weblog](http://blog.does-not-exist.org/2014/01/18/the-need-to-explain-a-newspaper/)  _(tags: tweet)_
+- 2014-01-18: [A Scala Corrections Library](http://www.slideshare.net/extempore/a-scala-corrections-library)  _(tags: scala, tweet)_
+- 2014-01-18: [Blink-in-JavaScript from ; enables developers to w](https://t.co/PP2ranAdHp)  _(tags: tweet)_
+- 2014-01-17: [proxy - PHP file can access global net from terminal, but not from apache - Stack Overflow](http://stackoverflow.com/questions/15215967/php-file-can-access-global-net-from-terminal-but-not-from-apache)  _(tags: no_tag)_
+- 2014-01-17: [introduction: Dan Connolly from Dan Connolly on 2006-07-25 (public-grddl-wg@w3.org from July 2006)](http://lists.w3.org/Archives/Public/public-grddl-wg/2006Jul/0001.html)  _(tags: me)_
+- 2014-01-17: [How to enable developer settings on Android 4.2 | Android Central](http://www.androidcentral.com/how-enable-developer-settings-android-42)  _(tags: no_tag)_
+- 2014-01-16: [How SteamCannon Compares to AWS Elastic Beanstalk | SteamCannon | Planet JBoss Community](http://planet.jboss.org/post/how_steamcannon_compares_to_aws_elastic_beanstalk)  _(tags: no_tag)_
+- 2014-01-16: [How to install Oracle Java 7 in an Amazon Elastic Beanstalk instance - Stack Overflow](http://stackoverflow.com/questions/18968387/how-to-install-oracle-java-7-in-an-amazon-elastic-beanstalk-instance)  _(tags: no_tag)_
+- 2014-01-16: [Drupal 7 - Content Management Framework powered by TurnKey Linux on AWS Marketplace](https://aws.amazon.com/marketplace/pp/B009I72RZ2?sr=0-107&qid=1379758873274)  _(tags: no_tag)_
+- 2014-01-16: [Frequently Asked Questions | TurnKey Linux](http://www.turnkeylinux.org/faq)  _(tags: no_tag)_
+- 2014-01-16: [Wells Fargo organizes meet to discuss Bitcoin rules: FT| Reuters](http://www.reuters.com/article/2014/01/14/us-wellsfargo-bitcoin-idUSBREA0D1LL20140114)  _(tags: bitcoin, tweet)_
+- 2014-01-16: [I'll be damned, someone finally A/B tested booth b](http://boingboing.net/2014/01/15/booth-babes-are-bad-for-busine.html?utm_source=dlvr.it&utm_medium=twitter)  _(tags: tweet)_
+- 2014-01-15: [KU Medical Center researchers receive more than $10 million to pursue new translational research projects](http://www.kumc.edu/news-listing-page/pcori-grant-awards.html)  _(tags: kudiscoveries, tweet)_
+- 2014-01-15: [Snowflake Joins](https://snowflakejoins.com/index.html)  _(tags: sql, collaboration)_
+- 2014-01-15: [Snowflake Joins](https://snowflakejoins.com/fossil/tos.html)  _(tags: sql, collaboration)_
+- 2014-01-14: [DRMacIver/testmachine · GitHub](https://github.com/DRMacIver/testmachine)  _(tags: python, quality, programming)_
+- 2014-01-14: [untitled](http://nbviewer.ipython.org/gist/catherinedevlin/6588378)  _(tags: no_tag)_
+- 2014-01-14: [Proof Market - An answer](https://proofmarket.org/problem/viewa/40)  _(tags: tweet)_
+- 2014-01-14: [Robert O'Callahan: Web Specifications And The Frame Problem](http://feedly.com/e/vlLKZVQZ)  _(tags: tweet)_
+- 2014-01-14: [natefaubion/adt-simple · GitHub](https://github.com/natefaubion/adt-simple)  _(tags: fantasyland, tweet)_
+- 2014-01-14: [Trust but Verify | Brendan Eich](https://brendaneich.com/2014/01/trust-but-verify/)  _(tags: no_tag)_
+- 2014-01-14: [Simon Lin | LinkedIn](http://www.linkedin.com/in/genomics)  _(tags: health, research)_
+- 2014-01-13: [Web Viewer FAQs - GoToMeeting](http://support.citrixonline.com/en_US/gotomeeting/all_files/GTM130019#Linux)  _(tags: no_tag)_
+- 2014-01-13: [How one government agency builds great web products | Matthew Burton](http://matthewburton.org/government-web-products/)  _(tags: tweet)_
+- 2014-01-13: [HTTP/2 Considerations and Tradeoffs - Insouciant](https://insouciant.org/tech/http-slash-2-considerations-and-tradeoffs/)  _(tags: tweet)_
+- 2014-01-13: [The Rust language: memory, ownership and lifetimes - Nicholas Matsakis (linux.conf.au 2014) - YouTube](http://www.youtube.com/watch?v=gfCtbGiHcg0)  _(tags: rustlang, tweet)_
+- 2014-01-12: [Paying for college | Admissions | Kansas State University](http://www.k-state.edu/admissions/finaid/)  _(tags: no_tag)_
+- 2014-01-11: [FFmpeg and a thousand fixes | j00ru//vx tech blog](http://j00ru.vexillium.org/?p=2211)  _(tags: tweet)_
+- 2014-01-11: [A New Hampshire Rebellion for Aaron Swartz - The Daily Beast](http://www.thedailybeast.com/articles/2014/01/10/a-new-hampshire-rebellion-for-aaron-swartz.html)  _(tags: tweet)_
+- 2014-01-10: [[rust-dev] Rust 0.9 released](https://mail.mozilla.org/pipermail/rust-dev/2014-January/007753.html)  _(tags: tweet)_
+- 2014-01-10: [W3C Advisory Committee Elects Technical Architecture Group  | W3C News](http://www.w3.org/blog/news/archives/3570)  _(tags: tweet)_
+- 2014-01-09: [For Volunteers | Pioneers](https://pioneersresearch.org/volunteers#content-59)  _(tags: tweet)_
+- 2014-01-08: [Database administrator workshop: 11gR2: setup a larger /dev/shm after ORA-00845: MEMORY_TARGET not supported on this system](http://dbaworkshop.blogspot.com/2010/04/11gr2-setup-larger-devshm-after-ora.html)  _(tags: no_tag)_
+- 2014-01-08: [MEMORY_TARGET not supported on this system | Oracle Forums](https://community.oracle.com/message/4499546)  _(tags: no_tag)_
+- 2014-01-08: [patchwork](http://jk.ozlabs.org/projects/patchwork/)  _(tags: collaboration, scm)_
+- 2014-01-08: [This is the endgame of frictionless onboarding, fwiw. https:...](https://www.facebook.com/unsupportedbrowser)  _(tags: tweet)_
+- 2014-01-08: [Intel® Edison Development Board—The SD* Card-Sized Computer](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)  _(tags: tweet)_
+- 2014-01-08: [Reading: Pathways to Success for Multi-Site Clinic](http://repository.academyhealth.org/cgi/viewcontent.cgi?article=1041&context=egems)  _(tags: tweet)_
+- 2014-01-08: [How's My SSL?](https://www.howsmyssl.com)  _(tags: tweet)_
+- 2014-01-08: [Colbiwiki: A New Diet and Exercise](http://colbiwiki.blogspot.com/2014/01/a-new-diet-and-exercise.html?spref=tw)  _(tags: missional, tweet)_
+- 2014-01-08: [Security Legend Bruce Schneier Joins Co3 | Co3 Systems](https://www.co3sys.com/blog-post/security-legend-bruce-schneier-joins-co3?utm_source=hootsuite&utm_campaign=hootsuite)  _(tags: tweet)_
+- 2014-01-08: [Jake Wharton - Google+ - Scalpel - A surgical debugging tool to uncover the layers…](https://plus.google.com/+JakeWharton/posts/fi57gGEb8kZ)  _(tags: tweet)_
+- 2014-01-08: [Using Rust for an Undergraduate OS Course](http://rust-class.org/pages/using-rust-for-an-undergraduate-os-course.html)  _(tags: rustlang, tweet)_
+- 2014-01-08: [Peter Norvig builds an arbitrary regex golf solver](http://nbviewer.ipython.org/url/norvig.com/ipython/xkcd1313.ipynb)  _(tags: tweet)_
+- 2014-01-08: [Space Oddity (David Bowie + Kristen Wiig) - The Secret Life of Walter Mitty - YouTube](http://www.youtube.com/watch?v=ZrZlhD0Oeto)  _(tags: no_tag)_
+- 2014-01-06: [SNOMED | Caregraf](http://www.caregraf.info/blog/topic/datasets/snomed)  _(tags: health, research, data)_
+- 2014-01-06: [TerminologyAlignment - gpc-informatics](http://informatics.gpcnetwork.org/trac/Project/wiki/TerminologyAlignment)  _(tags: no_tag)_
+- 2014-01-06: [installation - How do I install Adobe Flash player? - Ask Ubuntu](http://askubuntu.com/questions/11/how-do-i-install-adobe-flash-player)  _(tags: sysadmin, ubuntu)_
+- 2014-01-06: [Diigo Toolbar | Diigo](https://www.diigo.com/tools/toolbar)  _(tags: sysadmin, firefox)_
+- 2014-01-05: [NSA Warns of Rogue System Administrators 1996](http://cryptome.org/2014/01/nsa-rogue-sysadmins.htm)  _(tags: snowden, tweet)_
+- 2014-01-05: [boot2docker/boot2docker at master · steeve/boot2docker · GitHub](https://github.com/steeve/boot2docker/blob/master/boot2docker)  _(tags: tweet)_
+- 2014-01-05: [Tidal &#8211; mini language for live coding pattern | TOPLAP](http://toplap.org/tidal/)  _(tags: haskell, tweet)_
+- 2014-01-05: [mnot’s blog: Strengthening HTTP: A Personal View](http://www.mnot.net/blog/2014/01/04/strengthening_http_a_personal_view?utm_source=dlvr.it&utm_medium=twitter)  _(tags: tweet)_
+- 2014-01-05: [Emacs Needs To Move To GitHub, Says ESR - Slashdot](http://developers.slashdot.org/story/14/01/02/1425203/emacs-needs-to-move-to-github-says-esr)  _(tags: no_tag)_
+- 2014-01-05: [Coding Horror: A SSD in Your Pocket](http://www.codinghorror.com/blog/2012/11/a-ssd-in-your-pocket.html)  _(tags: no_tag)_
+- 2014-01-05: [Coding Horror: You Don't Need Millions of Dollars](http://www.codinghorror.com/blog/2013/10/you-dont-need-millions-of-dollars.html)  _(tags: no_tag)_
+- 2014-01-05: [Rants, Raves and Ridicule: Embedding the Scala Interpreter](http://suereth.blogspot.com/2009/04/embedding-scala-interpreter.html)  _(tags: no_tag)_
+- 2014-01-05: [Frequently Asked Questions - NearlyFreeSpeech.NET](https://www.nearlyfreespeech.net/about/faq?&keywords=python&form=1)  _(tags: no_tag)_
+- 2014-01-04: [fogo archive: telagent rides again (IRQ roulette) by Dan Connolly](http://impressive.net/archives/fogo/3B8A5B09.E581659F@w3.org)  _(tags: no_tag)_
+- 2014-01-04: [Photo: DanC and Stuart](http://impressive.net/people/gerald/2008/02/29/14-31-08-sm.html)  _(tags: no_tag)_
+- 2014-01-04: [fogo archive: wireless at home again, at last! by Dan Connolly](http://impressive.net/archives/fogo/3B94DFF6.C80F4BF5@w3.org)  _(tags: pc, hardware, sysadmin)_
+- 2014-01-04: [User:Www.madmode.com - IndieWebCamp](http://indiewebcamp.com/User:Www.madmode.com)  _(tags: me)_
+- 2014-01-04: [Laurent Eschenauer | What's next Google? Dropping SMTP support?](https://eschnou.com/entry/whats-next-google--dropping-smtp-support--62-24930.html)  _(tags: no_tag)_
+- 2014-01-04: [web hosting - IndieWebCamp](http://indiewebcamp.com/web_hosting)  _(tags: no_tag)_
+- 2014-01-04: [Using Vagrant (Mac, Linux) - Docker Documentation](http://docs.docker.io/en/latest/installation/vagrant/)  _(tags: tweet)_
+- 2014-01-04: [Losing Aaron: Bob Swartz on MIT&#039;s Role in His Son&#039;s Death | Boston Magazine](http://www.bostonmagazine.com/news/article/2014/01/02/bob-swartz-losing-aaron/print/)  _(tags: tweet)_
+- 2014-01-03: [Leading at the code-face](http://pieces.stef.io/pieces/leading-at-the-code-face)  _(tags: tweet)_
+- 2014-01-03: [It's my web! A ten week course to teach the basics of web design](http://people.mozilla.org/~cmills/st-chads/)  _(tags: tweet)_
+- 2014-01-03: [Awesome. I endorse  for the W3C TAG –](http://t.co/RW17MVmxey)  _(tags: tweet)_
+- 2014-01-02: [The Art of Non-Conformity » How to Conduct Your Own Annual Review](http://chrisguillebeau.com/3x5/how-to-conduct-your-own-annual-review/)  _(tags: gtd)_
+- 2014-01-02: [Annual Dinner 2013: Featured Presenter, Stephen Kingsmore, “How Genomic Medicine is Helping the Children of Kansas City” on Vimeo](http://vimeo.com/75930329)  _(tags: health, research, kc)_
+- 2014-01-02: [Annual Dinner 2013: Keynote Speaker, John Wilbanks, "If You're Not Selling Data, You Should Be Sharing It"](http://vimeo.com/80917386)  _(tags: health, research, kc, someday)_
+- 2014-01-02: [Annual Dinner | Kansas City Area Life Sciences Institute](http://www.kclifesciences.org/events/annual-dinner/)  _(tags: health, research, kc)_
+- 2014-01-02: [Proof Market](https://proofmarket.org)  _(tags: coq, bitcoin, tweet)_
+- 2014-01-01: [How do I "Add to Contacts" from a POI in the new Google Maps on Android?](http://productforums.google.com/forum/#!topic/maps/rlVlvaDvtMc)  _(tags: android, geo, fail)_
+- 2014-01-01: [Has Add to Contacts Feature Been Removed w July 2013 Upgrade?](http://0-productforums.google.com.library.ccbcmd.edu/forum/#!topic/maps/j4ZaIep95LI)  _(tags: no_tag)_
+- 2014-01-01: [Recovering damaged CDs or DVDs with Linux | The Hyperlogos](http://hyperlogos.org/page/Recovering-damaged-CDs-or-DVDs-Linux)  _(tags: no_tag)_
+- 2014-01-01: ['I will match my spending on movies with donations in memory of Aaron Swartz' - PledgeBank](http://www.pledgebank.com/aaronsw-match)  _(tags: no_tag)_
+- 2014-01-01: [Arvixe Review - web hosting reviews by real users](http://www.hostsearch.com/review/arvixe_review.asp)  _(tags: no_tag)_
+- 2014-01-01: [Aaron - Waxy.org](http://waxy.org/2013/01/aaron/)  _(tags: tweet)_
+- 2014-01-01: [What Could Have Entered the Public Domain on January 1, 2014?](http://web.law.duke.edu/cspd/publicdomainday/2014/pre-1976)  _(tags: tweet)_
+- 2014-01-01: [Character Transformations](http://websec.github.io/unicode-security-guide/character-transformations/)  _(tags: tweet)_
+- 2014-01-01: [Open WhisperSystems >> Blog >> BitHub = Bitcoin + GitHub. An experiment in funding privacy OSS.](https://whispersystems.org/blog/bithub/)  _(tags: tweet)_
+- 2014-01-01: [Unboxing the new laptop](http://norman.walsh.name//2013/12/26/unboxing)  _(tags: no_tag)_
+- 2014-01-01: [Python 2.7.6 Release](http://python.org/download/releases/2.7.6/)  _(tags: no_tag)_
+- 2014-01-01: [How to Create Your Own Python Environment Locally in Your Shared Hosting Account | Arvixe Blog](http://blog.arvixe.com/create-your-own-python-enviroment-locally-in-your-shared-hosting-account/)  _(tags: no_tag)_
+- 2014-01-01: [Optimizing Dreamhost performance? | Drupal.org](https://drupal.org/node/120736)  _(tags: no_tag)_
+- 2014-01-01: [Dreamhost’s MySQL servers are slow and oversold « Colin Ligertwood – Freelance Web Developer](http://brainbits.ca/dreamhosts-mysql-servers-are-slow-and-oversold/)  _(tags: no_tag)_
+- 2014-01-01: [Private mySQL server on dreamhost makes a difference!](http://teaminterrobang.com/showthread.php?36096-Private-mySQL-server-on-dreamhost-makes-a-difference!)  _(tags: no_tag)_
+- 2014-01-01: [[Numpy-discussion] Enum/Factor NEP (now with code)](http://mail.scipy.org/pipermail/numpy-discussion/2012-June/062744.html)  _(tags: no_tag)_
+- 2014-01-01: [r - Closest equivalent of a factor variable in Python Pandas - Stack Overflow](http://stackoverflow.com/questions/15124439/closest-equivalent-of-a-factor-variable-in-python-pandas)  _(tags: no_tag)_
+- 2014-01-01: [Group By: split-apply-combine — pandas 0.13.0-15-g5e176a9 documentation](http://pandas.pydata.org/pandas-docs/dev/groupby.html#grouping-with-ordered-factors)  _(tags: no_tag)_
+- 2014-01-01: [Google Groups](https://groups.google.com/forum/#!topic/pydata/5mn1jm_SBS8)  _(tags: no_tag)_
+- 2014-01-01: [http://www.cse.chalmers.se/~nad/repos/lib/src/Induction/WellFounded.agda](http://www.cse.chalmers.se/~nad/repos/lib/src/Induction/WellFounded.agda)  _(tags: programming, fp, logic, research)_

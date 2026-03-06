@@ -1,0 +1,163 @@
+---
+title: February 2024 Bookmarks: youtube, github, and ocaml
+date: 2024-02-01
+published: true
+tags: ["bookmarks", "diigo", "shared", "america", "cosmos", "data", "git", "hardware", "health", "kc", "music", "office", "opensource", "pdf", "security", "shopping", "usability", "world"]
+---
+
+Shared bookmarks saved in February 2024.
+
+- total bookmarks: 149
+- total annotations captured: 2
+
+## Links
+
+- 2024-02-26: [✨ Partnering with the  team, we've rolle...](https://t.co/3VEQQIZxqg)  _(tags: tweet)_
+- 2024-02-26: [untitled](https://t.co/tliMXUcuxc)  _(tags: tweet)_
+- 2024-02-26: [Adactio: Journal—Rotten Apple](https://adactio.com/journal/20888)  _(tags: tweet)_
+- 2024-02-26: [ATOM Denver Kickoff Call &#8211; TerraSpaces](https://terraspaces.org/2024/02/16/atom-denver-kickoff-call/)  _(tags: tweet)_
+- 2024-02-26: [untitled](https://t.co/X18qj6u53P)  _(tags: tweet)_
+- 2024-02-26: [Super Bowl 2024 to be powered by Nevada desert solar farm, marking a historic green milestone - CBS Miami](https://www.cbsnews.com/miami/news/super-bowl-2024-to-be-powered-by-nevada-desert-solar-farm/?intcid=CNM-00-10abd1h&linkId=318074414)  _(tags: tweet)_
+- 2024-02-26: [Most of the conversations that I have ab...](https://t.co/kHv3n2BKrO)  _(tags: tweet)_
+- 2024-02-26: [The risk of new-onset dementia after Covid in older adults (...](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4716751)  _(tags: tweet)_
+- 2024-02-26: [North America's PMRank comes to an end with our very best ta...](https://t.co/KNcesiZQL4)  _(tags: tweet)_
+- 2024-02-26: [To me it’s - good product, reliable net...](https://t.co/5PCvO7KcbE)  _(tags: tweet)_
+- 2024-02-26: [SimpleSwap | Cryptocurrency Exchange | Easy way to swap BTC to ETH, XRP, LTC, EOS, XLM](https://simpleswap.io/?utm_source=twitter&utm_medium=social&utm_campaign=smm_listing_120124)  _(tags: cryptocurrencies, babygrok, tweet)_
+- 2024-02-26: [Navigating the Attack Surface to achieve a *multiplicative* reduction in risk - YouTube](https://www.youtube.com/watch?v=wW9-KuezPp8)  _(tags: tweet)_
+- 2024-02-26: [alpha leak: you can pull cnidarium (the penumbra chain state...](https://t.co/gRh8ceepno)  _(tags: tweet)_
+- 2024-02-26: [News: I’m stepping down from the role of...](https://t.co/dBv4KMj8c7)  _(tags: tweet)_
+- 2024-02-26: [Essential ML papers:1. Transformers: A...](https://arxiv.org/pdf/1706.03762.pdf)  _(tags: tweet)_
+- 2024-02-26: [Pentagon Scientists Discuss Cybernetic &#x27;Super Soldiers&#x27; That Feel Nothing While Killing In Dystopian Presentation](https://www.vice.com/en/article/n7eky8/pentagon-scientists-discuss-cybernetic-super-soldiers-that-feel-nothing-while-killing-in-dystopian-presentation)  _(tags: tweet)_
+- 2024-02-26: [It’s built. It’s called .  On . In . Gra...](https://t.co/fLdI5VippK)  _(tags: tweet)_
+- 2024-02-26: [Y’all, if you’re a Nix newbie or builder...](https://determinate.systems/discord)  _(tags: tweet)_
+- 2024-02-26: [We're excited to introduce our audited ZK Email V1 SDK.  O...](https://t.co/4phuWlnqKi)  _(tags: tweet)_
+- 2024-02-26: [Sharing an exciting new resource that I helped build, Roon (...](https://t.co/HPtEL9nvaA)  _(tags: tweet)_
+- 2024-02-26: [llamafile is the new best way to run a LLM on your own compu...](https://t.co/jqrs0SnEV3)  _(tags: tweet)_
+- 2024-02-26: [Here’s Why Senators Want To Ban The TSA’...](https://www.forbes.com/sites/britneynguyen/2023/11/29/heres-why-senators-want-to-ban-the-tsas-facial-recognition-screening-at-airports/?utm_campaign=forbes&utm_medium=social&utm_source=twitter&utm_term=se-breaking)  _(tags: tweet)_
+- 2024-02-26: [GitHub - Mozilla-Ocho/llamafile: Distribute and run LLMs with a single file.](https://github.com/mozilla-Ocho/llamafile)  _(tags: tweet)_
+- 2024-02-26: [untitled](https://t.co/AY6NJ7f3x8)  _(tags: tweet)_
+- 2024-02-26: [Becca Balint: Cease-fire needed to stop bloodshed in Israel-Hamas conflict - VTDigger](https://vtdigger.org/2023/11/16/becca-balint-cease-fire-needed-to-stop-bloodshed-in-israel-hamas-conflict/)  _(tags: tweet)_
+- 2024-02-26: [The only philosopher of AI that I have any time to listen to...](https://t.co/nJLQru0sBy)  _(tags: tweet)_
+- 2024-02-26: [Gauntlet Inter Protocol Quarterly Updates Q3 2023 - General - Agoric Community Forum](https://community.agoric.com/t/gauntlet-inter-protocol-quarterly-updates-q3-2023/527)  _(tags: tweet)_
+- 2024-02-26: [As I move toward replacement of my Twitter usage with Linked...](https://www.linkedin.com/in/bobdc/recent-activity/all/)  _(tags: tweet)_
+- 2024-02-26: [Prototypes in JavaScript are mutable by default.In certain...](https://t.co/4SOaBsa1G8)  _(tags: tweet)_
+- 2024-02-26: [Linear Algebra Done Right](https://linear.axler.net)  _(tags: linearalgebra, tweet)_
+- 2024-02-26: [- YouTube](https://www.youtube.com/watch?v=Kp-PsRZbbCc)  _(tags: tweet)_
+- 2024-02-26: [Ukraine is reportedly using AI-equipped drones that can iden...](https://www.therundown.ai/p/ukraines-ai-attack-drones)  _(tags: tweet)_
+- 2024-02-26: [ProofMode: Verified Witnessing - Guardian Project](https://guardianproject.info/apps/org.witness.proofmode/)  _(tags: tweet)_
+- 2024-02-26: [A difference in company philosophy:: p...](https://t.co/mCp5WY1CGN)  _(tags: tweet)_
+- 2024-02-26: [occasionally there are Really Good Ideas...](https://t.co/iQVgqlmNdO)  _(tags: tweet)_
+- 2024-02-26: [Today at the  2023 conference in Paris, Jasper will be prese...](https://arxiv.org/abs/2308.10613)  _(tags: brains, cosmos, tweet)_
+- 2024-02-26: [People ask me all the time if I am "pro-...](https://t.co/jWL0X7BIz9)  _(tags: tweet)_
+- 2024-02-26: [The two primary forces employed by the C...](https://t.co/zQSbBsGyzu)  _(tags: tweet)_
+- 2024-02-26: [&quot;The Economics of Programming Languages&quot; by Evan Czaplicki (Strange Loop 2023) - YouTube](https://www.youtube.com/watch?v=XZ3w_jec1v8&feature=youtu.be)  _(tags: tweet)_
+- 2024-02-26: [The purpose of the military (Tuberville) and diplomatic (Pau...](https://t.co/v8NMgImigM)  _(tags: tweet)_
+- 2024-02-26: [I'm glad I had the chance to present  my...](https://t.co/NFPv1EWYK8)  _(tags: tweet)_
+- 2024-02-26: [Alabama has a new, fairer congressional ...](https://t.co/eIK8Ivoxsv)  _(tags: tweet)_
+- 2024-02-26: [This is Marion Stokes, a Philadelphia li...](https://t.co/kZOeyVmNRL)  _(tags: tweet)_
+- 2024-02-26: [The evolution of LLMs over the next coup...](https://t.co/Rx77CFTD9u)  _(tags: tweet)_
+- 2024-02-26: [Our Towns Civic Foundation](https://www.ourtownsfoundation.org)  _(tags: tweet)_
+- 2024-02-26: [untitled](https://tinyurl.com/bdfvzf9b)  _(tags: tezosfoundation, tweet)_
+- 2024-02-26: [I'm old enough to remember "Photoshop could never be a web a...](https://t.co/3XavFgMQuC)  _(tags: tweet)_
+- 2024-02-26: [With many](https://t.co/kjT79Mw62q)  _(tags: tweet)_
+- 2024-02-26: [Today, we are happy to announce the work we have done so far...](https://t.co/VC7JibL5QY)  _(tags: tweet)_
+- 2024-02-26: [Here is George Clooney response after Tr...](https://t.co/p2Yfu0MYEZ)  _(tags: tweet)_
+- 2024-02-26: [Word is out: Microsoft is plunging ahead...](https://t.co/reWs3WUvEr)  _(tags: tweet)_
+- 2024-02-26: [Urban Planning Opinion Progression  https://t.co/hVpdE9peO5](https://xkcd.com/2832)  _(tags: tweet)_
+- 2024-02-26: [DYdX Founder Antonio Juliano in Exclusive Interview Discusses Blockchain&#x27;s Migration to Cosmos](https://www.coindesk.com/tech/2023/09/20/we-cant-build-something-like-this-on-ethereum-says-dydx-founder-as-mainnet-nears/?utm_source=twitter&utm_content=editorial&utm_term=organic&utm_campaign=coindesk_main&utm_medium=social)  _(tags: tweet)_
+- 2024-02-26: [In Minneapolis and St. Paul, parking reform has helped incre...](https://www.strongtowns.org/journal/2023/9/15/ending-minimum-parking-requirements-was-a-policy-win-for-the-twin-cities)  _(tags: tweet)_
+- 2024-02-26: [If someone told me this was an SNL skit ...](https://t.co/JBiS2HGcST)  _(tags: tweet)_
+- 2024-02-26: [untitled](https://t.co/5YLvJXDc0P)  _(tags: tweet)_
+- 2024-02-26: [Unlock the interchain with  Snaps Open B...](https://t.co/bm77fiULAv)  _(tags: tweet)_
+- 2024-02-26: [Meijer now accepts your Team Cuban Card ...](https://t.co/vjWrm9aTac)  _(tags: tweet)_
+- 2024-02-26: [Terribly sad news. Farewell to a tireless advocate for a kin...](https://t.co/q6gfn4vocF)  _(tags: webstandards, tweet)_
+- 2024-02-26: [Semver violations are common, better tooling is the answer](https://predr.ag/blog/semver-violations-are-common-better-tooling-is-the-answer/)  _(tags: tweet)_
+- 2024-02-26: [Phi-1 is finally out, and there's a bonus: In addition to co...](https://arxiv.org/abs/2309.05463)  _(tags: tweet)_
+- 2024-02-26: [His last paper, with a little help from me, July 31, 2023:](https://arxiv.org/abs/2308.04445)  _(tags: tweet)_
+- 2024-02-26: [Do this test to see if you'll live longe...](https://t.co/0EntYuAgH2)  _(tags: tweet)_
+- 2024-02-26: [A New Take on Software Code Security: The Open Source Consumption Manifesto](https://opensourcewatch.beehiiv.com/p/new-take-software-code-security-open-source-consumption-manifesto)  _(tags: opensource, security, tweet)_
+- 2024-02-26: [Here is probably the most useful GPT-4 p...](https://t.co/7bJ67EgIn8)  _(tags: tweet)_
+- 2024-02-26: [FlakeHub](https://flakehub.com)  _(tags: tweet)_
+- 2024-02-26: [. offers are now fully rendered within  ...](https://t.co/xWGIphPl2D)  _(tags: tweet)_
+- 2024-02-26: [President Jimmy Carter is said by his fa...](https://t.co/P6bYP1IDNc)  _(tags: tweet)_
+- 2024-02-26: [A raid on a Kansas newspaper likely broke the law, experts say. But which one? | AP News](https://apnews.com/article/kansas-newspaper-raid-marion-county-record-bead3f49d323c784d40154067141dc7c?utm_campaign=TrueAnthem&utm_medium=AP&utm_source=Twitter)  _(tags: tweet)_
+- 2024-02-26: [How to share  papers](https://arxiv.org)  _(tags: tweet)_
+- 2024-02-26: [D. J. Bernstein / Papers](https://cr.yp.to/papers.html)  _(tags: tweet)_
+- 2024-02-26: [Another wonderful blog post from Vitalik...](https://t.co/TSnoc85Lr1)  _(tags: tweet)_
+- 2024-02-26: [This story is wild, terrifying, and should be seen by everyo...](https://t.co/0key88i8kZ)  _(tags: tweet)_
+- 2024-02-26: [Now posted HOL Light formalizations of the same theorems abo...](https://t.co/5x2nAlsXxE)  _(tags: tweet)_
+- 2024-02-26: [Just before she died, Joan Meyer, a news...](https://t.co/k3QQTiQGYI)  _(tags: tweet)_
+- 2024-02-26: [Moddable Blog | Introducing Moddable Four](https://www.moddable.com/blog/introducing-moddable-four/)  _(tags: tweet)_
+- 2024-02-26: [I also think that this video is a great ...](https://t.co/EOlnMCOnLo)  _(tags: tweet)_
+- 2024-02-26: [Zcon4 - Day 2 Track 2 #zcash - YouTube](https://www.youtube.com/live/wQqUWzBbf6E?feature=share&t=1007)  _(tags: tweet)_
+- 2024-02-26: [This is something I’ve been working on f...](https://t.co/byOdFPnEH1)  _(tags: tweet)_
+- 2024-02-26: [Local advocates say this set of land-use ordinance revisions...](https://www.strongtowns.org/journal/2023/8/2/houston-tackles-missing-middle-housing-with-major-land-use-reform)  _(tags: tweet)_
+- 2024-02-26: [I finally stopped using 1Password today, after 10 years.Th...](https://proton.me/pass)  _(tags: tweet)_
+- 2024-02-26: [Extremely good news: unionized workers propose exit to commu...](https://vinepair.com/booze-news/anchor-employees-brewery-takeover-bid/)  _(tags: tweet)_
+- 2024-02-26: [The day nobody saw the planet burning. Or maybe: the day the...](https://t.co/EaYqQOxyE1)  _(tags: tweet)_
+- 2024-02-26: [Sometimes clever people just end up being intricately, impre...](https://t.co/iQqaelbasZ)  _(tags: tweet)_
+- 2024-02-26: [Lima](https://lima-vm.io)  _(tags: tweet)_
+- 2024-02-26: [untitled](https://t.co/WLXNtUyLqQ)  _(tags: tweet)_
+- 2024-02-26: [Noah Everett (@noah) on Glue](https://glue.im/noah)  _(tags: tweet)_
+- 2024-02-26: [File over appFile over app is a philos...](https://t.co/2D6LnfZUlz)  _(tags: tweet)_
+- 2024-02-26: [Efforts like these make JS a bit less cursed. Currently cham...](https://github.com/endojs/endo/blob/master/packages/ses/README.md)  _(tags: tweet)_
+- 2024-02-26: [3) Wastewater reuse is a large and growing source of water i...](https://t.co/vhLctYJEUd)  _(tags: tweet)_
+- 2024-02-26: [untitled](https://t.co/tsbN9VaRTd)  _(tags: tweet)_
+- 2024-02-26: [O(1) Labs is excited to submit a proposa...](https://t.co/ArAhablnrz)  _(tags: tweet)_
+- 2024-02-26: [I'm done with Red Hat (Enterprise Linux)](https://t.co/JuSpFFH8t5)  _(tags: tweet)_
+- 2024-02-26: [What do the Chaos Computer Club, Smithsonian, Louvre, Intern...](https://t.co/Ewh8YkyJRK)  _(tags: dwebcamp2023, tweet)_
+- 2024-02-26: [The K in &quot;neuro-symbolic&quot; stands for &quot;knowledge&quot; | PPT](https://www.slideshare.net/Frank.van.Harmelen/the-k-in-neurosymbolic-stands-for-knowledge)  _(tags: isws2013, tweet)_
+- 2024-02-26: [GitHub - magic-wormhole/magic-wormhole: get things from one computer to another, safely](https://github.com/magic-wormhole/magic-wormhole)  _(tags: tweet)_
+- 2024-02-26: [I was specifically talking about AF_INET dgram sockets, not AF_UNIX; I saw that ... | Hacker News](https://news.ycombinator.com/item?id=36385853)  _(tags: tweet)_
+- 2024-02-26: [For anyone interested, Aaron wrote a little about the rewrit...](https://t.co/fPvm8n3Sus)  _(tags: tweet)_
+- 2024-02-26: [When I say this is an unexpected move, I...](https://killedbygoogle.com)  _(tags: tweet)_
+- 2024-02-26: [Attention BLD stakers &amp; validators!...](https://wallet.keplr.app/chains/agoric/proposals/34)  _(tags: tweet)_
+- 2024-02-26: [1/ We just held our monthly Community Ca...](https://t.co/EklgtUagLZ)  _(tags: tweet)_
+- 2024-02-26: [Whoever organized the fake electors plot was part of a crimi...](https://t.co/ok8xKm14MQ)  _(tags: tweet)_
+- 2024-02-26: [1/ Exciting news - we're thrilled to ann...](https://t.co/qbsYRTT65w)  _(tags: tweet)_
+- 2024-02-26: [Zebra Stable Release - Zcash Foundation](https://zfnd.org/zebra-stable-release/)  _(tags: tweet)_
+- 2024-02-26: [Nixd: nix language server - Announcements - NixOS Discourse](https://discourse.nixos.org/t/nixd-nix-language-server/28910)  _(tags: tweet)_
+- 2024-02-26: [New for the ARK Alliance: stickers, tutorials, and code of c...](https://arks.org/blog/community-update-2023-06-13-stickers-tutorials-code-of-conduct/)  _(tags: tweet)_
+- 2024-02-26: [The supreme court decision banning Alabama's gerrymandered m...](https://t.co/bnsef1o4FT)  _(tags: tweet)_
+- 2024-02-26: [Release Blink 1.0 · jart/blink · GitHub](https://github.com/jart/blink/releases/tag/1.0.0)  _(tags: tweet)_
+- 2024-02-26: [Sci-fi writer Ted Chiang: ‘The machines we have now are not conscious’](https://www.ft.com/content/c1f6d948-3dde-405f-924c-09cc0dcf8c84?shareType=nongift)  _(tags: tweet)_
+- 2024-02-26: [Nomadic Labs](https://research-development.nomadic-labs.com/blog.html)  _(tags: tweet)_
+- 2024-02-26: [Dean Tribble (Agoric) - Agoric, IST and whats next? - YouTube](https://www.youtube.com/watch?v=g6DD8j0dPEI&feature=youtu.be)  _(tags: tweet)_
+- 2024-02-26: [Introducing the Bun BundlerA fast JavaScript bundler deepl...](https://t.co/mGPXr0cv7f)  _(tags: tweet)_
+- 2024-02-26: [GitHub - cachix/nixpkgs-python: All Python versions, kept up-to-date on hourly basis using Nix.](https://github.com/cachix/nixpkgs-python)  _(tags: tweet)_
+- 2024-02-26: [fantasai 71: Change of Affiliation](https://fantasai.inkedblade.net/weblog/2023/affiliation-change/)  _(tags: tweet)_
+- 2024-02-26: [Well deserved!Notable absent from all the announcements: s...](https://t.co/pr8S3wMTEF)  _(tags: tweet)_
+- 2024-02-26: [Save WACZ Now](https://inkdroid.org/2023/04/03/spn-wacz/)  _(tags: tweet)_
+- 2024-02-26: [ongoing by Tim Bray &#xb7; Bluesky Facts and Opinions](https://www.tbray.org/ongoing/When/202x/2023/04/28/Bluesky)  _(tags: tweet)_
+- 2024-02-26: [GitHub - zkonduit/ezkl: ezkl is an engine for doing inference for deep learning models and other computational graphs in a zk-snark (ZKML). Use it from Python, Javascript, or the command line.](https://github.com/zkonduit/ezkl)  _(tags: tweet)_
+- 2024-02-26: [ECOOP 2023 - Awards - ECOOP 2023](https://2023.ecoop.org/track/ecoop-2023-awards)  _(tags: tweet)_
+- 2024-02-26: [FFmpeg.guide - One stop solution to all things FFmpeg](https://ffmpeg.guide)  _(tags: tweet)_
+- 2024-02-21: [Buy MX Anywhere 3S Wireless Bluetooth Mouse | Logitech](https://www.logitech.com/en-us/products/mice/mx-anywhere-3s.910-006925.html)  _(tags: hardware, office, shopping)_
+- 2024-02-19: [Nix-powered development with OCaml - Dimitrije's Website](https://dimitrije.website/posts/2023-03-04-nix-ocaml.html)  _(tags: no_tag)_
+- 2024-02-19: [MyNatureWatch with a High Quality Raspberry Pi camera – PlanB](https://planb.nicecupoftea.org/2020/10/10/mynaturewatch-with-a-high-quality-raspberry-pi-camera/)  _(tags: no_tag)_
+- 2024-02-19: [One YouTube Embed weighs almost 1.2 MB—zachleat.com](https://www.zachleat.com/web/youtube-embeds/)  _(tags: no_tag)_
+- 2024-02-19: [All new sites now build on Netlify using the new Focal build image - Features / Updates - Netlify Support Forums](https://answers.netlify.com/t/all-new-sites-now-build-on-netlify-using-the-new-focal-build-image/42665/2)  _(tags: no_tag)_
+- 2024-02-18: [Tech For Campaigns Team](https://www.techforcampaigns.org/about-us)  _(tags: america, usability, security)_
+- 2024-02-18: [Repair cafes: Instead of buying a new device this Christmas, take your current one to be fixed | Euronews](https://www.euronews.com/green/2023/12/20/repair-cafes-save-money-and-the-environment-by-fixing-your-broken-electricals)  _(tags: earth, hardware)_
+- 2024-02-18: ['The Simon & Garfunkel Story' | Midwest Trust Center](https://www.jccc.edu/midwest-trust-center/events/2023-2024/simon-garfunkel.html)  _(tags: kc, music)_
+- 2024-02-18: [The Doo Wop Project | Midwest Trust Center](https://www.jccc.edu/midwest-trust-center/events/2023-2024/doo-wop-project.html)  _(tags: kc, music)_
+- 2024-02-18: [Trailblazing Talks with David McLain, Photographer | Kauffman Center for the Performing Arts](https://tickets.kauffmancenter.org/21203?queueittoken=e_waitingroom5~q_70555cdd-5863-4b04-a5b3-fbf11419314e~ts_1708262826~ce_true~rt_safetynet~h_0736e5c22c21e693eeb746bbbe6c24a3d7db71bd81a3b83886cd7a7d38303e53)  _(tags: kc, health)_
+- 2024-02-18: [OCaml Programming: Correct + Efficient + Beautiful — OCaml Programming: Correct + Efficient + Beautiful](https://cs3110.github.io/textbook/cover.html)  _(tags: no_tag)_
+- 2024-02-18: [OCaml Platform - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ocamllabs.ocaml-platform)  _(tags: no_tag)_
+- 2024-02-18: [Honesty, Heroism and Hope in Israel-Palestine: An evening with Combatants for Peace | by Danny Weitzner | Feb, 2024 | Medium](https://medium.com/@djweitzner/honesty-heroism-and-hope-in-israel-palestine-an-evening-with-combatants-for-peace-8bd894d471ff)  _(tags: world, conflict, america)_
+- 2024-02-17: [XCH.trade | Chia On-ramps and Off-ramps](https://xch.trade/ramps/)  _(tags: no_tag)_
+- 2024-02-17: [How to retrieve a file in git by its object hash | Lucas Wiman](https://lucaswiman.github.io/2020/09/23/how-to-retrieve-a-file-in-git-by-its-object-hash.html)  _(tags: no_tag)_
+- 2024-02-17: [get_call_stack in casper_contract::contract_api::runtime - Rust](https://docs.rs/casper-contract/4.0.0/casper_contract/contract_api/runtime/fn.get_call_stack.html)  _(tags: no_tag)_
+- 2024-02-17: [Writing mathematical expressions - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)  _(tags: no_tag)_
+- 2024-02-17: [Image to LaTeX](https://mathpix.com/image-to-latex)  _(tags: no_tag)_
+- 2024-02-16: [soft question - PDF to HTML conversion with accessible mathematics? - Mathematics Stack Exchange](https://math.stackexchange.com/questions/4840645/pdf-to-html-conversion-with-accessible-mathematics)  _(tags: no_tag)_
+- 2024-02-16: [Offers | Chialisp](https://chialisp.com/offers/)  _(tags: no_tag)_
+- 2024-02-16: [[2105.11827] Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus](https://arxiv.org/abs/2105.11827)  _(tags: no_tag)_
+- 2024-02-16: [SubQuery Network - The universal web3 data indexing toolkit](https://kepler.subquery.network/dashboard)  _(tags: no_tag)_
+- 2024-02-15: [Mark S. Miller | Misdiagnosing AGI risk - YouTube](https://www.youtube.com/watch?v=2bLHch6PBFE)  _(tags: no_tag)_
+- 2024-02-15: [e-lang: Types, Makers, and Inheritanc](http://zesty.ca/e-archive/msg00002.html)  _(tags: no_tag)_
+- 2024-02-09: [Convert PDF to Excel. PDF to XLS spreadsheets online](https://www.ilovepdf.com/pdf_to_excel)  _(tags: pdf, data)_
+- 2024-02-05: [MasterLiquid ML240L RGB | Cooler Master](https://www.coolermaster.com/catalog/coolers/cpu-liquid-coolers/masterliquid-ml240l-rgb/)  _(tags: no_tag)_
+- 2024-02-02: [Depot](https://depot.dev)  _(tags: no_tag)_
+- 2024-02-01: [The JISH Stack](https://kriskowal.com/jish/)  _(tags: bash, git)_
+- 2024-02-01: [How about a stryker-mutator plugin? · avajs/ava · Discussion #2688](https://github.com/avajs/ava/discussions/2688)  _(tags: no_tag)_
