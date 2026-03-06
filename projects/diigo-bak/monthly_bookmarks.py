@@ -86,12 +86,45 @@ STOP_WORDS = {
     "untitled",
 }
 WORD_RE = re.compile(r"[A-Za-z][A-Za-z0-9_+-]{2,}")
-TAG_RE = re.compile(r"^[a-z0-9][a-z0-9 +._:/-]{0,47}$")
+TAG_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9 +._:/-]{0,47}$")
 DEFAULT_INPUT = "projects/diigo-bak/diigo-bookmarks-shared.ndjson"
 USAGE = (
     "usage: monthly_bookmarks.py [--repo-root DIR] [--input FILE] "
     "[--min-tag-freq N] [--dry-run]"
 )
+# Canonical mixed-case tags from page frontmatter on the main site branch.
+# Keep this list in sync using check_mixed_case_tags.py.
+MIXED_CASE_FRONTMATTER_TAGS = (
+    "AAAI",
+    "Agoric",
+    "Austin",
+    "BOS",
+    "Boulder",
+    "DEN",
+    "Duke",
+    "EDI",
+    "HTML",
+    "IndieWeb",
+    "Internet",
+    "Internet Computer",
+    "KC",
+    "NCE",
+    "RChain",
+    "RDU",
+    "RdfAndSql",
+    "SEA",
+    "SFO",
+    "SeedApplications",
+    "URI",
+    "UriSchemes",
+    "VBA",
+    "Web history",
+    "hCard",
+    "seL4",
+)
+MIXED_CASE_BY_FOLD = {
+    tag.casefold(): tag for tag in MIXED_CASE_FRONTMATTER_TAGS
+}
 
 
 @dataclass(frozen=True)
@@ -127,7 +160,10 @@ def parse_tags(raw: str | None) -> tuple[str, ...]:
         return tuple()
     out: list[str] = []
     for piece in raw.split(","):
-        tag = piece.strip().lower()
+        src = piece.strip()
+        if not src:
+            continue
+        tag = MIXED_CASE_BY_FOLD.get(src.casefold(), src.lower())
         if tag:
             out.append(tag)
     return tuple(out)
