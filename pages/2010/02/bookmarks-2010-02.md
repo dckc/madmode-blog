@@ -2,7 +2,7 @@
 title: February 2010 Bookmarks: programming, digital, and media
 date: 2010-02-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "android", "architecture", "austin", "books", "calendar", "collaboration", "culture", "digital", "economics", "event", "free", "hardware", "health", "html", "javascript", "linux", "logic", "mac", "media", "mobile", "movies", "office", "pc", "performance", "politics", "programming", "proof", "python", "quality", "research", "rules", "scala", "sxsw", "sysadmin", "travel", "video", "w3c", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "america", "android", "architecture", "austin", "books", "calendar", "collaboration", "culture", "digital", "economics", "event", "free", "hardware", "health", "HTML", "javascript", "linux", "logic", "mac", "media", "mobile", "movies", "office", "pc", "performance", "politics", "programming", "proof", "python", "quality", "research", "rules", "scala", "sxsw", "sysadmin", "travel", "video", "w3c", "xhtml"]
 ---
 
 Shared bookmarks saved in February 2010.

@@ -2,7 +2,7 @@
 title: April 2020 Bookmarks: music, home, and source
 date: 2020-04-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "apple", "collaboration", "hardware", "learning", "me", "music", "programming", "rchain", "scala"]
+tags: ["bookmarks", "diigo", "shared", "apple", "collaboration", "hardware", "learning", "me", "music", "programming", "RChain", "scala"]
 ---
 
 Shared bookmarks saved in April 2020.

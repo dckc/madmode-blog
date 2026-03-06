@@ -2,7 +2,7 @@
 title: December 2022 Bookmarks: photos, genode, and sel4
 date: 2022-12-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "ai", "america", "android", "audio", "blockchain", "bluetooth", "capabilities", "car-culture", "climate", "cloud-services", "collaboration", "data", "economics", "emacs", "genode", "golang", "hardware", "html", "javascript", "kc", "learning", "linux", "logic", "mac", "math", "me", "ml", "music", "office", "opensource", "osdev", "pc", "performance", "photos", "privacy", "programming", "proof", "protocols", "publishing", "research", "rust", "sculptos", "security", "sel4", "shopping", "sports", "storage", "sysadmin", "tv", "vm", "web-history", "what-i-use", "wifi"]
+tags: ["bookmarks", "diigo", "shared", "ai", "america", "android", "audio", "blockchain", "bluetooth", "capabilities", "car-culture", "climate", "cloud-services", "collaboration", "data", "economics", "emacs", "genode", "golang", "hardware", "HTML", "javascript", "kc", "learning", "linux", "logic", "mac", "math", "me", "ml", "music", "office", "opensource", "osdev", "pc", "performance", "photos", "privacy", "programming", "proof", "protocols", "publishing", "research", "rust", "sculptos", "security", "sel4", "shopping", "sports", "storage", "sysadmin", "tv", "vm", "web-history", "what-i-use", "wifi"]
 ---
 
 Shared bookmarks saved in December 2022.

@@ -2,7 +2,7 @@
 title: December 2006 Bookmarks: python, w3c, and family
 date: 2006-12-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "audio", "books", "bos", "calendar", "charity", "christmas", "collaboration", "debian", "design", "digital", "diy", "faith", "family", "finance", "geo", "gnome", "grddl", "health", "http", "installation", "kc", "logic", "mac", "media", "microformats", "mobile", "movies", "music", "office", "owl", "photo", "photos", "pim", "politics", "programming", "python", "quality", "rdf", "review", "road-trip", "scm", "security", "semantic", "shopping", "sparql", "svg", "sysadmin", "training", "travel", "uri", "w3c", "wishlist", "world", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "audio", "books", "bos", "calendar", "charity", "christmas", "collaboration", "debian", "design", "digital", "diy", "faith", "family", "finance", "geo", "gnome", "grddl", "health", "http", "installation", "kc", "logic", "mac", "media", "microformats", "mobile", "movies", "music", "office", "owl", "photo", "photos", "pim", "politics", "programming", "python", "quality", "rdf", "review", "road-trip", "scm", "security", "semantic", "shopping", "sparql", "svg", "sysadmin", "training", "travel", "URI", "w3c", "wishlist", "world", "xhtml"]
 ---
 
 Shared bookmarks saved in December 2006.

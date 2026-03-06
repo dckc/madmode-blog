@@ -2,7 +2,7 @@
 title: December 2018 Bookmarks: research, security, and rchain
 date: 2018-12-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "capabilities", "climate", "collaboration", "economics", "energy", "family", "finances", "logic", "proof", "rchain", "research", "security", "sel4", "sysadmin", "ubuntu", "world"]
+tags: ["bookmarks", "diigo", "shared", "america", "capabilities", "climate", "collaboration", "economics", "energy", "family", "finances", "logic", "proof", "RChain", "research", "security", "sel4", "sysadmin", "ubuntu", "world"]
 ---
 
 Shared bookmarks saved in December 2018.

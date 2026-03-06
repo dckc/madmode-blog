@@ -2,7 +2,7 @@
 title: April 2008 Bookmarks: gnome, xhtml, and design
 date: 2008-04-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "architecture", "books", "css", "design", "digital", "faith", "firefox", "gnome", "grddl", "guitar", "health", "history", "html", "html5", "im", "internet", "linux", "mac", "media", "music", "office", "opensource", "owl", "pdf", "phone", "programming", "publishing", "python", "rdf", "security", "semantic", "social", "software", "spam", "ubuntu", "video", "voip", "xhtml", "xml"]
+tags: ["bookmarks", "diigo", "shared", "america", "architecture", "books", "css", "design", "digital", "faith", "firefox", "gnome", "grddl", "guitar", "health", "history", "HTML", "html5", "im", "internet", "linux", "mac", "media", "music", "office", "opensource", "owl", "pdf", "phone", "programming", "publishing", "python", "rdf", "security", "semantic", "social", "software", "spam", "ubuntu", "video", "voip", "xhtml", "xml"]
 ---
 
 Shared bookmarks saved in April 2008.

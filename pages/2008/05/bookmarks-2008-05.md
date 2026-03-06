@@ -2,7 +2,7 @@
 title: May 2008 Bookmarks: wikipedia, encyclopedia, and movies
 date: 2008-05-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "architecture", "books", "collaboration", "css", "design", "economics", "faith", "geo", "hardware", "health", "history", "hosting", "im", "kc", "lhr", "movies", "music", "nola", "office", "openid", "photos", "pim", "policy", "politics", "remote", "security", "shopping", "social", "software", "sports", "ssh", "travel", "uri", "wifi", "world"]
+tags: ["bookmarks", "diigo", "shared", "america", "architecture", "books", "collaboration", "css", "design", "economics", "faith", "geo", "hardware", "health", "history", "hosting", "im", "kc", "lhr", "movies", "music", "nola", "office", "openid", "photos", "pim", "policy", "politics", "remote", "security", "shopping", "social", "software", "sports", "ssh", "travel", "URI", "wifi", "world"]
 ---
 
 Shared bookmarks saved in May 2008.

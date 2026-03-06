@@ -2,7 +2,7 @@
 title: January 2009 Bookmarks: video, media, and linux
 date: 2009-01-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accessibility", "america", "apple", "architecture", "audio", "collaboration", "conference", "copyright", "culture", "digital", "diy", "dns", "economics", "faith", "finance", "firefox", "g1", "games", "geo", "gnome", "gtd", "hardware", "hosting", "html", "html5", "im", "internet", "irc", "javascript", "kc", "linux", "mac", "media", "mit", "mobile", "music", "openid", "opensource", "performance", "photo", "photos", "presentation", "programming", "protocol", "publishing", "python", "quality", "rdf", "scm", "security", "semantic", "social", "software", "standards", "sync", "sysadmin", "talk", "testing", "training", "tv", "ubuntu", "video", "w3c", "wikipedia", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "accessibility", "america", "apple", "architecture", "audio", "collaboration", "conference", "copyright", "culture", "digital", "diy", "dns", "economics", "faith", "finance", "firefox", "g1", "games", "geo", "gnome", "gtd", "hardware", "hosting", "HTML", "html5", "im", "internet", "irc", "javascript", "kc", "linux", "mac", "media", "mit", "mobile", "music", "openid", "opensource", "performance", "photo", "photos", "presentation", "programming", "protocol", "publishing", "python", "quality", "rdf", "scm", "security", "semantic", "social", "software", "standards", "sync", "sysadmin", "talk", "testing", "training", "tv", "ubuntu", "video", "w3c", "wikipedia", "xhtml"]
 ---
 
 Shared bookmarks saved in January 2009.

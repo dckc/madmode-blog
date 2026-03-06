@@ -2,7 +2,7 @@
 title: August 2007 Bookmarks: chicago, html, and ord
 date: 2007-08-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accountability", "america", "architecture", "authorization", "books", "chicago", "design", "diff", "digital", "economics", "faith", "family", "firefox", "geo", "grddl", "hardware", "hosting", "html", "http", "humor", "identity", "ietf", "im", "javascript", "jobs", "kc", "learning", "lhr", "logic", "mac", "media", "microformats", "missed", "mit", "mobile", "movies", "music", "openid", "ord", "oxford", "pc", "photo", "pim", "policy", "politics", "programming", "pvr", "python", "quality", "rdf", "research", "scm", "security", "semantic", "sfo", "shopping", "spam", "sync", "sysadmin", "talk", "training", "tv", "uri", "usability", "video", "volleyball", "w3c", "world", "xhtml", "xml"]
+tags: ["bookmarks", "diigo", "shared", "accountability", "america", "architecture", "authorization", "books", "chicago", "design", "diff", "digital", "economics", "faith", "family", "firefox", "geo", "grddl", "hardware", "hosting", "HTML", "http", "humor", "identity", "ietf", "im", "javascript", "jobs", "kc", "learning", "lhr", "logic", "mac", "media", "microformats", "missed", "mit", "mobile", "movies", "music", "openid", "ord", "oxford", "pc", "photo", "pim", "policy", "politics", "programming", "pvr", "python", "quality", "rdf", "research", "scm", "security", "semantic", "sfo", "shopping", "spam", "sync", "sysadmin", "talk", "training", "tv", "URI", "usability", "video", "volleyball", "w3c", "world", "xhtml", "xml"]
 ---
 
 Shared bookmarks saved in August 2007.

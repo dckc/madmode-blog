@@ -2,7 +2,7 @@
 title: January 2010 Bookmarks: programming, scala, and mobile
 date: 2010-01-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accounting", "america", "android", "architecture", "bos", "business", "calendar", "chicago", "collaboration", "css", "culture", "data", "delicious", "design", "digital", "diy", "driving", "economics", "emacs", "faith", "family", "free", "hardware", "html", "internet", "javascript", "learning", "linux", "mac", "management", "math", "media", "mobile", "movies", "music", "office", "pc", "performance", "photos", "politics", "print", "programming", "python", "quality", "rdf", "research", "road-trip", "rules", "scala", "security", "semantic", "service", "shopping", "sysadmin", "testing", "travel", "usability", "video", "w3c", "wifi", "world", "writing", "xml"]
+tags: ["bookmarks", "diigo", "shared", "accounting", "america", "android", "architecture", "bos", "business", "calendar", "chicago", "collaboration", "css", "culture", "data", "delicious", "design", "digital", "diy", "driving", "economics", "emacs", "faith", "family", "free", "hardware", "HTML", "internet", "javascript", "learning", "linux", "mac", "management", "math", "media", "mobile", "movies", "music", "office", "pc", "performance", "photos", "politics", "print", "programming", "python", "quality", "rdf", "research", "road-trip", "rules", "scala", "security", "semantic", "service", "shopping", "sysadmin", "testing", "travel", "usability", "video", "w3c", "wifi", "world", "writing", "xml"]
 ---
 
 Shared bookmarks saved in January 2010.

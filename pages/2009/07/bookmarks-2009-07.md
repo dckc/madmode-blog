@@ -2,7 +2,7 @@
 title: July 2009 Bookmarks: movies, health, and research
 date: 2009-07-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "books", "economics", "faith", "family", "health", "html", "html5", "movies", "politics", "programming", "research", "science", "security", "spam", "travel", "w3c", "world"]
+tags: ["bookmarks", "diigo", "shared", "america", "books", "economics", "faith", "family", "health", "HTML", "html5", "movies", "politics", "programming", "research", "science", "security", "spam", "travel", "w3c", "world"]
 ---
 
 Shared bookmarks saved in July 2009.

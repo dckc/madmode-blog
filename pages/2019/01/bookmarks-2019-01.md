@@ -2,7 +2,7 @@
 title: January 2019 Bookmarks: data, research, and rchain
 date: 2019-01-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accountability", "america", "android", "data", "economics", "emacs", "family", "hardware", "health", "humor", "installation", "java", "javascript", "logic", "oracle", "packaging", "programming", "python", "rchain", "research", "rust", "scala", "security", "sysadmin"]
+tags: ["bookmarks", "diigo", "shared", "accountability", "america", "android", "data", "economics", "emacs", "family", "hardware", "health", "humor", "installation", "java", "javascript", "logic", "oracle", "packaging", "programming", "python", "RChain", "research", "rust", "scala", "security", "sysadmin"]
 ---
 
 Shared bookmarks saved in January 2019.

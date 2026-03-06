@@ -2,7 +2,7 @@
 title: November 2009 Bookmarks: programming, mac, and python
 date: 2009-11-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "authorization", "books", "business", "collaboration", "data", "design", "disagree", "driving", "economics", "event", "faith", "family", "finance", "games", "gtd", "hardware", "history", "html", "http", "ietf", "installation", "javascript", "kc", "learning", "linux", "mac", "management", "movies", "openid", "performance", "photo", "programming", "publishing", "python", "quality", "research", "science", "scm", "security", "shopping", "software", "standards", "sysadmin", "training", "video", "w3c"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "authorization", "books", "business", "collaboration", "data", "design", "disagree", "driving", "economics", "event", "faith", "family", "finance", "games", "gtd", "hardware", "history", "HTML", "http", "ietf", "installation", "javascript", "kc", "learning", "linux", "mac", "management", "movies", "openid", "performance", "photo", "programming", "publishing", "python", "quality", "research", "science", "scm", "security", "shopping", "software", "standards", "sysadmin", "training", "video", "w3c"]
 ---
 
 Shared bookmarks saved in November 2009.

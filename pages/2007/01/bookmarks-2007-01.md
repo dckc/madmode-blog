@@ -2,7 +2,7 @@
 title: January 2007 Bookmarks: w3c, security, and openid
 date: 2007-01-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "calendar", "community", "css", "debian", "design", "digital", "economics", "faith", "family", "finance", "gnome", "grddl", "history", "hosting", "ietf", "javascript", "mac", "media", "microformats", "mit", "mobile", "movies", "nyc", "office", "openid", "owl", "photo", "photos", "politics", "programming", "publishing", "python", "quality", "rdf", "research", "rules", "security", "semantic", "spam", "sysadmin", "testing", "training", "travel", "ubuntu", "uri", "w3c", "world", "xhtml", "xml"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "calendar", "community", "css", "debian", "design", "digital", "economics", "faith", "family", "finance", "gnome", "grddl", "history", "hosting", "ietf", "javascript", "mac", "media", "microformats", "mit", "mobile", "movies", "nyc", "office", "openid", "owl", "photo", "photos", "politics", "programming", "publishing", "python", "quality", "rdf", "research", "rules", "security", "semantic", "spam", "sysadmin", "testing", "training", "travel", "ubuntu", "URI", "w3c", "world", "xhtml", "xml"]
 ---
 
 Shared bookmarks saved in January 2007.

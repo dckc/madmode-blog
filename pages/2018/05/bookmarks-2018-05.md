@@ -2,7 +2,7 @@
 title: May 2018 Bookmarks: github, mypy, and science
 date: 2018-05-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "collaboration", "data", "indieweb", "rchain", "scala"]
+tags: ["bookmarks", "diigo", "shared", "collaboration", "data", "indieweb", "RChain", "scala"]
 ---
 
 Shared bookmarks saved in May 2018.

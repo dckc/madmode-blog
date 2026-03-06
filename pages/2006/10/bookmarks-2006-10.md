@@ -2,7 +2,7 @@
 title: October 2006 Bookmarks: w3c, semantic, and debian
 date: 2006-10-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "aaai", "architecture", "austin", "birthday", "bos", "calendar", "collaboration", "datamining", "debian", "design", "digital", "dogs", "economics", "event", "faith", "finance", "formal", "grddl", "guitar", "hardware", "health", "humor", "ietf", "javascript", "kc", "linux", "literacy", "logic", "mac", "math", "media", "microformats", "mobile", "movies", "music", "openid", "owl", "pc", "photo", "photos", "pim", "policy", "politics", "press", "programming", "proof", "python", "quality", "rdf", "remote", "research", "rules", "security", "semantic", "shopping", "spam", "sparql", "sync", "sysadmin", "training", "travel", "uri", "w3c", "xhtml", "yvr"]
+tags: ["bookmarks", "diigo", "shared", "aaai", "architecture", "austin", "birthday", "bos", "calendar", "collaboration", "datamining", "debian", "design", "digital", "dogs", "economics", "event", "faith", "finance", "formal", "grddl", "guitar", "hardware", "health", "humor", "ietf", "javascript", "kc", "linux", "literacy", "logic", "mac", "math", "media", "microformats", "mobile", "movies", "music", "openid", "owl", "pc", "photo", "photos", "pim", "policy", "politics", "press", "programming", "proof", "python", "quality", "rdf", "remote", "research", "rules", "security", "semantic", "shopping", "spam", "sparql", "sync", "sysadmin", "training", "travel", "URI", "w3c", "xhtml", "yvr"]
 ---
 
 Shared bookmarks saved in October 2006.

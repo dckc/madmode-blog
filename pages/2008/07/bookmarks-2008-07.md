@@ -2,7 +2,7 @@
 title: July 2008 Bookmarks: movies, html, and design
 date: 2008-07-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accountability", "america", "apple", "architecture", "books", "bug", "car-culture", "design", "distributed", "economics", "faith", "finance", "html", "http", "ietf", "im", "javascript", "kc", "mac", "media", "mobile", "movies", "office", "performance", "policy", "politics", "programming", "publishing", "python", "scm", "security", "shopping", "spam", "ssh", "standards", "sysadmin", "training", "travel", "unix", "usa", "w3c", "world", "xmpp"]
+tags: ["bookmarks", "diigo", "shared", "accountability", "america", "apple", "architecture", "books", "bug", "car-culture", "design", "distributed", "economics", "faith", "finance", "HTML", "http", "ietf", "im", "javascript", "kc", "mac", "media", "mobile", "movies", "office", "performance", "policy", "politics", "programming", "publishing", "python", "scm", "security", "shopping", "spam", "ssh", "standards", "sysadmin", "training", "travel", "unix", "usa", "w3c", "world", "xmpp"]
 ---
 
 Shared bookmarks saved in July 2008.

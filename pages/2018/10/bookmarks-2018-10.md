@@ -2,7 +2,7 @@
 title: October 2018 Bookmarks: capabilities, documentation, and outfitting
 date: 2018-10-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "audio", "blockchain", "capabilities", "emacs", "hardware", "music", "outfitting", "programming", "rchain", "security", "shopping"]
+tags: ["bookmarks", "diigo", "shared", "audio", "blockchain", "capabilities", "emacs", "hardware", "music", "outfitting", "programming", "RChain", "security", "shopping"]
 ---
 
 Shared bookmarks saved in October 2018.

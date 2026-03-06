@@ -2,7 +2,7 @@
 title: September 2011 Bookmarks: programming, python, and security
 date: 2011-09-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "android", "audio", "books", "cloud", "data", "digital", "education", "family", "gnome", "history", "html", "http", "kc", "learning", "office", "open", "paper", "pdf", "phone", "programming", "protocol", "python", "quality", "review", "scm", "security", "services", "sql", "tools", "ubuntu", "unix"]
+tags: ["bookmarks", "diigo", "shared", "android", "audio", "books", "cloud", "data", "digital", "education", "family", "gnome", "history", "HTML", "http", "kc", "learning", "office", "open", "paper", "pdf", "phone", "programming", "protocol", "python", "quality", "review", "scm", "security", "services", "sql", "tools", "ubuntu", "unix"]
 ---
 
 Shared bookmarks saved in September 2011.

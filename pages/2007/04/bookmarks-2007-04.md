@@ -2,7 +2,7 @@
 title: April 2007 Bookmarks: hardware, semantic, and rdf
 date: 2007-04-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "audio", "bos", "bug", "calendar", "collaboration", "copyright", "dca", "debian", "digital", "disagree", "diy", "driving", "duke", "emacs", "family", "finance", "firefox", "gnome", "grddl", "hardware", "hastac", "history", "html", "im", "installation", "java", "kc", "law", "linux", "literacy", "logic", "mac", "marketing", "media", "microformats", "mobile", "movies", "music", "office", "owl", "photo", "policy", "politics", "press", "programming", "proof", "python", "quality", "rdf", "rdu", "research", "rules", "security", "semantic", "shopping", "software", "sparql", "svg", "sysadmin", "training", "travel", "ubuntu", "uri", "video", "volleyball", "w3c", "wifi", "www2007", "xhtml", "xml"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "audio", "bos", "bug", "calendar", "collaboration", "copyright", "dca", "debian", "digital", "disagree", "diy", "driving", "duke", "emacs", "family", "finance", "firefox", "gnome", "grddl", "hardware", "hastac", "history", "HTML", "im", "installation", "java", "kc", "law", "linux", "literacy", "logic", "mac", "marketing", "media", "microformats", "mobile", "movies", "music", "office", "owl", "photo", "policy", "politics", "press", "programming", "proof", "python", "quality", "rdf", "rdu", "research", "rules", "security", "semantic", "shopping", "software", "sparql", "svg", "sysadmin", "training", "travel", "ubuntu", "URI", "video", "volleyball", "w3c", "wifi", "www2007", "xhtml", "xml"]
 ---
 
 Shared bookmarks saved in April 2007.

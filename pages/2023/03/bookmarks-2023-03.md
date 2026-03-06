@@ -2,7 +2,7 @@
 title: March 2023 Bookmarks: logic, research, and distributed
 date: 2023-03-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "capabilities", "cloud", "cloud-services", "collaboration", "coop", "data", "distributed", "emacs", "html", "javascript", "logic", "osdev", "plt", "programming", "python", "research", "rust", "scm", "security", "travel", "voice", "web-history", "writing"]
+tags: ["bookmarks", "diigo", "shared", "capabilities", "cloud", "cloud-services", "collaboration", "coop", "data", "distributed", "emacs", "HTML", "javascript", "logic", "osdev", "plt", "programming", "python", "research", "rust", "scm", "security", "travel", "voice", "web-history", "writing"]
 ---
 
 Shared bookmarks saved in March 2023.

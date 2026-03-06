@@ -2,7 +2,7 @@
 title: February 2026 Bookmarks: wikipedia, storj, and docs
 date: 2026-02-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "3d", "finances", "hardware", "html", "linux", "osdev", "photos"]
+tags: ["bookmarks", "diigo", "shared", "3d", "finances", "hardware", "HTML", "linux", "osdev", "photos"]
 ---
 
 Shared bookmarks saved in February 2026.

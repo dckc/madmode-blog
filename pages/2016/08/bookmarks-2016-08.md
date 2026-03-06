@@ -2,7 +2,7 @@
 title: August 2016 Bookmarks: security, linux, and ubuntu
 date: 2016-08-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "capabilities", "capability-security", "data", "devops", "diy", "family", "health", "installation", "javascript", "kc", "learning", "linux", "mobile", "music", "privacy", "programming", "python", "quality", "security", "shopping", "sysadmin", "testing", "uri", "vm", "world"]
+tags: ["bookmarks", "diigo", "shared", "america", "capabilities", "capability-security", "data", "devops", "diy", "family", "health", "installation", "javascript", "kc", "learning", "linux", "mobile", "music", "privacy", "programming", "python", "quality", "security", "shopping", "sysadmin", "testing", "URI", "vm", "world"]
 ---
 
 Shared bookmarks saved in August 2016.

@@ -2,7 +2,7 @@
 title: December 2005 Bookmarks: w3c, training, and quality
 date: 2005-12-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "audio", "authorization", "birthday", "blog", "calendar", "collaboration", "css", "data", "datamining", "debian", "digital", "economics", "faith", "geo", "health", "humor", "ietf", "im", "internet", "javascript", "linux", "mac", "media", "mobile", "music", "owl", "parenting", "policy", "politics", "python", "quality", "rdf", "scm", "security", "semantic", "service", "sparql", "sync", "sysadmin", "training", "travel", "trust", "tv", "ubuntu", "uri", "video", "voip", "w3c", "wishlist", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "audio", "authorization", "birthday", "blog", "calendar", "collaboration", "css", "data", "datamining", "debian", "digital", "economics", "faith", "geo", "health", "humor", "ietf", "im", "internet", "javascript", "linux", "mac", "media", "mobile", "music", "owl", "parenting", "policy", "politics", "python", "quality", "rdf", "scm", "security", "semantic", "service", "sparql", "sync", "sysadmin", "training", "travel", "trust", "tv", "ubuntu", "URI", "video", "voip", "w3c", "wishlist", "xhtml"]
 ---
 
 Shared bookmarks saved in December 2005.

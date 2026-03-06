@@ -2,7 +2,7 @@
 title: September 2008 Bookmarks: python, javascript, and data
 date: 2008-09-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "architecture", "books", "calendar", "data", "design", "digital", "economics", "finance", "firefox", "health", "html", "html5", "http", "humor", "im", "installation", "javascript", "jobs", "kc", "media", "mobile", "movies", "nola", "politics", "programming", "python", "scm", "semantic", "software", "standards", "training", "voip", "w3c"]
+tags: ["bookmarks", "diigo", "shared", "america", "architecture", "books", "calendar", "data", "design", "digital", "economics", "finance", "firefox", "health", "HTML", "html5", "http", "humor", "im", "installation", "javascript", "jobs", "kc", "media", "mobile", "movies", "nola", "politics", "programming", "python", "scm", "semantic", "software", "standards", "training", "voip", "w3c"]
 ---
 
 Shared bookmarks saved in September 2008.

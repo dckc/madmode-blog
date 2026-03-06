@@ -2,7 +2,7 @@
 title: January 2008 Bookmarks: html, media, and digital
 date: 2008-01-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "architecture", "auto", "charity", "collaboration", "culture", "digital", "diy", "economics", "faith", "family", "games", "hardware", "health", "home", "html", "internet", "jobs", "kc", "learning", "linux", "media", "mobile", "movies", "music", "pc", "politics", "press", "programming", "publishing", "pvr", "quality", "security", "semantic", "sports", "standards", "tools", "training", "travel", "usa", "volleyball", "w3c", "wish", "world", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "america", "architecture", "auto", "charity", "collaboration", "culture", "digital", "diy", "economics", "faith", "family", "games", "hardware", "health", "home", "HTML", "internet", "jobs", "kc", "learning", "linux", "media", "mobile", "movies", "music", "pc", "politics", "press", "programming", "publishing", "pvr", "quality", "security", "semantic", "sports", "standards", "tools", "training", "travel", "usa", "volleyball", "w3c", "wish", "world", "xhtml"]
 ---
 
 Shared bookmarks saved in January 2008.

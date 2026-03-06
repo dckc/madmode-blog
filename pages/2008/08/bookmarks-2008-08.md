@@ -2,7 +2,7 @@
 title: August 2008 Bookmarks: programming, python, and ubuntu
 date: 2008-08-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "architecture", "books", "car-culture", "copyright", "css", "data", "design", "digital", "dns", "economics", "event", "family", "finance", "firefox", "geo", "hg", "hosting", "html", "http", "ietf", "im", "javascript", "kc", "law", "linux", "media", "mobile", "movies", "music", "nola", "office", "openid", "politics", "programming", "publishing", "python", "scm", "security", "semantic", "service", "spam", "standards", "sysadmin", "training", "travel", "ubuntu", "uri", "video", "volleyball", "w3c"]
+tags: ["bookmarks", "diigo", "shared", "america", "architecture", "books", "car-culture", "copyright", "css", "data", "design", "digital", "dns", "economics", "event", "family", "finance", "firefox", "geo", "hg", "hosting", "HTML", "http", "ietf", "im", "javascript", "kc", "law", "linux", "media", "mobile", "movies", "music", "nola", "office", "openid", "politics", "programming", "publishing", "python", "scm", "security", "semantic", "service", "spam", "standards", "sysadmin", "training", "travel", "ubuntu", "URI", "video", "volleyball", "w3c"]
 ---
 
 Shared bookmarks saved in August 2008.

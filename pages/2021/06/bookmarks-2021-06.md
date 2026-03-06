@@ -2,7 +2,7 @@
 title: June 2021 Bookmarks: research, github, and programming
 date: 2021-06-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "audio", "bluetooth", "capabilities", "collaboration", "css", "design", "genodians", "governance", "hardware", "logic", "music", "packaging", "programming", "rchain", "research", "review", "shopping", "world", "writing"]
+tags: ["bookmarks", "diigo", "shared", "audio", "bluetooth", "capabilities", "collaboration", "css", "design", "genodians", "governance", "hardware", "logic", "music", "packaging", "programming", "RChain", "research", "review", "shopping", "world", "writing"]
 ---
 
 Shared bookmarks saved in June 2021.

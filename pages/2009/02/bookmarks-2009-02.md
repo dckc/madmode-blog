@@ -2,7 +2,7 @@
 title: February 2009 Bookmarks: wdn09, kc, and w3c
 date: 2009-02-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accountability", "america", "architecture", "books", "calendar", "collaboration", "conference", "css", "dca", "den", "design", "digital", "diy", "economics", "energy", "faith", "family", "finance", "firefox", "g1", "games", "geo", "graphics", "gtd", "guitar", "hosting", "html", "html5", "identity", "ietf", "installation", "javascript", "journalism", "kc", "learning", "mac", "media", "microformats", "mobile", "movies", "music", "nyc", "openid", "opensource", "performance", "photo", "pim", "politics", "presentation", "programming", "python", "quality", "rdf", "research", "scm", "security", "semantic", "shopping", "social", "software", "standards", "svg", "sync", "sysadmin", "talk", "testing", "training", "travel", "tv", "video", "w3c", "wdn09", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "accountability", "america", "architecture", "books", "calendar", "collaboration", "conference", "css", "dca", "den", "design", "digital", "diy", "economics", "energy", "faith", "family", "finance", "firefox", "g1", "games", "geo", "graphics", "gtd", "guitar", "hosting", "HTML", "html5", "identity", "ietf", "installation", "javascript", "journalism", "kc", "learning", "mac", "media", "microformats", "mobile", "movies", "music", "nyc", "openid", "opensource", "performance", "photo", "pim", "politics", "presentation", "programming", "python", "quality", "rdf", "research", "scm", "security", "semantic", "shopping", "social", "software", "standards", "svg", "sync", "sysadmin", "talk", "testing", "training", "travel", "tv", "video", "w3c", "wdn09", "xhtml"]
 ---
 
 Shared bookmarks saved in February 2009.

@@ -2,7 +2,7 @@
 title: October 2007 Bookmarks: architecture, programming, and python
 date: 2007-10-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "aaai", "america", "annual", "architecture", "audio", "books", "collaboration", "css", "design", "digital", "economics", "faith", "family", "finance", "formal", "games", "grddl", "gtd", "hardware", "hastac", "health", "hosting", "html", "http", "humor", "ietf", "java", "javascript", "learning", "linux", "logic", "mac", "management", "math", "media", "microformats", "mobile", "movies", "music", "office", "open-source", "openid", "performance", "politics", "presentation", "press", "programming", "python", "quality", "research", "security", "semantic", "shopping", "spam", "sports", "svg", "sysadmin", "training", "travel", "ubuntu", "uri", "video", "w3c", "wifi", "wikipedia", "writing", "xhtml", "xml", "yvr"]
+tags: ["bookmarks", "diigo", "shared", "aaai", "america", "annual", "architecture", "audio", "books", "collaboration", "css", "design", "digital", "economics", "faith", "family", "finance", "formal", "games", "grddl", "gtd", "hardware", "hastac", "health", "hosting", "HTML", "http", "humor", "ietf", "java", "javascript", "learning", "linux", "logic", "mac", "management", "math", "media", "microformats", "mobile", "movies", "music", "office", "open-source", "openid", "performance", "politics", "presentation", "press", "programming", "python", "quality", "research", "security", "semantic", "shopping", "spam", "sports", "svg", "sysadmin", "training", "travel", "ubuntu", "URI", "video", "w3c", "wifi", "wikipedia", "writing", "xhtml", "xml", "yvr"]
 ---
 
 Shared bookmarks saved in October 2007.

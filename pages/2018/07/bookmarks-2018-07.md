@@ -2,7 +2,7 @@
 title: July 2018 Bookmarks: ethereum, research, and america
 date: 2018-07-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "blockchain", "hardware", "identity", "logic", "privacy", "rchain", "research", "security", "smart-contracts"]
+tags: ["bookmarks", "diigo", "shared", "america", "blockchain", "hardware", "identity", "logic", "privacy", "RChain", "research", "security", "smart-contracts"]
 ---
 
 Shared bookmarks saved in July 2018.

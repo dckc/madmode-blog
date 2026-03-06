@@ -2,7 +2,7 @@
 title: May 2007 Bookmarks: semantic, training, and media
 date: 2007-05-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "blog", "blogroll", "collaboration", "debian", "design", "digital", "duke", "firefox", "geo", "grddl", "hardware", "hastac", "html", "http", "humor", "ietf", "im", "kc", "learning", "linux", "mac", "media", "microformats", "mobile", "movies", "music", "openid", "ord", "owl", "photo", "politics", "power", "presentation", "press", "python", "quality", "rdf", "rdu", "research", "security", "semantic", "shopping", "spam", "sxsw", "sysadmin", "training", "travel", "uri", "w3c", "wifi", "wikipedia", "www2007", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "blog", "blogroll", "collaboration", "debian", "design", "digital", "duke", "firefox", "geo", "grddl", "hardware", "hastac", "HTML", "http", "humor", "ietf", "im", "kc", "learning", "linux", "mac", "media", "microformats", "mobile", "movies", "music", "openid", "ord", "owl", "photo", "politics", "power", "presentation", "press", "python", "quality", "rdf", "rdu", "research", "security", "semantic", "shopping", "spam", "sxsw", "sysadmin", "training", "travel", "URI", "w3c", "wifi", "wikipedia", "www2007", "xhtml"]
 ---
 
 Shared bookmarks saved in May 2007.

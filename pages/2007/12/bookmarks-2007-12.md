@@ -2,7 +2,7 @@
 title: December 2007 Bookmarks: media, digital, and music
 date: 2007-12-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "architecture", "audio", "authorization", "books", "calendar", "collaboration", "design", "digital", "dns", "faith", "family", "finance", "firefox", "free", "grddl", "hardware", "health", "html", "identity", "java", "kc", "linux", "logic", "mac", "media", "movies", "music", "nyc", "office", "open-source", "openid", "photos", "pim", "politics", "power", "publishing", "pvr", "python", "quality", "rdf", "remote", "review", "semantic", "service", "software", "sparql", "sports", "sysadmin", "testing", "training", "travel", "uri", "video", "w3c", "wishlist", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "america", "architecture", "audio", "authorization", "books", "calendar", "collaboration", "design", "digital", "dns", "faith", "family", "finance", "firefox", "free", "grddl", "hardware", "health", "HTML", "identity", "java", "kc", "linux", "logic", "mac", "media", "movies", "music", "nyc", "office", "open-source", "openid", "photos", "pim", "politics", "power", "publishing", "pvr", "python", "quality", "rdf", "remote", "review", "semantic", "service", "software", "sparql", "sports", "sysadmin", "testing", "training", "travel", "URI", "video", "w3c", "wishlist", "xhtml"]
 ---
 
 Shared bookmarks saved in December 2007.

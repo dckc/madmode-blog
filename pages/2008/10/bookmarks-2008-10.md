@@ -2,7 +2,7 @@
 title: October 2008 Bookmarks: python, architecture, and economics
 date: 2008-10-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accountability", "america", "architecture", "calendar", "chicago", "conference", "digital", "diy", "economics", "g1", "http", "ietf", "im", "media", "mobile", "movies", "music", "nce", "office", "politics", "programming", "protocol", "python", "quality", "rdf", "security", "semantic", "service", "shopping", "sysadmin", "testing", "travel", "uri", "video", "w3c", "xmpp"]
+tags: ["bookmarks", "diigo", "shared", "accountability", "america", "architecture", "calendar", "chicago", "conference", "digital", "diy", "economics", "g1", "http", "ietf", "im", "media", "mobile", "movies", "music", "nce", "office", "politics", "programming", "protocol", "python", "quality", "rdf", "security", "semantic", "service", "shopping", "sysadmin", "testing", "travel", "URI", "video", "w3c", "xmpp"]
 ---
 
 Shared bookmarks saved in October 2008.

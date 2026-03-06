@@ -2,7 +2,7 @@
 title: April 2010 Bookmarks: travel, wikipedia, and encyclopedia
 date: 2010-04-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "apple", "books", "bos", "calendar", "car", "collaboration", "culture", "data", "digital", "economics", "faith", "family", "games", "hardware", "html", "html5", "mac", "media", "microformats", "mobile", "movies", "pc", "programming", "publishing", "science", "shopping", "travel", "video", "world", "writing"]
+tags: ["bookmarks", "diigo", "shared", "america", "apple", "books", "bos", "calendar", "car", "collaboration", "culture", "data", "digital", "economics", "faith", "family", "games", "hardware", "HTML", "html5", "mac", "media", "microformats", "mobile", "movies", "pc", "programming", "publishing", "science", "shopping", "travel", "video", "world", "writing"]
 ---
 
 Shared bookmarks saved in April 2010.

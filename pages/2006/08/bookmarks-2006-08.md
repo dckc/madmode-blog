@@ -2,7 +2,7 @@
 title: August 2006 Bookmarks: design, mac, and w3c
 date: 2006-08-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "aaai", "america", "architecture", "bos", "bug", "calendar", "collaboration", "conference", "debian", "design", "digital", "diy", "economics", "faith", "finance", "firefox", "games", "geo", "gnome", "grddl", "hardware", "health", "history", "hosting", "http", "ietf", "installation", "java", "javascript", "kc", "learning", "linux", "mac", "marketing", "media", "microformats", "mobile", "movies", "pc", "politics", "press", "programming", "publishing", "python", "quality", "rdf", "scm", "security", "semantic", "shopping", "software", "spam", "sparql", "sysadmin", "testing", "travel", "ubuntu", "uri", "volleyball", "w3c", "wifi", "wiki", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "aaai", "america", "architecture", "bos", "bug", "calendar", "collaboration", "conference", "debian", "design", "digital", "diy", "economics", "faith", "finance", "firefox", "games", "geo", "gnome", "grddl", "hardware", "health", "history", "hosting", "http", "ietf", "installation", "java", "javascript", "kc", "learning", "linux", "mac", "marketing", "media", "microformats", "mobile", "movies", "pc", "politics", "press", "programming", "publishing", "python", "quality", "rdf", "scm", "security", "semantic", "shopping", "software", "spam", "sparql", "sysadmin", "testing", "travel", "ubuntu", "URI", "volleyball", "w3c", "wifi", "wiki", "xhtml"]
 ---
 
 Shared bookmarks saved in August 2006.

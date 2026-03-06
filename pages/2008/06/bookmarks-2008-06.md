@@ -2,7 +2,7 @@
 title: June 2008 Bookmarks: finance, america, and family
 date: 2008-06-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accessibility", "america", "auto", "books", "calendar", "car-culture", "culture", "diy", "energy", "family", "finance", "games", "html", "installation", "internet", "kc", "media", "microformats", "movies", "nola", "personal", "programming", "python", "quality", "software", "standards", "testing", "training", "travel", "ubuntu", "voip", "world", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "accessibility", "america", "auto", "books", "calendar", "car-culture", "culture", "diy", "energy", "family", "finance", "games", "HTML", "installation", "internet", "kc", "media", "microformats", "movies", "nola", "personal", "programming", "python", "quality", "software", "standards", "testing", "training", "travel", "ubuntu", "voip", "world", "xhtml"]
 ---
 
 Shared bookmarks saved in June 2008.

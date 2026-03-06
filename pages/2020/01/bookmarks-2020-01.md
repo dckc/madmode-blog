@@ -2,7 +2,7 @@
 title: January 2020 Bookmarks: data, health, and patients
 date: 2020-01-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "android", "genodians", "linkeddata", "logic", "mobile", "rchain", "research", "sparql"]
+tags: ["bookmarks", "diigo", "shared", "android", "genodians", "linkeddata", "logic", "mobile", "RChain", "research", "sparql"]
 ---
 
 Shared bookmarks saved in January 2020.

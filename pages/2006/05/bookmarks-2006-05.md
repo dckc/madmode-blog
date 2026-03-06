@@ -2,7 +2,7 @@
 title: May 2006 Bookmarks: w3c, semantic, and sparql
 date: 2006-05-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "authorization", "blogroll", "books", "calendar", "debian", "design", "economics", "edi", "emacs", "firefox", "grddl", "gtd", "hosting", "http", "identity", "ietf", "im", "javascript", "kc", "kit", "logic", "mac", "microformats", "mobile", "movies", "owl", "pim", "politics", "press", "programming", "python", "quality", "rdf", "security", "semantic", "shopping", "sparql", "sysadmin", "travel", "uri", "w3c", "www2006", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "authorization", "blogroll", "books", "calendar", "debian", "design", "economics", "edi", "emacs", "firefox", "grddl", "gtd", "hosting", "http", "identity", "ietf", "im", "javascript", "kc", "kit", "logic", "mac", "microformats", "mobile", "movies", "owl", "pim", "politics", "press", "programming", "python", "quality", "rdf", "security", "semantic", "shopping", "sparql", "sysadmin", "travel", "URI", "w3c", "www2006", "xhtml"]
 ---
 
 Shared bookmarks saved in May 2006.

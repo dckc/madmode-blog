@@ -2,7 +2,7 @@
 title: December 2008 Bookmarks: ubuntu, audio, and python
 date: 2008-12-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "architecture", "audio", "business", "charity", "collaboration", "decentralization", "den", "design", "digital", "dns", "driving", "economics", "family", "finance", "games", "gnome", "hardware", "hosting", "html", "html5", "http", "installation", "internet", "kc", "learning", "linux", "mac", "media", "microformats", "mobile", "movies", "music", "office", "pc", "politics", "programming", "protocol", "pvr", "python", "scm", "security", "semantic", "shopping", "software", "sysadmin", "training", "travel", "tv", "ubuntu", "video", "w3c", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "america", "architecture", "audio", "business", "charity", "collaboration", "decentralization", "den", "design", "digital", "dns", "driving", "economics", "family", "finance", "games", "gnome", "hardware", "hosting", "HTML", "html5", "http", "installation", "internet", "kc", "learning", "linux", "mac", "media", "microformats", "mobile", "movies", "music", "office", "pc", "politics", "programming", "protocol", "pvr", "python", "scm", "security", "semantic", "shopping", "software", "sysadmin", "training", "travel", "tv", "ubuntu", "video", "w3c", "xhtml"]
 ---
 
 Shared bookmarks saved in December 2008.

@@ -2,7 +2,7 @@
 title: February 2008 Bookmarks: voip, html, and openid
 date: 2008-02-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "blog", "conference", "css", "design", "digital", "diy", "event", "games", "geo", "hardware", "html", "html5", "identity", "kc", "mac", "media", "movies", "nyc", "office", "openid", "protocol", "python", "review", "security", "semantic", "software", "standards", "sync", "tools", "travel", "video", "voip", "w3c", "xhtml", "xml"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "blog", "conference", "css", "design", "digital", "diy", "event", "games", "geo", "hardware", "HTML", "html5", "identity", "kc", "mac", "media", "movies", "nyc", "office", "openid", "protocol", "python", "review", "security", "semantic", "software", "standards", "sync", "tools", "travel", "video", "voip", "w3c", "xhtml", "xml"]
 ---
 
 Shared bookmarks saved in February 2008.

@@ -2,7 +2,7 @@
 title: June 2007 Bookmarks: xhtml, html, and w3c
 date: 2007-06-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "audio", "books", "debian", "design", "digital", "disagree", "diy", "faith", "family", "firefox", "grddl", "hardware", "html", "http", "javascript", "kc", "kit", "linux", "media", "microformats", "mobile", "movies", "music", "office", "openid", "opensource", "pdf", "policy", "politics", "print", "programming", "python", "quality", "rdf", "semantic", "sfo", "shopping", "sysadmin", "talk", "testing", "training", "travel", "ubuntu", "video", "w3c", "writing", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "audio", "books", "debian", "design", "digital", "disagree", "diy", "faith", "family", "firefox", "grddl", "hardware", "HTML", "http", "javascript", "kc", "kit", "linux", "media", "microformats", "mobile", "movies", "music", "office", "openid", "opensource", "pdf", "policy", "politics", "print", "programming", "python", "quality", "rdf", "semantic", "sfo", "shopping", "sysadmin", "talk", "testing", "training", "travel", "ubuntu", "video", "w3c", "writing", "xhtml"]
 ---
 
 Shared bookmarks saved in June 2007.

@@ -2,7 +2,7 @@
 title: September 2009 Bookmarks: python, programming, and http
 date: 2009-09-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "architecture", "calendar", "diy", "emacs", "family", "finance", "health", "http", "ietf", "im", "learning", "mobile", "movies", "parenting", "performance", "phone", "pim", "programming", "proof", "protocol", "publishing", "python", "quality", "rdf", "research", "semantic", "service", "software", "uri", "video", "w3c", "writing"]
+tags: ["bookmarks", "diigo", "shared", "america", "architecture", "calendar", "diy", "emacs", "family", "finance", "health", "http", "ietf", "im", "learning", "mobile", "movies", "parenting", "performance", "phone", "pim", "programming", "proof", "protocol", "publishing", "python", "quality", "rdf", "research", "semantic", "service", "software", "URI", "video", "w3c", "writing"]
 ---
 
 Shared bookmarks saved in September 2009.

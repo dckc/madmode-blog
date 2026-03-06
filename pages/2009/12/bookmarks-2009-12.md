@@ -2,7 +2,7 @@
 title: December 2009 Bookmarks: architecture, video, and programming
 date: 2009-12-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "bos", "calendar", "culture", "digital", "economics", "energy", "faith", "family", "gnome", "hardware", "history", "http", "ietf", "internet", "javascript", "learning", "linux", "mac", "media", "movies", "music", "pc", "performance", "photos", "pim", "politics", "presentation", "programming", "protocol", "publishing", "python", "quality", "research", "security", "semantic", "service", "services", "social", "sports", "standards", "travel", "ubuntu", "uri", "video", "visualization", "w3c", "wiki", "world", "writing", "xml"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "bos", "calendar", "culture", "digital", "economics", "energy", "faith", "family", "gnome", "hardware", "history", "http", "ietf", "internet", "javascript", "learning", "linux", "mac", "media", "movies", "music", "pc", "performance", "photos", "pim", "politics", "presentation", "programming", "protocol", "publishing", "python", "quality", "research", "security", "semantic", "service", "services", "social", "sports", "standards", "travel", "ubuntu", "URI", "video", "visualization", "w3c", "wiki", "world", "writing", "xml"]
 ---
 
 Shared bookmarks saved in December 2009.

@@ -2,7 +2,7 @@
 title: April 2011 Bookmarks: music, android, and research
 date: 2011-04-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "404", "america", "android", "audio", "blog", "business", "chrome", "cloud-services", "college", "commute", "culture", "data", "design", "digital", "economics", "family", "finance", "google", "gtd", "health", "html", "kc", "kumc", "linux", "me", "media", "microformats", "mit", "mobile", "movies", "music", "open-source", "photos", "pim", "presentation", "programming", "protocols", "publishing", "python", "research", "security", "shopping", "standards", "sync", "sysadmin", "talk", "tools", "travel", "video", "w3c", "world", "writing"]
+tags: ["bookmarks", "diigo", "shared", "404", "america", "android", "audio", "blog", "business", "chrome", "cloud-services", "college", "commute", "culture", "data", "design", "digital", "economics", "family", "finance", "google", "gtd", "health", "HTML", "kc", "kumc", "linux", "me", "media", "microformats", "mit", "mobile", "movies", "music", "open-source", "photos", "pim", "presentation", "programming", "protocols", "publishing", "python", "research", "security", "shopping", "standards", "sync", "sysadmin", "talk", "tools", "travel", "video", "w3c", "world", "writing"]
 ---
 
 Shared bookmarks saved in April 2011.

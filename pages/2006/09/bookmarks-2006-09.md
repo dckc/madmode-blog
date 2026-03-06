@@ -2,7 +2,7 @@
 title: September 2006 Bookmarks: semantic, w3c, and design
 date: 2006-09-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "austin", "calendar", "collaboration", "debian", "design", "disagree", "emacs", "faith", "grddl", "gtd", "hardware", "health", "http", "ietf", "im", "irc", "kc", "literacy", "logic", "mac", "media", "microformats", "mobile", "movies", "music", "nyc", "owl", "pim", "protocol", "publishing", "python", "quality", "rdf", "research", "review", "semantic", "shopping", "spam", "sports", "sysadmin", "training", "travel", "uri", "w3c", "wifi", "www2007", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "austin", "calendar", "collaboration", "debian", "design", "disagree", "emacs", "faith", "grddl", "gtd", "hardware", "health", "http", "ietf", "im", "irc", "kc", "literacy", "logic", "mac", "media", "microformats", "mobile", "movies", "music", "nyc", "owl", "pim", "protocol", "publishing", "python", "quality", "rdf", "research", "review", "semantic", "shopping", "spam", "sports", "sysadmin", "training", "travel", "URI", "w3c", "wifi", "www2007", "xhtml"]
 ---
 
 Shared bookmarks saved in September 2006.

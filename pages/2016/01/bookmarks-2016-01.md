@@ -2,7 +2,7 @@
 title: January 2016 Bookmarks: bitcoin, medium, and programming
 date: 2016-01-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "android", "books", "data", "family", "fp", "hardware", "html", "http", "javascript", "kc", "mac", "me", "music", "openaccess", "photos", "privacy", "programming", "protocols", "publishing", "python", "research", "security", "what-i-use", "xml"]
+tags: ["bookmarks", "diigo", "shared", "android", "books", "data", "family", "fp", "hardware", "HTML", "http", "javascript", "kc", "mac", "me", "music", "openaccess", "photos", "privacy", "programming", "protocols", "publishing", "python", "research", "security", "what-i-use", "xml"]
 ---
 
 Shared bookmarks saved in January 2016.

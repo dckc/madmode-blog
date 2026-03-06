@@ -2,7 +2,7 @@
 title: September 2007 Bookmarks: semantic, grddl, and rdf
 date: 2007-09-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accountability", "america", "architecture", "audio", "auto", "bluetooth", "books", "calendar", "collaboration", "debian", "design", "digital", "emacs", "faith", "family", "finance", "grddl", "hardware", "health", "html", "humor", "java", "javascript", "kc", "kit", "logic", "mac", "management", "media", "microformats", "mobile", "movies", "music", "office", "openid", "owl", "pim", "politics", "press", "programming", "python", "quality", "rdf", "research", "security", "semantic", "shopping", "spam", "sync", "sysadmin", "testing", "travel", "ubuntu", "uri", "video", "w3c", "wifi", "wishlist", "writing", "xhtml", "xml"]
+tags: ["bookmarks", "diigo", "shared", "accountability", "america", "architecture", "audio", "auto", "bluetooth", "books", "calendar", "collaboration", "debian", "design", "digital", "emacs", "faith", "family", "finance", "grddl", "hardware", "health", "HTML", "humor", "java", "javascript", "kc", "kit", "logic", "mac", "management", "media", "microformats", "mobile", "movies", "music", "office", "openid", "owl", "pim", "politics", "press", "programming", "python", "quality", "rdf", "research", "security", "semantic", "shopping", "spam", "sync", "sysadmin", "testing", "travel", "ubuntu", "URI", "video", "w3c", "wifi", "wishlist", "writing", "xhtml", "xml"]
 ---
 
 Shared bookmarks saved in September 2007.

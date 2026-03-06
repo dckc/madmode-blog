@@ -2,7 +2,7 @@
 title: February 2007 Bookmarks: grddl, w3c, and rdf
 date: 2007-02-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accountability", "architecture", "books", "bos", "calendar", "collaboration", "debian", "design", "driving", "economics", "faith", "gnome", "grddl", "http", "installation", "irc", "kc", "linux", "logic", "media", "microformats", "movies", "open-source", "openid", "performance", "photo", "photos", "politics", "programming", "publishing", "python", "quality", "rdf", "rules", "security", "semantic", "shopping", "social", "software", "sync", "sysadmin", "training", "travel", "tv", "uri", "video", "w3c", "xhtml", "xml"]
+tags: ["bookmarks", "diigo", "shared", "accountability", "architecture", "books", "bos", "calendar", "collaboration", "debian", "design", "driving", "economics", "faith", "gnome", "grddl", "http", "installation", "irc", "kc", "linux", "logic", "media", "microformats", "movies", "open-source", "openid", "performance", "photo", "photos", "politics", "programming", "publishing", "python", "quality", "rdf", "rules", "security", "semantic", "shopping", "social", "software", "sync", "sysadmin", "training", "travel", "tv", "URI", "video", "w3c", "xhtml", "xml"]
 ---
 
 Shared bookmarks saved in February 2007.

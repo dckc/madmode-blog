@@ -2,7 +2,7 @@
 title: December 2017 Bookmarks: twitter, gitlab, and christmas
 date: 2017-12-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "android", "audio", "book", "capabilities", "christmas", "cloud", "commute", "html", "mac", "mobile", "netneutrality", "programming", "security", "sel4", "sysadmin", "ubuntu"]
+tags: ["bookmarks", "diigo", "shared", "android", "audio", "book", "capabilities", "christmas", "cloud", "commute", "HTML", "mac", "mobile", "netneutrality", "programming", "security", "sel4", "sysadmin", "ubuntu"]
 ---
 
 Shared bookmarks saved in December 2017.

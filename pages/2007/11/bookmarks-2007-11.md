@@ -2,7 +2,7 @@
 title: November 2007 Bookmarks: office, music, and w3c
 date: 2007-11-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accessibility", "architecture", "audio", "books", "bos", "calendar", "charity", "collaboration", "copyright", "css", "culture", "debian", "digital", "faith", "finance", "free", "gnome", "hardware", "health", "html", "humor", "ietf", "installation", "law", "literacy", "logic", "marketing", "math", "media", "mobile", "music", "office", "opensource", "politics", "press", "programming", "publishing", "python", "quality", "rdf", "research", "semantic", "shopping", "social", "software", "sports", "sysadmin", "talk", "testing", "tpac", "travel", "ubuntu", "video", "w3c", "wishlist", "world", "writing", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "accessibility", "architecture", "audio", "books", "bos", "calendar", "charity", "collaboration", "copyright", "css", "culture", "debian", "digital", "faith", "finance", "free", "gnome", "hardware", "health", "HTML", "humor", "ietf", "installation", "law", "literacy", "logic", "marketing", "math", "media", "mobile", "music", "office", "opensource", "politics", "press", "programming", "publishing", "python", "quality", "rdf", "research", "semantic", "shopping", "social", "software", "sports", "sysadmin", "talk", "testing", "tpac", "travel", "ubuntu", "video", "w3c", "wishlist", "world", "writing", "xhtml"]
 ---
 
 Shared bookmarks saved in November 2007.

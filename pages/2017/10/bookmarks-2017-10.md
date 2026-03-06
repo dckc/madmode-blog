@@ -2,7 +2,7 @@
 title: October 2017 Bookmarks: twitter, rchain, and youtube
 date: 2017-10-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "bitcoin", "capabilities", "digital-media", "economics", "kc", "logic", "mac", "movies", "music", "politics", "quality", "rchain", "research", "security", "w3c"]
+tags: ["bookmarks", "diigo", "shared", "america", "bitcoin", "capabilities", "digital-media", "economics", "kc", "logic", "mac", "movies", "music", "politics", "quality", "RChain", "research", "security", "w3c"]
 ---
 
 Shared bookmarks saved in October 2017.

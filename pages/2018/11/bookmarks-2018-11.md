@@ -2,7 +2,7 @@
 title: November 2018 Bookmarks: america, family, and finances
 date: 2018-11-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accessibility", "america", "blockchain", "climate", "family", "finances", "installation", "javascript", "ksleg", "learning", "packaging", "python", "rchain", "sysadmin", "ubuntu", "world"]
+tags: ["bookmarks", "diigo", "shared", "accessibility", "america", "blockchain", "climate", "family", "finances", "installation", "javascript", "ksleg", "learning", "packaging", "python", "RChain", "sysadmin", "ubuntu", "world"]
 ---
 
 Shared bookmarks saved in November 2018.

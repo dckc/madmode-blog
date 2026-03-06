@@ -2,7 +2,7 @@
 title: October 2013 Bookmarks: rust, github, and security
 date: 2013-10-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "capabilities", "collaboration", "college", "design", "devops", "diy", "graphics", "hardware", "health", "html", "javascript", "kc", "learning", "linux", "mobile", "openaccess", "opendata", "performance", "photos", "programming", "python", "quality", "research", "rust", "scala", "security", "shopping", "standards", "statistics", "sysadmin", "training", "ubuntu", "video", "vm", "writing"]
+tags: ["bookmarks", "diigo", "shared", "america", "capabilities", "collaboration", "college", "design", "devops", "diy", "graphics", "hardware", "health", "HTML", "javascript", "kc", "learning", "linux", "mobile", "openaccess", "opendata", "performance", "photos", "programming", "python", "quality", "research", "rust", "scala", "security", "shopping", "standards", "statistics", "sysadmin", "training", "ubuntu", "video", "vm", "writing"]
 ---
 
 Shared bookmarks saved in October 2013.

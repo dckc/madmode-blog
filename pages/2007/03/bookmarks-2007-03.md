@@ -2,7 +2,7 @@
 title: March 2007 Bookmarks: html, xhtml, and hardware
 date: 2007-03-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "austin", "books", "bos", "calendar", "collaboration", "debian", "design", "digital", "diy", "dogs", "duke", "economics", "faith", "family", "finance", "geo", "grddl", "guitar", "hardware", "hastac", "health", "history", "html", "http", "ietf", "im", "javascript", "kc", "kit", "leadership", "linux", "mac", "media", "microformats", "mobile", "movies", "music", "openid", "photo", "photos", "pim", "politics", "press", "publishing", "python", "quality", "rdu", "scm", "security", "semantic", "shopping", "social", "software", "sxsw", "sxswi", "sysadmin", "talk", "testing", "training", "travel", "uri", "usa", "w3c", "wish", "world", "writing", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "austin", "books", "bos", "calendar", "collaboration", "debian", "design", "digital", "diy", "dogs", "duke", "economics", "faith", "family", "finance", "geo", "grddl", "guitar", "hardware", "hastac", "health", "history", "HTML", "http", "ietf", "im", "javascript", "kc", "kit", "leadership", "linux", "mac", "media", "microformats", "mobile", "movies", "music", "openid", "photo", "photos", "pim", "politics", "press", "publishing", "python", "quality", "rdu", "scm", "security", "semantic", "shopping", "social", "software", "sxsw", "sxswi", "sysadmin", "talk", "testing", "training", "travel", "URI", "usa", "w3c", "wish", "world", "writing", "xhtml"]
 ---
 
 Shared bookmarks saved in March 2007.

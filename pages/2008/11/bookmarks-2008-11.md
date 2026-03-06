@@ -2,7 +2,7 @@
 title: November 2008 Bookmarks: security, america, and javascript
 date: 2008-11-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accountability", "america", "architecture", "audio", "blog", "books", "calendar", "digital", "economics", "family", "finance", "firefox", "g1", "games", "health", "home", "html", "javascript", "journalism", "justice", "kc", "mac", "media", "mobile", "movies", "office", "pc", "programming", "pvr", "quality", "rdf", "research", "security", "semantic", "shopping", "software", "spam", "sysadmin", "testing", "travel", "video", "visualization", "w3c", "xhtml", "xml"]
+tags: ["bookmarks", "diigo", "shared", "accountability", "america", "architecture", "audio", "blog", "books", "calendar", "digital", "economics", "family", "finance", "firefox", "g1", "games", "health", "home", "HTML", "javascript", "journalism", "justice", "kc", "mac", "media", "mobile", "movies", "office", "pc", "programming", "pvr", "quality", "rdf", "research", "security", "semantic", "shopping", "software", "spam", "sysadmin", "testing", "travel", "video", "visualization", "w3c", "xhtml", "xml"]
 ---
 
 Shared bookmarks saved in November 2008.

@@ -2,7 +2,7 @@
 title: March 2008 Bookmarks: music, sxsw, and media
 date: 2008-03-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "audio", "austin", "books", "calendar", "collaboration", "css", "culture", "design", "digital", "dogs", "economics", "faith", "family", "finance", "games", "geo", "grddl", "guitar", "html", "html5", "im", "installation", "kc", "learning", "linux", "mac", "media", "microformats", "mobile", "movies", "music", "openid", "photo", "presentation", "protocol", "publishing", "research", "review", "security", "semantic", "social", "software", "sports", "standards", "sxsw", "sxswi", "sysadmin", "training", "travel", "ubuntu", "w3c", "xhtml", "xmpp", "yvr"]
+tags: ["bookmarks", "diigo", "shared", "audio", "austin", "books", "calendar", "collaboration", "css", "culture", "design", "digital", "dogs", "economics", "faith", "family", "finance", "games", "geo", "grddl", "guitar", "HTML", "html5", "im", "installation", "kc", "learning", "linux", "mac", "media", "microformats", "mobile", "movies", "music", "openid", "photo", "presentation", "protocol", "publishing", "research", "review", "security", "semantic", "social", "software", "sports", "standards", "sxsw", "sxswi", "sysadmin", "training", "travel", "ubuntu", "w3c", "xhtml", "xmpp", "yvr"]
 ---
 
 Shared bookmarks saved in March 2008.

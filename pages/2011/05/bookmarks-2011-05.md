@@ -2,7 +2,7 @@
 title: May 2011 Bookmarks: android, data, and family
 date: 2011-05-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "404", "america", "android", "annual", "apple", "austin", "auto", "bos", "bug", "business", "calendar", "cloud", "community", "contact", "data", "design", "digital", "diy", "dogs", "economics", "faith", "family", "finance", "finances", "geo", "google", "gtd", "guitar", "health", "hg", "html", "javascript", "kc", "kumc", "linux", "mac", "me", "media", "microformats", "mobile", "music", "open-source", "pim", "politics", "presentation", "print", "programming", "publishing", "pvr", "review", "science", "scm", "service", "shopping", "statistics", "svg", "sync", "sysadmin", "travel", "tv", "ubuntu", "unix", "video", "world", "writing"]
+tags: ["bookmarks", "diigo", "shared", "404", "america", "android", "annual", "apple", "austin", "auto", "bos", "bug", "business", "calendar", "cloud", "community", "contact", "data", "design", "digital", "diy", "dogs", "economics", "faith", "family", "finance", "finances", "geo", "google", "gtd", "guitar", "health", "hg", "HTML", "javascript", "kc", "kumc", "linux", "mac", "me", "media", "microformats", "mobile", "music", "open-source", "pim", "politics", "presentation", "print", "programming", "publishing", "pvr", "review", "science", "scm", "service", "shopping", "statistics", "svg", "sync", "sysadmin", "travel", "tv", "ubuntu", "unix", "video", "world", "writing"]
 ---
 
 Shared bookmarks saved in May 2011.

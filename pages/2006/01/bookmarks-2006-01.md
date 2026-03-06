@@ -2,7 +2,7 @@
 title: January 2006 Bookmarks: w3c, sysadmin, and programming
 date: 2006-01-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "audio", "austin", "books", "bos", "calendar", "charity", "collaboration", "community", "debian", "delicious", "digital", "dns", "economics", "faith", "family", "games", "geo", "grddl", "hardware", "health", "hosting", "humor", "ietf", "im", "installation", "kc", "media", "mobile", "movies", "music", "owl", "parenting", "programming", "publishing", "python", "quality", "rdf", "research", "rss", "security", "semantic", "software", "spam", "sparql", "sync", "sysadmin", "training", "travel", "uri", "w3c", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "audio", "austin", "books", "bos", "calendar", "charity", "collaboration", "community", "debian", "delicious", "digital", "dns", "economics", "faith", "family", "games", "geo", "grddl", "hardware", "health", "hosting", "humor", "ietf", "im", "installation", "kc", "media", "mobile", "movies", "music", "owl", "parenting", "programming", "publishing", "python", "quality", "rdf", "research", "rss", "security", "semantic", "software", "spam", "sparql", "sync", "sysadmin", "training", "travel", "URI", "w3c", "xhtml"]
 ---
 
 Shared bookmarks saved in January 2006.

@@ -2,7 +2,7 @@
 title: January 2013 Bookmarks: aaron, swartz, and security
 date: 2013-01-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "america", "android", "calendar", "collaboration", "data", "digital", "economics", "fail", "finances", "hardware", "haskell", "health", "history", "html", "javascript", "logic", "media", "mobile", "movies", "music", "open-source", "pc", "presentation", "programming", "publishing", "python", "quality", "research", "scm", "security", "shopping", "sysadmin", "ubuntu", "video", "world", "writing"]
+tags: ["bookmarks", "diigo", "shared", "america", "android", "calendar", "collaboration", "data", "digital", "economics", "fail", "finances", "hardware", "haskell", "health", "history", "HTML", "javascript", "logic", "media", "mobile", "movies", "music", "open-source", "pc", "presentation", "programming", "publishing", "python", "quality", "research", "scm", "security", "shopping", "sysadmin", "ubuntu", "video", "world", "writing"]
 ---
 
 Shared bookmarks saved in January 2013.

@@ -2,7 +2,7 @@
 title: July 2007 Bookmarks: oxford, html, and w3c
 date: 2007-07-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "books", "community", "debian", "design", "digital", "economics", "faith", "family", "geo", "grddl", "health", "hg", "html", "http", "ietf", "installation", "javascript", "kc", "lhr", "linux", "mac", "media", "microformats", "mobile", "movies", "music", "office", "openid", "oxford", "photo", "pim", "press", "python", "rdf", "scm", "security", "semantic", "shopping", "social", "software", "sysadmin", "travel", "ubuntu", "uri", "video", "volleyball", "w3c", "wifi", "world", "xhtml", "xml"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "books", "community", "debian", "design", "digital", "economics", "faith", "family", "geo", "grddl", "health", "hg", "HTML", "http", "ietf", "installation", "javascript", "kc", "lhr", "linux", "mac", "media", "microformats", "mobile", "movies", "music", "office", "openid", "oxford", "photo", "pim", "press", "python", "rdf", "scm", "security", "semantic", "shopping", "social", "software", "sysadmin", "travel", "ubuntu", "URI", "video", "volleyball", "w3c", "wifi", "world", "xhtml", "xml"]
 ---
 
 Shared bookmarks saved in July 2007.

@@ -2,7 +2,7 @@
 title: November 2005 Bookmarks: w3c, rdf, and semantic
 date: 2005-11-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "architecture", "authorization", "calendar", "chat", "collaboration", "community", "debian", "design", "diff", "digital", "economics", "firefox", "games", "html", "identity", "ietf", "im", "installation", "javascript", "logic", "mac", "media", "microformats", "mobile", "music", "owl", "policy", "programming", "python", "quality", "rdf", "security", "semantic", "social", "software", "sparql", "sysadmin", "testing", "training", "travel", "ubuntu", "uri", "w3c", "xhtml", "xml2005"]
+tags: ["bookmarks", "diigo", "shared", "architecture", "authorization", "calendar", "chat", "collaboration", "community", "debian", "design", "diff", "digital", "economics", "firefox", "games", "HTML", "identity", "ietf", "im", "installation", "javascript", "logic", "mac", "media", "microformats", "mobile", "music", "owl", "policy", "programming", "python", "quality", "rdf", "security", "semantic", "social", "software", "sparql", "sysadmin", "testing", "training", "travel", "ubuntu", "URI", "w3c", "xhtml", "xml2005"]
 ---
 
 Shared bookmarks saved in November 2005.

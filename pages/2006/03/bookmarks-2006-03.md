@@ -2,7 +2,7 @@
 title: March 2006 Bookmarks: w3c, austin, and security
 date: 2006-03-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accountability", "architecture", "audio", "austin", "authorization", "blog", "books", "bos", "calendar", "christmas", "collaboration", "data", "datamining", "debian", "design", "digital", "economics", "emacs", "event", "faith", "family", "games", "geo", "grddl", "hardware", "health", "identity", "ietf", "javascript", "kc", "linux", "media", "microformats", "missed", "movies", "nce", "owl", "parenting", "photo", "photos", "policy", "politics", "privacy", "programming", "publishing", "python", "quality", "rdf", "remote", "research", "scm", "security", "semantic", "shopping", "sparql", "sxsw", "sysadmin", "training", "travel", "trust", "uri", "w3c", "writing", "xhtml"]
+tags: ["bookmarks", "diigo", "shared", "accountability", "architecture", "audio", "austin", "authorization", "blog", "books", "bos", "calendar", "christmas", "collaboration", "data", "datamining", "debian", "design", "digital", "economics", "emacs", "event", "faith", "family", "games", "geo", "grddl", "hardware", "health", "identity", "ietf", "javascript", "kc", "linux", "media", "microformats", "missed", "movies", "nce", "owl", "parenting", "photo", "photos", "policy", "politics", "privacy", "programming", "publishing", "python", "quality", "rdf", "remote", "research", "scm", "security", "semantic", "shopping", "sparql", "sxsw", "sysadmin", "training", "travel", "trust", "URI", "w3c", "writing", "xhtml"]
 ---
 
 Shared bookmarks saved in March 2006.
