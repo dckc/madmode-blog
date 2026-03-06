@@ -1,8 +1,8 @@
 ---
-title: August 2007 Bookmarks: chicago, html, and ord
+title: "August 2007 Bookmarks: chicago, ord, and flickr"
 date: 2007-08-01
 published: true
-tags: ["bookmarks", "diigo", "shared", "accountability", "america", "architecture", "authorization", "books", "chicago", "design", "diff", "digital", "economics", "faith", "family", "firefox", "geo", "grddl", "hardware", "hosting", "HTML", "http", "humor", "identity", "ietf", "im", "javascript", "jobs", "kc", "learning", "lhr", "logic", "mac", "media", "microformats", "missed", "mit", "mobile", "movies", "music", "openid", "ord", "oxford", "pc", "photo", "pim", "policy", "politics", "programming", "pvr", "python", "quality", "rdf", "research", "scm", "security", "semantic", "sfo", "shopping", "spam", "sync", "sysadmin", "talk", "training", "tv", "URI", "usability", "video", "volleyball", "w3c", "world", "xhtml", "xml"]
+tags: ["bookmarks", "diigo", "shared", "HTML", "KC", "SFO", "URI", "accountability", "america", "architecture", "authorization", "books", "chicago", "design", "diff", "digital", "economics", "faith", "family", "firefox", "geo", "grddl", "hardware", "hosting", "http", "humor", "identity", "ietf", "im", "javascript", "jobs", "learning", "lhr", "logic", "mac", "media", "microformats", "missed", "mit", "mobile", "movies", "music", "openid", "ord", "oxford", "pc", "photo", "pim", "policy", "politics", "programming", "pvr", "python", "quality", "rdf", "research", "scm", "security", "semantic", "shopping", "spam", "sync", "sysadmin", "talk", "training", "tv", "usability", "video", "volleyball", "w3c", "world", "xhtml", "xml"]
 ---
 
 Shared bookmarks saved in August 2007.
@@ -12,90 +12,418 @@ Shared bookmarks saved in August 2007.
 
 ## Links
 
-- 2007-08-31: [Jason Santa Maria | My Kind of Town](http://www.jasonsantamaria.com/archive/2007/08/31/my_kind_of_town.php)  _(tags: web, design, chicago, ord)_
-- 2007-08-31: [North Avenue Beach Boathouse on Flickr - Photo Sharing!](http://www.flickr.com/photos/gcf/26358351)  _(tags: volleyball, chicago, ord)_
-- 2007-08-31: [Dining in the dark on Flickr - Photo Sharing!](http://flickr.com/photos/zeldman/1246060486/in/pool-aeachicago07)  _(tags: chicago, ord, web, design)_
-- 2007-08-31: [Information Architecture "Guidelines" on Flickr - Photo Sharing!](http://flickr.com/photos/alykat/1253748281/in/pool-aeachicago07)  _(tags: web, design, chicago, ord)_
-- 2007-08-31: [Camaraderie at Fado on Flickr - Photo Sharing!](http://flickr.com/photos/talkinhonky/1259671699/in/pool-aeachicago07)  _(tags: irish, chicago, ord, web, design, xhtml)_
-- 2007-08-31: [Jason's sketchbook on Flickr - Photo Sharing!](http://flickr.com/photos/adactio/1251214821)  _(tags: web, design, html, xhtml, chicago, ord)_
-- 2007-08-31: [Cheezborger Cheezborger Cheezborger on Flickr - Photo Sharing!](http://flickr.com/photos/adactio/1254823725)  _(tags: chicago, ord, tv)_
-- 2007-08-31: [Röck!! on the right on Flickr - Photo Sharing!](http://flickr.com/photos/adactio/1259245482)  _(tags: humor, web, design, chicago, ord)_
-- 2007-08-31: [an_event_apart (39) on Flickr - Photo Sharing!](http://flickr.com/photos/59865041@N00/1263015333/in/pool-aeachicago07)  _(tags: chicago, ord, web, design, irish)_
-- 2007-08-31: [lolcat javascript on Flickr - Photo Sharing!](http://flickr.com/photos/vistamonster/1278291316/in/pool-aeachicago07)  _(tags: web, design, javascript, ord, chicago)_
-- 2007-08-31: [An event apart Chicago 07 on Flickr - Photo Sharing!](http://flickr.com/photos/hansv/1277644431/in/pool-aeachicago07)  _(tags: web, design, chicago, ord, html, xhtml)_
-- 2007-08-31: [Speakers' dinner before An Event Apart in Chicago on Flickr - Photo Sharing!](http://flickr.com/photos/simplebitsdan/1285943212/in/pool-aeachicago07)  _(tags: chicago, ord, xhtml, html, web, design)_
-- 2007-08-31: [Functioning Form - Event Apart: Best Practices for Web Form Design](http://www.lukew.com/ff/entry.asp?576)  _(tags: xhtml, web, design, html, chicago, ord)_
-- 2007-08-31: [Mobile Web Design ~ A Book by Cameron Moll](http://mobilewebbook.com/)  _(tags: books, toread, todo, xhtml, html, web)_
-- 2007-08-31: [Billy Goat Tavern - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Billy_Goat_Tavern)  _(tags: chicago, ord, america, tv)_
-- 2007-08-31: [An Event Apart Chicago 2007](http://www.aneventapart.com/events/chicago07/)  _(tags: aea, chicago, ord)_
-- 2007-08-31: [/* Position Is Everything */ — Modern browser bugs explained in detail!](http://positioniseverything.net)  _(tags: xhtml, html, chicago, ord, aea)_
-- 2007-08-28: [ButtonMonkey is Terry Eaton » Eric Meyer: Horns To The Heavens](http://www.buttonmonkey.com/2007/08/23/eric-meyer-horns-to-the-heavens)  _(tags: ord, chicago, web, design)_
-- 2007-08-28: [A List Apart: Articles: The ALA Primer: A Guide for New Readers](http://www.alistapart.com/articles/ALAprimer)  _(tags: web, design, todo, toread, article)_
-- 2007-08-28: [bramcohen: Mortgage Lending](http://bramcohen.livejournal.com/41811.html)  _(tags: economics)_
-- 2007-08-28: [2007 Subprime mortgage financial crisis - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Subprime_mortgage_financial_crisis)  _(tags: america, economics)_
-- 2007-08-28: [Jeffrey Z - Library / An Event Apart 07 Extended](http://www.ilike.com/user/Jeffrey_Z1/library/playlist/An+Event+Apart+07+Extended?pid=2964988)  _(tags: event-apart, digital, media, music, ord, chicago)_
-- 2007-08-28: [Adactio: Extras](http://adactio.com/extras/aea07)  _(tags: javascript, web, design, ord, chicago)_
-- 2007-08-27: [Iconfactory : Software : Twitterrific](http://iconfactory.com/software/twitterrific)  _(tags: mac, todo, sysadmin, pim, eachicago07)_
-- 2007-08-24: [Ryan's Journal: Insights into Current Presidential Candidates](http://ryanlee.org/journal/view/5521/?return_url=%2Fjournal%2Fall)  _(tags: politics, america, semantic, web, rdf)_
-- 2007-08-24: [Philip Greenspun’s Weblog » Improving Undergraduate Computer Science Education](http://blogs.law.harvard.edu/philg/2007/08/23/improving-undergraduate-computer-science-education)  _(tags: programming, training, learning, mit)_
-- 2007-08-23: [Sam Ruby: Making the Web Safe for application/xhtml+xml](http://intertwingly.net/blog/2007/06/25/Making-the-Web-Safe-for-application-xhtml-xml)  _(tags: xhtml, html, w3c)_
-- 2007-08-23: [Coding Horror: Avoiding Undocumentation](http://www.codinghorror.com/blog/archives/000451.html)  _(tags: programming, quality)_
-- 2007-08-22: [John Edwards - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/John_Edwards)  _(tags: america, politics)_
-- 2007-08-22: [Linus Torvalds talks future of Linux (page 2) | APC Magazine](http://apcmag.com/7016/linus_torvalds_talks_future_of_linux_page_2)  _(tags: pc, hardware)_
-- 2007-08-22: [Bill de hÓra: Design for the web](http://www.dehora.net/journal/2007/07/earned_value.html)  _(tags: web, architecture)_
-- 2007-08-22: [Stuck on the enterprise](http://arstechnica.com/staff/fatbits.ars/2007/08/09/stuck-on-the-enterprise)  _(tags: usability, design, mobile)_
-- 2007-08-22: [Putting the User at the Heart of the W3C Process - CETISwiki](http://wiki.cetis.ac.uk/Putting_the_User_at_the_Heart_of_the_W3C_Process)  _(tags: w3c)_
-- 2007-08-21: [inbox zero](http://kitenet.net/~joey/blog/entry/inbox_zero)  _(tags: video, todo, digital, media, talk)_
-- 2007-08-21: [Explorer 8300](http://www.sciatl.com/products/consumers/new_explorer8300.htm)  _(tags: pvr, digital, media, video, movies, sysadmin)_
-- 2007-08-21: [So Long, TiVo; Hello DVR - Columns by PC Magazine](http://www.pcmag.com/article2/0,1895,2115175,00.asp)  _(tags: digital, media, video, pvr)_
-- 2007-08-21: [Intuit - Careers / Senior Product Manager / web-based platforms](http://www.intuit.apply2jobs.com/index.cfm?fuseaction=mExternal.showJob&RID=63566&CurrentPage=1)  _(tags: sjc, sfo, jobs, web, programming)_
-- 2007-08-21: [Mac OS X 10.4 Tiger: Page 11 (File types revisited)](http://arstechnica.com/reviews/os/macosx-10-4.ars/11)  _(tags: uri, rdf, semantic, web, w3c, ietf)_
-- 2007-08-20: [Slashdot | Google's Continued Growing Pains](http://slashdot.org/articles/07/08/19/2252235.shtml)  _(tags: economics)_
-- 2007-08-20: [Wikinews interviews World Wide Web co-inventor Robert Cailliau - Wikinews, the free news source](http://en.wikinews.org/wiki/Wikinews_interviews_World_Wide_Web_co-inventor_Robert_Cailliau)  _(tags: web, world)_
-- 2007-08-20: [Wugofski Named Handmark Chief Technology Officer / Handmark - Company Information](http://www.handmark.com/company/news.php?id=159)  _(tags: html, xhtml, kc)_
-- 2007-08-19: [Amazon.com: Nokia E70 Phone (Unlocked): Cell Phones & Service](http://www.amazon.com/Nokia-E70-Phone-Unlocked/dp/B000JNXDBG/ref=pd_ts_22/104-0303051-5177578?ie=UTF8&s=wireless)  _(tags: mobile, shopping)_
-- 2007-08-18: [Mercurial binary packages for Windows and Mac OS X](http://mercurial.berkwood.com)  _(tags: mac, python, scm)_
-- 2007-08-18: [VeriSign Infrablog: Bringing Useful Scalable Security to OpenID](http://blogs.verisign.com/infrablog/2007/06/bringing_useful_scalable_secur.php)  _(tags: authorization, web, security, policy)_
-- 2007-08-18: [VeriSign's OpenID SeatBelt Plugin](https://pip.verisignlabs.com/seatbelt.do)  _(tags: firefox, web, architecture, security, sysadmin, todo)_
-- 2007-08-17: [Transforming RFC2629-formatted XML through XSLT](http://greenbytes.de/tech/webdav/rfc2629xslt/rfc2629xslt.html)  _(tags: ietf, w3c, html, xhtml)_
-- 2007-08-17: [Next Generation Instant Messenger for Mozilla Firefox & Thunderbird - SamePlace](http://sameplace.cc)  _(tags: im, web)_
-- 2007-08-17: [The HTML 5 circus: Why I left and rejoined the W3C HTML Working Group | 456 Berea Street](http://www.456bereastreet.com/archive/200708/the_html_5_circus_why_i_left_and_rejoined_the_w3c_html_working_group)  _(tags: html, xhtml, w3c, learning, training)_
-- 2007-08-17: [Hacking for Christ: The Proprietarisation of Email](http://weblogs.mozillazine.org/gerv/archives/2007/06/the_proprietarisation_of_email.html)  _(tags: spam, w3c, ietf, web)_
-- 2007-08-16: [About Validator.nu](http://about.validator.nu)  _(tags: xhtml, html, quality)_
-- 2007-08-16: [Jeffrey Zeldman Presents : What crisis?](http://www.zeldman.com/2007/08/15/what-crisis)  _(tags: html, xhtml, w3c)_
-- 2007-08-16: [The Bourne Ultimatum (film) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/The_Bourne_Ultimatum_(film))  _(tags: movies, ***)_
-- 2007-08-16: [The Bourne Ultimatum - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/The_Bourne_Ultimatum_(novel))  _(tags: books, movies, ***)_
-- 2007-08-16: [Recycled Knowledge: Extreme Markup 2007: Thursday](http://recycledknowledge.blogspot.com/2007/08/extreme-markup-2007-thursday.html)  _(tags: rdf, semantic, web, logic)_
-- 2007-08-14: [Understanding and Solving Internet Explorer Leak Patterns](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/IETechCol/dnwebgen/ie_leak_patterns.asp)  _(tags: javascript, web, programming, toread, article)_
-- 2007-08-14: [Software Secret Weapons: Javascript Refactoring For Safer Faster Better AJAX](http://www.softwaresecretweapons.com/jspwiki/javascriptrefactoringforsaferfasterbetterajax)  _(tags: javascript, web, programming)_
-- 2007-08-14: [Minding the Planet: What's cooking on GRDDL?](http://novaspivack.typepad.com/nova_spivacks_weblog/2007/08/whats-cooking-o.html)  _(tags: grddl, semantic, web, rdf)_
-- 2007-08-14: [I, Cringely . The Pulpit . The $200 Billion Rip-Off | PBS](http://www.pbs.org/cringely/pulpit/2007/pulpit_20070810_002683.html)  _(tags: politics, america, economics)_
-- 2007-08-14: [IANA: Conversion of some txt registries to XML](http://www.viagenie.ca/ianaxml)  _(tags: w3c, ietf, xml, xhtml, html)_
-- 2007-08-14: [Harmony Project home page](http://www.seas.upenn.edu/~harmony/)  _(tags: diff, sync, toread)_
-- 2007-08-13: [molly.com » Dear W3C, Dear WaSP](http://www.molly.com/2007/08/11/dear-w3c-dear-wasp/)  _(tags: w3c, html, xhtml)_
-- 2007-08-13: [Fixing The Web - Part 1](http://xhtml.com/en/future/fixing-the-web-1/#wilson)  _(tags: xhtml, html, w3c)_
-- 2007-08-13: [North Avenue Beach - Chicago, IL, 60610 - Citysearch](http://chicago.citysearch.com/profile/11342167/chicago_il/north_avenue_beach.html)  _(tags: ord, chicago, volleyball)_
-- 2007-08-13: [Core JavaScript 1.5 Reference - MDC](http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference#Appendix_B_-_Deprecated_Features)  _(tags: javascript, programming, web)_
-- 2007-08-11: [Ceci n'est pas un Bob: Within This Decade](http://notabob.blogspot.com/2006/02/within-this-decade.html)  _(tags: web, architecture, security)_
-- 2007-08-11: [Brad Neuberg: Coding In Paradise: AJAX: Creating Huge Bookmarklets](http://codinginparadise.org/weblog/2005/08/ajax-creating-huge-bookmarklets.html)  _(tags: javascript, web, programming)_
-- 2007-08-10: [Flock 0.9 to 0.7 Feature Comparison | Flock](http://www.flock.com/compare)  _(tags: web, sysadmin, todo)_
-- 2007-08-10: [New elements in HTML 5](http://www.ibm.com/developerworks/library/x-html5/?ca=dgr-lnxw01NewHTML)  _(tags: article, xhtml, html, w3c)_
-- 2007-08-07: [iPhone Developer Guidelines Promote One Web, Open Standards - W3C Q&A Weblog](http://www.w3.org/QA/2007/08/iphone_developer_guidelines_pr.html)  _(tags: mobile, quality, web, architecture, mac)_
-- 2007-08-07: [How to use appfs](http://wanderingbarque.com/appfs/using_appfs.html)  _(tags: web, http)_
-- 2007-08-07: [BoingBoing: Bruce Sterling SIGGRAPH 2004 speech "When Blobjects Rule the Earth"](http://boingboing.net/images/blobjects.htm)  _(tags: world)_
-- 2007-08-06: [Federal Funding Accountability and Transparency Act of 2006 - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Federal_Funding_Accountability_and_Transparency_Act_of_2006)  _(tags: accountability, research, politics, america)_
-- 2007-08-06: [Why FuXi? ✏Copia](http://copia.ogbuji.net/blog/2007-08-05/why-fuxi)  _(tags: logic, semantic, web, faith)_
-- 2007-08-06: [Sci Foo 2007 Gossip Liveblog (Aaron Swartz's Raw Thought)](http://www.aaronsw.com/weblog/scifoo07)  _(tags: research)_
-- 2007-08-03: [I, Cringely . The Pulpit . An AIR of Invisibility | PBS](http://www.pbs.org/cringely/pulpit/2007/pulpit_20070629_002360.html)  _(tags: toread, html, xhtml)_
-- 2007-08-03: [Annals of Technology: Damn Spam: Reporting & Essays: The New Yorker](http://www.newyorker.com/reporting/2007/08/06/070806fa_fact_specter)  _(tags: spam, w3c, ietf, security)_
-- 2007-08-03: [Mobile me](http://norman.walsh.name/2007/08/01/mobile)  _(tags: mobile, shopping)_
-- 2007-08-02: [Meow! on Flickr - Photo Sharing!](http://www.flickr.com/photos/psd/914692758)  _(tags: rdf, semantic, web, microformats, grddl, w3c)_
-- 2007-08-02: [John Chelsom on Flickr - Photo Sharing!](http://www.flickr.com/photos/xmlgrrl/966577000/in/set-72157601125232232)  _(tags: lhr, oxford, xml, w3c)_
-- 2007-08-02: [Jeni sells us XPath on Flickr - Photo Sharing!](http://www.flickr.com/photos/psd/914690468)  _(tags: oxford, lhr, xml, w3c, xpath)_
-- 2007-08-02: [Eve points out what's Tricksy on Flickr - Photo Sharing!](http://www.flickr.com/photos/psd/914693826)  _(tags: oxford, lhr, web, architecture, security, xml)_
-- 2007-08-02: [Under the shadow of John / Oxford Geek night](http://www.flickr.com/photos/psd/914899068/in/photostream)  _(tags: missed, oxford, lhr, programming)_
-- 2007-08-02: [Venn of Identity](http://www.flickr.com/photos/psd/917119419)  _(tags: oxford, lhr, web, architecture, security, identity)_
-- 2007-08-02: [Roy T. Fielding Has a Posse on Flickr - Photo Sharing!](http://www.flickr.com/photos/psd/421186578)  _(tags: oxford, lhr, xml, web, architecture, http)_
-- 2007-08-02: [Kinzin - Free family websites for sharing photos, stories, recipes and event planning](http://kinzin.com)  _(tags: family, web, hosting, photo, lhr, oxford)_
-- 2007-08-02: [Hackszine.com: DNS rebinding: how an attacker can use your web browser to bypass a firewall](http://www.hackszine.com/blog/archive/2007/08/dns_rebinding_how_an_attacker.html?CMP=OTC-7G2N43923558)  _(tags: web, architecture, security, javascript, html, xhtml)_
-- 2007-08-01: [Official Google Maps API Blog: Microformats in Google Maps](http://googlemapsapi.blogspot.com/2007/06/microformats-in-google-maps.html)  _(tags: microformats, geo)_
+<ul class="bookmarks">
+  <li>
+    <a href="http://www.jasonsantamaria.com/archive/2007/08/31/my_kind_of_town.php">Jason Santa Maria | My Kind of Town</a><br>
+    2007-08-31 web design chicago ord<br>
+  </li>
+  <li>
+    <a href="http://www.flickr.com/photos/gcf/26358351">North Avenue Beach Boathouse on Flickr - Photo Sharing!</a><br>
+    2007-08-31 volleyball chicago ord<br>
+    <p class="bm-desc">I picked up a game there on Sunday.</p>
+  </li>
+  <li>
+    <a href="http://flickr.com/photos/zeldman/1246060486/in/pool-aeachicago07">Dining in the dark on Flickr - Photo Sharing!</a><br>
+    2007-08-31 chicago ord web design<br>
+    <p class="bm-desc">chatting up Jim Coudal at dinner on Sunday</p>
+  </li>
+  <li>
+    <a href="http://flickr.com/photos/alykat/1253748281/in/pool-aeachicago07">Information Architecture "Guidelines" on Flickr - Photo Sharing!</a><br>
+    2007-08-31 web design chicago ord<br>
+    <p class="bm-desc">nice summary of Liz's talk</p>
+  </li>
+  <li>
+    <a href="http://flickr.com/photos/talkinhonky/1259671699/in/pool-aeachicago07">Camaraderie at Fado on Flickr - Photo Sharing!</a><br>
+    2007-08-31 irish chicago ord web design xhtml<br>
+    <p class="bm-desc">me again. crummy lighting this time</p>
+  </li>
+  <li>
+    <a href="http://flickr.com/photos/adactio/1251214821">Jason's sketchbook on Flickr - Photo Sharing!</a><br>
+    2007-08-31 web design HTML xhtml chicago ord<br>
+    <p class="bm-desc">design in action</p>
+  </li>
+  <li>
+    <a href="http://flickr.com/photos/adactio/1254823725">Cheezborger Cheezborger Cheezborger on Flickr - Photo Sharing!</a><br>
+    2007-08-31 chicago ord tv<br>
+  </li>
+  <li>
+    <a href="http://flickr.com/photos/adactio/1259245482">Röck!! on the right on Flickr - Photo Sharing!</a><br>
+    2007-08-31 humor web design chicago ord<br>
+    <p class="bm-desc">After Eric Meyer got caught on tape giving the metal horns, Jeremy gets the whole crowd to do it.</p>
+  </li>
+  <li>
+    <a href="http://flickr.com/photos/59865041@N00/1263015333/in/pool-aeachicago07">an_event_apart (39) on Flickr - Photo Sharing!</a><br>
+    2007-08-31 chicago ord web design irish<br>
+    <p class="bm-desc">at Fado's</p>
+  </li>
+  <li>
+    <a href="http://flickr.com/photos/vistamonster/1278291316/in/pool-aeachicago07">lolcat javascript on Flickr - Photo Sharing!</a><br>
+    2007-08-31 web design javascript ord chicago<br>
+    <p class="bm-desc">Jeremy is a hoot!</p>
+  </li>
+  <li>
+    <a href="http://flickr.com/photos/hansv/1277644431/in/pool-aeachicago07">An event apart Chicago 07 on Flickr - Photo Sharing!</a><br>
+    2007-08-31 web design chicago ord HTML xhtml<br>
+  </li>
+  <li>
+    <a href="http://flickr.com/photos/simplebitsdan/1285943212/in/pool-aeachicago07">Speakers' dinner before An Event Apart in Chicago on Flickr - Photo Sharing!</a><br>
+    2007-08-31 chicago ord xhtml HTML web design<br>
+    <p class="bm-desc">you can just barely see me over in the corner</p>
+  </li>
+  <li>
+    <a href="http://www.lukew.com/ff/entry.asp?576">Functioning Form - Event Apart: Best Practices for Web Form Design</a><br>
+    2007-08-31 xhtml web design HTML chicago ord<br>
+    <p class="bm-desc">this talk by Luke Wroblewski was jam-packed with gold nuggets</p>
+  </li>
+  <li>
+    <a href="http://mobilewebbook.com/">Mobile Web Design ~ A Book by Cameron Moll</a><br>
+    2007-08-31 books toread todo xhtml HTML web<br>
+    <p class="bm-desc">spotter: Jason. worth the time/money?</p>
+  </li>
+  <li>
+    <a href="http://en.wikipedia.org/wiki/Billy_Goat_Tavern">Billy Goat Tavern - Wikipedia, the free encyclopedia</a><br>
+    2007-08-31 chicago ord america tv<br>
+    <p class="bm-desc">of SNL fame. went there this week with AEA geeks</p>
+  </li>
+  <li>
+    <a href="http://www.aneventapart.com/events/chicago07/">An Event Apart Chicago 2007</a><br>
+    2007-08-31 aea chicago ord<br>
+  </li>
+  <li>
+    <a href="http://positioniseverything.net">/* Position Is Everything */ — Modern browser bugs explained in detail!</a><br>
+    2007-08-31 xhtml HTML chicago ord aea<br>
+    <p class="bm-desc">Meyer recommends this during his "The State of CSS In an IE7 World" talk</p>
+  </li>
+  <li>
+    <a href="http://www.buttonmonkey.com/2007/08/23/eric-meyer-horns-to-the-heavens">ButtonMonkey is Terry Eaton » Eric Meyer: Horns To The Heavens</a><br>
+    2007-08-28 ord chicago web design<br>
+  </li>
+  <li>
+    <a href="http://www.alistapart.com/articles/ALAprimer">A List Apart: Articles: The ALA Primer: A Guide for New Readers</a><br>
+    2007-08-28 web design todo toread article<br>
+  </li>
+  <li>
+    <a href="http://bramcohen.livejournal.com/41811.html">bramcohen: Mortgage Lending</a><br>
+    2007-08-28 economics<br>
+    <p class="bm-desc">"The people holding on to mortgages right now are mostly hedge funds, which by definition only have accredited investors as shareholders, and accredited investors by definition have enough money that they can afford to suck it up if their investments go b</p>
+  </li>
+  <li>
+    <a href="http://en.wikipedia.org/wiki/Subprime_mortgage_financial_crisis">2007 Subprime mortgage financial crisis - Wikipedia, the free encyclopedia</a><br>
+    2007-08-28 america economics<br>
+  </li>
+  <li>
+    <a href="http://www.ilike.com/user/Jeffrey_Z1/library/playlist/An+Event+Apart+07+Extended?pid=2964988">Jeffrey Z - Library / An Event Apart 07 Extended</a><br>
+    2007-08-28 event-apart digital media music ord chicago<br>
+    <p class="bm-desc">playlist, by request</p>
+  </li>
+  <li>
+    <a href="http://adactio.com/extras/aea07">Adactio: Extras</a><br>
+    2007-08-28 javascript web design ord chicago<br>
+    <p class="bm-desc">code behind Jeremy's presentation</p>
+  </li>
+  <li>
+    <a href="http://iconfactory.com/software/twitterrific">Iconfactory : Software : Twitterrific</a><br>
+    2007-08-27 mac todo sysadmin pim eachicago07<br>
+    <p class="bm-desc">maybe give this a try sometime</p>
+  </li>
+  <li>
+    <a href="http://ryanlee.org/journal/view/5521/?return_url=%2Fjournal%2Fall">Ryan's Journal: Insights into Current Presidential Candidates</a><br>
+    2007-08-24 politics america semantic web rdf<br>
+    <p class="bm-desc">ooh... exhibit on issues...</p>
+  </li>
+  <li>
+    <a href="http://blogs.law.harvard.edu/philg/2007/08/23/improving-undergraduate-computer-science-education">Philip Greenspun’s Weblog » Improving Undergraduate Computer Science Education</a><br>
+    2007-08-24 programming training learning mit<br>
+  </li>
+  <li>
+    <a href="http://intertwingly.net/blog/2007/06/25/Making-the-Web-Safe-for-application-xhtml-xml">Sam Ruby: Making the Web Safe for application/xhtml+xml</a><br>
+    2007-08-23 xhtml HTML w3c<br>
+    <p class="bm-desc">25 Jun. google does it now. causal?</p>
+  </li>
+  <li>
+    <a href="http://www.codinghorror.com/blog/archives/000451.html">Coding Horror: Avoiding Undocumentation</a><br>
+    2007-08-23 programming quality<br>
+    <p class="bm-desc">"Honestly, my problem isn't that lots of stuff is undocumented. It's that Microsoft spent time writing this undocumentation, proof-reading this undocumentation, and putting this undocumentation through the same process as the real documentation."</p>
+  </li>
+  <li>
+    <a href="http://en.wikipedia.org/wiki/John_Edwards">John Edwards - Wikipedia, the free encyclopedia</a><br>
+    2007-08-22 america politics<br>
+    <p class="bm-desc">"In his closing arguments, Edwards spoke to the jury for an hour and a half without referring to notes." hmm... powerful speaker or snake-oil salesman?</p>
+  </li>
+  <li>
+    <a href="http://apcmag.com/7016/linus_torvalds_talks_future_of_linux_page_2">Linus Torvalds talks future of Linux (page 2) | APC Magazine</a><br>
+    2007-08-22 pc hardware<br>
+    <p class="bm-desc">"Intel in particular has improved wrt open source a lot, and for that reason I tend to suggest that when buying a machine, just make sure that you buy one with Intel graphics and wireless. That takes care of the two biggest annoyances right there." oops.</p>
+  </li>
+  <li>
+    <a href="http://www.dehora.net/journal/2007/07/earned_value.html">Bill de hÓra: Design for the web</a><br>
+    2007-08-22 web architecture<br>
+    <p class="bm-desc">Amen! Preach, brother!</p>
+  </li>
+  <li>
+    <a href="http://arstechnica.com/staff/fatbits.ars/2007/08/09/stuck-on-the-enterprise">Stuck on the enterprise</a><br>
+    2007-08-22 usability design mobile<br>
+    <p class="bm-desc">"Maybe around item two hundred in this list there might be a bit about the people who will actually use these enterprise dream phones tolerating the things. Really, as long as they don't openly revolt, it's fine."</p>
+  </li>
+  <li>
+    <a href="http://wiki.cetis.ac.uk/Putting_the_User_at_the_Heart_of_the_W3C_Process">Putting the User at the Heart of the W3C Process - CETISwiki</a><br>
+    2007-08-22 w3c<br>
+    <p class="bm-desc">hmm... I can't find anything about putting the user at the heart of the W3C process</p>
+  </li>
+  <li>
+    <a href="http://kitenet.net/~joey/blog/entry/inbox_zero">inbox zero</a><br>
+    2007-08-21 video todo digital media talk<br>
+    <p class="bm-desc">it's not even a goal of mine to get my inbox to zero any more, but I hope to find time to watch the talk in any case. hmm... here's wishing I could send it to my dvr...</p>
+  </li>
+  <li>
+    <a href="http://www.sciatl.com/products/consumers/new_explorer8300.htm">Explorer 8300</a><br>
+    2007-08-21 pvr digital media video movies sysadmin<br>
+    <p class="bm-desc">Everest offers this for $5/month, and we took them up on it. Pause live TV is so nice!</p>
+  </li>
+  <li>
+    <a href="http://www.pcmag.com/article2/0,1895,2115175,00.asp">So Long, TiVo; Hello DVR - Columns by PC Magazine</a><br>
+    2007-08-21 digital media video pvr<br>
+    <p class="bm-desc">"If the only price points you can find are $0 and $800, you know there's something wrong with the set-top box business. But that's what happens when there's no free market."</p>
+  </li>
+  <li>
+    <a href="http://www.intuit.apply2jobs.com/index.cfm?fuseaction=mExternal.showJob&amp;RID=63566&amp;CurrentPage=1">Intuit - Careers / Senior Product Manager / web-based platforms</a><br>
+    2007-08-21 sjc SFO jobs web programming<br>
+    <p class="bm-desc">I think an ajax version of quicken would be killer. I've been noodling on an open source version for a few years now.</p>
+  </li>
+  <li>
+    <a href="http://arstechnica.com/reviews/os/macosx-10-4.ars/11">Mac OS X 10.4 Tiger: Page 11 (File types revisited)</a><br>
+    2007-08-21 URI rdf semantic web w3c ietf<br>
+    <p class="bm-desc">Apr 2005. Ugh... UTIs... why not URIs? and why not RDF for inheritance, localized labels, etc.? sigh.</p>
+  </li>
+  <li>
+    <a href="http://slashdot.org/articles/07/08/19/2252235.shtml">Slashdot | Google's Continued Growing Pains</a><br>
+    2007-08-20 economics<br>
+    <p class="bm-desc">"Well, yes, it's difficult to grow rapidly when you're valued at over 1/400th of the gross world product. Pick a bigger planet next time, perhaps?"</p>
+  </li>
+  <li>
+    <a href="http://en.wikinews.org/wiki/Wikinews_interviews_World_Wide_Web_co-inventor_Robert_Cailliau">Wikinews interviews World Wide Web co-inventor Robert Cailliau - Wikinews, the free news source</a><br>
+    2007-08-20 web world<br>
+  </li>
+  <li>
+    <a href="http://www.handmark.com/company/news.php?id=159">Wugofski Named Handmark Chief Technology Officer / Handmark - Company Information</a><br>
+    2007-08-20 HTML xhtml KC<br>
+    <p class="bm-desc">formerly of Openwave etc.</p>
+  </li>
+  <li>
+    <a href="http://www.amazon.com/Nokia-E70-Phone-Unlocked/dp/B000JNXDBG/ref=pd_ts_22/104-0303051-5177578?ie=UTF8&amp;s=wireless">Amazon.com: Nokia E70 Phone (Unlocked): Cell Phones &amp; Service</a><br>
+    2007-08-19 mobile shopping<br>
+  </li>
+  <li>
+    <a href="http://mercurial.berkwood.com">Mercurial binary packages for Windows and Mac OS X</a><br>
+    2007-08-18 mac python scm<br>
+  </li>
+  <li>
+    <a href="http://blogs.verisign.com/infrablog/2007/06/bringing_useful_scalable_secur.php">VeriSign Infrablog: Bringing Useful Scalable Security to OpenID</a><br>
+    2007-08-18 authorization web security policy<br>
+    <p class="bm-desc">policy extensions to OpenID</p>
+  </li>
+  <li>
+    <a href="https://pip.verisignlabs.com/seatbelt.do">VeriSign's OpenID SeatBelt Plugin</a><br>
+    2007-08-18 firefox web architecture security sysadmin todo<br>
+  </li>
+  <li>
+    <a href="http://greenbytes.de/tech/webdav/rfc2629xslt/rfc2629xslt.html">Transforming RFC2629-formatted XML through XSLT</a><br>
+    2007-08-17 ietf w3c HTML xhtml<br>
+    <p class="bm-desc">J. F. Reschke July 2007</p>
+  </li>
+  <li>
+    <a href="http://sameplace.cc">Next Generation Instant Messenger for Mozilla Firefox &amp; Thunderbird - SamePlace</a><br>
+    2007-08-17 im web<br>
+  </li>
+  <li>
+    <a href="http://www.456bereastreet.com/archive/200708/the_html_5_circus_why_i_left_and_rejoined_the_w3c_html_working_group">The HTML 5 circus: Why I left and rejoined the W3C HTML Working Group | 456 Berea Street</a><br>
+    2007-08-17 HTML xhtml w3c learning training<br>
+  </li>
+  <li>
+    <a href="http://weblogs.mozillazine.org/gerv/archives/2007/06/the_proprietarisation_of_email.html">Hacking for Christ: The Proprietarisation of Email</a><br>
+    2007-08-17 spam w3c ietf web<br>
+    <p class="bm-desc">"Will someone need to write a Facebook/MySpace mail gateway?"</p>
+  </li>
+  <li>
+    <a href="http://about.validator.nu">About Validator.nu</a><br>
+    2007-08-16 xhtml HTML quality<br>
+    <p class="bm-desc">I thought I bookmarked this a while ago... hmm...</p>
+  </li>
+  <li>
+    <a href="http://www.zeldman.com/2007/08/15/what-crisis">Jeffrey Zeldman Presents : What crisis?</a><br>
+    2007-08-16 HTML xhtml w3c<br>
+    <p class="bm-desc">comments include nice words like... "What the W3C have learned recently is that it’s not enough to be working; you have to be seen to be working. They’ve started blogging and interacting much more, which is great."</p>
+  </li>
+  <li>
+    <a href="http://en.wikipedia.org/wiki/The_Bourne_Ultimatum_(film)">The Bourne Ultimatum (film) - Wikipedia, the free encyclopedia</a><br>
+    2007-08-16 movies ***<br>
+    <p class="bm-desc">a rush. quite different from the book indeed.</p>
+  </li>
+  <li>
+    <a href="http://en.wikipedia.org/wiki/The_Bourne_Ultimatum_(novel)">The Bourne Ultimatum - Wikipedia, the free encyclopedia</a><br>
+    2007-08-16 books movies ***<br>
+    <p class="bm-desc">"As in the 2004 film, The Bourne Supremacy, The Bourne Ultimatum has a completely different plot from the novel."</p>
+  </li>
+  <li>
+    <a href="http://recycledknowledge.blogspot.com/2007/08/extreme-markup-2007-thursday.html">Recycled Knowledge: Extreme Markup 2007: Thursday</a><br>
+    2007-08-16 rdf semantic web logic<br>
+    <p class="bm-desc">"Theoretically, RDF uses different URIs for these separate purposes, but that leads to paradoxes " John knows better than to throw around words like "paradox," no? foaf:topic addresses this problem just fine. sigh.</p>
+  </li>
+  <li>
+    <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/IETechCol/dnwebgen/ie_leak_patterns.asp">Understanding and Solving Internet Explorer Leak Patterns</a><br>
+    2007-08-14 javascript web programming toread article<br>
+    <p class="bm-desc">Justin Rogers Microsoft Corporation June 2005</p>
+  </li>
+  <li>
+    <a href="http://www.softwaresecretweapons.com/jspwiki/javascriptrefactoringforsaferfasterbetterajax">Software Secret Weapons: Javascript Refactoring For Safer Faster Better AJAX</a><br>
+    2007-08-14 javascript web programming<br>
+    <p class="bm-desc">notes sure about var foo = function() vs this.foo = function()</p>
+  </li>
+  <li>
+    <a href="http://novaspivack.typepad.com/nova_spivacks_weblog/2007/08/whats-cooking-o.html">Minding the Planet: What's cooking on GRDDL?</a><br>
+    2007-08-14 grddl semantic web rdf<br>
+  </li>
+  <li>
+    <a href="http://www.pbs.org/cringely/pulpit/2007/pulpit_20070810_002683.html">I, Cringely . The Pulpit . The $200 Billion Rip-Off | PBS</a><br>
+    2007-08-14 politics america economics<br>
+  </li>
+  <li>
+    <a href="http://www.viagenie.ca/ianaxml">IANA: Conversion of some txt registries to XML</a><br>
+    2007-08-14 w3c ietf xml xhtml HTML<br>
+    <p class="bm-desc">spotter: Tim Bray</p>
+  </li>
+  <li>
+    <a href="http://www.seas.upenn.edu/~harmony/">Harmony Project home page</a><br>
+    2007-08-14 diff sync toread<br>
+    <p class="bm-desc">view-update stuff</p>
+  </li>
+  <li>
+    <a href="http://www.molly.com/2007/08/11/dear-w3c-dear-wasp/">molly.com » Dear W3C, Dear WaSP</a><br>
+    2007-08-13 w3c HTML xhtml<br>
+    <p class="bm-desc">hmm...</p>
+  </li>
+  <li>
+    <a href="http://xhtml.com/en/future/fixing-the-web-1/#wilson">Fixing The Web - Part 1</a><br>
+    2007-08-13 xhtml HTML w3c<br>
+  </li>
+  <li>
+    <a href="http://chicago.citysearch.com/profile/11342167/chicago_il/north_avenue_beach.html">North Avenue Beach - Chicago, IL, 60610 - Citysearch</a><br>
+    2007-08-13 ord chicago volleyball<br>
+  </li>
+  <li>
+    <a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference#Appendix_B_-_Deprecated_Features">Core JavaScript 1.5 Reference - MDC</a><br>
+    2007-08-13 javascript programming web<br>
+  </li>
+  <li>
+    <a href="http://notabob.blogspot.com/2006/02/within-this-decade.html">Ceci n'est pas un Bob: Within This Decade</a><br>
+    2007-08-11 web architecture security<br>
+    <p class="bm-desc">on cleartext passwords, Feb 2006</p>
+  </li>
+  <li>
+    <a href="http://codinginparadise.org/weblog/2005/08/ajax-creating-huge-bookmarklets.html">Brad Neuberg: Coding In Paradise: AJAX: Creating Huge Bookmarklets</a><br>
+    2007-08-11 javascript web programming<br>
+    <p class="bm-desc">I was wondering how to do this.</p>
+  </li>
+  <li>
+    <a href="http://www.flock.com/compare">Flock 0.9 to 0.7 Feature Comparison | Flock</a><br>
+    2007-08-10 web sysadmin todo<br>
+    <p class="bm-desc">ah... I've been wondering about a new flock release</p>
+  </li>
+  <li>
+    <a href="http://www.ibm.com/developerworks/library/x-html5/?ca=dgr-lnxw01NewHTML">New elements in HTML 5</a><br>
+    2007-08-10 article xhtml HTML w3c<br>
+    <p class="bm-desc">IBM developerworks 7 Aug</p>
+  </li>
+  <li>
+    <a href="http://www.w3.org/QA/2007/08/iphone_developer_guidelines_pr.html">iPhone Developer Guidelines Promote One Web, Open Standards - W3C Q&amp;A Weblog</a><br>
+    2007-08-07 mobile quality web architecture mac<br>
+    <p class="bm-desc">by yours truly</p>
+  </li>
+  <li>
+    <a href="http://wanderingbarque.com/appfs/using_appfs.html">How to use appfs</a><br>
+    2007-08-07 web http<br>
+    <p class="bm-desc">ruby. AtomPub/APP. FUSE?</p>
+  </li>
+  <li>
+    <a href="http://boingboing.net/images/blobjects.htm">BoingBoing: Bruce Sterling SIGGRAPH 2004 speech "When Blobjects Rule the Earth"</a><br>
+    2007-08-07 world<br>
+    <p class="bm-desc">spotter: mark</p>
+  </li>
+  <li>
+    <a href="http://en.wikipedia.org/wiki/Federal_Funding_Accountability_and_Transparency_Act_of_2006">Federal Funding Accountability and Transparency Act of 2006 - Wikipedia, the free encyclopedia</a><br>
+    2007-08-06 accountability research politics america<br>
+    <p class="bm-desc">introduced by Obama</p>
+  </li>
+  <li>
+    <a href="http://copia.ogbuji.net/blog/2007-08-05/why-fuxi">Why FuXi? ✏Copia</a><br>
+    2007-08-06 logic semantic web faith<br>
+  </li>
+  <li>
+    <a href="http://www.aaronsw.com/weblog/scifoo07">Sci Foo 2007 Gossip Liveblog (Aaron Swartz's Raw Thought)</a><br>
+    2007-08-06 research<br>
+    <p class="bm-desc">hmm...</p>
+  </li>
+  <li>
+    <a href="http://www.pbs.org/cringely/pulpit/2007/pulpit_20070629_002360.html">I, Cringely . The Pulpit . An AIR of Invisibility | PBS</a><br>
+    2007-08-03 toread HTML xhtml<br>
+  </li>
+  <li>
+    <a href="http://www.newyorker.com/reporting/2007/08/06/070806fa_fact_specter">Annals of Technology: Damn Spam: Reporting &amp; Essays: The New Yorker</a><br>
+    2007-08-03 spam w3c ietf security<br>
+    <p class="bm-desc">spotter: Ian</p>
+  </li>
+  <li>
+    <a href="http://norman.walsh.name/2007/08/01/mobile">Mobile me</a><br>
+    2007-08-03 mobile shopping<br>
+    <p class="bm-desc">norm and I seem to share tastes in phones</p>
+  </li>
+  <li>
+    <a href="http://www.flickr.com/photos/psd/914692758">Meow! on Flickr - Photo Sharing!</a><br>
+    2007-08-02 rdf semantic web microformats grddl w3c<br>
+    <p class="bm-desc">Bob DuCharme on RDFa in the Trends and Transients closing panel at XML Summer School</p>
+  </li>
+  <li>
+    <a href="http://www.flickr.com/photos/xmlgrrl/966577000/in/set-72157601125232232">John Chelsom on Flickr - Photo Sharing!</a><br>
+    2007-08-02 lhr oxford xml w3c<br>
+    <p class="bm-desc">meeting John at XML summer school was nice and fun.</p>
+  </li>
+  <li>
+    <a href="http://www.flickr.com/photos/psd/914690468">Jeni sells us XPath on Flickr - Photo Sharing!</a><br>
+    2007-08-02 oxford lhr xml w3c xpath<br>
+    <p class="bm-desc">Working with Jeni was fun. tx for the photo, psd.</p>
+  </li>
+  <li>
+    <a href="http://www.flickr.com/photos/psd/914693826">Eve points out what's Tricksy on Flickr - Photo Sharing!</a><br>
+    2007-08-02 oxford lhr web architecture security xml<br>
+    <p class="bm-desc">this looks familiar... must be part of the preview that Eve gave in the trends and transients closing panel at XML Summer School, before I left.</p>
+  </li>
+  <li>
+    <a href="http://www.flickr.com/photos/psd/914899068/in/photostream">Under the shadow of John / Oxford Geek night</a><br>
+    2007-08-02 missed oxford lhr programming<br>
+    <p class="bm-desc">Darn; maybe I should have gone to this after all... it's always fun to catch up with mattb</p>
+  </li>
+  <li>
+    <a href="http://www.flickr.com/photos/psd/917119419">Venn of Identity</a><br>
+    2007-08-02 oxford lhr web architecture security identity<br>
+    <p class="bm-desc">I left before Eve Maler presented at XML Summer school, but I think I've seen her present this slide before. yes, it's a good one.</p>
+  </li>
+  <li>
+    <a href="http://www.flickr.com/photos/psd/421186578">Roy T. Fielding Has a Posse on Flickr - Photo Sharing!</a><br>
+    2007-08-02 oxford lhr xml web architecture http<br>
+    <p class="bm-desc">by psd, inspired by Paul Prescod. Somebody gave me a stack of stickers with this image on them at XML Summer School</p>
+  </li>
+  <li>
+    <a href="http://kinzin.com">Kinzin - Free family websites for sharing photos, stories, recipes and event planning</a><br>
+    2007-08-02 family web hosting photo lhr oxford<br>
+    <p class="bm-desc">At XML Summer School, Paul Prescod gave me a little kinzin.com pin.</p>
+  </li>
+  <li>
+    <a href="http://www.hackszine.com/blog/archive/2007/08/dns_rebinding_how_an_attacker.html?CMP=OTC-7G2N43923558">Hackszine.com: DNS rebinding: how an attacker can use your web browser to bypass a firewall</a><br>
+    2007-08-02 web architecture security javascript HTML xhtml<br>
+    <p class="bm-desc">eek.</p>
+  </li>
+  <li>
+    <a href="http://googlemapsapi.blogspot.com/2007/06/microformats-in-google-maps.html">Official Google Maps API Blog: Microformats in Google Maps</a><br>
+    2007-08-01 microformats geo<br>
+  </li>
+</ul>
