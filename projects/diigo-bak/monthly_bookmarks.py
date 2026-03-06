@@ -87,10 +87,12 @@ STOP_WORDS = {
 }
 WORD_RE = re.compile(r"[A-Za-z][A-Za-z0-9_+-]{2,}")
 TAG_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9 +._:/-]{0,47}$")
+URL_RE = re.compile(r"https?://[^\s<>()]+")
 DEFAULT_INPUT = "projects/diigo-bak/diigo-bookmarks-shared.ndjson"
+DEFAULT_TCO_CACHE = "projects/diigo-bak/tco-expansions.json"
 USAGE = (
     "usage: monthly_bookmarks.py [--repo-root DIR] [--input FILE] "
-    "[--min-tag-freq N] [--dry-run]"
+    "[--min-tag-freq N] [--tco-cache FILE] [--dry-run]"
 )
 # Canonical mixed-case tags from page frontmatter on the main site branch.
 # Keep this list in sync using check_mixed_case_tags.py.
@@ -146,6 +148,7 @@ class Config:
     repo_root: str
     input_path: str
     min_tag_freq: int
+    tco_cache_path: str
     dry_run: bool
 
 
@@ -173,6 +176,7 @@ def parse_cli(argv: list[str]) -> Config:
     repo_root = "."
     input_path = DEFAULT_INPUT
     min_tag_freq = 5
+    tco_cache_path = DEFAULT_TCO_CACHE
     dry_run = False
 
     it = iter(argv[1:])
@@ -191,12 +195,16 @@ def parse_cli(argv: list[str]) -> Config:
         if token == "--min-tag-freq":
             min_tag_freq = int(next(it))
             continue
+        if token == "--tco-cache":
+            tco_cache_path = next(it)
+            continue
         raise ValueError(f"unknown option: {token}\n{USAGE}")
 
     return Config(
         repo_root=repo_root,
         input_path=input_path,
         min_tag_freq=min_tag_freq,
+        tco_cache_path=tco_cache_path,
         dry_run=dry_run,
     )
 
@@ -232,6 +240,15 @@ def load_bookmarks(src: Path_T) -> list[Bookmark]:
                 )
             )
     return items
+
+
+def load_tco_cache(path: Path_T) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        return {}
+    return {str(k): str(v) for k, v in raw.items()}
 
 
 def keep_tag(tag: str, global_counts: Counter[str], min_freq: int) -> bool:
@@ -353,6 +370,34 @@ def visible_tags(tags: tuple[str, ...]) -> list[str]:
     return [tag for tag in tags if tag != "no_tag"]
 
 
+def resolve_short_url(url: str, cache: dict[str, str]) -> str:
+    """Resolve URL from cache only; never performs network access."""
+    if urlparse(url).netloc.lower() == "t.co":
+        return cache.get(url, url)
+    return cache.get(url, url)
+
+
+def linkify_text_html(text: str, url_cache: dict[str, str]) -> str:
+    """Escape text and render URLs as links using cache-only expansion."""
+    src = compact_text(html.unescape(text))
+    out: list[str] = []
+    i = 0
+    for m in URL_RE.finditer(src):
+        out.append(html.escape(src[i:m.start()], quote=False))
+        raw_url = m.group(0)
+        url = raw_url.rstrip(".,);:!?")
+        trail = raw_url[len(url):]
+        href = resolve_short_url(url, url_cache)
+        safe_href = html.escape(href, quote=True)
+        label = html.escape(href, quote=False)
+        out.append(f'<a href="{safe_href}">{label}</a>')
+        if trail:
+            out.append(html.escape(trail, quote=False))
+        i = m.end()
+    out.append(html.escape(src[i:], quote=False))
+    return "".join(out)
+
+
 def group_bookmarks_by_month(
     bookmarks: Iterable[Bookmark],
 ) -> dict[str, list[Bookmark]]:
@@ -362,7 +407,11 @@ def group_bookmarks_by_month(
     return by_month
 
 
-def body_for_month(ym: str, month_items: list[Bookmark]) -> str:
+def body_for_month(
+    ym: str,
+    month_items: list[Bookmark],
+    tco_cache: dict[str, str] | None = None,
+) -> str:
     """Render monthly bookmarks body with HTML list layout.
 
     Regression coverage for malformed source text:
@@ -390,6 +439,18 @@ def body_for_month(ym: str, month_items: list[Bookmark]) -> str:
     True
     >>> '<p class="bm-desc">line1 line2</p>' in out
     True
+    >>> '<a href="https://example.org/x">https://example.org/x</a>' in body_for_month(
+    ...     "2021-01",
+    ...     [Bookmark(
+    ...         created=datetime.strptime("2021/01/07 00:00:00 +0000", DATE_FMT),
+    ...         title="t",
+    ...         url="https://example.com",
+    ...         tags=(),
+    ...         desc="see https://example.org/x",
+    ...         annotations=(),
+    ...     )],
+    ... )
+    True
     >>> "<blockquote>quoted text</blockquote>" in out
     True
     >>> "<blockquote><p><strong>note:</strong> note text</p></blockquote>" in out
@@ -404,6 +465,7 @@ def body_for_month(ym: str, month_items: list[Bookmark]) -> str:
     lines.append("## Links")
     lines.append("")
     lines.append('<ul class="bookmarks">')
+    url_cache = {} if tco_cache is None else dict(tco_cache)
     for bm in sorted(month_items, key=lambda b: (b.created, b.title), reverse=True):
         day = bm.created.strftime("%Y-%m-%d")
         raw_title = bm.title
@@ -421,7 +483,7 @@ def body_for_month(ym: str, month_items: list[Bookmark]) -> str:
             lines.append(f"    {day}<br>")
         if bm.desc:
             lines.append(
-                f'    <p class="bm-desc">{inline_html_text(bm.desc)}</p>'
+                f'    <p class="bm-desc">{linkify_text_html(bm.desc, url_cache)}</p>'
             )
         if bm.annotations:
             for content, comments in bm.annotations:
@@ -445,6 +507,7 @@ def render_month_post(
     month_items: list[Bookmark],
     global_tags: Counter[str],
     min_tag_freq: int,
+    tco_cache: dict[str, str] | None = None,
 ) -> RenderedPost:
     """Render one monthly markdown page with YAML frontmatter.
 
@@ -494,7 +557,7 @@ def render_month_post(
             f"tags: {yaml_list(tag_union)}",
             "---",
             "",
-            body_for_month(ym, month_items),
+            body_for_month(ym, month_items, tco_cache=tco_cache),
         ]
     )
     return RenderedPost(relpath=relpath, text=text)
@@ -505,6 +568,7 @@ def write_month_posts(
     repo_root: Path_T,
     *,
     min_tag_freq: int,
+    tco_cache: dict[str, str] | None = None,
     dry_run: bool = False,
 ) -> int:
     global_tags: Counter[str] = Counter(t for bm in bookmarks for t in bm.tags)
@@ -517,6 +581,7 @@ def write_month_posts(
             month_items=month_items,
             global_tags=global_tags,
             min_tag_freq=min_tag_freq,
+            tco_cache=tco_cache,
         )
         dst = repo_root / post.relpath
         if not dry_run:
@@ -542,14 +607,26 @@ def main(
         repo_root = (cwd / repo_root).resolve()
 
     src = (repo_root / cfg.input_path).resolve()
+    tco_cache_path = (repo_root / cfg.tco_cache_path).resolve()
     bookmarks = load_bookmarks(src)
+    tco_cache = load_tco_cache(tco_cache_path)
     wrote = write_month_posts(
         bookmarks=bookmarks,
         repo_root=repo_root,
         min_tag_freq=cfg.min_tag_freq,
+        tco_cache=tco_cache,
         dry_run=cfg.dry_run,
     )
-    print(f"loaded={len(bookmarks)} monthly_posts={wrote} input={src}", file=stdout)
+    print(
+        "loaded={} monthly_posts={} input={} tco_cache={} cache_entries={}".format(
+            len(bookmarks),
+            wrote,
+            src,
+            tco_cache_path,
+            len(tco_cache),
+        ),
+        file=stdout,
+    )
     return 0
 
 
