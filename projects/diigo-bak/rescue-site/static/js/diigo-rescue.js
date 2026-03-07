@@ -1,7 +1,7 @@
 (function () {
   const form = document.getElementById("export-form");
   const statusEl = document.getElementById("status");
-  const downloadEl = document.getElementById("download");
+  const outputEl = document.getElementById("output");
 
   const setStatus = (obj) => {
     statusEl.textContent =
@@ -10,34 +10,42 @@
 
   form.addEventListener("submit", async (ev) => {
     ev.preventDefault();
-    downloadEl.textContent = "";
+    outputEl.value = "";
 
     const username = document.getElementById("username").value.trim();
     const password = document.getElementById("password").value;
-    setStatus("Export in progress. This can take a while...");
+    const count = 100;
+    let start = 0;
+    let pageNo = 0;
+    let total = 0;
+    setStatus("Starting export...");
 
     try {
-      const res = await fetch("/.netlify/functions/diigo-export-download", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ username, password }),
-      });
-      if (!res.ok) {
+      for (;;) {
+        pageNo += 1;
+        setStatus(
+          "Fetching page " + pageNo + " starting from record " + (start + 1),
+        );
+        const res = await fetch("/.netlify/functions/diigo-export-page", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ username, password, start, count }),
+        });
         const body = await res.json();
-        setStatus(body);
-        return;
+        if (!res.ok) {
+          setStatus(body);
+          return;
+        }
+        if (body.ndjson) {
+          outputEl.value += body.ndjson;
+        }
+        total += body.fetched || 0;
+        if (body.done) {
+          setStatus("Export complete. Total records: " + total);
+          return;
+        }
+        start = body.nextStart;
       }
-      const ndjson = await res.text();
-      const blob = new Blob([ndjson], { type: "application/x-ndjson" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "diigo-bookmarks.ndjson";
-      a.textContent = "Download diigo-bookmarks.ndjson";
-      downloadEl.textContent = "";
-      downloadEl.appendChild(a);
-      a.click();
-      setStatus("Export complete.");
     } catch (err) {
       setStatus({ error: String(err) });
     }

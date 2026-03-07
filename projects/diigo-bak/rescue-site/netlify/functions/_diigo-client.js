@@ -46,7 +46,15 @@ function requestKnownIp(path, headers, knownIp) {
 }
 
 function parseArray(body) {
-  const parsed = JSON.parse(body);
+  let parsed;
+  try {
+    parsed = JSON.parse(body);
+  } catch {
+    if (typeof body === "string" && body.trim().startsWith("<")) {
+      throw new Error("Diigo returned HTML instead of JSON");
+    }
+    throw new Error("Invalid JSON from Diigo API");
+  }
   if (!Array.isArray(parsed)) {
     throw new Error("unexpected Diigo response shape");
   }
@@ -129,5 +137,6 @@ async function* fetchAllBookmarks({
 }
 
 module.exports = {
+  requestPage,
   fetchAllBookmarks,
 };
