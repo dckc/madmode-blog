@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+  command = "echo rescue-site"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
