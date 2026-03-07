@@ -1,29 +1,74 @@
-const { getConfig } = require("./_config");
-const { getJob, purgeOldJobs } = require("./_jobs");
+const { getConfig, checkWindow } = require("./_config");
+const { checkAndConsume } = require("./_rate-limit");
+const { fetchAllBookmarks } = require("./_diigo-client");
 
 exports.handler = async (event) => {
   const cfg = getConfig();
-  purgeOldJobs(cfg.maxDownloadAgeMs);
+  if (event.httpMethod !== "POST") {
+    return {
+      statusCode: 405,
+      headers: { "content-type": "application/json; charset=utf-8" },
+      body: JSON.stringify({ error: "method not allowed" }),
+    };
+  }
+  const windowCheck = checkWindow(cfg);
+  if (!windowCheck.ok) {
+    return {
+      statusCode: windowCheck.status,
+      headers: { "content-type": "application/json; charset=utf-8" },
+      body: JSON.stringify({ error: windowCheck.message }),
+    };
+  }
 
-  const id = event.queryStringParameters && event.queryStringParameters.id;
-  if (!id) {
+  let body;
+  try {
+    body = JSON.parse(event.body || "{}");
+  } catch {
+    body = {};
+  }
+  const username = String(body.username || "").trim();
+  const password = String(body.password || "");
+  if (!username || !password) {
     return {
       statusCode: 400,
-      body: "missing id",
+      headers: { "content-type": "application/json; charset=utf-8" },
+      body: JSON.stringify({ error: "username and password are required" }),
     };
   }
 
-  const job = getJob(id);
-  if (!job) {
+  const limit = checkAndConsume({
+    dayKey: cfg.dayKey,
+    username,
+    maxUserStartsPerDay: cfg.maxUserStartsPerDay,
+    maxGlobalStartsPerDay: cfg.maxGlobalStartsPerDay,
+  });
+  if (!limit.ok) {
     return {
-      statusCode: 404,
-      body: "job not found or expired",
+      statusCode: limit.status,
+      headers: { "content-type": "application/json; charset=utf-8" },
+      body: JSON.stringify({ error: limit.message }),
     };
   }
-  if (job.state !== "done") {
+
+  const lines = [];
+  try {
+    for await (const page of fetchAllBookmarks({
+      username,
+      password,
+      apiKey: cfg.diigoApiKey,
+      knownIp: cfg.knownIp,
+    })) {
+      for (const item of page) {
+        lines.push(JSON.stringify(item));
+      }
+    }
+  } catch (err) {
     return {
-      statusCode: 409,
-      body: "job not complete",
+      statusCode: 502,
+      headers: { "content-type": "application/json; charset=utf-8" },
+      body: JSON.stringify({
+        error: String(err && err.message ? err.message : err),
+      }),
     };
   }
 
@@ -34,6 +79,6 @@ exports.handler = async (event) => {
       "content-disposition": 'attachment; filename="diigo-bookmarks.ndjson"',
       "cache-control": "no-store",
     },
-    body: job.ndjson,
+    body: lines.join("\n") + (lines.length ? "\n" : ""),
   };
 };
