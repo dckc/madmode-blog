@@ -6,7 +6,7 @@ Builds a fresh DB from Zotero source schema SQL and imports bookmarks as
 and annotations are stored as child note items.
 
 Usage:
-  diigo_to_zotero_db.py --zotero-source DIR --input FILE --output FILE
+  diigo_to_zotero_db.py [--zotero-source DIR] --input FILE --output FILE
 """
 
 from __future__ import annotations
@@ -14,6 +14,7 @@ from __future__ import annotations
 import hashlib
 import json
 import sqlite3
+import shutil
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from html import escape
@@ -21,21 +22,37 @@ from io import TextIOBase
 from pathlib import Path as Path_T
 
 DATE_FMT = "%Y/%m/%d %H:%M:%S %z"
+IMPORT_COLLECTION = "Diigo Shared Import"
+IMPORT_TAG = "diigo-import"
 USAGE = (
-    "usage: diigo_to_zotero_db.py --zotero-source DIR "
+    "usage: diigo_to_zotero_db.py [--template-db FILE] [--zotero-source DIR] "
     "--input FILE --output FILE"
 )
+DEFAULT_ZOTERO_SOURCE = "vendor/zotero"
+DEFAULT_TEMPLATE_DB = "~/Zotero zero-items/zotero.sqlite"
 
 
 @dataclass(frozen=True)
 class Config:
+    template_db: str
     zotero_source: str
     input_path: str
     output_path: str
 
 
+@dataclass(frozen=True)
+class SchemaIDs:
+    webpage_type_id: int
+    note_type_id: int
+    title_field_id: int
+    url_field_id: int
+    access_date_field_id: int
+    abstract_note_field_id: int
+
+
 def parse_cli(argv: list[str]) -> Config:
-    zotero_source = ""
+    template_db = DEFAULT_TEMPLATE_DB
+    zotero_source = DEFAULT_ZOTERO_SOURCE
     input_path = ""
     output_path = ""
 
@@ -43,6 +60,9 @@ def parse_cli(argv: list[str]) -> Config:
     for token in it:
         if token in {"-h", "--help"}:
             raise ValueError(USAGE)
+        if token == "--template-db":
+            template_db = next(it)
+            continue
         if token == "--zotero-source":
             zotero_source = next(it)
             continue
@@ -54,10 +74,11 @@ def parse_cli(argv: list[str]) -> Config:
             continue
         raise ValueError(f"unknown option: {token}\n{USAGE}")
 
-    if not (zotero_source and input_path and output_path):
+    if not (input_path and output_path):
         raise ValueError(f"missing required options\n{USAGE}")
 
     return Config(
+        template_db=template_db,
         zotero_source=zotero_source,
         input_path=input_path,
         output_path=output_path,
@@ -166,9 +187,80 @@ def ensure_tag(conn: sqlite3.Connection, tag_name: str) -> int:
     return int(row[0])
 
 
+def ensure_import_collection(conn: sqlite3.Connection, name: str) -> int:
+    key = hashlib.sha1(name.encode("utf-8")).hexdigest()[:8].upper()
+    conn.execute(
+        """
+        INSERT OR IGNORE INTO collections
+            (collectionName, parentCollectionID, clientDateModified, libraryID,
+             key, version, synced)
+        VALUES (?, NULL, CURRENT_TIMESTAMP, 1, ?, 0, 0)
+        """,
+        (name, key),
+    )
+    row = conn.execute(
+        "SELECT collectionID FROM collections WHERE libraryID = 1 AND key = ?",
+        (key,),
+    ).fetchone()
+    if not row:
+        raise RuntimeError("failed to resolve import collection id")
+    return int(row[0])
+
+
+def _lookup_int(
+    conn: sqlite3.Connection, query: str, params: tuple[str, ...], what: str
+) -> int:
+    row = conn.execute(query, params).fetchone()
+    if not row:
+        raise RuntimeError(f"missing schema row for {what}")
+    return int(row[0])
+
+
+def load_schema_ids(conn: sqlite3.Connection) -> SchemaIDs:
+    return SchemaIDs(
+        webpage_type_id=_lookup_int(
+            conn,
+            "SELECT itemTypeID FROM itemTypes WHERE typeName = ?",
+            ("webpage",),
+            "item type webpage",
+        ),
+        note_type_id=_lookup_int(
+            conn,
+            "SELECT itemTypeID FROM itemTypes WHERE typeName = ?",
+            ("note",),
+            "item type note",
+        ),
+        title_field_id=_lookup_int(
+            conn,
+            "SELECT fieldID FROM fields WHERE fieldName = ?",
+            ("title",),
+            "field title",
+        ),
+        url_field_id=_lookup_int(
+            conn,
+            "SELECT fieldID FROM fields WHERE fieldName = ?",
+            ("url",),
+            "field url",
+        ),
+        access_date_field_id=_lookup_int(
+            conn,
+            "SELECT fieldID FROM fields WHERE fieldName = ?",
+            ("accessDate",),
+            "field accessDate",
+        ),
+        abstract_note_field_id=_lookup_int(
+            conn,
+            "SELECT fieldID FROM fields WHERE fieldName = ?",
+            ("abstractNote",),
+            "field abstractNote",
+        ),
+    )
+
+
 def add_note_item(
     conn: sqlite3.Connection,
     *,
+    schema_ids: SchemaIDs,
     parent_item_id: int,
     key_seed: str,
     note_html: str,
@@ -181,9 +273,15 @@ def add_note_item(
         INSERT INTO items
             (itemTypeID, dateAdded, dateModified, clientDateModified,
              libraryID, key, version, synced)
-        VALUES (1, ?, ?, ?, 1, ?, 0, 0)
+        VALUES (?, ?, ?, ?, 1, ?, 0, 0)
         """,
-        (date_added, date_added, date_added, note_key),
+        (
+            schema_ids.note_type_id,
+            date_added,
+            date_added,
+            date_added,
+            note_key,
+        ),
     )
     note_item_id = int(cur.lastrowid)
     conn.execute(
@@ -192,10 +290,18 @@ def add_note_item(
     )
 
 
-def add_bookmark(conn: sqlite3.Connection, row: dict[str, object]) -> None:
+def add_bookmark(
+    conn: sqlite3.Connection,
+    row: dict[str, object],
+    *,
+    schema_ids: SchemaIDs,
+    collection_id: int,
+    order_index: int,
+) -> None:
     title = str(row.get("title") or row.get("url") or "").strip()
     url = str(row.get("url") or "").strip()
     created = dt_sql(str(row.get("created_at") or ""))
+    updated = dt_sql(str(row.get("updated_at") or row.get("created_at") or ""))
     key = key_for(row)
 
     cur = conn.execute(
@@ -203,19 +309,23 @@ def add_bookmark(conn: sqlite3.Connection, row: dict[str, object]) -> None:
         INSERT INTO items
             (itemTypeID, dateAdded, dateModified, clientDateModified,
              libraryID, key, version, synced)
-        VALUES (13, ?, ?, ?, 1, ?, 0, 0)
+        VALUES (?, ?, ?, ?, 1, ?, 0, 0)
         """,
-        (created, created, created, key),
+        (
+            schema_ids.webpage_type_id,
+            created,
+            updated,
+            updated,
+            key,
+        ),
     )
     item_id = int(cur.lastrowid)
 
-    # title fieldID=110, url fieldID=1, accessDate fieldID=27,
-    # abstractNote fieldID=90
     for field_id, value in [
-        (110, title),
-        (1, url),
-        (27, datetime.now(UTC).strftime("%Y-%m-%d")),
-        (90, str(row.get("desc") or "").strip()),
+        (schema_ids.title_field_id, title),
+        (schema_ids.url_field_id, url),
+        (schema_ids.access_date_field_id, datetime.now(UTC).strftime("%Y-%m-%d")),
+        (schema_ids.abstract_note_field_id, str(row.get("desc") or "").strip()),
     ]:
         if not value:
             continue
@@ -228,12 +338,23 @@ def add_bookmark(conn: sqlite3.Connection, row: dict[str, object]) -> None:
             (item_id, field_id, value_id),
         )
 
-    for tag_name in parse_tags(str(row.get("tags") or "")):
+    tags = set(parse_tags(str(row.get("tags") or "")))
+    tags.add(IMPORT_TAG)
+    if str(row.get("readlater") or "") == "yes":
+        tags.add("readlater")
+    for tag_name in sorted(tags):
         tag_id = ensure_tag(conn, tag_name)
         conn.execute(
             "INSERT OR IGNORE INTO itemTags(itemID, tagID, type) VALUES (?, ?, 0)",
             (item_id, tag_id),
         )
+    conn.execute(
+        """
+        INSERT OR IGNORE INTO collectionItems(collectionID, itemID, orderIndex)
+        VALUES (?, ?, ?)
+        """,
+        (collection_id, item_id, order_index),
+    )
 
     annotations = row.get("annotations") or []
     if isinstance(annotations, list) and annotations:
@@ -250,24 +371,43 @@ def add_bookmark(conn: sqlite3.Connection, row: dict[str, object]) -> None:
         if parts:
             add_note_item(
                 conn,
+                schema_ids=schema_ids,
                 parent_item_id=item_id,
                 key_seed=key,
                 note_html="\n".join(parts),
                 date_added=created,
             )
 
+    # TODO: Preserve non-empty Diigo `comments` array (rare in this dataset).
+
 
 def convert(
     input_path: Path_T,
     output_path: Path_T,
+    template_db: Path_T | None,
     zotero_source: Path_T,
 ) -> dict[str, int]:
     if output_path.exists():
         output_path.unlink()
+    if template_db:
+        shutil.copy2(template_db, output_path)
 
+    # XXX ambient: sqlite3.connect should be injected, not called directly here.
     conn = sqlite3.connect(str(output_path))
     conn.execute("PRAGMA foreign_keys = ON")
-    init_db(conn, zotero_source)
+    if template_db:
+        row = conn.execute("SELECT COUNT(*) FROM items").fetchone()
+        if not row:
+            raise RuntimeError("failed to count existing items in template db")
+        if int(row[0]) != 0:
+            raise ValueError(
+                "template DB is not empty: expected items=0 "
+                f"but got {int(row[0])}"
+            )
+    else:
+        init_db(conn, zotero_source)
+    schema_ids = load_schema_ids(conn)
+    collection_id = ensure_import_collection(conn, IMPORT_COLLECTION)
 
     bookmarks = 0
     with input_path.open(encoding="utf-8") as fp:
@@ -278,7 +418,13 @@ def convert(
             row = json.loads(line)
             if not isinstance(row, dict):
                 continue
-            add_bookmark(conn, row)
+            add_bookmark(
+                conn,
+                row,
+                schema_ids=schema_ids,
+                collection_id=collection_id,
+                order_index=bookmarks,
+            )
             bookmarks += 1
 
     conn.commit()
@@ -298,29 +444,49 @@ def main(argv: list[str], stdout: TextIOBase, cwd: Path_T) -> int:
         print(err, file=stdout)
         return 2
 
+    template_db = Path_T(cfg.template_db).expanduser()
+    if not template_db.is_absolute():
+        template_db = cwd / template_db
+    template_db_path = template_db if template_db.exists() else None
+
     zotero_source = Path_T(cfg.zotero_source)
     if not zotero_source.is_absolute():
-        zotero_source = (cwd / zotero_source).resolve()
+        zotero_source = cwd / zotero_source
+    if (
+        template_db_path is None
+        and cfg.zotero_source == DEFAULT_ZOTERO_SOURCE
+        and not (zotero_source / "resource" / "schema" / "userdata.sql").exists()
+    ):
+        script_root = Path_T(__file__).parents[2]
+        fallback = script_root / DEFAULT_ZOTERO_SOURCE
+        if (fallback / "resource" / "schema" / "userdata.sql").exists():
+            zotero_source = fallback
 
     input_path = Path_T(cfg.input_path)
     if not input_path.is_absolute():
-        input_path = (cwd / input_path).resolve()
+        input_path = cwd / input_path
 
     output_path = Path_T(cfg.output_path)
     if not output_path.is_absolute():
-        output_path = (cwd / output_path).resolve()
+        output_path = cwd / output_path
 
     try:
-        counts = convert(input_path, output_path, zotero_source)
+        counts = convert(
+            input_path,
+            output_path,
+            template_db_path,
+            zotero_source,
+        )
     except Exception as err:  # pragma: no cover
         print(f"conversion failed: {err}", file=stdout)
         return 1
 
     print(
         (
-            "zotero_source={} input={} output={} bookmarks={} items={} itemData={} "
-            "tags={} itemTags={} itemNotes={}"
+            "template_db={} zotero_source={} input={} output={} bookmarks={} "
+            "items={} itemData={} tags={} itemTags={} itemNotes={}"
         ).format(
+            template_db_path or "(none)",
             zotero_source,
             input_path,
             output_path,
