@@ -79,7 +79,7 @@ release it commercially. I can't find my source code (<em>Grrr!</em>), but I hav
 copy of the product on cassette tape. I didn't quite get it restored
 to working order, but I had some fun trying.</p>
 <figure>
-  <img src='https://lh5.googleusercontent.com/-HfOBzwjRTB0/UN9ciuLvwzI/AAAAAAAAAkA/T89gPR2lWvQ/w497-h373/IMG_20121229_145634.jpg' />
+  <img src='https://ia600903.us.archive.org/5/items/img-20121229-145634/IMG_20121229_145634.jpg' />
   <figcaption>Light Runner and The Facts for the CoCo</figcaption>
 </figure
 </div>
