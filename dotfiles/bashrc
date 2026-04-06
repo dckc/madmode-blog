@@ -2,6 +2,10 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# Environment needed by all bash invocations, including ssh remote commands
+GUIX_PROFILE="/home/connolly/.guix-profile"
+. "$GUIX_PROFILE/etc/profile"
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -161,5 +165,3 @@ if [ -f '/home/connolly/opt/google-cloud-sdk/completion.bash.inc' ]; then . '/ho
 if [ -f '/home/connolly/opt/google-cloud-sdk/path.bash.inc' ]; then . '/home/connolly/opt/google-cloud-sdk/path.bash.inc'; fi
 export PATH="/home/connolly/.gvm/go/bin:$PATH"
 
-GUIX_PROFILE="/home/connolly/.guix-profile"
-. "$GUIX_PROFILE/etc/profile"
