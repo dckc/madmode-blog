@@ -1,3 +1,9 @@
-#!/bin/sh
+#!/usr/bin/env bash
+set -euo pipefail
 
-nix-shell -p zotero --run zotero
+cmd='exec zotero'
+for arg in "$@"; do
+  cmd+=" $(printf '%q' "$arg")"
+done
+
+exec nix-shell -p zotero --run "$cmd"
