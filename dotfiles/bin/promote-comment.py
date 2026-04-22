@@ -135,7 +135,10 @@ if __name__ == "__main__":
         import json
         import subprocess
         import sys
+        from pathlib import Path
 
+        # minor: attentuation should happen in main()
+        # we should pass subprocess.run , a stdlib object
         def gh_api(endpoint: str) -> dict:
             result = subprocess.run(
                 ["gh", "api", endpoint],
@@ -145,14 +148,19 @@ if __name__ == "__main__":
             )
             return json.loads(result.stdout)
 
+        # arg parsing / checking should be in main()
+        # script_entry() should perform no effects other than import
         if len(sys.argv) < 2:
             print("Usage: promote-comment.py <comment-url>", file=sys.stderr)
             return 1
 
+        # we should call main(...) here
         return promote_comment(
             sys.argv[1],
-            blog_root=Path_T("/home/connolly/projects/madmode-blog"),
+            # attenuation from home() should be in main()
+            blog_root=Path.home() / "projects" / "madmode-blog",
             gh_api=gh_api,
+            # should use logging; stdout is for data
             stdout=sys.stdout,
         )
 
