@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
+"""Incrementally export GitHub stars from the ``gh`` CLI to NDJSON.
+
+Usage:
+    python3 syndicate/github/gh_stars.py [stars.json]
+"""
+
 import json
-import subprocess
-import sys
-from pathlib import Path
-import time
 import logging
+from subprocess import PIPE
 
 log = logging.getLogger(__name__)
 
-OUT = Path(sys.argv[1] if len(sys.argv) > 1 else "github-stars.ndjson")
-
+# This script follows DisciplinedPython style:
+# https://github.com/dckc/awesome-ocap/wiki/DisciplinedPython
 QUERY = """
 query($cursor: String) {
   viewer {
@@ -64,104 +67,142 @@ query($cursor: String) {
         }
       }
     }
-  }
+    }
 }
 """
 
 
-def gh_graphql(cursor, retries=6):
-    args = ["gh", "api", "graphql", "-f", f"query={QUERY}"]
-    args += ["-F", "cursor=" if cursor is None else f"cursor={cursor}"]
+def is_transient_graphql_error(error):
+    msg = str(error)
+    return (
+        "HTTP 502" in msg
+        or "HTTP 503" in msg
+        or "HTTP 504" in msg
+        or "secondary rate limit" in msg.lower()
+    )
 
+
+def with_retries(action, is_transient, sleep, retries=6):
     for attempt in range(retries):
         try:
-            p = subprocess.run(  # XXX AMBIENT
+            return action()
+
+        except RuntimeError as e:
+            if not is_transient(e) or attempt == retries - 1:
+                raise
+
+            delay = 2**attempt
+            log.info(f"warning: {e}; retrying in {delay}s")
+            sleep(delay)
+
+
+class MyStars:
+    def __init__(self, run, sleep):
+        self.__run = run
+        self.__sleep = sleep
+
+    def query(self, cursor):
+        args = ["gh", "api", "graphql", "-f", f"query={QUERY}"]
+        args += ["-F", "cursor=" if cursor is None else f"cursor={cursor}"]
+
+        def request():
+            p = self.__run(
                 args,
                 check=True,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
+                stdout=PIPE,
+                stderr=PIPE,
                 text=True,
             )
             return json.loads(p.stdout)
 
-        except subprocess.CalledProcessError as e:
-            msg = e.stderr.strip()
-            transient = (
-                "HTTP 502" in msg
-                or "HTTP 503" in msg
-                or "HTTP 504" in msg
-                or "secondary rate limit" in msg.lower()
-            )
-
-            if not transient or attempt == retries - 1:
-                raise RuntimeError(f"gh api failed: {msg}") from e
-
-            delay = 2**attempt
-            log.info(f"warning: {msg}; retrying in {delay}s")
-            time.sleep(delay)
+        return with_retries(
+            request,
+            is_transient_graphql_error,
+            self.__sleep,
+        )
 
 
-def existing_watermark(path):
-    if not path.exists():
-        return None
-
-    newest = None
-    with path.open() as f:
-        for line in f:
-            if not line.strip():
-                continue
-            item = json.loads(line)
-            starred_at = item["starredAt"]
-            if newest is None or starred_at > newest:
-                newest = starred_at
-
-    return newest
+def try_ndjson(path):
+    try:
+        with path.open("r", encoding="utf-8") as f:
+            yield from (json.loads(line) for line in f if line.strip())
+    except FileNotFoundError:
+        return
 
 
 def simplify(edge):
     repo = edge["node"]
-    topics = repo.pop("repositoryTopics", {"nodes": []})
-    repo["topics"] = [node["topic"]["name"] for node in topics.get("nodes", [])]
-    repo["starredAt"] = edge["starredAt"]
-    return repo
+    topics = repo.get("repositoryTopics", {"nodes": []})
+    return {
+        **{key: value for key, value in repo.items() if key != "repositoryTopics"},
+        "topics": [node["topic"]["name"] for node in topics.get("nodes", [])],
+        "starredAt": edge["starredAt"],
+    }
 
 
-def main():
-    since = existing_watermark(OUT)
+def fetch_new_stars(my_stars, since):
     cursor = None
+
+    while True:
+        data = my_stars.query(cursor)
+        stars = data["data"]["viewer"]["starredRepositories"]
+        edges = stars["edges"]
+        new_stars = (
+            edges
+            if since is None
+            else [edge for edge in edges if edge["starredAt"] > since]
+        )
+
+        yield new_stars
+
+        if len(new_stars) < len(edges):
+            break
+
+        if not stars["pageInfo"]["hasNextPage"]:
+            break
+
+        cursor = stars["pageInfo"]["endCursor"]
+
+
+def main(argv, cwd, run, sleep):
+    fname = argv[1] if len(argv) > 1 else "stars.json"
+    out = cwd / fname
+
+    since = max((item["starredAt"] for item in try_ndjson(out)), default=None)
     added = 0
 
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)sZ %(levelname)s %(message)s",
-        datefmt="%Y-%m-%dT%H:%M:%S",
-    )
-
-    page = 1
-    with OUT.open("a") as out:
-        while True:
-            log.info(f"page: {page}; cursor: {cursor}")
-            data = gh_graphql(cursor)
-            stars = data["data"]["viewer"]["starredRepositories"]
-
-            for edge in stars["edges"]:
-                starred_at = edge["starredAt"]
-
-                if since is not None and starred_at <= since:
-                    log.info(f"added {added} new stars")
-                    return
-
-                out.write(json.dumps(simplify(edge), separators=(",", ":")) + "\n")
+    each_page = fetch_new_stars(MyStars(run, sleep), since)
+    with out.open("a", encoding="utf-8") as f:
+        for page, new_stars in enumerate(each_page, 1):
+            log.info(f"page: {page}; new stars: {len(new_stars)}")
+            for edge in new_stars:
+                ndjson = json.dumps(simplify(edge)) + "\n"
+                f.write(ndjson)
                 added += 1
-
-            if not stars["pageInfo"]["hasNextPage"]:
-                break
-
-            cursor = stars["pageInfo"]["endCursor"]
-            page += 1
 
     log.info(f"added {added} new stars")
 
 
 if __name__ == "__main__":
-    main()
+
+    def _script_io():
+        import logging
+        from subprocess import run
+        from sys import argv
+        from time import sleep
+        from pathlib import Path
+
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)sZ %(levelname)s %(message)s",
+            datefmt="%Y-%m-%dT%H:%M:%S",
+        )
+
+        return main(
+            argv=list(argv),
+            cwd=Path.cwd(),
+            run=run,
+            sleep=sleep,
+        )
+
+    raise SystemExit(_script_io())
