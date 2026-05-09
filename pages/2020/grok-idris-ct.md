@@ -1,7 +1,7 @@
 ---
 title: "Rosetta Stone: Taking propositions-as-types to the next level"
 date: 2020-05-02
-tags: ["logic", "fp", "programming", "idris", "rchain"]
+tags: ["logic", "fp", "programming", "idris", "RChain"]
 published: true
 ---
 

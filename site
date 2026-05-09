@@ -57,7 +57,12 @@ asset_manager = AssetManager(app)
 ###############################################################################
 # Model helpers
 
-def get_pages(pages, offset=None, limit=None, tag=None, year=None, month=None):
+def is_bookmark_roundup(page):
+    return os.path.basename(page.path).startswith('bookmarks-')
+
+
+def get_pages(pages, offset=None, limit=None, tag=None, year=None, month=None,
+              include_roundups=True):
     """ Retrieves pages matching passec criterias.
     """
     articles = [p for p in pages if p.meta.get('date')]
@@ -71,6 +76,8 @@ def get_pages(pages, offset=None, limit=None, tag=None, year=None, month=None):
         articles = [p for p in articles if p.meta.get('date').year == year]
     if month:
         articles = [p for p in articles if p.meta.get('date').month == month]
+    if not include_roundups:
+        articles = [p for p in articles if not is_bookmark_roundup(p)]
     # sort by date
     articles = sorted(articles, reverse=True, key=lambda p: p.meta.get(
         'date', date.today()))
@@ -93,7 +100,9 @@ def get_pages(pages, offset=None, limit=None, tag=None, year=None, month=None):
         return articles
 
 
-def tag_counts(pages):
+def tag_counts(pages, include_roundups=True):
+    if not include_roundups:
+        pages = [p for p in pages if not is_bookmark_roundup(p)]
     all_tags = [tag for pg in pages
                 for tag in pg.meta.get('tags', ())]
     count_tags = [(tag, len(list(tag_group)))
@@ -209,9 +218,11 @@ def index():
         articles = [p for p in articles if p.meta.get('published') is True]
 
     return render_template('index.html',
-                           posts=get_pages(pages, limit=5),
+                           posts=get_pages(pages, limit=5,
+                                           include_roundups=False),
                            years=get_years(get_pages(articles)),
-                           tag_counts=tag_counts(articles))
+                           tag_counts=tag_counts(articles,
+                                                 include_roundups=False))
 
 
 @app.route('/<path:path>.html')
