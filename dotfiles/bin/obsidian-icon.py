@@ -23,11 +23,12 @@ _ICON_PATH = "/usr/share/icons/hicolor/48x48/apps/obsidian.png"
 
 
 def encode_icon(img, size):
-    """Pack RGBA image into _NET_WM_ICON CARDINAL array.
+    """Convert any image to _NET_WM_ICON CARDINAL array.
 
-    Each pixel becomes one 32-bit ARGB CARDINAL, not four byte-sized
-    CARDINALs.  For a 2x2 image the result has 2 (header) + 4 (pixels)
-    = 6 elements.  The buggy encoding (raw bytes as CARDINALs) gives 18.
+    Resizes to ``size``, converts to RGBA, then packs each pixel as one
+    32-bit ARGB CARDINAL.  For a 2x2 image the result has 2 (header) + 4
+    (pixels) = 6 elements.  The buggy encoding (raw bytes as CARDINALs)
+    gives 18.
 
     >>> from PIL import Image
     >>> img = Image.new('RGBA', (2, 2), (255, 0, 0, 255))
@@ -37,11 +38,58 @@ def encode_icon(img, size):
     >>> data[:2]
     [2, 2]
     """
+    if img.size != (size, size):
+        img = img.resize((size, size), Image.LANCZOS)
+    if img.mode != "RGBA":
+        img = img.convert("RGBA")
     pixels = img.getdata()
     data = [size, size]
     for r, g, b, a in pixels:
         data.append((a << 24) | (r << 16) | (g << 8) | b)
     return data
+
+
+class Client:
+    """An X11 client window identified by WM_CLASS.
+
+    ``find()`` is the factory: it searches the root window's client list,
+    captures matching window IDs, and returns a ``Client`` (or ``None``).
+    The ``wm_class`` string lives only in ``find()`` — once constructed,
+    a ``Client`` carries no forgeable string, only an X11 display and
+    pre-identified window IDs.
+    """
+
+    def __init__(self, xdpy, window_ids):
+        self.__xdpy = xdpy
+        self.__window_ids = window_ids
+
+    @staticmethod
+    def find(xdpy, wm_class):
+        root = xdpy.screen().root
+        client_list_prop = root.get_full_property(
+            xdpy.intern_atom("_NET_CLIENT_LIST"), X.AnyPropertyType
+        )
+        if client_list_prop is None:
+            msg = "no _NET_CLIENT_LIST on root window; is a window manager running?"
+            raise RuntimeError(msg)
+        found = []
+        for wid in client_list_prop.value:
+            window = xdpy.create_resource_object("window", wid)
+            cls = window.get_wm_class()
+            if cls is not None and (cls[0] == wm_class or cls[1] == wm_class):
+                found.append(wid)
+        if not found:
+            return None
+        return Client(xdpy, found)
+
+    def set_icon(self, icon_data):
+        atom = self.__xdpy.intern_atom("_NET_WM_ICON")
+        cardinal = self.__xdpy.intern_atom("CARDINAL")
+        for wid in self.__window_ids:
+            window = self.__xdpy.create_resource_object("window", wid)
+            window.change_property(atom, cardinal, 32, icon_data)
+        self.__xdpy.sync()
+        logging.info("set icon on %d window(s)", len(self.__window_ids))
 
 
 def main(files, environ, x11):
@@ -55,43 +103,13 @@ def main(files, environ, x11):
     xdpy = x11(display_name)
 
     img = Image.open(files / _ICON_PATH)
-    if img.size != (48, 48):
-        img = img.resize((48, 48), Image.LANCZOS)
-    if img.mode != "RGBA":
-        img = img.convert("RGBA")
-
     icon_data = encode_icon(img, 48)
 
-    count = set_window_icon(xdpy, "obsidian", icon_data)
-    if count == 0:
+    client = Client.find(xdpy, "obsidian")
+    if client is None:
         logging.warning("no window found matching 'obsidian'")
         return 1
-
-
-def set_window_icon(xdpy, wm_class, icon_data):
-    root = xdpy.screen().root
-
-    atom = xdpy.intern_atom("_NET_WM_ICON")
-    cardinal = xdpy.intern_atom("CARDINAL")
-
-    client_list_prop = root.get_full_property(
-        xdpy.intern_atom("_NET_CLIENT_LIST"), X.AnyPropertyType
-    )
-    if client_list_prop is None:
-        msg = "no _NET_CLIENT_LIST on root window; is a window manager running?"
-        raise RuntimeError(msg)
-
-    found = 0
-    for wid in client_list_prop.value:
-        window = xdpy.create_resource_object("window", wid)
-        cls = window.get_wm_class()
-        if cls is not None and (cls[0] == wm_class or cls[1] == wm_class):
-            window.change_property(atom, cardinal, 32, icon_data)
-            found += 1
-
-    xdpy.sync()
-    logging.info("set icon on %d window(s) matching '%s'", found, wm_class)
-    return found
+    client.set_icon(icon_data)
 
 
 if __name__ == "__main__":
