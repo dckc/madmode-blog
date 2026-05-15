@@ -3,13 +3,21 @@ makeFileDir := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
 TARGETS=$(HOME)/.gitconfig $(HOME)/.bashrc $(HOME)/.hgrc.d \
 	$(HOME)/.emacs.d $(HOME)/.config/nix/nix.conf \
-	$(HOME)/.local/share/file-manager/actions
+	$(HOME)/.local/share/file-manager/actions \
+	$(HOME)/.local/share/applications/obsidian.desktop \
+	$(HOME)/.local/bin/obsidian
 
 all: $(TARGETS)
 
 $(HOME)/.local/share/file-manager/actions:
 	mkdir -p $(HOME)/.local/share/file-manager
 	ln -s $(makeFileDir)caja-actions $@
+
+$(HOME)/.local/share/applications/obsidian.desktop:
+	ln -s $(makeFileDir)applications/obsidian.desktop $@
+
+$(HOME)/.local/bin/obsidian:
+	ln -sf $(makeFileDir)bin/obsidian $@
 
 $(HOME)/.config/direnv:
 	ln -s $(makeFileDir)direnv $@

@@ -1,0 +1,10 @@
+#!/bin/bash
+# Launch Obsidian and set _NET_WM_ICON so the taskbar shows the right icon.
+BIN=$(dirname "$0")
+/opt/Obsidian/obsidian "$@" &
+OBSIDIAN_PID=$!
+for i in $(seq 1 10); do
+    "$BIN"/obsidian-icon.py 2>/dev/null && break
+    sleep 0.3
+done
+wait "$OBSIDIAN_PID"
