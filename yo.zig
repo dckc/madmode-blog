@@ -1,6 +1,35 @@
 const std = @import("std");
 const linux = std.os.linux;
 
+fn parseReplyId(data: []const u8) u32 {
+    const field_len = std.mem.readInt(u32, data[12..16], .little);
+    const body_off = ((16 + field_len + 7) / 8) * 8;
+    return std.mem.readInt(u32, data[body_off..][0..4], .little);
+}
+
+const DBusSock = struct {
+    fd: i32,
+    buf: [4096]u8,
+
+    fn authenticate(self: *DBusSock) void {
+        const sasl = "\x00AUTH EXTERNAL 31303030\r\nNEGOTIATE_UNIX_FD\r\nBEGIN\r\n";
+        _ = linux.write(self.fd, sasl.ptr, sasl.len);
+        const tv = linux.timeval{ .sec = 2, .usec = 0 };
+        _ = linux.setsockopt(self.fd, linux.SOL.SOCKET, linux.SO.RCVTIMEO, @ptrCast(&tv), @sizeOf(linux.timeval));
+        while (true) {
+            const n = linux.read(self.fd, &self.buf, self.buf.len);
+            if (n == 0 or n > self.buf.len) break;
+        }
+    }
+
+    fn sendMessage(self: *DBusSock, payload: []const u8) ?[]u8 {
+        _ = linux.write(self.fd, payload.ptr, payload.len);
+        const n = linux.read(self.fd, &self.buf, self.buf.len);
+        if (n == 0 or n > self.buf.len) return null;
+        return self.buf[0..n];
+    }
+};
+
 pub fn main() void {
     const fd_signed = linux.socket(linux.AF.UNIX, linux.SOCK.STREAM, 0);
     if (fd_signed < 0) return;
@@ -11,32 +40,23 @@ pub fn main() void {
         .family = linux.AF.UNIX,
         .path = [1]u8{0} ** 108,
     };
-    const path = "/run/user/1000/bus";
-    @memcpy(addr.path[0..path.len], path);
+    const bus_path = "/run/user/1000/bus";
+    @memcpy(addr.path[0..bus_path.len], bus_path);
 
     const addr_ptr = @as(*const linux.sockaddr, @ptrCast(&addr));
-    const addr_len = @as(linux.socklen_t, @intCast(@sizeOf(linux.sa_family_t) + path.len));
+    const addr_len = @as(linux.socklen_t, @intCast(@sizeOf(linux.sa_family_t) + bus_path.len));
     if (linux.connect(fd, addr_ptr, addr_len) < 0) return;
 
-    var buf: [4096]u8 = undefined;
+    var dbus = DBusSock{ .fd = fd, .buf = undefined };
+    dbus.authenticate();
 
-    // Phase 1: SASL authentication
-    const sasl = "\x00AUTH EXTERNAL 31303030\r\nNEGOTIATE_UNIX_FD\r\nBEGIN\r\n";
-    _ = linux.write(fd, sasl.ptr, sasl.len);
-    _ = linux.read(fd, &buf, buf.len);
-
-    // Phase 2: Hello (register with D-Bus daemon)
     const hello_payload = @embedFile("hello.bin");
-    _ = linux.write(fd, hello_payload.ptr, hello_payload.len);
-    const hello_n = linux.read(fd, &buf, buf.len);
-    _ = hello_n;
+    const hr = dbus.sendMessage(hello_payload);
+    if (hr == null or hr.?.len < 16 or hr.?[1] != 2) return;
 
-    // Phase 3: Send notification
     const notify_payload = @embedFile("notify.bin");
-    _ = linux.write(fd, notify_payload.ptr, notify_payload.len);
-
-    // Wait for reply before closing
-    const ts = linux.timespec{ .sec = 0, .nsec = 500 * 1000 * 1000 };
-    _ = linux.nanosleep(&ts, null);
-    _ = linux.read(fd, &buf, buf.len);
+    const nr = dbus.sendMessage(notify_payload);
+    if (nr == null or nr.?.len < 16 or nr.?[1] != 2) return;
+    const nid = parseReplyId(nr.?);
+    _ = nid;
 }
