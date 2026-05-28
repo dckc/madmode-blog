@@ -20,8 +20,8 @@ trace: yo
 analyze: yo yo-strip
 	python3 tools/analyze.py yo yo-strip
 
-analyze-functions: yo
-	python3 tools/analyze.py yo --functions
+analyze-functions: yo-strip
+	python3 tools/analyze.py yo-strip --functions
 
 AWESOME_OCAP=$(HOME)/projects/awesome-ocap
 ocap-devtools:
