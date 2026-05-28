@@ -30,5 +30,11 @@ ocap-devtools:
 	mkdir -p tools
 	cp -rp $(AWESOME_OCAP)/tools/disciplined_python_check.py tools/
 
+zig-version:
+	./tools/zig-version.sh
+
+zig-tree-check:
+	./tools/zig-tree-check.sh
+
 clean:
 	rm -f ./yo yo-strip hello.bin notify.bin
