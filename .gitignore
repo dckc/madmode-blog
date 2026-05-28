@@ -1,1 +1,6 @@
 *~
+/.direnv/
+/yo
+*.bin
+__pycache__/
+*.pyc
