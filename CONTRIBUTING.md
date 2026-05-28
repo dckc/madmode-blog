@@ -22,3 +22,8 @@ title, url, date, and version
 ## Give Credit where Credit is Due
 
 where APIs are taken from jeepny, cite it likewise.
+
+## Makefile style
+
+Keep `Makefile` targets short; if a target needs loops, conditionals,
+traps, retries, or several commands, move that logic to a script.
