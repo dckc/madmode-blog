@@ -1,4 +1,12 @@
-"""Generate D-Bus message payloads for Hello and Notify method calls."""
+"""Generate D-Bus message payloads for Hello and Notify method calls.
+
+Hello method: D-Bus Specification v0.43, 2024-10-29, §3.3.1 org.freedesktop.DBus.
+https://dbus.freedesktop.org/doc/dbus-specification.html
+
+Notify method signature "susssasa{sv}i": Desktop Notifications Specification,
+v1.3, 2024-08-18, §2 Basic Design.
+https://specifications.freedesktop.org/notification/latest/
+"""
 
 from dbus_msg import new_method_call, DBusAddress, Message
 import logging

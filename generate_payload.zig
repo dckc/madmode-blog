@@ -1,3 +1,12 @@
+/// Build Hello and Notify D-Bus method-call payloads at comptime.
+///
+/// Hello method: D-Bus Specification v0.43, 2024-10-29, §3.3.1.
+/// https://dbus.freedesktop.org/doc/dbus-specification.html
+///
+/// Notify method signature "susssasa{sv}i": Desktop Notifications
+/// Specification v1.3, 2024-08-18, §2 Basic Design.
+/// https://specifications.freedesktop.org/notification/latest/
+
 const std = @import("std");
 const dbus = @import("dbus_msg.zig");
 

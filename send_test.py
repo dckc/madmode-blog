@@ -1,4 +1,11 @@
-"""Send a test D-Bus notification over a raw Unix socket, verify reply."""
+"""Send a test D-Bus notification over a raw Unix socket, verify reply.
+
+SASL AUTH EXTERNAL handshake: D-Bus Specification v0.43, 2024-10-29,
+§2.4 Authentication (SASL profile).
+https://dbus.freedesktop.org/doc/dbus-specification.html
+
+Reply ID parsing (§2 Message Protocol — method return body layout).
+"""
 
 import struct
 import logging

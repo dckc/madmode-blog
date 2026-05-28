@@ -1,3 +1,14 @@
+/// D-Bus message serialization at comptime.
+///
+/// Wire format follows the D-Bus Specification v0.43, 2024-10-29.
+/// https://dbus.freedesktop.org/doc/dbus-specification.html
+///   §2 Message Protocol — wire format, endianness, header layout
+///   §2.2 Type System — type codes, alignment rules, marshalling
+///   §2.3.1 Header Fields — field codes (PATH, INTERFACE, MEMBER, etc.)
+///
+/// API inspired by Jeepney v0.9.0, 2025-02-27, by Thomas Kluyver.
+/// https://jeepney.readthedocs.io/en/latest/
+
 const std = @import("std");
 
 pub const MESSAGE_TYPE_METHOD_CALL = 1;

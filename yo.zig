@@ -1,3 +1,11 @@
+/// Raw D-Bus client over a Unix socket.  Comptime payloads from generate_payload.zig.
+///
+/// SASL AUTH EXTERNAL handshake follows the D-Bus Specification v0.43,
+/// 2024-10-29, §2.4 Authentication (SASL profile).
+/// https://dbus.freedesktop.org/doc/dbus-specification.html
+///
+/// D-Bus message reply parsing follows §2 Message Protocol.
+
 const std = @import("std");
 const linux = std.os.linux;
 const gen = @import("./generate_payload.zig");

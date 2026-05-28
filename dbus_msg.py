@@ -1,4 +1,14 @@
-"""Minimal D-Bus message implementation — replaces jeepney for generate_payload.py."""
+"""Minimal D-Bus message implementation — replaces jeepney for generate_payload.py.
+
+D-Bus wire format follows the D-Bus Specification v0.43, 2024-10-29.
+https://dbus.freedesktop.org/doc/dbus-specification.html
+  §2 Message Protocol — wire format, endianness, header layout
+  §2.2 Type System — type codes, alignment rules, marshalling
+  §2.3.1 Header Fields — field codes (PATH, INTERFACE, MEMBER, etc.)
+
+API (DBusAddress, new_method_call, Message) modeled after Jeepney v0.9.0,
+2025-02-27, by Thomas Kluyver.  https://jeepney.readthedocs.io/en/latest/
+"""
 
 import struct
 
