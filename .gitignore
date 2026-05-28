@@ -2,5 +2,10 @@
 /.direnv/
 /yo
 *.bin
+!notify_ref.bin
 __pycache__/
 *.pyc
+/docs/disciplined-python-attenuation.md
+/docs/ocap-py-style-guide.md
+/tools/disciplined_python_check.py
+
