@@ -1,7 +1,7 @@
 ## POLA, OCap Discipline for Python
 
 When writing python, follow [OCap Python Style](https://github.com/dckc/awesome-ocap/blob/master/style-guide/ocap-py-style-guide.md).
-([local copy](~/docs/ocap-py-style-guide.md) )
+([local copy](./docs/ocap-py-style-guide.md) )
 
 Use the [disciplined_python_check.py](./tools/disciplined_python_check.py) checker.
 

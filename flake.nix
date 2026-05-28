@@ -17,6 +17,8 @@
           python3Packages.jeepney
           zig
           gnumake
+          bloaty             # hierarchical ELF size profiler
+          binutils           # objdump (function boundaries), strip
         ];
       };
     };

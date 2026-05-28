@@ -1,6 +1,7 @@
 *~
 /.direnv/
 /yo
+/yo-strip
 *.bin
 !notify_ref.bin
 __pycache__/
