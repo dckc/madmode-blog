@@ -15,7 +15,7 @@ test: hello.bin notify.bin
 	python3 send_test.py
 
 trace: yo
-	strace -e trace=read,write ./yo
+	strace ./yo
 
 analyze: yo yo-strip
 	python3 tools/analyze.py yo yo-strip
