@@ -1,7 +1,6 @@
 """Generate D-Bus message payloads for Hello and Notify method calls."""
 
-from jeepney.wrappers import new_method_call, DBusAddress
-from jeepney import Message
+from dbus_msg import new_method_call, DBusAddress, Message
 import logging
 
 
