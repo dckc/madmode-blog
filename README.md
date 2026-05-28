@@ -5,6 +5,7 @@ tags:
   - linux
   - protocols
   - performance
+  - capabilities
 date: 2026-05-28
 published: true
 summary: what's the smallest binary that could do what notify-send does?
@@ -52,6 +53,20 @@ $ wc *.trace
    19   112  1284 yo.trace
 ```
 
+Why so many syscalls? Because `notify-send` isn't one binary — it's a gateway to a shared library dependency tree:
+
+```
+$ ldd $(type -p notify-send)
+    linux-vdso.so.1
+    libnotify.so.4       → libgobject-2.0 → libglib-2.0
+    libgdk_pixbuf-2.0    → libpng, libjpeg
+    libgio-2.0           → libmount, libblkid, libselinux
+    libpcre2-8, libffi, libz, libm, libc
+```
+
+**9.1 MB** of shared libraries loaded to pop up "Your build broke." Every one of those `.so` files carries ambient authority — filesystem access via libmount, image decoding via libpng/libjpeg, SELinux policy enforcement. You'd need to audit all 9.1 MB before handing this binary to untrusted code.
+
+`yo-strip` is **3.3 KB**. Static. No libraries. 17 syscalls, all documented above. It's a single-purpose capability: "you may send a D-Bus notification, nothing else." Small enough to ship inside a [bubblewrap](https://github.com/containers/bubblewrap) sandbox as a confined [Endo](https://endojs.org) capability for AI agents.
 
 ## message building
 
