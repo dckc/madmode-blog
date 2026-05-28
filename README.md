@@ -8,10 +8,10 @@ tags:
   - capabilities
 date: 2026-05-28
 published: true
-summary: what's the smallest binary that could do what notify-send does?
+summary: what's the least authority needed to send a desktop notification?
 ---
 
-crazy thought: what's the smallest binary that could do what [notify-send](https://man.archlinux.org/man/notify-send.1) does? a few assembly instructions to do syscalls to open the socket and write, yes? does rust or zig let me build a binary that has nothing else? any other languages? nim?
+[notify-send](https://man.archlinux.org/man/notify-send.1) needs 9.1 MB of shared libraries and 416 syscalls to pop up a notification. Can we do better? Could we write one with the *least authority* needed — nothing but the D-Bus protocol over a Unix socket? a few assembly instructions? does rust or zig let me build a binary that has nothing else? any other languages? nim?
 
 [zig](https://en.wikipedia.org/wiki/Zig_(programming_language)) fits like a glove for a couple reasons:
 1. "On Linux libc can be side-stepped by using `std.os.linux` directly." -- [os.zig](https://github.com/ziglang/zig/blob/master/lib/std/os.zig) [^1]
