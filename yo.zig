@@ -1,5 +1,6 @@
 const std = @import("std");
 const linux = std.os.linux;
+const gen = @import("./generate_payload.zig");
 
 fn parseReplyId(data: []const u8) u32 {
     const field_len = std.mem.readInt(u32, data[12..16], .little);
@@ -50,11 +51,11 @@ pub fn main() void {
     var dbus = DBusSock{ .fd = fd, .buf = undefined };
     dbus.authenticate();
 
-    const hello_payload = @embedFile("hello.bin");
+    const hello_payload = comptime gen.buildHello();
     const hr = dbus.sendMessage(hello_payload);
     if (hr == null or hr.?.len < 16 or hr.?[1] != 2) return;
 
-    const notify_payload = @embedFile("notify.bin");
+    const notify_payload = comptime gen.buildNotify();
     const nr = dbus.sendMessage(notify_payload);
     if (nr == null or nr.?.len < 16 or nr.?[1] != 2) return;
     const nid = parseReplyId(nr.?);

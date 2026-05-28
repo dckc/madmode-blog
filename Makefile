@@ -1,4 +1,4 @@
-yo: yo.zig hello.bin notify.bin
+yo: yo.zig dbus_msg.zig generate_payload.zig
 	zig build-exe -O ReleaseSmall --color off --name yo yo.zig
 
 hello.bin notify.bin: generate_payload.py
