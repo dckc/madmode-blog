@@ -1,5 +1,5 @@
 {
-  description = "A tiny Zig environment for writing minimal D-Bus notifications";
+  description = "D-Bus notification experiments with Jeepney";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -7,12 +7,14 @@
 
   outputs = { self, nixpkgs }:
     let
-      system = "x86_64-linux"; # Adjust if you're on aarch64-linux, etc.
+      system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
     in
     {
       devShells.${system}.default = pkgs.mkShell {
         buildInputs = with pkgs; [
+          python3
+          python3Packages.jeepney
           zig
           gnumake
         ];
