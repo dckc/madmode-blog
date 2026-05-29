@@ -28,6 +28,34 @@ where APIs are taken from jeepny, cite it likewise.
 Keep `Makefile` targets short; if a target needs loops, conditionals,
 traps, retries, or several commands, move that logic to a script.
 
+## Object boundaries are capability boundaries
+
+> Security as Extreme Modularity
+> — Modularity: Avoid needless dependencies
+> — Security: Avoid needless vulnerabilities
+> Vulnerability is a form of dependency
+> — Modularity: Principle of info hiding — need to know
+> — Security: Principle of least authority — need to do
+>
+> — Mark S. Miller, "Security as Extreme Modularity"
+
+Trace the **authority flow**: every ambient I/O capability enters at
+the entry point, gets attenuated at each boundary, and the final
+consumer gets the least authority it needs.
+
+Concretely:
+
+  | Module (class) | Authority | Notes |
+ |---|---|---|
+  | `dbus_msg.ts`, `notification.ts` | **none** | Pure data transformations (bit-twiddling, payload builders). No I/O. No authority to attenuate — correctness bugs are still possible but there's no ambient capability to leak. |
+ | `DBusSock` | A socket narrowed to D-Bus protocol patterns (SASL auth, method-call/return) | Writes raw bytes, reads replies. Never sees `argv`, `getuid`, `createConnection`. |
+ | `NotificationsDaemon` | `DBusSock` narrowed to `NotificationPortal` | Exposes only `AddNotification`. Never sees the socket. |
+ | `_script_io` | Captures ambient authority at the boundary | Explicit param wires `process.getuid`, `net.createConnection`, `globalThis.setTimeout` into `main()`. No ambient access leaks further. |
+
+Every authority you don't pass to a consumer is a vulnerability you
+don't have.  Pure data-transformation modules (rows 1) need no review
+for authority questions — but correctness still matters.
+
 ## Commit Discipline: atomic, conventional
 
 Use conventional commits:
