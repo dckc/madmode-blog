@@ -19,6 +19,7 @@
           gnumake
           bloaty             # hierarchical ELF size profiler
           binutils           # objdump (function boundaries), strip
+          typescript         # tsc for TypeScript type checking
         ];
       };
     };

@@ -9,4 +9,6 @@ __pycache__/
 /docs/disciplined-python-attenuation.md
 /docs/ocap-py-style-guide.md
 /tools/disciplined_python_check.py
+/node_modules/
+/package-lock.json
 
