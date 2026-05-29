@@ -11,7 +11,7 @@ published: true
 summary: what's the least authority needed to send a desktop notification?
 ---
 
-[notify-send](https://man.archlinux.org/man/notify-send.1) needs 9.1 MB of shared libraries and 416 syscalls to pop up a notification. Can we do better? Could we write one with the *least authority* needed — nothing but the D-Bus protocol over a Unix socket? a few assembly instructions? does rust or zig let me build a binary that has nothing else? any other languages? nim?
+[notify-send](https://man.archlinux.org/man/notify-send.1) uses 9.1 MB of shared libraries and 416 syscalls to pop up a notification. Can we do better? Could we write one with the *least authority* needed — nothing but the D-Bus protocol over a Unix socket? a few assembly instructions? does rust or zig let me build a binary that has nothing else? any other languages? nim?
 
 [zig](https://en.wikipedia.org/wiki/Zig_(programming_language)) fits like a glove for a couple reasons:
 1. "On Linux libc can be side-stepped by using `std.os.linux` directly." -- [os.zig](https://github.com/ziglang/zig/blob/master/lib/std/os.zig) [^1]
@@ -72,9 +72,7 @@ $ ldd $(type -p notify-send)
 
 yay for [jeepney](https://jeepney.readthedocs.io/) and sans-io! `generate_payload.py` is <50 LOC[^2].
 
-Then I replaced the jeepney 
-
-`dbus_msg.py` - just enough jeepny
+Then I replaced the jeepney imports (`new_method_call`, `DBusAddress`, and `Message`) with just enough code to support `generate_payload.py`: ~350LOC.
 
 Translation to zig is straightforward. The magic is **comptime**:
 
@@ -97,7 +95,9 @@ After that, again, translation to `zig` is straightforward. All told:
 | `yo.zig` / `send_test.py` | 94     | 71  |
 ## bloaty - not!
 
-`yo-strip` is 3304 B. What are they all for?
+`yo-strip` is 3304 B. Smaller than `notify-send` by ~2800:1.
+
+Still... what are the 3KB for?
 
 - **ELF headers + PHDR**: 568 B (17%) — OS loader
 - **.text (code)**: 1103 B (33%) — actual machine code, broken into:
