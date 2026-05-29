@@ -4,6 +4,7 @@
 /yo-strip
 *.bin
 !notify_ref.bin
+!test/fixtures/*.bin
 __pycache__/
 *.pyc
 /docs/disciplined-python-attenuation.md
