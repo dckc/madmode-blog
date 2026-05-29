@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Dan Connolly
+# SPDX-License-Identifier: Apache-2.0
+
 """Generate D-Bus message payloads for Hello and Notify method calls.
 
 Hello method: D-Bus Specification v0.43, 2024-10-29, §3.3.1 org.freedesktop.DBus.

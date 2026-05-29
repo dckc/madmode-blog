@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Dan Connolly
+// SPDX-License-Identifier: Apache-2.0
+
 /** Minimal D-Bus message serialization — replaces jeepney for notification payloads.
  *
  * D-Bus wire format follows the D-Bus Specification v0.43, 2024-10-29.

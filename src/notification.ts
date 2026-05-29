@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Dan Connolly
+// SPDX-License-Identifier: Apache-2.0
+
 /** TypeScript types for org.freedesktop.portal.Notification, version 2.
  *
  * XDG Desktop Portal documentation, 2025.

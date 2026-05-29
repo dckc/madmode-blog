@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Dan Connolly
+// SPDX-License-Identifier: Apache-2.0
+
 /** Tests for D-Bus notification serialization.
  *
  * Uses Node's built-in test runner (`node:test`).  Run with:

@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Dan Connolly
+# SPDX-License-Identifier: Apache-2.0
+
 import struct, sys
 
 """Compare generated payload against reference, field by field."""

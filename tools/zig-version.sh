@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# SPDX-FileCopyrightText: 2026 Dan Connolly
+# SPDX-License-Identifier: Apache-2.0
 set -eu
 
 FLAKE_NIXPKGS="github:nixos/nixpkgs/$(jq -r '.nodes.nixpkgs.locked.rev' flake.lock)"

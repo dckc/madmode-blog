@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Dan Connolly
+// SPDX-License-Identifier: Apache-2.0
+
 /// D-Bus message serialization at comptime.
 ///
 /// Wire format follows the D-Bus Specification v0.43, 2024-10-29.

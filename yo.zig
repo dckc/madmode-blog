@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Dan Connolly
+// SPDX-License-Identifier: Apache-2.0
+
 /// Raw D-Bus client over a Unix socket.  Comptime payloads from generate_payload.zig.
 ///
 /// SASL AUTH EXTERNAL handshake follows the D-Bus Specification v0.43,

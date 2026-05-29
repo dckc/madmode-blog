@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Dan Connolly
+# SPDX-License-Identifier: Apache-2.0
+
 """Send a test D-Bus notification over a raw Unix socket, verify reply.
 
 SASL AUTH EXTERNAL handshake: D-Bus Specification v0.43, 2024-10-29,

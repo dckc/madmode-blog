@@ -1,4 +1,6 @@
 #!/usr/bin/env -S node --experimental-strip-types
+// SPDX-FileCopyrightText: 2026 Dan Connolly
+// SPDX-License-Identifier: Apache-2.0
 
 /** CLI for sending desktop notifications via D-Bus.
  *

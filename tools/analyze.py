@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Dan Connolly
+# SPDX-License-Identifier: Apache-2.0
+
 """ELF binary size analyzer — sections, functions, strip comparison.
 
 Reports how every byte of an ELF executable is used.  Supports

@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Dan Connolly
+# SPDX-License-Identifier: Apache-2.0
+
 yo: yo.zig dbus_msg.zig generate_payload.zig
 	zig build-exe -O ReleaseSmall --color off --name yo yo.zig
 
