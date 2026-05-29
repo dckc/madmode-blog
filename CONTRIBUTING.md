@@ -27,3 +27,24 @@ where APIs are taken from jeepny, cite it likewise.
 
 Keep `Makefile` targets short; if a target needs loops, conditionals,
 traps, retries, or several commands, move that logic to a script.
+
+## Commit Discipline: atomic, conventional
+
+Use conventional commits:
+
+ - feat: for new "product features"
+   - normally includes relevant test
+ - fix: for bugs (red/green TDD!)
+ - test: for changes to tests that are independent of feat/fix
+ - refactor: when there's no externally visible behavior change
+ - docs: for no code changes
+ - build: for dev tools, build stuff
+ - chore: for misc
+
+Use best practices for atomic commits. One for each substantial
+accomplishment or lesson learned. Headline space is precious. Use it
+wisely! Put the most impactful words early in the headline. Keep it to
+78 chars.
+
+This project is in an early, exploratory phase: feel free to commit
+before back-tracking.
