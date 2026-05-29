@@ -301,6 +301,7 @@ export function newMethodCall(
   method: string,
   signature?: string,
   body?: readonly unknown[],
+  serial?: number,
 ): Uint8Array {
   const headers = new Map<number, unknown>();
   headers.set(FIELD_PATH, address.objectPath);
@@ -310,5 +311,17 @@ export function newMethodCall(
   if (signature !== undefined) {
     headers.set(FIELD_SIGNATURE, signature);
   }
-  return serialise(MESSAGE_TYPE_METHOD_CALL, 1, headers, signature ?? "", body ?? []);
+  return serialise(MESSAGE_TYPE_METHOD_CALL, serial ?? 1, headers, signature ?? "", body ?? []);
+}
+
+/** Build the org.freedesktop.DBus.Hello method call (serial 1). */
+export function buildHelloPayload(): Uint8Array {
+  return newMethodCall(
+    {
+      objectPath: "/org/freedesktop/DBus",
+      busName: "org.freedesktop.DBus",
+      interface: "org.freedesktop.DBus",
+    },
+    "Hello",
+  );
 }

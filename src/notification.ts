@@ -8,6 +8,7 @@
  * optional keys, version-gated fields, and category-specific button purposes. */
 
 import { newMethodCall } from "./dbus_msg.ts";
+import type { DBusAddress } from "./dbus_msg.ts";
 
 /** Priority levels for the notification. */
 export type Priority = "low" | "normal" | "high" | "urgent";
@@ -237,6 +238,13 @@ export function notificationToDict(
   return dict;
 }
 
+/** D-Bus address for the notification daemon (org.freedesktop.Notifications). */
+const NOTIFY_ADDR: DBusAddress = {
+  objectPath: "/org/freedesktop/Notifications",
+  busName: "org.freedesktop.Notifications",
+  interface: "org.freedesktop.Notifications",
+};
+
 /** Portal bus name and object path. */
 const PORTAL_BUS_NAME = "org.freedesktop.portal.Desktop";
 const PORTAL_OBJECT_PATH = "/org/freedesktop/portal/notification";
@@ -257,5 +265,18 @@ export function buildAddNotificationPayload(
     "AddNotification",
     "sa{sv}",
     [id, dict],
+  );
+}
+
+/** Build the daemon's org.freedesktop.Notifications.Notify method call (serial 2). */
+export function buildNotifyPayload(
+  notification: Notification,
+): Uint8Array {
+  return newMethodCall(
+    NOTIFY_ADDR,
+    "Notify",
+    "susssasa{sv}i",
+    ["notify-send", 0, "", notification.title ?? "", notification.body ?? "", [], {}, -1],
+    2,
   );
 }
