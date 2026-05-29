@@ -20,6 +20,9 @@
           bloaty             # hierarchical ELF size profiler
           binutils           # objdump (function boundaries), strip
           typescript         # tsc for TypeScript type checking
+          pyright            # Python type checker
+          typescript-language-server  # LSP for .ts files
+          ruff               # Python linter
         ];
       };
     };
