@@ -1,7 +1,7 @@
 # https://stackoverflow.com/a/64068109
 makeFileDir := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
-TARGETS=$(HOME)/.gitconfig $(HOME)/.bashrc $(HOME)/.hgrc.d \
+TARGETS=$(HOME)/.gitignore $(HOME)/.gitconfig $(HOME)/.bashrc $(HOME)/.hgrc.d \
 	$(HOME)/.emacs.d $(HOME)/.config/nix/nix.conf \
 	$(HOME)/.local/share/file-manager/actions \
 	$(HOME)/.local/share/applications/obsidian.desktop \
@@ -28,6 +28,9 @@ $(HOME)/.config/nix/nix.conf:
 
 $(HOME)/.emacs.d:
 	ln -s $(makeFileDir)/emacs.d $@
+
+$(HOME)/.gitignore:
+	ln -s $(makeFileDir).gitignore $@
 
 $(HOME)/.gitconfig:
 	ln -s $(makeFileDir)/git-config $@

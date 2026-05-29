@@ -1,3 +1,6 @@
+[core]
+	excludesFile = ~/.gitignore
+
 [user]
 	name = Dan Connolly
 	email = dckc@madmode.com

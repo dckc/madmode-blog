@@ -1,3 +1,9 @@
 *~
 transient/
 session.*
+# temp files (MH mail reader style, circa 1979)
+# https://en.wikipedia.org/wiki/MH_Message_Handling_System
+# "By default, rmm adds a comma (,) or a hash mark (#) to the start of a message filename."
+#   -- https://rand-mh.sourceforge.io/book/mh/rem.html
+#   diigo bookmark 2023-03-24 22:02:56
+,*
