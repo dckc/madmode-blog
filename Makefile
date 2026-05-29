@@ -8,10 +8,20 @@ yo-strip: yo
 hello.bin notify.bin: generate_payload.py
 	python3 generate_payload.py
 
+test/fixtures/.generated: test/notify_fixtures.py
+	mkdir -p test/fixtures
+	python3 test/notify_fixtures.py
+	touch test/fixtures/.generated
+
+test-fixtures: test/fixtures/.generated
+
+check-fixtures:
+	python3 test/notify_fixtures.py check
+
 run: yo
 	./yo
 
-test: hello.bin notify.bin
+test: hello.bin notify.bin check-fixtures
 	python3 send_test.py
 
 trace: yo
