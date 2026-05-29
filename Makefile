@@ -36,6 +36,8 @@ analyze: yo yo-strip
 analyze-functions: yo-strip
 	python3 tools/analyze.py yo-strip --functions
 
+# TODO: pypy package?
+# TODO: nix flake?
 AWESOME_OCAP=$(HOME)/projects/awesome-ocap
 ocap-devtools:
 	mkdir -p docs/
