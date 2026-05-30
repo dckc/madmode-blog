@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Magit status
+Comment=Open magit status for this directory
+Exec=magit-status %F
+Icon=emacs
+Type=Application
+StartupNotify=false
+MimeType=inode/directory;

@@ -5,7 +5,9 @@ TARGETS=$(HOME)/.gitignore $(HOME)/.gitconfig $(HOME)/.bashrc $(HOME)/.hgrc.d \
 	$(HOME)/.emacs.d $(HOME)/.config/nix/nix.conf \
 	$(HOME)/.local/share/file-manager/actions \
 	$(HOME)/.local/share/applications/obsidian.desktop \
-	$(HOME)/.local/bin/obsidian
+	$(HOME)/.local/share/applications/emacs-magit.desktop \
+	$(HOME)/.local/bin/obsidian \
+	$(HOME)/.local/bin/magit-status
 
 all: $(TARGETS)
 
@@ -16,8 +18,14 @@ $(HOME)/.local/share/file-manager/actions:
 $(HOME)/.local/share/applications/obsidian.desktop:
 	ln -s $(makeFileDir)applications/obsidian.desktop $@
 
+$(HOME)/.local/share/applications/emacs-magit.desktop:
+	ln -s $(makeFileDir)applications/emacs-magit.desktop $@
+
 $(HOME)/.local/bin/obsidian:
 	ln -sf $(makeFileDir)bin/obsidian $@
+
+$(HOME)/.local/bin/magit-status:
+	ln -sf $(makeFileDir)bin/magit-status $@
 
 $(HOME)/.config/direnv:
 	ln -s $(makeFileDir)direnv $@

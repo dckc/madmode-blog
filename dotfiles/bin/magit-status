@@ -1,0 +1,94 @@
+#!/bin/bash
+# Open magit status for a directory from caja "Open With"
+exec emacsclient -c -a "" -e "(magit-status \"$1\")"
+
+# ============================================================================
+# I used to use [TortoiseHg][tortoisehg] to browse version control status on
+# my linux workstation.  I wanted to do likewise with git in my Ubuntu
+# [MATE][mate] desktop.  The file browser is called caja.
+# [TortoiseGit][tortoisegit] doesn't support linux.
+#
+# ## Overlay icons
+#
+# [git-nautilus-icons][git-nautilus-icons] -- git status emblems on files in
+# caja:
+#
+#     sudo apt install python3-caja python3-pip
+#     pip3 install --user git-nautilus-icons
+#     killall caja
+#
+# Supply chain: 56 stars, 5 forks, 79 commits, 1 maintainer.  Latest [PyPI
+# release][pypi] 2.2.0 (Oct 2025).  BSD-2-Clause.
+#
+# ## Full context menu
+#
+# [RabbitVCS][rabbitvcs] (most like TortoiseHg) -- commit, push, pull, log,
+# diff from right-click.  Has a [Caja client][rabbitvcs-caja] in source, but
+# no apt package -- must install from source.
+#
+# Supply chain: 396 stars, 117 forks, 1952 commits, broader contributor
+# base.  Latest release v0.19 (Jul 2023).  GPL-2.0.
+#
+# ## Workflow: caja to magit
+#
+# My current habit is [magit][magit], but getting there from caja was a
+# bunch of manual steps.  Here is what I settled on.
+#
+# ### The working setup
+#
+# This wrapper script at `dotfiles/bin/magit-status`, plus a [desktop
+# entry][desktop-entry-spec] at `dotfiles/applications/emacs-magit.desktop`:
+#
+#     [Desktop Entry]
+#     Name=Magit status
+#     Comment=Open magit status for this directory
+#     Exec=magit-status %F
+#     Icon=emacs
+#     Type=Application
+#     StartupNotify=false
+#     MimeType=inode/directory;
+#
+# Symlinked into place by `dotfiles/Makefile`:
+#
+#     TARGETS += $(HOME)/.local/share/applications/emacs-magit.desktop
+#     TARGETS += $(HOME)/.local/bin/magit-status
+#
+# Run `make` in `dotfiles/`, then right-click any directory in caja ->
+# Open With -> Magit status.
+#
+# ### Pitfalls encountered
+#
+# **Caja-actions don't work for directories.**  Caja has an Actions submenu
+# in the right-click context menu, but it only appears for files with
+# specific MIME types, not for inode/directory.  Creating a Type=Action
+# desktop entry with MimeTypes=inode/directory; produces no visible menu
+# item.
+#
+# **NoDisplay=true hangs caja.**  Setting NoDisplay=true in a desktop entry
+# with MimeType=inode/directory; causes caja to hang when browsing any
+# directory containing the desktop file.  Omitting NoDisplay=true fixes this.
+#
+# **emacsclient without -a "" hangs.**  If no Emacs server is running,
+# emacsclient -c blocks indefinitely.  The -a "" flag makes emacsclient
+# start Emacs as a daemon if no server is found.
+#
+# **Use a wrapper script, not inline bash in Exec.**  The desktop file Exec
+# key does not handle complex quoting well.  Early attempts with
+# bash -c '...' and %% date-format escapes were brittle -- the %% escaping
+# was silently dropped by caja.  A standalone script in PATH avoids all
+# quoting problems.
+#
+# **Use %F, not %f.**  Caja's "Open With" passes the target path via field
+# codes in the Exec line.  %F (capital F, passes all selected files) is what
+# VS Codium's desktop entry uses and is more robust than %f (single file).
+#
+# [tortoisehg]: https://en.wikipedia.org/wiki/TortoiseHg
+# [mate]: https://mate-desktop.org/
+# [tortoisegit]: https://tortoisegit.org/
+# [git-nautilus-icons]: https://github.com/chrisjbillington/git-nautilus-icons
+# [pypi]: https://pypi.org/project/git-nautilus-icons/
+# [rabbitvcs]: https://github.com/rabbitvcs/rabbitvcs
+# [rabbitvcs-caja]: https://github.com/rabbitvcs/rabbitvcs/tree/master/clients/caja
+# [magit]: https://magit.vc/
+# [desktop-entry-spec]: https://specifications.freedesktop.org/desktop-entry-spec/latest/
+# ============================================================================
