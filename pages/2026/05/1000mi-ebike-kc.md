@@ -13,7 +13,7 @@ published: true
 
 I hit 1,000mi on my e-bike this month! One of my trips ended at 1,000.0mi even:
 
-![[PXL_20260510_000142452.jpg|266]]
+<img src="https://archive.org/download/2026-05-ebike-photos/PXL_20260510_000142452.jpg" width="266" />
 
 Electric cars are kinda cool, but I don't think they fit into a sustainable future. **Bikes, buses, and trains!** As much as [KC](https://en.wikipedia.org/wiki/Kansas_City_metropolitan_area) is steeped in [car-culture](https://www.diigo.com/user/dckc-madmode?query=%23car-culture), it was a breath of fresh air to see this on [Issues — Amy Scrivner for City Council](https://www.amyforop.com/issues):
 
@@ -22,11 +22,11 @@ Electric cars are kinda cool, but I don't think they fit into a sustainable futu
 And she won! She now has a [seat on the OP City Council](https://www.opkansas.gov/899/Amy-Scrivner)
 
 I'm grateful our place is in biking distance to most of what I need in life. Here is the bike just back from the market. The **ROCKBROS Bike Trunk Bag** expands up to fit all kinds of stuff.
-![[PXL_20260530_215835761.jpg|335]]![[PXL_20260530_215840108.jpg|336]]
+
+<img src="https://archive.org/download/2026-05-ebike-photos/PXL_20260530_215835761.jpg" width="335" />
+<img src="https://archive.org/download/2026-05-ebike-photos/PXL_20260530_215840108.jpg" width="336" />
 
 This whole bag of groceries fit in there.
-
-![[PXL_20260530_220027880.jpg|306]] ![[PXL_20260530_220314841.jpg|349]]
 
 <img src="https://archive.org/download/2026-05-ebike-photos/PXL_20260530_220027880.jpg" width="306" />
 <img src="https://archive.org/download/2026-05-ebike-photos/PXL_20260530_220314841.jpg" width="349" />
