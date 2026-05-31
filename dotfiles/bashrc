@@ -165,3 +165,11 @@ if [ -f '/home/connolly/opt/google-cloud-sdk/completion.bash.inc' ]; then . '/ho
 if [ -f '/home/connolly/opt/google-cloud-sdk/path.bash.inc' ]; then . '/home/connolly/opt/google-cloud-sdk/path.bash.inc'; fi
 export PATH="/home/connolly/.gvm/go/bin:$PATH"
 
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/connolly/.local/bin:$PATH"
