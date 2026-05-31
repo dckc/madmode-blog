@@ -1,6 +1,10 @@
 *~
 transient/
 session.*
+
+# I use direnv for API keys and such
+.envrc
+
 # temp files (MH mail reader style, circa 1979)
 # https://en.wikipedia.org/wiki/MH_Message_Handling_System
 # "By default, rmm adds a comma (,) or a hash mark (#) to the start of a message filename."
