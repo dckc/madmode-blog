@@ -30,3 +30,7 @@ fi
 . "$HOME/.cargo/env"
 
 . "$XDG_DATA_HOME/dfx/env"
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/connolly/.local/bin:$PATH"
