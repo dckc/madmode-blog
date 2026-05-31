@@ -20,3 +20,6 @@ time-reset:
 
 install-deps:
 	sudo apt install python2 jq libsecret-tools
+
+nix-py2:
+	NIXPKGS_ALLOW_INSECURE=1 nix shell nixpkgs#python27 --impure
