@@ -10,6 +10,7 @@ TARGETS=$(HOME)/.gitignore $(HOME)/.gitconfig $(HOME)/.bashrc $(HOME)/.hgrc.d \
 	$(HOME)/.local/bin/magit-status \
 	$(HOME)/.local/bin/svcmon \
 	$(HOME)/.config/autostart/svcmon.desktop \
+	$(HOME)/.config/autostart/svcmon.desktop \
 	$(HOME)/.codex/AGENTS.md \
 	$(HOME)/.config/opencode/opencode.jsonc
 
@@ -42,6 +43,12 @@ $(HOME)/.local/bin/obsidian:
 
 $(HOME)/.local/bin/magit-status:
 	ln -sf $(makeFileDir)bin/magit-status $@
+
+$(HOME)/.local/bin/svcmon:
+	ln -sf $(makeFileDir)bin/svcmon $@
+
+$(HOME)/.config/autostart/svcmon.desktop:
+	ln -s $(makeFileDir)autostart/svcmon.desktop $@
 
 $(HOME)/.config/direnv:
 	ln -s $(makeFileDir)direnv $@
