@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Service Monitor
+Comment=Monitor systemd user services in the panel indicator area
+Exec=svcmon pipewire.service wireplumber.service gpg-agent.service
+Terminal=false
+Type=Application
+Categories=Utility;
+X-MATE-Autostart-enabled=true
