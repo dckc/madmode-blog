@@ -1,0 +1,98 @@
+#!/usr/bin/env python3.12
+"""Monitor systemd user services in the MATE panel indicator area.
+
+Usage:
+    svcmon SERVICE_NAME [...]
+
+Each service appears as a small icon in the indicator applet area.
+The icon reflects the systemd ActiveState:
+  emblem-default-symbolic  → active
+  emblem-system-symbolic   → inactive
+  emblem-important-symbolic → failed
+
+Right-click for service details and exit.
+"""
+
+from __future__ import annotations
+
+import logging
+
+_STATE_TO_ICON = {
+    "active": "emblem-default-symbolic",
+    "reloading": "emblem-synchronizing-symbolic",
+    "inactive": "emblem-system-symbolic",
+    "failed": "emblem-important-symbolic",
+    "activating": "emblem-synchronizing-symbolic",
+    "deactivating": "media-playback-stop-symbolic",
+}
+
+
+def _label_abbrev(service_name: str) -> str:
+    name = service_name.removesuffix(".service").removesuffix(".target")
+    return name[:8]
+
+
+def main(argv, run): # too long. factor out objects, named parts
+    logging.basicConfig(level=logging.INFO, format="%(message)s")
+    services = argv[1:] if len(argv) > 1 else [
+        "pipewire.service",
+        "gpg-agent.service",
+    ]
+
+    import gi #WHY? why import here?
+
+    gi.require_version("AyatanaAppIndicator3", "0.1") #AMBIENT
+    gi.require_version("Gtk", "3.0") #AMBIENT
+    from gi.repository import AyatanaAppIndicator3, GLib, Gtk #WHY? why import here?
+
+    indicators: dict[str, AyatanaAppIndicator3.Indicator] = {}
+    menu_state_items: dict[str, Gtk.MenuItem] = {}
+
+    for svc in services:
+        ind = AyatanaAppIndicator3.Indicator.new(
+            f"svcmon-{svc}",
+            "emblem-system-symbolic",
+            AyatanaAppIndicator3.IndicatorCategory.APPLICATION_STATUS,
+        )
+        ind.set_status(AyatanaAppIndicator3.IndicatorStatus.ACTIVE)
+        ind.set_label(_label_abbrev(svc), "xxxxxx")
+
+        menu = Gtk.Menu()
+        state_item = Gtk.MenuItem(label=f"{svc}: \u2026")
+        state_item.set_sensitive(False)
+        menu.append(state_item)
+        menu.append(Gtk.SeparatorMenuItem())
+        exit_item = Gtk.MenuItem(label="Exit")
+        exit_item.connect("activate", lambda _w: Gtk.main_quit())
+        menu.append(exit_item)
+        menu.show_all()
+
+        ind.set_menu(menu)
+        indicators[svc] = ind
+        menu_state_items[svc] = state_item
+
+    def _poll() -> bool:
+        for svc in indicators:
+            p = run(
+                ["systemctl", "--user", "is-active", svc],
+                capture_output=True, text=True,
+            )
+            state = p.stdout.strip() or "unknown"
+            icon = _STATE_TO_ICON.get(state, "dialog-question-symbolic")
+            indicators[svc].set_icon(icon)
+            menu_state_items[svc].set_label(f"{svc}: {state}")
+        return True
+
+    _poll()
+    GLib.timeout_add_seconds(5, _poll)
+    Gtk.main()
+    return 0
+
+
+if __name__ == "__main__":
+    def _script_io():
+        import sys
+        from subprocess import run
+        return main(argv=sys.argv, run=run)
+
+    raise SystemExit(_script_io())
