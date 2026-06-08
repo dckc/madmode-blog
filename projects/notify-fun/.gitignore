@@ -1,0 +1,15 @@
+*~
+/.direnv/
+/yo
+/yo-strip
+*.bin
+!notify_ref.bin
+!test/fixtures/*.bin
+__pycache__/
+*.pyc
+/docs/disciplined-python-attenuation.md
+/docs/ocap-py-style-guide.md
+/tools/disciplined_python_check.py
+/node_modules/
+/package-lock.json
+
