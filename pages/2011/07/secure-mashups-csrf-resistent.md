@@ -1,9 +1,13 @@
+---
 date: 2011-07-26
 published: true
-tags: [economics, security, web standards]
-title: 'Secure Mashups: CSRF-resistent alternatives to WebID'
-updated: 2011-07-26
-
+tags:
+  - economics
+  - security
+  - web-standards
+  - capabilities
+title: "Secure Mashups: CSRF-resistent alternatives to WebID"
+---
 
 I think <a href="http://www.w3.org/wiki/WebID">WebID</a> is headed in the wrong direction.&nbsp;It separates authorization from authentication, which is <a href="http://en.wikipedia.org/wiki/Ambient_authority">widely believed</a> to be a good practice, but proves spectacularly bad practice when it leads to <a href="http://en.wikipedia.org/wiki/Cross-site_request_forgery">cross-site request forgery</a>.&nbsp;&nbsp;I have tried to explain my misgivings to the WebID proponents, but I didn't have much in the way of an alternative to suggest. Until today, when I found <a href="http://www.sitelier.com/">Sitelier</a> and&nbsp;<a href="https://sites.google.com/site/belayresearchproject/">Belay Research</a>.<br />
 <br />
