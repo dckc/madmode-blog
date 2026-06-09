@@ -1,7 +1,14 @@
 ---
 title: "Obsidian-LiveSync: Self-Hosted (mostly)"
 date: 2026-04-11
-tags: ["github", "syndicated", "vm", "sync", "self-hosted", "mobile"]
+tags:
+  - github
+  - syndicated
+  - vm
+  - sync
+  - self-hosted
+  - mobile
+  - writing
 published: true
 summary: Self-hosted Obsidian sync using CouchDB on Proxmox LXC, secured with Tailscale.
 ---
