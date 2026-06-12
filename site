@@ -2,6 +2,8 @@
 
 # python 3 stdlib
 from datetime import date, datetime
+from datetime import timezone
+from email.utils import format_datetime
 from glob import glob
 from itertools import groupby
 from unicodedata import normalize
@@ -149,13 +151,18 @@ def slugify(text, delim=u'-'):
 
 @app.template_filter()
 def to_rfc2822(dt):
+    """
+    >>> dt = datetime(2025, 1, 1)
+    >>> to_rfc2822(dt)
+    'Wed, 01 Jan 2025 00:00:00 +0000'
+    """
     if not dt:
         return
-    current_locale = locale.getlocale(locale.LC_TIME)
-    locale.setlocale(locale.LC_TIME, "en_US.utf8")
-    formatted = dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
-    locale.setlocale(locale.LC_TIME, current_locale)
-    return formatted
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    else:
+        dt = dt.astimezone(timezone.utc)
+    return format_datetime(dt)
 
 
 ###############################################################################
