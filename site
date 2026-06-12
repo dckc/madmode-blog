@@ -60,7 +60,13 @@ asset_manager = AssetManager(app)
 def get_pages(pages, offset=None, limit=None, tag=None, year=None, month=None):
     """ Retrieves pages matching passec criterias.
     """
-    articles = [p for p in pages if p.meta.get('date')]
+    articles = []
+    for p in pages:
+        try:
+            if p.meta.get('date'):
+                articles.append(p)
+        except Exception as e:
+            raise ValueError(f"Error reading meta for page {p.path}: {e}") from e
     # filter unpublished article
     if not app.debug:
         articles = [p for p in articles if p.meta.get('published') is True]
