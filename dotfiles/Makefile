@@ -10,7 +10,14 @@ TARGETS=$(HOME)/.gitignore $(HOME)/.gitconfig $(HOME)/.bashrc $(HOME)/.hgrc.d \
 	$(HOME)/.local/bin/magit-status \
 	$(HOME)/.local/bin/svcmon \
 	$(HOME)/.config/autostart/svcmon.desktop \
-	$(HOME)/.codex/AGENTS.md
+	$(HOME)/.codex/AGENTS.md \
+	$(HOME)/.config/opencode/opencode.jsonc
+
+all: $(TARGETS)
+
+$(HOME)/.config/opencode/opencode.jsonc:
+	mkdir -p $(HOME)/.config/opencode
+	ln -s $(makeFileDir)opencode/opencode.jsonc $@
 
 all: $(TARGETS)
 
