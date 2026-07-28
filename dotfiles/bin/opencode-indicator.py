@@ -31,8 +31,10 @@ except (ValueError, ImportError):
 
 from gi.repository import GLib, Gtk
 
-SERVICE = "opencode-web"
-ICON = "applications-internet"
+LABEL = "ai"
+UNIT = "opencode-web"
+_SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+ICON = os.path.join(_SCRIPT_DIR, "..", "icons", "opencode.svg")
 URL = os.environ.get("OPENCODE_URL", "http://127.0.0.1:3000")
 
 CLIP_CMDS = ["xclip", "-selection", "clipboard"], ["wl-copy"]
@@ -42,7 +44,7 @@ class Monitor:
     def __init__(self):
         self._active = False
         self._indicator = AppIndicator.Indicator.new(
-            SERVICE,
+            LABEL,
             ICON,
             AppIndicator.IndicatorCategory.APPLICATION_STATUS,
         )
@@ -81,11 +83,11 @@ class Monitor:
         self._indicator.set_menu(menu)
 
     def _systemctl(self, action):
-        subprocess.run(["systemctl", "--user", action, f"{SERVICE}.service"])
+        subprocess.run(["systemctl", "--user", action, f"{UNIT}.service"])
 
     def _systemctl_is_active(self) -> bool:
         r = subprocess.run(
-            ["systemctl", "--user", "is-active", f"{SERVICE}.service"],
+            ["systemctl", "--user", "is-active", f"{UNIT}.service"],
             capture_output=True,
             text=True,
         )
@@ -107,7 +109,7 @@ class Monitor:
         self._active = active
         self._item_start.set_sensitive(not active)
         self._item_stop.set_sensitive(active)
-        label = f"{SERVICE} — {'running' if active else 'stopped'}"
+        label = f"{LABEL}\u2713" if active else f"{LABEL}\u2717"
         self._indicator.set_label(label, "")
         self._indicator.set_title(label)
 
