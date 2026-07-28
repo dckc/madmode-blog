@@ -1,0 +1,12 @@
+[Unit]
+Description=opencode web indicator
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/opencode-indicator.py
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target
