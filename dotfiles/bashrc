@@ -5,6 +5,11 @@
 # Environment needed by all bash invocations, including ssh remote commands
 GUIX_PROFILE="/home/connolly/.guix-profile"
 . "$GUIX_PROFILE/etc/profile"
+# for pip install XYZ --user
+export PATH=~/.local/bin:$PATH
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # If not running interactively, don't do anything
 case $- in
@@ -146,15 +151,9 @@ PERL_MM_OPT="INSTALL_BASE=/home/dconnolly/perl5"; export PERL_MM_OPT;
 # export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
 unset LD_PRELOAD
 
-# for pip install XYZ --user
-export PATH=~/.local/bin:$PATH
 # https://direnv.net/
 eval "$(direnv hook bash)"
 
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 . "$HOME/.cargo/env"
 
