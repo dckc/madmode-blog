@@ -5,7 +5,7 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-ExecStart=%h/.local/bin/agentsview serve
+ExecStart=%h/.local/bin/agentsview serve --port 4687
 Restart=on-failure
 RestartSec=5
 

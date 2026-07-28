@@ -24,7 +24,7 @@ LABEL = "av"
 UNIT = "agentsview"
 _SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 ICON = os.path.join(_SCRIPT_DIR, "..", "icons", "agentsview.png")
-URL = "http://127.0.0.1:8081"
+URL = "http://127.0.0.1:4687"
 
 CLIP_CMDS = ["xclip", "-selection", "clipboard"], ["wl-copy"]
 

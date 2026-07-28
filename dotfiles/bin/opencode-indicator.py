@@ -35,7 +35,7 @@ LABEL = "ai"
 UNIT = "opencode-web"
 _SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 ICON = os.path.join(_SCRIPT_DIR, "..", "icons", "opencode.svg")
-URL = os.environ.get("OPENCODE_URL", "http://127.0.0.1:3000")
+URL = os.environ.get("OPENCODE_URL", "http://127.0.0.1:7623")
 
 CLIP_CMDS = ["xclip", "-selection", "clipboard"], ["wl-copy"]
 

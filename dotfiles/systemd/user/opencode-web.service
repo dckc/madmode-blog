@@ -5,7 +5,7 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/home/connolly/.nvm/versions/node/v22.22.0/bin/opencode web --port 3000
+ExecStart=/home/connolly/.nvm/versions/node/v22.22.0/bin/opencode web --port 7623
 Restart=on-failure
 RestartSec=5
 
