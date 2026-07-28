@@ -1,0 +1,13 @@
+[Unit]
+Description=opencode web interface
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/home/connolly/.nvm/versions/node/v22.22.0/bin/opencode web --port 3000
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
