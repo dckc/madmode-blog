@@ -1,15 +1,4 @@
 #!/usr/bin/python3
-"""
-Ayatana indicator for `opencode web` as a systemd user service.
-
-Registers a StatusNotifierItem on the session D-Bus — the MATE indicator
-applet (or any StatusNotifierHost) picks it up.  Polls systemd every 2 s.
-Right-click menu: Start, Stop, Copy URL, Open in Browser, Quit.
-
-Prereq:  apt install gir1.2-ayatanaappindicator3-0.1 python3-gi
-Service: dotfiles/systemd/user/opencode-web.service
-Install: make -C dotfiles -f opencode-indicator.mk
-"""
 
 from __future__ import annotations
 
@@ -31,11 +20,11 @@ except (ValueError, ImportError):
 
 from gi.repository import GLib, Gtk
 
-LABEL = "ai"
-UNIT = "opencode-web"
+LABEL = "av"
+UNIT = "agentsview"
 _SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
-ICON = os.path.join(_SCRIPT_DIR, "..", "icons", "opencode.svg")
-URL = os.environ.get("OPENCODE_URL", "http://127.0.0.1:7623")
+ICON = os.path.join(_SCRIPT_DIR, "..", "icons", "agentsview.png")
+URL = "http://127.0.0.1:4687"
 
 CLIP_CMDS = ["xclip", "-selection", "clipboard"], ["wl-copy"]
 

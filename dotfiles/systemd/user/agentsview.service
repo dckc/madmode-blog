@@ -1,11 +1,11 @@
 [Unit]
-Description=opencode web interface
+Description=agentsview session analytics server
 After=network-online.target
 Wants=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/home/connolly/.nvm/versions/node/v22.22.0/bin/opencode web --port 7623
+ExecStart=%h/.local/bin/agentsview serve --port 4687
 Restart=on-failure
 RestartSec=5
 
