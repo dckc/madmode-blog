@@ -1,0 +1,13 @@
+[Unit]
+Description=agentsview session analytics server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/agentsview serve
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

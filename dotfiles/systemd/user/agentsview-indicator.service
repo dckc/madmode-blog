@@ -1,0 +1,12 @@
+[Unit]
+Description=agentsview indicator
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/agentsview-indicator.py
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target
