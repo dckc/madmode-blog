@@ -7,7 +7,16 @@ TARGETS=$(HOME)/.gitignore $(HOME)/.gitconfig $(HOME)/.bashrc $(HOME)/.hgrc.d \
 	$(HOME)/.local/share/applications/obsidian.desktop \
 	$(HOME)/.local/share/applications/emacs-magit.desktop \
 	$(HOME)/.local/bin/obsidian \
-	$(HOME)/.local/bin/magit-status
+	$(HOME)/.local/bin/magit-status \
+	$(HOME)/.local/bin/svcmon \
+	$(HOME)/.config/autostart/svcmon.desktop \
+	$(HOME)/.codex/AGENTS.md
+
+all: $(TARGETS)
+
+$(HOME)/.codex/AGENTS.md:
+	mkdir -p $(HOME)/.codex
+	ln -s $(makeFileDir)codex/AGENTS.md $@
 
 all: $(TARGETS)
 
