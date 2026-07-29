@@ -4,6 +4,7 @@
 TARGETS = \
 	$(HOME)/.local/bin/agentsview \
 	$(HOME)/.local/bin/agentsview-indicator.py \
+	$(HOME)/.local/icons/agentsview.png \
 	$(HOME)/.config/systemd/user/agentsview.service \
 	$(HOME)/.config/systemd/user/agentsview-indicator.service
 
@@ -22,6 +23,11 @@ $(HOME)/.local/bin/agentsview:
 $(HOME)/.local/bin/agentsview-indicator.py:
 	mkdir -p $(HOME)/.local/bin
 	ln -sf $(CURDIR)/bin/agentsview-indicator.py $@
+
+# So the indicator can find its icon
+$(HOME)/.local/icons/agentsview.png:
+	mkdir -p $(HOME)/.local/icons
+	ln -sf $(CURDIR)/icons/agentsview.png $@
 
 $(HOME)/.config/systemd/user/agentsview.service:
 	mkdir -p $(HOME)/.config/systemd/user
