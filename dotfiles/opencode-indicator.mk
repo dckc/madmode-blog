@@ -9,6 +9,7 @@ PYGOBJECT_DOC = /usr/share/doc/$(PYGOBJECT_PKG)/copyright
 
 TARGETS = \
 	$(HOME)/.local/bin/opencode-indicator.py \
+	$(HOME)/.local/icons/opencode.svg \
 	$(HOME)/.config/systemd/user/opencode-web.service \
 	$(HOME)/.config/systemd/user/opencode-indicator.service
 
@@ -31,6 +32,11 @@ $(PYGOBJECT_DOC):
 $(HOME)/.local/bin/opencode-indicator.py:
 	mkdir -p $(HOME)/.local/bin
 	ln -sf $(CURDIR)/bin/opencode-indicator.py $@
+
+# So the indicator can find its icon
+$(HOME)/.local/icons/opencode.svg:
+	mkdir -p $(HOME)/.local/icons
+	ln -sf $(CURDIR)/icons/opencode.svg $@
 
 # So `systemctl --user {start,stop} opencode-web` works
 $(HOME)/.config/systemd/user/opencode-web.service:
