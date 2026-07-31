@@ -1,0 +1,14 @@
+[Unit]
+Description=PinchTab server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=forking
+ExecStart=%h/.local/bin/pinchtab daemon start
+ExecStop=%h/.local/bin/pinchtab daemon stop
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

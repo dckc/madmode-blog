@@ -10,6 +10,7 @@ PYGOBJECT_DOC = /usr/share/doc/$(PYGOBJECT_PKG)/copyright
 TARGETS = \
 	$(HOME)/.local/bin/pinchtab-indicator.py \
 	$(HOME)/.local/icons/pinchtab.png \
+	$(HOME)/.config/systemd/user/pinchtab.service \
 	$(HOME)/.config/systemd/user/pinchtab-indicator.service
 
 ## Ready the Python indicator, register the service, and autostart the tray icon
@@ -36,6 +37,12 @@ $(HOME)/.local/bin/pinchtab-indicator.py:
 $(HOME)/.local/icons/pinchtab.png:
 	mkdir -p $(HOME)/.local/icons
 	ln -sf $(CURDIR)/icons/pinchtab.png $@
+
+# So `systemctl --user {start,stop} pinchtab` works
+$(HOME)/.config/systemd/user/pinchtab.service:
+	mkdir -p $(HOME)/.config/systemd/user
+	ln -sf $(CURDIR)/systemd/user/pinchtab.service $@
+
 
 # So the tray icon appears without manual launch after login
 $(HOME)/.config/systemd/user/pinchtab-indicator.service:
