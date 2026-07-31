@@ -4,11 +4,11 @@ After=network-online.target
 Wants=network-online.target
 
 [Service]
-Type=forking
-ExecStart=%h/.local/bin/pinchtab daemon start
-ExecStop=%h/.local/bin/pinchtab daemon stop
+Type=simple
+ExecStart=%h/.local/bin/pinchtab server
 Restart=on-failure
 RestartSec=5
 
 [Install]
 WantedBy=default.target
+
