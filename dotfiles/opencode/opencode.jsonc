@@ -3,10 +3,6 @@
   "model": "openrouter/deepseek/deepseek-v4-flash:free",
   "lsp": true,
   "mcp": {
-    "chiasmus": {
-      "type": "local",
-      "command": ["npx", "-y", "chiasmus"]
-    }
   }
 }
 
