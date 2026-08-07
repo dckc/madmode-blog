@@ -1,5 +1,50 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "omlx": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "oMLX",
+      "options": {
+        "baseURL": "http://m5x.local:6659/v1",
+        "apiKey": "sk-omlx-GYOcxPCiGOIRMB96jmYCV9Xy"
+      },
+      "models": {
+        "Qwen3.6-27B-MLX-8bit": {
+          "name": "Qwen3.6-27B-MLX-8bit",
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "attachment": true,
+          "limit": {
+            "context": 262144,
+            "output": 32768
+          }
+        },
+        "Laguna-XS-2.1-6bit": {
+          "name": "Laguna-XS-2.1-6bit",
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "attachment": true,
+          "limit": {
+            "context": 262144,
+            "output": 32768
+          }
+        }
+      }
+    }
+  },
   "model": "openrouter/deepseek/deepseek-v4-flash:free",
   "lsp": true,
   "mcp": {
