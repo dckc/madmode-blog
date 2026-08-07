@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Set _NET_WM_ICON on X11 windows by WM_CLASS.
 
 Obsidian (Electron) does not set _NET_WM_ICON on its X11 window, so the MATE
