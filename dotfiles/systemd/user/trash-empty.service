@@ -1,0 +1,9 @@
+[Unit]
+Description=empty trash older than 30 days
+Documentation=https://github.com/andreafrancia/trash-cli https://pypi.org/project/trash-cli/ https://packages.ubuntu.com/noble/trash-cli https://specifications.freedesktop.org/trash/latest/
+
+[Service]
+Type=oneshot
+# provenance: deb trash-cli 0.23.11.10-1 (noble) — sha256 aa9218d274404ed33412f0a2d8d9ce852c9bffca505c43eb4cb3f5eb246c8ed7
+#             upstream trash-cli-0.23.11.10.tar.gz — sha256 606ca808cd2e285820874bb8b4287212485de6b01959e448f92ebad3eaa4cef8
+ExecStart=/usr/bin/trash-empty -f 30
