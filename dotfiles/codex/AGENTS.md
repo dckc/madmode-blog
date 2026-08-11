@@ -51,3 +51,15 @@ sandboxed `gh auth status` failure. First rerun `gh auth status` and a direct
 read-only request such as `gh api user` with network access. Report an
 authentication problem only if those unsandboxed checks fail; distinguish it
 from sandbox or network restrictions.
+
+## Pull request descriptions
+
+PR descriptions must stand on their own. Give readers the necessary problem,
+system, and design context in the description itself; do not assume they have
+read an issue or internal project shorthand. A description that begins with a
+claim such as "Defines AGO-1067's ..." fails this requirement because it makes
+the issue the prerequisite for understanding the PR.
+
+Do not report local test, lint, typecheck, or build results in PR descriptions;
+CI is authoritative. Describe testing choices, material coverage gaps, and any
+unusual CI or testnet implications instead.
