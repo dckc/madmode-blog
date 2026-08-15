@@ -155,10 +155,14 @@ def to_rfc2822(dt):
     >>> dt = datetime(2025, 1, 1)
     >>> to_rfc2822(dt)
     'Wed, 01 Jan 2025 00:00:00 +0000'
+    >>> to_rfc2822(date(2025, 1, 1))
+    'Wed, 01 Jan 2025 00:00:00 +0000'
     """
     if not dt:
         return
-    if dt.tzinfo is None:
+    if isinstance(dt, date) and not isinstance(dt, datetime):
+        dt = datetime(dt.year, dt.month, dt.day, tzinfo=timezone.utc)
+    elif dt.tzinfo is None:
         dt = dt.replace(tzinfo=timezone.utc)
     else:
         dt = dt.astimezone(timezone.utc)
