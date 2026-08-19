@@ -264,6 +264,21 @@ q:before, q:after {
   background: #ddd;
   padding: 5px 10px;
 }
+.contents ul.item-list li.bookmark-roundup {
+  opacity: 0.72;
+}
+.contents ul.item-list li.bookmark-roundup h3 {
+  font-size: 17px;
+}
+.contents ul.item-list li.bookmark-roundup p {
+  font-size: 90%;
+  color: #666;
+}
+.contents .roundup-note {
+  font-size: 85%;
+  color: #666;
+  font-style: italic;
+}
 .contents section.code, .contents section.carnet {
   /* I don't grok why this was here */
   /* float: left; */

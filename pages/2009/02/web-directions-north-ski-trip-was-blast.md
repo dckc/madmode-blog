@@ -1,6 +1,6 @@
 date: 2009-02-22
 published: true
-tags: [mobile, conference, web design, DEN, travel, geo, web standards, html, skiing]
+tags: [mobile, conference, web design, DEN, travel, geo, web standards, HTML, skiing]
 title: Web Directions North ski trip was a blast!
 updated: 2010-06-02
 

@@ -1,14 +1,17 @@
 <ul class="item-list" itemprop="blogPosts">
 {%- for page in pages %}
-    <li{% if not page.published %} class="unpublished"{% endif %}>
+    {%- set is_roundup = page.path.split('/')[-1].startswith('bookmarks-') -%}
+    <li{% if (not page.published) or is_roundup %} class="{% if not page.published %}unpublished{% endif %}{% if (not page.published) and is_roundup %} {% endif %}{% if is_roundup %}bookmark-roundup{% endif %}"{% endif %}>
         <h3>
             <a itemprop="url" href="{{ url_for("page", path=page.path) }}"><span itemprop="name">{{ page.title }}</span></a>
             | <time datetime="{{ page.date }}">{{ page.date }}</time>
+            {% if is_roundup %}| <span class="roundup-note">bookmark roundup</span>{% endif %}
 	    {% for tag in page.tags %}
 	    | <a class='tag' rel='tag'
 		 href="{{ url_for('search_tag', tag=tag) }}">{{ tag }}</a>
    	    {% endfor %}
         </h3>
+        {% if not is_roundup %}
         <p><q itemprop="description"><em>
             {%- if page.meta.summary and page.meta.summary|striptags|trim %}
                 {{- page.summary|trim }}
@@ -16,6 +19,9 @@
                 {{- page.html|striptags|trim|truncate(135) }}
             {%- endif -%}
         </em></q></p>
+        {% else %}
+        <p><q itemprop="description"><em>Monthly shared bookmarks digest.</em></q></p>
+        {% endif %}
         <hr>
     </li>
 {%- else %}
