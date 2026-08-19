@@ -1,0 +1,45 @@
+#!/usr/bin/env python3
+import json
+import os
+
+src = os.path.expanduser("~/.cache/ncdu/home.json")
+cache_dir = os.path.expanduser("~/.cache/cajafz")
+out = os.path.join(cache_dir, "dirs.list")
+
+os.makedirs(cache_dir, exist_ok=True)
+
+with open(src) as fh:
+    doc = json.load(fh)
+
+
+def excluded(p):
+    return any(s in p for s in skip)
+
+
+def walk(l, prefix, dirs):
+    name = l[0]["name"]
+    p = prefix + name
+    if not excluded(p):
+        dirs.append(p)
+    for e in l[1:]:
+        if isinstance(e, list):
+            walk(e, p + "/", dirs)
+
+
+dirs = []
+skip = (
+    "/node_modules/",
+    "/.git/",
+    "/__pycache__/",
+    "/.venv/",
+    "/venv/",
+    "/target/",
+    "/.cache/",
+    "/.android/",
+)
+walk(doc[3], "", dirs)
+
+with open(out, "w") as fh:
+    fh.write("\n".join(dirs) + "\n")
+
+print(f"{len(dirs)} dirs -> {out}")

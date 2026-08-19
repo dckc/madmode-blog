@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+cache=~/.cache/cajafz/dirs.list
+[ -f "$cache" ] && sel="$(fzf --scheme=path --prompt='dir> ' <"$cache" \
+      --preview 'ls -F {} 2>/dev/null | head -40')" \
+   || sel="$(fzf --scheme=path --prompt='dir> ' < <(find . -type d))"
+[ -n "$sel" ] && caja "$sel"
