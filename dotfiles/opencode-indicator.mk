@@ -11,11 +11,11 @@ TARGETS = \
 	$(HOME)/.local/bin/opencode-indicator.py \
 	$(HOME)/.local/icons/opencode.svg \
 	$(HOME)/.config/systemd/user/opencode-web.service \
-	$(HOME)/.config/systemd/user/opencode-indicator.service
+	$(HOME)/.config/autostart/opencode-indicator.desktop
 
 ## Ready the Python indicator, register the service, and autostart the tray icon
 all: deps $(TARGETS)
-	systemctl --user daemon-reload && systemctl --user enable --now opencode-indicator.service
+	systemctl --user daemon-reload && systemctl --user enable --now opencode-web.service
 
 ## Debian Ayatana + PyGObject packages (sudo)
 deps: $(AYATANA_DOC) $(PYGOBJECT_DOC)
@@ -44,9 +44,9 @@ $(HOME)/.config/systemd/user/opencode-web.service:
 	ln -sf $(CURDIR)/systemd/user/opencode-web.service $@
 
 # So the tray icon appears without manual launch after login
-$(HOME)/.config/systemd/user/opencode-indicator.service:
-	mkdir -p $(HOME)/.config/systemd/user
-	ln -sf $(CURDIR)/systemd/user/opencode-indicator.service $@
+$(HOME)/.config/autostart/opencode-indicator.desktop:
+	mkdir -p $(HOME)/.config/autostart
+	ln -sf $(CURDIR)/autostart/opencode-indicator.desktop $@
 
 ## Remove all symlinks created here
 clean:

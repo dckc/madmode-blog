@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Opencode Indicator
+Comment=Opencode web tray indicator
+Exec=/home/connolly/.local/bin/opencode-indicator.py
+Terminal=false
+Type=Application
+Categories=Utility;

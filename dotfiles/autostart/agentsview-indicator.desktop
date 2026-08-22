@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Agentsview Indicator
+Comment=Agentsview session analytics tray indicator
+Exec=/home/connolly/.local/bin/agentsview-indicator.py
+Terminal=false
+Type=Application
+Categories=Utility;

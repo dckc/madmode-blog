@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Pinchtab Indicator
+Comment=Pinchtab browser tray indicator
+Exec=/home/connolly/.local/bin/pinchtab-indicator.py
+Terminal=false
+Type=Application
+Categories=Utility;

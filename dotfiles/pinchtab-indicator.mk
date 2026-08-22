@@ -11,11 +11,11 @@ TARGETS = \
 	$(HOME)/.local/bin/pinchtab-indicator.py \
 	$(HOME)/.local/icons/pinchtab.png \
 	$(HOME)/.config/systemd/user/pinchtab.service \
-	$(HOME)/.config/systemd/user/pinchtab-indicator.service
+	$(HOME)/.config/autostart/pinchtab-indicator.desktop
 
 ## Ready the Python indicator, register the service, and autostart the tray icon
 all: deps $(TARGETS)
-	systemctl --user daemon-reload && systemctl --user enable --now pinchtab-indicator.service
+	systemctl --user daemon-reload
 
 ## Debian Ayatana + PyGObject packages (sudo)
 deps: $(AYATANA_DOC) $(PYGOBJECT_DOC)
@@ -45,9 +45,9 @@ $(HOME)/.config/systemd/user/pinchtab.service:
 
 
 # So the tray icon appears without manual launch after login
-$(HOME)/.config/systemd/user/pinchtab-indicator.service:
-	mkdir -p $(HOME)/.config/systemd/user
-	ln -sf $(CURDIR)/systemd/user/pinchtab-indicator.service $@
+$(HOME)/.config/autostart/pinchtab-indicator.desktop:
+	mkdir -p $(HOME)/.config/autostart
+	ln -sf $(CURDIR)/autostart/pinchtab-indicator.desktop $@
 
 ## Remove all symlinks created here
 clean:

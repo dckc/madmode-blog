@@ -6,11 +6,11 @@ TARGETS = \
 	$(HOME)/.local/bin/agentsview-indicator.py \
 	$(HOME)/.local/icons/agentsview.png \
 	$(HOME)/.config/systemd/user/agentsview.service \
-	$(HOME)/.config/systemd/user/agentsview-indicator.service
+	$(HOME)/.config/autostart/agentsview-indicator.desktop
 
 ## Register the service and autostart the tray icon
 all: deps $(TARGETS)
-	systemctl --user daemon-reload && systemctl --user enable --now agentsview-indicator.service
+	systemctl --user daemon-reload && systemctl --user enable --now agentsview.service
 
 ## Ensure agentsview binary is installed via uv
 deps:
@@ -33,9 +33,9 @@ $(HOME)/.config/systemd/user/agentsview.service:
 	mkdir -p $(HOME)/.config/systemd/user
 	ln -sf $(CURDIR)/systemd/user/agentsview.service $@
 
-$(HOME)/.config/systemd/user/agentsview-indicator.service:
-	mkdir -p $(HOME)/.config/systemd/user
-	ln -sf $(CURDIR)/systemd/user/agentsview-indicator.service $@
+$(HOME)/.config/autostart/agentsview-indicator.desktop:
+	mkdir -p $(HOME)/.config/autostart
+	ln -sf $(CURDIR)/autostart/agentsview-indicator.desktop $@
 
 ## Remove all symlinks created here
 clean:
