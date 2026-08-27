@@ -4,6 +4,7 @@ notify.cmx
 notify.o
 dbus_payload.cmi
 dbus_payload.cmx
+dbus_payload.cmo
 dbus_payload.o
 test/test_payload
 test/test_payload.cmi

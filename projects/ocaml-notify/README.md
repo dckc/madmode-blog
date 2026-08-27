@@ -14,7 +14,8 @@ make build
 ./notify-bin "your message here"
 
 # or run with the OCaml interpreter
-ocaml -I +unix unix.cma dbus_payload.ml notify.ml -- "your message here"
+make interp
+# (equivalent to: ocamlc -c dbus_payload.ml && ocaml -I +unix -I . unix.cma notify_interp.ml -- "msg")
 ```
 
 ## Tests
