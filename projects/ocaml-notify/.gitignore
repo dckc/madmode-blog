@@ -2,3 +2,10 @@ notify-bin
 notify.cmi
 notify.cmx
 notify.o
+dbus_payload.cmi
+dbus_payload.cmx
+dbus_payload.o
+test/test_payload
+test/test_payload.cmi
+test/test_payload.cmx
+test/test_payload.o
