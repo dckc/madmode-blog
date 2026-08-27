@@ -1,19 +1,31 @@
-.PHONY: build run interp test clean
+OCAMLOPT = ocamlopt -I +unix
+OCAMLC   = ocamlc -I +unix
 
-build:
-	ocamlopt -I +unix unix.cmxa -c dbus_payload.ml
-	ocamlopt -I +unix unix.cmxa dbus_payload.cmx -o notify-bin notify.ml
+.PHONY: all run interp test clean
 
-run: build
+all: notify-bin
+
+# native module (also produces dbus_payload.cmi)
+dbus_payload.cmx dbus_payload.cmi dbus_payload.o: dbus_payload.ml
+	$(OCAMLOPT) unix.cmxa -c dbus_payload.ml
+
+# bytecode module for the interpreter driver; reuses the native .cmi
+dbus_payload.cmo: dbus_payload.cmx
+	$(OCAMLC) -c dbus_payload.ml
+
+notify-bin: notify.ml dbus_payload.cmx
+	$(OCAMLOPT) unix.cmxa dbus_payload.cmx -o notify-bin notify.ml
+
+test/test_payload: test/test_payload.ml dbus_payload.cmx
+	$(OCAMLOPT) unix.cmxa dbus_payload.cmx -o test/test_payload test/test_payload.ml
+
+run: notify-bin
 	./notify-bin "hello from ocaml"
 
-interp:
-	ocamlc -I +unix -c dbus_payload.ml
+interp: dbus_payload.cmo
 	ocaml -I +unix -I . unix.cma notify_interp.ml -- "hello from ocaml"
 
-test:
-	ocamlopt -I +unix unix.cmxa -c dbus_payload.ml
-	ocamlopt -I +unix unix.cmxa dbus_payload.cmx -o test/test_payload test/test_payload.ml
+test: test/test_payload
 	./test/test_payload
 
 clean:
