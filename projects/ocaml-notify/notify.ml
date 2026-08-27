@@ -37,9 +37,9 @@ let notify body_text =
       Unix.connect fd (Unix.ADDR_UNIX bus);
       Unix.setsockopt_float fd Unix.SO_RCVTIMEO 2.0;
       let* () = authenticate fd in
-      let* () = send fd (Dbus_payload.build_hello ()) in
+      let* () = send fd (Dbus_msg.build_hello ()) in
       ignore (recv_reply fd);
-      let* () = send fd (Dbus_payload.build_notify body_text) in
+      let* () = send fd (Dbus_msg.build_notify body_text) in
       ignore (recv_reply fd);
       Ok ()
     with Unix.Unix_error (e, _, _) ->
@@ -60,9 +60,9 @@ let () =
   in
   match args with
   | "--dump-hello" :: _ ->
-    print_string (Dbus_payload.build_hello ())
+    print_string (Dbus_msg.build_hello ())
   | "--dump-notify" :: _ ->
-    print_string (Dbus_payload.build_notify "test")
+    print_string (Dbus_msg.build_notify "test")
   | body :: _ ->
     (match notify body with
      | Ok () -> ()

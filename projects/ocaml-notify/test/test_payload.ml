@@ -38,6 +38,6 @@ let () =
   let dir = Filename.dirname Sys.argv.(0) in
   let hello_ref = read_file (Filename.concat dir "hello.bin") in
   let notify_ref = read_file (Filename.concat dir "notify.bin") in
-  check "hello" (Dbus_payload.build_hello ()) hello_ref;
-  check "notify" (Dbus_payload.build_notify "test") notify_ref;
+  check "hello" (Dbus_msg.build_hello ()) hello_ref;
+  check "notify" (Dbus_msg.build_notify "test") notify_ref;
   Printf.printf "all tests passed\n"

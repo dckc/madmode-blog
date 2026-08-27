@@ -15,7 +15,7 @@ make build
 
 # or run with the OCaml interpreter
 make interp
-# (equivalent to: ocamlc -c dbus_payload.ml && ocaml -I +unix -I . unix.cma notify_interp.ml -- "msg")
+# (equivalent to: ocamlc -c dbus_msg.ml && ocamlrun notify.byte -- "msg")
 ```
 
 ## Tests
@@ -47,7 +47,8 @@ This drops you into a shell with `ocaml`, `ocamlopt`, `dune`, and `utop`.
 4. Sends a `Notify` method call to `org.freedesktop.Notifications` with the
    message as the body.
 
-The D-Bus wire format is built by hand in `dbus_payload.ml` (little-endian,
-header fields aligned to 8 bytes, body aligned to 8). See the `notify-project`
-branch for the reference implementation in Python/Zig and the D-Bus spec
-pointers.
+The D-Bus wire format is serialized by `dbus_msg.ml` (little-endian, header
+fields aligned to 8 bytes, body aligned to 8). Its API (`dbus_address`,
+`new_method_call`, `message`) mirrors Jeepney's, so the serialization is
+checked against the independent Python implementation. See the
+`notify-project` branch for the reference and the D-Bus spec pointers.
