@@ -5,8 +5,8 @@ OCAMLC   = ocamlc -I +unix
 
 all: notify-bin
 
-# native module (also produces dbus_payload.cmi)
-dbus_payload.cmx dbus_payload.cmi dbus_payload.o: dbus_payload.ml
+# native module; the recipe produces all three files together
+dbus_payload.cmx dbus_payload.cmi dbus_payload.o &: dbus_payload.ml
 	$(OCAMLOPT) unix.cmxa -c dbus_payload.ml
 
 # bytecode module for the interpreter driver; reuses the native .cmi
