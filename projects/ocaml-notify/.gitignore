@@ -1,6 +1,8 @@
 notify-bin
+notify.byte
 notify.cmi
 notify.cmx
+notify.cmo
 notify.o
 dbus_payload.cmi
 dbus_payload.cmx
