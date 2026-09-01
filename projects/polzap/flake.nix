@@ -31,6 +31,7 @@
             includeSources = false;
           };
           jdk = pkgs.jdk17;
+          python = pkgs.python3.withPackages (ps: [ ps.openpyxl ]);
         in
         {
           default = pkgs.mkShell {
@@ -41,6 +42,7 @@
               gradle
               androidSdk.androidsdk
               android-tools
+              python
             ];
 
             LANG = "C.UTF-8";

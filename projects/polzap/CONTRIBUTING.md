@@ -28,6 +28,7 @@ adb shell cmd notification allow_listener \
 
 - **flake.nix** — dev shell (JDK 17, Gradle, Android SDK, adb, python3).
 - **android app** — `app/build.gradle.kts`, `app/src/main/AndroidManifest.xml`, `app/src/main/java/`.
+- **python eval** — `scripts/*.py` (parse, scorer, evaluate, sample, build_spreadsheet).
 
 ## File headers
 
