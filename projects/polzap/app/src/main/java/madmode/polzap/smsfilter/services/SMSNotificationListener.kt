@@ -43,7 +43,7 @@ class SMSNotificationListener : NotificationListenerService() {
     }
 
     private fun evaluateHeuristics(messageText: String): Boolean {
-        return politicalRegex.containsMatchIn(messageText)
+        return PoliticalScorer.isPolitical(messageText)
     }
 
     private suspend fun persistToStorage(title: String, message: String) {
@@ -59,12 +59,5 @@ class SMSNotificationListener : NotificationListenerService() {
         } catch (e: Exception) {
             Log.e("PolzapCore", "Storage write exception encountered", e)
         }
-    }
-
-    companion object {
-        private val politicalRegex = Regex(
-            "\\b(vote|campaign|donate|election|candidate|pac|democrat|republican|ballot|contribute|trump|harris)\\b",
-            RegexOption.IGNORE_CASE
-        )
     }
 }
