@@ -6,4 +6,6 @@ local.properties
 .kotlin/
 sms-dump.txt
 sms-dump.txt.predictions.json
+sms-mms.txt
+msgs.json
 eval/
