@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: CC0-1.0
-"""Weighted political filter (prototype).
+"""Weighted political filter.
 
 Scores a message body by summing the weights of every matching regex; a
 message is political if the score meets a threshold. Mirrors
@@ -8,8 +8,11 @@ PoliticalScorer.kt in the app; keep the two in sync (see ScorerParityTest).
 
 Rules are grouped by score, one row per theme. Case-insensitivity is inline
 via (?i); the NOW rule is uppercase-only (spam urgency).
+
+CLI: ``scorer.py BODY`` prints is_political, score, and a match vector.
 """
 import re
+import sys
 
 # (pattern, weight). Compiled below.
 _RULES = [
@@ -39,3 +42,23 @@ def score(body: str) -> int:
 
 def is_political(body: str) -> bool:
     return score(body) >= THRESHOLD
+
+
+def score_with_matches(body: str) -> tuple[int, list[tuple[str, int]]]:
+    matches = [(m.group(0), w) for rx, w in RULES if (m := rx.search(body))]
+    return sum(w for _, w in matches), matches
+
+
+def main() -> None:
+    if len(sys.argv) != 2:
+        print("Usage: scorer.py BODY", file=sys.stderr)
+        sys.exit(2)
+    body = sys.argv[1]
+    s, matches = score_with_matches(body)
+    print(f"is_political: {is_political(body)}")
+    print(f"score: {s}")
+    print(f"vector: {', '.join(f'{t}={w}' for t, w in matches)}")
+
+
+if __name__ == "__main__":
+    main()
