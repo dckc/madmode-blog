@@ -2,6 +2,7 @@
 *.pyc
 
 /build
+/.gradle
 /env
 .webassets-cache
 
