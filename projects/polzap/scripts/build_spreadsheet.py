@@ -109,11 +109,11 @@ def main() -> None:
 
     # --- raw sheet ---
     ws3 = wb.create_sheet("raw")
-    ws3.append(["id", "address", "date", "label", "prediction", "body"])
-    for mid, label in labels.items():
-        m = msgs[mid]
+    ws3.append(["id", "kind", "address", "date", "label", "prediction", "body"])
+    for m in sorted(msgs.values(), key=lambda m: m["date"], reverse=True):
+        label = labels.get(m["id"], "")
         ws3.append([
-            m["id"], m["address"],
+            m["id"], m.get("kind", "sms"), m.get("address", ""),
             datetime.fromtimestamp(m["date"] / 1000).isoformat(),
             label,
             "political" if is_political(m["body"]) else "clean",
