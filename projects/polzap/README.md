@@ -14,22 +14,20 @@ This is a quick hack. If it breaks, you get to keep both pieces.
 
 ## Use
 
-1. Build the app (see `CONTRIBUTING.md` for details), which produces an
-   `app-debug.apk` bundle:
+1. Build the app from this `projects/polzap` directory:
 
    ```sh
-   nix develop -c ./gradlew assembleDebug
+   nix build
    ```
-2. Install the bundle on the phone ("sideloading"): put the `app-debug.apk`
-   on the device and tap it, or, with the phone plugged in via USB, run this
-   from your computer:
+
+   The APK is at `result/polzap.apk`.
+2. Install the bundle on the phone ("sideloading"): put the APK on the device
+   and tap it, or, with the phone plugged in via USB, run this from your
+   computer:
 
    ```sh
-   adb install app/build/outputs/apk/debug/app-debug.apk
+   adb install result/polzap.apk
    ```
-
-   (run it from this `projects/polzap` directory, or give the full path to the
-   apk if you're elsewhere).
 
    Note: the app has **no launcher icon** on purpose — it's a background
    utility, so nothing new appears in your app drawer after install. That's

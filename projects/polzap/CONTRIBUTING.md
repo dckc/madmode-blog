@@ -7,12 +7,22 @@ this file is the briefing for working on the code.
 
 ## Building
 
+Run from this `projects/polzap` directory:
+
 ```sh
-nix develop                          # enter dev shell (JDK 17, Gradle, Android SDK, adb)
-./gradlew assembleDebug          # -> app/build/outputs/apk/debug/app-debug.apk
+nix build
+ls result/polzap.apk
 ```
 
-The APK is unsigned debug, built for side-loading, not Play.
+This builds the debug APK in a sandboxed Nix derivation. The build has no
+network access; all Gradle/Maven dependencies are pinned in `deps.json`.
+
+For an interactive dev shell with JDK, Gradle, Android SDK, and `adb`:
+
+```sh
+nix develop
+./gradlew assembleDebug          # -> app/build/outputs/apk/debug/app-debug.apk
+```
 
 ## Testing
 
@@ -36,9 +46,25 @@ adb shell cmd notification allow_listener \
   madmode.polzap.smsfilter/madmode.polzap.smsfilter.services.SMSNotificationListener
 ```
 
+## Updating the dependency lockfile (`deps.json`)
+
+If you change Android/Gradle dependencies, update the Nix lockfile so the
+sandboxed build can still fetch them. Run from this `projects/polzap`
+directory:
+
+```sh
+nix build .#polzap.mitmCache.updateScript
+./result
+```
+
+The update script runs the package's Gradle build behind a local MITM proxy,
+records every downloaded artifact, and rewrites `deps.json` with pinned URLs
+and hashes. Review the diff and commit it alongside the dependency change.
+
 ## Layout
 
-- **flake.nix** — dev shell (JDK 17, Gradle, Android SDK, adb, python3).
+- **flake.nix** — dev shell and Nix package derivation (default package builds the APK).
+- **deps.json** — pinned Gradle/Maven dependency lockfile for the sandboxed build.
 - **android app** — `app/build.gradle.kts`, `app/src/main/AndroidManifest.xml`, `app/src/main/java/`.
 - **python eval** — `scripts/*.py` (parse, scorer, evaluate, sample, build_spreadsheet).
 

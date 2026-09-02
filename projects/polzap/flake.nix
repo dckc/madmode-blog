@@ -19,6 +19,10 @@
         };
       };
 
+      # Source that the Nix build sees. Use the standard filter which already
+      # drops build artifacts, VCS metadata, and editor/IDE files.
+      src = nixpkgs.lib.cleanSource ./.;
+
       androidConfig = {
         platformVersions = [ "35" ];
         buildToolsVersions = [ "35.0.0" ];
@@ -63,6 +67,66 @@
               EOF
             '';
           };
+        });
+
+      packages = forAllSystems (system:
+        let
+          pkgs = mkPkgs system;
+          androidSdk = pkgs.androidenv.composeAndroidPackages androidConfig;
+          jdk = pkgs.jdk17;
+          gradle = pkgs.gradle;
+
+          androidHome = "${androidSdk.androidsdk}/libexec/android-sdk";
+          aapt2 = "${androidHome}/build-tools/35.0.0/aapt2";
+        in
+        {
+          default = pkgs.stdenv.mkDerivation (finalAttrs: {
+            pname = "polzap";
+            version = "1.0";
+            inherit src;
+
+            nativeBuildInputs = [
+              jdk
+              gradle
+              androidSdk.androidsdk
+            ];
+
+            # Use the Nix-provided, already-patched aapt2 instead of the one
+            # AGP downloads from Maven (which won't run in the Nix sandbox).
+            gradleFlags = [
+              "-Dorg.gradle.project.android.aapt2FromMavenOverride=${aapt2}"
+              "-Dorg.gradle.java.home=${jdk.home}"
+            ];
+
+            gradleBuildTask = "assembleDebug";
+            # Dependency fetching must run a real Android build task; the default
+            # nixDownloadDeps task cannot resolve AGP test classpaths.
+            gradleUpdateTask = "assembleDebug";
+
+            # Lockfile for all Gradle/Maven dependencies. Generate it with:
+            #   nix-shell -p nix-update --run "nix-update polzap --build-system gradle"
+            # or run the derivation's passthru.updateScript.
+            mitmCache = gradle.fetchDeps {
+              pkg = finalAttrs.finalPackage;
+              data = ./deps.json;
+              # The update script runs outside the Nix build sandbox; bubblewrap
+              # cannot set up uid maps in this environment.
+              useBwrap = false;
+            };
+
+            env = {
+              JAVA_HOME = jdk.home;
+              ANDROID_HOME = androidHome;
+              ANDROID_SDK_ROOT = androidHome;
+            };
+
+            installPhase = ''
+              mkdir -p "$out"
+              cp "app/build/outputs/apk/debug/app-debug.apk" "$out/polzap.apk"
+            '';
+          });
+
+          polzap = self.packages.${system}.default;
         });
     };
 }
