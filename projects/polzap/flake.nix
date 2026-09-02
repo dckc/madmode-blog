@@ -10,26 +10,30 @@
     let
       systems = [ "x86_64-linux" "aarch64-linux" ];
       forAllSystems = nixpkgs.lib.genAttrs systems;
+
+      mkPkgs = system: import nixpkgs {
+        inherit system;
+        config = {
+          allowUnfree = true;
+          android_sdk.accept_license = true;
+        };
+      };
+
+      androidConfig = {
+        platformVersions = [ "35" ];
+        buildToolsVersions = [ "35.0.0" ];
+        useGoogleAPIs = false;
+        includeEmulator = false;
+        includeNDK = false;
+        includeSystemImages = false;
+        includeSources = false;
+      };
     in
     {
       devShells = forAllSystems (system:
         let
-          pkgs = import nixpkgs {
-            inherit system;
-            config = {
-              allowUnfree = true;
-              android_sdk.accept_license = true;
-            };
-          };
-          androidSdk = pkgs.androidenv.composeAndroidPackages {
-            platformVersions = [ "35" ];
-            buildToolsVersions = [ "35.0.0" ];
-            useGoogleAPIs = false;
-            includeEmulator = false;
-            includeNDK = false;
-            includeSystemImages = false;
-            includeSources = false;
-          };
+          pkgs = mkPkgs system;
+          androidSdk = pkgs.androidenv.composeAndroidPackages androidConfig;
           jdk = pkgs.jdk17;
           python = pkgs.python3.withPackages (ps: [ ps.openpyxl ]);
         in
