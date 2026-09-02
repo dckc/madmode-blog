@@ -12,18 +12,11 @@ Labels: "political" (spam to suppress) or "clean" (keep). Borderline cases get
 label "borderline".
 """
 import json
-import sys
 
 from scorer import is_political
 
 
-def main() -> None:
-    if len(sys.argv) != 3:
-        print(__doc__, file=sys.stderr)
-        sys.exit(2)
-    msgs = {int(m["id"]): m for m in json.load(open(sys.argv[1]))}
-    labels = {int(k): v for k, v in json.load(open(sys.argv[2])).items()}
-
+def evaluate(msgs: dict[int, dict], labels: dict[int, str]) -> dict:
     tp = fp = tn = fn = 0
     borderline = []
     for mid, label in labels.items():
@@ -46,10 +39,42 @@ def main() -> None:
     recall = tp / (tp + fn) if (tp + fn) else float("nan")
     f1 = 2 * precision * recall / (precision + recall) if (precision + recall) else float("nan")
 
-    print(f"labeled: {len(labels)}  (borderline: {len(borderline)})")
-    print(f"TP={tp} FP={fp} TN={tn} FN={fn}")
-    print(f"precision={precision:.3f} recall={recall:.3f} f1={f1:.3f}")
+    return {
+        "labeled": len(labels),
+        "borderline": len(borderline),
+        "tp": tp,
+        "fp": fp,
+        "tn": tn,
+        "fn": fn,
+        "precision": precision,
+        "recall": recall,
+        "f1": f1,
+    }
+
+
+def report(result: dict, stdout) -> None:
+    print(f"labeled: {result['labeled']}  (borderline: {result['borderline']})", file=stdout)
+    print(f"TP={result['tp']} FP={result['fp']} TN={result['tn']} FN={result['fn']}", file=stdout)
+    print(f"precision={result['precision']:.3f} recall={result['recall']:.3f} f1={result['f1']:.3f}", file=stdout)
+
+
+def main(argv, stdout, stderr, cwd) -> int:
+    if len(argv) != 3:
+        print(__doc__, file=stderr)
+        return 2
+    msgs = {int(m["id"]): m for m in json.load((cwd / argv[1]).open(encoding="utf-8"))}
+    labels = {int(k): v for k, v in json.load((cwd / argv[2]).open(encoding="utf-8")).items()}
+
+    result = evaluate(msgs, labels)
+    report(result, stdout)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    def _script_io() -> int:
+        from pathlib import Path
+        from sys import argv, stdout, stderr
+
+        return main(list(argv), stdout, stderr, Path.cwd())
+
+    raise SystemExit(_script_io())

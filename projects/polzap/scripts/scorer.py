@@ -12,7 +12,7 @@ via (?i); the NOW rule is uppercase-only (spam urgency).
 CLI: ``scorer.py BODY`` prints is_political, score, and a match vector.
 """
 import re
-import sys
+
 
 # (pattern, weight). Compiled below.
 _RULES = [
@@ -49,16 +49,22 @@ def score_with_matches(body: str) -> tuple[int, list[tuple[str, int]]]:
     return sum(w for _, w in matches), matches
 
 
-def main() -> None:
-    if len(sys.argv) != 2:
-        print("Usage: scorer.py BODY", file=sys.stderr)
-        sys.exit(2)
-    body = sys.argv[1]
+def main(argv, stdout) -> int:
+    if len(argv) != 2:
+        print("Usage: scorer.py BODY", file=stdout)
+        return 2
+    body = argv[1]
     s, matches = score_with_matches(body)
-    print(f"is_political: {is_political(body)}")
-    print(f"score: {s}")
-    print(f"vector: {', '.join(f'{t}={w}' for t, w in matches)}")
+    print(f"is_political: {is_political(body)}", file=stdout)
+    print(f"score: {s}", file=stdout)
+    print(f"vector: {', '.join(f'{t}={w}' for t, w in matches)}", file=stdout)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    def _script_io() -> int:
+        from sys import argv, stdout
+
+        return main(list(argv), stdout)
+
+    raise SystemExit(_script_io())

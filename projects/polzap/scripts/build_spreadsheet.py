@@ -13,59 +13,63 @@ Sheets:
   - "borderline": messages flagged as borderline
   - "raw": every labeled message with id, address, date, body, label, prediction
 """
-import importlib
 import json
-import sys
 from datetime import datetime
 
 from openpyxl import Workbook
 from openpyxl.styles import Font
 
 
-def main() -> None:
-    if len(sys.argv) not in (4, 5):
-        print(__doc__, file=sys.stderr)
-        sys.exit(2)
-    msgs = {int(m["id"]): m for m in json.load(open(sys.argv[1]))}
-    labels = {int(k): v for k, v in json.load(open(sys.argv[2])).items()}
-    out = sys.argv[3]
-    filter_mod = importlib.import_module(sys.argv[4] if len(sys.argv) == 5 else "scorer")
-    is_political = filter_mod.is_political
-
-    # Confusion counts over labeled messages (borderline excluded from metrics).
+def evaluate(msgs: dict[int, dict], labels: dict[int, str], is_political):
     tp = fp = tn = fn = 0
     borderline = []
+    review = []
     for mid, label in labels.items():
         pred = is_political(msgs[mid]["body"])
         if label == "borderline":
             borderline.append(msgs[mid])
+            review.append((msgs[mid], "borderline"))
             continue
         if label == "political":
             if pred:
                 tp += 1
             else:
                 fn += 1
+                review.append((msgs[mid], "false negative"))
         else:
             if pred:
                 fp += 1
+                review.append((msgs[mid], "false positive"))
             else:
                 tn += 1
-
-    # The interesting cases for a human to review: false positives, false
-    # negatives, and anything explicitly flagged borderline.
-    review = []
-    for mid, label in labels.items():
-        pred = is_political(msgs[mid]["body"])
-        if label == "borderline":
-            review.append((msgs[mid], "borderline"))
-        elif label == "political" and not pred:
-            review.append((msgs[mid], "false negative"))
-        elif label == "clean" and pred:
-            review.append((msgs[mid], "false positive"))
 
     precision = tp / (tp + fp) if (tp + fp) else float("nan")
     recall = tp / (tp + fn) if (tp + fn) else float("nan")
     f1 = 2 * precision * recall / (precision + recall) if (precision + recall) else float("nan")
+
+    return dict(
+        tp=tp,
+        fp=fp,
+        tn=tn,
+        fn=fn,
+        precision=precision,
+        recall=recall,
+        f1=f1,
+        borderline=borderline,
+        review=review,
+    )
+
+
+def build_spreadsheet(
+    msgs: dict[int, dict],
+    labels: dict[int, str],
+    is_political,
+) -> tuple[Workbook, dict]:
+    result = evaluate(msgs, labels, is_political)
+    tp, fp, tn, fn = result["tp"], result["fp"], result["tn"], result["fn"]
+    precision, recall, f1 = result["precision"], result["recall"], result["f1"]
+    borderline = result["borderline"]
+    review = result["review"]
 
     wb = Workbook()
 
@@ -120,9 +124,41 @@ def main() -> None:
             m["body"],
         ])
 
+    return wb, result
+
+
+def main(argv, stdout, stderr, cwd, import_module) -> int:
+    if len(argv) not in (4, 5):
+        print(__doc__, file=stderr)
+        return 2
+    out = cwd / argv[3]
+    filter_mod = argv[4] if len(argv) == 5 else "scorer"
+
+    def load(path_name: str):
+        return json.load((cwd / path_name).open(encoding="utf-8"))
+
+    msgs = {int(m["id"]): m for m in load(argv[1])}
+    labels = {int(k): v for k, v in load(argv[2]).items()}
+
+    is_political = import_module(filter_mod).is_political
+
+    wb, result = build_spreadsheet(msgs, labels, is_political)
     wb.save(out)
-    print(f"wrote {out}: precision={precision:.3f} recall={recall:.3f} f1={f1:.3f}")
+
+    print(
+        f"wrote {out}: precision={result['precision']:.3f} "
+        f"recall={result['recall']:.3f} f1={result['f1']:.3f}",
+        file=stdout,
+    )
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    def _script_io() -> int:
+        import importlib
+        from pathlib import Path
+        from sys import argv, stdout, stderr
+
+        return main(list(argv), stdout, stderr, Path.cwd(), importlib.import_module)
+
+    raise SystemExit(_script_io())

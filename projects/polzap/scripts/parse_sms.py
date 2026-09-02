@@ -21,7 +21,7 @@ Usage:
 import argparse
 import json
 import re
-import sys
+
 
 DATE_RE = re.compile(r", date=(\d+)\n")
 HEAD_RE = re.compile(r"Row: \d+ _id=(\d+), address=(.*?), body=(.*)$", re.S)
@@ -129,12 +129,12 @@ def normalize_sms(text: str, filter_addr: str | None = None) -> str:
     return "".join(out)
 
 
-def main() -> None:
+def build_arg_parser(cwd) -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(
         description="Parse SMS/MMS adb dumps into a unified JSON message array."
     )
-    ap.add_argument("--sms", help="path to sms-dump.txt (content://sms)")
-    ap.add_argument("--mms", help="path to sms-mms.txt (content://mms + parts)")
+    ap.add_argument("--sms", type=cwd.joinpath, help="path to sms-dump.txt (content://sms)")
+    ap.add_argument("--mms", type=cwd.joinpath, help="path to sms-mms.txt (content://mms + parts)")
     ap.add_argument(
         "--strip-row",
         action="store_true",
@@ -145,31 +145,43 @@ def main() -> None:
         metavar="ADDR",
         help="exclude records from this address (SMS only)",
     )
-    args = ap.parse_args()
+    return ap
+
+
+def main(argv, stdout, stderr, cwd) -> int:
+    ap = build_arg_parser(cwd)
+    args = ap.parse_args(argv[1:])
 
     if not args.sms:
-        print("--sms is required", file=sys.stderr)
-        sys.exit(2)
+        print("--sms is required", file=stderr)
+        return 2
 
-    sms_text = open(args.sms).read()
+    sms_text = args.sms.read_text(encoding="utf-8")
 
     if args.strip_row:
         try:
-            sys.stdout.write(normalize_sms(sms_text, args.filter_addr))
+            stdout.write(normalize_sms(sms_text, args.filter_addr))
         except BrokenPipeError:
-            sys.exit(0)
-        return
+            return 0
+        return 0
 
     msgs = parse_sms(sms_text)
     if args.mms:
-        msgs.extend(parse_mms(open(args.mms).read()))
+        msgs.extend(parse_mms(args.mms.read_text(encoding="utf-8")))
 
     if args.filter_addr:
         msgs = [m for m in msgs if m.get("address") == args.filter_addr]
 
     msgs.sort(key=lambda m: m["date"])
-    json.dump(msgs, sys.stdout, indent=2)
+    json.dump(msgs, stdout, indent=2)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    def _script_io() -> int:
+        from pathlib import Path
+        from sys import argv, stdout, stderr
+
+        return main(list(argv), stdout, stderr, Path.cwd())
+
+    raise SystemExit(_script_io())
