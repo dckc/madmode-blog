@@ -39,7 +39,7 @@
           pkgs = mkPkgs system;
           androidSdk = pkgs.androidenv.composeAndroidPackages androidConfig;
           jdk = pkgs.jdk17;
-          python = pkgs.python3.withPackages (ps: [ ps.openpyxl ]);
+          python = pkgs.python3.withPackages (ps: [ ps.openpyxl ps.scikit-learn ]);
         in
         {
           default = pkgs.mkShell {
