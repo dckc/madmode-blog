@@ -7,7 +7,7 @@ body directly; MMS carries text parts in content://mms/part keyed by the MMS
 _id (mid).  This script merges both into a single JSON array of messages with a
 common schema:
 
-  { "id": int, "kind": "sms"|"mms", "address": str, "body": str, "date": int }
+  { "id": "sms:1"|"mms:1", "kind": "sms"|"mms", "address": str, "body": str, "date": int }
 
 For MMS, "address" is currently omitted because the addr table was not dumped;
 the body is assembled from text/plain parts.
@@ -64,7 +64,7 @@ def parse_sms(text: str) -> list[dict]:
         m = HEAD_RE.match(head)
         if m:
             msgs.append({
-                "id": int(m.group(1)),
+                "id": f"sms:{m.group(1)}",
                 "kind": "sms",
                 "address": m.group(2),
                 "body": m.group(3).strip(),
@@ -85,7 +85,7 @@ def parse_mms(text: str) -> list[dict]:
             mid = int(m.group(1))
             # MMS date is epoch seconds; SMS date is epoch millis. Normalize to millis.
             mms_rows[mid] = {
-                "id": mid,
+                "id": f"mms:{mid}",
                 "kind": "mms",
                 "address": "",
                 "body": "",

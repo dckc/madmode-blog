@@ -137,8 +137,8 @@ def main(argv, stdout, stderr, cwd, import_module) -> int:
     def load(path_name: str):
         return json.load((cwd / path_name).open(encoding="utf-8"))
 
-    msgs = {int(m["id"]): m for m in load(argv[1])}
-    labels = {int(k): v for k, v in load(argv[2]).items()}
+    msgs = {m["id"]: m for m in load(argv[1])}
+    labels = {k: v for k, v in load(argv[2]).items()}
 
     is_political = import_module(filter_mod).is_political
 

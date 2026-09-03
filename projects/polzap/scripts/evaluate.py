@@ -62,8 +62,8 @@ def main(argv, stdout, stderr, cwd) -> int:
     if len(argv) != 3:
         print(__doc__, file=stderr)
         return 2
-    msgs = {int(m["id"]): m for m in json.load((cwd / argv[1]).open(encoding="utf-8"))}
-    labels = {int(k): v for k, v in json.load((cwd / argv[2]).open(encoding="utf-8")).items()}
+    msgs = {m["id"]: m for m in json.load((cwd / argv[1]).open(encoding="utf-8"))}
+    labels = {k: v for k, v in json.load((cwd / argv[2]).open(encoding="utf-8")).items()}
 
     result = evaluate(msgs, labels)
     report(result, stdout)
