@@ -1,6 +1,6 @@
 title: RChain Blues
 date: 2019-06-05
-tags: [collaboration, rchain, music, governance, smart-contracts]
+tags: [collaboration, RChain, music, governance, smart-contracts]
 published: True
 
 

@@ -1,6 +1,6 @@
 date: 2010-09-29
 published: true
-tags: [javascript, security, web standards, html]
+tags: [javascript, security, web standards, HTML]
 title: Putting the HTML5 genie back in the bottle in the name of web security?
 updated: 2010-09-29
 
