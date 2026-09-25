@@ -21,6 +21,7 @@
  ;; If there is more than one, they won't work right.
  '(flycheck-python-flake8-executable "/usr/bin/flake8")
  '(indent-tabs-mode nil)
+ '(js-indent-level 2)
  '(safe-local-variable-values
    '((eval setq flycheck-clang-include-path
            (list
