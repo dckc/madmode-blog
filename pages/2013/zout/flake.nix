@@ -1,0 +1,135 @@
+{
+  description = "Recover dm93.org/z2001 content from a 2004 Zope 2.7.7 Data.fs";
+
+  inputs = {
+    # gcc 13 rather than the newest: 2.3.5 predates C99 defaults and
+    # implicit-function-declaration-is-an-error.
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+    flake-utils.url = "github:numtide/flake-utils";
+  };
+
+  outputs = { self, nixpkgs, flake-utils }:
+    flake-utils.lib.eachDefaultSystem (system:
+      let
+        pkgs = import nixpkgs { inherit system; };
+        lib = pkgs.lib;
+
+        # --- sources ---------------------------------------------------------
+        # The Zope 2.7.7 README says "install python 2.3.5". Both tarballs
+        # are still served (python.org, old.zope.org); hashes verified by
+        # download on 2026-09-25.
+        pythonSrc = pkgs.fetchurl {
+          url = "https://www.python.org/ftp/python/2.3.5/Python-2.3.5.tgz";
+          hash = "sha256-fBIt7/dwDwT7napbWzqIWxmnPaBcKiZEA2ZoF8djGXc=";
+        };
+        zopeSrc = pkgs.fetchurl {
+          url = "https://old.zope.org/Products/Zope/2.7.7/Zope-2.7.7-final.tgz";
+          hash = "sha256-lgUimHC1q5qGg9Upe0fu3Zu4T+oo7MCHdN99Q3kZKWo=";
+        };
+
+        # --- Python 2.3.5 ----------------------------------------------------
+        python235 = pkgs.stdenv.mkDerivation {
+          pname = "python";
+          version = "2.3.5";
+          src = pythonSrc;
+
+          # `-U_FORTIFY_SOURCE`: Ubuntu's known fix for building 2.3.5 on a
+          # modern toolchain (see 2013-migrate-old-zope.md).
+          # `-fcommon`: 2004 code relies on tentative definitions.
+          # `-std=gnu89`: don't let the compiler read the C sources as C23.
+          preConfigure = ''
+            export BASECFLAGS="-U_FORTIFY_SOURCE -fcommon"
+            export CFLAGS="-std=gnu89 -Wno-implicit-function-declaration -Wno-error"
+          '';
+
+          # The plat-linux regen reads /usr/include/netinet/in.h, which
+          # doesn't exist in the sandbox; use glibc's copy instead.
+          # setup.py only searches /usr/include and /usr/lib, so point it at
+          # the store paths of the optional modules we actually want.
+          postPatch = ''
+            substituteInPlace Lib/plat-generic/regen \
+              --replace /usr/include/ ${lib.getDev pkgs.glibc}/include/
+            substituteInPlace setup.py \
+              --replace \
+                "lib_dirs = self.compiler.library_dirs + ['/lib', '/usr/lib']" \
+                "lib_dirs = self.compiler.library_dirs + ['/lib', '/usr/lib', '${lib.getLib pkgs.zlib}/lib', '${lib.getLib pkgs.bzip2}/lib', '${lib.getLib pkgs.readline}/lib', '${lib.getLib pkgs.ncurses}/lib']" \
+              --replace \
+                "inc_dirs = self.compiler.include_dirs + ['/usr/include']" \
+                "inc_dirs = self.compiler.include_dirs + ['/usr/include', '${lib.getDev pkgs.zlib}/include', '${lib.getDev pkgs.bzip2}/include', '${lib.getDev pkgs.readline}/include', '${lib.getDev pkgs.ncurses}/include']"
+            # readline >= 8 exports history_length; 2.3.5 declares its own
+            # static of the same name. Rename every bare identifier (word
+            # boundaries keep get_current_history_length intact).
+            sed -i 's/\bhistory_length\b/py_history_length/g' Modules/readline.c
+          '';
+
+          # Nix's default hardening turns 2004 warnings into errors
+          # (format-security here).
+          hardeningDisable = [ "format" "fortify" "stackprotector" "pie" ];
+
+          configureFlags = [
+            "--prefix=${placeholder "out"}"
+            "--without-cxx"
+            "--with-threads"
+          ];
+
+          # 2004 test suite against a 2020s glibc: not worth the fight.
+          doCheck = false;
+
+          # zlib/bz2/readline are found by the patched setup.py; ncurses is
+          # the fallback for readline and for _curses.
+          buildInputs = with pkgs; [ zlib bzip2 readline ncurses ];
+
+          # The interpreter is what we want; docs are noise.
+          postInstall = ''
+            rm -rf "$out/share"
+          '';
+
+          meta = with lib; {
+            description = "Python 2.3.5, the interpreter Zope 2.7.7 expects";
+            homepage = "https://www.python.org/downloads/release/python-235/";
+            license = licenses.psfl;
+            platforms = platforms.unix;
+          };
+        };
+
+        # --- Zope 2.7.7 (staged; wire-up next) -------------------------------
+        zope277 = pkgs.stdenv.mkDerivation {
+          pname = "zope";
+          version = "2.7.7";
+          src = zopeSrc;
+          nativeBuildInputs = [ python235 ];
+          # Filled in on the next pass: point configure at ${python235},
+          # then install Products/ZWiki, ZCatalog, LocalFS, StructuredDocument,
+          # PythonScripts into the instance.
+          dontConfigure = true;
+          dontBuild = true;
+          installPhase = ''
+            mkdir -p "$out"
+            cp -r . "$out/"
+          '';
+          meta = with lib; {
+            description = "Zope 2.7.7 application server";
+            homepage = "https://old.zope.org/Products/Zope/2.7.7/";
+            license = licenses.zpl20;
+            platforms = platforms.unix;
+          };
+        };
+      in
+      {
+        packages = {
+          default = python235;
+          inherit python235 zope277;
+          sources = pkgs.linkFarm "zope-migrate-sources" [
+            { name = "Python-2.3.5.tgz"; path = pythonSrc; }
+            { name = "Zope-2.7.7-final.tgz"; path = zopeSrc; }
+          ];
+        };
+
+        devShells.default = pkgs.mkShell {
+          packages = [ python235 pkgs.git pkgs.rsync ];
+          shellHook = ''
+            echo "python235: ${python235}"
+          '';
+        };
+      });
+}
