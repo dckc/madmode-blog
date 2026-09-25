@@ -22,6 +22,7 @@
  '(flycheck-python-flake8-executable "/usr/bin/flake8")
  '(indent-tabs-mode nil)
  '(js-indent-level 2)
+ '(package-selected-packages '(markdown-mode))
  '(safe-local-variable-values
    '((eval setq flycheck-clang-include-path
            (list
