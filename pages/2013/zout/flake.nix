@@ -92,21 +92,37 @@
           };
         };
 
-        # --- Zope 2.7.7 (staged; wire-up next) -------------------------------
+        # --- Zope 2.7.7 ------------------------------------------------------
+        # Bundles the ZODB, Zope, ZPublisher, ZServer, Products etc. that
+        # zout2.py imports. Installs to $out/lib/python, so $out/lib/python
+        # goes on PYTHONPATH.
         zope277 = pkgs.stdenv.mkDerivation {
           pname = "zope";
           version = "2.7.7";
           src = zopeSrc;
+
           nativeBuildInputs = [ python235 ];
-          # Filled in on the next pass: point configure at ${python235},
-          # then install Products/ZWiki, ZCatalog, LocalFS, StructuredDocument,
-          # PythonScripts into the instance.
-          dontConfigure = true;
-          dontBuild = true;
-          installPhase = ''
-            mkdir -p "$out"
-            cp -r . "$out/"
+          buildInputs = [ python235 ];
+
+          # The build compiles C extensions; it is not a pip project.
+          preConfigure = ''
+            export PATH="${python235}/bin:$PATH"
           '';
+
+          configureFlags = [
+            "--prefix=${placeholder "out"}"
+            "--with-python=${python235}/bin/python"
+          ];
+
+          hardeningDisable = [ "format" "fortify" "stackprotector" "pie" ];
+
+          # Zope's build leaves build-base/ and *.pyc behind; keep the tree
+          # to what an instance needs.
+          postInstall = ''
+            rm -rf "$out/lib/python/test" "$out/doc"
+            find "$out/lib/python" -name 'build' -type d -prune -exec rm -rf {} +
+          '';
+
           meta = with lib; {
             description = "Zope 2.7.7 application server";
             homepage = "https://old.zope.org/Products/Zope/2.7.7/";
@@ -117,7 +133,7 @@
       in
       {
         packages = {
-          default = python235;
+          default = zope277;
           inherit python235 zope277;
           sources = pkgs.linkFarm "zope-migrate-sources" [
             { name = "Python-2.3.5.tgz"; path = pythonSrc; }
@@ -126,9 +142,13 @@
         };
 
         devShells.default = pkgs.mkShell {
-          packages = [ python235 pkgs.git pkgs.rsync ];
+          packages = [ python235 zope277 pkgs.git pkgs.rsync ];
+          # zout2.py does `from ZODB.FileStorage import ...` and
+          # `from Zope import configure, app`; both come from Zope's lib.
           shellHook = ''
-            echo "python235: ${python235}"
+            export PYTHONPATH="${zope277}/lib/python''${PYTHONPATH:+:$PYTHONPATH}"
+            echo "python: $(command -v python) ($(python -V 2>&1))"
+            echo "zope:   ${zope277}"
           '';
         };
       });
