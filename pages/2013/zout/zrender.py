@@ -30,6 +30,10 @@ import re
 
 log = logging.getLogger(__name__)
 
+# The site name used in the archived pages' <title>, e.g.
+# "dm93 TheOriginalHypertext". Policy data, not authority.
+SITE_NAME = 'dm93'
+
 
 class RootedPath(object):
     """A minimal pathlib-like capability rooted at one location.
@@ -137,11 +141,26 @@ def render_tree(page_type, context, store_path):
                       child.__class__.__name__)
 
 
+def wrap_page(name, html):
+    """Wrap a bare page body in a minimal document naming the site and page."""
+    return (
+        '<!DOCTYPE html>\n'
+        '<html>\n<head>\n'
+        '<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />\n'
+        '<title>%s %s</title>\n'
+        '</head>\n<body>\n'
+        '<h1>%s</h1>\n'
+        '%s'
+        '</body>\n</html>\n'
+    ) % (SITE_NAME, name, name, html)
+
+
 def write_page(dest_path, name, html):
     """Write one rendered page to dest_path/<name>.html."""
     out = dest_path / ('%s.html' % name)
-    out.write_bytes(html)
-    log.info('%8d bytes: %s', len(html), out)
+    document = wrap_page(name, html)
+    out.write_bytes(document)
+    log.info('%8d bytes: %s', len(document), out)
 
 
 def main(argv, cwd, environ, open_file, make_dir, path_exists, configure, app):
