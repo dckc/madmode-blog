@@ -27,6 +27,44 @@
           hash = "sha256-lgUimHC1q5qGg9Upe0fu3Zu4T+oo7MCHdN99Q3kZKWo=";
         };
 
+        # --- third-party products -------------------------------------------
+        # The 2004 Data.fs uses two products that were never part of Zope.
+        # AboutThisWiki.txt (in the wiki export) names both:
+        #
+        #   "On 23 Nov 2001, I upgraded dm93.org to zope 2.4 and installed
+        #    this ZWiki product." ... "upgraded zwiki to ZWiki-0.34.0.tgz"
+        #    (29 Sep 2004)
+        #
+        #   "unborked LocalFS ... Used LocalFS-1.3-andreas.tar.gz" (6 Nov 2004)
+        #
+        # ZWiki 0.34.0 is the 2004-09-02 release; without it ZWikiPage
+        # unpickles as a non-importable placeholder, so zout2.py sees empty
+        # pages. Its ZWikiPage is a DTMLDocument subclass, so the body is
+        # the `raw` attribute zout2.py already reads.
+        #
+        # The product tarballs are archived, not served live: ZWiki from the
+        # author's git history (simonmichael/zwiki, tag release-0-34-0),
+        # LocalFS from the Wayback Machine copy of easyleading.org. Hashes
+        # verified by download on 2026-09-25.
+        zwikiSrc = pkgs.fetchurl {
+          url = "https://codeload.github.com/simonmichael/zwiki/tar.gz/51398d99aa7beef86303c554ab6fa9883b78417a";
+          hash = "sha256-fTumEUNwv2MaT1JzoYubCvwKwBSHxZY8OXfxVXElWV8=";
+        };
+        localfsSrc = pkgs.fetchurl {
+          url = "http://web.archive.org/web/20070222171414id_/http://www.easyleading.org:80/Downloads/LocalFS-1.3-andreas.tar.gz";
+          hash = "sha256-HBL7Tzup+y4N4HPF9MUWec27EPuBkU9Es6OgRH5fNZE=";
+        };
+
+        # Both tarballs unpack to a single top-level dir, so strip it.
+        # Drop the CVS dirs the 2004 trees still carry.
+        products = pkgs.runCommand "zope-products" { } ''
+          mkdir -p $out/ZWiki $out/LocalFS
+          tar xzf ${zwikiSrc} -C $out/ZWiki --strip-components=1
+          tar xzf ${localfsSrc} -C $out/LocalFS --strip-components=1
+          find $out -type d -name CVS -prune -exec rm -rf {} +
+          chmod -R u+w $out
+        '';
+
         # --- Python 2.3.5 ----------------------------------------------------
         python235 = pkgs.stdenv.mkDerivation {
           pname = "python";
@@ -134,10 +172,12 @@
       {
         packages = {
           default = zope277;
-          inherit python235 zope277;
+          inherit python235 zope277 products;
           sources = pkgs.linkFarm "zope-migrate-sources" [
             { name = "Python-2.3.5.tgz"; path = pythonSrc; }
             { name = "Zope-2.7.7-final.tgz"; path = zopeSrc; }
+            { name = "ZWiki-0.34.0.tar.gz"; path = zwikiSrc; }
+            { name = "LocalFS-1.3-andreas.tar.gz"; path = localfsSrc; }
           ];
         };
 
