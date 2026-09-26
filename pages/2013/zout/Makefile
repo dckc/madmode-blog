@@ -11,6 +11,7 @@ PATH_CAP ?= /
 
 help:
 	@echo 'make instance   assemble $(INSTANCE) from $(TGZ)'
+	@echo 'make products   install the 2004 third-party products (ZWiki, LocalFS)'
 	@echo 'make zout       run zout2.py $(PATH_CAP) $(OUT)'
 	@echo 'make clean      remove $(INSTANCE) and $(OUT)'
 
@@ -23,10 +24,18 @@ $(INSTANCE)/.instance: $(TGZ) zope.conf.in
 	touch $@
 
 zout: $(INSTANCE)/.instance
+products: $(INSTANCE)/.products
+
+$(INSTANCE)/.products: $(INSTANCE)/.instance flake.nix flake.lock
+	rm -rf $(INSTANCE)/Products
+	cp -rL --no-preserve=ownership $$(nix build --no-link --print-out-paths .#products) $(INSTANCE)/Products
+	chmod -R u+w $(INSTANCE)/Products
+	touch $@
+
 	mkdir -p $(OUT)
 	INSTANCE_HOME=$(INSTANCE) nix develop --command python zout2.py "$(PATH_CAP)" "$(OUT)"
 
 clean:
 	rm -rf $(INSTANCE) $(OUT)
 
-.PHONY: help instance zout clean
+.PHONY: help instance products zout clean
