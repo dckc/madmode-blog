@@ -1,0 +1,10 @@
+[Unit]
+Description=Snapshot process census every 30s
+
+[Timer]
+OnBootSec=30
+OnUnitActiveSec=30s
+AccuracySec=1s
+
+[Install]
+WantedBy=timers.target

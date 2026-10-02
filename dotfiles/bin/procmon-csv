@@ -1,0 +1,19 @@
+#!/bin/bash
+# Export procmon journal snapshots to CSV for spreadsheet charting.
+#
+# Usage: procmon-csv > procmon.csv
+
+journalctl -t procmon --output-fields=__REALTIME_TIMESTAMP,PROC_COUNT,PROC_MAX_PID,PROC_MEDIAN_PID,PROC_MIN_PID,PROC_TOP1_PID,PROC_TOP1_COMM,PROC_TOP1_PPID,PROC_TOP1_PCOMM,PROC_TOP2_PID,PROC_TOP2_COMM,PROC_TOP2_PPID,PROC_TOP2_PCOMM,PROC_TOP3_PID,PROC_TOP3_COMM,PROC_TOP3_PPID,PROC_TOP3_PCOMM -o json \
+| jq -s -r '
+    [["ts","count","max_pid","median_pid","min_pid",
+      "top1_pid","top1_comm","top1_ppid","top1_pcomm",
+      "top2_pid","top2_comm","top2_ppid","top2_pcomm",
+      "top3_pid","top3_comm","top3_ppid","top3_pcomm"]]
+    + [
+        .[] | .ts = ((.__REALTIME_TIMESTAMP | tonumber) / 1000000 | todate)
+            | [.ts, .PROC_COUNT // "", .PROC_MAX_PID // "", .PROC_MEDIAN_PID // "", .PROC_MIN_PID // "",
+               .PROC_TOP1_PID // "", .PROC_TOP1_COMM // "", .PROC_TOP1_PPID // "", .PROC_TOP1_PCOMM // "",
+               .PROC_TOP2_PID // "", .PROC_TOP2_COMM // "", .PROC_TOP2_PPID // "", .PROC_TOP2_PCOMM // "",
+               .PROC_TOP3_PID // "", .PROC_TOP3_COMM // "", .PROC_TOP3_PPID // "", .PROC_TOP3_PCOMM // ""]
+      ]
+    | .[] | @csv'

@@ -9,8 +9,12 @@ TARGETS=$(HOME)/.gitignore $(HOME)/.gitconfig $(HOME)/.bashrc $(HOME)/.hgrc.d \
 	$(HOME)/.local/bin/obsidian \
 	$(HOME)/.local/bin/magit-status \
 	$(HOME)/.local/bin/svcmon \
+	$(HOME)/.local/bin/procmon.sh \
+	$(HOME)/.local/bin/procmon-csv \
 	$(HOME)/.config/autostart/svcmon.desktop \
 	$(HOME)/.config/autostart/svcmon.desktop \
+	$(HOME)/.config/systemd/user/procmon.service \
+	$(HOME)/.config/systemd/user/procmon.timer \
 	$(HOME)/.codex/AGENTS.md \
 	$(HOME)/.config/opencode/opencode.jsonc
 
@@ -46,6 +50,18 @@ $(HOME)/.local/bin/magit-status:
 
 $(HOME)/.local/bin/svcmon:
 	ln -sf $(makeFileDir)bin/svcmon $@
+
+$(HOME)/.local/bin/procmon.sh:
+	ln -sf $(makeFileDir)bin/procmon.sh $@
+
+$(HOME)/.local/bin/procmon-csv:
+	ln -sf $(makeFileDir)bin/procmon-csv $@
+
+$(HOME)/.config/systemd/user/procmon.service:
+	ln -sf $(makeFileDir)systemd/user/procmon.service $@
+
+$(HOME)/.config/systemd/user/procmon.timer:
+	ln -sf $(makeFileDir)systemd/user/procmon.timer $@
 
 $(HOME)/.config/autostart/svcmon.desktop:
 	ln -s $(makeFileDir)autostart/svcmon.desktop $@
