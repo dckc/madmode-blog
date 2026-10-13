@@ -4,8 +4,6 @@ local.properties
 .idea/
 *.iml
 .kotlin/
-sms-dump.txt
-sms-dump.txt.predictions.json
-sms-mms.txt
-msgs.json
+device/
 eval/
+__pycache__/

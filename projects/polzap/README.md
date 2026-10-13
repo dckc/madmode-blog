@@ -58,16 +58,24 @@ This is a quick hack. If it breaks, you get to keep both pieces.
 ## Query the database
 
 The index is a SQLite database in the app's private storage. Pull it to your
-computer and query it there. Room keeps recent writes in a write-ahead log, so
-grab the `.db` **and** its `-wal`/`-shm` sidecars together, or you'll see an
-empty database:
+computer and query it there:
 
 ```sh
-cd /tmp
-for f in polzap_index.db polzap_index.db-wal polzap_index.db-shm; do
-  adb shell run-as madmode.polzap.smsfilter cat databases/$f > /tmp/$f
-done
-sqlite3 /tmp/polzap_index.db "SELECT * FROM indexed_political_messages;"
+make dl-db
+```
+
+This copies the database into `device/` and prints a summary: message count,
+distinct senders, and earliest and latest dates. It fails loudly if the phone
+isn't connected and authorized. For counts per month:
+
+```sh
+make db-monthly
+```
+
+To run your own queries:
+
+```sh
+sqlite3 device/polzap_index.db "SELECT * FROM indexed_political_messages;"
 ```
 
 Columns: `id`, `sender_identity`, `message_payload`, `intercept_timestamp`
