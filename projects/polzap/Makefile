@@ -60,3 +60,8 @@ dl-db:
 .PHONY: db-monthly
 db-monthly: dl-db
 	sqlite3 -header -column $(DEVICE)/polzap_index.db "SELECT strftime('%Y-%m', intercept_timestamp/1000, 'unixepoch', 'localtime') AS month, count(*) AS messages FROM indexed_political_messages GROUP BY month ORDER BY month;"
+
+## Export flagged texts since Aug 1 (SMS dump + polzap index) as CSV
+outreach/flagged-texts.csv: eval/msgs.json dl-db
+	mkdir -p outreach
+	cd scripts && python3 export_flagged.py ../eval/msgs.json ../$(DEVICE)/polzap_index.db > ../$@.tmp && mv ../$@.tmp ../$@
