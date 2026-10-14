@@ -3,4 +3,4 @@ Description=Snapshot process census
 
 [Service]
 Type=oneshot
-ExecStart=%h/.local/bin/procmon.sh
+ExecStart=%h/.local/bin/procmon.py

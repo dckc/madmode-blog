@@ -9,7 +9,7 @@ TARGETS=$(HOME)/.gitignore $(HOME)/.gitconfig $(HOME)/.bashrc $(HOME)/.hgrc.d \
 	$(HOME)/.local/bin/obsidian \
 	$(HOME)/.local/bin/magit-status \
 	$(HOME)/.local/bin/svcmon \
-	$(HOME)/.local/bin/procmon.sh \
+	$(HOME)/.local/bin/procmon.py \
 	$(HOME)/.local/bin/procmon-csv \
 	$(HOME)/.config/autostart/svcmon.desktop \
 	$(HOME)/.config/autostart/svcmon.desktop \
@@ -51,8 +51,8 @@ $(HOME)/.local/bin/magit-status:
 $(HOME)/.local/bin/svcmon:
 	ln -sf $(makeFileDir)bin/svcmon $@
 
-$(HOME)/.local/bin/procmon.sh:
-	ln -sf $(makeFileDir)bin/procmon.sh $@
+$(HOME)/.local/bin/procmon.py:
+	ln -sf $(makeFileDir)bin/procmon.py $@
 
 $(HOME)/.local/bin/procmon-csv:
 	ln -sf $(makeFileDir)bin/procmon-csv $@
