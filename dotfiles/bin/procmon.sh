@@ -30,7 +30,20 @@ proc_ppid() {
 }
 
 mapfile -t pids < <(ls /proc | grep -E '^[0-9]+$' | sort -n)
+
+# Drop this script and PIDs that exited since the listing (our own
+# ls/grep/sort), which otherwise fill the TOP slots with '?'.
+live=()
+for pid in "${pids[@]}"; do
+    [[ $pid != "$$" && -d /proc/$pid ]] && live+=("$pid")
+done
+pids=("${live[@]}")
 count=${#pids[@]}
+
+# Ten most common command names, e.g. "49 brave,37 code,...".
+# A process leak shows up as one name's count climbing.
+top_comms=$(cat /proc/[0-9]*/comm 2>/dev/null | sort | uniq -c | sort -rn | head -10 |
+    awk '{ n = $1; sub(/^ *[0-9]+ /, ""); printf "%s%s %s", (NR > 1 ? "," : ""), n, $0 }')
 
 if [[ $count -eq 0 ]]; then
   max=0
@@ -55,6 +68,7 @@ fields=(
   "PROC_MIN_PID=${min}"
   "PROC_MAX_PID=${max}"
   "PROC_MEDIAN_PID=${median}"
+  "PROC_TOP_COMMS=${top_comms}"
 )
 
 # Top 3 newest (highest-numbered) processes, with their parent.
