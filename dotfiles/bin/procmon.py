@@ -11,6 +11,11 @@ Runs as one process: it reads /proc and writes to journald's socket
 itself. The shell version started ~30 helpers (ls, sort, tr, logger, ...)
 every 30s, adding to the churn it was measuring.
 
+PROC_FORKS (processes created since boot, from /proc/stat) is the
+churn measure: it only goes up, so the rate between any two snapshots is
+exact however far apart they are. PROC_MAX_PID stops meaning "newest"
+once PIDs wrap at pid_max.
+
 Export with procmon-csv.
 """
 
@@ -48,20 +53,34 @@ def top_comms(comms, n=TOP_COMMS):
     return ",".join(f"{count} {name}" for name, count in counts[:n])
 
 
-def census_fields(pids, comms, ppids):
+def parse_forks(stat_text):
+    """Processes created since boot, from /proc/stat.
+
+    >>> parse_forks("cpu  1 2 3\\nprocesses 4158211\\nprocs_running 2\\n"), parse_forks("")
+    (4158211, 0)
+    """
+    for line in stat_text.splitlines():
+        if line.startswith("processes "):
+            return int(line.split()[1])
+    return 0
+
+
+def census_fields(pids, comms, ppids, forks):
     """Journal fields for one snapshot.
 
     pids: sorted live PIDs; comms: pid -> command name;
-    ppids: pid -> parent PID for (at least) the newest PIDs.
+    ppids: pid -> parent PID for (at least) the newest PIDs;
+    forks: processes created since boot.
 
-    >>> fields = dict(census_fields([1, 50, 90], {1: "init", 50: "bash", 90: "git"}, {90: 50}))
-    >>> fields["PROC_TOP1_COMM"], fields["PROC_TOP1_PCOMM"], fields["PROC_TOP2_PCOMM"]
-    ('git', 'bash', '?')
+    >>> fields = dict(census_fields([1, 50, 90], {1: "init", 50: "bash", 90: "git"}, {90: 50}, 1234))
+    >>> fields["PROC_TOP1_COMM"], fields["PROC_TOP1_PCOMM"], fields["PROC_TOP2_PCOMM"], fields["PROC_FORKS"]
+    ('git', 'bash', '?', 1234)
     """
     fields = [
         ("MESSAGE", "process census snapshot"),
         ("SYSLOG_IDENTIFIER", "procmon"),
         ("PROC_COUNT", len(pids)),
+        ("PROC_FORKS", forks),
         ("PROC_MIN_PID", pids[0] if pids else 0),
         ("PROC_MAX_PID", pids[-1] if pids else 0),
         ("PROC_MEDIAN_PID", median(pids)),
@@ -142,7 +161,8 @@ def main(proc, socket, self_pid):
     comms = read_comms(proc, exclude=self_pid)
     pids = sorted(comms)
     ppids = {pid: read_ppid(proc / str(pid)) for pid in pids[-TOP_NEWEST:]}
-    journal_send(census_fields(pids, comms, ppids))
+    forks = parse_forks((proc / "stat").read_text())
+    journal_send(census_fields(pids, comms, ppids, forks))
     return 0
 
 
