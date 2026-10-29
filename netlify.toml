@@ -4,3 +4,6 @@
   command = "pipenv run python ./site build && pipenv run python -m pagefind --site build"
   publish = "build"
 
+[build.environment]
+  PIPENV_VERBOSITY = "-1"
+

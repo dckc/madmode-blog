@@ -1,7 +1,7 @@
 # See CONTRIBUING.md for context, instructions.
 
 [requires]
-python_version = "3.10"
+python_version = "3.13"
 
 [[source]]
 name = "pypi"
