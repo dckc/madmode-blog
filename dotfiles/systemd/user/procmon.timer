@@ -1,9 +1,9 @@
 [Unit]
-Description=Snapshot process census every 30s
+Description=Snapshot process census every 15min
 
 [Timer]
 OnBootSec=30
-OnUnitActiveSec=30s
+OnUnitActiveSec=15min
 AccuracySec=1s
 
 [Install]
