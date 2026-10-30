@@ -37,6 +37,7 @@
         </figure>
         {%- endif %}
         {{ page.html|safe }}
+        {% if page.meta.bib %}{% include "_bib.html" %}{% endif %}
     </section>
     <aside>
         <p>

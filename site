@@ -8,6 +8,7 @@ from glob import glob
 from itertools import groupby
 from unicodedata import normalize
 import codecs
+import json
 import locale
 import os
 import re
@@ -25,6 +26,7 @@ from PIL import Image, ImageOps
 from werkzeug.routing import BaseConverter
 
 from meta_compat import MetaCompat
+from tools.csl_bib import bib_entries
 
 # Configuration
 DEBUG = False
@@ -175,6 +177,14 @@ def to_rfc2822(dt):
 @app.context_processor
 def inject_ga():
     return dict(BASE_URL=BASE_URL)
+
+
+@app.template_global('bib_entries')
+def page_bib_entries(page):
+    """Sources for a page, from the CSL-JSON file named by its bib: metadata."""
+    path = os.path.join(FLATPAGES_ROOT, os.path.dirname(page.path), page.meta['bib'])
+    with codecs.open(path, encoding='utf-8') as f:
+        return bib_entries(json.load(f))
 
 
 ###############################################################################

@@ -1,0 +1,15 @@
+{#- xhlt91 bibliography conventions: https://www.w3.org/2004/04/xhlt91/ -#}
+{%- set entries = bib_entries(page) %}
+<details class="bib">
+<summary>{{ entries|length }} works, newest first</summary>
+<dl class="bib">
+{%- for e in entries %}
+<dt class="{{ e.bibtype }}" id="{{ e.key }}">[{{ e.key }}]</dt>
+<dd><span class="year">{{ e.year }}</span>{{ e.date_rest }}{{ ": " }}
+{%- for p in e.parts %}{{ p.before }}
+{%- if p.cls == "cite" %}<cite>{% if p.href %}<a href="{{ p.href }}">{{ p.text }}</a>{% else %}{{ p.text }}{% endif %}</cite>
+{%- else %}<span class="{{ p.cls }}">{{ p.text }}</span>{% endif %}{{ p.after }}
+{%- endfor %}{{ e.end }}</dd>
+{%- endfor %}
+</dl>
+</details>
