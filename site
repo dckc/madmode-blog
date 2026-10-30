@@ -35,7 +35,7 @@ ASSETS_DEBUG = DEBUG
 FLATPAGES_AUTO_RELOAD = True
 FLATPAGES_EXTENSION = '.md'
 FLATPAGES_ROOT = 'pages'
-FLATPAGES_MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code']
+FLATPAGES_MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.tables']
 
 # App configuration
 FEED_MAX_LINKS = 25
