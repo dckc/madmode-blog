@@ -1,0 +1,1685 @@
+[
+  {
+    "id": "wmf-openai",
+    "type": "post-weblog",
+    "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+    "author": [
+      {
+        "given": "Selena",
+        "family": "Deckelmann"
+      }
+    ],
+    "container-title": "Diff",
+    "publisher": "Wikimedia Foundation",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ]
+    },
+    "URL": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/"
+  },
+  {
+    "id": "coop-home",
+    "type": "webpage",
+    "title": "Inference Cooperative: AI, governed together",
+    "author": [
+      {
+        "literal": "Inference Cooperative"
+      }
+    ],
+    "URL": "https://inference.coop",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          29
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "coop-models",
+    "type": "webpage",
+    "title": "Models",
+    "author": [
+      {
+        "literal": "Inference Cooperative"
+      }
+    ],
+    "URL": "https://git.inference.coop/co-op/docs/src/branch/main/models.md",
+    "note": "TODO: exact public URL",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "nyt-wiki",
+    "type": "entry-encyclopedia",
+    "title": "The New York Times v. Microsoft and OpenAI",
+    "container-title": "Wikipedia",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          18
+        ]
+      ]
+    },
+    "URL": "https://en.wikipedia.org/w/index.php?title=The_New_York_Times_v._Microsoft_and_OpenAI&oldid=1375498373"
+  },
+  {
+    "id": "chisnall",
+    "type": "post",
+    "title": "Post on Infosec Exchange",
+    "author": [
+      {
+        "given": "David",
+        "family": "Chisnall"
+      }
+    ],
+    "container-title": "Infosec Exchange",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          18
+        ]
+      ]
+    },
+    "URL": "https://infosec.exchange/@david_chisnall/117290835262126012"
+  },
+  {
+    "id": "koebler",
+    "type": "article-magazine",
+    "title": "'Doom Loop': OpenAI and Microsoft Admits LLMs Are Destroying the Web and Built on Theft",
+    "author": [
+      {
+        "given": "Jason",
+        "family": "Koebler"
+      }
+    ],
+    "container-title": "404 Media",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          17
+        ]
+      ]
+    },
+    "URL": "https://www.404media.co/doom-loop-openai-and-microsoft-admits-llms-are-destroying-the-web-and-built-on-theft/"
+  },
+  {
+    "id": "deepseek-v41",
+    "type": "report",
+    "title": "DeepSeek-V4.1 Technical Report",
+    "author": [
+      {
+        "literal": "DeepSeek-AI"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "URL": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf"
+  },
+  {
+    "id": "schneider-reply",
+    "type": "post",
+    "title": "Reply on social.coop",
+    "author": [
+      {
+        "given": "Nathan",
+        "family": "Schneider"
+      }
+    ],
+    "container-title": "social.coop",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          15
+        ]
+      ]
+    },
+    "URL": "https://social.coop/@ntnsndr/116756181172623122"
+  },
+  {
+    "id": "schneider-proposal",
+    "type": "post-weblog",
+    "title": "An inference cooperative for academic AI",
+    "author": [
+      {
+        "given": "Nathan",
+        "family": "Schneider"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "URL": "https://nathanschneider.info/2026/06/an-inference-cooperative-for-academic-ai/"
+  },
+  {
+    "id": "ropesgray",
+    "type": "webpage",
+    "title": "Web Scraping in the Age of AI: Guidance for Data Owners and Scrapers",
+    "author": [
+      {
+        "literal": "Ropes & Gray"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "URL": "https://www.ropesgray.com/en/insights/alerts/2026/05/web-scraping-in-the-age-of-ai-guidance-for-data-owners-and-scrapers"
+  },
+  {
+    "id": "warman",
+    "type": "post-weblog",
+    "title": "The Moat or the Commons",
+    "container-title": "Warman Notes",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          27
+        ]
+      ]
+    },
+    "URL": "https://www.warman.life/blog/2026-04-27-the-moat-or-the-commons/"
+  },
+  {
+    "id": "managingip",
+    "type": "article-magazine",
+    "title": "The Article III Standing Problem for AI-Scraping Anti-Circumvention Claims",
+    "container-title": "Managing IP",
+    "note": "TODO: author, date",
+    "URL": "https://www.managingip.com/article/2ga02si5c24xaq46ren7k/copyright/the-article-iii-standing-problem-for-ai-scraping-anti-circumvention-claims",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          27
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Vandevelde",
+        "given": "Eric"
+      },
+      {
+        "family": "Samplin",
+        "given": "Ilissa"
+      },
+      {
+        "family": "Leopold",
+        "given": "Josh"
+      }
+    ]
+  },
+  {
+    "id": "glm5",
+    "type": "article",
+    "title": "GLM-5: from Vibe Coding to Agentic Engineering",
+    "author": [
+      {
+        "literal": "GLM-5 Team"
+      }
+    ],
+    "number": "arXiv:2602.15763",
+    "publisher": "arXiv",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/2602.15763"
+  },
+  {
+    "id": "mnot-open-web",
+    "type": "post-weblog",
+    "title": "Some Thoughts on the Open Web",
+    "author": [
+      {
+        "family": "Nottingham",
+        "given": "Mark"
+      }
+    ],
+    "container-title": "mnot's blog",
+    "URL": "https://www.mnot.net/blog/2026/open_web",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "id": "fkks",
+    "type": "post-weblog",
+    "title": "Is Your Site's Robots.txt Giving Content to AI Models for Free?",
+    "container-title": "Technology Law (Frankfurt Kurnit Klein & Selz)",
+    "note": "TODO: author, date",
+    "URL": "https://technologylaw.fkks.com/post/102lz1g/is-your-sites-robots-txt-giving-content-to-ai-models-for-free",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          23
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Devlin",
+        "given": "Peter"
+      }
+    ]
+  },
+  {
+    "id": "atkinson",
+    "type": "article",
+    "title": "Revitalizing Trespass to Chattels in the Era of GenAI Scraping",
+    "author": [
+      {
+        "given": "David",
+        "family": "Atkinson"
+      }
+    ],
+    "number": "arXiv:2510.16049",
+    "publisher": "arXiv",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/2510.16049",
+    "note": "TODO: confirm author and date"
+  },
+  {
+    "id": "bartz",
+    "type": "webpage",
+    "title": "Anthropic",
+    "container-title": "Wikipedia",
+    "URL": "https://en.wikipedia.org/wiki/Anthropic",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "note": "placeholder for Bartz v. Anthropic settlement"
+  },
+  {
+    "id": "apertus",
+    "type": "article",
+    "title": "Apertus: Democratizing Open and Compliant LLMs for Global Language Environments",
+    "author": [
+      {
+        "literal": "Swiss AI Initiative"
+      }
+    ],
+    "number": "arXiv:2509.14233",
+    "publisher": "arXiv",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/2509.14233"
+  },
+  {
+    "id": "cf-ratio",
+    "type": "post-weblog",
+    "title": "The crawl-to-click gap: Cloudflare data on AI bots, training, and referrals",
+    "author": [
+      {
+        "literal": "Cloudflare"
+      }
+    ],
+    "container-title": "Cloudflare Blog",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          29
+        ]
+      ]
+    },
+    "URL": "https://blog.cloudflare.com/crawlers-click-ai-bots-training/"
+  },
+  {
+    "id": "cf-perplexity",
+    "type": "post-weblog",
+    "title": "Perplexity is using stealth, undeclared crawlers to evade website no-crawl directives",
+    "author": [
+      {
+        "literal": "Cloudflare"
+      }
+    ],
+    "container-title": "Cloudflare Blog",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          4
+        ]
+      ]
+    },
+    "URL": "https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/"
+  },
+  {
+    "id": "gpt-oss",
+    "type": "article",
+    "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+    "author": [
+      {
+        "literal": "OpenAI"
+      }
+    ],
+    "number": "arXiv:2508.10925",
+    "publisher": "arXiv",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/2508.10925"
+  },
+  {
+    "id": "qwen3",
+    "type": "article",
+    "title": "Qwen3 Technical Report",
+    "author": [
+      {
+        "literal": "Qwen Team"
+      }
+    ],
+    "number": "arXiv:2505.09388",
+    "publisher": "arXiv",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/2505.09388"
+  },
+  {
+    "id": "wmf",
+    "type": "post-weblog",
+    "title": "How crawlers impact the operations of the Wikimedia projects",
+    "author": [
+      {
+        "literal": "Wikimedia Foundation"
+      }
+    ],
+    "container-title": "Diff",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          1
+        ]
+      ]
+    },
+    "URL": "https://diff.wikimedia.org/2025/04/01/how-crawlers-impact-the-operations-of-the-wikimedia-projects/"
+  },
+  {
+    "id": "anubis",
+    "type": "software",
+    "title": "Anubis v1.15.0",
+    "author": [
+      {
+        "literal": "Techaro"
+      }
+    ],
+    "URL": "https://github.com/TecharoHQ/anubis/releases/tag/v1.15.0",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          27
+        ]
+      ]
+    }
+  },
+  {
+    "id": "devault",
+    "type": "post-weblog",
+    "title": "Please stop externalizing your costs directly into my face",
+    "author": [
+      {
+        "given": "Drew",
+        "family": "DeVault"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          17
+        ]
+      ]
+    },
+    "URL": "https://drewdevault.com/blog/Stop-externalizing-your-costs-on-me/"
+  },
+  {
+    "id": "ars-oss",
+    "type": "article-magazine",
+    "title": "Open source devs say AI crawlers dominate traffic, forcing blocks on entire countries",
+    "container-title": "Ars Technica",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "URL": "https://arstechnica.com/ai/2025/03/devs-say-ai-crawlers-dominate-traffic-forcing-blocks-on-entire-countries/",
+    "note": "TODO: author, day"
+  },
+  {
+    "id": "lwn",
+    "type": "article-magazine",
+    "title": "Fighting the AI scraperbot scourge",
+    "author": [
+      {
+        "given": "Jonathan",
+        "family": "Corbet"
+      }
+    ],
+    "container-title": "LWN.net",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          14
+        ]
+      ]
+    },
+    "URL": "https://lwn.net/Articles/1008897/"
+  },
+  {
+    "id": "xe-anubis",
+    "type": "post-weblog",
+    "title": "Block AI scrapers with Anubis",
+    "author": [
+      {
+        "given": "Xe",
+        "family": "Iaso"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          19
+        ]
+      ]
+    },
+    "URL": "https://xeiaso.net/blog/2025/anubis/"
+  },
+  {
+    "id": "xe-amazon",
+    "type": "post-weblog",
+    "title": "Amazon's AI crawler is making my git server unstable",
+    "author": [
+      {
+        "given": "Xe",
+        "family": "Iaso"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          17
+        ]
+      ]
+    },
+    "URL": "https://xeiaso.net/notes/2025/amazon-crawler/"
+  },
+  {
+    "id": "aipref",
+    "type": "webpage",
+    "title": "AI Preferences (aipref) Working Group",
+    "publisher": "IETF",
+    "URL": "https://datatracker.ietf.org/wg/aipref/about/",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rtd",
+    "type": "post-weblog",
+    "title": "AI crawlers need to be more respectful",
+    "author": [
+      {
+        "given": "Eric",
+        "family": "Holscher"
+      }
+    ],
+    "container-title": "Read the Docs blog",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          25
+        ]
+      ]
+    },
+    "URL": "https://about.readthedocs.com/blog/2024/07/ai-crawlers-abuse/"
+  },
+  {
+    "id": "ifixit",
+    "type": "article-magazine",
+    "title": "iFixit CEO takes shots at Anthropic for 'hitting our servers a million times in 24 hours'",
+    "container-title": "PC Gamer",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "URL": "https://pcgamer.com/software/ai/ifixit-ceo-takes-shots-at-anthropic-for-hitting-our-servers-a-million-times-in-24-hours-and-even-the-ai-companys-own-chatbot-disapproves",
+    "note": "TODO: secondary source; author, day"
+  },
+  {
+    "id": "consent-crisis",
+    "type": "article",
+    "title": "Consent in Crisis: The Rapid Decline of the AI Data Commons",
+    "author": [
+      {
+        "given": "Shayne",
+        "family": "Longpre"
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "number": "arXiv:2407.14933",
+    "publisher": "arXiv",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/2407.14933"
+  },
+  {
+    "id": "mnot-ai-optout",
+    "type": "post-weblog",
+    "title": "Considerations for AI Opt-Out",
+    "author": [
+      {
+        "family": "Nottingham",
+        "given": "Mark"
+      }
+    ],
+    "container-title": "mnot's blog",
+    "URL": "https://www.mnot.net/blog/2024/ai-control",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          21
+        ]
+      ]
+    }
+  },
+  {
+    "id": "brightdata",
+    "type": "legal_case",
+    "title": "Meta Platforms, Inc. v. Bright Data Ltd.",
+    "URL": "https://cdn.ca9.uscourts.gov/datastore/opinions/2023/04/18/20-16387.pdf",
+    "note": "TODO: citation unconfirmed (court, year)",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          23
+        ]
+      ]
+    }
+  },
+  {
+    "id": "great-scrape",
+    "type": "article-journal",
+    "title": "The Great Scrape: The Clash Between Scraping and Privacy",
+    "author": [
+      {
+        "given": "Daniel J.",
+        "family": "Solove"
+      },
+      {
+        "given": "Woodrow",
+        "family": "Hartzog"
+      }
+    ],
+    "note": "TODO: venue and year",
+    "URL": "https://scholarship.law.bu.edu/cgi/viewcontent.cgi?article=4885&context=faculty_scholarship",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.2139/ssrn.4884485"
+  },
+  {
+    "id": "nyt-docket",
+    "type": "legal_case",
+    "title": "The New York Times Co. v. Microsoft Corp.",
+    "authority": "S.D.N.Y.",
+    "number": "1:23-cv-11195-SHS",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "URL": "https://www.courtlistener.com/docket/68117049/the-new-york-times-company-v-microsoft-corporation/"
+  },
+  {
+    "id": "whisper",
+    "type": "article",
+    "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "author": [
+      {
+        "given": "Alec",
+        "family": "Radford"
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "number": "arXiv:2212.04356",
+    "publisher": "arXiv",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          12
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/2212.04356"
+  },
+  {
+    "id": "rfc9309",
+    "type": "report",
+    "title": "Robots Exclusion Protocol",
+    "author": [
+      {
+        "given": "M.",
+        "family": "Koster"
+      },
+      {
+        "given": "G.",
+        "family": "Illyes"
+      },
+      {
+        "given": "H.",
+        "family": "Zeller"
+      },
+      {
+        "given": "L.",
+        "family": "Sassman"
+      }
+    ],
+    "publisher": "IETF",
+    "collection-title": "Request for Comments",
+    "number": "9309",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          9
+        ]
+      ]
+    },
+    "URL": "https://www.rfc-editor.org/rfc/rfc9309"
+  },
+  {
+    "id": "ostp-2022",
+    "type": "report",
+    "title": "Ensuring Free, Immediate, and Equitable Access to Federally Funded Research",
+    "author": [
+      {
+        "family": "Nelson",
+        "given": "Alondra"
+      }
+    ],
+    "publisher": "White House Office of Science and Technology Policy",
+    "URL": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          25
+        ]
+      ]
+    }
+  },
+  {
+    "id": "doj-cfaa",
+    "type": "webpage",
+    "title": "Department of Justice Announces New Policy for Charging Cases under the Computer Fraud and Abuse Act",
+    "author": [
+      {
+        "literal": "U.S. Department of Justice"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          5
+        ]
+      ]
+    },
+    "URL": "https://www.justice.gov/archives/opa/pr/department-justice-announces-new-policy-charging-cases-under-computer-fraud-and-abuse-act"
+  },
+  {
+    "id": "hiq",
+    "type": "legal_case",
+    "title": "hiQ Labs, Inc. v. LinkedIn Corp.",
+    "authority": "9th Cir.",
+    "container-title": "F.4th",
+    "volume": "31",
+    "page": "1180",
+    "number": "17-16783",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          18
+        ]
+      ]
+    },
+    "URL": "https://www.courtlistener.com/opinion/6460342/hiq-labs-inc-v-linkedin-corporation/"
+  },
+  {
+    "id": "vanburen",
+    "type": "legal_case",
+    "title": "Van Buren v. United States",
+    "authority": "Supreme Court of the United States",
+    "container-title": "U.S.",
+    "volume": "593",
+    "page": "374",
+    "number": "19-783",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          3
+        ]
+      ]
+    },
+    "URL": "https://www.courtlistener.com/opinion/4888668/van-buren-v-united-states/"
+  },
+  {
+    "id": "georgia-pro",
+    "type": "legal_case",
+    "title": "Georgia v. Public.Resource.Org, Inc.",
+    "authority": "Supreme Court of the United States",
+    "container-title": "U.S.",
+    "volume": "590",
+    "page": "255",
+    "number": "18-1150",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          27
+        ]
+      ]
+    },
+    "URL": "https://www.law.cornell.edu/supremecourt/text/18-1150"
+  },
+  {
+    "id": "jstor-covid",
+    "type": "post-weblog",
+    "title": "Expanded access to JSTOR during COVID-19 crisis",
+    "author": [
+      {
+        "family": "Garcia",
+        "given": "Giovanni"
+      }
+    ],
+    "container-title": "About JSTOR",
+    "URL": "https://about.jstor.org/news/expanded-access-to-jstor-during-covid-19-crisis",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          15
+        ]
+      ]
+    }
+  },
+  {
+    "id": "cohen",
+    "type": "book",
+    "title": "Between Truth and Power: The Legal Constructions of Informational Capitalism",
+    "author": [
+      {
+        "given": "Julie E.",
+        "family": "Cohen"
+      }
+    ],
+    "publisher": "Oxford University Press",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    }
+  },
+  {
+    "id": "khan",
+    "type": "article-journal",
+    "title": "Amazon's Antitrust Paradox",
+    "author": [
+      {
+        "given": "Lina M.",
+        "family": "Khan"
+      }
+    ],
+    "container-title": "Yale Law Journal",
+    "volume": "126",
+    "page": "710",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    }
+  },
+  {
+    "id": "pasquale",
+    "type": "book",
+    "title": "The Black Box Society",
+    "author": [
+      {
+        "given": "Frank",
+        "family": "Pasquale"
+      }
+    ],
+    "publisher": "Harvard University Press",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    }
+  },
+  {
+    "id": "abelson",
+    "type": "report",
+    "title": "Report to the President: MIT and the Prosecution of Aaron Swartz",
+    "author": [
+      {
+        "family": "Abelson",
+        "given": "Harold"
+      },
+      {
+        "family": "Diamond",
+        "given": "Peter A."
+      },
+      {
+        "family": "Grosso",
+        "given": "Andrew"
+      },
+      {
+        "family": "Pfeiffer",
+        "given": "Douglas W."
+      }
+    ],
+    "publisher": "MIT",
+    "URL": "https://swartz-report.mit.edu/",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          7,
+          26
+        ]
+      ]
+    }
+  },
+  {
+    "id": "lofgren-wyden",
+    "type": "article-magazine",
+    "title": "Introducing Aaron's Law, a Desperately Needed Reform of the Computer Fraud and Abuse Act",
+    "author": [
+      {
+        "family": "Lofgren",
+        "given": "Zoe"
+      },
+      {
+        "family": "Wyden",
+        "given": "Ron"
+      }
+    ],
+    "container-title": "Wired",
+    "URL": "https://www.wired.com/2013/06/aarons-law-is-finally-here/",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          6,
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "id": "aarons-law",
+    "type": "bill",
+    "title": "Aaron's Law Act of 2013",
+    "number": "H.R. 2454",
+    "note": "S. 1196; reintroduced 2015 as H.R. 1918 / S. 1030",
+    "URL": "https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#Aaron's_Law",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "id": "jardines",
+    "type": "legal_case",
+    "title": "Florida v. Jardines",
+    "authority": "Supreme Court of the United States",
+    "container-title": "U.S.",
+    "volume": "569",
+    "page": "1",
+    "number": "11-564",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          3,
+          26
+        ]
+      ]
+    },
+    "URL": "https://www.law.cornell.edu/supremecourt/text/11-564"
+  },
+  {
+    "id": "swartz-wiki",
+    "type": "webpage",
+    "title": "United States v. Swartz",
+    "container-title": "Wikipedia",
+    "URL": "https://en.wikipedia.org/wiki/United_States_v._Swartz",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          1,
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "id": "lessig-bully",
+    "type": "post-weblog",
+    "title": "Prosecutor as bully",
+    "author": [
+      {
+        "family": "Lessig",
+        "given": "Lawrence"
+      }
+    ],
+    "container-title": "Lessig Tumblr",
+    "URL": "https://lessig.tumblr.com/post/40347463044/prosecutor-as-bully",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          1,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "wiki-aaron",
+    "type": "webpage",
+    "title": "Aaron Swartz",
+    "container-title": "Wikipedia",
+    "URL": "https://en.wikipedia.org/wiki/Aaron_Swartz",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          1,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "swartz-indictment",
+    "type": "legal_case",
+    "title": "United States v. Swartz, Superseding Indictment",
+    "number": "1:11-cr-10260",
+    "authority": "D. Mass.",
+    "URL": "https://web.archive.org/web/20130608041804/https://www.wired.com/images_blogs/threatlevel/2012/09/swartzsuperseding.pdf",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          9,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rfc6585",
+    "type": "report",
+    "title": "Additional HTTP Status Codes",
+    "author": [
+      {
+        "given": "M.",
+        "family": "Nottingham"
+      },
+      {
+        "given": "R.",
+        "family": "Fielding"
+      }
+    ],
+    "publisher": "IETF",
+    "collection-title": "Request for Comments",
+    "number": "6585",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          4
+        ]
+      ]
+    },
+    "URL": "https://www.rfc-editor.org/rfc/rfc6585"
+  },
+  {
+    "id": "nyt-2011",
+    "type": "article-newspaper",
+    "title": "Open-Access Advocate Is Arrested for Huge Download",
+    "author": [
+      {
+        "family": "Schwartz",
+        "given": "John"
+      }
+    ],
+    "container-title": "New York Times",
+    "URL": "https://www.nytimes.com/2011/07/20/us/20compute.html",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          7,
+          19
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ks-trespass",
+    "type": "legislation",
+    "title": "Criminal trespass",
+    "container-title": "K.S.A.",
+    "section": "21-5808",
+    "URL": "https://www.ksrevisor.gov/statutes/chapters/ch21/021_058_0008.html",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          7,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "citizens-united",
+    "type": "legal_case",
+    "title": "Citizens United v. Federal Election Commission",
+    "authority": "Supreme Court of the United States",
+    "container-title": "U.S.",
+    "volume": "558",
+    "page": "310",
+    "number": "08-205",
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          1,
+          21
+        ]
+      ]
+    },
+    "URL": "https://www.courtlistener.com/opinion/1741/citizens-united-v-federal-election-commission/"
+  },
+  {
+    "id": "guerilla",
+    "type": "manuscript",
+    "title": "Guerilla Open Access Manifesto",
+    "author": [
+      {
+        "family": "Swartz",
+        "given": "Aaron"
+      }
+    ],
+    "URL": "https://archive.org/details/GuerillaOpenAccessManifesto",
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "id": "laurie-clayton",
+    "type": "paper-conference",
+    "title": "'Proof-of-Work' Proves Not to Work",
+    "author": [
+      {
+        "given": "Ben",
+        "family": "Laurie"
+      },
+      {
+        "given": "Richard",
+        "family": "Clayton"
+      }
+    ],
+    "container-title": "Workshop on the Economics of Information Security (WEIS)",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "URL": "https://www.cl.cam.ac.uk/~rnc1/proofwork.pdf"
+  },
+  {
+    "id": "lessig-fc",
+    "type": "book",
+    "title": "Free Culture",
+    "author": [
+      {
+        "given": "Lawrence",
+        "family": "Lessig"
+      }
+    ],
+    "publisher": "Penguin",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "URL": "http://www.free-culture.cc/",
+    "note": "ch. 12, \"Harms\""
+  },
+  {
+    "id": "hamidi",
+    "type": "legal_case",
+    "title": "Intel Corp. v. Hamidi",
+    "authority": "Cal.",
+    "container-title": "Cal. 4th",
+    "volume": "30",
+    "page": "1342",
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "note": "TODO: add link"
+  },
+  {
+    "id": "rdfig-2002",
+    "type": "webpage",
+    "title": "RDF Interest Group IRC log, 2002-06-28",
+    "author": [
+      {
+        "literal": "RDF Interest Group"
+      }
+    ],
+    "URL": "http://web.archive.org/web/20190630005615/http://chatlogs.planetrdf.com/rdfig/2002-06-28.html",
+    "issued": {
+      "date-parts": [
+        [
+          2002,
+          6,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "id": "watchtower",
+    "type": "legal_case",
+    "title": "Watchtower Bible & Tract Society of N.Y., Inc. v. Village of Stratton",
+    "authority": "Supreme Court of the United States",
+    "container-title": "U.S.",
+    "volume": "536",
+    "page": "150",
+    "number": "00-1737",
+    "issued": {
+      "date-parts": [
+        [
+          2002,
+          6,
+          17
+        ]
+      ]
+    },
+    "URL": "https://www.law.cornell.edu/supremecourt/text/00-1737"
+  },
+  {
+    "id": "manasse",
+    "type": "paper-conference",
+    "title": "Why Rights Management is Wrong (and What to Do Instead)",
+    "author": [
+      {
+        "given": "Mark S.",
+        "family": "Manasse"
+      }
+    ],
+    "container-title": "W3C Workshop on Digital Rights Management",
+    "genre": "position paper",
+    "issued": {
+      "date-parts": [
+        [
+          2001,
+          1
+        ]
+      ]
+    },
+    "URL": "https://www.w3.org/2000/12/drm-ws/pp/compaq.html"
+  },
+  {
+    "id": "ebay",
+    "type": "legal_case",
+    "title": "eBay, Inc. v. Bidder's Edge, Inc.",
+    "authority": "N.D. Cal.",
+    "container-title": "F. Supp. 2d",
+    "volume": "100",
+    "page": "1058",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "note": "TODO: add link"
+  },
+  {
+    "id": "wcpptia",
+    "type": "entry-encyclopedia",
+    "title": "WIPO Copyright and Performances and Phonograms Treaties Implementation Act",
+    "container-title": "Wikipedia",
+    "URL": "https://en.wikipedia.org/wiki/WIPO_Copyright_and_Performances_and_Phonograms_Treaties_Implementation_Act",
+    "issued": {
+      "date-parts": [
+        [
+          1998,
+          10,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "id": "usc1201",
+    "type": "legislation",
+    "title": "Circumvention of copyright protection systems",
+    "container-title": "U.S.C.",
+    "volume": "17",
+    "section": "1201",
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "URL": "https://www.law.cornell.edu/uscode/text/17/1201",
+    "note": "criminal penalties at § 1204"
+  },
+  {
+    "id": "wct",
+    "type": "treaty",
+    "title": "WIPO Copyright Treaty",
+    "issued": {
+      "date-parts": [
+        [
+          1996,
+          12,
+          20
+        ]
+      ]
+    },
+    "section": "art. 11",
+    "URL": "https://ipmall.info/sites/default/files/hosted_resources/lipa/copyrights/WIPO%20COPYRIGHT%20TREATY.pdf"
+  },
+  {
+    "id": "koster-norobots",
+    "type": "webpage",
+    "title": "A Standard for Robot Exclusion",
+    "author": [
+      {
+        "given": "Martijn",
+        "family": "Koster"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994,
+          6,
+          30
+        ]
+      ]
+    },
+    "URL": "https://www.robotstxt.org/orig.html",
+    "note": "consensus of the robots mailing list"
+  },
+  {
+    "id": "www94-program",
+    "type": "webpage",
+    "title": "First International Conference on the World-Wide Web: Final Programme",
+    "event-place": "CERN, Geneva",
+    "issued": {
+      "date-parts": [
+        [
+          1994,
+          5
+        ]
+      ]
+    },
+    "URL": "https://archives.iw3c2.org/www1/FinalProgramme.html",
+    "note": "\"Indexing\" session"
+  },
+  {
+    "id": "eichmann",
+    "type": "paper-conference",
+    "title": "The RBSE Spider — Balancing Effective Search Against Web Load",
+    "author": [
+      {
+        "given": "David",
+        "family": "Eichmann"
+      }
+    ],
+    "editor": [
+      {
+        "given": "R.",
+        "family": "Cailliau"
+      },
+      {
+        "given": "O.",
+        "family": "Nierstrasz"
+      },
+      {
+        "given": "M.",
+        "family": "Ruggier"
+      }
+    ],
+    "container-title": "First International World-Wide Web Conference",
+    "event-title": "First International Conference on the World-Wide Web",
+    "event-place": "Geneva, Switzerland",
+    "publisher": "CERN",
+    "publisher-place": "Geneva",
+    "issued": {
+      "date-parts": [
+        [
+          1994,
+          5
+        ]
+      ]
+    },
+    "genre": "advance proceedings",
+    "URL": "https://archives.iw3c2.org/www1/PdfWWW94/spider.pdf",
+    "page": "113-120"
+  },
+  {
+    "id": "koster-aliweb",
+    "type": "paper-conference",
+    "title": "ALIWEB — Archie-Like Indexing in the Web",
+    "author": [
+      {
+        "given": "Martijn",
+        "family": "Koster"
+      }
+    ],
+    "editor": [
+      {
+        "given": "R.",
+        "family": "Cailliau"
+      },
+      {
+        "given": "O.",
+        "family": "Nierstrasz"
+      },
+      {
+        "given": "M.",
+        "family": "Ruggier"
+      }
+    ],
+    "container-title": "First International World-Wide Web Conference",
+    "event-title": "First International Conference on the World-Wide Web",
+    "event-place": "Geneva, Switzerland",
+    "publisher": "CERN",
+    "publisher-place": "Geneva",
+    "issued": {
+      "date-parts": [
+        [
+          1994,
+          5
+        ]
+      ]
+    },
+    "genre": "advance proceedings",
+    "URL": "https://archives.iw3c2.org/www1/PdfWWW94/aliweb.pdf",
+    "page": "91-100"
+  },
+  {
+    "id": "mcbryan",
+    "type": "paper-conference",
+    "title": "GENVL and WWWW: Tools for Taming the Web",
+    "author": [
+      {
+        "given": "Oliver A.",
+        "family": "McBryan"
+      }
+    ],
+    "editor": [
+      {
+        "given": "R.",
+        "family": "Cailliau"
+      },
+      {
+        "given": "O.",
+        "family": "Nierstrasz"
+      },
+      {
+        "given": "M.",
+        "family": "Ruggier"
+      }
+    ],
+    "container-title": "First International World-Wide Web Conference",
+    "event-title": "First International Conference on the World-Wide Web",
+    "event-place": "Geneva, Switzerland",
+    "publisher": "CERN",
+    "publisher-place": "Geneva",
+    "issued": {
+      "date-parts": [
+        [
+          1994,
+          5
+        ]
+      ]
+    },
+    "genre": "advance proceedings",
+    "URL": "https://archives.iw3c2.org/www1/PdfWWW94/mcbryan.pdf",
+    "page": "79-90"
+  },
+  {
+    "id": "koster-guidelines",
+    "type": "webpage",
+    "title": "Guidelines for Robot Writers",
+    "author": [
+      {
+        "given": "Martijn",
+        "family": "Koster"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "URL": "https://www.robotstxt.org/guidelines.html"
+  },
+  {
+    "id": "wiki-land",
+    "type": "webpage",
+    "title": "Trespass to land",
+    "container-title": "Wikipedia",
+    "URL": "https://en.wikipedia.org/wiki/Trespass_to_land",
+    "note": "Restatement (Second) of Torts §158",
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    }
+  },
+  {
+    "id": "wiki-chattels",
+    "type": "webpage",
+    "title": "Trespass to chattels",
+    "container-title": "Wikipedia",
+    "URL": "https://en.wikipedia.org/wiki/Trespass_to_chattels",
+    "note": "Restatement (Second) of Torts §218",
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    }
+  }
+]
