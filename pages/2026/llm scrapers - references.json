@@ -71,6 +71,56 @@
     }
   },
   {
+    "id": "keenable-bot",
+    "type": "webpage",
+    "title": "Keenable crawlers",
+    "author": [
+      {
+        "literal": "Keenable"
+      }
+    ],
+    "URL": "https://app.keenable.ai/bot",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          30
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "law-resource",
+    "type": "webpage",
+    "title": "Law is the operating system of our society. So show me the manual!",
+    "author": [
+      {
+        "given": "Carl",
+        "family": "Malamud"
+      }
+    ],
+    "container-title": "law.resource.org",
+    "publisher": "Public.Resource.Org",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "URL": "https://law.resource.org/"
+  },
+  {
     "id": "nyt-wiki",
     "type": "entry-encyclopedia",
     "title": "The New York Times v. Microsoft and OpenAI",
@@ -610,6 +660,44 @@
     "URL": "https://xeiaso.net/notes/2025/amazon-crawler/"
   },
   {
+    "id": "slashdot-triplegangers",
+    "type": "post-weblog",
+    "title": "OpenAI's Bot Crushes Seven-Person Company's Website 'Like a DDoS Attack'",
+    "container-title": "Slashdot",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          11
+        ]
+      ]
+    },
+    "URL": "https://tech.slashdot.org/story/25/01/11/0449242/openais-bot-crushes-seven-person-companys-website-like-a-ddos-attack"
+  },
+  {
+    "id": "triplegangers",
+    "type": "article-magazine",
+    "title": "How OpenAI's bot crushed this seven-person company's website 'like a DDoS attack'",
+    "author": [
+      {
+        "given": "Julie",
+        "family": "Bort"
+      }
+    ],
+    "container-title": "TechCrunch",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          10
+        ]
+      ]
+    },
+    "URL": "https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/"
+  },
+  {
     "id": "aipref",
     "type": "webpage",
     "title": "AI Preferences (aipref) Working Group",
@@ -624,6 +712,45 @@
         ]
       ]
     }
+  },
+  {
+    "id": "engadget-anthropic",
+    "type": "article-magazine",
+    "title": "Websites accuse AI startup Anthropic of bypassing their anti-scraping rules and protocol",
+    "author": [
+      {
+        "given": "Mariella",
+        "family": "Moon"
+      }
+    ],
+    "container-title": "Engadget",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          27
+        ]
+      ]
+    },
+    "URL": "https://www.engadget.com/websites-accuse-ai-startup-anthropic-of-bypassing-their-anti-scraping-rules-and-protocol-133022756.html"
+  },
+  {
+    "id": "aitopics-anthropic",
+    "type": "webpage",
+    "title": "Websites accuse AI startup Anthropic of bypassing their anti-scraping rules and protocol",
+    "container-title": "AITopics",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          27
+        ]
+      ]
+    },
+    "URL": "https://aitopics.org/doc/news:48208D9C",
+    "note": "aggregates Engadget"
   },
   {
     "id": "rtd",
@@ -687,6 +814,22 @@
       ]
     },
     "URL": "https://arxiv.org/abs/2407.14933"
+  },
+  {
+    "id": "mspoweruser-anthropic",
+    "type": "article-magazine",
+    "title": "Anthropic washes hands over claims that its AI scraper hits iFixit's site a million times daily",
+    "container-title": "MSPoweruser",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "URL": "https://mspoweruser.com/anthropic-washes-hands-over-claims-that-its-ai-scraper-hits-ifixits-site-a-million-times-daily",
+    "note": "TODO: 🙋 403 to the fetcher; author, day"
   },
   {
     "id": "mnot-ai-optout",
@@ -814,9 +957,8 @@
         "family": "Sassman"
       }
     ],
-    "publisher": "IETF",
-    "collection-title": "Request for Comments",
-    "number": "9309",
+    "publisher": "Internet Engineering Task Force",
+    "number": "RFC 9309",
     "issued": {
       "date-parts": [
         [
@@ -825,7 +967,8 @@
         ]
       ]
     },
-    "URL": "https://www.rfc-editor.org/rfc/rfc9309"
+    "URL": "https://www.rfc-editor.org/rfc/rfc9309",
+    "genre": "Request for Comments"
   },
   {
     "id": "ostp-2022",
@@ -1190,9 +1333,8 @@
         "family": "Fielding"
       }
     ],
-    "publisher": "IETF",
-    "collection-title": "Request for Comments",
-    "number": "6585",
+    "publisher": "Internet Engineering Task Force",
+    "number": "RFC 6585",
     "issued": {
       "date-parts": [
         [
@@ -1201,7 +1343,8 @@
         ]
       ]
     },
-    "URL": "https://www.rfc-editor.org/rfc/rfc6585"
+    "URL": "https://www.rfc-editor.org/rfc/rfc6585",
+    "genre": "Request for Comments"
   },
   {
     "id": "nyt-2011",
@@ -1511,7 +1654,7 @@
     "note": "\"Indexing\" session"
   },
   {
-    "id": "eichmann",
+    "id": "Eichmann94",
     "type": "paper-conference",
     "title": "The RBSE Spider — Balancing Effective Search Against Web Load",
     "author": [
@@ -1681,5 +1824,39 @@
         ]
       ]
     }
+  },
+  {
+    "id": "usc504",
+    "type": "legislation",
+    "title": "Remedies for infringement: Damages and profits",
+    "container-title": "U.S.C.",
+    "volume": "17",
+    "section": "504",
+    "issued": {
+      "date-parts": [
+        [
+          1976
+        ]
+      ]
+    },
+    "URL": "https://www.law.cornell.edu/uscode/text/17/504",
+    "note": "statutory damages at § 504(c)"
+  },
+  {
+    "id": "usc45",
+    "type": "legislation",
+    "title": "Unfair methods of competition unlawful; prevention by Commission",
+    "container-title": "U.S.C.",
+    "volume": "15",
+    "section": "45",
+    "issued": {
+      "date-parts": [
+        [
+          1914
+        ]
+      ]
+    },
+    "URL": "https://www.law.cornell.edu/uscode/text/15/45",
+    "note": "FTC Act § 5"
   }
 ]
