@@ -76,7 +76,7 @@ companion: short inference.coop forum post, ahead of 2026-11-06 monthly meeting 
 ## II. The crawling deal, from inside web architecture
 
 1. Indexing was a norm from (nearly) day one: a whole "Indexing" session at the first Web conference (Geneva, May 1994)[^www94-program]
-	1. McBryan, World Wide Web Worm[^mcbryan]; Koster, ALIWEB[^koster-aliweb]; Eichmann, RBSE Spider[^eichmann]
+	1. McBryan, World Wide Web Worm[^mcbryan]; Koster, ALIWEB[^koster-aliweb]; Eichmann, RBSE Spider[^Eichmann94]
 	2. so crawling isn't an intrusion on the web; it's part of what the web was from the start
 		1. the law's name for this: *implied license*. The front path invites visitors to "approach the home by the front path, knock promptly, wait briefly to be received, and then … leave"[^jardines]
 		2. a public URL is the front path; the license has a scope (knock and leave, not a hundred times a day); a sign narrows it → robots.txt (V.D)
@@ -611,7 +611,7 @@ Undecided: material not yet placed in a paragraph above. Once placed or cut, an 
 
 [^www94-program]: First International Conference on the World-Wide Web (WWW94), CERN, Geneva, May 25–27, 1994: final programme, "Indexing" session. [archives.iw3c2.org](https://archives.iw3c2.org/www1/FinalProgramme.html) · [preliminary proceedings](https://archives.iw3c2.org/www1/PrelimProcs.html)
 
-[^eichmann]: David Eichmann, "The RBSE Spider — Balancing Effective Search Against Web Load," in R. Cailliau, O. Nierstrasz, M. Ruggier, eds., *First International World-Wide Web Conference* (advance proceedings), CERN, Geneva, May 25–27, 1994, pp. 113–120. [PDF](https://archives.iw3c2.org/www1/PdfWWW94/spider.pdf)
+[^Eichmann94]: David Eichmann, "The RBSE Spider — Balancing Effective Search Against Web Load," in R. Cailliau, O. Nierstrasz, M. Ruggier, eds., *First International World-Wide Web Conference* (advance proceedings), CERN, Geneva, May 25–27, 1994, pp. 113–120. [PDF](https://archives.iw3c2.org/www1/PdfWWW94/spider.pdf)
 
 [^koster-aliweb]: Martijn Koster, "ALIWEB — Archie-Like Indexing in the Web," in R. Cailliau, O. Nierstrasz, M. Ruggier, eds., *First International World-Wide Web Conference* (advance proceedings), CERN, Geneva, May 25–27, 1994, pp. 91–100. [PDF](https://archives.iw3c2.org/www1/PdfWWW94/aliweb.pdf)
 
