@@ -403,6 +403,9 @@ def serve(server='127.0.0.1', port=5000, debug=DEBUG):
     app.run(host=server, port=port, debug=debug)
 
 
+# TODO: a `check PAGE` command: render one page (unpublished too) with
+# app.test_client(), no server; report status, title, headings, and
+# bib entry count.
 if __name__ == '__main__':
     parser = ArghParser()
     parser.add_commands([build, photo, post, serve, ])
