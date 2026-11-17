@@ -8,7 +8,7 @@ published: true
 
 I'm ready to say goodbye to my copy of [Ubuntu 5.10 for i386](https://archive.org/details/ubuntu-5.10-pc) on CD, after nearly 2 decades of keeping it as a combination keepsake and software supply chain anchor. I donated it to archive.org:
 
-[![Ubuntu 5.10](https://ia804507.us.archive.org/14/items/ubuntu-5.10-pc/__ia_thumb.jpg)](https://archive.org/details/ubuntu-5.10-pc)
+<a href="https://archive.org/details/ubuntu-5.10-pc"><img src="https://dn710208.ca.archive.org/0/items/ubuntu-5.10-pc/IMG_20181205_134522505.jpg" width="800" alt="Ubuntu 5.10" /></a>
 
 While brainstorming about Merkle trees for file access, I noticed that not only does archive.org OCR the PDF I gave them of the cover and support browsing of the contents of [Ubuntu 5.10 i386.iso](https://ia904507.us.archive.org/view_archive.php?archive=/14/items/ubuntu-5.10-pc/Ubuntu%205.10%20i386.iso), but they provide [ubuntu-5.10-pc_archive.torrent](https://archive.org/download/ubuntu-5.10-pc/ubuntu-5.10-pc_archive.torrent), which means I can have high-performance access to the the full contents of the CDs for just 29k of storage. And brave supports `.torrent` files natively with WebTorrent ([WebTorrent Tutorial](https://webtorrent.io/intro) looks pretty straightforward.)
 
