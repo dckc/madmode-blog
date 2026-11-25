@@ -4,18 +4,20 @@
     <meta charset="utf-8" />
     {% block extra_head %}{% endblock %}
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>MadMode: {% block page_title %}Home{% endblock page_title %}</title>
+    {% set _title %}{% block page_title %}Home{% endblock page_title %}{% endset %}
+	<title>MadMode: {{ _title }}</title>
     <meta name="description" content="{{ page.summary|trim if page and page.summary else 'MadMode by Dan Connolly' }}"/>
 	{% set og_image = page.image_url if page and page.image_url
    else 'https://www.madmode.com/static/img/wordle-med.png' %}
+	{% set og_desc = page.summary|trim if page and page.summary else 'MadMode by Dan Connolly' %}
 <meta property="og:site_name" content="MadMode" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="MadMode: {% block page_title %}Home{% endblock page_title %}" />
+<meta property="og:title" content="MadMode: {{ _title }}" />
 <meta property="og:description" content="{{ page.summary|trim if page and page.summary else 'MadMode by Dan Connolly' }}" />
 <meta property="og:url" content="{{ request.url }}" />
 <meta property="og:image" content="{{ og_image }}" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="MadMode: {% block page_title %}Home{% endblock page_title %}" />
+<meta name="twitter:title" content="MadMode: {{ _title }}" />
 <meta name="twitter:description" content="{{ page.summary|trim if page and page.summary else 'MadMode by Dan Connolly' }}" />
 <meta name="twitter:image" content="{{ og_image }}" />
     <meta name="viewport" content="width=device-width"/>
